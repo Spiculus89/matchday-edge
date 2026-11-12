@@ -4,8 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Matchday Edge</title>
-<meta name="description" content="The day's biggest football matches priced from bookmaker odds, form, lineups, injuries, weather and news.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230f7a55'/%3E%3Cpath d='M16 7l6 4-2 7h-8l-2-7z' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -176,24 +174,6 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
   .meta { text-align: left; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
-
-.live-score { font: 700 30px var(--display); color: var(--ink); text-align: center; }
-.wx { display: inline-flex; gap: 6px; align-items: center; }
-.notes { padding: 0 20px 10px; display: flex; flex-wrap: wrap; gap: 6px; }
-.note-err { font-size: 12px; color: var(--warn); background: var(--warn-bg); border-radius: 6px; padding: 4px 8px; }
-.banner { margin-top: 16px; padding: 12px 16px; border-radius: 10px; font-size: 14px; }
-.banner.warn { background: var(--warn-bg); color: var(--warn); }
-.banner.bad { background: var(--bad-bg); color: var(--bad); }
-.setup { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px 24px; margin-top: 24px; max-width: 72ch; }
-.setup h2 { font-size: 26px; text-transform: uppercase; margin-bottom: 8px; }
-.setup ol { padding-left: 20px; } .setup li { margin: 6px 0; }
-.setup code { font: 13px ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--paper); padding: 1px 5px; border-radius: 4px; }
-.news a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
-.news a:hover { border-color: var(--pitch); }
-.refresh { font: 600 13px var(--body); border: 1px solid var(--line); background: var(--card); color: var(--ink); padding: 6px 12px; border-radius: 999px; cursor: pointer; }
-.refresh[disabled] { opacity: .6; cursor: progress; }
-.removed { text-decoration: line-through; color: var(--muted); }
-.skeleton { color: var(--muted); padding: 24px 0; }
 </style>
 </head>
 <body>
@@ -201,36 +181,233 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
   <header class="top">
     <div class="brand">
       <h1>Matchday <span>Edge</span></h1>
-      <p>The day's biggest football matches, priced by a model built on bookmaker odds, team form, lineups, injuries, weather and news.</p>
+      <p>The day's biggest football matches, priced by a model built on bookmaker odds, team form, lineups, referees and news.</p>
     </div>
     <div>
-      <div class="days" id="days" role="group" aria-label="Choose a day"></div>
+      <div class="days" id="days" role="group" aria-label="Choose a matchday"></div>
       <div class="meta" id="meta"></div>
     </div>
   </header>
 
-  <div id="banner"></div>
-  <main id="app"><p class="skeleton">Loading today's matches…</p></main>
+  <main id="app">
+    <p class="meta" style="text-align:left;margin-top:20px">Loading today's matches…</p>
+  </main>
 
   <footer>
     <div>
       <h3>How the picks are made</h3>
-      <p>Bookmaker prices for the result, goal lines and both-teams-to-score are stripped of their margin, then the engine finds the goal rates for each team that best reproduce them. Those rates are blended 75/25 with each side's scoring record in the competition this season, and trimmed a little for heavy rain, strong wind, heat or snow at the venue.</p>
-      <p>A Dixon-Coles score grid turns the two goal rates into every scoreline, and from there into results, handicaps, totals and BTTS. Corners and cards follow the bookmaker's line when one is offered, otherwise team averages. Scorer and assist chances share out each team's expected goals by the players' goals, assists and shots, scaled by how likely each one is to start.</p>
+      <p>Bookmaker prices for the result, goal lines and both-teams-to-score are stripped of their margin, then the engine finds the goal rates for each team that best reproduce them. Those rates are blended 75/25 with a form rating from each side's last 20 games (goals and xG for and against) and this competition's games.</p>
+      <p>A Dixon-Coles score grid turns the two goal rates into every scoreline, and from there into results, handicaps, totals and BTTS. Corners and cards use over-dispersed count models fed by team averages and the referee's record. Scorer and assist chances share out each team's expected goals by recent shots, goals and assists, scaled by how likely the player is to start.</p>
     </div>
     <div>
-      <h3>Where the data comes from</h3>
-      <p>Fixtures, odds, referees, injuries, suspensions, confirmed lineups and top scorers: API-Football. Weather at the venue: Open-Meteo. Team news headlines: Google News.</p>
-      <p>Lineups say <b>Predicted</b> (the team's last starting XI minus injured and suspended players) until the official team sheets arrive, about an hour before kick-off. Then they switch to <b>Confirmed</b> and every number is re-run. The page refreshes itself every five minutes.</p>
+      <h3>Reading the numbers</h3>
+      <p><b>Fair odds</b> are what the model thinks a bet is worth with no bookmaker margin. Only take a price above it.</p>
+      <p><b>Edge</b> compares the model's chance with the odds on offer: Strong (clear edge), Lean (small edge), Fair price (about even) or Thin (the bookmaker's price is short).</p>
+      <p>Lineups say <b>Predicted</b> until the official team sheets are out, about an hour before kick-off. Then they switch to <b>Confirmed</b> and the numbers are re-run.</p>
     </div>
     <div>
       <h3>Before you bet</h3>
       <p>These are probabilities, not certainties. A 60% pick still loses four times in ten, and with odds this close to the market most bets carry no real edge. Never stake more than you can afford to lose. 18+ only.</p>
-      <p><b>Fair odds</b> are what the model thinks a bet is worth. Only take a price above it.</p>
+      <p>Odds are a snapshot from the time shown at the top and move quickly. Check the live price before placing anything.</p>
     </div>
   </footer>
 </div>
+
 <script src="engine.js"></script>
-<script src="app.js"></script>
+<script>
+(function () {
+  "use strict";
+  var E = window.BetEngine;
+  var app = document.getElementById("app");
+  var daysEl = document.getElementById("days");
+  var metaEl = document.getElementById("meta");
+  var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  function pct(p, d) { return p == null ? "–" : (p * 100).toFixed(d == null ? 0 : d) + "%"; }
+  function odd(o) { return o == null ? "–" : (+o).toFixed(2); }
+  function time(iso) { return new Date(iso).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }); }
+  function dateLong(iso) { return new Date(iso + "T12:00:00Z").toLocaleDateString([], { weekday: "long", day: "numeric", month: "long" }); }
+  function stamp(iso) { return new Date(iso).toLocaleString([], { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }); }
+
+  function status(m) {
+    var now = Date.now(), ko = new Date(m.kickoff).getTime();
+    if (m.result) return { label: "Full time " + m.result.home + "-" + m.result.away, cls: "plain" };
+    if (now >= ko + 115 * 60000) return { label: "Finished", cls: "plain" };
+    if (now >= ko) return { label: "Live", cls: "bad" };
+    if (now >= ko - 75 * 60000) return { label: "Lineups due", cls: "warn" };
+    return { label: "Kick-off " + time(m.kickoff), cls: "info" };
+  }
+  function confChip(c) {
+    var map = { "Strong": "good", "Lean": "good", "Fair price": "warn", "Thin": "bad" };
+    return '<span class="chip ' + (map[c] || "plain") + '">' + esc(c) + "</span>";
+  }
+  function evChip(row) {
+    if (row.ev == null) return '<span class="chip plain">Model only</span>';
+    var c = row.ev >= 0.04 && row.p >= 0.5 ? "Strong" : row.ev >= 0.015 ? "Lean" : row.ev >= -0.02 ? "Fair price" : "Thin";
+    return confChip(c);
+  }
+  function pbar(p) { return '<span class="pbar" aria-hidden="true"><i style="width:' + Math.round(p * 100) + '%"></i></span>'; }
+
+  function tile(m, r) {
+    var t = r.picks.top || r.picks.slip[0];
+    var st = status(m);
+    var price = t.odds ? odd(t.odds) : odd(t.fair);
+    return '<a class="tile" href="#' + esc(m.id) + '">' +
+      '<div class="ko"><span>' + esc(m.competition.replace("UEFA ", "")) + '</span><span class="chip ' + st.cls + '">' + esc(st.label) + "</span></div>" +
+      '<div class="teams">' + esc(m.home.name) + " v " + esc(m.away.name) + "</div>" +
+      '<div class="pick">' + esc(t.label || t.pick) + "</div>" +
+      '<div class="row"><span>Model ' + pct(t.p) + (t.odds ? " · bookmaker " + pct(t.implied) : "") + '</span><span class="price num">' + price + "</span></div>" +
+      '<div class="row"><span>' + (t.ev != null ? "Edge " + (t.ev >= 0 ? "+" : "") + (t.ev * 100).toFixed(1) + "%" : "Fair odds") + "</span>" + (t.confidence ? confChip(t.confidence) : "") + "</div>" +
+      "</a>";
+  }
+
+  function slipTable(m, r) {
+    var rows = r.picks.slip.map(function (s) {
+      return "<tr><td class=\"market\">" + esc(s.market) + '</td><td class="pickname">' + esc(s.pick) + (s.push ? ' <span class="market">push ' + pct(s.push) + "</span>" : "") +
+        '</td><td class="r num">' + pbar(s.p) + pct(s.p) + '</td><td class="r num">' + odd(s.odds) + '</td><td class="r num">' + odd(s.fair) + '</td><td class="r">' + evChip(s) + "</td></tr>";
+    }).join("");
+    return '<div class="tablewrap"><table><thead><tr><th>Market</th><th>Pick</th><th class="r">Chance</th><th class="r">Odds</th><th class="r">Fair</th><th class="r">Edge</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+  }
+
+  function topBet(r) {
+    var t = r.picks.top;
+    if (!t) return "";
+    return '<div class="topbet"><div><div class="lab">Best bet</div><div class="what">' + esc(t.label) + '</div></div>' +
+      '<div class="nums num"><div><b>' + odd(t.odds) + "</b>odds</div><div><b>" + pct(t.p) + "</b>model</div><div><b>" + pct(t.implied) + "</b>bookmaker</div><div><b>" + odd(1 / t.p) + "</b>fair</div></div>" + confChip(t.confidence) + "</div>";
+  }
+
+  function scoreGrid(r) {
+    return '<div class="csgrid">' + r.markets.correctScores.slice(0, 8).map(function (c) {
+      return '<div class="cs"><div class="s num">' + esc(c.score) + '</div><div class="p num">' + pct(c.p, 1) + " · " + odd(1 / c.p) + "</div></div>";
+    }).join("") + "</div>";
+  }
+
+  function goalLadder(m, r) {
+    var o = (m.odds && m.odds.ou) || {};
+    var rows = [0.5, 1.5, 2.5, 3.5, 4.5].map(function (L) {
+      var p = r.markets.over[L], b = o[L];
+      return '<tr><td>Over ' + L + '</td><td class="r num">' + pct(p) + '</td><td class="r num">' + odd(1 / p) + '</td><td class="r num">' + (b ? odd(b[0]) : "–") + '</td><td class="r num">' + odd(1 / (1 - p)) + '</td><td class="r num">' + (b ? odd(b[1]) : "–") + "</td></tr>";
+    }).join("");
+    return '<div class="tablewrap ladder"><table><thead><tr><th>Goals</th><th class="r">Over</th><th class="r">Fair</th><th class="r">Book</th><th class="r">Under fair</th><th class="r">Book</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+  }
+
+  function ahLadder(m, r) {
+    var fav = r.markets.home >= r.markets.away ? "home" : "away";
+    var name = m[fav].name;
+    var rows = r.markets.ah.filter(function (a) { var L = fav === "home" ? a.line : -a.line; return L <= 0 && L >= -2.5; })
+      .map(function (a) {
+        var L = fav === "home" ? a.line : -a.line;
+        var p = fav === "home" ? a.homeWin : a.awayWin, f = fav === "home" ? a.homeFair : a.awayFair;
+        return { L: L, p: p, push: a.push, f: f };
+      }).sort(function (x, y) { return y.L - x.L; })
+      .map(function (x) { return '<tr><td>' + esc(name) + " " + (x.L === 0 ? "0" : x.L) + '</td><td class="r num">' + pct(x.p) + '</td><td class="r num">' + (x.push > 0.001 ? pct(x.push) : "–") + '</td><td class="r num">' + odd(x.f) + "</td></tr>"; }).join("");
+    return '<div class="tablewrap ladder"><table><thead><tr><th>Asian handicap</th><th class="r">Win</th><th class="r">Push</th><th class="r">Fair</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+  }
+
+  function lineups(m) {
+    var L = m.lineups || {};
+    var confirmed = L.status === "confirmed";
+    function side(t, key) {
+      var x = L[key] || {};
+      return '<div class="xi"><h4><span>' + esc(t.name) + '</span><span class="chip plain">' + esc(x.formation || "") + "</span></h4>" +
+        "<ol>" + (x.xi || []).map(function (n) { return "<li>" + esc(n) + "</li>"; }).join("") + "</ol>" +
+        (x.bench && x.bench.length ? '<div class="alt">Bench: ' + x.bench.map(esc).join(", ") + "</div>" : "") + "</div>";
+    }
+    var news = (m.news || []).map(function (n) {
+      var tagCls = { out: "bad", doubt: "warn", back: "good", info: "info" }[n.tag] || "plain";
+      var who = n.team === "home" ? m.home.code || m.home.name : n.team === "away" ? m.away.code || m.away.name : "";
+      return '<li><span class="chip ' + tagCls + '">' + esc(n.tag) + "</span><span>" + (who ? "<b>" + esc(who) + "</b> · " : "") + esc(n.text) + ' <span class="src">' + esc(n.src || "") + "</span></span></li>";
+    }).join("");
+    return '<h3>Lineups <small><span class="chip ' + (confirmed ? "good" : "warn") + '"><span class="dot"></span>' + (confirmed ? "Confirmed" : "Predicted") + "</span> " + esc(L.source || "") + "</small></h3>" +
+      '<div class="lineups">' + side(m.home, "home") + side(m.away, "away") + "</div>" +
+      (L.alt ? '<p class="alt">' + esc(L.alt) + "</p>" : "") +
+      (news ? '<ul class="news">' + news + "</ul>" : "");
+  }
+
+  function playerTable(m, r) {
+    var rows = r.players.slice(0, 9).map(function (p) {
+      var t = m[p.team];
+      return '<tr><td><span class="pickname">' + esc(p.name) + '</span> <span class="market">' + esc(t.code || "") + "</span>" + (p.note ? '<br><span class="market" style="text-transform:none">' + esc(p.note) + "</span>" : "") +
+        '</td><td class="r num hide-sm">' + pct(p.start) + '</td><td class="r num">' + pct(p.scorer) + '</td><td class="r num">' + odd(p.scorerFair) + '</td><td class="r num">' + pct(p.assist) + '</td><td class="r num">' + odd(p.assistFair) + "</td></tr>";
+    }).join("");
+    return '<div class="tablewrap"><table><thead><tr><th>Player</th><th class="r hide-sm">Starts</th><th class="r">Scores</th><th class="r">Fair</th><th class="r">Assists</th><th class="r">Fair</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+  }
+
+  function cornersCards(m, r) {
+    var c = r.corners, k = r.cards, ref = m.referee || {};
+    var cRows = [7.5, 8.5, 9.5, 10.5, 11.5].map(function (L) { return "<tr><td>" + L + ' corners</td><td class="r num">' + pct(c.over[L]) + '</td><td class="r num">' + odd(1 / c.over[L]) + '</td><td class="r num">' + odd(1 / (1 - c.over[L])) + "</td></tr>"; }).join("");
+    var kRows = [2.5, 3.5, 4.5, 5.5].map(function (L) { return "<tr><td>" + L + ' cards</td><td class="r num">' + pct(k.over[L]) + '</td><td class="r num">' + odd(1 / k.over[L]) + '</td><td class="r num">' + odd(1 / (1 - k.over[L])) + "</td></tr>"; }).join("");
+    var refLine = ref.games ? esc(ref.name) + " (" + esc(ref.country) + "): " + ref.yellowsPg + " yellows and " + ref.foulsPg + " fouls a game over " + ref.games + " Nations League games." : esc(ref.name || "Referee TBC") + (ref.country ? " (" + esc(ref.country) + ")" : "") + ". " + esc(ref.note || "");
+    return '<div class="kv"><div><span>Corners</span><b class="num">' + c.total.toFixed(1) + '</b><div class="market">' + esc(m.home.code) + " " + c.home.toFixed(1) + " · " + esc(m.away.code) + " " + c.away.toFixed(1) + '</div></div>' +
+      '<div><span><i class="yc"></i>Yellow cards</span><b class="num">' + k.total.toFixed(1) + '</b><div class="market">' + esc(m.home.code) + " " + k.home.toFixed(1) + " · " + esc(m.away.code) + " " + k.away.toFixed(1) + "</div></div>" +
+      '<div><span>Red card</span><b class="num">' + pct(k.redCard) + '</b><div class="market">any player</div></div></div>' +
+      '<div class="tablewrap"><table><thead><tr><th>Line</th><th class="r">Over</th><th class="r">Over fair</th><th class="r">Under fair</th></tr></thead><tbody>' + cRows + kRows + "</tbody></table></div>" +
+      '<p class="refnote"><b>Referee</b> · ' + refLine + "</p>";
+  }
+
+  function props(m) {
+    if (!m.props || !m.props.length) return "";
+    var rows = m.props.map(function (p) { return "<tr><td class=\"pickname\">" + esc(p.player) + "</td><td>" + esc(p.market) + '</td><td class="r num">' + odd(p.odds) + '</td><td class="r num">' + esc(p.hit || "–") + "</td></tr>"; }).join("");
+    return '<h3 style="margin-top:16px">Player props <small>bet365 prices via Statz, hit rate over the last 5</small></h3><div class="tablewrap"><table><thead><tr><th>Player</th><th>Market</th><th class="r">Odds</th><th class="r">Last 5</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+  }
+
+  function matchCard(m, r) {
+    var st = status(m);
+    var mp = r.market ? r.market.probs : null;
+    var mk = r.markets;
+    var b = r.picks.builder;
+    return '<section class="match" id="' + esc(m.id) + '" aria-labelledby="t-' + esc(m.id) + '">' +
+      '<div class="mhead"><span>' + esc(m.competition) + " · " + esc(m.venue) + '</span><span class="chips"><span class="chip ' + st.cls + '"><span class="dot"></span>' + esc(st.label) + '</span><span class="chip ' + (m.lineups && m.lineups.status === "confirmed" ? "good" : "warn") + '">' + (m.lineups && m.lineups.status === "confirmed" ? "Lineups confirmed" : "Lineups predicted") + "</span></span></div>" +
+      '<div class="scoreline"><div class="team"><span class="name" id="t-' + esc(m.id) + '">' + esc(m.home.name) + '</span><span class="xg">Expected goals <b class="num">' + r.xg.home.toFixed(2) + '</b></span></div><span class="vs">' + time(m.kickoff) + '</span><div class="team away"><span class="name">' + esc(m.away.name) + '</span><span class="xg">Expected goals <b class="num">' + r.xg.away.toFixed(2) + "</b></span></div></div>" +
+      '<div class="probbar"><div class="bar num" role="img" aria-label="Model: ' + esc(m.home.name) + " " + pct(mk.home) + ", draw " + pct(mk.draw) + ", " + esc(m.away.name) + " " + pct(mk.away) + '">' +
+      '<div class="h" style="width:' + (mk.home * 100).toFixed(1) + '%">' + pct(mk.home) + '</div><div class="d" style="width:' + (mk.draw * 100).toFixed(1) + '%">' + pct(mk.draw) + '</div><div class="a" style="width:' + (mk.away * 100).toFixed(1) + '%">' + pct(mk.away) + "</div></div>" +
+      '<div class="barlegend num"><span>Model: home · draw · away</span>' + (mp ? "<span>Bookmaker (margin removed): " + pct(mp[0]) + " · " + pct(mp[1]) + " · " + pct(mp[2]) + "</span>" : "") + (m.benchmarks && m.benchmarks.statz ? "<span>Statz model: " + pct(m.benchmarks.statz.h) + " · " + pct(m.benchmarks.statz.d) + " · " + pct(m.benchmarks.statz.a) + "</span>" : "") + "</div></div>" +
+      '<p class="context">' + esc(m.context || "") + "</p>" +
+      '<div class="mbody">' +
+        '<div class="panel"><h3>Bet slip <small>one pick per market</small></h3>' + topBet(r) + slipTable(m, r) +
+          (r.picks.value && r.picks.value.ev > 0 ? '<div class="builder"><b>Value shot:</b> ' + esc(r.picks.value.label) + ' <span class="num">@ ' + odd(r.picks.value.odds) + " · chance " + pct(r.picks.value.p) + " · edge +" + (r.picks.value.ev * 100).toFixed(1) + "%</span> " + confChip(r.picks.value.confidence) + "</div>" : "") +
+          (b ? '<div class="builder"><b>Bet builder:</b> ' + b.legs.map(esc).join(" + ") + ' <span class="num">· chance ' + pct(b.p) + " · fair odds " + odd(b.fair) + "</span></div>" : "") + "</div>" +
+        '<div class="panel"><h3>Most likely scores <small>chance · fair odds</small></h3>' + scoreGrid(r) + goalLadder(m, r) + ahLadder(m, r) + "</div>" +
+        '<div class="panel full">' + lineups(m) + "</div>" +
+        '<div class="panel"><h3>Scorers and assists <small>chance in 90 minutes</small></h3>' + playerTable(m, r) + props(m) + "</div>" +
+        '<div class="panel"><h3>Corners and cards</h3>' + cornersCards(m, r) + "</div>" +
+      "</div>" +
+      '<div class="sources"><b>Sources</b>' + (m.sources || []).map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + "</a>"; }).join("") + (m.odds && m.odds.book ? "<span>Odds: " + esc(m.odds.book) + "</span>" : "") + "</div>" +
+      "</section>";
+  }
+
+  function render(day) {
+    var results = day.matches.map(function (m) { return { m: m, r: E.analyse(m) }; });
+    results.sort(function (a, b) { return new Date(a.m.kickoff) - new Date(b.m.kickoff); });
+    metaEl.innerHTML = esc(dateLong(day.date)) + " · updated " + esc(stamp(day.updated)) + '<br><span class="num">Times shown in ' + esc(tz) + "</span>";
+    app.innerHTML =
+      '<div class="section-title"><h2>Tonight\'s best bets</h2><p>' + esc(day.updateNote || "") + "</p></div>" +
+      '<div class="slipgrid">' + results.map(function (x) { return tile(x.m, x.r); }).join("") + "</div>" +
+      '<div class="section-title"><h2>' + esc(day.title || "Matches") + "</h2><p>" + results.length + " matches</p></div>" +
+      results.map(function (x) { return matchCard(x.m, x.r); }).join("");
+    if (location.hash) { var el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
+  }
+
+  function loadDay(entry, buttons) {
+    buttons.forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.date === entry.date ? "true" : "false"); });
+    return fetch(entry.file, { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(render)
+      .catch(function () { app.innerHTML = '<div class="err">Could not load the matches for ' + esc(entry.date) + ". Reload the page to try again.</div>"; });
+  }
+
+  fetch("data/index.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (idx) {
+    var days = idx.days.slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; }).slice(0, 7);
+    var buttons = days.map(function (d) {
+      var b = document.createElement("button");
+      b.type = "button"; b.dataset.date = d.date; b.id = "day-" + d.date;
+      b.textContent = new Date(d.date + "T12:00:00Z").toLocaleDateString([], { weekday: "short", day: "numeric", month: "short" });
+      b.addEventListener("click", function () { loadDay(d, buttons); });
+      daysEl.appendChild(b); return b;
+    });
+    return loadDay(days[0], buttons);
+  }).catch(function () { app.innerHTML = '<div class="err">Could not load the match list. Reload the page to try again.</div>'; });
+})();
+</script>
 </body>
 </html>

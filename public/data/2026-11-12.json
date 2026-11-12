@@ -1,0 +1,1335 @@
+{
+ "date": "2026-11-12",
+ "title": "Nations League, matchday 5",
+ "updated": "2026-11-12T16:20:00Z",
+ "updateNote": "Odds collected 16:50–17:10 Warsaw time. Türkiye v Belgium lineups are confirmed; the 20:45 games switch to confirmed lineups at about 19:50.",
+ "matches": [
+  {
+   "id": "tur-bel",
+   "competition": "UEFA Nations League A, Group 1",
+   "kickoff": "2026-11-12T17:00:00Z",
+   "venue": "Göztepe Gürsel Aksel Stadı, İzmir",
+   "neutral": false,
+   "home": {
+    "name": "Türkiye",
+    "short": "Türkiye",
+    "code": "TUR"
+   },
+   "away": {
+    "name": "Belgium",
+    "short": "Belgium",
+    "code": "BEL"
+   },
+   "context": "Belgium won the reverse fixture 3-0 in Liège on 2 October. Türkiye have lost all four League A games (11-2 on aggregate).",
+   "referee": {
+    "name": "Sandro Schärer",
+    "country": "SUI",
+    "games": 0,
+    "note": "No 2026/27 Nations League games yet, so the engine uses a 4.1 yellow-card prior."
+   },
+   "odds": {
+    "book": "bet365 via KickOff.co.uk",
+    "h": 3.9,
+    "d": 4.1,
+    "a": 1.8,
+    "ou": {
+     "0.5": [
+      1.02,
+      19.0
+     ],
+     "1.5": [
+      1.14,
+      5.5
+     ],
+     "2.5": [
+      1.5,
+      2.5
+     ],
+     "3.5": [
+      2.2,
+      1.62
+     ],
+     "4.5": [
+      3.75,
+      1.25
+     ],
+     "5.5": [
+      7.0,
+      1.1
+     ]
+    },
+    "btts": [
+     1.5,
+     2.5
+    ],
+    "wtn": {
+     "home": 9.0,
+     "away": 3.75
+    },
+    "dc": {
+     "1X": 1.95,
+     "X2": 1.25,
+     "12": 1.22
+    },
+    "dnb": {
+     "home": 3.0,
+     "away": 1.36
+    },
+    "firstGoal": {
+     "home": 2.25,
+     "away": 1.62
+    }
+   },
+   "form20": {
+    "home": {
+     "gf": 1.8,
+     "ga": 1.6,
+     "xgf": 1.6,
+     "xga": 1.3
+    },
+    "away": {
+     "gf": 2.8,
+     "ga": 0.9,
+     "xgf": 2.3,
+     "xga": 1.1
+    }
+   },
+   "season": {
+    "home": {
+     "corners": 6.3,
+     "fouls": 11.8,
+     "shots": 16.0,
+     "sot": 4.8,
+     "gf": 0.5,
+     "ga": 2.8
+    },
+    "away": {
+     "corners": 3.5,
+     "fouls": 10.8,
+     "shots": 13.3,
+     "sot": 5.5,
+     "gf": 1.5,
+     "ga": 1.3
+    }
+   },
+   "teamTotals": {
+    "home": {
+     "shots": 64
+    },
+    "away": {
+     "shots": 53
+    }
+   },
+   "lineups": {
+    "status": "confirmed",
+    "source": "Official team sheets via WhoScored",
+    "home": {
+     "formation": "4-2-3-1",
+     "xi": [
+      "Uğurcan Çakır",
+      "Oğuz Aydın",
+      "Ferdi Kadıoğlu",
+      "Merih Demiral",
+      "Ozan Kabak",
+      "İsmail Yüksek",
+      "Orkun Kökçü",
+      "Arda Güler",
+      "Barış Alper Yılmaz",
+      "Yunus Akgün",
+      "Enes Ünal"
+     ]
+    },
+    "away": {
+     "formation": "4-3-3",
+     "xi": [
+      "Senne Lammens",
+      "Timothy Castagne",
+      "Brandon Mechele",
+      "Nathan Ngoy",
+      "Maxim De Cuyper",
+      "Youri Tielemans",
+      "Nicolas Raskin",
+      "Kevin De Bruyne",
+      "Diego Moreira",
+      "Charles De Ketelaere",
+      "Jérémy Doku"
+     ],
+     "bench": [
+      "Mandela Keita",
+      "Arthur Theate",
+      "Mike Penders",
+      "Joaquin Seys",
+      "Josue Kongolo",
+      "Mika Godts",
+      "Kyriani Sabbe",
+      "Maarten Vandevoordt",
+      "Hugo Cuypers",
+      "Dodi Lukébakio",
+      "Hans Vanaken",
+      "Leandro Trossard"
+     ]
+    },
+    "alt": "Belgium start their strongest midfield: De Bruyne and Tielemans are back from suspension and Doku from injury. Top scorer Dodi Lukébakio is on the bench."
+   },
+   "news": [
+    {
+     "team": "home",
+     "tag": "info",
+     "text": "First game under new head coach Sergen Yalçın, appointed after Vincenzo Montella was dismissed.",
+     "src": "Sports Mole"
+    },
+    {
+     "team": "home",
+     "tag": "out",
+     "text": "Kenan Yıldız is out with a long-term foot injury; Abdülkerim Bardakcı is suspended.",
+     "src": "SoccerNews / Oddschecker"
+    },
+    {
+     "team": "home",
+     "tag": "info",
+     "text": "Hakan Çalhanoğlu is fit again but does not start.",
+     "src": "WhoScored"
+    },
+    {
+     "team": "away",
+     "tag": "back",
+     "text": "Kevin De Bruyne and Youri Tielemans return from suspension; Jérémy Doku is back from injury. All three start.",
+     "src": "Sports Mole / WhoScored"
+    },
+    {
+     "team": "away",
+     "tag": "info",
+     "text": "Dodi Lukébakio, Belgium's top scorer this season (6), starts on the bench.",
+     "src": "WhoScored"
+    },
+    {
+     "team": "away",
+     "tag": "out",
+     "text": "Malick Fofana and Koni De Winter are injured; Amadou Onana's understudy Lavia is suspended.",
+     "src": "SoccerNews / WhoScored"
+    }
+   ],
+   "players": {
+    "home": [
+     {
+      "name": "Arda Güler",
+      "pos": "AM",
+      "start": 1,
+      "shots": 19,
+      "goals": 1
+     },
+     {
+      "name": "Barış Alper Yılmaz",
+      "pos": "FW",
+      "start": 1,
+      "shots": 9,
+      "goals": 3
+     },
+     {
+      "name": "Enes Ünal",
+      "pos": "FW",
+      "start": 1
+     },
+     {
+      "name": "Yunus Akgün",
+      "pos": "FW",
+      "start": 1
+     },
+     {
+      "name": "Orkun Kökçü",
+      "pos": "MF",
+      "start": 1,
+      "goals": 1
+     },
+     {
+      "name": "Kerem Aktürkoğlu",
+      "pos": "FW",
+      "start": 0,
+      "shots": 8,
+      "goals": 0,
+      "note": "Not in the starting XI"
+     }
+    ],
+    "away": [
+     {
+      "name": "Kevin De Bruyne",
+      "pos": "AM",
+      "start": 1,
+      "shots": 19,
+      "goals": 3
+     },
+     {
+      "name": "Charles De Ketelaere",
+      "pos": "FW",
+      "start": 1,
+      "shots": 9,
+      "goals": 0
+     },
+     {
+      "name": "Jérémy Doku",
+      "pos": "FW",
+      "start": 1
+     },
+     {
+      "name": "Diego Moreira",
+      "pos": "FW",
+      "start": 1
+     },
+     {
+      "name": "Youri Tielemans",
+      "pos": "MF",
+      "start": 1
+     },
+     {
+      "name": "Dodi Lukébakio",
+      "pos": "FW",
+      "start": 0,
+      "shots": 14,
+      "goals": 6,
+      "note": "On the bench"
+     }
+    ]
+   },
+   "props": [
+    {
+     "player": "Brandon Mechele",
+     "market": "1+ tackles",
+     "odds": 1.1,
+     "hit": "5/5"
+    },
+    {
+     "player": "Charles De Ketelaere",
+     "market": "1+ shots on target",
+     "odds": 1.33,
+     "hit": "4/5"
+    },
+    {
+     "player": "Timothy Castagne",
+     "market": "1+ fouls",
+     "odds": 1.44,
+     "hit": "4/5"
+    }
+   ],
+   "benchmarks": {
+    "statz": {
+     "h": 0.32,
+     "d": 0.24,
+     "a": 0.44,
+     "xg": [
+      1.4,
+      1.7
+     ]
+    },
+    "kickoff": {
+     "h": 0.26,
+     "d": 0.22,
+     "a": 0.53
+    }
+   },
+   "sources": [
+    {
+     "title": "Statz.ai: Turkey vs Belgium stats & predicted lineups",
+     "url": "https://statz.ai/h2h/turkey-vs-belgium/19676663"
+    },
+    {
+     "title": "KickOff: Turkey v Belgium odds & stats",
+     "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/turkey-vs-belgium/"
+    },
+    {
+     "title": "SoccerNews: Turkey vs Belgium team news",
+     "url": "https://www.soccernews.com/prediction-turkey-vs-belgium/407862/"
+    },
+    {
+     "title": "WhoScored: Turkiye vs Belgium confirmed lineups",
+     "url": "https://www.whoscored.com/news/uRq9NLmrE0uyb8dKSvkTBw/show/turkiye-vs-belgium-confirmed-lineups"
+    },
+    {
+     "title": "Sports Mole: Turkey vs Belgium preview",
+     "url": "https://www.sportsmole.co.uk/football/turkey/uefa-nations-league/preview/turkey-vs-belgium-prediction-team-news-lineups_608847.html"
+    }
+   ]
+  },
+  {
+   "id": "ita-fra",
+   "competition": "UEFA Nations League A, Group 1",
+   "kickoff": "2026-11-12T19:45:00Z",
+   "venue": "Stadio Giuseppe Meazza (San Siro), Milan",
+   "neutral": false,
+   "home": {
+    "name": "Italy",
+    "short": "Italy",
+    "code": "ITA"
+   },
+   "away": {
+    "name": "France",
+    "short": "France",
+    "code": "FRA"
+   },
+   "context": "France top the group on 10 points, three clear of Italy. The reverse fixture in Paris ended 1-1 on 2 October.",
+   "referee": {
+    "name": "István Kovács",
+    "country": "ROU",
+    "games": 3,
+    "yellowsPg": 4.7,
+    "foulsPg": 31.7,
+    "redsPg": 0.0
+   },
+   "odds": {
+    "book": "bet365 via KickOff.co.uk",
+    "h": 3.75,
+    "d": 3.7,
+    "a": 1.95,
+    "ou": {
+     "0.5": [
+      1.04,
+      13.0
+     ],
+     "1.5": [
+      1.2,
+      4.33
+     ],
+     "2.5": [
+      1.67,
+      2.15
+     ],
+     "3.5": [
+      2.63,
+      1.44
+     ],
+     "4.5": [
+      5.0,
+      1.17
+     ],
+     "5.5": [
+      10.0,
+      1.06
+     ]
+    },
+    "btts": [
+     1.57,
+     2.25
+    ],
+    "wtn": {
+     "home": 8.0,
+     "away": 3.75
+    },
+    "dc": {
+     "1X": 1.8,
+     "X2": 1.25,
+     "12": 1.29
+    },
+    "dnb": {
+     "home": 2.63,
+     "away": 1.44
+    },
+    "firstGoal": {
+     "home": 2.25,
+     "away": 1.67
+    }
+   },
+   "form20": {
+    "home": {
+     "gf": 2.0,
+     "ga": 1.3,
+     "xgf": 2.0,
+     "xga": 1.3
+    },
+    "away": {
+     "gf": 2.4,
+     "ga": 1.0,
+     "xgf": 2.0,
+     "xga": 0.9
+    }
+   },
+   "season": {
+    "home": {
+     "corners": 3.3,
+     "fouls": 13.5,
+     "shots": 16.0,
+     "sot": 5.5,
+     "gf": 2.0,
+     "ga": 1.3
+    },
+    "away": {
+     "corners": 6.0,
+     "fouls": 9.3,
+     "shots": 17.8,
+     "sot": 6.8,
+     "gf": 1.8,
+     "ga": 0.5
+    }
+   },
+   "teamTotals": {
+    "home": {
+     "shots": 120,
+     "goals": 20
+    },
+    "away": {
+     "shots": 140,
+     "goals": 24
+    }
+   },
+   "lineups": {
+    "status": "predicted",
+    "source": "Statz.ai predicted XI",
+    "home": {
+     "formation": "4-3-3",
+     "xi": [
+      "Gianluigi Donnarumma",
+      "Michael Kayode",
+      "Daniele Ghilardi",
+      "Alessandro Bastoni",
+      "Riccardo Calafiori",
+      "Nicolò Barella",
+      "Alessandro Romano",
+      "Sandro Tonali",
+      "Nicolò Cambiaghi",
+      "Pio Esposito",
+      "Sebastiano Esposito"
+     ]
+    },
+    "away": {
+     "formation": "4-3-3",
+     "xi": [
+      "Guillaume Restes",
+      "Malo Gusto",
+      "Leny Yoro",
+      "Jérémy Jacquet",
+      "Andy Diouf",
+      "Eduardo Camavinga",
+      "Lucas Da Cunha",
+      "Rayan Cherki",
+      "Michael Olise",
+      "Désiré Doué",
+      "Bradley Barcola"
+     ]
+    },
+    "alt": "The predicted France XI is heavily rotated. Mbappé is back in the squad, so expect changes when the real team sheet lands."
+   },
+   "news": [
+    {
+     "team": "away",
+     "tag": "back",
+     "text": "Kylian Mbappé headlines the squad after picking up an injury on international duty in September.",
+     "src": "AFP"
+    },
+    {
+     "team": "away",
+     "tag": "doubt",
+     "text": "Maghnes Akliouche has a fitness problem; Pablo Pagis called up for his debut.",
+     "src": "AFP"
+    },
+    {
+     "team": "away",
+     "tag": "info",
+     "text": "France play Türkiye in Bordeaux three days later, so rotation is likely.",
+     "src": "AFP"
+    },
+    {
+     "team": "home",
+     "tag": "info",
+     "text": "Pio Esposito has 6 goals in Italy's last 10 games.",
+     "src": "Statz.ai"
+    },
+    {
+     "team": "home",
+     "tag": "info",
+     "text": "Italy need a win to stay in the race for top spot.",
+     "src": "AFP"
+    }
+   ],
+   "players": {
+    "home": [
+     {
+      "name": "Pio Esposito",
+      "pos": "FW",
+      "start": 0.9,
+      "shots": 26,
+      "goals": 6
+     },
+     {
+      "name": "Moise Kean",
+      "pos": "FW",
+      "start": 0.35,
+      "shots": 15,
+      "goals": 2,
+      "note": "Not in predicted XI"
+     },
+     {
+      "name": "Sandro Tonali",
+      "pos": "MF",
+      "start": 0.9,
+      "shots": 12,
+      "goals": 0
+     },
+     {
+      "name": "Alessandro Bastoni",
+      "pos": "DF",
+      "start": 0.9,
+      "goals": 2
+     },
+     {
+      "name": "Sebastiano Esposito",
+      "pos": "FW",
+      "start": 0.75
+     },
+     {
+      "name": "Nicolò Cambiaghi",
+      "pos": "FW",
+      "start": 0.75
+     },
+     {
+      "name": "Nicolò Barella",
+      "pos": "MF",
+      "start": 0.85
+     }
+    ],
+    "away": [
+     {
+      "name": "Kylian Mbappé",
+      "pos": "FW",
+      "start": 0.5,
+      "shots": 31,
+      "goals": 7,
+      "pens": true,
+      "note": "Back in squad; not in predicted XI"
+     },
+     {
+      "name": "Michael Olise",
+      "pos": "FW",
+      "start": 0.85,
+      "shots": 25,
+      "goals": 4,
+      "assists": 3
+     },
+     {
+      "name": "Ousmane Dembélé",
+      "pos": "FW",
+      "start": 0.3,
+      "shots": 27,
+      "goals": 5,
+      "note": "Not in predicted XI"
+     },
+     {
+      "name": "Désiré Doué",
+      "pos": "FW",
+      "start": 0.8,
+      "shots": 15,
+      "goals": 3,
+      "assists": 2
+     },
+     {
+      "name": "Bradley Barcola",
+      "pos": "FW",
+      "start": 0.7,
+      "goals": 3
+     },
+     {
+      "name": "Rayan Cherki",
+      "pos": "AM",
+      "start": 0.75
+     }
+    ]
+   },
+   "props": [
+    {
+     "player": "Désiré Doué",
+     "market": "3+ shots",
+     "odds": 1.44
+    },
+    {
+     "player": "Bradley Barcola",
+     "market": "1+ fouls",
+     "odds": 1.25
+    },
+    {
+     "player": "Michael Olise",
+     "market": "3+ shots",
+     "odds": 1.5
+    }
+   ],
+   "benchmarks": {
+    "statz": {
+     "h": 0.26,
+     "d": 0.24,
+     "a": 0.5,
+     "xg": [
+      1.2,
+      1.7
+     ]
+    }
+   },
+   "sources": [
+    {
+     "title": "Statz.ai: Italy vs France stats & predicted lineups",
+     "url": "https://statz.ai/h2h/19676662"
+    },
+    {
+     "title": "KickOff: Italy v France odds & stats",
+     "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/italy-vs-france/"
+    },
+    {
+     "title": "AFP via Ahram: Mbappé headlines Zidane's France squad",
+     "url": "https://english.ahram.org.eg/News/581891.aspx"
+    }
+   ]
+  },
+  {
+   "id": "eng-cro",
+   "competition": "UEFA Nations League A, Group 3",
+   "kickoff": "2026-11-12T19:45:00Z",
+   "venue": "Wembley Stadium, London",
+   "neutral": false,
+   "home": {
+    "name": "England",
+    "short": "England",
+    "code": "ENG"
+   },
+   "away": {
+    "name": "Croatia",
+    "short": "Croatia",
+    "code": "CRO"
+   },
+   "context": "England need a point to be sure of a quarter-final place. They won 7-0 in Rijeka in October.",
+   "referee": {
+    "name": "Morten Krogh",
+    "country": "DEN",
+    "games": 2,
+    "yellowsPg": 3.5,
+    "foulsPg": 25.5,
+    "redsPg": 0.5
+   },
+   "odds": {
+    "book": "bet365 via KickOff.co.uk",
+    "h": 1.22,
+    "d": 7.0,
+    "a": 11.0,
+    "ou": {
+     "0.5": [
+      1.01,
+      23.0
+     ],
+     "1.5": [
+      1.13,
+      6.0
+     ],
+     "2.5": [
+      1.44,
+      2.7
+     ],
+     "3.5": [
+      2.1,
+      1.67
+     ],
+     "4.5": [
+      3.5,
+      1.29
+     ],
+     "5.5": [
+      6.5,
+      1.11
+     ]
+    },
+    "btts": [
+     1.83,
+     1.83
+    ],
+    "wtn": {
+     "home": 2.2,
+     "away": 17.0
+    },
+    "dc": {
+     "1X": 1.05,
+     "X2": 4.0,
+     "12": 1.1
+    },
+    "dnb": {
+     "home": 1.08,
+     "away": 8.0
+    },
+    "firstGoal": {
+     "home": 1.3,
+     "away": 3.4
+    }
+   },
+   "form20": {
+    "home": {
+     "gf": 2.5,
+     "ga": 0.9,
+     "xgf": 2.0,
+     "xga": 1.0
+    },
+    "away": {
+     "gf": 2.1,
+     "ga": 1.6,
+     "xgf": 2.1,
+     "xga": 1.3
+    }
+   },
+   "season": {
+    "home": {
+     "corners": 6.0,
+     "fouls": 9.8,
+     "shots": 17.8,
+     "sot": 6.3,
+     "gf": 3.5,
+     "ga": 0.8
+    },
+    "away": {
+     "corners": 3.0,
+     "fouls": 10.3,
+     "shots": 10.8,
+     "sot": 3.3,
+     "gf": 1.0,
+     "ga": 3.5
+    }
+   },
+   "teamTotals": {
+    "home": {
+     "shots": 130,
+     "goals": 25
+    },
+    "away": {
+     "shots": 120,
+     "goals": 21
+    }
+   },
+   "lineups": {
+    "status": "predicted",
+    "source": "Statz.ai predicted XI",
+    "home": {
+     "formation": "4-3-3",
+     "xi": [
+      "Jordan Pickford",
+      "Trent Alexander-Arnold",
+      "Jarell Quansah",
+      "Jarrad Branthwaite",
+      "Lewis Hall",
+      "Declan Rice",
+      "Jude Bellingham",
+      "Elliot Anderson",
+      "Morgan Rogers",
+      "Harry Kane",
+      "Anthony Gordon"
+     ]
+    },
+    "away": {
+     "formation": "4-2-3-1",
+     "xi": [
+      "Dominik Livaković",
+      "Josip Stanišić",
+      "Duje Ćaleta-Car",
+      "Luka Vušković",
+      "Joško Gvardiol",
+      "Mateo Kovačić",
+      "Luka Modrić",
+      "Mario Pašalić",
+      "Martin Baturina",
+      "Luka Sučić",
+      "Dion Beljo"
+     ]
+    }
+   },
+   "news": [
+    {
+     "team": "home",
+     "tag": "info",
+     "text": "Harry Kane is set to break England's all-time appearance record.",
+     "src": "Sports Mole"
+    },
+    {
+     "team": "home",
+     "tag": "out",
+     "text": "Cole Palmer, Phil Foden and Kobbie Mainoo were left out of the squad.",
+     "src": "Karlobag / PA"
+    },
+    {
+     "team": "home",
+     "tag": "info",
+     "text": "Jobe Bellingham and Josh King earned call-ups.",
+     "src": "Karlobag / PA"
+    },
+    {
+     "team": "away",
+     "tag": "info",
+     "text": "Croatia have lost three of their last four Nations League games and their qualification hopes are effectively over.",
+     "src": "Goal"
+    }
+   ],
+   "players": {
+    "home": [
+     {
+      "name": "Harry Kane",
+      "pos": "FW",
+      "start": 0.95,
+      "shots": 25,
+      "goals": 10,
+      "pens": true
+     },
+     {
+      "name": "Jude Bellingham",
+      "pos": "AM",
+      "start": 0.9,
+      "shots": 25,
+      "goals": 7,
+      "assists": 4
+     },
+     {
+      "name": "Bukayo Saka",
+      "pos": "FW",
+      "start": 0.45,
+      "shots": 21,
+      "goals": 5,
+      "note": "Not in predicted XI"
+     },
+     {
+      "name": "Anthony Gordon",
+      "pos": "FW",
+      "start": 0.85,
+      "shots": 13,
+      "goals": 4,
+      "assists": 2
+     },
+     {
+      "name": "Morgan Rogers",
+      "pos": "AM",
+      "start": 0.8,
+      "shots": 16,
+      "goals": 0
+     },
+     {
+      "name": "Declan Rice",
+      "pos": "MF",
+      "start": 0.9
+     }
+    ],
+    "away": [
+     {
+      "name": "Luka Modrić",
+      "pos": "MF",
+      "start": 0.85,
+      "goals": 2
+     },
+     {
+      "name": "Ivan Perišić",
+      "pos": "FW",
+      "start": 0.4,
+      "shots": 10,
+      "goals": 2,
+      "assists": 4,
+      "note": "Not in predicted XI"
+     },
+     {
+      "name": "Dion Beljo",
+      "pos": "FW",
+      "start": 0.85,
+      "goals": 1
+     },
+     {
+      "name": "Martin Baturina",
+      "pos": "AM",
+      "start": 0.85,
+      "goals": 1
+     },
+     {
+      "name": "Igor Matanović",
+      "pos": "FW",
+      "start": 0.3,
+      "shots": 19,
+      "goals": 0,
+      "note": "Not in predicted XI"
+     },
+     {
+      "name": "Mateo Kovačić",
+      "pos": "MF",
+      "start": 0.85,
+      "shots": 11,
+      "goals": 0
+     }
+    ]
+   },
+   "props": [
+    {
+     "player": "Jude Bellingham",
+     "market": "1+ shots",
+     "odds": 1.18
+    },
+    {
+     "player": "Morgan Rogers",
+     "market": "1+ fouls",
+     "odds": 1.33
+    },
+    {
+     "player": "Anthony Gordon",
+     "market": "1+ shots on target",
+     "odds": 1.3
+    },
+    {
+     "player": "Declan Rice",
+     "market": "1+ shots",
+     "odds": 1.3
+    }
+   ],
+   "benchmarks": {
+    "statz": {
+     "h": 0.71,
+     "d": 0.18,
+     "a": 0.11,
+     "xg": [
+      2.2,
+      0.7
+     ]
+    }
+   },
+   "sources": [
+    {
+     "title": "Statz.ai: England vs Croatia stats & predicted lineups",
+     "url": "https://statz.ai/h2h/19676660"
+    },
+    {
+     "title": "KickOff: England v Croatia odds & stats",
+     "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/england-vs-croatia/"
+    },
+    {
+     "title": "Sports Mole: predicting England's November squad",
+     "url": "https://www.sportsmole.co.uk/football/england/uefa-nations-league/feature/predicting-the-england-squad-for-croatia-spain-nations-league-fixtures_608446.html"
+    },
+    {
+     "title": "Tuchel leaves out Palmer, Foden and Mainoo",
+     "url": "https://karlobag.eu/en/sports/tuchel-leaves-out-palmer-foden-and-mainoo-as-jobe-bellingham-and-josh-king-earn-obt9u/"
+    }
+   ]
+  },
+  {
+   "id": "cze-esp",
+   "competition": "UEFA Nations League A, Group 3",
+   "kickoff": "2026-11-12T19:45:00Z",
+   "venue": "Epet Arena, Prague",
+   "neutral": false,
+   "home": {
+    "name": "Czechia",
+    "short": "Czechia",
+    "code": "CZE"
+   },
+   "away": {
+    "name": "Spain",
+    "short": "Spain",
+    "code": "ESP"
+   },
+   "context": "Spain have won all four group games (12-5) and have top spot secured. Czechia have lost five in a row.",
+   "referee": {
+    "name": "Nikola Dabanović",
+    "country": "MNE",
+    "games": 3,
+    "yellowsPg": 4.3,
+    "foulsPg": 23.7,
+    "redsPg": 0.0
+   },
+   "odds": {
+    "book": "bet365 via KickOff.co.uk; goal lines and BTTS cross-checked with FootballPredictions.ai",
+    "h": 13.0,
+    "d": 8.0,
+    "a": 1.18,
+    "ou": {
+     "0.5": [
+      1.02,
+      19.0
+     ],
+     "1.5": [
+      1.17,
+      5.0
+     ],
+     "2.5": [
+      1.53,
+      2.4
+     ],
+     "3.5": [
+      2.25,
+      1.57
+     ],
+     "4.5": [
+      4.0,
+      1.22
+     ],
+     "5.5": [
+      8.0,
+      1.08
+     ]
+    },
+    "btts": [
+     2.4,
+     1.5
+    ],
+    "wtn": {
+     "home": 19.0,
+     "away": 1.67
+    },
+    "dc": {
+     "1X": 4.5,
+     "X2": 1.04,
+     "12": 1.08
+    },
+    "dnb": {
+     "home": 9.0,
+     "away": 1.07
+    },
+    "firstGoal": {
+     "home": 3.75,
+     "away": 1.25
+    }
+   },
+   "form20": {
+    "home": {
+     "gf": 1.6,
+     "ga": 1.5,
+     "xgf": 1.4,
+     "xga": 1.5
+    },
+    "away": {
+     "gf": 2.2,
+     "ga": 0.5,
+     "xgf": 2.2,
+     "xga": 0.6
+    }
+   },
+   "season": {
+    "home": {
+     "corners": 1.0,
+     "fouls": 11.3,
+     "shots": 5.3,
+     "sot": 1.5,
+     "gf": 0.5,
+     "ga": 2.5
+    },
+    "away": {
+     "corners": 5.0,
+     "fouls": 11.5,
+     "shots": 14.8,
+     "sot": 6.3,
+     "gf": 3.0,
+     "ga": 1.3
+    }
+   },
+   "teamTotals": {
+    "home": {
+     "shots": 90,
+     "goals": 16
+    },
+    "away": {
+     "shots": 140,
+     "goals": 22
+    }
+   },
+   "lineups": {
+    "status": "predicted",
+    "source": "Statz.ai predicted XI",
+    "home": {
+     "formation": "4-2-3-1",
+     "xi": [
+      "Lukáš Horníček",
+      "Vladimír Coufal",
+      "David Zima",
+      "David Jurásek",
+      "Jiří Sláma",
+      "Alex Král",
+      "Lukáš Červ",
+      "Lukáš Ambros",
+      "Kryštof Daněk",
+      "David Kozel",
+      "Adam Hložek"
+     ]
+    },
+    "away": {
+     "formation": "4-2-3-1",
+     "xi": [
+      "Unai Simón",
+      "Marc Pubill",
+      "Pau Cubarsí",
+      "Aymeric Laporte",
+      "Marc Cucurella",
+      "Pedri",
+      "Fabián Ruiz",
+      "Yéremy Pino",
+      "Fermín López",
+      "Álex Baena",
+      "Ferran Torres"
+     ]
+    },
+    "alt": "Spain are expected to rotate with top spot secured; Lamine Yamal and Mikel Oyarzabal are not in the predicted XI."
+   },
+   "news": [
+    {
+     "team": "away",
+     "tag": "out",
+     "text": "Rodri, Dani Olmo and Eric García miss the squad with physical problems.",
+     "src": "Foot Africa"
+    },
+    {
+     "team": "away",
+     "tag": "out",
+     "text": "Ander Barrenetxea withdrew; Jorge de Frutos and Víctor Muñoz called up.",
+     "src": "ČTK"
+    },
+    {
+     "team": "away",
+     "tag": "info",
+     "text": "First call-ups for Álvaro Valles, Marc Roca and Jacobo Ramón.",
+     "src": "SoccerNews"
+    },
+    {
+     "team": "home",
+     "tag": "back",
+     "text": "Tomáš Souček recalled after a long-term ankle injury.",
+     "src": "SoccerNews"
+    },
+    {
+     "team": "home",
+     "tag": "info",
+     "text": "Czechia have scored 2 and conceded 13 in their last five games.",
+     "src": "Statz.ai"
+    }
+   ],
+   "players": {
+    "home": [
+     {
+      "name": "Adam Hložek",
+      "pos": "FW",
+      "start": 0.85,
+      "shots": 9,
+      "goals": 0
+     },
+     {
+      "name": "Ladislav Krejčí",
+      "pos": "DF",
+      "start": 0.5,
+      "goals": 2,
+      "note": "Captain; not in predicted XI"
+     },
+     {
+      "name": "Tomáš Souček",
+      "pos": "MF",
+      "start": 0.4,
+      "note": "Back from ankle injury"
+     },
+     {
+      "name": "Lukáš Červ",
+      "pos": "MF",
+      "start": 0.8
+     },
+     {
+      "name": "David Kozel",
+      "pos": "AM",
+      "start": 0.75
+     }
+    ],
+    "away": [
+     {
+      "name": "Lamine Yamal",
+      "pos": "FW",
+      "start": 0.5,
+      "shots": 34,
+      "goals": 4,
+      "note": "Not in predicted XI"
+     },
+     {
+      "name": "Ferran Torres",
+      "pos": "FW",
+      "start": 0.85,
+      "shots": 13,
+      "goals": 1,
+      "assists": 2
+     },
+     {
+      "name": "Mikel Merino",
+      "pos": "MF",
+      "start": 0.35,
+      "goals": 5,
+      "note": "Not in predicted XI"
+     },
+     {
+      "name": "Mikel Oyarzabal",
+      "pos": "FW",
+      "start": 0.45,
+      "goals": 4,
+      "note": "Not in predicted XI"
+     },
+     {
+      "name": "Fermín López",
+      "pos": "AM",
+      "start": 0.8
+     },
+     {
+      "name": "Yéremy Pino",
+      "pos": "FW",
+      "start": 0.75
+     },
+     {
+      "name": "Álex Baena",
+      "pos": "AM",
+      "start": 0.75
+     }
+    ]
+   },
+   "props": [
+    {
+     "player": "Fabián Ruiz",
+     "market": "1+ shots",
+     "odds": 1.2
+    },
+    {
+     "player": "Fermín López",
+     "market": "1+ shots on target",
+     "odds": 1.29
+    },
+    {
+     "player": "Ferran Torres",
+     "market": "3+ shots",
+     "odds": 1.3
+    },
+    {
+     "player": "Aymeric Laporte",
+     "market": "1+ tackles",
+     "odds": 1.57
+    }
+   ],
+   "benchmarks": {
+    "statz": {
+     "h": 0.08,
+     "d": 0.16,
+     "a": 0.77,
+     "xg": [
+      0.6,
+      2.3
+     ]
+    },
+    "kickoff": {
+     "h": 0.08,
+     "d": 0.13,
+     "a": 0.79
+    }
+   },
+   "sources": [
+    {
+     "title": "Statz.ai: Czech Republic vs Spain stats & predicted lineups",
+     "url": "https://statz.ai/h2h/19676661"
+    },
+    {
+     "title": "KickOff: Czech Rep v Spain odds & stats",
+     "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/czech-rep-vs-spain/"
+    },
+    {
+     "title": "Foot Africa: De la Fuente names Spain squad",
+     "url": "https://foot-africa.com/en/news/spain-luis-de-la-fuente-names-squad-for-czechia-and-england-clashes-official-1411448/"
+    },
+    {
+     "title": "SoccerNews: Czech Republic vs Spain",
+     "url": "https://www.soccernews.com/prediction-czech-republic-vs-spain/407859/"
+    },
+    {
+     "title": "FootballPredictions.ai: Czechia vs Spain odds",
+     "url": "https://footballpredictions.ai/football-predictions/czechia-vs-spain-predictions-tips-12-nov-2026/"
+    }
+   ]
+  }
+ ]
+}

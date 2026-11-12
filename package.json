@@ -8,8 +8,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "node dev/server.mjs",
-    "dev:mock": "node dev/mock-upstream.mjs & MOCK=1 node dev/server.mjs",
-    "test": "node --test test/*.test.mjs"
+    "test": "node --test test/*.test.mjs",
+    "check": "node scripts/check.mjs"
   }
 }
