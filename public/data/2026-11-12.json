@@ -1,8 +1,8 @@
 {
  "date": "2026-11-12",
  "title": "Nations League, matchday 5",
- "updated": "2026-11-12T16:20:00Z",
- "updateNote": "Odds collected 16:50–17:10 Warsaw time. Türkiye v Belgium lineups are confirmed; the 20:45 games switch to confirmed lineups at about 19:50.",
+ "updated": "2026-11-12T18:58:00Z",
+ "updateNote": "All four lineups are confirmed. Italy v France odds refreshed at 19:55 Warsaw time.",
  "matches": [
   {
    "id": "tur-bel",
@@ -376,38 +376,38 @@
    },
    "odds": {
     "book": "bet365 via KickOff.co.uk",
-    "h": 3.75,
+    "h": 3.6,
     "d": 3.7,
     "a": 1.95,
     "ou": {
      "0.5": [
-      1.04,
-      13.0
+      1.03,
+      15.0
      ],
      "1.5": [
-      1.2,
-      4.33
+      1.18,
+      4.5
      ],
      "2.5": [
-      1.67,
-      2.15
+      1.62,
+      2.25
      ],
      "3.5": [
-      2.63,
-      1.44
+      2.5,
+      1.5
      ],
      "4.5": [
-      5.0,
-      1.17
+      4.33,
+      1.2
      ],
      "5.5": [
-      10.0,
-      1.06
+      9.0,
+      1.07
      ]
     },
     "btts": [
-     1.57,
-     2.25
+     1.53,
+     2.38
     ],
     "wtn": {
      "home": 8.0,
@@ -470,72 +470,66 @@
     }
    },
    "lineups": {
-    "status": "predicted",
-    "source": "Statz.ai predicted XI",
+    "status": "confirmed",
+    "source": "Official team sheets via Football Italia and Bulinews",
     "home": {
      "formation": "4-3-3",
      "xi": [
       "Gianluigi Donnarumma",
       "Michael Kayode",
-      "Daniele Ghilardi",
+      "Giorgio Scalvini",
       "Alessandro Bastoni",
       "Riccardo Calafiori",
-      "Nicolò Barella",
-      "Alessandro Romano",
+      "Davide Frattesi",
       "Sandro Tonali",
-      "Nicolò Cambiaghi",
+      "Nicolò Barella",
+      "Sebastiano Esposito",
       "Pio Esposito",
-      "Sebastiano Esposito"
+      "Nicolò Cambiaghi"
      ]
     },
     "away": {
      "formation": "4-3-3",
      "xi": [
-      "Guillaume Restes",
+      "Mike Maignan",
       "Malo Gusto",
-      "Leny Yoro",
       "Jérémy Jacquet",
-      "Andy Diouf",
-      "Eduardo Camavinga",
-      "Lucas Da Cunha",
+      "Dayot Upamecano",
+      "Adrien Truffert",
       "Rayan Cherki",
+      "Lucas Da Cunha",
+      "Adrien Rabiot",
       "Michael Olise",
       "Désiré Doué",
       "Bradley Barcola"
      ]
     },
-    "alt": "The predicted France XI is heavily rotated. Mbappé is back in the squad, so expect changes when the real team sheet lands."
+    "alt": "France are without Mbappé (hamstring) and Dembélé (thigh). Federico Dimarco is on Italy's bench."
    },
    "news": [
     {
      "team": "away",
-     "tag": "back",
-     "text": "Kylian Mbappé headlines the squad after picking up an injury on international duty in September.",
-     "src": "AFP"
+     "tag": "out",
+     "text": "Kylian Mbappé misses out with a hamstring injury.",
+     "src": "Football Italia"
     },
     {
      "team": "away",
-     "tag": "doubt",
-     "text": "Maghnes Akliouche has a fitness problem; Pablo Pagis called up for his debut.",
-     "src": "AFP"
+     "tag": "out",
+     "text": "Also missing: Dembélé, Tchouaméni, Saliba, Koundé, Lacroix, Koné, Kalulu, Thuram and Akliouche.",
+     "src": "Football Italia"
     },
     {
-     "team": "away",
-     "tag": "info",
-     "text": "France play Türkiye in Bordeaux three days later, so rotation is likely.",
-     "src": "AFP"
+     "team": "home",
+     "tag": "out",
+     "text": "Moise Kean is not in the squad.",
+     "src": "TribalFootball"
     },
     {
      "team": "home",
      "tag": "info",
-     "text": "Pio Esposito has 6 goals in Italy's last 10 games.",
-     "src": "Statz.ai"
-    },
-    {
-     "team": "home",
-     "tag": "info",
-     "text": "Italy need a win to stay in the race for top spot.",
-     "src": "AFP"
+     "text": "Frattesi starts in midfield; Dimarco is benched.",
+     "src": "Football Italia"
     }
    ],
    "players": {
@@ -543,77 +537,57 @@
      {
       "name": "Pio Esposito",
       "pos": "FW",
-      "start": 0.9,
+      "start": 1,
       "shots": 26,
       "goals": 6
      },
      {
-      "name": "Moise Kean",
-      "pos": "FW",
-      "start": 0.35,
-      "shots": 15,
-      "goals": 2,
-      "note": "Not in predicted XI"
-     },
-     {
       "name": "Sandro Tonali",
       "pos": "MF",
-      "start": 0.9,
+      "start": 1,
       "shots": 12,
       "goals": 0
      },
      {
       "name": "Alessandro Bastoni",
       "pos": "DF",
-      "start": 0.9,
+      "start": 1,
       "goals": 2
      },
      {
       "name": "Sebastiano Esposito",
       "pos": "FW",
-      "start": 0.75
+      "start": 1
      },
      {
       "name": "Nicolò Cambiaghi",
       "pos": "FW",
-      "start": 0.75
+      "start": 1
+     },
+     {
+      "name": "Davide Frattesi",
+      "pos": "MF",
+      "start": 1
      },
      {
       "name": "Nicolò Barella",
       "pos": "MF",
-      "start": 0.85
+      "start": 1
      }
     ],
     "away": [
      {
-      "name": "Kylian Mbappé",
-      "pos": "FW",
-      "start": 0.5,
-      "shots": 31,
-      "goals": 7,
-      "pens": true,
-      "note": "Back in squad; not in predicted XI"
-     },
-     {
       "name": "Michael Olise",
       "pos": "FW",
-      "start": 0.85,
+      "start": 1,
       "shots": 25,
       "goals": 4,
       "assists": 3
      },
      {
-      "name": "Ousmane Dembélé",
-      "pos": "FW",
-      "start": 0.3,
-      "shots": 27,
-      "goals": 5,
-      "note": "Not in predicted XI"
-     },
-     {
       "name": "Désiré Doué",
       "pos": "FW",
-      "start": 0.8,
+      "start": 1,
       "shots": 15,
       "goals": 3,
       "assists": 2
@@ -621,13 +595,18 @@
      {
       "name": "Bradley Barcola",
       "pos": "FW",
-      "start": 0.7,
+      "start": 1,
       "goals": 3
      },
      {
       "name": "Rayan Cherki",
       "pos": "AM",
-      "start": 0.75
+      "start": 1
+     },
+     {
+      "name": "Adrien Rabiot",
+      "pos": "MF",
+      "start": 1
      }
     ]
    },
@@ -671,8 +650,15 @@
     {
      "title": "AFP via Ahram: Mbappé headlines Zidane's France squad",
      "url": "https://english.ahram.org.eg/News/581891.aspx"
+    },
+    {
+     "title": "Football Italia: Italy vs France official line-ups",
+     "url": "https://football-italia.net/nations-league-line-ups-italy-vs-france-md5/"
     }
-   ]
+   ],
+   "adjust": {
+    "away": 0.96
+   }
   },
   {
    "id": "eng-cro",
@@ -795,65 +781,88 @@
     }
    },
    "lineups": {
-    "status": "predicted",
-    "source": "Statz.ai predicted XI",
+    "status": "confirmed",
+    "source": "Official team sheets via WhoScored and Bulinews",
     "home": {
-     "formation": "4-3-3",
+     "formation": "4-2-3-1",
      "xi": [
       "Jordan Pickford",
       "Trent Alexander-Arnold",
       "Jarell Quansah",
-      "Jarrad Branthwaite",
+      "Dan Burn",
       "Lewis Hall",
       "Declan Rice",
-      "Jude Bellingham",
       "Elliot Anderson",
       "Morgan Rogers",
-      "Harry Kane",
-      "Anthony Gordon"
+      "Jude Bellingham",
+      "Anthony Gordon",
+      "Harry Kane"
+     ],
+     "bench": [
+      "Eberechi Eze",
+      "James Garner",
+      "Morgan Gibbs-White",
+      "Ben White",
+      "James Trafford",
+      "Dominic Calvert-Lewin",
+      "James Hill",
+      "Jarrad Branthwaite",
+      "Jason Steele",
+      "Jobe Bellingham",
+      "Josh King",
+      "Rio Ngumoha"
      ]
     },
     "away": {
      "formation": "4-2-3-1",
      "xi": [
       "Dominik Livaković",
+      "Ivan Smolčić",
       "Josip Stanišić",
-      "Duje Ćaleta-Car",
       "Luka Vušković",
       "Joško Gvardiol",
+      "Josip Mišić",
       "Mateo Kovačić",
-      "Luka Modrić",
-      "Mario Pašalić",
-      "Martin Baturina",
+      "Nikola Vlašić",
       "Luka Sučić",
-      "Dion Beljo"
+      "Martin Baturina",
+      "Igor Matanović"
+     ],
+     "bench": [
+      "Luka Modrić",
+      "Lovro Majer",
+      "Mario Pašalić",
+      "Dion Beljo",
+      "Ante Budimir",
+      "Duje Ćaleta-Car",
+      "Dominik Kotarski",
+      "Ivor Pandur",
+      "Niko Galešić",
+      "Marco Pašalić",
+      "Šimun Hrgović",
+      "Marin Šotiček"
      ]
-    }
+    },
+    "alt": "Luka Modrić starts on the bench. Kane wins his 126th cap, an England record."
    },
    "news": [
     {
      "team": "home",
      "tag": "info",
-     "text": "Harry Kane is set to break England's all-time appearance record.",
-     "src": "Sports Mole"
+     "text": "Harry Kane starts and becomes England's most-capped player (126).",
+     "src": "Bulinews"
     },
     {
      "team": "home",
      "tag": "out",
-     "text": "Cole Palmer, Phil Foden and Kobbie Mainoo were left out of the squad.",
-     "src": "Karlobag / PA"
-    },
-    {
-     "team": "home",
-     "tag": "info",
-     "text": "Jobe Bellingham and Josh King earned call-ups.",
-     "src": "Karlobag / PA"
+     "text": "Saka (injured), Palmer, Foden and Mainoo are not in the squad.",
+     "src": "Athlon / PA"
     },
     {
      "team": "away",
      "tag": "info",
-     "text": "Croatia have lost three of their last four Nations League games and their qualification hopes are effectively over.",
-     "src": "Goal"
+     "text": "Luka Modrić is on the bench; Matanović leads the line.",
+     "src": "WhoScored"
     }
    ],
    "players": {
@@ -861,7 +870,7 @@
      {
       "name": "Harry Kane",
       "pos": "FW",
-      "start": 0.95,
+      "start": 1,
       "shots": 25,
       "goals": 10,
       "pens": true
@@ -869,23 +878,15 @@
      {
       "name": "Jude Bellingham",
       "pos": "AM",
-      "start": 0.9,
+      "start": 1,
       "shots": 25,
       "goals": 7,
       "assists": 4
      },
      {
-      "name": "Bukayo Saka",
-      "pos": "FW",
-      "start": 0.45,
-      "shots": 21,
-      "goals": 5,
-      "note": "Not in predicted XI"
-     },
-     {
       "name": "Anthony Gordon",
       "pos": "FW",
-      "start": 0.85,
+      "start": 1,
       "shots": 13,
       "goals": 4,
       "assists": 2
@@ -893,58 +894,59 @@
      {
       "name": "Morgan Rogers",
       "pos": "AM",
-      "start": 0.8,
+      "start": 1,
       "shots": 16,
       "goals": 0
      },
      {
       "name": "Declan Rice",
       "pos": "MF",
-      "start": 0.9
+      "start": 1
+     },
+     {
+      "name": "Eberechi Eze",
+      "pos": "AM",
+      "start": 0,
+      "note": "On the bench"
      }
     ],
     "away": [
      {
-      "name": "Luka Modrić",
-      "pos": "MF",
-      "start": 0.85,
-      "goals": 2
-     },
-     {
-      "name": "Ivan Perišić",
+      "name": "Igor Matanović",
       "pos": "FW",
-      "start": 0.4,
-      "shots": 10,
-      "goals": 2,
-      "assists": 4,
-      "note": "Not in predicted XI"
-     },
-     {
-      "name": "Dion Beljo",
-      "pos": "FW",
-      "start": 0.85,
-      "goals": 1
+      "start": 1,
+      "shots": 19,
+      "goals": 0
      },
      {
       "name": "Martin Baturina",
       "pos": "AM",
-      "start": 0.85,
+      "start": 1,
       "goals": 1
-     },
-     {
-      "name": "Igor Matanović",
-      "pos": "FW",
-      "start": 0.3,
-      "shots": 19,
-      "goals": 0,
-      "note": "Not in predicted XI"
      },
      {
       "name": "Mateo Kovačić",
       "pos": "MF",
-      "start": 0.85,
+      "start": 1,
       "shots": 11,
       "goals": 0
+     },
+     {
+      "name": "Nikola Vlašić",
+      "pos": "AM",
+      "start": 1
+     },
+     {
+      "name": "Luka Sučić",
+      "pos": "AM",
+      "start": 1
+     },
+     {
+      "name": "Luka Modrić",
+      "pos": "MF",
+      "start": 0,
+      "goals": 2,
+      "note": "On the bench"
      }
     ]
    },
@@ -997,6 +999,10 @@
     {
      "title": "Tuchel leaves out Palmer, Foden and Mainoo",
      "url": "https://karlobag.eu/en/sports/tuchel-leaves-out-palmer-foden-and-mainoo-as-jobe-bellingham-and-josh-king-earn-obt9u/"
+    },
+    {
+     "title": "WhoScored: England vs Croatia confirmed lineups",
+     "url": "https://www.whoscored.com/news/_HEqu8FrjUqcwW-2pMMxcQ/show/england-vs-croatia-confirmed-lineups"
     }
    ]
   },
@@ -1121,33 +1127,47 @@
     }
    },
    "lineups": {
-    "status": "predicted",
-    "source": "Statz.ai predicted XI",
+    "status": "confirmed",
+    "source": "Official team sheets via WhoScored and YSScores",
     "home": {
      "formation": "4-2-3-1",
      "xi": [
-      "Lukáš Horníček",
+      "Matěj Kovář",
       "Vladimír Coufal",
       "David Zima",
+      "Ladislav Krejčí",
       "David Jurásek",
-      "Jiří Sláma",
-      "Alex Král",
       "Lukáš Červ",
+      "Alex Král",
       "Lukáš Ambros",
+      "Lukáš Provod",
+      "Adam Hložek",
+      "Ryan Naderi"
+     ],
+     "bench": [
+      "Tomáš Souček",
       "Kryštof Daněk",
       "David Kozel",
-      "Adam Hložek"
+      "Idris Hopi",
+      "Štěpán Chaloupek",
+      "Adam Gabriel",
+      "Christophe Kabongo",
+      "Martin Šubert",
+      "Antonín Kinský",
+      "Lukáš Horníček",
+      "Tomáš Vlček",
+      "Jiří Sláma"
      ]
     },
     "away": {
      "formation": "4-2-3-1",
      "xi": [
       "Unai Simón",
-      "Marc Pubill",
+      "Pedro Porro",
       "Pau Cubarsí",
-      "Aymeric Laporte",
+      "Dean Huijsen",
       "Marc Cucurella",
-      "Pedri",
+      "Martín Zubimendi",
       "Fabián Ruiz",
       "Yéremy Pino",
       "Fermín López",
@@ -1155,37 +1175,31 @@
       "Ferran Torres"
      ]
     },
-    "alt": "Spain are expected to rotate with top spot secured; Lamine Yamal and Mikel Oyarzabal are not in the predicted XI."
+    "alt": "Tomáš Souček is on Czechia's bench. Spain are without Lamine Yamal (knee) and Mikel Oyarzabal (illness); Mikel Merino is a substitute."
    },
    "news": [
     {
      "team": "away",
      "tag": "out",
-     "text": "Rodri, Dani Olmo and Eric García miss the squad with physical problems.",
-     "src": "Foot Africa"
+     "text": "Lamine Yamal (knee) and Mikel Oyarzabal (illness) are out.",
+     "src": "Sports Mole"
     },
     {
      "team": "away",
      "tag": "out",
-     "text": "Ander Barrenetxea withdrew; Jorge de Frutos and Víctor Muñoz called up.",
-     "src": "ČTK"
-    },
-    {
-     "team": "away",
-     "tag": "info",
-     "text": "First call-ups for Álvaro Valles, Marc Roca and Jacobo Ramón.",
-     "src": "SoccerNews"
-    },
-    {
-     "team": "home",
-     "tag": "back",
-     "text": "Tomáš Souček recalled after a long-term ankle injury.",
-     "src": "SoccerNews"
+     "text": "Rodri, Dani Olmo and Eric García also miss the squad.",
+     "src": "Foot Africa"
     },
     {
      "team": "home",
      "tag": "info",
-     "text": "Czechia have scored 2 and conceded 13 in their last five games.",
+     "text": "Ryan Naderi leads the attack; Souček starts on the bench.",
+     "src": "WhoScored"
+    },
+    {
+     "team": "home",
+     "tag": "info",
+     "text": "Czechia have lost five in a row (2 scored, 13 conceded).",
      "src": "Statz.ai"
     }
    ],
@@ -1194,79 +1208,63 @@
      {
       "name": "Adam Hložek",
       "pos": "FW",
-      "start": 0.85,
+      "start": 1,
       "shots": 9,
       "goals": 0
      },
      {
+      "name": "Ryan Naderi",
+      "pos": "FW",
+      "start": 1
+     },
+     {
       "name": "Ladislav Krejčí",
       "pos": "DF",
-      "start": 0.5,
-      "goals": 2,
-      "note": "Captain; not in predicted XI"
+      "start": 1,
+      "goals": 2
+     },
+     {
+      "name": "Lukáš Provod",
+      "pos": "AM",
+      "start": 1
      },
      {
       "name": "Tomáš Souček",
       "pos": "MF",
-      "start": 0.4,
-      "note": "Back from ankle injury"
-     },
-     {
-      "name": "Lukáš Červ",
-      "pos": "MF",
-      "start": 0.8
-     },
-     {
-      "name": "David Kozel",
-      "pos": "AM",
-      "start": 0.75
+      "start": 0,
+      "note": "On the bench"
      }
     ],
     "away": [
      {
-      "name": "Lamine Yamal",
-      "pos": "FW",
-      "start": 0.5,
-      "shots": 34,
-      "goals": 4,
-      "note": "Not in predicted XI"
-     },
-     {
       "name": "Ferran Torres",
       "pos": "FW",
-      "start": 0.85,
+      "start": 1,
       "shots": 13,
       "goals": 1,
       "assists": 2
      },
      {
-      "name": "Mikel Merino",
-      "pos": "MF",
-      "start": 0.35,
-      "goals": 5,
-      "note": "Not in predicted XI"
-     },
-     {
-      "name": "Mikel Oyarzabal",
-      "pos": "FW",
-      "start": 0.45,
-      "goals": 4,
-      "note": "Not in predicted XI"
-     },
-     {
       "name": "Fermín López",
       "pos": "AM",
-      "start": 0.8
+      "start": 1
      },
      {
       "name": "Yéremy Pino",
       "pos": "FW",
-      "start": 0.75
+      "start": 1
      },
      {
       "name": "Álex Baena",
       "pos": "AM",
-      "start": 0.75
+      "start": 1
+     },
+     {
+      "name": "Mikel Merino",
+      "pos": "MF",
+      "start": 0,
+      "goals": 5,
+      "note": "On the bench"
      }
     ]
    },
@@ -1328,8 +1326,15 @@
     {
      "title": "FootballPredictions.ai: Czechia vs Spain odds",
      "url": "https://footballpredictions.ai/football-predictions/czechia-vs-spain-predictions-tips-12-nov-2026/"
+    },
+    {
+     "title": "WhoScored: Czechia vs Spain confirmed lineups",
+     "url": "https://www.whoscored.com/news/c7T1MgeScUqOeaIJJT1r7A/show/czechia-vs-spain-confirmed-lineups"
     }
-   ]
+   ],
+   "adjust": {
+    "away": 0.96
+   }
   }
  ]
 }
