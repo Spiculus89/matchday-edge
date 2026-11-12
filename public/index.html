@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matchday Edge</title>
+<meta name="description" content="The day's biggest football matches priced from bookmaker odds, form, lineups, injuries, weather and news.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230f7a55'/%3E%3Cpath d='M16 7l6 4-2 7h-8l-2-7z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: a matchday program. Tonight's slip on top, then one full card per match,
+   bet slip and score grid side by side, lineups and the referee underneath. */
+:root {
+  --paper: #f3f5f1;
+  --card: #ffffff;
+  --ink: #15201a;
+  --muted: #5d6b63;
+  --line: #dde3dc;
+  --pitch: #0f7a55;
+  --pitch-soft: #e1f1ea;
+  --card-yellow: #e2b007;
+  --good: #137a3a; --good-bg: #e3f4e8;
+  --warn: #8a5a00; --warn-bg: #fbf0d2;
+  --bad: #a3271f; --bad-bg: #fbe6e3;
+  --info: #2c4f8f; --info-bg: #e5ecf8;
+  --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0e1512; --card: #16201b; --ink: #e7eee9; --muted: #9aaba1; --line: #283630;
+    --pitch: #3cc28d; --pitch-soft: #173a2c; --card-yellow: #f0c63a;
+    --good: #5fd18a; --good-bg: #173523; --warn: #f0c35a; --warn-bg: #3a2f12;
+    --bad: #ff8a7e; --bad-bg: #3f1d1a; --info: #8fb4ff; --info-bg: #1b2842;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0e1512; --card: #16201b; --ink: #e7eee9; --muted: #9aaba1; --line: #283630;
+  --pitch: #3cc28d; --pitch-soft: #173a2c; --card-yellow: #f0c63a;
+  --good: #5fd18a; --good-bg: #173523; --warn: #f0c35a; --warn-bg: #3a2f12;
+  --bad: #ff8a7e; --bad-bg: #3f1d1a; --info: #8fb4ff; --info-bg: #1b2842;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--paper); color: var(--ink); font: 15px/1.5 var(--body); -webkit-font-smoothing: antialiased; }
+a { color: var(--pitch); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--pitch); outline-offset: 2px; }
+.num { font-variant-numeric: tabular-nums; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px 56px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 700; letter-spacing: .01em; text-wrap: balance; margin: 0; }
+header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; padding: 28px 0 18px; border-bottom: 3px solid var(--ink); }
+.brand h1 { font-size: 40px; line-height: 1; text-transform: uppercase; }
+.brand h1 span { color: var(--pitch); }
+.brand p { margin: 6px 0 0; color: var(--muted); }
+.days { display: flex; gap: 6px; flex-wrap: wrap; }
+.days button { font: 600 14px var(--body); border: 1px solid var(--line); background: var(--card); color: var(--ink); padding: 6px 12px; border-radius: 999px; cursor: pointer; }
+.days button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.meta { color: var(--muted); font-size: 13px; text-align: right; }
+.section-title { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 28px 0 12px; }
+.section-title h2 { font-size: 26px; text-transform: uppercase; flex-shrink: 0; }
+.section-title p { margin: 0; color: var(--muted); font-size: 13px; max-width: 70ch; text-align: right; }
+
+/* Tonight's slip */
+.slipgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; }
+.tile { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; text-decoration: none; color: inherit; border-top: 4px solid var(--pitch); }
+.tile:hover { border-color: var(--pitch); }
+.tile .ko { font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; gap: 8px; }
+.tile .teams { font: 700 22px/1.1 var(--display); text-transform: uppercase; }
+.tile .pick { font-weight: 600; }
+.tile .row { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--muted); }
+.price { font: 700 20px var(--display); color: var(--ink); }
+
+/* Chips */
+.chip { display: inline-flex; align-items: center; gap: 5px; font: 600 11px/1 var(--body); text-transform: uppercase; letter-spacing: .04em; padding: 5px 8px; border-radius: 999px; white-space: nowrap; }
+.chip.good { background: var(--good-bg); color: var(--good); }
+.chip.warn { background: var(--warn-bg); color: var(--warn); }
+.chip.bad { background: var(--bad-bg); color: var(--bad); }
+.chip.info { background: var(--info-bg); color: var(--info); }
+.chip.plain { background: transparent; border: 1px solid var(--line); color: var(--muted); }
+.chip .dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+
+/* Match card */
+.match { background: var(--card); border: 1px solid var(--line); border-radius: 12px; margin-top: 18px; overflow: hidden; scroll-margin-top: 12px; }
+.mhead { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; padding: 12px 20px; border-bottom: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+.mhead .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.scoreline { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 16px; padding: 18px 20px 6px; }
+.team { display: flex; flex-direction: column; gap: 2px; }
+.team.away { text-align: right; align-items: flex-end; }
+.team .name { font: 700 34px/1 var(--display); text-transform: uppercase; }
+.team .xg { color: var(--muted); font-size: 13px; }
+.team .xg b { color: var(--ink); font: 700 18px var(--display); }
+.vs { font: 600 14px var(--display); color: var(--muted); text-transform: uppercase; }
+.context { padding: 0 20px 12px; color: var(--muted); font-size: 14px; max-width: 80ch; }
+.probbar { margin: 4px 20px 6px; }
+.bar { display: flex; height: 30px; border-radius: 6px; overflow: hidden; font: 700 14px var(--display); }
+.bar > div { display: flex; align-items: center; justify-content: center; color: #fff; min-width: 34px; }
+.bar .h { background: var(--pitch); } .bar .d { background: #7f8c85; } .bar .a { background: #2c4f8f; }
+.barlegend { display: flex; justify-content: space-between; gap: 8px; font-size: 12px; color: var(--muted); margin-top: 4px; flex-wrap: wrap; }
+
+.mbody { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 0; border-top: 1px solid var(--line); margin-top: 12px; }
+.panel { padding: 16px 20px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); min-width: 0; }
+.panel:nth-child(2n) { border-right: none; }
+.panel h3 { font-size: 18px; text-transform: uppercase; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.panel h3 small { font: 400 12px var(--body); color: var(--muted); text-transform: none; }
+.full { grid-column: 1 / -1; border-right: none; }
+
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th { text-align: left; font: 600 11px var(--body); text-transform: uppercase; letter-spacing: .05em; color: var(--muted); padding: 6px 6px; border-bottom: 1px solid var(--line); }
+td { padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+tr:last-child td { border-bottom: none; }
+td.r, th.r { text-align: right; white-space: nowrap; }
+.tablewrap { overflow-x: auto; }
+.market { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; white-space: nowrap; }
+.pickname { font-weight: 600; }
+.pbar { position: relative; height: 6px; background: var(--line); border-radius: 3px; width: 70px; display: inline-block; vertical-align: middle; margin-right: 6px; }
+.pbar i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--pitch); border-radius: 3px; }
+
+.topbet { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; background: var(--pitch-soft); border: 1px solid var(--pitch); border-radius: 10px; padding: 12px 14px; margin-bottom: 12px; }
+.topbet .lab { font: 600 11px var(--body); text-transform: uppercase; letter-spacing: .06em; color: var(--pitch); }
+.topbet .what { font: 700 22px/1.1 var(--display); text-transform: uppercase; }
+.topbet .nums { display: flex; gap: 16px; font-size: 12px; color: var(--muted); }
+.topbet .nums b { display: block; font: 700 20px var(--display); color: var(--ink); }
+.builder { margin-top: 12px; padding: 10px 12px; border: 1px dashed var(--line); border-radius: 8px; font-size: 14px; }
+.builder b { font-weight: 600; }
+
+.csgrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.cs { border: 1px solid var(--line); border-radius: 8px; padding: 8px 6px; text-align: center; }
+.cs .s { font: 700 22px var(--display); }
+.cs .p { font-size: 12px; color: var(--muted); }
+.cs:first-child { border-color: var(--pitch); background: var(--pitch-soft); }
+.ladder { margin-top: 14px; }
+.ladder td:first-child { white-space: nowrap; }
+
+.lineups { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.xi h4 { margin: 0 0 6px; font: 700 16px var(--display); text-transform: uppercase; display: flex; gap: 8px; align-items: center; justify-content: space-between; }
+.xi ol { margin: 0; padding-left: 22px; columns: 2; column-gap: 18px; font-size: 14px; }
+.xi li { break-inside: avoid; padding: 1px 0; }
+.alt { margin-top: 10px; font-size: 13px; color: var(--muted); }
+.news { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 6px; font-size: 14px; }
+.news li { display: grid; grid-template-columns: 58px 1fr; gap: 8px; align-items: start; }
+.news .src { color: var(--muted); font-size: 12px; }
+
+.kv { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 12px; }
+.kv > div { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+.kv span { display: block; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.kv b { font: 700 24px var(--display); }
+.yc { display: inline-block; width: 10px; height: 14px; background: var(--card-yellow); border-radius: 2px; vertical-align: -2px; margin-right: 4px; }
+.refnote { font-size: 13px; color: var(--muted); margin-top: 8px; }
+
+.sources { font-size: 13px; color: var(--muted); padding: 12px 20px 16px; display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.sources b { color: var(--ink); font-weight: 600; }
+
+footer { margin-top: 36px; border-top: 3px solid var(--ink); padding-top: 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; font-size: 14px; color: var(--muted); }
+footer h3 { font-size: 18px; text-transform: uppercase; color: var(--ink); margin-bottom: 6px; }
+footer p { margin: 0 0 8px; max-width: 65ch; }
+.err { background: var(--bad-bg); color: var(--bad); padding: 14px 16px; border-radius: 8px; margin-top: 20px; }
+
+@media (max-width: 860px) {
+  .mbody { grid-template-columns: 1fr; }
+  .panel { border-right: none; }
+  .lineups { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .wrap { padding: 0 16px 40px; }
+  .brand h1 { font-size: 32px; }
+  .team .name { font-size: 26px; }
+  .csgrid { grid-template-columns: repeat(2, 1fr); }
+  .kv { grid-template-columns: 1fr 1fr; }
+  .xi ol { columns: 1; }
+  .hide-sm { display: none; }
+  .meta { text-align: left; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+
+.live-score { font: 700 30px var(--display); color: var(--ink); text-align: center; }
+.wx { display: inline-flex; gap: 6px; align-items: center; }
+.notes { padding: 0 20px 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+.note-err { font-size: 12px; color: var(--warn); background: var(--warn-bg); border-radius: 6px; padding: 4px 8px; }
+.banner { margin-top: 16px; padding: 12px 16px; border-radius: 10px; font-size: 14px; }
+.banner.warn { background: var(--warn-bg); color: var(--warn); }
+.banner.bad { background: var(--bad-bg); color: var(--bad); }
+.setup { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px 24px; margin-top: 24px; max-width: 72ch; }
+.setup h2 { font-size: 26px; text-transform: uppercase; margin-bottom: 8px; }
+.setup ol { padding-left: 20px; } .setup li { margin: 6px 0; }
+.setup code { font: 13px ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--paper); padding: 1px 5px; border-radius: 4px; }
+.news a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+.news a:hover { border-color: var(--pitch); }
+.refresh { font: 600 13px var(--body); border: 1px solid var(--line); background: var(--card); color: var(--ink); padding: 6px 12px; border-radius: 999px; cursor: pointer; }
+.refresh[disabled] { opacity: .6; cursor: progress; }
+.removed { text-decoration: line-through; color: var(--muted); }
+.skeleton { color: var(--muted); padding: 24px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1>Matchday <span>Edge</span></h1>
+      <p>The day's biggest football matches, priced by a model built on bookmaker odds, team form, lineups, injuries, weather and news.</p>
+    </div>
+    <div>
+      <div class="days" id="days" role="group" aria-label="Choose a day"></div>
+      <div class="meta" id="meta"></div>
+    </div>
+  </header>
+
+  <div id="banner"></div>
+  <main id="app"><p class="skeleton">Loading today's matches…</p></main>
+
+  <footer>
+    <div>
+      <h3>How the picks are made</h3>
+      <p>Bookmaker prices for the result, goal lines and both-teams-to-score are stripped of their margin, then the engine finds the goal rates for each team that best reproduce them. Those rates are blended 75/25 with each side's scoring record in the competition this season, and trimmed a little for heavy rain, strong wind, heat or snow at the venue.</p>
+      <p>A Dixon-Coles score grid turns the two goal rates into every scoreline, and from there into results, handicaps, totals and BTTS. Corners and cards follow the bookmaker's line when one is offered, otherwise team averages. Scorer and assist chances share out each team's expected goals by the players' goals, assists and shots, scaled by how likely each one is to start.</p>
+    </div>
+    <div>
+      <h3>Where the data comes from</h3>
+      <p>Fixtures, odds, referees, injuries, suspensions, confirmed lineups and top scorers: API-Football. Weather at the venue: Open-Meteo. Team news headlines: Google News.</p>
+      <p>Lineups say <b>Predicted</b> (the team's last starting XI minus injured and suspended players) until the official team sheets arrive, about an hour before kick-off. Then they switch to <b>Confirmed</b> and every number is re-run. The page refreshes itself every five minutes.</p>
+    </div>
+    <div>
+      <h3>Before you bet</h3>
+      <p>These are probabilities, not certainties. A 60% pick still loses four times in ten, and with odds this close to the market most bets carry no real edge. Never stake more than you can afford to lose. 18+ only.</p>
+      <p><b>Fair odds</b> are what the model thinks a bet is worth. Only take a price above it.</p>
+    </div>
+  </footer>
+</div>
+<script src="engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
