@@ -53,3 +53,39 @@ test("scorer odds attach by name despite accents", () => {
   const r = E.analyse({ ...base, odds: { ...base.odds, scorers: { "Striker": 2.2 } }, players: { home: [{ name: "Strikér", pos: "FW", start: 1, goals: 6, shots: 30 }], away: [] } });
   assert.equal(r.players[0].scorerOdds, 2.2);
 });
+
+test("a short-priced market is never the best bet", () => {
+  const m = { ...base, odds: { h: 1.5, d: 4.2, a: 6.5, ou: { "2.5": [1.5, 2.5] }, btts: [1.6, 2.2] } };
+  const r = E.analyse(m);
+  if (r.picks.top) assert.ok(r.picks.top.ev >= -0.02);
+  else assert.match(r.picks.noBet, /No bet/);
+});
+
+test("props the price can't justify are marked Skip", () => {
+  const m = { ...base, players: { home: [{ name: "Winger", pos: "FW", start: 1, shots: 10 }], away: [] }, teamTotals: { home: { shots: 120 } },
+    season: { home: { shots: 13 } }, props: [{ player: "Winger", market: "1+ shots on target", odds: 1.3 }, { player: "Winger", market: "1+ shots", odds: 1.6 }] };
+  const r = E.analyse(m);
+  const sot = r.props.find(p => /target/.test(p.market));
+  assert.equal(sot.grade, "Skip");
+  assert.ok(sot.p < 0.77);
+});
+
+test("live: kick-off matches pre-match, full time is settled", () => {
+  const pre = E.analyse(base).markets;
+  const k = E.live(base, { minute: 0, home: 0, away: 0 }).markets;
+  assert.ok(Math.abs(k.home - pre.home) < 0.06);
+  const ft = E.live(base, { minute: 95, home: 2, away: 1, finished: true }).markets;
+  assert.ok(ft.home > 0.999);
+  const late = E.live(base, { minute: 80, home: 0, away: 1, redAway: 1 });
+  assert.ok(late.remainingXg.home > late.remainingXg.away);
+  late.picks.forEach(p => assert.ok(p.p >= 0.6 && p.p <= 0.9 && p.takeAt > 1));
+});
+
+test("track record nudges a market that keeps missing", () => {
+  const before = E.analyse(base).picks.all.filter(x => x.group === "Goals").map(x => Math.abs(x.p - 0.5));
+  const legs = Array.from({ length: 40 }, (_, i) => ({ group: "Goals", p: 0.65, won: i % 2 === 0 }));
+  E.setCalibration(E.trackStats(legs));
+  const after = E.analyse(base).picks.all.filter(x => x.group === "Goals").map(x => Math.abs(x.p - 0.5));
+  E.setCalibration({});
+  after.forEach((a, i) => assert.ok(a < before[i])); // both sides pulled toward 50/50
+});

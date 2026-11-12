@@ -156,6 +156,30 @@ td.r, th.r { text-align: right; white-space: nowrap; }
 footer { margin-top: 36px; border-top: 3px solid var(--ink); padding-top: 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; font-size: 14px; color: var(--muted); }
 footer h3 { font-size: 18px; text-transform: uppercase; color: var(--ink); margin-bottom: 6px; }
 footer p { margin: 0 0 8px; max-width: 65ch; }
+/* Live mode */
+.live { grid-column: 1 / -1; border-right: none; background: var(--pitch-soft); }
+.live summary { cursor: pointer; font: 700 18px var(--display); text-transform: uppercase; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; list-style: none; }
+.live summary::-webkit-details-marker { display: none; }
+.live summary::before { content: "▸"; color: var(--pitch); }
+.live[open] summary::before { content: "▾"; }
+.live summary small { font: 400 12px var(--body); color: var(--muted); text-transform: none; }
+.lform { display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 8px; margin: 12px 0; }
+.lform label { display: flex; flex-direction: column; gap: 3px; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.lform .pair { display: flex; gap: 4px; align-items: center; }
+.lform input { width: 100%; min-width: 0; font: 600 16px var(--body); padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); }
+.lform input:focus-visible { outline: 2px solid var(--pitch); outline-offset: 1px; }
+.lbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); }
+.btn { font: 600 13px var(--body); padding: 7px 12px; border-radius: 6px; border: 1px solid var(--pitch); background: var(--pitch); color: #fff; cursor: pointer; }
+.btn.ghost { background: transparent; color: var(--pitch); }
+.lout { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 16px; margin-top: 12px; }
+.lout h4 { margin: 0 0 6px; font: 700 15px var(--display); text-transform: uppercase; }
+.livepick { display: flex; justify-content: space-between; gap: 10px; align-items: center; background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--pitch); border-radius: 8px; padding: 8px 10px; margin-bottom: 6px; }
+.livepick b { font-weight: 600; }
+.livepick .take { text-align: right; font-size: 12px; color: var(--muted); white-space: nowrap; }
+.livepick .take b { display: block; font: 700 18px var(--display); color: var(--ink); }
+.nobet { font-weight: 600; color: var(--warn); }
+.track td.r b { font-weight: 600; }
+@media (max-width: 860px) { .lout { grid-template-columns: 1fr; } }
 .err { background: var(--bad-bg); color: var(--bad); padding: 14px 16px; border-radius: 8px; margin-top: 20px; }
 
 @media (max-width: 860px) {
@@ -203,6 +227,8 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
       <h3>Reading the numbers</h3>
       <p><b>Fair odds</b> are what the model thinks a bet is worth with no bookmaker margin. Only take a price above it.</p>
       <p><b>Edge</b> compares the model's chance with the odds on offer: Strong (clear edge), Lean (small edge), Fair price (about even) or Thin (the bookmaker's price is short).</p>
+      <p><b>Verdict</b>: Bet (the price beats the model), Lean (about fair, 55%+ chance) or Skip (the price is too short, or the chance is too low to back). Build slips from Bet and Lean rows only.</p>
+      <p><b>Live mode</b> opens on each match once it kicks off. It pulls the score from a free feed where it can, or takes what you type, and re-prices every market for the minutes left.</p>
       <p>Lineups say <b>Predicted</b> until the official team sheets are out, about an hour before kick-off. Then they switch to <b>Confirmed</b> and the numbers are re-run.</p>
     </div>
     <div>
@@ -247,11 +273,20 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
     var c = row.ev >= 0.04 && row.p >= 0.5 ? "Strong" : row.ev >= 0.015 ? "Lean" : row.ev >= -0.02 ? "Fair price" : "Thin";
     return confChip(c);
   }
+  function gradeChip(g, title) {
+    var cls = { Bet: "good", Lean: "warn", Skip: "plain" }[g] || "plain";
+    return '<span class="chip ' + cls + '"' + (title ? ' title="' + esc(title) + '"' : "") + ">" + esc(g) + "</span>";
+  }
+  function edgeTxt(ev) { return ev == null ? "model only" : "edge " + (ev >= 0 ? "+" : "") + (ev * 100).toFixed(1) + "%"; }
   function pbar(p) { return '<span class="pbar" aria-hidden="true"><i style="width:' + Math.round(p * 100) + '%"></i></span>'; }
 
   function tile(m, r) {
-    var t = r.picks.top || r.picks.slip[0];
+    var t = r.picks.top;
     var st = status(m);
+    if (!t) return '<a class="tile" href="#' + esc(m.id) + '" style="border-top-color:var(--warn)">' +
+      '<div class="ko"><span>' + esc(m.competition.replace("UEFA ", "")) + '</span><span class="chip ' + st.cls + '">' + esc(st.label) + "</span></div>" +
+      '<div class="teams">' + esc(m.home.name) + " v " + esc(m.away.name) + "</div>" +
+      '<div class="pick nobet">No bet</div><div class="row"><span>Every price is shorter than the model\'s fair odds. Check the live mode once it kicks off.</span></div></a>';
     var price = t.odds ? odd(t.odds) : odd(t.fair);
     return '<a class="tile" href="#' + esc(m.id) + '">' +
       '<div class="ko"><span>' + esc(m.competition.replace("UEFA ", "")) + '</span><span class="chip ' + st.cls + '">' + esc(st.label) + "</span></div>" +
@@ -265,14 +300,14 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
   function slipTable(m, r) {
     var rows = r.picks.slip.map(function (s) {
       return "<tr><td class=\"market\">" + esc(s.market) + '</td><td class="pickname">' + esc(s.pick) + (s.push ? ' <span class="market">push ' + pct(s.push) + "</span>" : "") +
-        '</td><td class="r num">' + pbar(s.p) + pct(s.p) + '</td><td class="r num">' + odd(s.odds) + '</td><td class="r num">' + odd(s.fair) + '</td><td class="r">' + evChip(s) + "</td></tr>";
+        '</td><td class="r num">' + pbar(s.p) + pct(s.p) + '</td><td class="r num">' + odd(s.odds) + '</td><td class="r num">' + odd(s.fair) + '</td><td class="r">' + gradeChip(s.grade, edgeTxt(s.ev)) + "</td></tr>";
     }).join("");
-    return '<div class="tablewrap"><table><thead><tr><th>Market</th><th>Pick</th><th class="r">Chance</th><th class="r">Odds</th><th class="r">Fair</th><th class="r">Edge</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+    return '<div class="tablewrap"><table><thead><tr><th>Market</th><th>Pick</th><th class="r">Chance</th><th class="r">Odds</th><th class="r">Fair</th><th class="r">Verdict</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
   }
 
   function topBet(r) {
     var t = r.picks.top;
-    if (!t) return "";
+    if (!t) return '<div class="topbet" style="background:var(--warn-bg);border-color:var(--warn)"><div><div class="lab" style="color:var(--warn)">Best bet</div><div class="what">No bet</div></div><div class="nums" style="max-width:46ch">' + esc(r.picks.noBet) + "</div></div>";
     return '<div class="topbet"><div><div class="lab">Best bet</div><div class="what">' + esc(t.label) + '</div></div>' +
       '<div class="nums num"><div><b>' + odd(t.odds) + "</b>odds</div><div><b>" + pct(t.p) + "</b>model</div><div><b>" + pct(t.implied) + "</b>bookmaker</div><div><b>" + odd(1 / t.p) + "</b>fair</div></div>" + confChip(t.confidence) + "</div>";
   }
@@ -346,10 +381,14 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
       '<p class="refnote"><b>Referee</b> · ' + refLine + "</p>";
   }
 
-  function props(m) {
-    if (!m.props || !m.props.length) return "";
-    var rows = m.props.map(function (p) { return "<tr><td class=\"pickname\">" + esc(p.player) + "</td><td>" + esc(p.market) + '</td><td class="r num">' + odd(p.odds) + '</td><td class="r num">' + esc(p.hit || "–") + "</td></tr>"; }).join("");
-    return '<h3 style="margin-top:16px">Player props <small>bet365 prices via Statz, hit rate over the last 5</small></h3><div class="tablewrap"><table><thead><tr><th>Player</th><th>Market</th><th class="r">Odds</th><th class="r">Last 5</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+  function props(m, r) {
+    if (!r.props || !r.props.length) return "";
+    var rows = r.props.map(function (p) {
+      return "<tr><td><span class=\"pickname\">" + esc(p.player) + '</span><br><span class="market" style="text-transform:none">' + esc(p.market) + (p.hitRate ? " · last 5: " + esc(p.hitRate) : "") + '</span></td><td class="r num">' + odd(p.odds) +
+        '</td><td class="r num">' + pct(p.need) + '</td><td class="r num">' + pct(p.p) + '</td><td class="r">' + gradeChip(p.grade, "based on " + p.basis + ", " + edgeTxt(p.ev)) + "</td></tr>";
+    }).join("");
+    return '<h3 style="margin-top:16px">Player props <small>price needs vs. model chance</small></h3><div class="tablewrap"><table><thead><tr><th>Prop</th><th class="r">Odds</th><th class="r">Needs</th><th class="r">Model</th><th class="r">Verdict</th></tr></thead><tbody>' + rows + "</tbody></table></div>" +
+      '<p class="refnote">Shot, foul and tackle props are priced short and swing on one substitution. They only get a Bet when the model clears the price. Never more than one in a builder.</p>';
   }
 
   function matchCard(m, r) {
@@ -364,19 +403,153 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
       '<div class="h" style="width:' + (mk.home * 100).toFixed(1) + '%">' + pct(mk.home) + '</div><div class="d" style="width:' + (mk.draw * 100).toFixed(1) + '%">' + pct(mk.draw) + '</div><div class="a" style="width:' + (mk.away * 100).toFixed(1) + '%">' + pct(mk.away) + "</div></div>" +
       '<div class="barlegend num"><span>Model: home · draw · away</span>' + (mp ? "<span>Bookmaker (margin removed): " + pct(mp[0]) + " · " + pct(mp[1]) + " · " + pct(mp[2]) + "</span>" : "") + (m.benchmarks && m.benchmarks.statz ? "<span>Statz model: " + pct(m.benchmarks.statz.h) + " · " + pct(m.benchmarks.statz.d) + " · " + pct(m.benchmarks.statz.a) + "</span>" : "") + "</div></div>" +
       '<p class="context">' + esc(m.context || "") + "</p>" +
-      '<div class="mbody">' +
+      '<div class="mbody">' + livePanel(m) +
         '<div class="panel"><h3>Bet slip <small>one pick per market</small></h3>' + topBet(r) + slipTable(m, r) +
           (r.picks.value && r.picks.value.ev > 0 ? '<div class="builder"><b>Value shot:</b> ' + esc(r.picks.value.label) + ' <span class="num">@ ' + odd(r.picks.value.odds) + " · chance " + pct(r.picks.value.p) + " · edge +" + (r.picks.value.ev * 100).toFixed(1) + "%</span> " + confChip(r.picks.value.confidence) + "</div>" : "") +
           (b ? '<div class="builder"><b>Bet builder:</b> ' + b.legs.map(esc).join(" + ") + ' <span class="num">· chance ' + pct(b.p) + " · fair odds " + odd(b.fair) + "</span></div>" : "") + "</div>" +
         '<div class="panel"><h3>Most likely scores <small>chance · fair odds</small></h3>' + scoreGrid(r) + goalLadder(m, r) + ahLadder(m, r) + "</div>" +
         '<div class="panel full">' + lineups(m) + "</div>" +
-        '<div class="panel"><h3>Scorers and assists <small>chance in 90 minutes</small></h3>' + playerTable(m, r) + props(m) + "</div>" +
+        '<div class="panel"><h3>Scorers and assists <small>chance in 90 minutes</small></h3>' + playerTable(m, r) + props(m, r) + "</div>" +
         '<div class="panel"><h3>Corners and cards</h3>' + cornersCards(m, r) + "</div>" +
       "</div>" +
       '<div class="sources"><b>Sources</b>' + (m.sources || []).map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + "</a>"; }).join("") + (m.odds && m.odds.book ? "<span>Odds: " + esc(m.odds.book) + "</span>" : "") + "</div>" +
       "</section>";
   }
 
+  // ---------- live mode ----------
+  var LIVE = {}; // match id -> state
+  var FIELDS = [["minute", "Minute", 1], ["home", "Goals", 2], ["cornersHome", "Corners", 2], ["yellowsHome", "Yellow cards", 2], ["redHome", "Red cards", 2], ["sotHome", "Shots on target", 2]];
+  function livePanel(m) {
+    var st = status(m), isLive = st.label === "Live";
+    var inputs = FIELDS.map(function (f) {
+      var k = f[0], k2 = k === "home" ? "away" : k.replace("Home", "Away");
+      var lab = f[1] + (f[2] === 2 ? " <span>" + esc(m.home.code || "H") + " · " + esc(m.away.code || "A") + "</span>" : "");
+      return '<label>' + lab + '<span class="pair"><input type="number" min="0" max="130" inputmode="numeric" data-k="' + k + '" aria-label="' + esc(f[1] + (f[2] === 2 ? " " + m.home.name : "")) + '">' +
+        (f[2] === 2 ? '<input type="number" min="0" max="40" inputmode="numeric" data-k="' + k2 + '" aria-label="' + esc(f[1] + " " + m.away.name) + '">' : "") + "</span></label>";
+    }).join("");
+    return '<details class="panel live" data-live="' + esc(m.id) + '"' + (isLive ? " open" : "") + '><summary>Live mode <small>picks re-priced from the score, minute, cards and corners</small><span class="chip ' + (isLive ? "bad" : "plain") + '" data-feed><span class="dot"></span>' + (isLive ? "Connecting…" : "Not started") + "</span></summary>" +
+      '<div class="lform">' + inputs + "</div>" +
+      '<div class="lbar"><button type="button" class="btn" data-act="calc">Update picks</button><button type="button" class="btn ghost" data-act="feed">Pull live score</button><span data-msg>Fill in what you know; minute and score are enough. Shots on target and corners sharpen it.</span></div>' +
+      '<div class="lout" data-out></div></details>';
+  }
+  function readState(box) {
+    var st = {};
+    box.querySelectorAll("input[data-k]").forEach(function (i) { if (i.value !== "") st[i.dataset.k] = +i.value; });
+    return st;
+  }
+  function writeState(box, st) {
+    box.querySelectorAll("input[data-k]").forEach(function (i) { var v = st[i.dataset.k]; if (v != null && document.activeElement !== i) i.value = v; });
+  }
+  function renderLive(box, m, st) {
+    var out = box.querySelector("[data-out]");
+    if (st.minute == null) { out.innerHTML = ""; return; }
+    var L = E.live(m, st), mk = L.markets, H = m.home.short || m.home.name, A = m.away.short || m.away.name;
+    var picks = L.picks.length ? L.picks.map(function (p) {
+      return '<div class="livepick"><div><b>' + esc(p.label) + '</b><br><span class="market">' + esc(p.group) + " · chance " + pct(p.p) + '</span></div><div class="take num">take at<b>' + odd(p.takeAt) + "</b>or better</div></div>";
+    }).join("") : '<p class="nobet">Nothing between 60% and 90% right now. Wait for the next event.</p>';
+    var overs = Object.keys(mk.over).slice(0, 4).map(function (k) { return "<tr><td>Over " + k + '</td><td class="r num">' + pct(mk.over[k]) + '</td><td class="r num">' + odd(1 / mk.over[k]) + '</td><td class="r num">' + odd(1 / (1 - mk.over[k])) + "</td></tr>"; }).join("");
+    out.innerHTML = '<div><h4>Live picks · ' + L.minute + "' · " + L.score.join("-") + "</h4>" + picks +
+      '<p class="refnote">Only take a pick when the bookmaker pays at least the "take at" price (fair odds plus 5%). Live prices move every few seconds, and a goal or red card changes everything: update and re-check.</p></div>' +
+      '<div><h4>Now</h4><div class="tablewrap"><table><tbody>' +
+      '<tr><td>' + esc(H) + ' win · draw · ' + esc(A) + ' win</td><td class="r num" colspan="3">' + pct(mk.home) + " · " + pct(mk.draw) + " · " + pct(mk.away) + "</td></tr>" +
+      '<tr><td>Next goal ' + esc(H) + " · none · " + esc(A) + '</td><td class="r num" colspan="3">' + pct(mk.nextGoal.home) + " · " + pct(mk.nextGoal.none) + " · " + pct(mk.nextGoal.away) + "</td></tr>" +
+      '<tr><td>Both teams to score</td><td class="r num" colspan="3">' + pct(mk.btts) + "</td></tr>" +
+      '<tr><td>Goals still to come (xG)</td><td class="r num" colspan="3">' + L.remainingXg.home.toFixed(2) + " · " + L.remainingXg.away.toFixed(2) + "</td></tr>" +
+      '<tr><th>Final total</th><th class="r">Over</th><th class="r">Over fair</th><th class="r">Under fair</th></tr>' + overs +
+      '<tr><td>Most likely final scores</td><td class="r num" colspan="3">' + mk.correctScores.slice(0, 3).map(function (c) { return c.score + " " + pct(c.p); }).join(" · ") + "</td></tr>" +
+      "</tbody></table></div></div>";
+  }
+
+  // Free scores from ESPN's public scoreboard. If it is unreachable the form still works by hand.
+  var SLUGS = [[/nations league/i, "uefa.nations"], [/champions league/i, "uefa.champions"], [/conference league/i, "uefa.europa.conf"], [/europa league/i, "uefa.europa"],
+    [/premier league/i, "eng.1"], [/la ?liga/i, "esp.1"], [/serie a/i, "ita.1"], [/bundesliga/i, "ger.1"], [/ligue 1/i, "fra.1"], [/ekstraklasa/i, "pol.1"],
+    [/world cup.*qual/i, "fifa.worldq.uefa"], [/friendl/i, "fifa.friendly"], [/euro.*qual/i, "uefa.euroq"]];
+  function slugFor(m) { if (m.espn) return m.espn; for (var i = 0; i < SLUGS.length; i++) if (SLUGS[i][0].test(m.competition || "")) return SLUGS[i][1]; return null; }
+  function norm(s) { return String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z]/g, ""); }
+  var ALIAS = { turkiye: "turkey", czechia: "czechrepublic", czechrep: "czechrepublic", korearepublic: "southkorea", usa: "unitedstates" };
+  function key(s) { var k = norm(s); return ALIAS[k] || k; }
+  function sameTeam(a, b) { a = key(a); b = key(b); return a === b || a.indexOf(b) >= 0 || b.indexOf(a) >= 0; }
+  function stat(comp, names) {
+    var list = comp.statistics || [];
+    for (var i = 0; i < list.length; i++) if (names.indexOf(list[i].name) >= 0) { var v = parseFloat(list[i].displayValue != null ? list[i].displayValue : list[i].value); if (!isNaN(v)) return v; }
+    return null;
+  }
+  function fetchFeed(m) {
+    var slug = slugFor(m); if (!slug) return Promise.reject(new Error("no feed for this competition"));
+    var d = new Date(m.kickoff), ymd = d.getUTCFullYear() + String(d.getUTCMonth() + 1).padStart(2, "0") + String(d.getUTCDate()).padStart(2, "0");
+    return fetch("https://site.api.espn.com/apis/site/v2/sports/soccer/" + slug + "/scoreboard?dates=" + ymd, { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error("feed " + r.status); return r.json(); })
+      .then(function (j) {
+        var ev = (j.events || []).filter(function (e) {
+          var c = (e.competitions || [])[0] || {}, t = c.competitors || [];
+          var h = t.filter(function (x) { return x.homeAway === "home"; })[0], a = t.filter(function (x) { return x.homeAway === "away"; })[0];
+          return h && a && sameTeam(h.team.displayName, m.home.name) && sameTeam(a.team.displayName, m.away.name);
+        })[0];
+        if (!ev) throw new Error("match not in feed");
+        var c = ev.competitions[0], h = c.competitors.filter(function (x) { return x.homeAway === "home"; })[0], a = c.competitors.filter(function (x) { return x.homeAway === "away"; })[0];
+        var stt = ev.status || c.status || {}, type = stt.type || {};
+        var clock = parseInt(String(stt.displayClock || "").replace(/[^0-9+].*$/, ""), 10);
+        var plus = /\+(\d+)/.exec(stt.displayClock || "");
+        var minute = type.state === "post" ? 95 : type.state === "pre" ? 0 : (isNaN(clock) ? Math.round((stt.clock || 0) / 60) : clock + (plus ? +plus[1] : 0));
+        if (/half/i.test(type.description || type.detail || "") && type.state === "in" && minute < 46) minute = 45;
+        var reds = { home: 0, away: 0 };
+        (c.details || []).forEach(function (dt) { if (dt.redCard) { if (dt.team && dt.team.id === h.team.id) reds.home++; else reds.away++; } });
+        var st = { minute: minute, home: +h.score || 0, away: +a.score || 0, finished: type.state === "post", state: type.state, detail: type.shortDetail || type.detail || "" };
+        var ch = stat(h, ["wonCorners", "cornerKicks", "corners"]), ca = stat(a, ["wonCorners", "cornerKicks", "corners"]);
+        if (ch != null && ca != null) { st.cornersHome = ch; st.cornersAway = ca; }
+        var yh = stat(h, ["yellowCards"]), ya = stat(a, ["yellowCards"]);
+        if (yh != null && ya != null) { st.yellowsHome = yh; st.yellowsAway = ya; }
+        var rh = stat(h, ["redCards"]), ra = stat(a, ["redCards"]);
+        st.redHome = rh != null ? rh : reds.home; st.redAway = ra != null ? ra : reds.away;
+        var sh = stat(h, ["shotsOnTarget", "onTargetShots"]), sa = stat(a, ["shotsOnTarget", "onTargetShots"]);
+        if (sh != null && sa != null) { st.sotHome = sh; st.sotAway = sa; }
+        return st;
+      });
+  }
+  function wireLive(byId) {
+    document.querySelectorAll("[data-live]").forEach(function (box) {
+      var m = byId[box.dataset.live], chip = box.querySelector("[data-feed]"), msg = box.querySelector("[data-msg]");
+      var timer = null;
+      function setChip(txt, cls) { chip.className = "chip " + cls; chip.innerHTML = '<span class="dot"></span>' + esc(txt); }
+      function calc() { var st = readState(box); LIVE[m.id] = st; renderLive(box, m, st); }
+      function pull(quiet) {
+        return fetchFeed(m).then(function (st) {
+          var manual = readState(box);
+          Object.keys(manual).forEach(function (k) { if (st[k] == null) st[k] = manual[k]; }); // keep what you typed when the feed lacks it
+          writeState(box, st); LIVE[m.id] = st; renderLive(box, m, st);
+          setChip(st.finished ? "Full time" : st.state === "pre" ? "Not started" : "Live feed · " + (st.detail || st.minute + "'"), st.state === "in" ? "bad" : "plain");
+          msg.textContent = "Updated " + new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" }) + (st.state === "in" ? ". Refreshes every minute while this panel is open." : ".");
+          return st;
+        }).catch(function (e) {
+          setChip("Feed unavailable", "warn");
+          if (!quiet) msg.textContent = "Couldn't reach the free live feed (" + e.message + "). Type the minute and score and press Update picks.";
+        });
+      }
+      function loop() { clearInterval(timer); timer = setInterval(function () { if (box.open && !document.hidden) pull(true); }, 60000); }
+      box.querySelector('[data-act="calc"]').addEventListener("click", calc);
+      box.querySelector('[data-act="feed"]').addEventListener("click", function () { pull(false).then(loop); });
+      box.querySelectorAll("input").forEach(function (i) { i.addEventListener("change", calc); });
+      box.addEventListener("toggle", function () { if (box.open && status(m).label === "Live") pull(true).then(loop); });
+      if (box.open) pull(true).then(loop);
+    });
+  }
+
+  // ---------- track record ----------
+  function trackRecord(rec) {
+    if (!rec || !rec.legs || !rec.legs.length) return "";
+    var g = E.trackStats(rec.legs), keys = Object.keys(g).sort(function (a, b) { return g[b].n - g[a].n; });
+    var all = rec.legs.filter(function (l) { return l.won != null; }), wins = all.filter(function (l) { return l.won; }).length;
+    var rows = keys.map(function (k) {
+      var s = g[k], diff = s.hit - s.meanP;
+      return "<tr><td>" + esc(k) + '</td><td class="r num">' + s.wins + "/" + s.n + '</td><td class="r num">' + pct(s.meanP) + '</td><td class="r num"><b style="color:var(' + (diff >= 0 ? "--good" : "--bad") + ')">' + pct(s.hit) + '</b></td><td class="r num">' + (s.roi == null ? "–" : (s.roi >= 0 ? "+" : "") + (s.roi * 100).toFixed(0) + "%") + "</td></tr>";
+    }).join("");
+    var days = {}; rec.legs.forEach(function (l) { days[l.date] = 1; });
+    return '<div class="section-title"><h2>Track record</h2><p>' + wins + " of " + all.length + " graded picks landed over " + Object.keys(days).length + ' day(s). Markets that land less often than the model said get their chances trimmed automatically.</p></div>' +
+      '<div class="match track"><div class="panel full"><div class="tablewrap"><table><thead><tr><th>Market</th><th class="r">Won</th><th class="r">Model said</th><th class="r">Landed</th><th class="r">Return at 1 unit</th></tr></thead><tbody>' + rows + "</tbody></table></div>" +
+      '<p class="refnote">A handful of days is noise: one day can swing any line here by 20 points. A market needs 8 graded picks before the model reacts, and the data only gets half weight at 25.</p></div></div>';
+  }
+
+  var RECORD = null;
   function render(day) {
     var results = day.matches.map(function (m) { return { m: m, r: E.analyse(m) }; });
     results.sort(function (a, b) { return new Date(a.m.kickoff) - new Date(b.m.kickoff); });
@@ -385,7 +558,9 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
       '<div class="section-title"><h2>Tonight\'s best bets</h2><p>' + esc(day.updateNote || "") + "</p></div>" +
       '<div class="slipgrid">' + results.map(function (x) { return tile(x.m, x.r); }).join("") + "</div>" +
       '<div class="section-title"><h2>' + esc(day.title || "Matches") + "</h2><p>" + results.length + " matches</p></div>" +
-      results.map(function (x) { return matchCard(x.m, x.r); }).join("");
+      results.map(function (x) { return matchCard(x.m, x.r); }).join("") + trackRecord(RECORD);
+    var byId = {}; results.forEach(function (x) { byId[x.m.id] = x.m; });
+    wireLive(byId);
     if (location.hash) { var el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
   }
 
@@ -396,7 +571,9 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
       .catch(function () { app.innerHTML = '<div class="err">Could not load the matches for ' + esc(entry.date) + ". Reload the page to try again.</div>"; });
   }
 
-  fetch("data/index.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (idx) {
+  var recordReady = fetch("data/results.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (rec) { RECORD = rec; if (rec) E.setCalibration(E.trackStats(rec.legs)); }).catch(function () {});
+  recordReady.then(function () { return fetch("data/index.json", { cache: "no-store" }); }).then(function (r) { return r.json(); }).then(function (idx) {
     var days = idx.days.slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; }).slice(0, 7);
     var buttons = days.map(function (d) {
       var b = document.createElement("button");

@@ -1,0 +1,249 @@
+{
+  "updated": "2026-11-12T21:56:16.893Z",
+  "note": "Every graded pick shown on the site. p = the chance shown at the time (bookmaker-implied for player props, which had no model then).",
+  "legs": [
+    {
+      "date": "2026-11-12",
+      "match": "tur-bel",
+      "group": "Result",
+      "pick": "Belgium to win",
+      "p": 0.55,
+      "odds": 1.8,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "tur-bel",
+      "group": "Goals",
+      "pick": "Over 2.5 goals",
+      "p": 0.65,
+      "odds": 1.5,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "tur-bel",
+      "group": "BTTS",
+      "pick": "Both teams to score",
+      "p": 0.63,
+      "odds": 1.5,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "tur-bel",
+      "group": "Corners",
+      "pick": "Under 10.5 corners",
+      "p": 0.62,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "tur-bel",
+      "group": "Cards",
+      "pick": "Under 4.5 cards",
+      "p": 0.62,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "tur-bel",
+      "group": "Bet builder",
+      "pick": "Belgium to win + Over 1.5 goals",
+      "p": 0.48,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "tur-bel",
+      "group": "Player prop",
+      "pick": "Charles De Ketelaere 1+ shots on target",
+      "p": 0.75,
+      "odds": 1.33,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "tur-bel",
+      "group": "Player prop",
+      "pick": "Timothy Castagne 1+ fouls",
+      "p": 0.69,
+      "odds": 1.44,
+      "won": false
+    },
+    {
+      "date": "2026-11-12",
+      "match": "ita-fra",
+      "group": "Goals",
+      "pick": "Under 3.5 goals (best bet)",
+      "p": 0.65,
+      "odds": 1.5,
+      "won": false
+    },
+    {
+      "date": "2026-11-12",
+      "match": "ita-fra",
+      "group": "Result",
+      "pick": "France to win",
+      "p": 0.46,
+      "odds": 1.95,
+      "won": false
+    },
+    {
+      "date": "2026-11-12",
+      "match": "ita-fra",
+      "group": "BTTS",
+      "pick": "Both teams to score",
+      "p": 0.6,
+      "odds": 1.53,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "ita-fra",
+      "group": "Corners",
+      "pick": "Over 7.5 corners",
+      "p": 0.63,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-12",
+      "match": "ita-fra",
+      "group": "Cards",
+      "pick": "Over 3.5 cards",
+      "p": 0.59,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "ita-fra",
+      "group": "Bet builder",
+      "pick": "France to win + Over 1.5 goals",
+      "p": 0.38,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-12",
+      "match": "ita-fra",
+      "group": "Player prop",
+      "pick": "Désiré Doué 3+ shots",
+      "p": 0.69,
+      "odds": 1.44,
+      "won": false
+    },
+    {
+      "date": "2026-11-12",
+      "match": "eng-cro",
+      "group": "Goals",
+      "pick": "Over 2.5 goals (best bet)",
+      "p": 0.7,
+      "odds": 1.44,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "eng-cro",
+      "group": "Handicap",
+      "pick": "England -1.5 (Asian handicap)",
+      "p": 0.57,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-12",
+      "match": "eng-cro",
+      "group": "BTTS",
+      "pick": "Both teams to score",
+      "p": 0.54,
+      "odds": 1.83,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "eng-cro",
+      "group": "Scorer",
+      "pick": "Harry Kane to score",
+      "p": 0.51,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "eng-cro",
+      "group": "Most corners",
+      "pick": "England",
+      "p": 0.7,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-12",
+      "match": "eng-cro",
+      "group": "Bet builder",
+      "pick": "England to win + Over 1.5 goals + BTTS",
+      "p": 0.37,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "eng-cro",
+      "group": "Player prop",
+      "pick": "Anthony Gordon 1+ shots on target",
+      "p": 0.77,
+      "odds": 1.3,
+      "won": false
+    },
+    {
+      "date": "2026-11-12",
+      "match": "cze-esp",
+      "group": "Goals",
+      "pick": "Under 3.5 goals (best bet)",
+      "p": 0.63,
+      "odds": 1.57,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "cze-esp",
+      "group": "Handicap",
+      "pick": "Spain -1.5 (Asian handicap)",
+      "p": 0.55,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "cze-esp",
+      "group": "BTTS",
+      "pick": "Both teams to score: No",
+      "p": 0.57,
+      "odds": 1.5,
+      "won": true
+    },
+    {
+      "date": "2026-11-12",
+      "match": "cze-esp",
+      "group": "Bet builder",
+      "pick": "Spain to win + Over 2.5 goals",
+      "p": 0.52,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-12",
+      "match": "cze-esp",
+      "group": "Player prop",
+      "pick": "Fermín López 1+ shots on target",
+      "p": 0.78,
+      "odds": 1.29,
+      "won": false
+    }
+  ]
+}

@@ -276,6 +276,91 @@
     return out;
   }
 
+  // ---------- learning from results ----------
+  // results.json holds every graded pick. For each market group we compare the chance the
+  // model gave with how often it actually landed. If a market lands less often than promised,
+  // its chances are pulled toward 50/50 (both sides of the line alike, so Over and Under stay
+  // consistent); if it lands more often, they are stretched a little. Nothing moves until a
+  // market has 8 graded picks, and the data gets half weight at 25.
+  var CAL = {};
+  function setCalibration(stats) { CAL = stats || {}; }
+  function calib(group, p) {
+    var s = CAL[group]; if (!s || s.n < 8 || p == null || group === "Result") return p;
+    var spread = Math.abs(s.meanP - 0.5); if (spread < 0.03) return p;
+    var kRaw = clamp((s.hit - 0.5) / (s.meanP - 0.5), 0.4, 1.25);
+    var k = 1 + (s.n / (s.n + 25)) * (kRaw - 1);
+    return clamp(0.5 + k * (p - 0.5), 0.01, 0.99);
+  }
+  function trackStats(legs) {
+    var g = {};
+    (legs || []).forEach(function (l) {
+      if (l.won == null || l.p == null || l.void) return;
+      var s = g[l.group] || (g[l.group] = { n: 0, wins: 0, sumP: 0, staked: 0, ret: 0 });
+      s.n++; s.wins += l.won ? 1 : 0; s.sumP += l.p;
+      if (l.odds) { s.staked++; s.ret += l.won ? l.odds : 0; }
+    });
+    Object.keys(g).forEach(function (k) { var s = g[k]; s.hit = s.wins / s.n; s.meanP = s.sumP / s.n; s.roi = s.staked ? s.ret / s.staked - 1 : null; });
+    return g;
+  }
+  // Counts the model prices on its own (no bookmaker line to anchor them) are pulled toward
+  // 50/50: on 12 Nov "Over 7.5 corners" in Italy-France and "England most corners" both missed.
+  function modelOnly(p) { return 0.5 + 0.8 * (p - 0.5); }
+
+  // Every slip row gets a verdict, so weak picks are labelled Skip instead of sitting in the slip.
+  function grade(x) {
+    if (x.odds) {
+      if (x.ev >= 0.015 && x.p >= 0.45) return "Bet";
+      if (x.ev >= -0.02 && x.p >= 0.55) return "Lean";
+      return "Skip";
+    }
+    return x.p >= 0.64 ? "Lean" : "Skip";
+  }
+
+  // ---------- player props (shots, shots on target, fouls, tackles) ----------
+  // Bookmakers price "1+ shot on target" at 1.30 (needs 77%) for wingers who average under one
+  // a game. Every prop now gets a model chance, and a prop is only a bet if that beats the price.
+  var PROP_PRIOR = {
+    shots:   { FW: 2.5, AM: 1.8, MF: 1.0, DF: 0.55, GK: 0 },
+    sot:     { FW: 0.95, AM: 0.65, MF: 0.33, DF: 0.17, GK: 0 },
+    fouls:   { FW: 1.15, AM: 1.0, MF: 1.35, DF: 1.05, GK: 0.08 },
+    tackles: { FW: 0.55, AM: 1.0, MF: 1.8, DF: 1.6, GK: 0.02 }
+  };
+  function parseProp(market) {
+    var m = /(\d+)\+?\s*(shots on target|shot on target|shots|shot|fouls committed|fouls|foul|tackles|tackle)/i.exec(market || "");
+    if (!m) return null;
+    var w = m[2].toLowerCase();
+    return { k: +m[1], stat: /target/.test(w) ? "sot" : /shot/.test(w) ? "shots" : /foul/.test(w) ? "fouls" : "tackles" };
+  }
+  function nbAtLeast(k, mu, r) { var s = 0; for (var i = 0; i < k; i++) s += nbPmf(i, mu, r); return 1 - s; }
+  function propModel(match, prop, lh, la) {
+    var pp = parseProp(prop.market); if (!pp) return null;
+    var who = null, side = null;
+    ["home", "away"].forEach(function (sd) { ((match.players && match.players[sd]) || []).forEach(function (pl) {
+      if (!who && normName(pl.name) === normName(prop.player)) { who = pl; side = sd; } }); });
+    var pos = (who && who.pos) || prop.pos || "MF";
+    var prior = PROP_PRIOR[pp.stat][pos] != null ? PROP_PRIOR[pp.stat][pos] : PROP_PRIOR[pp.stat].MF;
+    var rate = prior, basis = "position average";
+    var own = who && who[pp.stat + "90"];
+    if (own != null) { rate = 0.75 * own + 0.25 * prior; basis = "player per-90"; }
+    else if (who && (pp.stat === "shots" || pp.stat === "sot") && who.shots && match.teamTotals && match.teamTotals[side] && match.teamTotals[side].shots) {
+      var teamPg = (match.season && match.season[side] && match.season[side].shots) || 12;
+      var est = who.shots / match.teamTotals[side].shots * teamPg * (pp.stat === "sot" ? (pos === "FW" ? 0.4 : 0.33) : 1);
+      rate = 0.6 * est + 0.4 * prior; basis = "share of team shots";
+    }
+    if (pp.stat === "shots" || pp.stat === "sot") rate *= Math.pow((side === "away" ? la : lh) / BASE_GOALS, 0.5);
+    var start = who && who.start != null ? who.start : 0.7;
+    var mins = start * 0.85 + (1 - start) * 0.12;
+    var mu = rate * mins;
+    var p = nbAtLeast(pp.k, mu, pp.stat === "fouls" || pp.stat === "tackles" ? 6 : 4);
+    var hit = /^(\d+)\/(\d+)$/.exec(prop.hit || "");
+    if (hit) p = (p * 10 + +hit[1]) / (10 + +hit[2]); // last-5 hit rates are noisy: worth 5 games against 10 of model
+    p = calib("Player prop", p);
+    var ev = prop.odds ? p * prop.odds - 1 : null;
+    return { player: prop.player, market: prop.market, odds: prop.odds || null, hitRate: prop.hit || null, p: p, fair: fair(p), ev: ev,
+      need: prop.odds ? 1 / prop.odds : null, basis: basis, mean: mu,
+      grade: ev == null ? (p >= 0.75 ? "Lean" : "Skip") : ev >= 0.03 ? "Bet" : ev >= 0 ? "Lean" : "Skip" };
+  }
+
   // ---------- picks ----------
   function ahLabel(name, line) { return name + " " + (line > 0 ? "+" : "") + line + " (Asian handicap)"; }
 
@@ -284,6 +369,7 @@
     function add(label, group, p, odds, pair, push) {
       if (!odds || p == null) return;
       push = push || 0;
+      p = calib(group, p);
       c.push({ label: label, group: group, p: p, push: push || null, odds: odds, implied: pair != null ? pair : 1 / odds,
         ev: p * odds + push - 1 });
     }
@@ -367,6 +453,7 @@
       var p = fav === "home" ? a.homeWin : a.awayWin, f = fav === "home" ? a.homeFair : a.awayFair;
       var push = a.push;
       var lab = ahLabel(favName, line), bk = find(lab);
+      if (!bk && line < -1) return; // 12 Nov: model-only -1.5 for England lost on a 2-1; keep push protection
       opts.push({ label: lab, p: p, push: push, fair: f, odds: bk ? bk.odds : null, ev: bk ? bk.ev : null });
     });
     var res = best(opts.filter(function (x) { var pr = x.odds || x.fair; return pr >= 1.55 && pr <= 2.4; }), function (x) { return x.p + (x.ev != null ? x.ev : -0.03); })
@@ -394,28 +481,32 @@
     }
     var cb = bookCount("Corners"), cs = cb ? null : lineSide(ctx.corners.over, "corners");
     if (cb) out.push({ market: "Corners", pick: cb.label, p: cb.p, odds: cb.odds, ev: cb.ev, fair: fair(cb.p) });
-    else if (cs) out.push({ market: "Corners", pick: cs.label, p: cs.p, odds: null, fair: fair(cs.p) });
+    else if (cs) { var cp = calib("Corners", modelOnly(cs.p)); out.push({ market: "Corners", pick: cs.label, p: cp, odds: null, fair: fair(cp) }); }
     var mc = ctx.corners.homeMore >= ctx.corners.awayMore ? { n: names.home, p: ctx.corners.homeMore } : { n: names.away, p: ctx.corners.awayMore };
-    out.push({ market: "Most corners", pick: mc.n, p: mc.p, odds: null, fair: fair(mc.p) });
+    var mcp = calib("Most corners", modelOnly(mc.p));
+    out.push({ market: "Most corners", pick: mc.n, p: mcp, odds: null, fair: fair(mcp) });
     var kb = bookCount("Cards"), cd = kb ? null : lineSide(ctx.cards.over, "cards");
     if (kb) out.push({ market: "Cards", pick: kb.label, p: kb.p, odds: kb.odds, ev: kb.ev, fair: fair(kb.p) });
-    else if (cd) out.push({ market: "Cards", pick: cd.label, p: cd.p, odds: null, fair: fair(cd.p) });
+    else if (cd) { var kp = calib("Cards", modelOnly(cd.p)); out.push({ market: "Cards", pick: cd.label, p: kp, odds: null, fair: fair(kp) }); }
     return out;
   }
 
   function pickBets(m, o, names, M, ctx) {
     var c = candidates(m, o, names, ctx);
     c.forEach(function (x) { x.edge = x.p - x.implied; x.confidence = confidence(x); });
-    var top = best(c.filter(function (x) { return x.odds >= 1.35 && x.odds <= 3.5 && x.p >= 0.48; }), function (x) { return 2 * x.ev + 0.25 * (x.p - 0.5); });
+    var top = best(c.filter(function (x) { return x.odds >= 1.35 && x.odds <= 3.5 && x.p >= 0.5 && x.ev >= -0.02 && x.group !== "Scorer"; }), function (x) { return 2 * x.ev + 0.25 * (x.p - 0.5); });
     var safe = best(c.filter(function (x) { return x.odds >= 1.2 && x.ev >= -0.07 && x !== top; }), function (x) { return x.p + 0.5 * x.ev; });
     var value = best(c.filter(function (x) { return x.odds >= 2.4 && x.p >= 0.18 && x !== top && x !== safe; }), function (x) { return x.ev; });
     // Bet builder: result leg x goals leg x BTTS leg, priced exactly from the score matrix
     var fav = m.home >= m.away ? "home" : "away";
     var favName = names[fav];
-    var res = [
-      { label: favName + " to win", f: fav === "home" ? function (h, a) { return h > a; } : function (h, a) { return a > h; } },
-      { label: favName + " or draw", f: fav === "home" ? function (h, a) { return h >= a; } : function (h, a) { return a >= h; } }
-    ];
+    // A result leg only goes in when the favourite really is one: on 12 Nov the builder
+    // "France to win" (46%) sank, while builders on 55%+ favourites landed.
+    var pFav = fav === "home" ? m.home : m.away;
+    var res = [];
+    if (pFav >= 0.55) res.push({ label: favName + " to win", f: fav === "home" ? function (h, a) { return h > a; } : function (h, a) { return a > h; } });
+    if (pFav + m.draw >= 0.72) res.push({ label: favName + " or draw", f: fav === "home" ? function (h, a) { return h >= a; } : function (h, a) { return a >= h; } });
+    res.push({ label: null, f: function () { return true; } });
     var gl = [
       { label: "Over 1.5 goals", f: function (h, a) { return h + a >= 2; } },
       { label: "Over 2.5 goals", f: function (h, a) { return h + a >= 3; } },
@@ -429,14 +520,19 @@
     var builds = [];
     res.forEach(function (r) { gl.forEach(function (g) { bt.forEach(function (b) {
       var p = sumIf(M, function (h, a) { return r.f(h, a) && g.f(h, a) && b.f(h, a); });
-      var legs = [r.label, g.label]; if (b.label) legs.push(b.label);
+      var legs = []; if (r.label) legs.push(r.label); legs.push(g.label); if (b.label) legs.push(b.label);
+      if (legs.length < 2) return;
       builds.push({ legs: legs, p: p, fair: 1 / p });
     }); }); });
     var winBuilds = builds.filter(function (x) { return x.legs[0] === favName + " to win" && x.fair >= 1.9 && x.fair <= 4.5; });
-    var builder = best(winBuilds.length ? winBuilds : builds.filter(function (x) { return x.fair >= 1.9 && x.fair <= 4.5; }), function (x) { return x.p + 0.03 * x.legs.length; });
+    var builder = best(winBuilds.length ? winBuilds : builds.filter(function (x) { return x.fair >= 1.9 && x.fair <= 4.5 && x.p >= 0.3; }), function (x) { return x.p + 0.03 * x.legs.length; });
+    // Props join a slip only when the model beats the price; the rest are flagged Skip
+    var props = (ctx.props || []).slice().sort(function (a, b) { return (b.ev || -1) - (a.ev || -1); });
     var s = slip(m, o, names, c, ctx);
     c.sort(function (a, b) { return b.ev - a.ev; });
-    return { top: top, safe: safe, value: value, builder: builder, slip: s, all: c };
+    s.forEach(function (row) { row.grade = grade(row); });
+    var noBet = !top ? "No bet: every price on offer is shorter than the model's fair odds." : null;
+    return { top: top, noBet: noBet, safe: safe, value: value, builder: builder, slip: s, props: props, all: c };
   }
 
   // ---------- main ----------
@@ -460,16 +556,88 @@
     var ctx = {
       corners: corners(match, lh, la),
       cards: cards(match, m.home, m.away),
-      players: players(match, lh, la).sort(function (a, b) { return b.scorer - a.scorer; })
+      players: players(match, lh, la).sort(function (a, b) { return b.scorer - a.scorer; }),
+      props: (match.props || []).map(function (pr) { return propModel(match, pr, lh, la); }).filter(Boolean)
     };
     return {
       id: match.id, xg: { home: lh, away: la }, method: method,
       market: mk ? { lh: mk.lh, la: mk.la, fitError: mk.fitError, probs: marketProbs.probs, margin: marketProbs.margin } : null,
       form: st, markets: m, weather: wx,
-      corners: ctx.corners, cards: ctx.cards, players: ctx.players,
+      corners: ctx.corners, cards: ctx.cards, players: ctx.players, props: ctx.props,
       picks: pickBets(m, o, names, M, ctx)
     };
   }
 
-  return { analyse: analyse, devig: devig, scoreMatrix: scoreMatrix, fair: fair, round: round };
+
+  // ---------- live (in-play) ----------
+  // state: { minute, home, away (goals), redHome, redAway, cornersHome, cornersAway,
+  //          yellowsHome, yellowsAway, sotHome, sotAway (optional), finished }
+  // The pre-match goal rates are scaled to the minutes left (goals come a little faster late
+  // on), adjusted for the score (trailing sides push, leaders sit deeper), red cards, and how
+  // the game is actually going (shots on target against what the pre-match rates expected).
+  function live(match, st) {
+    var pre = analyse(match);
+    st = st || {};
+    var names = { home: match.home.short || match.home.name, away: match.away.short || match.away.name };
+    var t = clamp(+st.minute || 0, 0, 120), hg = +st.home || 0, ag = +st.away || 0;
+    var rH = +st.redHome || 0, rA = +st.redAway || 0;
+    function F(x) { return 0.85 * x + 0.15 * x * x / 90; } // intensity rises from 0.85 to 1.15
+    var end = Math.max(94, t + 2), full = F(94);
+    var rem = st.finished ? 0 : clamp((F(end) - F(Math.min(t, end))) / full, 0, 1);
+    var elapsed = clamp(F(Math.min(t, 94)) / full, 0, 1);
+    var lh = pre.xg.home, la = pre.xg.away;
+    // how the game is going: shots on target vs. ~3.2 per expected goal
+    var form = { home: 1, away: 1 };
+    if (st.sotHome != null && st.sotAway != null && elapsed > 0.15) {
+      var w = 0.55 * elapsed;
+      form.home = 1 + w * (clamp(st.sotHome / Math.max(lh * 3.2 * elapsed, 0.3), 0.4, 2.2) - 1);
+      form.away = 1 + w * (clamp(st.sotAway / Math.max(la * 3.2 * elapsed, 0.3), 0.4, 2.2) - 1);
+    }
+    var d = hg - ag, sH = 1, sA = 1;
+    if (d === 1) { sH = 0.9; sA = 1.15; } else if (d >= 2) { sH = 0.9; sA = 1.05; }
+    else if (d === -1) { sA = 0.9; sH = 1.15; } else if (d <= -2) { sA = 0.9; sH = 1.05; }
+    var redH = Math.pow(0.7, rH) * Math.pow(1.25, rA), redA = Math.pow(0.7, rA) * Math.pow(1.25, rH);
+    var rh = lh * rem * sH * redH * form.home, ra = la * rem * sA * redA * form.away;
+    var M = scoreMatrix(Math.max(rh, 1e-6), Math.max(ra, 1e-6), 0);
+    function P(f) { return sumIf(M, function (i, j) { return f(hg + i, ag + j, i, j); }); }
+    var mk = {};
+    mk.home = P(function (h, a) { return h > a; }); mk.draw = P(function (h, a) { return h === a; }); mk.away = 1 - mk.home - mk.draw;
+    mk.noMoreGoals = M[0][0];
+    var tot = rh + ra;
+    mk.nextGoal = { home: tot > 0 ? rh / tot * (1 - M[0][0]) : 0, away: tot > 0 ? ra / tot * (1 - M[0][0]) : 0, none: M[0][0] };
+    mk.btts = P(function (h, a) { return h > 0 && a > 0; });
+    var now = hg + ag; mk.over = {};
+    [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5].forEach(function (L) { if (L > now) mk.over[L] = P(function (h, a) { return h + a > L; }); });
+    var cs = [];
+    for (var i = 0; i <= 6; i++) for (var j = 0; j <= 6; j++) cs.push({ score: (hg + i) + "-" + (ag + j), p: M[i][j] });
+    cs.sort(function (x, y) { return y.p - x.p; }); mk.correctScores = cs.slice(0, 6);
+    // corners: trailing sides win more of them
+    var cH = +st.cornersHome || 0, cA = +st.cornersAway || 0, cRem = rem;
+    var chm = pre.corners.home * cRem * (d < 0 ? 1.3 : d > 0 ? 0.85 : 1) * Math.pow(0.85, rH);
+    var cam = pre.corners.away * cRem * (d > 0 ? 1.3 : d < 0 ? 0.85 : 1) * Math.pow(0.85, rA);
+    var cd = nbDist(chm + cam, 9, 25), cNow = cH + cA, corners = { now: cNow, restMean: chm + cam, over: {} };
+    for (var L = Math.floor(cNow) + 0.5; L <= cNow + 6.5; L += 1) { var s0 = 0; for (var k = 0; k < cd.length; k++) if (cNow + k > L) s0 += cd[k]; corners.over[L] = s0; }
+    // cards: more of them late and in close games
+    var yNow = (+st.yellowsHome || 0) + (+st.yellowsAway || 0);
+    var ym = pre.cards.total * clamp(rem * 1.15, 0, 1) * (Math.abs(d) <= 1 ? 1.1 : 0.9);
+    var yd = nbDist(ym, 12, 15), cards = { now: yNow, restMean: ym, over: {} };
+    for (var L2 = Math.floor(yNow) + 0.5; L2 <= yNow + 4.5; L2 += 1) { var s1 = 0; for (var k2 = 0; k2 < yd.length; k2++) if (yNow + k2 > L2) s1 += yd[k2]; cards.over[L2] = s1; }
+
+    // live picks: best of each market at a 60-88% chance, with the price that makes it worth it
+    var opts = [];
+    function add(group, label, p) { if (p >= 0.6 && p <= 0.9) opts.push({ group: group, label: label, p: p, fair: 1 / p, takeAt: round(1.05 / p, 2) }); }
+    add("Result", names.home + " to win", mk.home); add("Result", names.away + " to win", mk.away);
+    add("Result", names.home + " or draw", mk.home + mk.draw); add("Result", names.away + " or draw", mk.away + mk.draw);
+    Object.keys(mk.over).forEach(function (L) { add("Goals", "Over " + L + " goals", mk.over[L]); add("Goals", "Under " + L + " goals", 1 - mk.over[L]); });
+    add("BTTS", "Both teams to score", mk.btts); add("BTTS", "Both teams to score: No", 1 - mk.btts);
+    if (rem > 0.08) { add("Next goal", names.home + " next goal", mk.nextGoal.home); add("Next goal", names.away + " next goal", mk.nextGoal.away); }
+    if (st.cornersHome != null && st.cornersAway != null) Object.keys(corners.over).forEach(function (L) { add("Corners", "Over " + L + " corners", modelOnly(corners.over[L])); add("Corners", "Under " + L + " corners", modelOnly(1 - corners.over[L])); });
+    if (st.yellowsHome != null && st.yellowsAway != null) Object.keys(cards.over).forEach(function (L) { add("Cards", "Over " + L + " cards", modelOnly(cards.over[L])); add("Cards", "Under " + L + " cards", modelOnly(1 - cards.over[L])); });
+    var groups = {}; opts.forEach(function (o) { var g = groups[o.group]; if (!g || Math.abs(o.p - 0.72) < Math.abs(g.p - 0.72)) groups[o.group] = o; });
+    var picks = Object.keys(groups).map(function (k) { return groups[k]; }).sort(function (a, b) { return b.p - a.p; });
+    return { pre: pre, minute: t, score: [hg, ag], remainingXg: { home: rh, away: ra }, form: form, markets: mk, corners: corners, cards: cards, picks: picks, finished: !!st.finished };
+  }
+
+  return { analyse: analyse, live: live, devig: devig, scoreMatrix: scoreMatrix, fair: fair, round: round,
+    setCalibration: setCalibration, trackStats: trackStats, parseProp: parseProp };
 });
