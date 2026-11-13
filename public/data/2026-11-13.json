@@ -182,7 +182,11 @@
           "title": "FootballPredictions.com",
           "url": "https://footballpredictions.com/footballpredictions/nations-league-predictions/moldova-vs-kazakhstan-prediction-13-11-2026/"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 1
+      }
     },
     {
       "id": "ned-gre",
