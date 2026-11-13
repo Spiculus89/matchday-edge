@@ -390,7 +390,7 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
       var who = n.team === "home" ? m.home.code || m.home.name : n.team === "away" ? m.away.code || m.away.name : "";
       return '<li><span class="chip ' + tagCls + '">' + esc(n.tag) + "</span><span>" + (who ? "<b>" + esc(who) + "</b> · " : "") + esc(n.text) + ' <span class="src">' + esc(n.src || "") + "</span></span></li>";
     }).join("");
-    return '<h3>Lineups <small><span class="chip ' + (confirmed ? "good" : "warn") + '"><span class="dot"></span>' + (confirmed ? "Confirmed" : "Predicted") + "</span> " + esc(L.source || "") + "</small></h3>" +
+    return '<h3>Lineups <small><span class="chip ' + (confirmed ? "good" : "warn") + '"><span class="dot"></span>' + (confirmed ? "Confirmed" : L.status === "pending" ? "Due about an hour before kick-off" : "Predicted") + "</span> " + esc(L.source || "") + "</small></h3>" +
       '<div class="lineups">' + side(m.home, "home") + side(m.away, "away") + "</div>" +
       (L.alt ? '<p class="alt">' + esc(L.alt) + "</p>" : "") +
       (news ? '<ul class="news">' + news + "</ul>" : "");
@@ -433,7 +433,7 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
     var mk = r.markets;
     var b = r.picks.builder;
     return '<section class="match" id="' + esc(m.id) + '" aria-labelledby="t-' + esc(m.id) + '">' +
-      '<div class="mhead"><span>' + esc(m.competition) + " · " + esc(m.venue) + '</span><span class="chips"><span class="chip ' + st.cls + '"><span class="dot"></span>' + esc(st.label) + '</span><span class="chip ' + (m.lineups && m.lineups.status === "confirmed" ? "good" : "warn") + '">' + (m.lineups && m.lineups.status === "confirmed" ? "Lineups confirmed" : "Lineups predicted") + "</span></span></div>" +
+      '<div class="mhead"><span>' + esc(m.competition) + " · " + esc(m.venue) + '</span><span class="chips"><span class="chip ' + st.cls + '"><span class="dot"></span>' + esc(st.label) + '</span><span class="chip ' + (m.lineups && m.lineups.status === "confirmed" ? "good" : "warn") + '">' + (m.lineups && m.lineups.status === "confirmed" ? "Lineups confirmed" : m.lineups && m.lineups.status === "pending" ? "Lineups pending" : "Lineups predicted") + "</span></span></div>" +
       '<div class="scoreline"><div class="team"><span class="name" id="t-' + esc(m.id) + '">' + esc(m.home.name) + '</span><span class="xg">Expected goals <b class="num">' + r.xg.home.toFixed(2) + '</b></span></div><span class="vs">' + time(m.kickoff) + '</span><div class="team away"><span class="name">' + esc(m.away.name) + '</span><span class="xg">Expected goals <b class="num">' + r.xg.away.toFixed(2) + "</b></span></div></div>" +
       '<div class="probbar"><div class="bar num" role="img" aria-label="Model: ' + esc(m.home.name) + " " + pct(mk.home) + ", draw " + pct(mk.draw) + ", " + esc(m.away.name) + " " + pct(mk.away) + '">' +
       '<div class="h" style="width:' + (mk.home * 100).toFixed(1) + '%">' + pct(mk.home) + '</div><div class="d" style="width:' + (mk.draw * 100).toFixed(1) + '%">' + pct(mk.draw) + '</div><div class="a" style="width:' + (mk.away * 100).toFixed(1) + '%">' + pct(mk.away) + "</div></div>" +

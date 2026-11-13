@@ -18,7 +18,9 @@ for (const m of day.matches) {
     if (Math.abs(k.home + k.draw + k.away - 1) > 1e-6) throw new Error("1X2 does not sum to 1");
     if (m.odds && m.odds.h) { const mg = r.market.margin; if (mg < 0 || mg > 0.15) throw new Error(`odd 1X2 margin ${(mg*100).toFixed(1)}%`); }
     if (m.odds && m.odds.ou) for (const [L, pr] of Object.entries(m.odds.ou)) { const s = 1/pr[0] + 1/pr[1]; if (s < 1 || s > 1.15) throw new Error(`O/U ${L} margin looks wrong (${s.toFixed(3)})`); }
-    if (!m.lineups || !m.lineups.home || m.lineups.home.xi.length !== 11 || m.lineups.away.xi.length !== 11) throw new Error("lineups must have 11 per side");
+    const pending = m.lineups && m.lineups.status === "pending";
+    if (!m.lineups || !m.lineups.home || (!pending && (m.lineups.home.xi.length !== 11 || m.lineups.away.xi.length !== 11))) throw new Error("lineups must have 11 per side (or status \"pending\" until the team sheets are out)");
+    if (pending) console.log(`    ${m.home.name} v ${m.away.name}: lineups pending, the kick-off run must fill them`);
     console.log(`ok  ${m.home.name} v ${m.away.name}: ${r.picks.top ? r.picks.top.label + " @" + r.picks.top.odds : "no priced pick"}`);
   } catch (e) { bad++; console.log(`BAD ${m.home && m.home.name} v ${m.away && m.away.name}: ${e.message}`); }
 }

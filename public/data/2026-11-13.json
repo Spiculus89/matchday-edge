@@ -1,9 +1,189 @@
 {
   "date": "2026-11-13",
   "title": "Nations League, matchday 5",
-  "updated": "2026-11-13T09:21:15.122Z",
-  "updateNote": "Morning update: bet365 odds from KickOff, predicted lineups. All four games kick off at 20:45 Warsaw time; confirmed lineups land at about 20:05.",
+  "updated": "2026-11-13T15:43:01.799Z",
+  "updateNote": "Morning update: bet365 odds from KickOff, predicted lineups. All four games kick off at 20:45 Warsaw time; confirmed lineups land at about 20:05. Added 6 more Nations League C/D games (Moldova–Kazakhstan, Bulgaria–Iceland, Luxembourg–Estonia, Slovakia–Faroes, Andorra–Gibraltar, Liechtenstein–Azerbaijan); their lineups arrive about an hour before kick-off.",
   "matches": [
+    {
+      "id": "mda-kaz",
+      "competition": "UEFA Nations League C, Group 3",
+      "kickoff": "2026-11-13T17:00:00Z",
+      "venue": "Stadionul CPTF, Chișinău",
+      "neutral": false,
+      "home": {
+        "name": "Moldova",
+        "short": "Moldova",
+        "code": "MDA"
+      },
+      "away": {
+        "name": "Kazakhstan",
+        "short": "Kazakhstan",
+        "code": "KAZ"
+      },
+      "context": "Moldova are third and Kazakhstan fourth in Group C3. The bookmakers can't split them: both sides are around 2.70–2.90 and Under 2.5 is the shortest goals price. Moldova lost 4-0 at home to Slovakia in October.",
+      "referee": {
+        "name": "TBC",
+        "country": "",
+        "games": 0,
+        "note": "Referee not yet published by the free sources, so the engine uses a 4.1 yellow-card prior."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (fractions converted)",
+        "h": 2.7,
+        "d": 2.9,
+        "a": 2.88,
+        "ou": {
+          "0.5": [
+            1.11,
+            6
+          ],
+          "1.5": [
+            1.44,
+            2.63
+          ],
+          "2.5": [
+            2.5,
+            1.5
+          ],
+          "3.5": [
+            4.5,
+            1.17
+          ],
+          "4.5": [
+            8.5,
+            1.05
+          ]
+        },
+        "btts": [
+          2.1,
+          1.67
+        ],
+        "dc": {
+          "12": 1.4,
+          "1X": 1.4,
+          "X2": 1.44
+        },
+        "dnb": {
+          "home": 1.8,
+          "away": 1.91
+        },
+        "wtn": {
+          "home": 4,
+          "away": 4.33
+        },
+        "firstGoal": {
+          "home": 2.05,
+          "away": 2.1
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 0.8,
+          "ga": 2.7,
+          "xgf": 0.8,
+          "xga": 2.5
+        },
+        "away": {
+          "gf": 1,
+          "ga": 1.8,
+          "xgf": 1,
+          "xga": 1.7
+        }
+      },
+      "season": {
+        "home": {
+          "shots": 8
+        },
+        "away": {
+          "shots": 8
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "Team sheets due about an hour before kick-off",
+        "home": {
+          "formation": "",
+          "xi": []
+        },
+        "away": {
+          "formation": "",
+          "xi": []
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Lilian Popescu in charge since September 2025, still looking for consistency.",
+          "src": "Squawka"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "S. Perciun",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 1
+          },
+          {
+            "name": "N. Clescenco",
+            "pos": "FW",
+            "start": 0.6,
+            "goals": 1
+          },
+          {
+            "name": "P. Popescu",
+            "pos": "MF",
+            "start": 0.8,
+            "goals": 1
+          },
+          {
+            "name": "O. Reabciuk",
+            "pos": "DF",
+            "start": 0.8
+          }
+        ],
+        "away": [
+          {
+            "name": "N. Alip",
+            "pos": "DF",
+            "start": 0.9,
+            "goals": 2
+          },
+          {
+            "name": "R. Karimov",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 1
+          },
+          {
+            "name": "I. Kuat",
+            "pos": "MF",
+            "start": 0.7
+          },
+          {
+            "name": "M. Samorodov",
+            "pos": "FW",
+            "start": 0.6
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "KickOff.co.uk odds, form and squad stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/moldova-vs-kazakhstan/"
+        },
+        {
+          "title": "Squawka preview",
+          "url": "https://www.squawka.com/en/?p=1517289"
+        },
+        {
+          "title": "FootballPredictions.com",
+          "url": "https://footballpredictions.com/footballpredictions/nations-league-predictions/moldova-vs-kazakhstan-prediction-13-11-2026/"
+        }
+      ]
+    },
     {
       "id": "ned-gre",
       "competition": "UEFA Nations League A, Group 2",
@@ -1852,6 +2032,775 @@
         {
           "title": "Sky Sports: Slovenia vs Switzerland (recent results)",
           "url": "https://www.skysports.com/football/slovenia-vs-switzerland/554101"
+        }
+      ]
+    },
+    {
+      "id": "bul-isl",
+      "competition": "UEFA Nations League C, Group 4",
+      "kickoff": "2026-11-13T19:45:00Z",
+      "venue": "Stadion Hristo Botev, Plovdiv",
+      "neutral": false,
+      "home": {
+        "name": "Bulgaria",
+        "short": "Bulgaria",
+        "code": "BUL"
+      },
+      "away": {
+        "name": "Iceland",
+        "short": "Iceland",
+        "code": "ISL"
+      },
+      "context": "Iceland top Group C4 on 8 points (7-1 goals); Bulgaria are third on 4 (3-5). Iceland kept a clean sheet in the reverse fixture, and Bulgaria have scored once in two home games.",
+      "referee": {
+        "name": "TBC",
+        "country": "",
+        "games": 0,
+        "note": "Referee not yet published by the free sources, so the engine uses a 4.1 yellow-card prior."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk",
+        "h": 4.33,
+        "d": 3.5,
+        "a": 1.83,
+        "ou": {
+          "0.5": [
+            1.05,
+            8.5
+          ],
+          "1.5": [
+            1.33,
+            3.25
+          ],
+          "2.5": [
+            2.08,
+            1.73
+          ],
+          "3.5": [
+            3.75,
+            1.25
+          ],
+          "4.5": [
+            7,
+            1.08
+          ]
+        },
+        "btts": [
+          1.91,
+          1.8
+        ],
+        "dc": {
+          "12": 1.29,
+          "1X": 1.83,
+          "X2": 1.2
+        },
+        "dnb": {
+          "home": 3.25,
+          "away": 1.33
+        },
+        "wtn": {
+          "home": 7,
+          "away": 3
+        },
+        "firstGoal": {
+          "home": 2.6,
+          "away": 1.62
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 1.3,
+          "ga": 2,
+          "xgf": 0.6,
+          "xga": 1.8
+        },
+        "away": {
+          "gf": 1.5,
+          "ga": 1.7,
+          "xgf": 1.3,
+          "xga": 1.3
+        }
+      },
+      "season": {
+        "home": {
+          "shots": 7
+        },
+        "away": {
+          "shots": 7
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "Team sheets due about an hour before kick-off",
+        "home": {
+          "formation": "",
+          "xi": []
+        },
+        "away": {
+          "formation": "",
+          "xi": []
+        }
+      },
+      "news": [
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Orri Óskarsson leads Iceland's Nations League scoring with 3.",
+          "src": "KickOff"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "K. Balov",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 1
+          },
+          {
+            "name": "D. Naumov",
+            "pos": "MF",
+            "start": 0.85
+          }
+        ],
+        "away": [
+          {
+            "name": "Orri Óskarsson",
+            "pos": "FW",
+            "start": 0.9,
+            "goals": 3
+          },
+          {
+            "name": "Hákon Valdimarsson",
+            "pos": "GK",
+            "start": 0.9
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "KickOff.co.uk odds, form and squad stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/bulgaria-vs-iceland/"
+        },
+        {
+          "title": "Squawka preview",
+          "url": "https://www.squawka.com/en/?p=1517304"
+        },
+        {
+          "title": "365Scores standings",
+          "url": "https://www.365scores.com/football/match/uefa-nations-league-7016/bulgaria-iceland-5062-5067-7016"
+        }
+      ]
+    },
+    {
+      "id": "lux-est",
+      "competition": "UEFA Nations League C, Group 4",
+      "kickoff": "2026-11-13T19:45:00Z",
+      "venue": "Stade de Luxembourg",
+      "neutral": false,
+      "home": {
+        "name": "Luxembourg",
+        "short": "Luxembourg",
+        "code": "LUX"
+      },
+      "away": {
+        "name": "Estonia",
+        "short": "Estonia",
+        "code": "EST"
+      },
+      "context": "Estonia are second in Group C4 on 6 points (2-1 goals) and won the reverse fixture 1-0 in October. Luxembourg are fourth after three straight defeats. Both sides average under a goal a game over their last 20.",
+      "referee": {
+        "name": "TBC",
+        "country": "",
+        "games": 0,
+        "note": "Referee not yet published by the free sources, so the engine uses a 4.1 yellow-card prior."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk",
+        "h": 2.3,
+        "d": 3.1,
+        "a": 3.1,
+        "ou": {
+          "0.5": [
+            1.1,
+            6.5
+          ],
+          "1.5": [
+            1.44,
+            2.63
+          ],
+          "2.5": [
+            2.5,
+            1.5
+          ],
+          "3.5": [
+            4.5,
+            1.17
+          ],
+          "4.5": [
+            8.5,
+            1.05
+          ]
+        },
+        "btts": [
+          2.1,
+          1.67
+        ],
+        "dc": {
+          "12": 1.36,
+          "1X": 1.36,
+          "X2": 1.57
+        },
+        "dnb": {
+          "home": 1.62,
+          "away": 2.2
+        },
+        "wtn": {
+          "home": 3.5,
+          "away": 4.5
+        },
+        "firstGoal": {
+          "home": 1.91,
+          "away": 2.3
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 0.4,
+          "ga": 1.4,
+          "xgf": 0.8,
+          "xga": 1.5
+        },
+        "away": {
+          "gf": 0.7,
+          "ga": 1.7,
+          "xgf": 0.8,
+          "xga": 2.2
+        }
+      },
+      "season": {
+        "home": {
+          "shots": 7
+        },
+        "away": {
+          "shots": 6
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "Team sheets due about an hour before kick-off",
+        "home": {
+          "formation": "",
+          "xi": []
+        },
+        "away": {
+          "formation": "",
+          "xi": []
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Three defeats in a row; Vincent Thill is their only Nations League scorer.",
+          "src": "Squawka / KickOff"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Vincent Thill",
+            "pos": "AM",
+            "start": 0.85,
+            "goals": 1
+          },
+          {
+            "name": "A. Moris",
+            "pos": "GK",
+            "start": 0.9
+          },
+          {
+            "name": "E. Mahmutović",
+            "pos": "DF",
+            "start": 0.8
+          }
+        ],
+        "away": [
+          {
+            "name": "Maksim Paskotši",
+            "pos": "DF",
+            "start": 0.9,
+            "goals": 1
+          },
+          {
+            "name": "Karol Mets",
+            "pos": "DF",
+            "start": 0.85
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "KickOff.co.uk odds, form and squad stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/luxembourg-vs-estonia/"
+        },
+        {
+          "title": "Squawka preview",
+          "url": "https://www.squawka.com/en/?p=1517290"
+        },
+        {
+          "title": "365Scores standings",
+          "url": "https://www.365scores.com/football/match/uefa-nations-league-7016/estonia-luxembourg-5033-5051-7016"
+        }
+      ]
+    },
+    {
+      "id": "svk-fro",
+      "competition": "UEFA Nations League C, Group 3",
+      "kickoff": "2026-11-13T19:45:00Z",
+      "venue": "Košická futbalová aréna, Košice",
+      "neutral": false,
+      "home": {
+        "name": "Slovakia",
+        "short": "Slovakia",
+        "code": "SVK"
+      },
+      "away": {
+        "name": "Faroe Islands",
+        "short": "Faroes",
+        "code": "FRO"
+      },
+      "context": "Slovakia lead Group C3 with 10 points; the Faroes are second on 4 after drawing all four games, including the reverse fixture. Slovakia have scored in 16 straight Nations League games.",
+      "referee": {
+        "name": "TBC",
+        "country": "",
+        "games": 0,
+        "note": "Referee not yet published by the free sources, so the engine uses a 4.1 yellow-card prior."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk",
+        "h": 1.36,
+        "d": 4.5,
+        "a": 8.5,
+        "ou": {
+          "0.5": [
+            1.05,
+            8.5
+          ],
+          "1.5": [
+            1.25,
+            3.75
+          ],
+          "2.5": [
+            1.8,
+            2
+          ],
+          "3.5": [
+            3,
+            1.36
+          ],
+          "4.5": [
+            5.5,
+            1.13
+          ]
+        },
+        "btts": [
+          2.2,
+          1.62
+        ],
+        "dc": {
+          "12": 1.17,
+          "1X": 1.05,
+          "X2": 3
+        },
+        "dnb": {
+          "home": 1.1,
+          "away": 6.5
+        },
+        "wtn": {
+          "home": 2,
+          "away": 13
+        },
+        "firstGoal": {
+          "home": 1.36,
+          "away": 3.6
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 1.4,
+          "ga": 1.2,
+          "xgf": 1.3,
+          "xga": 1
+        },
+        "away": {
+          "gf": 1.2,
+          "ga": 1.1,
+          "xgf": 1.2,
+          "xga": 1.5
+        }
+      },
+      "season": {
+        "home": {
+          "shots": 10
+        },
+        "away": {
+          "shots": 7
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "Team sheets due about an hour before kick-off",
+        "home": {
+          "formation": "",
+          "xi": []
+        },
+        "away": {
+          "formation": "",
+          "xi": []
+        }
+      },
+      "news": [
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Four draws from four: unbeaten but winless in the group.",
+          "src": "Squawka"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Dávid Hancko",
+            "pos": "DF",
+            "start": 0.9,
+            "goals": 2
+          },
+          {
+            "name": "Milan Škriniar",
+            "pos": "DF",
+            "start": 0.9
+          }
+        ],
+        "away": [
+          {
+            "name": "G. Turi",
+            "pos": "FW",
+            "start": 0.7,
+            "goals": 1
+          },
+          {
+            "name": "M. Lamhauge",
+            "pos": "GK",
+            "start": 0.9
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "KickOff.co.uk odds, form and squad stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/slovakia-vs-faroe-islands/"
+        },
+        {
+          "title": "Squawka preview",
+          "url": "https://www.squawka.com/en/?p=1517305"
+        },
+        {
+          "title": "Oddslot standings",
+          "url": "https://oddslot.com/football/match/uefa-nations-league/slovakia/faroe-islands/13-nov-2026/"
+        }
+      ]
+    },
+    {
+      "id": "and-gib",
+      "competition": "UEFA Nations League D, Group 1",
+      "kickoff": "2026-11-13T19:45:00Z",
+      "venue": "Estadi Nacional, Andorra",
+      "neutral": false,
+      "home": {
+        "name": "Andorra",
+        "short": "Andorra",
+        "code": "AND"
+      },
+      "away": {
+        "name": "Gibraltar",
+        "short": "Gibraltar",
+        "code": "GIB"
+      },
+      "context": "The reverse fixture in Gibraltar ended 0-0 in September. Both sides average under a goal a game over their last 20, and Under 2.5 is priced at 1.33.",
+      "referee": {
+        "name": "TBC",
+        "country": "",
+        "games": 0,
+        "note": "Referee not yet published by the free sources, so the engine uses a 4.1 yellow-card prior."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk",
+        "h": 1.67,
+        "d": 3.2,
+        "a": 6.5,
+        "ou": {
+          "0.5": [
+            1.14,
+            4.75
+          ],
+          "1.5": [
+            1.67,
+            2.1
+          ],
+          "2.5": [
+            3.25,
+            1.33
+          ],
+          "3.5": [
+            6.5,
+            1.1
+          ]
+        },
+        "btts": [
+          3.25,
+          1.33
+        ],
+        "dc": {
+          "12": 1.36,
+          "1X": 1.1,
+          "X2": 2.1
+        },
+        "dnb": {
+          "home": 1.17,
+          "away": 4.5
+        },
+        "wtn": {
+          "home": 2.1,
+          "away": 9
+        },
+        "firstGoal": {
+          "home": 1.57,
+          "away": 3.75
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 0.4,
+          "ga": 1.4,
+          "xgf": 0.5,
+          "xga": 1.7
+        },
+        "away": {
+          "gf": 0.8,
+          "ga": 1.8,
+          "xgf": 0.5,
+          "xga": 2.9
+        }
+      },
+      "season": {
+        "home": {
+          "shots": 5
+        },
+        "away": {
+          "shots": 5
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "Team sheets due about an hour before kick-off",
+        "home": {
+          "formation": "",
+          "xi": []
+        },
+        "away": {
+          "formation": "",
+          "xi": []
+        }
+      },
+      "news": [
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "No Gibraltar goals yet in this Nations League campaign.",
+          "src": "KickOff"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "G. López",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 1,
+            "shots": 3
+          }
+        ],
+        "away": [
+          {
+            "name": "D. Bent",
+            "pos": "MF",
+            "start": 0.7
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "KickOff.co.uk odds, form and squad stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/andorra-vs-gibraltar/"
+        },
+        {
+          "title": "Squawka preview",
+          "url": "https://www.squawka.com/en/?p=1517291"
+        }
+      ]
+    },
+    {
+      "id": "lie-aze",
+      "competition": "UEFA Nations League D, Group 2",
+      "kickoff": "2026-11-13T19:45:00Z",
+      "venue": "Rheinpark Stadion, Vaduz",
+      "neutral": false,
+      "home": {
+        "name": "Liechtenstein",
+        "short": "Liechtenstein",
+        "code": "LIE"
+      },
+      "away": {
+        "name": "Azerbaijan",
+        "short": "Azerbaijan",
+        "code": "AZE"
+      },
+      "context": "Azerbaijan top Group D2, Liechtenstein are third and haven't scored in three straight Nations League games. Liechtenstein average 0.2 goals a game over their last 20 and concede 2.8.",
+      "referee": {
+        "name": "TBC",
+        "country": "",
+        "games": 0,
+        "note": "Referee not yet published by the free sources, so the engine uses a 4.1 yellow-card prior."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (fractions converted)",
+        "h": 12,
+        "d": 5.25,
+        "a": 1.25,
+        "ou": {
+          "0.5": [
+            1.05,
+            8.5
+          ],
+          "1.5": [
+            1.36,
+            3
+          ],
+          "2.5": [
+            2.1,
+            1.7
+          ],
+          "3.5": [
+            3.75,
+            1.25
+          ],
+          "4.5": [
+            7,
+            1.08
+          ]
+        },
+        "btts": [
+          3.4,
+          1.3
+        ],
+        "dc": {
+          "12": 1.14,
+          "1X": 3.75,
+          "X2": 1.02
+        },
+        "dnb": {
+          "home": 8.5,
+          "away": 1.05
+        },
+        "wtn": {
+          "home": 17,
+          "away": 1.57
+        },
+        "firstGoal": {
+          "home": 5,
+          "away": 1.25
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 0.2,
+          "ga": 2.8,
+          "xgf": 0.3,
+          "xga": 2.3
+        },
+        "away": {
+          "gf": 0.8,
+          "ga": 1.8,
+          "xgf": 0.9,
+          "xga": 2
+        }
+      },
+      "season": {
+        "home": {
+          "shots": 3
+        },
+        "away": {
+          "shots": 7
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "Team sheets due about an hour before kick-off",
+        "home": {
+          "formation": "",
+          "xi": []
+        },
+        "away": {
+          "formation": "",
+          "xi": []
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Three Nations League games without a goal.",
+          "src": "KickOff"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "B. Büchel",
+            "pos": "GK",
+            "start": 0.8
+          }
+        ],
+        "away": [
+          {
+            "name": "Mahir Emreli",
+            "pos": "FW",
+            "start": 0.85,
+            "goals": 1
+          },
+          {
+            "name": "A. Xaybulayev",
+            "pos": "MF",
+            "start": 0.8,
+            "goals": 1
+          },
+          {
+            "name": "T. Mutallimov",
+            "pos": "MF",
+            "start": 0.8,
+            "assists": 1
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "KickOff.co.uk odds, form and squad stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/liechtenstein-vs-azerbaijan/"
+        },
+        {
+          "title": "Squawka preview",
+          "url": "https://www.squawka.com/en/?p=1517292"
         }
       ]
     }
