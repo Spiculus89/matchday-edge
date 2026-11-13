@@ -1,8 +1,8 @@
 {
   "date": "2026-11-13",
   "title": "Nations League, matchday 5",
-  "updated": "2026-11-13T19:23:47.325Z",
-  "updateNote": "Lineups update (20:2x Warsaw): confirmed XIs for Netherlands–Greece, Serbia–Germany and Slovenia–Switzerland; bet365 odds refreshed from KickOff for all 20:45 games. Scotland–North Macedonia and the five League C/D lineups still to come.",
+  "updated": "2026-11-13T19:27:52.100Z",
+  "updateNote": "Lineups update (20:28 Warsaw): confirmed XIs for Netherlands–Greece, Serbia–Germany, Slovenia–Switzerland, Bulgaria–Iceland, Slovakia–Faroes and Liechtenstein–Azerbaijan; bet365 odds refreshed from KickOff for all 20:45 games. Scotland–North Macedonia, Luxembourg–Estonia and Andorra–Gibraltar keep their earlier lineups until two sources confirm the team sheets.",
   "matches": [
     {
       "id": "mda-kaz",
@@ -2221,16 +2221,69 @@
         }
       },
       "lineups": {
-        "status": "pending",
-        "source": "Team sheets due about an hour before kick-off",
+        "status": "confirmed",
+        "source": "Topsport.bg and Dsport.bg (both full team sheets, trafficnews.bg agrees)",
         "home": {
-          "formation": "",
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "Daniel Naumov",
+            "Yoan Stoyanov",
+            "Stefan Velkov",
+            "Emil Tsenov",
+            "Hristiyan Petrov",
+            "Adrian Kraev",
+            "Iliya Gruev",
+            "Georgi Rusev",
+            "Lukas Petkov",
+            "Kristiyan Balov",
+            "Atanas Iliev"
+          ],
+          "bench": [
+            "Alex Bozhev",
+            "Plamen Andreev",
+            "Rosen Bozhinov",
+            "Ivan Pankov",
+            "Asen Chandarov",
+            "Teodor Ivanov",
+            "Georgi Lazarov",
+            "Marin Petkov",
+            "Svetoslav Kovachev",
+            "Ivaylo Chochev",
+            "Ivan Turitsov",
+            "Dimitar Velkovski"
+          ]
         },
         "away": {
-          "formation": "",
-          "xi": []
-        }
+          "formation": "4-3-3",
+          "xi": [
+            "Hákon Valdimarsson",
+            "Viktor Pálsson",
+            "Stefán Þórðarson",
+            "Daníel Grétarsson",
+            "Logi Tómasson",
+            "Hákon Haraldsson",
+            "Ísak Jóhannesson",
+            "Kristall Ingason",
+            "Andri Guðjohnsen",
+            "Orri Óskarsson",
+            "Mikael Egill Ellertsson"
+          ],
+          "bench": [
+            "Rúnar Rúnarsson",
+            "Anton Einarsson",
+            "Ísak Þorvaldsson",
+            "Þórir Helgason",
+            "Gylfi Sigurðsson",
+            "Jón Þorsteinsson",
+            "Brynjólfur Willumsson",
+            "Aron Gunnarsson",
+            "Mikael Anderson",
+            "Kristian Hlynsson",
+            "Arnór Sigurðsson",
+            "Hörður Magnússon"
+          ]
+        },
+        "alt": "Iceland leave Gylfi Sigurðsson, Arnór Sigurðsson, Jón Dagur Þorsteinsson and Aron Gunnarsson on the bench; Orri Óskarsson captains with Andri Guðjohnsen and Ellertsson alongside. Bulgaria go with Iliev up front and Balov, Petkov and Rusev behind him; Chochev and Turitsov are on the bench. Icelandic names are taken from Bulgarian-language team sheets, so some middle names are missing."
       },
       "news": [
         {
@@ -2243,28 +2296,65 @@
       "players": {
         "home": [
           {
-            "name": "K. Balov",
+            "name": "Kristiyan Balov",
             "pos": "FW",
-            "start": 0.75,
+            "start": 1,
             "goals": 1
           },
           {
-            "name": "D. Naumov",
-            "pos": "MF",
-            "start": 0.85
+            "name": "Daniel Naumov",
+            "pos": "GK",
+            "start": 1,
+            "note": "Starts in goal"
+          },
+          {
+            "name": "Atanas Iliev",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "Georgi Rusev",
+            "pos": "AM",
+            "start": 1
+          },
+          {
+            "name": "Lukas Petkov",
+            "pos": "AM",
+            "start": 1
           }
         ],
         "away": [
           {
             "name": "Orri Óskarsson",
             "pos": "FW",
-            "start": 0.9,
-            "goals": 3
+            "start": 1,
+            "goals": 3,
+            "note": "Captain"
           },
           {
             "name": "Hákon Valdimarsson",
             "pos": "GK",
-            "start": 0.9
+            "start": 1
+          },
+          {
+            "name": "Andri Guðjohnsen",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "Mikael Egill Ellertsson",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "Hákon Haraldsson",
+            "pos": "AM",
+            "start": 1
+          },
+          {
+            "name": "Kristall Ingason",
+            "pos": "AM",
+            "start": 1
           }
         ]
       },
@@ -2548,16 +2638,41 @@
         }
       },
       "lineups": {
-        "status": "pending",
-        "source": "Team sheets due about an hour before kick-off",
+        "status": "confirmed",
+        "source": "Sportnet (SME) and TASR via Teraz.sk",
         "home": {
-          "formation": "",
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Dominik Greif",
+            "Martin Valjent",
+            "Ľubomír Šatka",
+            "Milan Škriniar",
+            "Dávid Hancko",
+            "Ľudovít Reis",
+            "Albert Rusnák",
+            "Ondrej Duda",
+            "Erik Prekop",
+            "Dávid Strelec",
+            "Lukáš Haraslín"
+          ]
         },
         "away": {
-          "formation": "",
-          "xi": []
-        }
+          "formation": "3-4-3",
+          "xi": [
+            "Mattias Lamhauge",
+            "Odmar Færø",
+            "Gunnar Vatnhamar",
+            "Edmundsson",
+            "Jóannes Danielsen",
+            "Andreasen",
+            "Geza Dávid Turi",
+            "Viljormur Davidsen",
+            "Áki Samuelsen",
+            "Petur Knudsen",
+            "Hanus Sørensen"
+          ]
+        },
+        "alt": "Weiss makes five changes from the 4-0 win in Moldova: Greif in goal and Reis and Rusnák in midfield, with Lobotka, Boženík, Suslov and Bobček not in the XI. The team sheets give surnames only; Faroese first names come from the UEFA squad list, and Edmundsson and Andreasen are not on it. Benches were not published."
       },
       "news": [
         {
@@ -2572,26 +2687,62 @@
           {
             "name": "Dávid Hancko",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "goals": 2
           },
           {
             "name": "Milan Škriniar",
             "pos": "DF",
-            "start": 0.9
+            "start": 1,
+            "note": "Captain"
+          },
+          {
+            "name": "Dávid Strelec",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "Lukáš Haraslín",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "Erik Prekop",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "Ondrej Duda",
+            "pos": "AM",
+            "start": 1
           }
         ],
         "away": [
           {
-            "name": "G. Turi",
+            "name": "Geza Dávid Turi",
             "pos": "FW",
-            "start": 0.7,
+            "start": 1,
             "goals": 1
           },
           {
-            "name": "M. Lamhauge",
+            "name": "Mattias Lamhauge",
             "pos": "GK",
-            "start": 0.9
+            "start": 1
+          },
+          {
+            "name": "Petur Knudsen",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "Áki Samuelsen",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "Hanus Sørensen",
+            "pos": "FW",
+            "start": 1
           }
         ]
       },
@@ -2608,7 +2759,10 @@
           "title": "Oddslot standings",
           "url": "https://oddslot.com/football/match/uefa-nations-league/slovakia/faroe-islands/13-nov-2026/"
         }
-      ]
+      ],
+      "adjust": {
+        "home": 0.96
+      }
     },
     {
       "id": "and-gib",
@@ -2856,16 +3010,54 @@
         }
       },
       "lineups": {
-        "status": "pending",
-        "source": "Team sheets due about an hour before kick-off",
+        "status": "confirmed",
+        "source": "Arena.az and Bakı Vaxtı (AFFA team sheets), ysscores agrees",
         "home": {
-          "formation": "",
-          "xi": []
+          "formation": "5-3-2",
+          "xi": [
+            "Benjamin Büchel",
+            "Emanuel Zünd",
+            "Livio Meier",
+            "Jens Hofer",
+            "Severin Schlegel",
+            "Max Göppel",
+            "Aron Sele",
+            "Marcel Büchel",
+            "Alessio Hasler",
+            "Fabio Luque Notaro",
+            "Alessandro Lo Russo"
+          ]
         },
         "away": {
-          "formation": "",
-          "xi": []
-        }
+          "formation": "4-2-3-1",
+          "xi": [
+            "Emil Balayev",
+            "Qismət Əliyev",
+            "Rahil Məmmədov",
+            "Bədavi Hüseynov",
+            "Rəhman Daşdəmirov",
+            "Oruc Məmmədov",
+            "Abdulla Xaybulayev",
+            "Toral Bayramov",
+            "Aleksey İsayev",
+            "Rüfət Abbasov",
+            "Mahir Emreli"
+          ],
+          "bench": [
+            "Şahruddin Məhəmmədəliyev",
+            "Aydın Bayramov",
+            "Emin Mahmudov",
+            "Musa Qurbanlı",
+            "Xəyal Əliyev",
+            "Eşqin Əhmədov",
+            "Elvin Bədəlov",
+            "Emil Mustafayev",
+            "Tellur Mütəllimov",
+            "Rüfət Abdullazadə",
+            "Ağadadaş Salyanski"
+          ]
+        },
+        "alt": "Azerbaijan start Emreli up front with Toral Bayramov and İsayev behind him; Mahmudov and Mütəllimov are on the bench. Liechtenstein line up with five at the back and Luque Notaro and Lo Russo in attack. Liechtenstein names are converted from Azerbaijani transliterations (ysscores has \"A. Hasler\"; one sheet says Nicolas), and their bench was not given in full. Referee: Kristo Tohver (Estonia)."
       },
       "news": [
         {
@@ -2878,29 +3070,57 @@
       "players": {
         "home": [
           {
-            "name": "B. Büchel",
+            "name": "Benjamin Büchel",
             "pos": "GK",
-            "start": 0.8
+            "start": 1,
+            "note": "Captain"
+          },
+          {
+            "name": "Fabio Luque Notaro",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "Alessandro Lo Russo",
+            "pos": "FW",
+            "start": 1
           }
         ],
         "away": [
           {
             "name": "Mahir Emreli",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "goals": 1
           },
           {
-            "name": "A. Xaybulayev",
+            "name": "Abdulla Xaybulayev",
             "pos": "MF",
-            "start": 0.8,
+            "start": 1,
             "goals": 1
           },
           {
-            "name": "T. Mutallimov",
+            "name": "Tellur Mütəllimov",
             "pos": "MF",
-            "start": 0.8,
-            "assists": 1
+            "start": 0,
+            "assists": 1,
+            "note": "On the bench"
+          },
+          {
+            "name": "Toral Bayramov",
+            "pos": "AM",
+            "start": 1
+          },
+          {
+            "name": "Aleksey İsayev",
+            "pos": "AM",
+            "start": 1
+          },
+          {
+            "name": "Emin Mahmudov",
+            "pos": "AM",
+            "start": 0,
+            "note": "On the bench"
           }
         ]
       },
