@@ -1,8 +1,8 @@
 {
   "date": "2026-11-13",
   "title": "Nations League, matchday 5",
-  "updated": "2026-11-13T19:27:52.100Z",
-  "updateNote": "Lineups update (20:28 Warsaw): confirmed XIs for Netherlands–Greece, Serbia–Germany, Slovenia–Switzerland, Bulgaria–Iceland, Slovakia–Faroes and Liechtenstein–Azerbaijan; bet365 odds refreshed from KickOff for all 20:45 games. Scotland–North Macedonia, Luxembourg–Estonia and Andorra–Gibraltar keep their earlier lineups until two sources confirm the team sheets.",
+  "updated": "2026-11-13T19:30:10.350Z",
+  "updateNote": "Lineups update (20:30 Warsaw): confirmed XIs for eight of the nine 20:45 games and bet365 odds refreshed from KickOff for all of them. Luxembourg–Estonia keeps its pending lineup until a second source confirms Luxembourg's XI.",
   "matches": [
     {
       "id": "mda-kaz",
@@ -1372,41 +1372,41 @@
         }
       },
       "lineups": {
-        "status": "predicted",
-        "source": "Racing Post",
+        "status": "confirmed",
+        "source": "statz.ai confirmed XIs; BBC Sport (via Yahoo) for Scotland and Republika.mk for North Macedonia",
         "home": {
           "formation": "3-4-2-1",
           "xi": [
             "Angus Gunn",
-            "Aaron Hickey",
-            "Jack Hendry",
+            "Ryan Porteous",
+            "Luke Graham",
             "Kieran Tierney",
             "Ben Gannon-Doak",
-            "Billy Gilmour",
             "Lewis Ferguson",
+            "Billy Gilmour",
             "Andy Robertson",
-            "Scott McTominay",
             "John McGinn",
-            "Oli McBurnie"
+            "Scott McTominay",
+            "Ché Adams"
           ]
         },
         "away": {
-          "formation": "4-5-1",
+          "formation": "4-3-3",
           "xi": [
             "Stole Dimitrievski",
             "Bojan Ilievski",
-            "Nikola Serafimov",
             "Visar Musliu",
+            "Mario Mladenovski",
             "Ezgjan Alioski",
-            "Eljif Elmas",
-            "Jani Atanasov",
-            "Boban Nikolov",
             "Enis Bardhi",
-            "Darko Churlinov",
-            "Elmin Rastoder"
+            "Eljif Elmas",
+            "Matej Gashtarov",
+            "Ljupcho Doriev",
+            "Elmin Rastoder",
+            "Darko Churlinov"
           ]
         },
-        "alt": "Sports Mole and statz.ai still list Luis Binks or Nathan Patterson at the back, but Binks has withdrawn; Ryan Christie and Ché Adams are bench options. Sports Mole's North Macedonia XI has Anes Meljichi, Dimitar Mitrovski and Ljupcho Doriev instead of Serafimov, Nikolov and Churlinov."
+        "alt": "Porteous and Graham start in a back three with Tierney, so Hickey and Hendry drop out; Adams leads the line instead of McBurnie, and Robertson wins his record-equalling 102nd cap. North Macedonia go with three forwards (Doriev, Rastoder, Churlinov); Atanasov, Mitrovski and Elezi are not in the XI. statz.ai has Pablo Acebal at left-back where Republika.mk has Alioski. Benches were not published."
       },
       "news": [
         {
@@ -1457,7 +1457,7 @@
           {
             "name": "Scott McTominay",
             "pos": "AM",
-            "start": 0.85,
+            "start": 1,
             "shots": 12,
             "shots90": 2.88,
             "sot90": 1.15,
@@ -1468,7 +1468,7 @@
           {
             "name": "John McGinn",
             "pos": "AM",
-            "start": 0.9,
+            "start": 1,
             "shots": 13,
             "goals": 2,
             "shots90": 0.99,
@@ -1480,84 +1480,96 @@
           {
             "name": "Ben Gannon-Doak",
             "pos": "AM",
-            "start": 0.85,
+            "start": 1,
             "shots": 12,
             "note": "Right wing-back; very few Bournemouth minutes this season, so no club per-90 rates."
           },
           {
             "name": "Oli McBurnie",
             "pos": "FW",
-            "start": 0.8
+            "start": 0,
+            "note": "Not in the starting XI"
           },
           {
             "name": "Aaron Hickey",
             "pos": "DF",
-            "start": 0.8,
-            "note": "Only 153 Premier League minutes this season, too few for per-90 rates."
+            "start": 0,
+            "note": "Not in the starting XI"
           },
           {
             "name": "Ryan Christie",
             "pos": "AM",
-            "start": 0.4,
+            "start": 0,
             "shots": 12,
             "goals": 2,
-            "note": "On the bench in Racing Post's XI; scored against Slovenia."
+            "note": "Not in the starting XI"
           },
           {
             "name": "Ché Adams",
             "pos": "FW",
-            "start": 0.35,
+            "start": 1,
             "goals": 2,
-            "note": "Back from a groin injury; expected on the bench."
+            "note": "Leads the line"
+          },
+          {
+            "name": "Ryan Porteous",
+            "pos": "DF",
+            "start": 1
           }
         ],
         "away": [
           {
             "name": "Enis Bardhi",
             "pos": "AM",
-            "start": 0.85,
+            "start": 1,
             "shots": 8,
             "goals": 0,
-            "note": "Captain; team-high 2 shots on target in the last 10 games."
+            "note": "Captain"
           },
           {
             "name": "Eljif Elmas",
             "pos": "AM",
-            "start": 0.9,
+            "start": 1,
             "goals": 0
           },
           {
             "name": "Elmin Rastoder",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "goals": 0
           },
           {
             "name": "Jani Atanasov",
             "pos": "MF",
-            "start": 0.8,
+            "start": 0,
             "shots": 5,
-            "goals": 0
+            "goals": 0,
+            "note": "Not in the starting XI"
           },
           {
             "name": "Darko Churlinov",
             "pos": "FW",
-            "start": 0.75,
+            "start": 1,
             "note": "Back after a visa issue; not in Sports Mole's XI."
           },
           {
             "name": "Dimitar Mitrovski",
             "pos": "AM",
-            "start": 0.45,
-            "note": "Starts in Sports Mole's XI, on the bench in Racing Post's."
+            "start": 0,
+            "note": "Not in the starting XI"
           },
           {
             "name": "Agon Elezi",
             "pos": "MF",
-            "start": 0.35,
+            "start": 0,
             "shots": 4,
             "goals": 0,
-            "note": "Expected on the bench."
+            "note": "Not in the starting XI"
+          },
+          {
+            "name": "Ljupcho Doriev",
+            "pos": "FW",
+            "start": 1
           }
         ]
       },
@@ -1570,7 +1582,7 @@
         {
           "player": "Ben Gannon-Doak",
           "market": "2+ shots",
-          "odds": 1.33
+          "odds": 1.2
         },
         {
           "player": "John McGinn",
@@ -1581,6 +1593,11 @@
           "player": "Aaron Hickey",
           "market": "1+ fouls",
           "odds": 1.36
+        },
+        {
+          "player": "Ryan Porteous",
+          "market": "1+ fouls",
+          "odds": 1.53
         }
       ],
       "benchmarks": {
@@ -2863,16 +2880,69 @@
         }
       },
       "lineups": {
-        "status": "pending",
-        "source": "Team sheets due about an hour before kick-off",
+        "status": "confirmed",
+        "source": "FotMob and ysscores (identical XIs)",
         "home": {
-          "formation": "",
-          "xi": []
+          "formation": "4-4-2",
+          "xi": [
+            "Iker Álvarez",
+            "Biel Borra",
+            "Max Llovera",
+            "Ian Olivera",
+            "Moisés San Nicolás",
+            "Nil Linares",
+            "Ot Remolins",
+            "Éric Izquierdo",
+            "Arón Rodrigo",
+            "Guillaume López",
+            "Albert Rosas"
+          ],
+          "bench": [
+            "Marc De Castro",
+            "Álex Ruiz",
+            "Àlex Cornellà",
+            "Éric Vales",
+            "Christian García",
+            "Francisco Pomares",
+            "Hugo Ferreira",
+            "Cucu",
+            "Jordi Aláez",
+            "Joel Guillén",
+            "Gerard Solà",
+            "Marc García"
+          ]
         },
         "away": {
-          "formation": "",
-          "xi": []
-        }
+          "formation": "4-3-3",
+          "xi": [
+            "Jaylan Hankins",
+            "Carlos Richards",
+            "Bernardo Lopes",
+            "Ethan Jolley",
+            "Julian Valarino",
+            "Kian Ronan",
+            "Nicholas Pozo",
+            "Dan Bent",
+            "James Scanlon",
+            "Dylan Borge",
+            "Tjay De Barr"
+          ],
+          "bench": [
+            "Bradley Banda",
+            "Harry Victor",
+            "Louie Annesley",
+            "Julian Del Rio",
+            "Jesse Gomez",
+            "Han Stevens",
+            "Liam Jessop",
+            "Jayvan Garro",
+            "Leon Mason",
+            "Ethan Britto",
+            "Jeremy Perera",
+            "Luke Schofield"
+          ]
+        },
+        "alt": "Andorra pair López and Rosas up front with Rodrigo wide; Gibraltar are without the suspended Graeme Torrilla and start Scanlon, Borge and De Barr in a front three, with Annesley on the bench."
       },
       "news": [
         {
@@ -2885,18 +2955,43 @@
       "players": {
         "home": [
           {
-            "name": "G. López",
+            "name": "Guillaume López",
             "pos": "FW",
-            "start": 0.75,
+            "start": 1,
             "goals": 1,
             "shots": 3
+          },
+          {
+            "name": "Albert Rosas",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "Arón Rodrigo",
+            "pos": "AM",
+            "start": 1
           }
         ],
         "away": [
           {
-            "name": "D. Bent",
+            "name": "Dan Bent",
             "pos": "MF",
-            "start": 0.7
+            "start": 1
+          },
+          {
+            "name": "Tjay De Barr",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "James Scanlon",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "Dylan Borge",
+            "pos": "FW",
+            "start": 1
           }
         ]
       },
