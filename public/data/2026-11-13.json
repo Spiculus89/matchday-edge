@@ -1,8 +1,8 @@
 {
   "date": "2026-11-13",
   "title": "Nations League, matchday 5",
-  "updated": "2026-11-13T19:30:10.350Z",
-  "updateNote": "Lineups update (20:30 Warsaw): confirmed XIs for eight of the nine 20:45 games and bet365 odds refreshed from KickOff for all of them. Luxembourg–Estonia keeps its pending lineup until a second source confirms Luxembourg's XI.",
+  "updated": "2026-11-13T19:46:35.414Z",
+  "updateNote": "Lineups update (20:45 Warsaw): confirmed XIs for all nine 20:45 games, with Luxembourg–Estonia added at kick-off; bet365 odds from KickOff about an hour before kick-off. Moldova 2-1 Kazakhstan is final.",
   "matches": [
     {
       "id": "mda-kaz",
@@ -2412,13 +2412,13 @@
       },
       "context": "Estonia are second in Group C4 on 6 points (2-1 goals) and won the reverse fixture 1-0 in October. Luxembourg are fourth after three straight defeats. Both sides average under a goal a game over their last 20.",
       "referee": {
-        "name": "TBC",
-        "country": "",
+        "name": "Ishmael Barbara",
+        "country": "MLT",
         "games": 0,
-        "note": "Referee not yet published by the free sources, so the engine uses a 4.1 yellow-card prior."
+        "note": "No 2026/27 games on his statz.ai card yet (FotMob agrees on the appointment), so the engine uses a 4.1 yellow-card prior."
       },
       "odds": {
-        "book": "bet365 via KickOff.co.uk (13 Nov, about an hour before kick-off)",
+        "book": "bet365 via KickOff.co.uk (13 Nov, about an hour before kick-off; not refreshed at the retry run because the game was kicking off)",
         "h": 2.3,
         "d": 3.1,
         "a": 3.1,
@@ -2493,16 +2493,69 @@
         }
       },
       "lineups": {
-        "status": "pending",
-        "source": "Team sheets due about an hour before kick-off",
+        "status": "confirmed",
+        "source": "ysscores and Goal.com team sheets (identical XIs with shirt numbers); ERR also confirms Estonia's XI",
         "home": {
-          "formation": "",
-          "xi": []
+          "formation": "4-4-2",
+          "xi": [
+            "Anthony Moris",
+            "Laurent Jans",
+            "Vahid Selimović",
+            "Tim Hall",
+            "Florian Bohnert",
+            "Vincent Thill",
+            "Mathias Olesen",
+            "Tomás Moreira",
+            "Hamza Kadamani",
+            "Sébastien Thill",
+            "Aiman Dardari"
+          ],
+          "bench": [
+            "Tiago Pereira",
+            "Lucas Fox",
+            "Eldin Džogović",
+            "Enes Mahmutović",
+            "Enzo Duarte",
+            "Jayson Videira",
+            "Timothé Rupil",
+            "Farid Ikene",
+            "Eric Veiga",
+            "Omar Natami",
+            "Miguel Gonçalves",
+            "Patrick Macedo Batista"
+          ]
         },
         "away": {
-          "formation": "",
-          "xi": []
-        }
+          "formation": "5-4-1",
+          "xi": [
+            "Karl Jakob Hein",
+            "Rasmus Peetson",
+            "Maksim Paskotši",
+            "Erko Jonne Tõugjas",
+            "Karol Mets",
+            "Michael Schjønning-Larsen",
+            "Patrik Kristal",
+            "Mattias Käit",
+            "Kevor Palumets",
+            "Rocco Robert Shein",
+            "Mattias Männilaan"
+          ],
+          "bench": [
+            "Matvei Igonen",
+            "Karl Andre Vallner",
+            "Mihhail Kolobov",
+            "Marten-Chris Paalberg",
+            "Karel Mustmaa",
+            "Mihkel Ainsalu",
+            "Joseph Saliste",
+            "Maksimilian Skvortsov",
+            "Martin Miller",
+            "Tanel Tammik",
+            "Vladislav Kreida",
+            "Frank Liivak"
+          ]
+        },
+        "alt": "Luxembourg start both Thill brothers with Dardari and Kadamani, and bring in Jans, Hall and Olesen; Mahmutović, Veiga, Natami, Enzo Duarte and Videira (who led the line in October) are on the bench. Estonia switch to a back five with Karl Jakob Hein in goal (Igonen kept goal in the 1-0 win in October) and Männilaan alone up front; Markus Poom is not in the matchday squad."
       },
       "news": [
         {
@@ -2517,31 +2570,87 @@
           {
             "name": "Vincent Thill",
             "pos": "AM",
-            "start": 0.85,
+            "start": 1,
             "goals": 1
           },
           {
-            "name": "A. Moris",
+            "name": "Anthony Moris",
             "pos": "GK",
-            "start": 0.9
+            "start": 1,
+            "note": "Starts in goal, captain"
           },
           {
-            "name": "E. Mahmutović",
+            "name": "Enes Mahmutović",
             "pos": "DF",
-            "start": 0.8
+            "start": 0,
+            "note": "On the bench"
+          },
+          {
+            "name": "Aiman Dardari",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "Hamza Kadamani",
+            "pos": "AM",
+            "start": 1
+          },
+          {
+            "name": "Sébastien Thill",
+            "pos": "AM",
+            "start": 1
+          },
+          {
+            "name": "Vahid Selimović",
+            "pos": "DF",
+            "start": 1
+          },
+          {
+            "name": "Jayson Videira",
+            "pos": "FW",
+            "start": 0,
+            "note": "On the bench"
           }
         ],
         "away": [
           {
             "name": "Maksim Paskotši",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "goals": 1
           },
           {
             "name": "Karol Mets",
             "pos": "DF",
-            "start": 0.85
+            "start": 1
+          },
+          {
+            "name": "Mattias Männilaan",
+            "pos": "FW",
+            "start": 1
+          },
+          {
+            "name": "Patrik Kristal",
+            "pos": "AM",
+            "start": 1
+          },
+          {
+            "name": "Mattias Käit",
+            "pos": "AM",
+            "start": 1
+          },
+          {
+            "name": "Rasmus Peetson",
+            "pos": "DF",
+            "start": 1,
+            "goals": 1,
+            "note": "Scored the winner in October"
+          },
+          {
+            "name": "Karl Jakob Hein",
+            "pos": "GK",
+            "start": 1,
+            "note": "Starts in goal"
           }
         ]
       },
@@ -2557,6 +2666,34 @@
         {
           "title": "365Scores standings",
           "url": "https://www.365scores.com/football/match/uefa-nations-league-7016/estonia-luxembourg-5033-5051-7016"
+        },
+        {
+          "title": "ysscores confirmed lineups",
+          "url": "https://www.ysscores.com/en/lineup/5181958/Luxembourg-vs-Estonia"
+        },
+        {
+          "title": "Goal.com team sheets",
+          "url": "https://www.goal.com/en-in/news/how-to-watch-luxembourg-vs-estonia-live-today-who-is-showing-the-match-on-tv-and-via-live-stream/blt0a7af51b00213f11"
+        },
+        {
+          "title": "ERR Sport (Estonia XI)",
+          "url": "https://sport.err.ee/1610195209/vaata-otse-kas-eesti-saab-ka-voorsil-luksemburgist-jagu"
+        },
+        {
+          "title": "statz.ai match page",
+          "url": "https://statz.ai/h2h/19676752"
+        }
+      ],
+      "props": [
+        {
+          "player": "Karol Mets",
+          "market": "1+ fouls",
+          "odds": 1.36
+        },
+        {
+          "player": "Vahid Selimović",
+          "market": "1+ fouls",
+          "odds": 1.36
         }
       ]
     },
