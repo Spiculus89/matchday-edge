@@ -1,8 +1,8 @@
 {
   "date": "2026-11-13",
   "title": "Nations League, matchday 5",
-  "updated": "2026-11-13T15:43:01.799Z",
-  "updateNote": "Morning update: bet365 odds from KickOff, predicted lineups. All four games kick off at 20:45 Warsaw time; confirmed lineups land at about 20:05. Added 6 more Nations League C/D games (Moldova–Kazakhstan, Bulgaria–Iceland, Luxembourg–Estonia, Slovakia–Faroes, Andorra–Gibraltar, Liechtenstein–Azerbaijan); their lineups arrive about an hour before kick-off.",
+  "updated": "2026-11-13T19:23:47.325Z",
+  "updateNote": "Lineups update (20:2x Warsaw): confirmed XIs for Netherlands–Greece, Serbia–Germany and Slovenia–Switzerland; bet365 odds refreshed from KickOff for all 20:45 games. Scotland–North Macedonia and the five League C/D lineups still to come.",
   "matches": [
     {
       "id": "mda-kaz",
@@ -211,7 +211,7 @@
         "note": "Figures from the statz.ai match page (2 games this season). His statz.ai profile lists only one 2026/27 Nations League game, Belgium 3-0 Türkiye on 2 October with 8 yellows, so the 2-game sample may not be Nations League only."
       },
       "odds": {
-        "book": "bet365 via KickOff.co.uk (13 Nov morning); 1X2, O/U 2.5 and BTTS cross-checked with footballpredictions.ai (1.44 / 4.00 / 5.50, O/U 2.5 1.57 / 2.35, BTTS 1.67 / 2.05). Malen anytime 11/8 (bet365) via Goal.",
+        "book": "bet365 via KickOff.co.uk (13 Nov, about an hour before kick-off); 1X2, O/U 2.5 and BTTS cross-checked with footballpredictions.ai (1.44 / 4.00 / 5.50, O/U 2.5 1.57 / 2.35, BTTS 1.67 / 2.05). Malen anytime 11/8 (bet365) via Goal.",
         "h": 1.55,
         "d": 4.33,
         "a": 5.5,
@@ -285,41 +285,69 @@
         }
       },
       "lineups": {
-        "status": "predicted",
-        "source": "RotoWire (updated 13 November)",
+        "status": "confirmed",
+        "source": "voetbalnieuws.nl and ysscores (Netherlands); Ta Nea, Gazzetta and ysscores (Greece)",
         "home": {
           "formation": "4-3-3",
           "xi": [
             "Bart Verbruggen",
-            "Jurriën Timber",
+            "Denzel Dumfries",
             "Jan Paul van Hecke",
             "Micky van de Ven",
-            "Ian Maatsen",
-            "Frenkie de Jong",
+            "Jurriën Timber",
             "Joey Veerman",
             "Tijjani Reijnders",
+            "Frenkie de Jong",
             "Crysencio Summerville",
             "Donyell Malen",
             "Cody Gakpo"
+          ],
+          "bench": [
+            "Robin Roefs",
+            "Mark Flekken",
+            "Lutsharel Geertruida",
+            "Ian Maatsen",
+            "Gjivai Zechiël",
+            "Quinten Timber",
+            "Justin Kluivert",
+            "Mexx Meerdink",
+            "Guus Til",
+            "Noa Lang",
+            "Ruben van Bommel",
+            "Teun Koopmeiners"
           ]
         },
         "away": {
           "formation": "4-4-2",
           "xi": [
             "Konstantinos Tzolakis",
-            "Georgios Vagiannidis",
+            "Lazaros Rota",
+            "Panagiotis Retsos",
             "Konstantinos Mavropanos",
-            "Konstantinos Koulierakis",
             "Kostas Tsimikas",
-            "Giorgos Masouras",
+            "Konstantinos Karetsas",
+            "Dimitrios Kourbelis",
             "Thanasis Androutsos",
-            "Nektarios Triantis",
-            "Alexandros Kyziridis",
+            "Christos Tzolis",
             "Vangelis Pavlidis",
             "Fotis Ioannidis"
+          ],
+          "bench": [
+            "Odysseas Vlachodimos",
+            "Christos Mandas",
+            "Georgios Vagiannidis",
+            "Konstantinos Koulierakis",
+            "Giorgos Masouras",
+            "Anastasios Douvikas",
+            "Andreas Tetteh",
+            "Nektarios Triantis",
+            "Tasos Bakasetas",
+            "Pantelis Hatzidiakos",
+            "Ilias Koutsoupias",
+            "Dimitrios Giannoulis"
           ]
         },
-        "alt": "Kourbelis (ankle) and Tzolis (muscle) are doubts, and statz.ai and Sports Mole both still start Kourbelis. statz.ai has Dumfries and Quinten Timber in for Maatsen and De Jong, and Sports Mole leaves out Reijnders."
+        "alt": "Dumfries starts at right-back with Jurriën Timber moved to left-back, so Maatsen drops to the bench; De Jong captains. Greece start Tzolis despite his muscle doubt and Kourbelis is fit; Rota, Retsos and Karetsas come in, with Masouras, Koulierakis and Vagiannidis on the bench."
       },
       "news": [
         {
@@ -394,7 +422,7 @@
           {
             "name": "Cody Gakpo",
             "pos": "FW",
-            "start": 0.9,
+            "start": 1,
             "shots": 20,
             "goals": 6,
             "note": "12 shots on target in the last 10 internationals"
@@ -402,7 +430,7 @@
           {
             "name": "Donyell Malen",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "shots90": 5.22,
             "sot90": 2.42,
             "fouls90": 0.75,
@@ -412,7 +440,7 @@
           {
             "name": "Tijjani Reijnders",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 23,
             "shots90": 3.65,
             "sot90": 1.95,
@@ -423,36 +451,36 @@
           {
             "name": "Crysencio Summerville",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "shots": 14,
             "goals": 2
           },
           {
             "name": "Frenkie de Jong",
             "pos": "MF",
-            "start": 0.75,
-            "note": "First call-up since his World Cup knee injury"
+            "start": 1,
+            "note": "First call-up since his World Cup knee injury. Starts and captains."
           },
           {
             "name": "Mexx Meerdink",
             "pos": "FW",
-            "start": 0.3,
+            "start": 0,
             "shots": 12,
             "goals": 2,
-            "note": "Alternative to Malen up front"
+            "note": "On the bench"
           },
           {
             "name": "Denzel Dumfries",
             "pos": "DF",
-            "start": 0.5,
-            "note": "RotoWire has him on the bench, but statz.ai and Sports Mole start him at right-back."
+            "start": 1,
+            "note": "Starts at right-back, with Jurriën Timber on the left."
           }
         ],
         "away": [
           {
             "name": "Vangelis Pavlidis",
             "pos": "FW",
-            "start": 0.9,
+            "start": 1,
             "shots": 13,
             "shots90": 3.48,
             "sot90": 1.63,
@@ -463,36 +491,37 @@
           {
             "name": "Fotis Ioannidis",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "goals": 1,
             "note": "Opened the scoring in the reverse fixture"
           },
           {
             "name": "Giorgos Masouras",
             "pos": "AM",
-            "start": 0.8,
-            "goals": 2
+            "start": 0,
+            "goals": 2,
+            "note": "On the bench"
           },
           {
             "name": "Christos Tzolis",
             "pos": "FW",
-            "start": 0.4,
+            "start": 1,
             "shots": 25,
             "goals": 2,
-            "note": "Fitness doubt (muscle). Most shots for Greece over the last 10 games."
+            "note": "Starts despite the muscle doubt. Most shots for Greece over the last 10 games."
           },
           {
             "name": "Konstantinos Karetsas",
             "pos": "AM",
-            "start": 0.4,
+            "start": 1,
             "shots": 9,
             "goals": 1,
-            "note": "Starts in the statz.ai XI but not in RotoWire's"
+            "note": "Starts on the right"
           },
           {
             "name": "Konstantinos Mavropanos",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 8,
             "shots90": 1.75,
             "sot90": 0.66,
@@ -502,9 +531,9 @@
           {
             "name": "Tasos Bakasetas",
             "pos": "AM",
-            "start": 0.3,
+            "start": 0,
             "goals": 1,
-            "note": "Recalled for this window"
+            "note": "On the bench"
           }
         ]
       },
@@ -512,13 +541,13 @@
         {
           "player": "Tijjani Reijnders",
           "market": "2+ shots",
-          "odds": 1.36,
+          "odds": 1.3,
           "hit": "5/5"
         },
         {
           "player": "Donyell Malen",
           "market": "1+ shots on target",
-          "odds": 1.29,
+          "odds": 1.25,
           "hit": "5/5"
         },
         {
@@ -683,7 +712,7 @@
         "note": "No 2026/27 Nations League games yet, so the engine uses a 4.1 yellow-card prior. His 7 La Liga games this season average 4.7 yellows, 31.4 fouls and 0.14 reds (statz.ai)."
       },
       "odds": {
-        "book": "bet365 via KickOff.co.uk (13 Nov morning); cross-checked with footballpredictions.ai (8.50 / 5.80 / 1.25, O/U 2.5 1.40 / 2.88, BTTS 1.67 / 2.10) and William Hill (8.00 / 5.50 / 1.25). Scorer prices are bet365 via Khel Now and Mr Fixit's Tips.",
+        "book": "bet365 via KickOff.co.uk (13 Nov, about an hour before kick-off); cross-checked with footballpredictions.ai (8.50 / 5.80 / 1.25, O/U 2.5 1.40 / 2.88, BTTS 1.67 / 2.10) and William Hill (8.00 / 5.50 / 1.25). Scorer prices are bet365 via Khel Now and Mr Fixit's Tips.",
         "h": 8.5,
         "d": 6.25,
         "a": 1.29,
@@ -768,22 +797,22 @@
         }
       },
       "lineups": {
-        "status": "predicted",
-        "source": "Sports Mole preview and Germany predicted XI (cross-checked with Forza Football and statz.ai)",
+        "status": "confirmed",
+        "source": "FSS team sheet via HotSport and SD.rs (Serbia); Sportschau (dpa/sid) and ad-hoc-news (Germany), all four agree",
         "home": {
-          "formation": "5-3-2",
+          "formation": "4-2-3-1",
           "xi": [
             "Vanja Milinković-Savić",
             "Kosta Nedeljković",
-            "Nemanja Gudelj",
             "Srđan Babić",
-            "Strahinja Eraković",
+            "Nikola Milenković",
             "Petar Sukačev",
+            "Stefan Gudelj",
+            "Stefan Džodić",
             "Lazar Samardžić",
             "Sergej Milinković-Savić",
-            "Andrija Živković",
-            "Mihajlo Cvetković",
-            "Aleksandar Mitrović"
+            "Dušan Tadić",
+            "Mihajlo Cvetković"
           ]
         },
         "away": {
@@ -792,17 +821,21 @@
             "Marc-André ter Stegen",
             "Philipp Treu",
             "Jonathan Tah",
-            "Nico Schlotterbeck",
-            "Nathaniel Brown",
-            "Felix Nmecha",
+            "Malick Thiaw",
+            "Maximilian Mittelstädt",
             "Joshua Kimmich",
-            "Said El Mala",
+            "Aleksandar Pavlović",
+            "Brajan Gruda",
             "Florian Wirtz",
-            "Lennart Karl",
+            "Derry Scherhant",
             "Kai Havertz"
+          ],
+          "bench": [
+            "Nico Schlotterbeck",
+            "Felix Nmecha"
           ]
         },
-        "alt": "Serbia miss Lukić and N. Maksimović (suspended) plus Vlahović, S. Pavlović, Kostić, Stanković and Terzić; Forza and statz.ai expect a back four with Jović up front. Sports Mole gives no first name for Gudelj (Nemanja, the Nations League regular, assumed). For Germany, Bischof and Scherhant are the main alternatives to Nmecha and El Mala."
+        "alt": "Serbia start without a recognised striker from the usual trio: Mitrović and Jović are left out of the XI (Vlahović injured), so Cvetković leads the line with Tadić and Samardžić behind; Milenković returns at centre-back and Živković and Eraković drop out. The FSS sheet lists \"S. Gudelj\" (Stefan). Germany: Gruda makes his debut on the right, Scherhant starts on the left, Thiaw replaces Schlotterbeck and Mittelstädt replaces Brown; Nmecha, El Mala and Karl are not in the XI. Benches were not published in full."
       },
       "news": [
         {
@@ -877,52 +910,53 @@
           {
             "name": "Aleksandar Mitrović",
             "pos": "FW",
-            "start": 0.75,
+            "start": 0,
             "shots": 3,
             "goals": 1,
-            "note": "Back for the first time since March after injury and short of minutes."
+            "note": "Not in the starting XI"
           },
           {
             "name": "Mihajlo Cvetković",
             "pos": "FW",
-            "start": 0.8,
+            "start": 1,
             "shots": 5,
             "goals": 1,
-            "note": "One goal in five caps."
+            "note": "Leads the line"
           },
           {
             "name": "Andrija Živković",
             "pos": "AM",
-            "start": 0.85,
+            "start": 0,
             "shots": 5,
-            "goals": 1
+            "goals": 1,
+            "note": "Not in the starting XI"
           },
           {
             "name": "Lazar Samardžić",
             "pos": "AM",
-            "start": 0.85,
+            "start": 1,
             "shots": 6,
             "goals": 0
           },
           {
             "name": "Sergej Milinković-Savić",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 5,
             "goals": 0
           },
           {
             "name": "Luka Jović",
             "pos": "FW",
-            "start": 0.4,
+            "start": 0,
             "shots": 12,
             "goals": 1,
-            "note": "Serbia's top shooter over the last 10 games; starts in the Forza and statz.ai XIs but not Sports Mole's."
+            "note": "Not in the starting XI"
           },
           {
             "name": "Srđan Babić",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "shots90": 0.7,
@@ -934,21 +968,26 @@
           {
             "name": "Strahinja Eraković",
             "pos": "DF",
-            "start": 0.85,
+            "start": 0,
             "shots": 1,
             "goals": 0,
             "shots90": 0.57,
             "sot90": 0.19,
             "fouls90": 0.57,
             "tackles90": 1.72,
-            "note": "Per-90s: Samsunspor, Süper Lig 2026/27 (472 min), statz.ai."
+            "note": "Not in the starting XI"
+          },
+          {
+            "name": "Dušan Tadić",
+            "pos": "AM",
+            "start": 1
           }
         ],
         "away": [
           {
             "name": "Kai Havertz",
             "pos": "FW",
-            "start": 0.9,
+            "start": 1,
             "shots": 13,
             "goals": 4,
             "note": "25 goals in 63 caps; expected to lead the line."
@@ -956,7 +995,7 @@
           {
             "name": "Florian Wirtz",
             "pos": "AM",
-            "start": 0.9,
+            "start": 1,
             "shots": 26,
             "goals": 2,
             "shots90": 2.6,
@@ -967,36 +1006,39 @@
           {
             "name": "Felix Nmecha",
             "pos": "MF",
-            "start": 0.75,
+            "start": 0,
             "shots": 14,
-            "goals": 2
+            "goals": 2,
+            "note": "On the bench"
           },
           {
             "name": "Lennart Karl",
             "pos": "FW",
-            "start": 0.8,
+            "start": 0,
             "shots": 5,
-            "goals": 0
+            "goals": 0,
+            "note": "Not in the starting XI"
           },
           {
             "name": "Said El Mala",
             "pos": "FW",
-            "start": 0.75,
+            "start": 0,
             "shots": 4,
-            "goals": 0
+            "goals": 0,
+            "note": "Not in the starting XI"
           },
           {
             "name": "Derry Scherhant",
             "pos": "FW",
-            "start": 0.45,
+            "start": 1,
             "shots": 12,
             "goals": 0,
-            "note": "12 shots in two caps; starts in the Forza and statz.ai XIs but not Sports Mole's."
+            "note": "Starts on the left"
           },
           {
             "name": "Joshua Kimmich",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 7,
             "goals": 0,
             "shots90": 1.38,
@@ -1007,13 +1049,19 @@
           {
             "name": "Nathaniel Brown",
             "pos": "DF",
-            "start": 0.85,
+            "start": 0,
             "shots": 4,
             "shots90": 1.98,
             "sot90": 1.22,
             "fouls90": 0.76,
             "tackles90": 1.37,
-            "note": "Per-90s: Bayern, Bundesliga + Champions League 2026/27 (592 min), statz.ai."
+            "note": "Not in the starting XI (Mittelstädt plays left-back)"
+          },
+          {
+            "name": "Brajan Gruda",
+            "pos": "AM",
+            "start": 1,
+            "note": "Germany debut, starts on the right"
           }
         ]
       },
@@ -1202,6 +1250,9 @@
           "xgf": 2.2,
           "xga": 1.1
         }
+      },
+      "adjust": {
+        "home": 0.92
       }
     },
     {
@@ -1228,7 +1279,7 @@
         "note": "No 2026/27 Nations League games yet (statz.ai), so the engine uses a 4.1 yellow-card prior."
       },
       "odds": {
-        "book": "bet365 via KickOff.co.uk; 1X2 matches bet365 on Racing Post and Gainblers (DraftKings 1.17/6.0/14.0); Under 2.5, BTTS No and the other goal lines match FootballPredictions.com",
+        "book": "bet365 via KickOff.co.uk (13 Nov, about an hour before kick-off); 1X2 matches bet365 on Racing Post and Gainblers (DraftKings 1.17/6.0/14.0); Under 2.5, BTTS No and the other goal lines match FootballPredictions.com",
         "h": 1.18,
         "d": 6.5,
         "a": 13,
@@ -1654,7 +1705,7 @@
         "note": "Only one 2026/27 Nations League game so far (Ukraine 0-3 Northern Ireland on 2 October: 4 yellows, 19 fouls), taken from UEFA's match report and SportsCafe because statz.ai had no page for this match."
       },
       "odds": {
-        "book": "bet365 via KickOff.co.uk; cross-checked with footballpredictions.ai (5.00 / 3.30 / 1.65, Over/Under 2.5 at 2.10 / 1.70, BTTS 1.95 / 1.75)",
+        "book": "bet365 via KickOff.co.uk (13 Nov, about an hour before kick-off); cross-checked with footballpredictions.ai (5.00 / 3.30 / 1.65, Over/Under 2.5 at 2.10 / 1.70, BTTS 1.95 / 1.75)",
         "h": 5.25,
         "d": 3.5,
         "a": 1.7,
@@ -1745,41 +1796,69 @@
         }
       },
       "lineups": {
-        "status": "predicted",
-        "source": "Sports Mole (11 Nov)",
+        "status": "confirmed",
+        "source": "Planet Nogomet and Radio Central (SDA), both full XIs agree",
         "home": {
-          "formation": "5-4-1",
+          "formation": "4-4-2",
           "xi": [
             "Jan Oblak",
-            "Žan Karničnik",
-            "David Brekalo",
-            "Jaka Bijol",
+            "Žan Zaletel",
             "Vanja Drkušić",
+            "Jaka Bijol",
             "Srđan Kuzmić",
-            "Aljoša Matko",
-            "Mark Zabukovnik",
+            "Žan Karničnik",
             "Adam Gnezda Čerin",
+            "Mark Zabukovnik",
             "Danijel Šturm",
+            "Aljoša Matko",
             "Žan Vipotnik"
+          ],
+          "bench": [
+            "Matevž Vidovšek",
+            "Igor Vekić",
+            "Urbančič",
+            "Benjamin Verbič",
+            "Sandi Lovrić",
+            "Andraž Šporar",
+            "Žan Celar",
+            "Zeljković",
+            "Begić",
+            "Obrić",
+            "Tomi Horvat",
+            "David Brekalo"
           ]
         },
         "away": {
           "formation": "4-2-3-1",
           "xi": [
             "Gregor Kobel",
-            "Sascha Britschgi",
+            "Zachary Athekame",
             "Nico Elvedi",
             "Manuel Akanji",
-            "Ricardo Rodríguez",
+            "Sascha Britschgi",
             "Remo Freuler",
-            "Johan Manzambi",
-            "Djibril Sow",
+            "Denis Zakaria",
+            "Michel Aebischer",
             "Fabian Rieder",
             "Dan Ndoye",
-            "Zeki Amdouni"
+            "Breel Embolo"
+          ],
+          "bench": [
+            "Yvon Mvogo",
+            "Marvin Keller",
+            "Adrian Bajrami",
+            "Ballet",
+            "Zeki Amdouni",
+            "Ricardo Rodríguez",
+            "Ardon Jashari",
+            "Djibril Sow",
+            "Schmidt",
+            "Eray Cömert",
+            "Cedric Itten",
+            "Alvyn Sanches"
           ]
         },
-        "alt": "Slovenia are without the suspended Janža and Zec and the injured Šeško and Elšnik. Embolo is back and blue News expects him to start ahead of Amdouni. 365Scores lists Ricardo Rodríguez as missing."
+        "alt": "Slovenia (still without Šeško, Elšnik, Janža and Zec) switch to a back four, with Zaletel and Kuzmić in and Brekalo on the bench; Karničnik moves into midfield. Switzerland: Embolo returns up front and Zakaria comes into midfield; Manzambi and Xhaka are injured, Vargas is ill, and Amdouni, Rodríguez and Jashari are on the bench. Some bench players are listed by surname only."
       },
       "news": [
         {
@@ -1854,7 +1933,7 @@
           {
             "name": "Aljoša Matko",
             "pos": "AM",
-            "start": 0.85,
+            "start": 1,
             "shots": 6,
             "goals": 2,
             "assists": 2,
@@ -1863,43 +1942,43 @@
           {
             "name": "Žan Vipotnik",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "goals": 1,
             "note": "Scored in the reverse fixture"
           },
           {
             "name": "Danijel Šturm",
             "pos": "AM",
-            "start": 0.85,
+            "start": 1,
             "goals": 1,
             "assists": 1
           },
           {
             "name": "Adam Gnezda Čerin",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 5,
             "goals": 0
           },
           {
             "name": "Mark Zabukovnik",
             "pos": "MF",
-            "start": 0.8,
+            "start": 1,
             "goals": 0
           },
           {
             "name": "Žan Celar",
             "pos": "FW",
-            "start": 0.3,
+            "start": 0,
             "goals": 0,
-            "note": "10 club goals for Basel this season, but none in 20 caps"
+            "note": "On the bench"
           }
         ],
         "away": [
           {
             "name": "Dan Ndoye",
             "pos": "FW",
-            "start": 0.9,
+            "start": 1,
             "shots": 27,
             "goals": 5,
             "note": "Scored in the reverse fixture"
@@ -1907,33 +1986,41 @@
           {
             "name": "Zeki Amdouni",
             "pos": "FW",
-            "start": 0.7,
+            "start": 0,
             "shots": 21,
             "goals": 3,
-            "note": "Competes with Embolo for the No 9 role"
+            "note": "On the bench after an ankle problem"
           },
           {
             "name": "Johan Manzambi",
             "pos": "AM",
-            "start": 0.85,
-            "shots": 13
+            "start": 0,
+            "shots": 13,
+            "note": "Injured, not in the squad"
           },
           {
             "name": "Breel Embolo",
             "pos": "FW",
-            "start": 0.45,
+            "start": 1,
             "goals": 2,
-            "note": "Back in the squad but not in Sports Mole's predicted XI"
+            "note": "Back in the side and leads the line"
           },
           {
             "name": "Fabian Rieder",
             "pos": "AM",
-            "start": 0.8
+            "start": 1,
+            "note": "Plays as the No. 10"
           },
           {
             "name": "Remo Freuler",
             "pos": "MF",
-            "start": 0.85
+            "start": 1
+          },
+          {
+            "name": "Michel Aebischer",
+            "pos": "AM",
+            "start": 1,
+            "note": "Starts in the attacking midfield line"
           }
         ]
       },
@@ -2059,7 +2146,7 @@
         "note": "Referee not yet published by the free sources, so the engine uses a 4.1 yellow-card prior."
       },
       "odds": {
-        "book": "bet365 via KickOff.co.uk",
+        "book": "bet365 via KickOff.co.uk (13 Nov, about an hour before kick-off)",
         "h": 4.33,
         "d": 3.5,
         "a": 1.83,
@@ -2083,6 +2170,10 @@
           "4.5": [
             7,
             1.08
+          ],
+          "5.5": [
+            10.5,
+            1.03
           ]
         },
         "btts": [
@@ -2216,7 +2307,7 @@
         "note": "Referee not yet published by the free sources, so the engine uses a 4.1 yellow-card prior."
       },
       "odds": {
-        "book": "bet365 via KickOff.co.uk",
+        "book": "bet365 via KickOff.co.uk (13 Nov, about an hour before kick-off)",
         "h": 2.3,
         "d": 3.1,
         "a": 3.1,
@@ -2240,6 +2331,10 @@
           "4.5": [
             8.5,
             1.05
+          ],
+          "5.5": [
+            13,
+            1.01
           ]
         },
         "btts": [
@@ -2378,7 +2473,7 @@
         "note": "Referee not yet published by the free sources, so the engine uses a 4.1 yellow-card prior."
       },
       "odds": {
-        "book": "bet365 via KickOff.co.uk",
+        "book": "bet365 via KickOff.co.uk (13 Nov, about an hour before kick-off)",
         "h": 1.36,
         "d": 4.5,
         "a": 8.5,
@@ -2402,6 +2497,10 @@
           "4.5": [
             5.5,
             1.13
+          ],
+          "5.5": [
+            9,
+            1.04
           ]
         },
         "btts": [
@@ -2535,7 +2634,7 @@
         "note": "Referee not yet published by the free sources, so the engine uses a 4.1 yellow-card prior."
       },
       "odds": {
-        "book": "bet365 via KickOff.co.uk",
+        "book": "bet365 via KickOff.co.uk (13 Nov, about an hour before kick-off)",
         "h": 1.67,
         "d": 3.2,
         "a": 6.5,
@@ -2555,6 +2654,14 @@
           "3.5": [
             6.5,
             1.1
+          ],
+          "4.5": [
+            10.5,
+            1.03
+          ],
+          "5.5": [
+            17,
+            1.01
           ]
         },
         "btts": [
@@ -2674,7 +2781,7 @@
         "note": "Referee not yet published by the free sources, so the engine uses a 4.1 yellow-card prior."
       },
       "odds": {
-        "book": "bet365 via KickOff.co.uk (fractions converted)",
+        "book": "bet365 via KickOff.co.uk (13 Nov, about an hour before kick-off)",
         "h": 12,
         "d": 5.25,
         "a": 1.25,
@@ -2698,6 +2805,10 @@
           "4.5": [
             7,
             1.08
+          ],
+          "5.5": [
+            10.5,
+            1.03
           ]
         },
         "btts": [
