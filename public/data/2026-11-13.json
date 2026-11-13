@@ -1334,26 +1334,22 @@
         {
           "player": "Scott McTominay",
           "market": "1+ shots on target",
-          "odds": 1.2,
-          "hit": "4/5"
+          "odds": 1.2
         },
         {
           "player": "Ben Gannon-Doak",
           "market": "2+ shots",
-          "odds": 1.33,
-          "hit": "4/5"
+          "odds": 1.33
         },
         {
           "player": "John McGinn",
           "market": "1+ fouls",
-          "odds": 1.22,
-          "hit": "4/5"
+          "odds": 1.22
         },
         {
           "player": "Aaron Hickey",
           "market": "1+ fouls",
-          "odds": 1.36,
-          "hit": "4/5"
+          "odds": 1.36
         }
       ],
       "benchmarks": {

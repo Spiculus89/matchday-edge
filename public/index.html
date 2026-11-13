@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f5f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1512" media="(prefers-color-scheme: dark)">
 <title>Matchday Edge</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,9 +47,16 @@
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; }
+html { -webkit-tap-highlight-color: rgba(15, 122, 85, .15); }
 body { background: var(--paper); color: var(--ink); font: 15px/1.5 var(--body); -webkit-font-smoothing: antialiased; }
 a { color: var(--pitch); }
-a:focus-visible, button:focus-visible { outline: 2px solid var(--pitch); outline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+a, button, summary, input { touch-action: manipulation; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--pitch); outline-offset: 2px; }
+.skip { position: absolute; left: 16px; top: -48px; z-index: 10; background: var(--ink); color: var(--paper); padding: 8px 14px; border-radius: 6px; font-weight: 600; text-decoration: none; }
+.skip:focus { top: 12px; }
+.sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+main:focus { outline: none; }
 .num { font-variant-numeric: tabular-nums; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px 56px; }
 h1, h2, h3 { font-family: var(--display); font-weight: 700; letter-spacing: .01em; text-wrap: balance; margin: 0; }
@@ -57,6 +66,7 @@ header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-cont
 .brand p { margin: 6px 0 0; color: var(--muted); }
 .days { display: flex; gap: 6px; flex-wrap: wrap; }
 .days button { font: 600 14px var(--body); border: 1px solid var(--line); background: var(--card); color: var(--ink); padding: 6px 12px; border-radius: 999px; cursor: pointer; }
+.days button:hover { border-color: var(--pitch); color: var(--pitch); }
 .days button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
 .meta { color: var(--muted); font-size: 13px; text-align: right; }
 .section-title { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 28px 0 12px; }
@@ -74,7 +84,7 @@ header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-cont
 .price { font: 700 20px var(--display); color: var(--ink); }
 
 /* Chips */
-.chip { display: inline-flex; align-items: center; gap: 5px; font: 600 11px/1 var(--body); text-transform: uppercase; letter-spacing: .04em; padding: 5px 8px; border-radius: 999px; white-space: nowrap; }
+.chip { position: relative; display: inline-flex; align-items: center; gap: 5px; font: 600 11px/1 var(--body); text-transform: uppercase; letter-spacing: .04em; padding: 5px 8px; border-radius: 999px; white-space: nowrap; }
 .chip.good { background: var(--good-bg); color: var(--good); }
 .chip.warn { background: var(--warn-bg); color: var(--warn); }
 .chip.bad { background: var(--bad-bg); color: var(--bad); }
@@ -86,8 +96,8 @@ header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-cont
 .match { background: var(--card); border: 1px solid var(--line); border-radius: 12px; margin-top: 18px; overflow: hidden; scroll-margin-top: 12px; }
 .mhead { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; padding: 12px 20px; border-bottom: 1px solid var(--line); font-size: 13px; color: var(--muted); }
 .mhead .chips { display: flex; gap: 6px; flex-wrap: wrap; }
-.scoreline { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 16px; padding: 18px 20px 6px; }
-.team { display: flex; flex-direction: column; gap: 2px; }
+.scoreline { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 16px; padding: 18px 20px 6px; }
+.team { display: flex; flex-direction: column; gap: 2px; min-width: 0; overflow-wrap: anywhere; }
 .team.away { text-align: right; align-items: flex-end; }
 .team .name { font: 700 34px/1 var(--display); text-transform: uppercase; }
 .team .xg { color: var(--muted); font-size: 13px; }
@@ -112,7 +122,7 @@ th { text-align: left; font: 600 11px var(--body); text-transform: uppercase; le
 td { padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: middle; }
 tr:last-child td { border-bottom: none; }
 td.r, th.r { text-align: right; white-space: nowrap; }
-.tablewrap { overflow-x: auto; }
+.tablewrap { overflow-x: auto; position: relative; }
 .market { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; white-space: nowrap; }
 .pickname { font-weight: 600; }
 .pbar { position: relative; height: 6px; background: var(--line); border-radius: 3px; width: 70px; display: inline-block; vertical-align: middle; margin-right: 6px; }
@@ -171,6 +181,23 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
 .lbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); }
 .btn { font: 600 13px var(--body); padding: 7px 12px; border-radius: 6px; border: 1px solid var(--pitch); background: var(--pitch); color: #fff; cursor: pointer; }
 .btn.ghost { background: transparent; color: var(--pitch); }
+.btn:hover { box-shadow: 0 0 0 3px var(--pitch-soft), 0 0 0 4px var(--pitch); }
+.btn.ghost:hover { background: var(--card); }
+.live summary:hover::before { color: var(--ink); }
+/* What the model learned */
+.lessons { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.lessons li { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 6px 18px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.lessons li:last-child { border-bottom: none; }
+.lessons .when { display: flex; flex-direction: column; gap: 6px; align-items: flex-start; font-size: 13px; color: var(--muted); }
+.lessons .area { font: 700 17px/1.1 var(--display); text-transform: uppercase; color: var(--ink); }
+.lessons p { margin: 0; max-width: 75ch; }
+.lessons .saw { color: var(--muted); font-size: 14px; }
+.lessons .chg { margin-top: 4px; }
+.lessons .chg b { font-weight: 600; }
+.resp { font-size: 13px; color: var(--muted); }
+.resp b { font-weight: 600; color: var(--ink); }
+.show-sm { display: none; }
+@media (max-width: 520px) { .lessons li { grid-template-columns: 1fr; } .lessons .when { flex-direction: row; align-items: center; flex-wrap: wrap; } }
 .lout { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 16px; margin-top: 12px; }
 .lout h4 { margin: 0 0 6px; font: 700 15px var(--display); text-transform: uppercase; }
 .livepick { display: flex; justify-content: space-between; gap: 10px; align-items: center; background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--pitch); border-radius: 8px; padding: 8px 10px; margin-bottom: 6px; }
@@ -179,33 +206,39 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
 .livepick .take b { display: block; font: 700 18px var(--display); color: var(--ink); }
 .nobet { font-weight: 600; color: var(--warn); }
 .track td.r b { font-weight: 600; }
-@media (max-width: 860px) { .lout { grid-template-columns: 1fr; } }
+@media (max-width: 860px) { .lout { grid-template-columns: minmax(0, 1fr); } }
 .err { background: var(--bad-bg); color: var(--bad); padding: 14px 16px; border-radius: 8px; margin-top: 20px; }
 
 @media (max-width: 860px) {
-  .mbody { grid-template-columns: 1fr; }
+  .mbody { grid-template-columns: minmax(0, 1fr); }
   .panel { border-right: none; }
   .lineups { grid-template-columns: 1fr; }
 }
 @media (max-width: 520px) {
   .wrap { padding: 0 16px 40px; }
   .brand h1 { font-size: 32px; }
-  .team .name { font-size: 26px; }
+  .team .name { font-size: 22px; }
+  .scoreline { gap: 10px; padding: 16px 16px 6px; }
+  .section-title { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .section-title h2 { flex-shrink: 1; font-size: 24px; }
+  .section-title p { text-align: left; }
   .csgrid { grid-template-columns: repeat(2, 1fr); }
   .kv { grid-template-columns: 1fr 1fr; }
   .xi ol { columns: 1; }
   .hide-sm { display: none; }
+  .show-sm { display: block; margin-top: 2px; white-space: nowrap; }
   .meta { text-align: left; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
 </style>
 </head>
 <body>
+<a class="skip" href="#app">Skip to matches</a>
 <div class="wrap">
   <header class="top">
     <div class="brand">
-      <h1>Matchday <span>Edge</span></h1>
-      <p>The day's biggest football matches, priced by a model built on bookmaker odds, team form, lineups, referees and news.</p>
+      <h1 translate="no">Matchday <span>Edge</span></h1>
+      <p>The day’s biggest football matches, priced by a model built on bookmaker odds, team form, lineups, referees and news.</p>
     </div>
     <div>
       <div class="days" id="days" role="group" aria-label="Choose a matchday"></div>
@@ -213,15 +246,17 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
     </div>
   </header>
 
-  <main id="app">
-    <p class="meta" style="text-align:left;margin-top:20px">Loading today's matches…</p>
+  <main id="app" tabindex="-1">
+    <p class="meta" style="text-align:left;margin-top:20px">Loading today’s matches…</p>
   </main>
+  <p class="sr" id="announce" aria-live="polite"></p>
 
   <footer>
     <div>
       <h3>How the picks are made</h3>
       <p>Bookmaker prices for the result, goal lines and both-teams-to-score are stripped of their margin, then the engine finds the goal rates for each team that best reproduce them. Those rates are blended 75/25 with a form rating from each side's last 20 games (goals and xG for and against) and this competition's games.</p>
-      <p>A Dixon-Coles score grid turns the two goal rates into every scoreline, and from there into results, handicaps, totals and BTTS. Corners and cards use over-dispersed count models fed by team averages and the referee's record. Scorer and assist chances share out each team's expected goals by recent shots, goals and assists, scaled by how likely the player is to start.</p>
+      <p>A Dixon-Coles score grid turns the two goal rates into every scoreline, and from there into results, handicaps, totals and BTTS. Corners and cards use over-dispersed count models. They follow a bookmaker line when one is listed, and team averages and the referee’s record otherwise. Scorer and assist chances share out each team’s expected goals by recent shots, goals and assists, scaled by how likely the player is to start. Shot, foul and tackle props use the player’s per-90 rates where they are known, and a cautious position average where they are not.</p>
+      <p>The best bet, the Bet and Lean rows, the builder and the priced props are graded the next morning. Once a market has 8 graded picks, the model compares what it promised with what landed and adjusts that market. The track record and the list of what the model learned sit below the matches.</p>
     </div>
     <div>
       <h3>Reading the numbers</h3>
@@ -275,8 +310,9 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
   }
   function gradeChip(g, title) {
     var cls = { Bet: "good", Lean: "warn", Skip: "plain" }[g] || "plain";
-    return '<span class="chip ' + cls + '"' + (title ? ' title="' + esc(title) + '"' : "") + ">" + esc(g) + "</span>";
+    return '<span class="chip ' + cls + '"' + (title ? ' title="' + esc(title) + '"' : "") + ">" + esc(g) + (title ? '<span class="sr">, ' + esc(title) + "</span>" : "") + "</span>";
   }
+  function plural(n, one, many) { return n + " " + (n === 1 ? one : many || one + "s"); }
   function edgeTxt(ev) { return ev == null ? "model only" : "edge " + (ev >= 0 ? "+" : "") + (ev * 100).toFixed(1) + "%"; }
   function pbar(p) { return '<span class="pbar" aria-hidden="true"><i style="width:' + Math.round(p * 100) + '%"></i></span>'; }
 
@@ -286,7 +322,7 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
     if (!t) return '<a class="tile" href="#' + esc(m.id) + '" style="border-top-color:var(--warn)">' +
       '<div class="ko"><span>' + esc(m.competition.replace("UEFA ", "")) + '</span><span class="chip ' + st.cls + '">' + esc(st.label) + "</span></div>" +
       '<div class="teams">' + esc(m.home.name) + " v " + esc(m.away.name) + "</div>" +
-      '<div class="pick nobet">No bet</div><div class="row"><span>Every price is shorter than the model\'s fair odds. Check the live mode once it kicks off.</span></div></a>';
+      '<div class="pick nobet">No bet</div><div class="row"><span>Every price is shorter than the model’s fair odds. Try Live mode after kick-off.</span></div></a>';
     var price = t.odds ? odd(t.odds) : odd(t.fair);
     return '<a class="tile" href="#' + esc(m.id) + '">' +
       '<div class="ko"><span>' + esc(m.competition.replace("UEFA ", "")) + '</span><span class="chip ' + st.cls + '">' + esc(st.label) + "</span></div>" +
@@ -424,12 +460,12 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
     var inputs = FIELDS.map(function (f) {
       var k = f[0], k2 = k === "home" ? "away" : k.replace("Home", "Away");
       var lab = f[1] + (f[2] === 2 ? " <span>" + esc(m.home.code || "H") + " · " + esc(m.away.code || "A") + "</span>" : "");
-      return '<label>' + lab + '<span class="pair"><input type="number" min="0" max="130" inputmode="numeric" data-k="' + k + '" aria-label="' + esc(f[1] + (f[2] === 2 ? " " + m.home.name : "")) + '">' +
-        (f[2] === 2 ? '<input type="number" min="0" max="40" inputmode="numeric" data-k="' + k2 + '" aria-label="' + esc(f[1] + " " + m.away.name) + '">' : "") + "</span></label>";
+      return '<label>' + lab + '<span class="pair"><input type="number" min="0" max="130" inputmode="numeric" autocomplete="off" name="' + esc(m.id + "-" + k) + '" data-k="' + k + '" aria-label="' + esc(f[1] + (f[2] === 2 ? " " + m.home.name : "")) + '">' +
+        (f[2] === 2 ? '<input type="number" min="0" max="40" inputmode="numeric" autocomplete="off" name="' + esc(m.id + "-" + k2) + '" data-k="' + k2 + '" aria-label="' + esc(f[1] + " " + m.away.name) + '">' : "") + "</span></label>";
     }).join("");
     return '<details class="panel live" data-live="' + esc(m.id) + '"' + (isLive ? " open" : "") + '><summary>Live mode <small>picks re-priced from the score, minute, cards and corners</small><span class="chip ' + (isLive ? "bad" : "plain") + '" data-feed><span class="dot"></span>' + (isLive ? "Connecting…" : "Not started") + "</span></summary>" +
       '<div class="lform">' + inputs + "</div>" +
-      '<div class="lbar"><button type="button" class="btn" data-act="calc">Update picks</button><button type="button" class="btn ghost" data-act="feed">Pull live score</button><span data-msg>Fill in what you know; minute and score are enough. Shots on target and corners sharpen it.</span></div>' +
+      '<div class="lbar"><button type="button" class="btn" data-act="calc">Update Picks</button><button type="button" class="btn ghost" data-act="feed">Pull Live Score</button><span data-msg aria-live="polite">Fill in what you know. The minute and score are enough; shots on target and corners sharpen it.</span></div>' +
       '<div class="lout" data-out></div></details>';
   }
   function readState(box) {
@@ -449,7 +485,7 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
     }).join("") : '<p class="nobet">Nothing between 60% and 90% right now. Wait for the next event.</p>';
     var overs = Object.keys(mk.over).slice(0, 4).map(function (k) { return "<tr><td>Over " + k + '</td><td class="r num">' + pct(mk.over[k]) + '</td><td class="r num">' + odd(1 / mk.over[k]) + '</td><td class="r num">' + odd(1 / (1 - mk.over[k])) + "</td></tr>"; }).join("");
     out.innerHTML = '<div><h4>Live picks · ' + L.minute + "' · " + L.score.join("-") + "</h4>" + picks +
-      '<p class="refnote">Only take a pick when the bookmaker pays at least the "take at" price (fair odds plus 5%). Live prices move every few seconds, and a goal or red card changes everything: update and re-check.</p></div>' +
+      '<p class="refnote">Only take a pick when the bookmaker pays at least the “take at” price (fair odds plus 5%). Live prices move every few seconds. After a goal or a red card, update and check again.</p></div>' +
       '<div><h4>Now</h4><div class="tablewrap"><table><tbody>' +
       '<tr><td>' + esc(H) + ' win · draw · ' + esc(A) + ' win</td><td class="r num" colspan="3">' + pct(mk.home) + " · " + pct(mk.draw) + " · " + pct(mk.away) + "</td></tr>" +
       '<tr><td>Next goal ' + esc(H) + " · none · " + esc(A) + '</td><td class="r num" colspan="3">' + pct(mk.nextGoal.home) + " · " + pct(mk.nextGoal.none) + " · " + pct(mk.nextGoal.away) + "</td></tr>" +
@@ -522,7 +558,7 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
           return st;
         }).catch(function (e) {
           setChip("Feed unavailable", "warn");
-          if (!quiet) msg.textContent = "Couldn't reach the free live feed (" + e.message + "). Type the minute and score and press Update picks.";
+          if (!quiet) msg.textContent = "Couldn’t reach the free live feed (" + e.message + "). Type the minute and score, then press Update Picks.";
         });
       }
       function loop() { clearInterval(timer); timer = setInterval(function () { if (box.open && !document.hidden) pull(true); }, 60000); }
@@ -541,48 +577,81 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
     var all = rec.legs.filter(function (l) { return l.won != null; }), wins = all.filter(function (l) { return l.won; }).length;
     var rows = keys.map(function (k) {
       var s = g[k], diff = s.hit - s.meanP;
-      return "<tr><td>" + esc(k) + '</td><td class="r num">' + s.wins + "/" + s.n + '</td><td class="r num">' + pct(s.meanP) + '</td><td class="r num"><b style="color:var(' + (diff >= 0 ? "--good" : "--bad") + ')">' + pct(s.hit) + '</b></td><td class="r num">' + (s.roi == null ? "–" : (s.roi >= 0 ? "+" : "") + (s.roi * 100).toFixed(0) + "%") + "</td></tr>";
+      return "<tr><td>" + esc(k) + '<div class="resp show-sm">' + response(k, true) + "</div>" + '</td><td class="r num">' + s.wins + "/" + s.n + '</td><td class="r num">' + pct(s.meanP) + '</td><td class="r num"><b style="color:var(' + (diff >= 0 ? "--good" : "--bad") + ')">' + pct(s.hit) + '</b></td><td class="r num">' + (s.roi == null ? "–" : (s.roi >= 0 ? "+" : "") + (s.roi * 100).toFixed(0) + "%") + '</td><td class="resp hide-sm">' + response(k) + "</td></tr>";
     }).join("");
     var days = {}; rec.legs.forEach(function (l) { days[l.date] = 1; });
-    return '<div class="section-title"><h2>Track record</h2><p>' + wins + " of " + all.length + " graded picks landed over " + Object.keys(days).length + ' day(s). Markets that land less often than the model said get their chances trimmed automatically.</p></div>' +
-      '<div class="match track"><div class="panel full"><div class="tablewrap"><table><thead><tr><th>Market</th><th class="r">Won</th><th class="r">Model said</th><th class="r">Landed</th><th class="r">Return at 1 unit</th></tr></thead><tbody>' + rows + "</tbody></table></div>" +
+    return '<div class="section-title" id="track"><h2>Track record</h2><p>' + wins + " of " + all.length + " graded picks landed over " + plural(Object.keys(days).length, "day") + ". Markets that land less often than the model said get their chances trimmed automatically.</p></div>" +
+      '<div class="match track"><div class="panel full"><div class="tablewrap"><table><thead><tr><th>Market</th><th class="r">Won</th><th class="r">Model said</th><th class="r">Landed</th><th class="r">Return at 1 unit</th><th class="hide-sm">What the model does</th></tr></thead><tbody>' + rows + "</tbody></table></div>" +
       '<p class="refnote">A handful of days is noise: one day can swing any line here by 20 points. A market needs 8 graded picks before the model reacts, and the data only gets half weight at 25.</p></div></div>';
   }
+  // How the track record is changing one market's chances right now
+  function response(group, short) {
+    var c = E.calibInfo(group), by0 = Math.round(Math.abs(1 - c.k) * 100);
+    if (short) return c.state === "anchored" ? "Follows the bookmaker" : c.state === "collecting" ? "Collecting · " + c.n + "/" + c.need : c.state === "trimmed" ? "Trimmed " + by0 + "%" : c.state === "stretched" ? "Stretched " + by0 + "%" : "No change";
+    if (c.state === "anchored") return "<b>Follows the bookmaker.</b> Result chances stay tied to the margin-free price.";
+    if (c.state === "collecting") return "<b>Collecting.</b> " + c.n + " of " + c.need + " graded picks before it reacts.";
+    var by = Math.round(Math.abs(1 - c.k) * 100);
+    if (c.state === "trimmed") return "<b>Trimmed.</b> Chances pulled " + by + "% closer to 50/50.";
+    if (c.state === "stretched") return "<b>Stretched.</b> Chances pushed " + by + "% further from 50/50.";
+    return "<b>No change.</b> It lands about as often as promised.";
+  }
 
-  var RECORD = null;
+  function lessonsPanel(data) {
+    var list = (data && data.lessons) || [];
+    if (!list.length) return "";
+    var items = list.map(function (l) {
+      return '<li><div class="when"><span class="area">' + esc(l.area) + '</span><span class="num">' + esc(new Date(l.date + "T12:00:00Z").toLocaleDateString([], { day: "numeric", month: "short" })) + '</span><span class="chip ' + (l.kind === "model" ? "info" : "plain") + '">' + (l.kind === "model" ? "Model" : "Data") + "</span></div>" +
+        '<div><p class="saw">' + esc(l.saw) + '</p><p class="chg"><b>Now:</b> ' + esc(l.change) + "</p></div></li>";
+    }).join("");
+    return '<div class="section-title" id="learned"><h2>What the model learned</h2><p>Each change came from a graded result or a data problem. Model changes alter the prices; data changes alter how the numbers are collected.</p></div>' +
+      '<div class="match"><div class="panel full"><ul class="lessons">' + items + "</ul></div></div>";
+  }
+
+  var RECORD = null, LESSONS = null;
   function render(day) {
-    var results = day.matches.map(function (m) { return { m: m, r: E.analyse(m) }; });
+    var results = (day.matches || []).map(function (m) { return { m: m, r: E.analyse(m) }; });
     results.sort(function (a, b) { return new Date(a.m.kickoff) - new Date(b.m.kickoff); });
     metaEl.innerHTML = esc(dateLong(day.date)) + " · updated " + esc(stamp(day.updated)) + '<br><span class="num">Times shown in ' + esc(tz) + "</span>";
-    app.innerHTML =
-      '<div class="section-title"><h2>Tonight\'s best bets</h2><p>' + esc(day.updateNote || "") + "</p></div>" +
-      '<div class="slipgrid">' + results.map(function (x) { return tile(x.m, x.r); }).join("") + "</div>" +
-      '<div class="section-title"><h2>' + esc(day.title || "Matches") + "</h2><p>" + results.length + " matches</p></div>" +
-      results.map(function (x) { return matchCard(x.m, x.r); }).join("") + trackRecord(RECORD);
+    var body = results.length
+      ? '<div class="section-title"><h2>Best bets</h2><p>' + esc(day.updateNote || "") + "</p></div>" +
+        '<div class="slipgrid">' + results.map(function (x) { return tile(x.m, x.r); }).join("") + "</div>" +
+        '<div class="section-title"><h2>' + esc(day.title || "Matches") + "</h2><p>" + plural(results.length, "match", "matches") + "</p></div>" +
+        results.map(function (x) { return matchCard(x.m, x.r); }).join("")
+      : '<p class="err" style="background:var(--warn-bg);color:var(--warn)">No matches on this day yet. The morning update adds them; pick another day above in the meantime.</p>';
+    app.innerHTML = body + trackRecord(RECORD) + lessonsPanel(LESSONS);
+    announce.textContent = "Showing " + plural(results.length, "match", "matches") + " for " + dateLong(day.date) + ".";
     var byId = {}; results.forEach(function (x) { byId[x.m.id] = x.m; });
     wireLive(byId);
     if (location.hash) { var el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
   }
 
-  function loadDay(entry, buttons) {
+  var announce = document.getElementById("announce");
+  function loadDay(entry, buttons, push) {
     buttons.forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.date === entry.date ? "true" : "false"); });
+    if (push) { try { history.replaceState(null, "", "?day=" + entry.date); } catch (e) { /* file:// or sandboxed */ } }
     return fetch(entry.file, { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(render)
-      .catch(function () { app.innerHTML = '<div class="err">Could not load the matches for ' + esc(entry.date) + ". Reload the page to try again.</div>"; });
+      .catch(function () { app.innerHTML = '<div class="err">Could not load the matches for ' + esc(entry.date) + ". Reload the page to try again, or pick another day above.</div>"; });
   }
 
-  var recordReady = fetch("data/results.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; })
-    .then(function (rec) { RECORD = rec; if (rec) E.setCalibration(E.trackStats(rec.legs)); }).catch(function () {});
-  recordReady.then(function () { return fetch("data/index.json", { cache: "no-store" }); }).then(function (r) { return r.json(); }).then(function (idx) {
-    var days = idx.days.slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; }).slice(0, 7);
+  function getJson(url) { return fetch(url, { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
+  var ready = Promise.all([getJson("data/results.json"), getJson("data/lessons.json")]).then(function (x) {
+    RECORD = x[0]; LESSONS = x[1];
+    if (RECORD) E.setCalibration(E.trackStats(RECORD.legs));
+  });
+  ready.then(function () { return fetch("data/index.json", { cache: "no-store" }); }).then(function (r) { return r.json(); }).then(function (idx) {
+    var all = idx.days.slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+    var days = all.slice(0, 7);
     var buttons = days.map(function (d) {
       var b = document.createElement("button");
       b.type = "button"; b.dataset.date = d.date; b.id = "day-" + d.date;
       b.textContent = new Date(d.date + "T12:00:00Z").toLocaleDateString([], { weekday: "short", day: "numeric", month: "short" });
-      b.addEventListener("click", function () { loadDay(d, buttons); });
+      b.addEventListener("click", function () { loadDay(d, buttons, true); });
       daysEl.appendChild(b); return b;
     });
-    return loadDay(days[0], buttons);
+    var want = null; try { want = new URLSearchParams(location.search).get("day"); } catch (e) { /* old browser */ }
+    var start = all.filter(function (d) { return d.date === want; })[0] || days[0];
+    return loadDay(start, buttons, false);
   }).catch(function () { app.innerHTML = '<div class="err">Could not load the match list. Reload the page to try again.</div>'; });
 })();
 </script>

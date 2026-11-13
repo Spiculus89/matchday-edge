@@ -1,0 +1,82 @@
+{
+  "note": "Changes to the model or the data process, each tied to the graded result or data problem that prompted it. Newest first.",
+  "lessons": [
+    {
+      "date": "2026-11-13",
+      "area": "Checks",
+      "kind": "data",
+      "saw": "The data check priced picks without the track-record adjustment the site applies, so it could report a different best bet from the page.",
+      "change": "The check now loads results.json first, so it prints the same best bets the page shows."
+    },
+    {
+      "date": "2026-11-13",
+      "area": "Odds",
+      "kind": "data",
+      "saw": "KickOff lists bet365 prices as fractions (11/20, 10/3), and two research passes could not open the page at all.",
+      "change": "Fractions are converted to decimals (11/20 becomes 1.55). If KickOff can’t be read, the run tries it again before using another site, and the odds note names the bookmaker and the site."
+    },
+    {
+      "date": "2026-11-13",
+      "area": "Fixtures",
+      "kind": "data",
+      "saw": "Argentina v Uruguay kicks off at 23:00 UK time, which is midnight in Warsaw.",
+      "change": "Matches are filed by their Warsaw date, so a midnight kick-off goes on the next day’s page."
+    },
+    {
+      "date": "2026-11-13",
+      "area": "Player stats",
+      "kind": "data",
+      "saw": "One source listed Florian Wirtz at 2.15 fouls per 90, which looked like fouls won rather than fouls committed.",
+      "change": "Foul props only use fouls committed. A figure above about 1.5 per 90 for an attacking player is checked against a second source before it is used."
+    },
+    {
+      "date": "2026-11-13",
+      "area": "Player stats",
+      "kind": "data",
+      "saw": "Some sources count a player’s shots over more games than the team totals beside them, which inflates his share of the team’s chances.",
+      "change": "Team totals must cover the same games as the player counts, or they are left out."
+    },
+    {
+      "date": "2026-11-12",
+      "area": "Player props",
+      "kind": "model",
+      "saw": "4 of 5 props lost, including 1+ shot on target for Anthony Gordon (1.30) and Fermín López (1.29). Those prices need the bet to land 77% of the time.",
+      "change": "Each prop now gets its own chance from the player’s per-90 rates, or a cautious position average, and is only marked Bet when that chance beats the price."
+    },
+    {
+      "date": "2026-11-12",
+      "area": "Bet builder",
+      "kind": "model",
+      "saw": "France to win + Over 1.5 goals lost when Italy won 3-1. France were only a 46% favourite. Builders on 55%+ favourites won 2 of 3.",
+      "change": "A builder only includes a result leg when the favourite is 55% or more. Otherwise it is built from double chance, goals and BTTS legs."
+    },
+    {
+      "date": "2026-11-12",
+      "area": "Handicap",
+      "kind": "model",
+      "saw": "Two -1.5 handicaps had no bookmaker price. Spain’s won 2-0; England’s lost on a 2-1 win.",
+      "change": "Handicaps without a bookmaker price stop at -1, which refunds the stake on a one-goal win."
+    },
+    {
+      "date": "2026-11-12",
+      "area": "Corners",
+      "kind": "model",
+      "saw": "Over 7.5 corners in Italy v France and England to win the corner count both lost. Neither had a bookmaker line to anchor it.",
+      "change": "Corner and card chances priced without a bookmaker line are pulled 20% closer to 50/50."
+    },
+    {
+      "date": "2026-11-12",
+      "area": "Best bet",
+      "kind": "model",
+      "saw": "The best-bet tile could show a pick whose price was shorter than the model’s fair odds, so backing it had no edge.",
+      "change": "The best bet must be priced between 1.35 and 3.50 and within 2% of fair value or better. When nothing qualifies, the card says No bet."
+    },
+    {
+      "date": "2026-11-12",
+      "area": "Track record",
+      "kind": "model",
+      "saw": "Picks were shown but never graded, so nothing told the model which markets it overrated.",
+      "change": "Every graded pick goes into the track record. Once a market has 8 results, its chances are pulled toward 50/50 if it lands less often than promised, or stretched if it lands more often."
+    }
+  ]
+}

@@ -284,11 +284,20 @@
   // market has 8 graded picks, and the data gets half weight at 25.
   var CAL = {};
   function setCalibration(stats) { CAL = stats || {}; }
-  function calib(group, p) {
-    var s = CAL[group]; if (!s || s.n < 8 || p == null || group === "Result") return p;
-    var spread = Math.abs(s.meanP - 0.5); if (spread < 0.03) return p;
+  // What the track record is doing to one market right now (shown on the site).
+  // state: anchored (1X2 follows the bookmaker), collecting (< 8 picks), none, trimmed or stretched.
+  function calibInfo(group) {
+    var s = CAL[group], n = s ? s.n : 0;
+    if (group === "Result") return { state: "anchored", n: n, k: 1 };
+    if (!s || n < 8) return { state: "collecting", n: n, need: 8, k: 1 };
+    if (Math.abs(s.meanP - 0.5) < 0.03) return { state: "none", n: n, k: 1 };
     var kRaw = clamp((s.hit - 0.5) / (s.meanP - 0.5), 0.4, 1.25);
-    var k = 1 + (s.n / (s.n + 25)) * (kRaw - 1);
+    var k = 1 + (n / (n + 25)) * (kRaw - 1);
+    return { state: k < 0.995 ? "trimmed" : k > 1.005 ? "stretched" : "none", n: n, k: k };
+  }
+  function calib(group, p) {
+    if (p == null) return p;
+    var k = calibInfo(group).k; if (k === 1) return p;
     return clamp(0.5 + k * (p - 0.5), 0.01, 0.99);
   }
   function trackStats(legs) {
@@ -639,5 +648,5 @@
   }
 
   return { analyse: analyse, live: live, devig: devig, scoreMatrix: scoreMatrix, fair: fair, round: round,
-    setCalibration: setCalibration, trackStats: trackStats, parseProp: parseProp };
+    setCalibration: setCalibration, trackStats: trackStats, calibInfo: calibInfo, parseProp: parseProp };
 });

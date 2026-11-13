@@ -89,3 +89,20 @@ test("track record nudges a market that keeps missing", () => {
   E.setCalibration({});
   after.forEach((a, i) => assert.ok(a < before[i])); // both sides pulled toward 50/50
 });
+
+test("calibInfo reports what the track record is doing to each market", () => {
+  const miss = Array.from({ length: 40 }, (_, i) => ({ group: "Goals", p: 0.65, won: i % 2 === 0 }));
+  const few = [{ group: "Corners", p: 0.6, won: false }, { group: "Result", p: 0.55, won: true }];
+  E.setCalibration(E.trackStats(miss.concat(few)));
+  const g = E.calibInfo("Goals"), c = E.calibInfo("Corners"), r = E.calibInfo("Result");
+  E.setCalibration({});
+  assert.equal(g.state, "trimmed"); assert.ok(g.k < 1 && g.k > 0.4);
+  assert.equal(c.state, "collecting"); assert.equal(c.n, 1); assert.equal(c.need, 8);
+  assert.equal(r.state, "anchored");
+});
+
+test("lessons.json entries have what the site needs", () => {
+  const ls = JSON.parse(fs.readFileSync(new URL("../public/data/lessons.json", import.meta.url), "utf8")).lessons;
+  assert.ok(ls.length > 0);
+  ls.forEach((l) => { assert.match(l.date, /^\d{4}-\d{2}-\d{2}$/); assert.ok(l.area && l.saw && l.change); assert.ok(["model", "data"].includes(l.kind)); });
+});

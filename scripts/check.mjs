@@ -2,6 +2,12 @@
 // Usage: node scripts/check.mjs 2026-11-12
 import fs from "node:fs"; import vm from "node:vm";
 const ctx = { self: {} }; vm.runInNewContext(fs.readFileSync("public/engine.js", "utf8"), ctx); const E = ctx.self.BetEngine;
+// Price picks the way the page does: with the track-record calibration from results.json.
+if (fs.existsSync("public/data/results.json")) E.setCalibration(E.trackStats(JSON.parse(fs.readFileSync("public/data/results.json", "utf8")).legs));
+if (fs.existsSync("public/data/lessons.json")) {
+  const ls = JSON.parse(fs.readFileSync("public/data/lessons.json", "utf8")).lessons || [];
+  ls.forEach((l, i) => { if (!/^\d{4}-\d{2}-\d{2}$/.test(l.date) || !l.area || !l.saw || !l.change || !["model", "data"].includes(l.kind)) { console.log(`BAD lessons.json entry ${i} needs date, area, kind (model|data), saw and change`); process.exitCode = 1; } });
+}
 const idx = JSON.parse(fs.readFileSync("public/data/index.json", "utf8"));
 const date = process.argv[2] || idx.days[0].date;
 const day = JSON.parse(fs.readFileSync(`public/data/${date}.json`, "utf8"));
@@ -17,4 +23,4 @@ for (const m of day.matches) {
   } catch (e) { bad++; console.log(`BAD ${m.home && m.home.name} v ${m.away && m.away.name}: ${e.message}`); }
 }
 if (!idx.days.some((d) => d.date === date)) { bad++; console.log("BAD index.json has no entry for " + date); }
-process.exit(bad ? 1 : 0);
+process.exit(bad || process.exitCode ? 1 : 0);
