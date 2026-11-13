@@ -1,0 +1,1863 @@
+{
+  "date": "2026-11-13",
+  "title": "Nations League, matchday 5",
+  "updated": "2026-11-13T09:21:15.122Z",
+  "updateNote": "Morning update: bet365 odds from KickOff, predicted lineups. All four games kick off at 20:45 Warsaw time; confirmed lineups land at about 20:05.",
+  "matches": [
+    {
+      "id": "ned-gre",
+      "competition": "UEFA Nations League A, Group 2",
+      "kickoff": "2026-11-13T19:45:00Z",
+      "venue": "Johan Cruijff ArenA, Amsterdam",
+      "neutral": false,
+      "home": {
+        "name": "Netherlands",
+        "short": "Netherlands",
+        "code": "NED"
+      },
+      "away": {
+        "name": "Greece",
+        "short": "Greece",
+        "code": "GRE"
+      },
+      "context": "The Netherlands and Greece are level on 8 points (+2) at the top of Group 2, three clear of Germany, with the Dutch ahead on goals scored (7 v 5); only the top two reach the quarter-finals. The reverse fixture in Greece on 1 October ended 2-2 after Greece led 2-0 at half-time.",
+      "referee": {
+        "name": "Rohit Saggi",
+        "country": "NOR",
+        "games": 2,
+        "yellowsPg": 3.5,
+        "foulsPg": 26,
+        "redsPg": 0,
+        "note": "Figures from the statz.ai match page (2 games this season). His statz.ai profile lists only one 2026/27 Nations League game, Belgium 3-0 Türkiye on 2 October with 8 yellows, so the 2-game sample may not be Nations League only."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (13 Nov morning); 1X2, O/U 2.5 and BTTS cross-checked with footballpredictions.ai (1.44 / 4.00 / 5.50, O/U 2.5 1.57 / 2.35, BTTS 1.67 / 2.05). Malen anytime 11/8 (bet365) via Goal.",
+        "h": 1.55,
+        "d": 4.33,
+        "a": 5.5,
+        "ou": {
+          "0.5": [
+            1.03,
+            15
+          ],
+          "1.5": [
+            1.18,
+            4.5
+          ],
+          "2.5": [
+            1.62,
+            2.25
+          ],
+          "3.5": [
+            2.5,
+            1.5
+          ],
+          "4.5": [
+            4.5,
+            1.18
+          ],
+          "5.5": [
+            10,
+            1.06
+          ]
+        },
+        "btts": [
+          1.67,
+          2.1
+        ],
+        "wtn": {
+          "home": 2.75,
+          "away": 11
+        },
+        "dc": {
+          "12": 1.2,
+          "1X": 1.14,
+          "X2": 2.38
+        },
+        "dnb": {
+          "home": 1.2,
+          "away": 4.33
+        },
+        "firstGoal": {
+          "home": 1.5,
+          "away": 2.75
+        },
+        "scorers": {
+          "Donyell Malen": 2.38
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 7.5,
+          "fouls": 10.5,
+          "shots": 22,
+          "sot": 7.5,
+          "gf": 1.75,
+          "ga": 1.25
+        },
+        "away": {
+          "corners": 4,
+          "fouls": 8,
+          "shots": 11.8,
+          "sot": 4,
+          "gf": 1.25,
+          "ga": 0.75
+        }
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "RotoWire (updated 13 November)",
+        "home": {
+          "formation": "4-3-3",
+          "xi": [
+            "Bart Verbruggen",
+            "Jurriën Timber",
+            "Jan Paul van Hecke",
+            "Micky van de Ven",
+            "Ian Maatsen",
+            "Frenkie de Jong",
+            "Joey Veerman",
+            "Tijjani Reijnders",
+            "Crysencio Summerville",
+            "Donyell Malen",
+            "Cody Gakpo"
+          ]
+        },
+        "away": {
+          "formation": "4-4-2",
+          "xi": [
+            "Konstantinos Tzolakis",
+            "Georgios Vagiannidis",
+            "Konstantinos Mavropanos",
+            "Konstantinos Koulierakis",
+            "Kostas Tsimikas",
+            "Giorgos Masouras",
+            "Thanasis Androutsos",
+            "Nektarios Triantis",
+            "Alexandros Kyziridis",
+            "Vangelis Pavlidis",
+            "Fotis Ioannidis"
+          ]
+        },
+        "alt": "Kourbelis (ankle) and Tzolis (muscle) are doubts, and statz.ai and Sports Mole both still start Kourbelis. statz.ai has Dumfries and Quinten Timber in for Maatsen and De Jong, and Sports Mole leaves out Reijnders."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Captain Virgil van Dijk withdrew on 9 November as not fit enough for international football. No replacement was called up.",
+          "src": "Goal via Yardbarker"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Striker Brian Brobbey also withdrew for fitness reasons.",
+          "src": "Goal via Yardbarker"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Ryan Gravenberch, Nathan Aké, Jeremie Frimpong and Jorrel Hato are injured, and Kenneth Taylor was dropped.",
+          "src": "Reuters via The Star"
+        },
+        {
+          "team": "home",
+          "tag": "back",
+          "text": "Frenkie de Jong is back for the first time since his World Cup knee injury and is expected to captain the side without Van Dijk.",
+          "src": "The Football Faithful via Yahoo"
+        },
+        {
+          "team": "home",
+          "tag": "back",
+          "text": "Donyell Malen is back from a minor knee problem and expected to lead the line, with Mexx Meerdink the alternative. Justin Kluivert and Ian Maatsen are also recalled.",
+          "src": "RotoWire"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Reports conflict on whether Sepp van den Berg was added as cover. Goal and RotoWire say no replacements were named, leaving Xavi with 23 players.",
+          "src": "SoccerNews / RotoWire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Christos Zafeiris and Manolis Saliakas are suspended after second bookings against Germany.",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Dimitris Kourbelis has an ankle sprain and trained separately on Tuesday. Nektarios Triantis or Thanasis Androutsos would replace him.",
+          "src": "SoccerNews"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Christos Tzolis is in the squad, but his fitness is an open call after a muscle problem picked up in the 1 October draw.",
+          "src": "RotoWire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Giannis Michailidis, Dimitrios Pelkas and Giannis Konstantelias are injured.",
+          "src": "The Football Faithful via Yahoo"
+        },
+        {
+          "team": "away",
+          "tag": "back",
+          "text": "Tasos Bakasetas is recalled after missing the first four group games.",
+          "src": "SoccerNews"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Cody Gakpo",
+            "pos": "FW",
+            "start": 0.9,
+            "shots": 20,
+            "goals": 6,
+            "note": "12 shots on target in the last 10 internationals"
+          },
+          {
+            "name": "Donyell Malen",
+            "pos": "FW",
+            "start": 0.85,
+            "shots90": 5.22,
+            "sot90": 2.42,
+            "fouls90": 0.75,
+            "tackles90": 0.28,
+            "note": "12 goals in 14 Roma games this season. No recent internationals."
+          },
+          {
+            "name": "Tijjani Reijnders",
+            "pos": "MF",
+            "start": 0.85,
+            "shots": 23,
+            "shots90": 3.65,
+            "sot90": 1.95,
+            "fouls90": 0.81,
+            "tackles90": 0.97,
+            "note": "Most shots in the squad over the last 10 internationals. Scored the 89th-minute equaliser in the reverse fixture."
+          },
+          {
+            "name": "Crysencio Summerville",
+            "pos": "FW",
+            "start": 0.85,
+            "shots": 14,
+            "goals": 2
+          },
+          {
+            "name": "Frenkie de Jong",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "First call-up since his World Cup knee injury"
+          },
+          {
+            "name": "Mexx Meerdink",
+            "pos": "FW",
+            "start": 0.3,
+            "shots": 12,
+            "goals": 2,
+            "note": "Alternative to Malen up front"
+          },
+          {
+            "name": "Denzel Dumfries",
+            "pos": "DF",
+            "start": 0.5,
+            "note": "RotoWire has him on the bench, but statz.ai and Sports Mole start him at right-back."
+          }
+        ],
+        "away": [
+          {
+            "name": "Vangelis Pavlidis",
+            "pos": "FW",
+            "start": 0.9,
+            "shots": 13,
+            "shots90": 3.48,
+            "sot90": 1.63,
+            "fouls90": 1.03,
+            "tackles90": 1.14,
+            "note": "19 goals for Benfica this season. No goals in four Nations League games."
+          },
+          {
+            "name": "Fotis Ioannidis",
+            "pos": "FW",
+            "start": 0.85,
+            "goals": 1,
+            "note": "Opened the scoring in the reverse fixture"
+          },
+          {
+            "name": "Giorgos Masouras",
+            "pos": "AM",
+            "start": 0.8,
+            "goals": 2
+          },
+          {
+            "name": "Christos Tzolis",
+            "pos": "FW",
+            "start": 0.4,
+            "shots": 25,
+            "goals": 2,
+            "note": "Fitness doubt (muscle). Most shots for Greece over the last 10 games."
+          },
+          {
+            "name": "Konstantinos Karetsas",
+            "pos": "AM",
+            "start": 0.4,
+            "shots": 9,
+            "goals": 1,
+            "note": "Starts in the statz.ai XI but not in RotoWire's"
+          },
+          {
+            "name": "Konstantinos Mavropanos",
+            "pos": "DF",
+            "start": 0.9,
+            "shots": 8,
+            "shots90": 1.75,
+            "sot90": 0.66,
+            "fouls90": 0.66,
+            "tackles90": 1.59
+          },
+          {
+            "name": "Tasos Bakasetas",
+            "pos": "AM",
+            "start": 0.3,
+            "goals": 1,
+            "note": "Recalled for this window"
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Tijjani Reijnders",
+          "market": "2+ shots",
+          "odds": 1.36,
+          "hit": "5/5"
+        },
+        {
+          "player": "Donyell Malen",
+          "market": "1+ shots on target",
+          "odds": 1.29,
+          "hit": "5/5"
+        },
+        {
+          "player": "Vangelis Pavlidis",
+          "market": "1+ shots on target",
+          "odds": 1.73,
+          "hit": "5/5"
+        },
+        {
+          "player": "Konstantinos Mavropanos",
+          "market": "1+ tackles",
+          "odds": 1.2
+        },
+        {
+          "player": "Denzel Dumfries",
+          "market": "2+ tackles",
+          "odds": 1.36
+        }
+      ],
+      "benchmarks": {
+        "statz": {
+          "h": 0.63,
+          "d": 0.21,
+          "a": 0.16,
+          "xg": [
+            1.99,
+            0.88
+          ]
+        },
+        "kickoff": {
+          "h": 0.61,
+          "d": 0.2,
+          "a": 0.18
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Netherlands v Greece odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/netherlands-vs-greece/"
+        },
+        {
+          "title": "Statz.ai: Netherlands vs Greece stats & predicted lineups",
+          "url": "https://statz.ai/h2h/19676659"
+        },
+        {
+          "title": "Statz.ai: Netherlands vs Greece projections",
+          "url": "https://statz.ai/h2h/netherlands-vs-greece/19676659/projections"
+        },
+        {
+          "title": "Statz.ai: Netherlands vs Greece predictions & betting tips",
+          "url": "https://statz.ai/news/19676659-netherlands-vs-greece-predictions-betting-tips"
+        },
+        {
+          "title": "Statz.ai: Netherlands vs Greece bet builder",
+          "url": "https://statz.ai/bet-builder/sgp/uefa-nations-league/netherlands-vs-greece-2026-11-13"
+        },
+        {
+          "title": "Statz.ai: referee Rohit Saggi",
+          "url": "https://statz.ai/referee/rohit-saggi"
+        },
+        {
+          "title": "UEFA: Belgium v Türkiye match info (referee nationality)",
+          "url": "https://www.uefa.com/uefanationsleague/match/2047961--belgium-vs-turkiye/matchinfo/"
+        },
+        {
+          "title": "Statz.ai: Tijjani Reijnders 2026/27 stats (per-90 computed from club + Nations League totals)",
+          "url": "https://statz.ai/player/tijjani-reijnders/3156873"
+        },
+        {
+          "title": "Statz.ai: Donyell Malen 2026/27 stats (per-90 computed from Serie A + Champions League totals)",
+          "url": "https://statz.ai/player/537758"
+        },
+        {
+          "title": "Statz.ai: Vangelis Pavlidis 2026/27 stats (per-90 computed from club + Nations League totals)",
+          "url": "https://statz.ai/player/vangelis-pavlidis/36265"
+        },
+        {
+          "title": "Statz.ai: Konstantinos Mavropanos 2026/27 stats (per-90 computed from club + Nations League totals)",
+          "url": "https://statz.ai/player/konstantinos-mavropanos/109417"
+        },
+        {
+          "title": "RotoWire: Netherlands vs Greece prediction, predicted lineups & team news",
+          "url": "https://www.rotowire.com/soccer/article/netherlands-vs-greece-prediction-predicted-lineups-team-news-146175"
+        },
+        {
+          "title": "Goal: Netherlands vs Greece predictions (bet365 odds)",
+          "url": "https://www.goal.com/en-gb/betting/tips/netherlands-vs-greece-predictions-13-11-2026/A%3Ablta55cf4e5cf49ca09"
+        },
+        {
+          "title": "Sports Mole: Netherlands vs Greece preview",
+          "url": "https://www.sportsmole.co.uk/football/netherlands/uefa-nations-league/preview/netherlands-vs-greece-prediction-team-news-lineups_608925.html"
+        },
+        {
+          "title": "SoccerNews: Prediction Netherlands vs Greece",
+          "url": "https://www.soccernews.com/prediction-netherlands-vs-greece/407985/"
+        },
+        {
+          "title": "Goal via Yardbarker: Van Dijk leaves Xavi in trouble",
+          "url": "https://www.yardbarker.com/soccer/articles/a_fatal_blow_van_dijk_leaves_xavi_in_trouble/s1_17790_44539500"
+        },
+        {
+          "title": "Reuters via The Star: Netherlands recall De Jong for Greece and Germany games",
+          "url": "https://www.thestar.com.my/sport/football/2026/11/06/soccer-netherlands-recall-de-jong-for-greece-and-germany-games"
+        },
+        {
+          "title": "The Football Faithful via Yahoo: Netherlands vs Greece preview",
+          "url": "https://sports.yahoo.com/articles/netherlands-vs-greece-match-preview-062200911.html"
+        },
+        {
+          "title": "Hooligan Soccer: Nations League preview Netherlands vs Greece",
+          "url": "https://hooligan-soccer.com/uefa-nations-league-preview-netherlands-vs-greece/"
+        },
+        {
+          "title": "Scoretransfer: Jovanović recalls Bakasetas",
+          "url": "https://scoretransfer.com/news/jovanovic-recalls-bakasetas-to-greece-squad-for-nations-league-34a9b53f"
+        },
+        {
+          "title": "FotMob: Greece results & Group A2 table",
+          "url": "https://www.fotmob.com/teams/6383/overview"
+        },
+        {
+          "title": "Footballpredictions.ai: Netherlands vs Greece odds (cross-check)",
+          "url": "https://footballpredictions.ai/football-predictions/netherlands-vs-greece-predictions-tips-13-nov-2026/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 2.5,
+          "ga": 0.9,
+          "xgf": 2.3,
+          "xga": 0.8
+        },
+        "away": {
+          "gf": 1.5,
+          "ga": 1.2,
+          "xgf": 1.5,
+          "xga": 1.3
+        }
+      }
+    },
+    {
+      "id": "srb-ger",
+      "competition": "UEFA Nations League A, Group 2",
+      "kickoff": "2026-11-13T19:45:00Z",
+      "venue": "Stadion Rajko Mitić, Belgrade",
+      "neutral": false,
+      "home": {
+        "name": "Serbia",
+        "short": "Serbia",
+        "code": "SRB"
+      },
+      "away": {
+        "name": "Germany",
+        "short": "Germany",
+        "code": "GER"
+      },
+      "context": "Serbia are bottom of Group A2 with no points from four games (3-8) and can no longer reach the quarter-finals; Germany are third on 5 points, three behind Netherlands and Greece (8 each). Germany won the reverse fixture 2-0 in Munich on 1 October.",
+      "referee": {
+        "name": "Javier Alberola Rojas",
+        "country": "ESP",
+        "games": 0,
+        "note": "No 2026/27 Nations League games yet, so the engine uses a 4.1 yellow-card prior. His 7 La Liga games this season average 4.7 yellows, 31.4 fouls and 0.14 reds (statz.ai)."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (13 Nov morning); cross-checked with footballpredictions.ai (8.50 / 5.80 / 1.25, O/U 2.5 1.40 / 2.88, BTTS 1.67 / 2.10) and William Hill (8.00 / 5.50 / 1.25). Scorer prices are bet365 via Khel Now and Mr Fixit's Tips.",
+        "h": 8.5,
+        "d": 6.25,
+        "a": 1.29,
+        "ou": {
+          "0.5": [
+            1.02,
+            21
+          ],
+          "1.5": [
+            1.11,
+            6.5
+          ],
+          "2.5": [
+            1.4,
+            2.88
+          ],
+          "3.5": [
+            2,
+            1.73
+          ],
+          "4.5": [
+            3.4,
+            1.3
+          ],
+          "5.5": [
+            6,
+            1.13
+          ]
+        },
+        "btts": [
+          1.73,
+          2
+        ],
+        "wtn": {
+          "home": 17,
+          "away": 2.25
+        },
+        "dc": {
+          "12": 1.13,
+          "1X": 3.5,
+          "X2": 1.08
+        },
+        "dnb": {
+          "home": 7,
+          "away": 1.1
+        },
+        "firstGoal": {
+          "home": 3.25,
+          "away": 1.33
+        },
+        "scorers": {
+          "Kai Havertz": 1.91,
+          "Florian Wirtz": 2.3
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 2.5,
+          "fouls": 10.5,
+          "shots": 8.8,
+          "sot": 3.8,
+          "gf": 0.75,
+          "ga": 2
+        },
+        "away": {
+          "corners": 6,
+          "fouls": 13.8,
+          "shots": 19.8,
+          "sot": 4.8,
+          "gf": 0.75,
+          "ga": 0.5
+        }
+      },
+      "teamTotals": {
+        "home": {
+          "shots": 91,
+          "goals": 8
+        },
+        "away": {
+          "shots": 187,
+          "goals": 20
+        }
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "Sports Mole preview and Germany predicted XI (cross-checked with Forza Football and statz.ai)",
+        "home": {
+          "formation": "5-3-2",
+          "xi": [
+            "Vanja Milinković-Savić",
+            "Kosta Nedeljković",
+            "Nemanja Gudelj",
+            "Srđan Babić",
+            "Strahinja Eraković",
+            "Petar Sukačev",
+            "Lazar Samardžić",
+            "Sergej Milinković-Savić",
+            "Andrija Živković",
+            "Mihajlo Cvetković",
+            "Aleksandar Mitrović"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "xi": [
+            "Marc-André ter Stegen",
+            "Philipp Treu",
+            "Jonathan Tah",
+            "Nico Schlotterbeck",
+            "Nathaniel Brown",
+            "Felix Nmecha",
+            "Joshua Kimmich",
+            "Said El Mala",
+            "Florian Wirtz",
+            "Lennart Karl",
+            "Kai Havertz"
+          ]
+        },
+        "alt": "Serbia miss Lukić and N. Maksimović (suspended) plus Vlahović, S. Pavlović, Kostić, Stanković and Terzić; Forza and statz.ai expect a back four with Jović up front. Sports Mole gives no first name for Gudelj (Nemanja, the Nations League regular, assumed). For Germany, Bischof and Scherhant are the main alternatives to Nmecha and El Mala."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Saša Lukić and Nemanja Maksimović are suspended after yellow-card accumulation.",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Dušan Vlahović pulled out for private reasons, Paunović said.",
+          "src": "Novosti"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Strahinja Pavlović misses out after a blow to the kidney; Milan Krpić was called up.",
+          "src": "Novosti"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Filip Kostić withdrew with a leg haematoma (Stefan Bukinac called up) and Aleksandar Stanković left camp with an adductor strain.",
+          "src": "Novosti"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Aleksa Terzić is out with an infection.",
+          "src": "Novosti"
+        },
+        {
+          "team": "home",
+          "tag": "back",
+          "text": "Aleksandar Mitrović returns from injury but is short of match fitness; Nikola Milenković is also back.",
+          "src": "Sports Mole / Novosti"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Coach Veljko Paunović serves a touchline ban; assistant Quinton Fortune is expected to take charge.",
+          "src": "Novosti"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "UEFA crowd sanction: only children and about 2,000 German fans may attend.",
+          "src": "Novosti"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Jamal Musiala and Serge Gnabry are injured; Waldemar Anton withdrew injured and Ridle Baku was called up.",
+          "src": "Get German Football News / DFB"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Niclas Füllkrug is recalled and Wael Mohya (17) gets a first call-up; Raum, Woltemade and Adeyemi are left out.",
+          "src": "Get German Football News"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Ter Stegen is confirmed as No. 1; Treu, Thiaw and Bisseck are one booking away from a ban.",
+          "src": "Sports Mole"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Aleksandar Mitrović",
+            "pos": "FW",
+            "start": 0.75,
+            "shots": 3,
+            "goals": 1,
+            "note": "Back for the first time since March after injury and short of minutes."
+          },
+          {
+            "name": "Mihajlo Cvetković",
+            "pos": "FW",
+            "start": 0.8,
+            "shots": 5,
+            "goals": 1,
+            "note": "One goal in five caps."
+          },
+          {
+            "name": "Andrija Živković",
+            "pos": "AM",
+            "start": 0.85,
+            "shots": 5,
+            "goals": 1
+          },
+          {
+            "name": "Lazar Samardžić",
+            "pos": "AM",
+            "start": 0.85,
+            "shots": 6,
+            "goals": 0
+          },
+          {
+            "name": "Sergej Milinković-Savić",
+            "pos": "MF",
+            "start": 0.9,
+            "shots": 5,
+            "goals": 0
+          },
+          {
+            "name": "Luka Jović",
+            "pos": "FW",
+            "start": 0.4,
+            "shots": 12,
+            "goals": 1,
+            "note": "Serbia's top shooter over the last 10 games; starts in the Forza and statz.ai XIs but not Sports Mole's."
+          },
+          {
+            "name": "Srđan Babić",
+            "pos": "DF",
+            "start": 0.85,
+            "shots": 0,
+            "goals": 0,
+            "shots90": 0.7,
+            "sot90": 0,
+            "fouls90": 0.7,
+            "tackles90": 1.3,
+            "note": "Per-90s: Spartak Moscow, Russian Premier League 2026/27 (898 min), statz.ai."
+          },
+          {
+            "name": "Strahinja Eraković",
+            "pos": "DF",
+            "start": 0.85,
+            "shots": 1,
+            "goals": 0,
+            "shots90": 0.57,
+            "sot90": 0.19,
+            "fouls90": 0.57,
+            "tackles90": 1.72,
+            "note": "Per-90s: Samsunspor, Süper Lig 2026/27 (472 min), statz.ai."
+          }
+        ],
+        "away": [
+          {
+            "name": "Kai Havertz",
+            "pos": "FW",
+            "start": 0.9,
+            "shots": 13,
+            "goals": 4,
+            "note": "25 goals in 63 caps; expected to lead the line."
+          },
+          {
+            "name": "Florian Wirtz",
+            "pos": "AM",
+            "start": 0.9,
+            "shots": 26,
+            "goals": 2,
+            "shots90": 2.6,
+            "sot90": 0.57,
+            "tackles90": 1.47,
+            "note": "Scored in the reverse fixture. Per-90s: Liverpool, Premier League 2026/27 (796 min), statz.ai."
+          },
+          {
+            "name": "Felix Nmecha",
+            "pos": "MF",
+            "start": 0.75,
+            "shots": 14,
+            "goals": 2
+          },
+          {
+            "name": "Lennart Karl",
+            "pos": "FW",
+            "start": 0.8,
+            "shots": 5,
+            "goals": 0
+          },
+          {
+            "name": "Said El Mala",
+            "pos": "FW",
+            "start": 0.75,
+            "shots": 4,
+            "goals": 0
+          },
+          {
+            "name": "Derry Scherhant",
+            "pos": "FW",
+            "start": 0.45,
+            "shots": 12,
+            "goals": 0,
+            "note": "12 shots in two caps; starts in the Forza and statz.ai XIs but not Sports Mole's."
+          },
+          {
+            "name": "Joshua Kimmich",
+            "pos": "MF",
+            "start": 0.9,
+            "shots": 7,
+            "goals": 0,
+            "shots90": 1.38,
+            "sot90": 0.59,
+            "tackles90": 1.38,
+            "note": "Per-90s: Bayern, Bundesliga + Champions League 2026/27 (911 min), statz.ai."
+          },
+          {
+            "name": "Nathaniel Brown",
+            "pos": "DF",
+            "start": 0.85,
+            "shots": 4,
+            "shots90": 1.98,
+            "sot90": 1.22,
+            "fouls90": 0.76,
+            "tackles90": 1.37,
+            "note": "Per-90s: Bayern, Bundesliga + Champions League 2026/27 (592 min), statz.ai."
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Joshua Kimmich",
+          "market": "1+ shots",
+          "odds": 1.18,
+          "hit": "5/5"
+        },
+        {
+          "player": "Nathaniel Brown",
+          "market": "1+ shots",
+          "odds": 1.4,
+          "hit": "4/5"
+        },
+        {
+          "player": "Srđan Babić",
+          "market": "1+ tackles",
+          "odds": 1.2,
+          "hit": "4/5"
+        },
+        {
+          "player": "Strahinja Eraković",
+          "market": "1+ tackles",
+          "odds": 1.25,
+          "hit": "4/5"
+        }
+      ],
+      "benchmarks": {
+        "statz": {
+          "h": 0.13,
+          "d": 0.18,
+          "a": 0.69,
+          "xg": [
+            0.9,
+            2.3
+          ]
+        },
+        "kickoff": {
+          "h": 0.1,
+          "d": 0.15,
+          "a": 0.75
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Serbia v Germany odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/serbia-vs-germany/"
+        },
+        {
+          "title": "Statz.ai: Serbia vs Germany stats, predicted lineups & bet builder",
+          "url": "https://statz.ai/h2h/19676658"
+        },
+        {
+          "title": "Statz.ai: Javier Alberola Rojas referee stats",
+          "url": "https://statz.ai/referee/javier-alberola-rojas"
+        },
+        {
+          "title": "Statz.ai: Serbia shots (last 10 games)",
+          "url": "https://statz.ai/team/serbia/shots-total"
+        },
+        {
+          "title": "Statz.ai: Serbia goals (last 10 games)",
+          "url": "https://statz.ai/team/serbia/goals"
+        },
+        {
+          "title": "Statz.ai: Germany shots (last 10 games)",
+          "url": "https://statz.ai/team/germany/shots-total"
+        },
+        {
+          "title": "Statz.ai: Germany goals and results",
+          "url": "https://statz.ai/team/germany/goals"
+        },
+        {
+          "title": "Statz.ai: Florian Wirtz stats",
+          "url": "https://statz.ai/player/florian-wirtz/37429246"
+        },
+        {
+          "title": "Statz.ai: Joshua Kimmich stats",
+          "url": "https://statz.ai/player/joshua-kimmich/32362"
+        },
+        {
+          "title": "Statz.ai: Nathaniel Brown stats",
+          "url": "https://statz.ai/player/nathaniel-brown/37538035"
+        },
+        {
+          "title": "Statz.ai: Srdjan Babic stats",
+          "url": "https://statz.ai/player/srdjan-babic/177822"
+        },
+        {
+          "title": "Statz.ai: Strahinja Erakovic stats",
+          "url": "https://statz.ai/player/strahinja-erakovic/26670084"
+        },
+        {
+          "title": "Statz.ai: Nemanja Gudelj stats",
+          "url": "https://statz.ai/player/nemanja-gudelj/24071"
+        },
+        {
+          "title": "footballpredictions.ai: Serbia vs Germany odds & group table",
+          "url": "https://footballpredictions.ai/football-predictions/serbia-vs-germany-predictions-tips-13-nov-2026/"
+        },
+        {
+          "title": "Forza Football: Serbien v Tyskland odds (Lodur), team news & lineups",
+          "url": "https://forzafootball.com/sv/spela/speltips/serbien-vs-tyskland-nations-league-speltips-odds"
+        },
+        {
+          "title": "The Football Faithful: Serbia vs Germany odds comparison",
+          "url": "https://thefootballfaithful.com/serbia-vs-germany-prediction-betting-tips-13-11-2026/"
+        },
+        {
+          "title": "OddsPortal: UEFA Nations League odds",
+          "url": "https://www.oddsportal.com/football/europe/uefa-nations-league/"
+        },
+        {
+          "title": "MightyTips: Serbia vs Germany odds, standings & team news",
+          "url": "https://www.mightytips.com/football-predictions/serbia-vs-germany-prediction-13-11-2026/"
+        },
+        {
+          "title": "Khel Now: Serbia vs Germany preview (bet365 Havertz price)",
+          "url": "https://khelnow.com/football/serbia-vs-germany-preview-uefa-nations-league-202611"
+        },
+        {
+          "title": "Mr Fixit's Tips: Serbia vs Germany (bet365 Wirtz price)",
+          "url": "https://mrfixitstips.co.uk/previews/serbia-vs-germany-prediction-and-betting-tips-2026-11-13/"
+        },
+        {
+          "title": "Sports Mole: Serbia vs Germany preview",
+          "url": "https://www.sportsmole.co.uk/football/germany/uefa-nations-league/preview/serbia-vs-germany-prediction-team-news-lineups_608896.html"
+        },
+        {
+          "title": "Sports Mole: Germany predicted lineup vs Serbia",
+          "url": "https://www.sportsmole.co.uk/football/germany/uefa-nations-league/predicted-lineups/young-attacking-duo-to-start-how-germany-could-line-up-vs-serbia_608898.html"
+        },
+        {
+          "title": "SoccerNews: Serbia vs Germany prediction",
+          "url": "https://www.soccernews.com/prediction-serbia-vs-germany/408031/"
+        },
+        {
+          "title": "Novosti: Paunović press conference (Vlahović, Terzić, Pavlović, suspensions)",
+          "url": "https://www.novosti.rs/sport/fudbal/1669519/veljko-paunovic-okupljanje-fudbalska-reprezentacija-srbije-pres-konferencija"
+        },
+        {
+          "title": "Novosti: Stanković ruled out",
+          "url": "https://www.novosti.rs/sport/fudbal/1669947/novi-ozbiljan-udarac-paunovica-srbija-bez-jednog-najboljih-nemacku-grcku"
+        },
+        {
+          "title": "Novosti: Bukinac replaces Kostić",
+          "url": "https://www.novosti.rs/sport/fudbal/1669914/paunovic-naknadno-pozvao-jos-jednog-fudbalera-reprezentaciju-srbije"
+        },
+        {
+          "title": "Novosti: Pavlović out, Milenković back",
+          "url": "https://www.novosti.rs/sport/fudbal/1669464/srbija-bez-glavnog-igraca-ligi-nacija"
+        },
+        {
+          "title": "Novosti: Paunović suspended for Germany match",
+          "url": "https://www.novosti.rs/sport/fudbal/1669635/paunovic-vodi-srbiju-protiv-nemacke-menja-bivsi-mancester-junajteda"
+        },
+        {
+          "title": "Novosti: UEFA crowd sanction for Serbia v Germany",
+          "url": "https://www.novosti.rs/sport/fudbal/1657881/najnovije-sportske-vesti-liga-nacija-srbija-nemacka-bez-publike-kazna-uefa"
+        },
+        {
+          "title": "Get German Football News: Germany's November 2026 squad",
+          "url": "https://www.getfootballnewsgermany.com/2026/germany-november-2026-squad/"
+        },
+        {
+          "title": "DFB: Füllkrug and Mohya included as Klopp names squad",
+          "url": "https://www.dfb.de/news/fuellkrug-and-mohya-included-as-klopp-names-squad-for-serbia-and-netherlands"
+        },
+        {
+          "title": "theScore: Germany 4-0 Finland (scorers)",
+          "url": "https://www.thescore.com/deu_fed/news/3548474/undav-eases-germany-past-finland-in-world-cup-tuneup"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1,
+          "ga": 1.6,
+          "xgf": 1.4,
+          "xga": 1.8
+        },
+        "away": {
+          "gf": 2.2,
+          "ga": 1,
+          "xgf": 2.2,
+          "xga": 1.1
+        }
+      }
+    },
+    {
+      "id": "sco-mkd",
+      "competition": "UEFA Nations League B, Group 1",
+      "kickoff": "2026-11-13T19:45:00Z",
+      "venue": "Hampden Park, Glasgow",
+      "neutral": false,
+      "home": {
+        "name": "Scotland",
+        "short": "Scotland",
+        "code": "SCO"
+      },
+      "away": {
+        "name": "North Macedonia",
+        "short": "North Macedonia",
+        "code": "MKD"
+      },
+      "context": "Scotland are third on four points, three behind Slovenia and eight behind leaders Switzerland, and need second place for a promotion play-off. North Macedonia are bottom with no points and no goals; Scotland won the reverse fixture 2-0 in Skopje on 3 October.",
+      "referee": {
+        "name": "Michal Očenáš",
+        "country": "SVK",
+        "games": 0,
+        "note": "No 2026/27 Nations League games yet (statz.ai), so the engine uses a 4.1 yellow-card prior."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk; 1X2 matches bet365 on Racing Post and Gainblers (DraftKings 1.17/6.0/14.0); Under 2.5, BTTS No and the other goal lines match FootballPredictions.com",
+        "h": 1.18,
+        "d": 6.5,
+        "a": 13,
+        "ou": {
+          "0.5": [
+            1.03,
+            15
+          ],
+          "1.5": [
+            1.2,
+            4.33
+          ],
+          "2.5": [
+            1.67,
+            2.15
+          ],
+          "3.5": [
+            2.63,
+            1.44
+          ],
+          "4.5": [
+            5,
+            1.17
+          ],
+          "5.5": [
+            10,
+            1.06
+          ]
+        },
+        "btts": [
+          2.63,
+          1.44
+        ],
+        "wtn": {
+          "home": 1.67,
+          "away": 19
+        },
+        "dc": {
+          "12": 1.11,
+          "1X": 1.04,
+          "X2": 4.5
+        },
+        "dnb": {
+          "home": 1.05,
+          "away": 11
+        },
+        "firstGoal": {
+          "home": 1.22,
+          "away": 4.5
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 1.5,
+          "ga": 1.3,
+          "xgf": 1.5,
+          "xga": 1.3
+        },
+        "away": {
+          "gf": 0.9,
+          "ga": 1.5,
+          "xgf": 0.9,
+          "xga": 1.8
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 4,
+          "fouls": 14,
+          "shots": 14,
+          "sot": 5.3,
+          "gf": 0.75,
+          "ga": 1.25
+        },
+        "away": {
+          "corners": 1.8,
+          "fouls": 13,
+          "shots": 5.8,
+          "sot": 0.3,
+          "gf": 0,
+          "ga": 2.5
+        }
+      },
+      "teamTotals": {
+        "home": {
+          "goals": 12
+        },
+        "away": {
+          "goals": 2
+        }
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "Racing Post",
+        "home": {
+          "formation": "3-4-2-1",
+          "xi": [
+            "Angus Gunn",
+            "Aaron Hickey",
+            "Jack Hendry",
+            "Kieran Tierney",
+            "Ben Gannon-Doak",
+            "Billy Gilmour",
+            "Lewis Ferguson",
+            "Andy Robertson",
+            "Scott McTominay",
+            "John McGinn",
+            "Oli McBurnie"
+          ]
+        },
+        "away": {
+          "formation": "4-5-1",
+          "xi": [
+            "Stole Dimitrievski",
+            "Bojan Ilievski",
+            "Nikola Serafimov",
+            "Visar Musliu",
+            "Ezgjan Alioski",
+            "Eljif Elmas",
+            "Jani Atanasov",
+            "Boban Nikolov",
+            "Enis Bardhi",
+            "Darko Churlinov",
+            "Elmin Rastoder"
+          ]
+        },
+        "alt": "Sports Mole and statz.ai still list Luis Binks or Nathan Patterson at the back, but Binks has withdrawn; Ryan Christie and Ché Adams are bench options. Sports Mole's North Macedonia XI has Anes Meljichi, Dimitar Mitrovski and Ljupcho Doriev instead of Serafimov, Nikolov and Churlinov."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "back",
+          "text": "Scott McTominay returns after missing the first four Nations League games following a minor heart procedure; Kieran Tierney and Ché Adams are back from injury.",
+          "src": "Reuters / Sports Mole"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Scott McKenna (back) and Kenny McLean (ankle) are out. Centre-backs Stephen Welsh (ligament damage) and Luis Binks have withdrawn; Ryan Porteous and David Bates were called up.",
+          "src": "Flashscore / Racing Post / The False 9"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Lennon Miller, Josh Doig, Colby Donovan and James Wilson were left out; Rangers' James Penrice gets a first call-up.",
+          "src": "Reuters"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Andy Robertson can pass Kenny Dalglish as Scotland's most-capped player if he plays both games this window.",
+          "src": "Flashscore"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Bojan Miovski is left out by coach Goce Sedloski for lack of minutes at Rangers; Gjoko Zajkov, Andrej Stojchevski and Tihomir Kostadinov are also not in the squad.",
+          "src": "Macedonian Football / Racing Post"
+        },
+        {
+          "team": "away",
+          "tag": "back",
+          "text": "Darko Churlinov returns after missing four games over a visa issue; Nikola Serafimov (injury), Boban Nikolov, Imran Fetai and Stefan Despotovski are recalled.",
+          "src": "Macedonian Football"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Captain Enis Bardhi and Eljif Elmas are fit; North Macedonia have lost all four group games without scoring (0-10).",
+          "src": "Sports Mole / SoccerNews"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Scott McTominay",
+            "pos": "AM",
+            "start": 0.85,
+            "shots": 12,
+            "shots90": 2.88,
+            "sot90": 1.15,
+            "fouls90": 0.58,
+            "tackles90": 1.58,
+            "note": "First game under Pocognoli after his heart procedure; his 12 shots came at the World Cup and in friendlies."
+          },
+          {
+            "name": "John McGinn",
+            "pos": "AM",
+            "start": 0.9,
+            "shots": 13,
+            "goals": 2,
+            "shots90": 0.99,
+            "sot90": 0.42,
+            "fouls90": 1.13,
+            "tackles90": 1.55,
+            "note": "Scored the penalty in Skopje."
+          },
+          {
+            "name": "Ben Gannon-Doak",
+            "pos": "AM",
+            "start": 0.85,
+            "shots": 12,
+            "note": "Right wing-back; very few Bournemouth minutes this season, so no club per-90 rates."
+          },
+          {
+            "name": "Oli McBurnie",
+            "pos": "FW",
+            "start": 0.8
+          },
+          {
+            "name": "Aaron Hickey",
+            "pos": "DF",
+            "start": 0.8,
+            "note": "Only 153 Premier League minutes this season, too few for per-90 rates."
+          },
+          {
+            "name": "Ryan Christie",
+            "pos": "AM",
+            "start": 0.4,
+            "shots": 12,
+            "goals": 2,
+            "note": "On the bench in Racing Post's XI; scored against Slovenia."
+          },
+          {
+            "name": "Ché Adams",
+            "pos": "FW",
+            "start": 0.35,
+            "goals": 2,
+            "note": "Back from a groin injury; expected on the bench."
+          }
+        ],
+        "away": [
+          {
+            "name": "Enis Bardhi",
+            "pos": "AM",
+            "start": 0.85,
+            "shots": 8,
+            "goals": 0,
+            "note": "Captain; team-high 2 shots on target in the last 10 games."
+          },
+          {
+            "name": "Eljif Elmas",
+            "pos": "AM",
+            "start": 0.9,
+            "goals": 0
+          },
+          {
+            "name": "Elmin Rastoder",
+            "pos": "FW",
+            "start": 0.85,
+            "goals": 0
+          },
+          {
+            "name": "Jani Atanasov",
+            "pos": "MF",
+            "start": 0.8,
+            "shots": 5,
+            "goals": 0
+          },
+          {
+            "name": "Darko Churlinov",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "Back after a visa issue; not in Sports Mole's XI."
+          },
+          {
+            "name": "Dimitar Mitrovski",
+            "pos": "AM",
+            "start": 0.45,
+            "note": "Starts in Sports Mole's XI, on the bench in Racing Post's."
+          },
+          {
+            "name": "Agon Elezi",
+            "pos": "MF",
+            "start": 0.35,
+            "shots": 4,
+            "goals": 0,
+            "note": "Expected on the bench."
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Scott McTominay",
+          "market": "1+ shots on target",
+          "odds": 1.2,
+          "hit": "4/5"
+        },
+        {
+          "player": "Ben Gannon-Doak",
+          "market": "2+ shots",
+          "odds": 1.33,
+          "hit": "4/5"
+        },
+        {
+          "player": "John McGinn",
+          "market": "1+ fouls",
+          "odds": 1.22,
+          "hit": "4/5"
+        },
+        {
+          "player": "Aaron Hickey",
+          "market": "1+ fouls",
+          "odds": 1.36,
+          "hit": "4/5"
+        }
+      ],
+      "benchmarks": {
+        "statz": {
+          "h": 0.74,
+          "d": 0.18,
+          "a": 0.08,
+          "xg": [
+            2.1,
+            0.5
+          ]
+        },
+        "kickoff": {
+          "h": 0.81,
+          "d": 0.14,
+          "a": 0.06
+        }
+      },
+      "sources": [
+        {
+          "title": "Statz.ai: Scotland vs North Macedonia stats & predicted lineups",
+          "url": "https://statz.ai/h2h/19676711"
+        },
+        {
+          "title": "KickOff: Scotland v North Macedonia odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/scotland-vs-macedonia-fyr/"
+        },
+        {
+          "title": "Racing Post: Scotland vs North Macedonia predictions, team news, odds",
+          "url": "https://www.racingpost.com/sport/football-tips/nations-league/scotland-vs-north-macedonia-predictions-team-news-odds-betting-tips-bet-builder-aFm4W6F53tJy/"
+        },
+        {
+          "title": "Sports Mole: Scotland vs North Macedonia preview",
+          "url": "https://www.sportsmole.co.uk/football/scotland/uefa-nations-league/preview/scotland-vs-n-macedonia-prediction-team-news-lineups_608913.html"
+        },
+        {
+          "title": "Yahoo Sports (Sports Mole): Scotland vs North Macedonia team news",
+          "url": "https://sports.yahoo.com/articles/scotland-vs-north-macedonia-match-083300272.html"
+        },
+        {
+          "title": "SoccerNews: Scotland vs North Macedonia prediction",
+          "url": "https://www.soccernews.com/prediction-scotland-vs-north-macedonia/407930/"
+        },
+        {
+          "title": "SoccerNews: McTominay returns to Scotland squad",
+          "url": "https://www.soccernews.com/mctominay-returns-to-scotland-squad-for-nations-league-matches/407509/"
+        },
+        {
+          "title": "Flashscore: Scotland vs North Macedonia preview, lineups and odds",
+          "url": "https://www.flashscore.co.uk/news/football-uefa-nations-league-scotland-vs-north-macedonia-where-to-watch-preview-lineups-and-odds/0CvU6F8D/"
+        },
+        {
+          "title": "The False 9: Scotland vs North Macedonia predicted lineup and team news",
+          "url": "https://thefalse9.com/2026/11/scotland-vs-north-macedonia-predicted-lineup-team-news.html"
+        },
+        {
+          "title": "Reuters via The Star: McTominay returns to Scotland squad",
+          "url": "https://www.thestar.com.my/sport/football/2026/11/03/soccer-mctominay-returns-to-scotland-squad-after-heart-surgery"
+        },
+        {
+          "title": "Macedonian Football: 26 players summoned for final Nations League matches",
+          "url": "https://macedonianfootball.com/26-players-summoned-for-final-nations-league-matches/"
+        },
+        {
+          "title": "Gainblers: Scotland vs North Macedonia odds",
+          "url": "https://gainblers.com/us/bets/football/europe/uefa-nations-league/scotland-northmacedonia/"
+        },
+        {
+          "title": "FootballPredictions.com: Scotland vs FYR Macedonia prediction",
+          "url": "https://footballpredictions.com/footballpredictions/nations-league-predictions/scotland-vs-fyr-macedonia-prediction-13-11-2026/"
+        },
+        {
+          "title": "ESPN: North Macedonia 0-2 Scotland report",
+          "url": "https://www.espn.com/soccer/report/_/gameId/401861116"
+        },
+        {
+          "title": "Irish News: Scotland 1-2 Slovenia report",
+          "url": "https://www.irishnews.com/sport/soccer/sebastien-pocognolis-first-camp-as-scotland-boss-ends-with-loss-to-slovenia-OZWUIXNPGNJYRI7IQDXB4VICHY/"
+        },
+        {
+          "title": "Statshub: Michal Očenáš referee profile",
+          "url": "https://www.statshub.com/referee/785235"
+        },
+        {
+          "title": "FotMob: Scott McTominay (Serie A 2026/27 totals, per-90 computed)",
+          "url": "https://www.fotmob.com/en-GB/players/843099"
+        },
+        {
+          "title": "FotMob: John McGinn (Premier League 2026/27 totals, per-90 computed)",
+          "url": "https://www.fotmob.com/en-GB/players/356406/john-mcginn"
+        },
+        {
+          "title": "FotMob: Aaron Hickey (Premier League 2026/27)",
+          "url": "https://www.fotmob.com/en-GB/players/1002039/aaron-hickey"
+        }
+      ]
+    },
+    {
+      "id": "svn-sui",
+      "competition": "UEFA Nations League B, Group 1",
+      "kickoff": "2026-11-13T19:45:00Z",
+      "venue": "Ljudski vrt, Maribor",
+      "neutral": false,
+      "home": {
+        "name": "Slovenia",
+        "short": "Slovenia",
+        "code": "SVN"
+      },
+      "away": {
+        "name": "Switzerland",
+        "short": "Switzerland",
+        "code": "SUI"
+      },
+      "context": "Switzerland top the group on 12 points from four wins (11-1 on goals), five clear of second-placed Slovenia, so a draw in Maribor would clinch the group and promotion back to League A. Switzerland won the reverse fixture 2-1 in Lucerne on 3 October.",
+      "referee": {
+        "name": "Jasper Vergoote",
+        "country": "BEL",
+        "games": 1,
+        "yellowsPg": 4,
+        "foulsPg": 19,
+        "redsPg": 0,
+        "note": "Only one 2026/27 Nations League game so far (Ukraine 0-3 Northern Ireland on 2 October: 4 yellows, 19 fouls), taken from UEFA's match report and SportsCafe because statz.ai had no page for this match."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk; cross-checked with footballpredictions.ai (5.00 / 3.30 / 1.65, Over/Under 2.5 at 2.10 / 1.70, BTTS 1.95 / 1.75)",
+        "h": 5.25,
+        "d": 3.5,
+        "a": 1.7,
+        "ou": {
+          "0.5": [
+            1.07,
+            9
+          ],
+          "1.5": [
+            1.36,
+            3
+          ],
+          "2.5": [
+            2.2,
+            1.65
+          ],
+          "3.5": [
+            4,
+            1.22
+          ],
+          "4.5": [
+            9,
+            1.07
+          ],
+          "5.5": [
+            19,
+            1.02
+          ]
+        },
+        "btts": [
+          2.1,
+          1.67
+        ],
+        "wtn": {
+          "home": 8,
+          "away": 2.63
+        },
+        "dc": {
+          "12": 1.29,
+          "1X": 2.1,
+          "X2": 1.17
+        },
+        "dnb": {
+          "home": 3.75,
+          "away": 1.25
+        },
+        "firstGoal": {
+          "home": 2.88,
+          "away": 1.57
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 0.9,
+          "ga": 1.2,
+          "xgf": 1,
+          "xga": 1.3
+        },
+        "away": {
+          "gf": 2.2,
+          "ga": 0.7,
+          "xgf": 1.6,
+          "xga": 0.7
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 4.5,
+          "fouls": 13.5,
+          "shots": 10,
+          "sot": 3,
+          "gf": 1.25,
+          "ga": 0.75
+        },
+        "away": {
+          "corners": 5.8,
+          "fouls": 10,
+          "shots": 19.8,
+          "sot": 8.3,
+          "gf": 2.75,
+          "ga": 0.25
+        }
+      },
+      "teamTotals": {
+        "home": {
+          "shots": 40,
+          "goals": 5
+        }
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "Sports Mole (11 Nov)",
+        "home": {
+          "formation": "5-4-1",
+          "xi": [
+            "Jan Oblak",
+            "Žan Karničnik",
+            "David Brekalo",
+            "Jaka Bijol",
+            "Vanja Drkušić",
+            "Srđan Kuzmić",
+            "Aljoša Matko",
+            "Mark Zabukovnik",
+            "Adam Gnezda Čerin",
+            "Danijel Šturm",
+            "Žan Vipotnik"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "xi": [
+            "Gregor Kobel",
+            "Sascha Britschgi",
+            "Nico Elvedi",
+            "Manuel Akanji",
+            "Ricardo Rodríguez",
+            "Remo Freuler",
+            "Johan Manzambi",
+            "Djibril Sow",
+            "Fabian Rieder",
+            "Dan Ndoye",
+            "Zeki Amdouni"
+          ]
+        },
+        "alt": "Slovenia are without the suspended Janža and Zec and the injured Šeško and Elšnik. Embolo is back and blue News expects him to start ahead of Amdouni. 365Scores lists Ricardo Rodríguez as missing."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Erik Janža and David Zec are suspended after picking up their second bookings of the campaign in the 2-1 win in Glasgow.",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Benjamin Šeško (shin) misses another window and is not expected back until early 2027.",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Timi Max Elšnik was injured playing for Crvena zvezda and misses out. Cesar has not called up a replacement.",
+          "src": "RTV SLO"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Atalanta defender Relja Obrić, 20, has his first senior call-up.",
+          "src": "SoccerNews"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Captain Granit Xhaka is out with a calf injury he picked up against Sunderland.",
+          "src": "blue News"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Miro Muheim has left camp with a muscle problem.",
+          "src": "blue News"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Ruben Vargas joined the squad late after a stomach illness.",
+          "src": "blue News"
+        },
+        {
+          "team": "away",
+          "tag": "back",
+          "text": "Breel Embolo is back after missing the September and October games, and blue News expects him to start.",
+          "src": "blue News"
+        },
+        {
+          "team": "away",
+          "tag": "back",
+          "text": "Zeki Amdouni is fit again after an ankle injury.",
+          "src": "blue News"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "365Scores lists Ricardo Rodríguez among the absentees, but Sports Mole has him in its predicted XI.",
+          "src": "365Scores"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Isaac Schmidt and the uncapped Roggerio Nyakossi were called up as replacements. Michel Aebischer is one booking away from a ban.",
+          "src": "blue News / Sports Mole"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Aljoša Matko",
+            "pos": "AM",
+            "start": 0.85,
+            "shots": 6,
+            "goals": 2,
+            "assists": 2,
+            "note": "Slovenia's top scorer in this Nations League campaign"
+          },
+          {
+            "name": "Žan Vipotnik",
+            "pos": "FW",
+            "start": 0.85,
+            "goals": 1,
+            "note": "Scored in the reverse fixture"
+          },
+          {
+            "name": "Danijel Šturm",
+            "pos": "AM",
+            "start": 0.85,
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "name": "Adam Gnezda Čerin",
+            "pos": "MF",
+            "start": 0.85,
+            "shots": 5,
+            "goals": 0
+          },
+          {
+            "name": "Mark Zabukovnik",
+            "pos": "MF",
+            "start": 0.8,
+            "goals": 0
+          },
+          {
+            "name": "Žan Celar",
+            "pos": "FW",
+            "start": 0.3,
+            "goals": 0,
+            "note": "10 club goals for Basel this season, but none in 20 caps"
+          }
+        ],
+        "away": [
+          {
+            "name": "Dan Ndoye",
+            "pos": "FW",
+            "start": 0.9,
+            "shots": 27,
+            "goals": 5,
+            "note": "Scored in the reverse fixture"
+          },
+          {
+            "name": "Zeki Amdouni",
+            "pos": "FW",
+            "start": 0.7,
+            "shots": 21,
+            "goals": 3,
+            "note": "Competes with Embolo for the No 9 role"
+          },
+          {
+            "name": "Johan Manzambi",
+            "pos": "AM",
+            "start": 0.85,
+            "shots": 13
+          },
+          {
+            "name": "Breel Embolo",
+            "pos": "FW",
+            "start": 0.45,
+            "goals": 2,
+            "note": "Back in the squad but not in Sports Mole's predicted XI"
+          },
+          {
+            "name": "Fabian Rieder",
+            "pos": "AM",
+            "start": 0.8
+          },
+          {
+            "name": "Remo Freuler",
+            "pos": "MF",
+            "start": 0.85
+          }
+        ]
+      },
+      "benchmarks": {
+        "kickoff": {
+          "h": 0.19,
+          "d": 0.25,
+          "a": 0.57
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Slovenia v Switzerland odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/slovenia-vs-switzerland/"
+        },
+        {
+          "title": "footballpredictions.ai: Slovenia vs Switzerland odds",
+          "url": "https://footballpredictions.ai/football-predictions/slovenia-vs-switzerland-predictions-tips-13-nov-2026/"
+        },
+        {
+          "title": "Sports Mole: Slovenia vs Switzerland preview, team news and predicted lineups",
+          "url": "https://www.sportsmole.co.uk/football/slovenia/uefa-nations-league/preview/slovenia-vs-switzerland-prediction-team-news-lineups_608906.html"
+        },
+        {
+          "title": "Sports Mole: How Nations League suspensions work",
+          "url": "https://www.sportsmole.co.uk/football/uefa-nations-league/feature/how-do-nations-league-suspensions-work-yellow-and-red-card-rules-explained_608836.html"
+        },
+        {
+          "title": "footballpredictions.com: Slovenia vs Switzerland prediction",
+          "url": "https://footballpredictions.com/footballpredictions/nations-league-predictions/slovenia-vs-switzerland-prediction-13-11-2026/"
+        },
+        {
+          "title": "SoccerNews: Slovenia vs Switzerland prediction",
+          "url": "https://www.soccernews.com/prediction-slovenia-vs-switzerland/407932/"
+        },
+        {
+          "title": "365Scores: Slovenia vs Switzerland",
+          "url": "https://www.365scores.com/football/match/uefa-nations-league-7016/slovenia-switzerland-5032-5041-7016"
+        },
+        {
+          "title": "UEFA.com: Slovenia vs Switzerland match officials",
+          "url": "https://fr.uefa.com/uefanationsleague/match/2047889--slovenia-vs-switzerland/matchinfo/"
+        },
+        {
+          "title": "UEFA match report: Ukraine vs Northern Ireland (referee Vergoote)",
+          "url": "https://www.uefa.com/newsfiles/UNL/2027/2047959_FR.pdf"
+        },
+        {
+          "title": "SportsCafe: Ukraine vs Northern Ireland stats",
+          "url": "https://sportscafe.in/football/live/international/uefa-nations-league/ukr-vs-northern-ireland-5930523/stats"
+        },
+        {
+          "title": "Statz.ai: Switzerland vs Slovenia (3 Oct) stats and season averages",
+          "url": "https://statz.ai/h2h/switzerland-vs-slovenia/19676720"
+        },
+        {
+          "title": "Statz.ai: Slovenia vs Scotland stats",
+          "url": "https://statz.ai/h2h/slovenia-vs-scotland/19676737"
+        },
+        {
+          "title": "Statz.ai: Scotland vs Slovenia stats",
+          "url": "https://statz.ai/h2h/scotland-vs-slovenia/19676713"
+        },
+        {
+          "title": "SportsCafe: Slovenia vs North Macedonia stats",
+          "url": "https://sportscafe.in/football/live/international/uefa-nations-league/slo-vs-mac-5930358/stats"
+        },
+        {
+          "title": "UEFA match report: Switzerland vs Slovenia (3 Oct)",
+          "url": "https://www.uefa.com/newsfiles/UNL/2027/2047972_FR.pdf"
+        },
+        {
+          "title": "UEFA match report: Scotland vs Slovenia (6 Oct)",
+          "url": "https://www.uefa.com/newsfiles/UNL/2027/2047948_FR.pdf"
+        },
+        {
+          "title": "Sports Mole: Slovenia vs Scotland match centre (cards)",
+          "url": "https://www.sportsmole.co.uk/football/slovenia-vs-scotland_game_258922.html"
+        },
+        {
+          "title": "RTV SLO: Cesar without the injured Elšnik",
+          "url": "https://www.rtvslo.si/n/799517"
+        },
+        {
+          "title": "blue News: Xhaka and Muheim out, Vargas arrives late, Yakin calls up a newcomer",
+          "url": "https://www.bluewin.ch/en/sport/football/xhaka-and-muheim-are-out-vargas-arrives-late-yakin-calls-up-a-newcomer-li.3667101"
+        },
+        {
+          "title": "blue News: Xhaka is out but the Swiss national team is on track",
+          "url": "https://www.bluewin.ch/en/sport/football/xhaka-is-out-but-the-distractions-remain-yet-the-swiss-national-team-is-on-track-for-success-li.3667591"
+        },
+        {
+          "title": "blue News: Two familiar faces returning and two newcomers",
+          "url": "https://www.bluewin.ch/en/sport/football/two-familiar-faces-returning-and-two-newcomers-li.3662763"
+        },
+        {
+          "title": "Sky Sports: Slovenia vs Switzerland (recent results)",
+          "url": "https://www.skysports.com/football/slovenia-vs-switzerland/554101"
+        }
+      ]
+    }
+  ]
+}
