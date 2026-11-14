@@ -17,6 +17,9 @@ This is what each scheduled run does. Each match follows the schema of the exist
    - **Smaller nations:** when no predicted XI is published, set `lineups.status` to `"pending"` with empty `xi` arrays and list the key players (top scorers, regular starters) with `start` 0.75. The kick-off-minus-40 run fills in the confirmed XIs.
    - **Lineups:** confirmed lineups about 60 minutes before kick-off from WhoScored "confirmed lineups", statz.ai, or federation and club accounts. Confirm with two sources.
    - **Doing it in parallel:** one research agent per match works well. Give each the schema, these rules and an output file, then check every file yourself before merging (odds margins, 11-man XIs, prop players present in `players`).
+     - The agents share one search budget (about 200 searches per run; on 14 Nov it ran out partway through). Ask each agent to keep to about 15 searches.
+     - Pages can only be opened when their link came back from a search, so search for the KickOff and statz.ai pages (`kickoff.co.uk Portugal vs Denmark`) before fetching them. Typed URLs are refused.
+     - Games kicking off before noon Warsaw go first, in their own quick pass. If there are still no prices or team sheets, leave them off (14 Nov: Japan v Brazil at 11:15).
 3. **Player props:** when bet365 props are listed, also give the player per-90 rates when you can find them (`shots90`, `sot90`, `fouls90`, `tackles90` from FBref, WhoScored or Sofascore). Without them the model falls back to position averages, which is deliberately cautious.
    - `fouls90` must be fouls committed. Some sources show fouls won under the same heading; an attacking player above about 1.5 per 90 needs a second source (13 Nov: Wirtz at 2.15 was dropped).
    - `hit` ("4/5") only when the source shows the last five games. A bare percentage with no game count is left out.

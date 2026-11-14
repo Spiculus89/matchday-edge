@@ -2,6 +2,20 @@
   "note": "Changes to the model or the data process, each tied to the graded result or data problem that prompted it. Newest first.",
   "lessons": [
     {
+      "date": "2026-11-14",
+      "area": "Research",
+      "kind": "data",
+      "saw": "Ten research agents shared one search budget of about 200 searches and ran out partway through, so several props have no per-90 rates and some XIs have only one source. Typed KickOff URLs were also refused; only links that came back from a search could be opened.",
+      "change": "Each match agent searches for its KickOff and statz.ai pages first, opens the links the search returns, and keeps to about 15 searches so every match gets covered."
+    },
+    {
+      "date": "2026-11-14",
+      "area": "Fixtures",
+      "kind": "data",
+      "saw": "Japan v Brazil kicked off at 11:15 Warsaw. By then the morning run had found no bookmaker prices and no team sheets for it.",
+      "change": "Games that kick off before noon Warsaw are researched first, in their own quick pass. If they still have no prices, they are left off the page."
+    },
+    {
       "date": "2026-11-13",
       "area": "Checks",
       "kind": "data",
