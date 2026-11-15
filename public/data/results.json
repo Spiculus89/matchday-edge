@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T09:22:59.745Z",
+  "updated": "2026-11-15T09:17:47.000Z",
   "note": "Every graded pick shown on the site. p = the chance shown at the time (bookmaker-implied for player props, which had no model then).",
   "legs": [
     {
@@ -503,6 +503,204 @@
       "group": "Bet builder",
       "pick": "Azerbaijan to win + Under 3.5 goals + BTTS: No",
       "p": 0.46,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-14",
+      "match": "kos-isr",
+      "group": "Goals",
+      "pick": "Over 1.5 goals",
+      "p": 0.76,
+      "odds": 1.29,
+      "won": false
+    },
+    {
+      "date": "2026-11-14",
+      "match": "kos-isr",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.52,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-14",
+      "match": "kos-isr",
+      "group": "Player prop",
+      "pick": "Dor Peretz 1+ shots",
+      "p": 0.68,
+      "odds": 1.25,
+      "won": false
+    },
+    {
+      "date": "2026-11-14",
+      "match": "kos-isr",
+      "group": "Player prop",
+      "pick": "Eitan Azoulay 1+ shots",
+      "p": 0.43,
+      "odds": 1.3,
+      "won": true
+    },
+    {
+      "date": "2026-11-14",
+      "match": "geo-hun",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.45,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-14",
+      "match": "geo-hun",
+      "group": "Player prop",
+      "pick": "Giorgi Tsitaishvili 1+ shots",
+      "p": 0.68,
+      "odds": 1.36,
+      "won": true
+    },
+    {
+      "date": "2026-11-14",
+      "match": "nor-wal",
+      "group": "BTTS",
+      "pick": "Both teams to score (best bet)",
+      "p": 0.56,
+      "odds": 1.83,
+      "won": true
+    },
+    {
+      "date": "2026-11-14",
+      "match": "nor-wal",
+      "group": "Bet builder",
+      "pick": "Norway to win + Over 1.5 goals + Both teams to score",
+      "p": 0.37,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-14",
+      "match": "aut-irl",
+      "group": "Goals",
+      "pick": "Over 2.5 goals (best bet)",
+      "p": 0.55,
+      "odds": 1.8,
+      "won": false
+    },
+    {
+      "date": "2026-11-14",
+      "match": "aut-irl",
+      "group": "Bet builder",
+      "pick": "Austria to win + Over 1.5 goals",
+      "p": 0.48,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-14",
+      "match": "aut-irl",
+      "group": "Player prop",
+      "pick": "Michael Gregoritsch 1+ shots on target",
+      "p": 0.78,
+      "odds": 1.3,
+      "won": true
+    },
+    {
+      "date": "2026-11-14",
+      "match": "aut-irl",
+      "group": "Player prop",
+      "pick": "Adam Idah 1+ shots",
+      "p": 0.75,
+      "odds": 1.2,
+      "won": true
+    },
+    {
+      "date": "2026-11-14",
+      "match": "aut-irl",
+      "group": "Player prop",
+      "pick": "Stefan Posch 1+ shots",
+      "p": 0.54,
+      "odds": 1.44,
+      "won": true
+    },
+    {
+      "date": "2026-11-14",
+      "match": "nir-ukr",
+      "group": "Handicap",
+      "pick": "N. Ireland draw no bet (best bet)",
+      "p": 0.6,
+      "odds": 1.73,
+      "won": true
+    },
+    {
+      "date": "2026-11-14",
+      "match": "nir-ukr",
+      "group": "Bet builder",
+      "pick": "N. Ireland or draw + Over 1.5 goals",
+      "p": 0.45,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-14",
+      "match": "por-den",
+      "group": "Bet builder",
+      "pick": "Portugal to win + Over 2.5 goals",
+      "p": 0.45,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-14",
+      "match": "por-den",
+      "group": "Player prop",
+      "pick": "Rasmus Højlund 2+ shots",
+      "p": 0.5,
+      "odds": 1.62,
+      "won": true
+    },
+    {
+      "date": "2026-11-14",
+      "match": "rou-pol",
+      "group": "Goals",
+      "pick": "Over 2.5 goals (best bet)",
+      "p": 0.58,
+      "odds": 1.73,
+      "won": true
+    },
+    {
+      "date": "2026-11-14",
+      "match": "rou-pol",
+      "group": "Bet builder",
+      "pick": "Poland or draw + Under 3.5 goals",
+      "p": 0.49,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-14",
+      "match": "swe-bih",
+      "group": "Goals",
+      "pick": "Under 3.5 goals (best bet)",
+      "p": 0.65,
+      "odds": 1.53,
+      "won": false
+    },
+    {
+      "date": "2026-11-14",
+      "match": "swe-bih",
+      "group": "Bet builder",
+      "pick": "Sweden to win + Over 1.5 goals",
+      "p": 0.47,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-14",
+      "match": "hai-usa",
+      "group": "Bet builder",
+      "pick": "USA to win + Over 2.5 goals",
+      "p": 0.49,
       "odds": null,
       "won": true
     }

@@ -2,6 +2,13 @@
   "note": "Changes to the model or the data process, each tied to the graded result or data problem that prompted it. Newest first.",
   "lessons": [
     {
+      "date": "2026-11-15",
+      "area": "Grading",
+      "kind": "data",
+      "saw": "No reachable source had full per-player fouls or tackles for the 56 priced props on 14 Nov. Partial live feeds and bookings could only prove that a prop had landed (a booking for a foul proves 1+ fouls) and never that it had lost. Grading everything they could settle would have recorded 12 wins from 13 props and inflated the prop track record.",
+      "change": "A prop is graded only from a source that lists every shot, shot on target, foul or tackle for that player, such as an ESPN shot map or a box-score stat line, so that a loss would show up as clearly as a win. Props that only a partial feed can settle stay ungraded. On 14 Nov that left 7 graded props (6 won)."
+    },
+    {
       "date": "2026-11-14",
       "area": "Research",
       "kind": "data",

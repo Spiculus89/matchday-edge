@@ -412,7 +412,11 @@
           "title": "Koha: Kosovo group fixtures and venues",
           "url": "https://www.koha.net/en/futboll/zhvillime-te-reja-rreth-ndeshjeve-ne-grupin-e-kosoves"
         }
-      ]
+      ],
+      "result": {
+        "home": 0,
+        "away": 0
+      }
     },
     {
       "id": "geo-hun",
@@ -900,7 +904,11 @@
           "title": "UEFA: Georgia v Hungary squad lists (October registration)",
           "url": "https://www.uefa.com/uefanationsleague/match/2047895--georgia-vs-hungary/lineups/"
         }
-      ]
+      ],
+      "result": {
+        "home": 0,
+        "away": 2
+      }
     },
     {
       "id": "nor-wal",
@@ -1459,7 +1467,11 @@
           "title": "365Scores: Norway vs Wales (venue, referee, standings)",
           "url": "https://www.365scores.com/football/match/uefa-nations-league-7016/norway-wales-2376-5043-7016"
         }
-      ]
+      ],
+      "result": {
+        "home": 3,
+        "away": 1
+      }
     },
     {
       "id": "aut-irl",
@@ -1961,7 +1973,11 @@
           "title": "Starting11: Republic of Ireland predicted lineup @ Austria",
           "url": "https://starting11.com/republic-of-ireland"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 0
+      }
     },
     {
       "id": "nir-ukr",
@@ -2537,7 +2553,11 @@
           "title": "TNT Sports: Northern Ireland 1-0 Luxembourg (Donley penalty)",
           "url": "https://www.tntsports.co.uk/football/world-cup-qualification-uefa/2026/live-northern-ireland-luxembourg_mtc1574635/live-commentary.shtml"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 0
+      }
     },
     {
       "id": "por-den",
@@ -3061,7 +3081,11 @@
           "title": "Africa Soccer: Jorge Jesus names Portugal squad",
           "url": "https://africasoccer.com/?p=652219"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 4
+      }
     },
     {
       "id": "rou-pol",
@@ -3593,7 +3617,11 @@
           "title": "Sport.ro: Hagi confirms Hindrich in goal (October)",
           "url": "https://www.sport.ro/nationala/hagi-anunta-un-titular-sigur-in-polonia-romania-dupa-inca-o-accidentare.html"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 1
+      }
     },
     {
       "id": "swe-bih",
@@ -4045,7 +4073,11 @@
           "title": "Starting11: Sweden vs Bosnia-Herzegovina predicted XIs (13 Nov, outdated)",
           "url": "https://starting11.com/fixtures/sweden-vs-bosnia-herzegovina"
         }
-      ]
+      ],
+      "result": {
+        "home": 3,
+        "away": 2
+      }
     },
     {
       "id": "hai-usa",
@@ -4425,7 +4457,11 @@
           "title": "The Stats Zone: Haiti vs USA preview",
           "url": "https://www.thestatszone.com/haiti-vs-usa-preview-prediction-2026-27-concacaf-nations-league-237989"
         }
-      ]
+      ],
+      "result": {
+        "home": 0,
+        "away": 6
+      }
     }
   ]
 }
