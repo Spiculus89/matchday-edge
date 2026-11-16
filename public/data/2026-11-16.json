@@ -1,8 +1,8 @@
 {
   "date": "2026-11-16",
   "title": "Nations League, matchday 6",
-  "updated": "2026-11-16T09:16:33.000Z",
-  "updateNote": "Morning update: all ten UEFA Nations League matchday-6 games on Monday. League C Group 3 at 16:00 (Faroe Islands v Moldova, Kazakhstan v Slovakia), League C Group 4 and League D Group 2 at 18:00 (Estonia v Bulgaria, Iceland v Luxembourg, Lithuania v Liechtenstein), then League A Group 2 (Germany v Netherlands, Greece v Serbia), League B Group 1 (Switzerland v Scotland, North Macedonia v Slovenia) and League D Group 1 (Gibraltar v Malta) at 20:45. Predicted XIs where previews publish them; North Macedonia v Slovenia, Gibraltar v Malta and Lithuania v Liechtenstein wait for the team sheets. The kick-off-minus-40 runs confirm the XIs and refresh the odds.",
+  "updated": "2026-11-16T13:52:35.470Z",
+  "updateNote": "16:00 games: suspended Iovu (MDA), Danielsen (FRO) and Valjent (SVK) taken out of the predicted XIs at 15:00; confirmed XIs to follow. Morning update: all ten UEFA Nations League matchday-6 games on Monday. League C Group 3 at 16:00 (Faroe Islands v Moldova, Kazakhstan v Slovakia), League C Group 4 and League D Group 2 at 18:00 (Estonia v Bulgaria, Iceland v Luxembourg, Lithuania v Liechtenstein), then League A Group 2 (Germany v Netherlands, Greece v Serbia), League B Group 1 (Switzerland v Scotland, North Macedonia v Slovenia) and League D Group 1 (Gibraltar v Malta) at 20:45. Predicted XIs where previews publish them; North Macedonia v Slovenia, Gibraltar v Malta and Lithuania v Liechtenstein wait for the team sheets. The kick-off-minus-40 runs confirm the XIs and refresh the odds.",
   "matches": [
     {
       "id": "fro-mda",
@@ -102,7 +102,7 @@
           "corners": 4.8,
           "fouls": 11.8,
           "shots": 12.4,
-          "sot": 4.0,
+          "sot": 4,
           "gf": 1.4,
           "ga": 1.4
         },
@@ -111,7 +111,7 @@
           "fouls": 11.4,
           "shots": 15.4,
           "sot": 4.6,
-          "gf": 1.0,
+          "gf": 1,
           "ga": 1.8
         }
       },
@@ -130,7 +130,7 @@
           "formation": "5-4-1",
           "xi": [
             "Mattias Lamhauge",
-            "Jóannes Danielsen",
+            "Benjaminsen",
             "Odmar Færø",
             "Gunnar Vatnhamar",
             "Andrias Edmundsson",
@@ -148,7 +148,7 @@
             "Dumitru Celeadnic",
             "Oleg Reabciuk",
             "Mihail Gherasimencov",
-            "Iurie Iovu",
+            "Mihail Ștefan",
             "Vladislav Baboglo",
             "Ioan-Călin Revenco",
             "Sergiu Perciun",
@@ -161,6 +161,18 @@
         "alt": "Faroes: statz.ai's XI is the side that drew 2-2 in Košice on 13 Nov, with Meinhard Olsen in for Áki Samuelsen; that team was listed as a 3-4-3 with the same back three. starting11.com says the Faroes rotate (64% of the XI kept over the last five games), while Moldova are settled (82%, and the same XI three games running). Moldova's 13 Nov XI was not found, so statz.ai's 5-3-2 could not be checked against it. Nichita Moțpan, who made a tackle in each of Moldova's last five games, is not in it."
       },
       "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Jóannes Danielsen serves a one-match ban, so the Faroes change at right wing-back (Sports Mole expects Benjaminsen).",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Iurie Iovu is suspended; Mihail Ștefan is expected to take his place in the back three.",
+          "src": "Sports Mole"
+        },
         {
           "team": "home",
           "tag": "info",
@@ -279,8 +291,8 @@
           {
             "name": "Iurie Iovu",
             "pos": "DF",
-            "start": 0.75,
-            "note": "In the predicted XI. Most yellow cards for Moldova in their last 10 games (2), with 6 fouls (statz.ai)."
+            "start": 0,
+            "note": "Iurie Iovu is suspended; Mihail Ștefan is expected to take his place in the back three."
           }
         ]
       },
@@ -408,7 +420,7 @@
             3.5
           ],
           "2.5": [
-            2.0,
+            2,
             1.8
           ],
           "3.5": [
@@ -416,7 +428,7 @@
             1.3
           ],
           "4.5": [
-            6.0,
+            6,
             1.11
           ],
           "5.5": [
@@ -448,22 +460,22 @@
       },
       "form20": {
         "home": {
-          "gf": 1.0,
+          "gf": 1,
           "ga": 1.8,
-          "xgf": 1.0,
+          "xgf": 1,
           "xga": 1.6
         },
         "away": {
           "gf": 1.4,
           "ga": 1.2,
           "xgf": 1.4,
-          "xga": 1.0
+          "xga": 1
         }
       },
       "season": {
         "home": {
-          "corners": 5.0,
-          "fouls": 13.0,
+          "corners": 5,
+          "fouls": 13,
           "shots": 13.4,
           "sot": 3.4,
           "gf": 1.2,
@@ -510,7 +522,7 @@
           "formation": "4-2-3-1",
           "xi": [
             "Dominik Greif",
-            "Martin Valjent",
+            "Tobiáš Pališčák",
             "Ľubomír Šatka",
             "Milan Škriniar",
             "Dávid Hancko",
@@ -525,6 +537,12 @@
         "alt": "Slovakia: the Slovak press listed the same XI as a 4-3-3 on 13 Nov. With the group already won, Starting11 expects both sides to rotate (Slovakia have kept 55% of their XI over the last five games, Kazakhstan 39%). Martin Dúbravka, Tomáš Suslov, Stanislav Lobotka and Adam Obert started the September win over Kazakhstan, and Tomáš Bobček and Róbert Boženík came off the bench. Kazakhstan: statz.ai leaves out the suspended Samorodov and also Islambek Kuat, Yan Vorogovskiy and Galymzhan Kenzhebek, who were all in the squad used in Moldova. Sergei Malyy is available again after a ban but is not in the statz.ai XI. Sports Mole's predicted XI for the Moldova game was Pokatilov; Alip, Kassym, Zhagorov, Tapalov; Ashirbek, Kuat, Zhukov, Amir; Kenzhebek, Karimov. Player names follow the UEFA team sheets (statz.ai spells them Aleksandr Mrynskiy, Temirlan Erlanov, Zhasulan Amir and Azamat Tuyakbaev)."
       },
       "news": [
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Martin Valjent is suspended after a yellow-card build-up; Tobiáš Pališčák is in line to start at right-back. Slovakia have already won the group and may rotate further.",
+          "src": "Sports Mole / Bytes Europe"
+        },
         {
           "team": "home",
           "tag": "out",
@@ -671,8 +689,8 @@
           {
             "name": "Martin Valjent",
             "pos": "DF",
-            "start": 0.8,
-            "note": "3 yellow cards in 2026, the most for Slovakia (statz.ai), 2 of them in this Nations League campaign (KickOff). 4 fouls in 2026."
+            "start": 0,
+            "note": "Martin Valjent is suspended after a yellow-card build-up; Tobiáš Pališčák is in line to start at right-back. Slovakia have already won the group and may rotate further."
           },
           {
             "name": "Tomáš Suslov",
@@ -702,7 +720,7 @@
           "d": 0.26,
           "a": 0.5,
           "xg": [
-            1.0,
+            1,
             1.5
           ]
         },
@@ -808,9 +826,9 @@
         "name": "Nenad Minaković",
         "country": "SRB",
         "games": 1,
-        "yellowsPg": 2.0,
-        "foulsPg": 15.0,
-        "redsPg": 1.0,
+        "yellowsPg": 2,
+        "foulsPg": 15,
+        "redsPg": 1,
         "note": "Appointment from statz.ai and starting11.com. Figures are from the statz.ai match page and cover only 1 game this season, so treat them as a tiny sample. Foot Mercato's profile gives a wider 2026/27 sample of 9 games with 33 yellows (about 3.7 a game) and 0 reds, and 112 career games at about 4.1 yellows a game. Neither statz.ai nor Foot Mercato gives his nationality: Serbia comes from his FIFA listing and was not re-checked in this run."
       },
       "odds": {
@@ -849,8 +867,8 @@
           1.62
         ],
         "dc": {
-          "1X": 1.25,
           "12": 1.33,
+          "1X": 1.25,
           "X2": 1.73
         },
         "dnb": {
@@ -858,8 +876,8 @@
           "away": 2.63
         },
         "wtn": {
-          "home": 3.0,
-          "away": 6.0
+          "home": 3,
+          "away": 6
         },
         "firstGoal": {
           "home": 1.73,
@@ -877,7 +895,7 @@
           "gf": 1.2,
           "ga": 2.3,
           "xgf": 0.6,
-          "xga": 2.0
+          "xga": 2
         }
       },
       "season": {
@@ -890,12 +908,12 @@
           "ga": 0.2
         },
         "away": {
-          "corners": 4.0,
-          "fouls": 12.0,
+          "corners": 4,
+          "fouls": 12,
           "shots": 11.8,
           "sot": 3.8,
           "gf": 0.6,
-          "ga": 2.0
+          "ga": 2
         }
       },
       "teamStats": {
@@ -1703,12 +1721,12 @@
       "odds": {
         "book": "bet365 via KickOff.co.uk (16 Nov, matchday; the page shows no odds timestamp). This KickOff page showed decimal prices, not fractions, so they are used as shown. KickOff's article text quotes a best price of 1.10 for Lithuania, a little shorter than its own bet365 table. Cross-check: Megapari via OddsCalendar (page updated 16 Nov, 09:53 CET) has 1.11 / 8.60 / 28.00, in line with bet365 on the favourite. No second site with O/U 2.5 or BTTS prices was found: bettingodds.com shows only unlabelled 1X2 columns, oddspedia and valuestats could not be opened, and the 22Bet page had no odds yet. In bet365's first-team-to-score market, 'no goal' is 11.00. No bet365 scorer prices, corners, cards, Asian handicap lines or player props found.",
         "h": 1.13,
-        "d": 8.0,
-        "a": 19.0,
+        "d": 8,
+        "a": 19,
         "ou": {
           "0.5": [
             1.04,
-            9.0
+            9
           ],
           "1.5": [
             1.25,
@@ -1716,28 +1734,28 @@
           ],
           "2.5": [
             1.8,
-            2.0
+            2
           ],
           "3.5": [
-            3.0,
+            3,
             1.36
           ],
           "4.5": [
-            5.0,
+            5,
             1.14
           ],
           "5.5": [
-            9.0,
+            9,
             1.04
           ]
         },
         "btts": [
-          4.0,
+          4,
           1.22
         ],
         "dc": {
-          "1X": 1.01,
           "12": 1.06,
+          "1X": 1.01,
           "X2": 5.5
         },
         "dnb": {
@@ -1746,11 +1764,11 @@
         },
         "wtn": {
           "home": 1.36,
-          "away": 23.0
+          "away": 23
         },
         "firstGoal": {
           "home": 1.17,
-          "away": 6.0
+          "away": 6
         }
       },
       "form20": {
@@ -1770,13 +1788,13 @@
       "season": {
         "home": {
           "shots": 8,
-          "gf": 1.0,
+          "gf": 1,
           "ga": 0.67
         },
         "away": {
           "shots": 3,
-          "gf": 0.0,
-          "ga": 1.0
+          "gf": 0,
+          "ga": 1
         }
       },
       "teamStats": {
@@ -2023,7 +2041,7 @@
         "name": "Glenn Nyberg",
         "country": "SWE",
         "games": 4,
-        "yellowsPg": 4.0,
+        "yellowsPg": 4,
         "foulsPg": 24.3,
         "redsPg": 0.25,
         "note": "Figures from the statz.ai match page (4 games this season). Starting11 also names him. His statz.ai profile lists only 7 internationals across 2025/26 and 2026/27 (World Cup 2026 and European qualifiers): 3.29 yellows, 22.43 fouls and 0.14 reds per game, with 1-6 yellows a game. So the 4-game sample probably includes domestic games that the profile does not show. The profile does not give his nationality; he is a Swedish FIFA referee."
@@ -2064,8 +2082,8 @@
           3
         ],
         "dc": {
-          "1X": 1.29,
           "12": 1.2,
+          "1X": 1.29,
           "X2": 1.91
         },
         "dnb": {
@@ -2086,7 +2104,7 @@
           "gf": 2.3,
           "ga": 0.9,
           "xgf": 2.3,
-          "xga": 1.0
+          "xga": 1
         },
         "away": {
           "gf": 2.8,
@@ -2097,20 +2115,20 @@
       },
       "season": {
         "home": {
-          "corners": 6.0,
+          "corners": 6,
           "fouls": 13.2,
           "shots": 20.2,
-          "sot": 5.0,
+          "sot": 5,
           "gf": 1.2,
           "ga": 0.6
         },
         "away": {
-          "corners": 7.0,
+          "corners": 7,
           "fouls": 9.4,
-          "shots": 21.0,
+          "shots": 21,
           "sot": 8.6,
           "gf": 2.8,
-          "ga": 1.0
+          "ga": 1
         }
       },
       "teamStats": {
@@ -2607,8 +2625,8 @@
           1.83
         ],
         "dc": {
-          "1X": 1.1,
           "12": 1.18,
+          "1X": 1.1,
           "X2": 2.75
         },
         "dnb": {
@@ -2632,7 +2650,7 @@
           "xga": 1.4
         },
         "away": {
-          "gf": 1.0,
+          "gf": 1,
           "ga": 1.7,
           "xgf": 1.3,
           "xga": 1.8
@@ -2644,8 +2662,8 @@
           "fouls": 8.2,
           "shots": 11.2,
           "sot": 3.4,
-          "gf": 1.0,
-          "ga": 2.0
+          "gf": 1,
+          "ga": 2
         },
         "away": {
           "corners": 2,
@@ -2796,7 +2814,7 @@
             "start": 0.6,
             "shots90": 0.6,
             "sot90": 0,
-            "fouls90": 1.0,
+            "fouls90": 1,
             "tackles90": 2.8,
             "note": "Per-90s are from his only listed 2026/27 games on statz.ai: 5 Champions League games for AEK (450 min, 5 fouls, 14 tackles, 3 shots). 6 fouls in Greece's last 10 games (statz.ai). Started at right-back on 13 Nov, but Saliakas is available again, so his start is less certain. The 1+ fouls price is from the statz.ai match page (100% hit rate, window not stated), and the combined bet is quoted at bet365."
           },
@@ -3050,7 +3068,7 @@
         "country": "NED",
         "games": 5,
         "yellowsPg": 2.8,
-        "foulsPg": 24.0,
+        "foulsPg": 24,
         "redsPg": 0,
         "note": "Figures from the statz.ai match page (5 games this season); starting11.com also lists him for this game. His statz.ai profile (listed as Danny Desmond Makkelie) only covers international matches: 10 games across 2025/26 and 2026/27 with 2.9 yellows, 24.2 fouls and 0 reds per game, ranging from 0 yellows (France v Sweden, World Cup) to 8 (Romania v Bosnia and Herzegovina). Neither page gives his nationality; he is a Dutch referee."
       },
@@ -3096,7 +3114,7 @@
         "dc": {
           "12": 1.29,
           "1X": 1.18,
-          "X2": 2.0
+          "X2": 2
         },
         "dnb": {
           "home": 1.3,
@@ -3135,7 +3153,7 @@
           "fouls": 14.4,
           "shots": 14.8,
           "sot": 5.4,
-          "gf": 1.0,
+          "gf": 1,
           "ga": 1.2
         }
       },
@@ -3609,8 +3627,8 @@
           1.62
         ],
         "dc": {
-          "1X": 2.38,
           "12": 1.29,
+          "1X": 2.38,
           "X2": 1.11
         },
         "dnb": {
@@ -3635,7 +3653,7 @@
         },
         "away": {
           "gf": 0.9,
-          "ga": 1.0,
+          "ga": 1,
           "xgf": 0.8,
           "xga": 1.3
         }
@@ -3654,7 +3672,7 @@
           "fouls": 13.5,
           "shots": 10,
           "sot": 3,
-          "gf": 1.0,
+          "gf": 1,
           "ga": 0.6
         },
         "note": "gf and ga cover all five group games (North Macedonia 1-12, Slovenia 5-3). Corners, fouls, shots and shots on target cover the first four games only (statz.ai, SportsCafe and UEFA reports via the 13 Nov research), because no stats for the 13 Nov games were found."
@@ -3934,13 +3952,13 @@
       },
       "odds": {
         "book": "bet365 via KickOff.co.uk (16 Nov, matchday; the page shows no odds timestamp), fractions converted. Cross-check: the bettingodds.com comparison (bookmakers not named) has Gibraltar at 5/1 to 15/2, the draw at 13/5 to 16/5 and Malta at 2/5 to 40/85, in line with bet365's 7/1, 14/5 and 12/25. No second source for O/U 2.5 or BTTS could be read: 22Bet blocks fetching, and the Oddspedia, Footboom and DailySports pages failed to load. No bet365 scorer, corner, card, Asian handicap or player-prop prices are listed, and statz.ai has no page for this match.",
-        "h": 8.0,
+        "h": 8,
         "d": 3.8,
         "a": 1.48,
         "ou": {
           "0.5": [
             1.08,
-            7.0
+            7
           ],
           "1.5": [
             1.44,
@@ -3955,11 +3973,11 @@
             1.2
           ],
           "4.5": [
-            8.0,
+            8,
             1.06
           ],
           "5.5": [
-            12.0,
+            12,
             1.02
           ]
         },
@@ -3968,8 +3986,8 @@
           1.44
         ],
         "dc": {
-          "1X": 2.63,
           "12": 1.25,
+          "1X": 2.63,
           "X2": 1.06
         },
         "dnb": {
@@ -3977,7 +3995,7 @@
           "away": 1.13
         },
         "wtn": {
-          "home": 11.0,
+          "home": 11,
           "away": 1.91
         },
         "firstGoal": {
@@ -4002,7 +4020,7 @@
       "season": {
         "home": {
           "gf": 0.33,
-          "ga": 1.0
+          "ga": 1
         },
         "away": {
           "gf": 1.33,
@@ -4011,7 +4029,7 @@
       },
       "teamStats": {
         "home": {
-          "yellowsPg": 2.0
+          "yellowsPg": 2
         },
         "away": {
           "yellowsPg": 1.33
