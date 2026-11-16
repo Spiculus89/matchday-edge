@@ -360,7 +360,11 @@
           "title": "Futboltotal: Armenia 1-1 Cyprus (12 Nov) and Group C2 table",
           "url": "https://futboltotal.futbol/partido/partido-armenia-vs-cyprus-uefa-nations-league-2026-11-12"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 4
+      }
     },
     {
       "id": "lva-arm",
@@ -762,7 +766,11 @@
           "title": "22Bet: Latvia vs Armenia (kick-off, form)",
           "url": "https://news.22bet.com/predictions/latvia-vs-armenia-prediction-booking-code-15-11-2026/"
         }
-      ]
+      ],
+      "result": {
+        "home": 0,
+        "away": 0
+      }
     },
     {
       "id": "blr-alb",
@@ -1160,7 +1168,11 @@
           "title": "Balkanweb (14 Nov sidebar headline on Albania's two-result scenario)",
           "url": "https://www.balkanweb.com/?p=3053610"
         }
-      ]
+      ],
+      "result": {
+        "home": 0,
+        "away": 2
+      }
     },
     {
       "id": "fin-smr",
@@ -1547,7 +1559,11 @@
           "title": "22Bet: Finland vs San Marino prediction",
           "url": "https://news.22bet.com/predictions/finland-vs-san-marino-prediction-booking-code-15-11-2026/"
         }
-      ]
+      ],
+      "result": {
+        "home": 7,
+        "away": 2
+      }
     },
     {
       "id": "bel-ita",
@@ -2143,7 +2159,11 @@
           "title": "Football Whispers: Belgium vs Italy preview (team news)",
           "url": "https://footballwhispers.com/blog/belgium-vs-italy-prediction-15-11-2026/"
         }
-      ]
+      ],
+      "result": {
+        "home": 4,
+        "away": 1
+      }
     },
     {
       "id": "fra-tur",
@@ -2634,7 +2654,11 @@
           "title": "World Soccer Talk: Türkiye vs France, 25 Sep (reverse fixture venue)",
           "url": "https://worldsoccertalk.com/news/is-kylian-mbappe-playing-today-projected-lineups-for-france-vs-turkiye-in-2026-27-uefa-nations-league-group-a/"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 1
+      }
     },
     {
       "id": "cro-cze",
@@ -3214,7 +3238,11 @@
           "title": "Sky Sports: Croatia vs Czech Republic (venue, kick-off)",
           "url": "https://www.skysports.com/football/croatia-vs-czech-republic/554113"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 1
+      }
     },
     {
       "id": "esp-eng",
@@ -3687,7 +3715,11 @@
           "title": "WhoScored: Czechia vs Spain confirmed lineups",
           "url": "https://www.whoscored.com/news/c7T1MgeScUqOeaIJJT1r7A/show/czechia-vs-spain-confirmed-lineups"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 3
+      }
     }
   ]
 }

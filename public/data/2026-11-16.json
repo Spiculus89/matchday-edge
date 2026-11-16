@@ -1,0 +1,4204 @@
+{
+  "date": "2026-11-16",
+  "title": "Nations League, matchday 6",
+  "updated": "2026-11-16T09:16:33.000Z",
+  "updateNote": "Morning update: all ten UEFA Nations League matchday-6 games on Monday. League C Group 3 at 16:00 (Faroe Islands v Moldova, Kazakhstan v Slovakia), League C Group 4 and League D Group 2 at 18:00 (Estonia v Bulgaria, Iceland v Luxembourg, Lithuania v Liechtenstein), then League A Group 2 (Germany v Netherlands, Greece v Serbia), League B Group 1 (Switzerland v Scotland, North Macedonia v Slovenia) and League D Group 1 (Gibraltar v Malta) at 20:45. Predicted XIs where previews publish them; North Macedonia v Slovenia, Gibraltar v Malta and Lithuania v Liechtenstein wait for the team sheets. The kick-off-minus-40 runs confirm the XIs and refresh the odds.",
+  "matches": [
+    {
+      "id": "fro-mda",
+      "competition": "UEFA Nations League C, Group 3",
+      "kickoff": "2026-11-16T15:00:00Z",
+      "venue": "Tórsvøllur, Tórshavn",
+      "neutral": false,
+      "home": {
+        "name": "Faroe Islands",
+        "short": "Faroes",
+        "code": "FRO"
+      },
+      "away": {
+        "name": "Moldova",
+        "short": "Moldova",
+        "code": "MDA"
+      },
+      "context": "Slovakia have already won Group C3 on 11 points, so this game decides second place. Moldova are second on 7 points (goals 5-9) and the Faroe Islands third on 5 (7-7) after drawing all five games; a Faroes win lifts them to 8 and above Moldova, while a draw or a Moldova win keeps Moldova second. Kazakhstan, on 2 points, host Slovakia today. The reverse fixture in Chișinău on 29 September ended 1-1: Viljormur Davidsen scored a penalty for the Faroes, and Moldova had 20 attempts to 6 and 63% possession (UEFA match report). On 13 November the Faroes drew 2-2 in Košice and Moldova beat Kazakhstan 2-1 at home, their second 2-1 win over Kazakhstan after the one in Astana on 2 October. Both teams have scored in all five Faroes games, and neither side has kept a clean sheet in the campaign (statz.ai).",
+      "referee": {
+        "name": "Enea Jorgji",
+        "country": "ALB",
+        "games": 11,
+        "yellowsPg": 3.82,
+        "foulsPg": 23.27,
+        "redsPg": 0.36,
+        "note": "Named by statz.ai and starting11.com. Figures are from his statz.ai profile, which combines 2025/26 and 2026/27 into one sample of 11 games (3.82 yellows, 23.27 fouls, 4 reds). The statz.ai match page counts only 1 game this season (4.0 yellows, 37.0 fouls, 1 red), too small a sample to use. His five 2026/27 games on the profile (two Europa League, two Conference League qualifiers, Luxembourg v Iceland in this Nations League) had 6, 4, 6, 4 and 3 yellows. Neither page states his nationality; he is an Albanian referee."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (16 Nov, matchday; the page shows no odds timestamp), fractions converted to decimals. Cross-check: the statz.ai preview (14 Nov) quotes bet365 draw 3.60, Moldova 4.75, Over 1.5 1.40, Over 2.5 2.25 and BTTS Yes 2.10, all matching KickOff except the draw (now 3.50), plus Coral Faroes 1.83. BettingOdds.com lists Faroes 4/6 to 5/6, draw 11/5 to 13/5 and Moldova 10/3 to 4/1 across unnamed bookmakers. No second source for Under 2.5 or BTTS No. No bet365 scorer prices, corners, cards or Asian handicap lines found.",
+        "h": 1.75,
+        "d": 3.5,
+        "a": 4.75,
+        "ou": {
+          "0.5": [
+            1.08,
+            7
+          ],
+          "1.5": [
+            1.4,
+            2.75
+          ],
+          "2.5": [
+            2.25,
+            1.62
+          ],
+          "3.5": [
+            4,
+            1.22
+          ],
+          "4.5": [
+            7.5,
+            1.07
+          ],
+          "5.5": [
+            11,
+            1.02
+          ]
+        },
+        "btts": [
+          2.1,
+          1.67
+        ],
+        "dc": {
+          "12": 1.29,
+          "1X": 1.17,
+          "X2": 2
+        },
+        "dnb": {
+          "home": 1.29,
+          "away": 3.5
+        },
+        "wtn": {
+          "home": 2.63,
+          "away": 8
+        },
+        "firstGoal": {
+          "home": 1.62,
+          "away": 2.88
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 1.2,
+          "ga": 1.2,
+          "xgf": 1.2,
+          "xga": 1.5
+        },
+        "away": {
+          "gf": 0.9,
+          "ga": 2.7,
+          "xgf": 0.8,
+          "xga": 2.5
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 4.8,
+          "fouls": 11.8,
+          "shots": 12.4,
+          "sot": 4.0,
+          "gf": 1.4,
+          "ga": 1.4
+        },
+        "away": {
+          "corners": 4.8,
+          "fouls": 11.4,
+          "shots": 15.4,
+          "sot": 4.6,
+          "gf": 1.0,
+          "ga": 1.8
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.83
+        },
+        "away": {
+          "yellowsPg": 1.56
+        }
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "statz.ai match page (16 Nov), which switches to confirmed teams about an hour before kick-off. starting11.com shows position slots only, with no names.",
+        "home": {
+          "formation": "5-4-1",
+          "xi": [
+            "Mattias Lamhauge",
+            "Jóannes Danielsen",
+            "Odmar Færø",
+            "Gunnar Vatnhamar",
+            "Andrias Edmundsson",
+            "Viljormur Davidsen",
+            "Meinhard Olsen",
+            "Géza Dávid Turi",
+            "Jákup Andreasen",
+            "Hanus Sørensen",
+            "Petur Knudsen"
+          ]
+        },
+        "away": {
+          "formation": "5-3-2",
+          "xi": [
+            "Dumitru Celeadnic",
+            "Oleg Reabciuk",
+            "Mihail Gherasimencov",
+            "Iurie Iovu",
+            "Vladislav Baboglo",
+            "Ioan-Călin Revenco",
+            "Sergiu Perciun",
+            "Vadim Rață",
+            "Vladimir Fratea",
+            "Petru Popescu",
+            "Nicky Clescenco"
+          ]
+        },
+        "alt": "Faroes: statz.ai's XI is the side that drew 2-2 in Košice on 13 Nov, with Meinhard Olsen in for Áki Samuelsen; that team was listed as a 3-4-3 with the same back three. starting11.com says the Faroes rotate (64% of the XI kept over the last five games), while Moldova are settled (82%, and the same XI three games running). Moldova's 13 Nov XI was not found, so statz.ai's 5-3-2 could not be checked against it. Nichita Moțpan, who made a tackle in each of Moldova's last five games, is not in it."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "UEFA's squad list for this match includes all eleven who started the 2-2 in Slovakia. Coach Eyðun Klakstein's side have drawn all five group games (1-1, 1-1, 1-1, 2-2, 2-2), and both teams scored in every one.",
+          "src": "UEFA.com / ESPN / statz.ai"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "KickOff and statz.ai give the venue as Þórsvöllur, Akureyri, an Icelandic ground with a similar name. ESPN (Tórshavn), starting11.com and BettingOdds.com (Tórsvøllur) place the game in the Faroes, which is used here.",
+          "src": "ESPN / starting11.com / BettingOdds.com"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Ion Nicolaescu, Mihail Caimacov and Sergiu Plătică, who all appear in Moldova's last 10 games on statz.ai, are not on UEFA's squad list for this match. No reason found.",
+          "src": "UEFA.com / statz.ai"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Lilian Popescu's Moldova are settled: the same XI three games running, per starting11.com. They have won both games against Kazakhstan 2-1 and lost both to Slovakia (0-2, 0-4).",
+          "src": "starting11.com / ESPN"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Petur Knudsen",
+            "pos": "FW",
+            "start": 0.8,
+            "shots": 12,
+            "goals": 2,
+            "note": "Shots and goals cover the Faroes' last 10 games (statz.ai), with 5 on target, all team highs; also 8 fouls. A shot in each of his last five games, 2.2 a game (statz.ai preview). Started in Košice and is in the predicted XI. No per-90s found."
+          },
+          {
+            "name": "Áki Samuelsen",
+            "pos": "FW",
+            "start": 0.4,
+            "shots": 8,
+            "goals": 2,
+            "note": "Shots and goals cover the Faroes' last 10 games (statz.ai), with 3 on target. Joint top scorer in this campaign with Davidsen (2, ESPN). Started on 13 Nov but is left out of statz.ai's predicted XI."
+          },
+          {
+            "name": "Meinhard Olsen",
+            "pos": "FW",
+            "start": 0.6,
+            "note": "In statz.ai's predicted XI in place of Samuelsen; did not start on 13 Nov. Most assists in KickOff's Faroes squad stats (5)."
+          },
+          {
+            "name": "Géza Dávid Turi",
+            "pos": "MF",
+            "start": 0.8,
+            "goals": 2,
+            "note": "Goals cover the Faroes' last 10 games (statz.ai); also 7 fouls and 2 yellow cards in that span. A tackle in each of his last five games, 2.4 a game (statz.ai preview), and 2+ tackles in 8 of his last 10, 2.8 a game (statz.ai team page). The 1+ shots price (80% hit rate, window not stated) is from the statz.ai bet-builder section; the combined bet is quoted at bet365. No per-90s found."
+          },
+          {
+            "name": "Andrias Edmundsson",
+            "pos": "DF",
+            "start": 0.8,
+            "shots": 9,
+            "note": "Shots cover the Faroes' last 10 games (statz.ai), with 3 on target; also 9 fouls and 3 yellow cards there, team highs. A shot in four straight games, 2.3 a game. 1+ fouls in 9 of his last 10 games, 1.8 a game (statz.ai team page). Booked in the reverse fixture. The 1+ fouls price (80% hit rate, window not stated) is from the statz.ai bet-builder section; the combined bet is quoted at bet365. No per-90s found."
+          },
+          {
+            "name": "Viljormur Davidsen",
+            "pos": "DF",
+            "start": 0.8,
+            "goals": 2,
+            "pens": true,
+            "note": "Goals cover the Faroes' last 10 games (statz.ai). Scored the penalty in the 1-1 in Chișinău. Most appearances (88) and goals (8) in KickOff's Faroes squad stats."
+          }
+        ],
+        "away": [
+          {
+            "name": "Petru Popescu",
+            "pos": "FW",
+            "start": 0.85,
+            "shots": 22,
+            "goals": 4,
+            "note": "Shots and goals cover Moldova's last 10 games (statz.ai), with 8 on target and 10 fouls. A shot in five straight games (4.4 a game), on target in four straight, and a tackle in five straight (statz.ai preview). Top scorer in this campaign with 3 (ESPN). No per-90s found."
+          },
+          {
+            "name": "Sergiu Perciun",
+            "pos": "MF",
+            "start": 0.8,
+            "shots": 12,
+            "goals": 1,
+            "note": "Shots and goals cover Moldova's last 10 games (statz.ai), with 5 on target and 11 fouls, the team high. A shot on target in each of his last four games (3 shots a game). 1+ fouls in 9 of his last 10, 1.9 a game (statz.ai team page)."
+          },
+          {
+            "name": "Nicky Clescenco",
+            "pos": "FW",
+            "start": 0.75,
+            "shots": 10,
+            "goals": 1,
+            "note": "Shots and goals cover Moldova's last 10 games (statz.ai), with 4 on target. Partners Popescu in statz.ai's predicted XI."
+          },
+          {
+            "name": "Oleg Reabciuk",
+            "pos": "DF",
+            "start": 0.85,
+            "note": "In the predicted XI. Most appearances (67) and cards (19) in KickOff's Moldova squad stats. Drew a foul in each of his last 10 games, 1.7 a game (statz.ai team page). The 1+ shots price (80% hit rate, window not stated) is from the statz.ai bet-builder section; the combined bet is quoted at bet365. No shot counts or per-90s found."
+          },
+          {
+            "name": "Vadim Rață",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "In the predicted XI. 7 appearances in 2026 with 8 tackles, 5 fouls and 1 shot (statz.ai team page)."
+          },
+          {
+            "name": "Nichita Moțpan",
+            "pos": "MF",
+            "start": 0.4,
+            "note": "Not in statz.ai's predicted XI, but made a tackle in each of Moldova's last five games, 2.4 a game. 2026: 5 appearances, 12 tackles, 4 shots, 1 assist (statz.ai)."
+          },
+          {
+            "name": "Iurie Iovu",
+            "pos": "DF",
+            "start": 0.75,
+            "note": "In the predicted XI. Most yellow cards for Moldova in their last 10 games (2), with 6 fouls (statz.ai)."
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Oleg Reabciuk",
+          "market": "1+ shots",
+          "odds": 1.8
+        },
+        {
+          "player": "Géza Dávid Turi",
+          "market": "1+ shots",
+          "odds": 1.36
+        },
+        {
+          "player": "Andrias Edmundsson",
+          "market": "1+ fouls",
+          "odds": 1.33
+        }
+      ],
+      "benchmarks": {
+        "kickoff": {
+          "h": 0.55,
+          "d": 0.25,
+          "a": 0.2
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Faroe Islands v Moldova odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/faroe-islands-vs-moldova/"
+        },
+        {
+          "title": "Statz.ai: Faroe Islands vs Moldova stats, predicted lineups & referee",
+          "url": "https://statz.ai/h2h/faroe-islands-vs-moldova/19676747"
+        },
+        {
+          "title": "Statz.ai: Faroe Islands vs Moldova predictions & betting tips",
+          "url": "https://statz.ai/news/19676747-faroe-islands-vs-moldova-predictions-betting-tips"
+        },
+        {
+          "title": "Statz.ai: Faroe Islands vs Moldova bet builder",
+          "url": "https://statz.ai/bet-builder/sgp/uefa-nations-league/faroe-islands-vs-moldova-2026-11-16"
+        },
+        {
+          "title": "Statz.ai: referee Enea Jorgji",
+          "url": "https://statz.ai/referee/enea-jorgji"
+        },
+        {
+          "title": "Statz.ai: Faroe Islands team stats",
+          "url": "https://statz.ai/team/faroe-islands"
+        },
+        {
+          "title": "Statz.ai: Moldova team stats",
+          "url": "https://statz.ai/team/moldova"
+        },
+        {
+          "title": "Starting11: Faroe Islands vs Moldova (kick-off, referee, XI stability)",
+          "url": "https://starting11.com/fixtures/faroe-islands-vs-moldova"
+        },
+        {
+          "title": "ESPN: Faroe Islands v Moldova (venue, Group C3 table, form)",
+          "url": "https://africa.espn.com/football/match/_/gameId/401861180/moldavia-ilhas-faroe"
+        },
+        {
+          "title": "UEFA.com: Faroe Islands vs Moldova squad lists",
+          "url": "https://www.uefa.com/uefanationsleague/match/2047910--faroe-islands-vs-moldova/lineups"
+        },
+        {
+          "title": "UEFA match report: Moldova v Faroe Islands, 29 Sep 2026 (reverse fixture)",
+          "url": "https://www.uefa.com/newsfiles/UNL/2027/2047994_FR.pdf"
+        },
+        {
+          "title": "BettingOdds.com: Faroe Islands vs Moldova odds comparison",
+          "url": "https://www.bettingodds.com/football/uefa-nations-league/16-11-2026/faroe-islands-vs-moldova"
+        },
+        {
+          "title": "22Bet: Faroe Islands vs Moldova (kick-off 15:00 UTC, form)",
+          "url": "https://news.22bet.com/predictions/faroe-islands-vs-moldova-prediction-booking-code-16-11-2026/"
+        },
+        {
+          "title": "Bes.media: Kazakhstan 1-2 Moldova (2 Oct)",
+          "url": "https://bes.media/news/kazahstan-proigral-moldove-v-matche-ligi-natsiy/"
+        }
+      ]
+    },
+    {
+      "id": "kaz-svk",
+      "competition": "UEFA Nations League C, Group 3",
+      "kickoff": "2026-11-16T15:00:00Z",
+      "venue": "Astana Arena, Astana",
+      "neutral": false,
+      "home": {
+        "name": "Kazakhstan",
+        "short": "Kazakhstan",
+        "code": "KAZ"
+      },
+      "away": {
+        "name": "Slovakia",
+        "short": "Slovakia",
+        "code": "SVK"
+      },
+      "context": "Slovakia have already won Group C3. They have 11 points from three wins and two draws (11-4), and second-placed Moldova (7) can reach no more than 10. Group winners go straight up to League B and runners-up go into the promotion play-offs (karlobag.eu). Kazakhstan are bottom on 2 points (two draws, three defeats, 6-9), three behind the Faroes (5). They can only get off the bottom if they win and the Faroes lose to Moldova, and even then tie-breakers would decide. Matchday 5 on 13 November: Moldova 2-1 Kazakhstan in Chișinău (Petru Popescu scored twice, Islam Chesnokov replied, and Maksim Samorodov was sent off late on), and Slovakia 2-2 Faroe Islands in Košice. Slovakia won the reverse fixture 2-1 in Košice on 29 September. Kazakhstan have scored and conceded in all five group games, and four of the five went over 2.5 goals (statz.ai).",
+      "referee": {
+        "name": "Aliyar Agayev",
+        "country": "AZE",
+        "games": 3,
+        "yellowsPg": 3.3,
+        "foulsPg": 23.3,
+        "redsPg": 0,
+        "note": "Figures from the statz.ai match page (3 games this season). His statz.ai profile, spelled Əliyar Ağayev, combines 2025/26 and 2026/27 into a sample of 16 games: 4.0 yellows, 26.25 fouls and 0.25 reds per game (4 reds). The 2026/27 games listed there are Celta 1-2 Union SG (2 yellows), NEC 1-1 Levski (1), Georgia 0-0 Ukraine in the Nations League (6), Raków 2-3 Hajduk Split (4) and Lincoln Red Imps 1-1 Omonia (7). Statshub gives him 4.18 yellows per game over 118 career games and lists him as Azerbaijani. Starting11 and OddsCalendar also name him for this game."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (16 Nov, matchday). The page shows no odds timestamp and displayed the prices in decimal. Cross-check: Megapari via OddsCalendar (page updated 16 Nov, 09:52 CET) has 4.10 / 3.54 / 1.90, close to bet365. The statz.ai preview (14 Nov) quoted bet365 at 1.70 for Slovakia, 1.85 for Over 2.5, 1.25 for Over 1.5 and 1.83 for BTTS Yes, with best prices of 5.25 for Kazakhstan (Midnite) and 3.90 for the draw (Ladbrokes). So Slovakia have drifted from 1.70 to 1.95 at bet365 since Saturday, and Over 2.5 from 1.85 to 2.00. The statz.ai bet builder priced Slovakia at 4/5 and Over 2.5 at 10/11. No bet365 scorer prices, corners, cards or Asian handicap lines found.",
+        "h": 3.75,
+        "d": 3.5,
+        "a": 1.95,
+        "ou": {
+          "0.5": [
+            1.03,
+            9.5
+          ],
+          "1.5": [
+            1.29,
+            3.5
+          ],
+          "2.5": [
+            2.0,
+            1.8
+          ],
+          "3.5": [
+            3.4,
+            1.3
+          ],
+          "4.5": [
+            6.0,
+            1.11
+          ],
+          "5.5": [
+            10,
+            1.03
+          ]
+        },
+        "btts": [
+          1.8,
+          1.91
+        ],
+        "dc": {
+          "12": 1.29,
+          "1X": 1.8,
+          "X2": 1.25
+        },
+        "dnb": {
+          "home": 2.63,
+          "away": 1.44
+        },
+        "wtn": {
+          "home": 6.5,
+          "away": 3.4
+        },
+        "firstGoal": {
+          "home": 2.38,
+          "away": 1.67
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 1.0,
+          "ga": 1.8,
+          "xgf": 1.0,
+          "xga": 1.6
+        },
+        "away": {
+          "gf": 1.4,
+          "ga": 1.2,
+          "xgf": 1.4,
+          "xga": 1.0
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 5.0,
+          "fouls": 13.0,
+          "shots": 13.4,
+          "sot": 3.4,
+          "gf": 1.2,
+          "ga": 1.8
+        },
+        "away": {
+          "corners": 7.4,
+          "fouls": 7.8,
+          "shots": 15.6,
+          "sot": 5.2,
+          "gf": 2.2,
+          "ga": 0.8
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 2.75
+        },
+        "away": {
+          "yellowsPg": 1.5
+        },
+        "note": "Yellow cards per game come from the statz.ai team pages for calendar year 2026, covering the 8 games with card data (Slovakia: 12 yellows). The statz.ai match page gives no team card averages. KickOff lists 5 Slovakia yellows in this Nations League campaign (1.0 per game). Kazakhstan had 19 fouls and 2 yellows in Moldova, plus Samorodov's second yellow."
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "statz.ai predicted XIs (match page, 16 Nov). Slovakia's predicted XI is the same as the one that started the 2-2 draw with the Faroes on 13 Nov. Neither Sports Mole nor the Slovak press had a published predicted XI for this game.",
+        "home": {
+          "formation": "5-3-2",
+          "xi": [
+            "Stas Pokatilov",
+            "Alexandr Mrynskiy",
+            "Alibek Kasym",
+            "Temirlan Yerlanov",
+            "Nuraly Alip",
+            "Nauryzbek Zhagorov",
+            "Zhassulan Amir",
+            "Dinmukhamed Karaman",
+            "Ramazan Orazov",
+            "Azamat Tuyakbayev",
+            "Islam Chesnokov"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "xi": [
+            "Dominik Greif",
+            "Martin Valjent",
+            "Ľubomír Šatka",
+            "Milan Škriniar",
+            "Dávid Hancko",
+            "Ľudovít Reis",
+            "Ondrej Duda",
+            "Lukáš Haraslín",
+            "Albert Rusnák",
+            "Erik Prekop",
+            "Dávid Strelec"
+          ]
+        },
+        "alt": "Slovakia: the Slovak press listed the same XI as a 4-3-3 on 13 Nov. With the group already won, Starting11 expects both sides to rotate (Slovakia have kept 55% of their XI over the last five games, Kazakhstan 39%). Martin Dúbravka, Tomáš Suslov, Stanislav Lobotka and Adam Obert started the September win over Kazakhstan, and Tomáš Bobček and Róbert Boženík came off the bench. Kazakhstan: statz.ai leaves out the suspended Samorodov and also Islambek Kuat, Yan Vorogovskiy and Galymzhan Kenzhebek, who were all in the squad used in Moldova. Sergei Malyy is available again after a ban but is not in the statz.ai XI. Sports Mole's predicted XI for the Moldova game was Pokatilov; Alip, Kassym, Zhagorov, Tapalov; Ashirbek, Kuat, Zhukov, Amir; Kenzhebek, Karimov. Player names follow the UEFA team sheets (statz.ai spells them Aleksandr Mrynskiy, Temirlan Erlanov, Zhasulan Amir and Azamat Tuyakbaev)."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Maksim Samorodov was shown two yellow cards, both logged at 90', in the 2-1 defeat in Moldova on 13 Nov, so he should serve a one-match ban. statz.ai has 4 yellows for him in Kazakhstan's last 10 games and leaves him out of its XI.",
+          "src": "Sportmail.ru match report / statz.ai"
+        },
+        {
+          "team": "home",
+          "tag": "back",
+          "text": "Sports Mole (11 Nov) said Sergei Malyy was suspended for the Moldova game after a red card in the previous fixture. He was not used on 13 Nov and is available again. statz.ai credits him with 2 goals in Kazakhstan's last 10 games.",
+          "src": "Sports Mole / Sportmail.ru / statz.ai"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "John van 't Schip named a 27-man squad including Nuraly Alip, Galymzhan Kenzhebek, Ramazan Karimov, Islambek Kuat and Bauyrzhan Islamkhan. No injuries were reported. Kazakhstan have not won in seven games (Sports Mole counted six before the Moldova defeat).",
+          "src": "karlobag.eu (6 Nov) / Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Stanislav Lobotka (left ankle injury picked up with his club) and Leo Sauer (injured) are not in the November squad.",
+          "src": "karlobag.eu (6 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Albert Rusnák returned to the squad, and Tobiáš Pališčák, Ľudovít Reis, Sebastián Nebyla and Matej Trusa were called up. Weiss made five changes for the 2-2 draw with the Faroes: Greif, Reis and Rusnák came in, while Boženík, Suslov and Bobček were left out of the XI.",
+          "src": "karlobag.eu / 13 Nov team sheets (Sportnet, TASR)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Slovakia have already won the group: Moldova, second on 7 points, can reach no more than 10. Starting11 expects late-season rotation from both teams.",
+          "src": "FutbolTotal standings / Starting11"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Nuraly Alip",
+            "pos": "DF",
+            "start": 0.85,
+            "goals": 2,
+            "note": "Goals cover this Nations League campaign (KickOff: 5 starts, 2 goals, 3 shots on target, the most for Kazakhstan). He scored against Moldova on 2 Oct. statz.ai: a tackle in 5 straight games, 2.4 per game. No per-90s found."
+          },
+          {
+            "name": "Islam Chesnokov",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 1,
+            "note": "Goal: scored in Moldova on 13 Nov (51', assisted by Ramazan Orazov), per Sportmail.ru. 2 shots on target in Kazakhstan's last 10 games (statz.ai). In the statz.ai XI. No per-90s found."
+          },
+          {
+            "name": "Ramazan Orazov",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "10 fouls in Kazakhstan's last 10 games, the most in the squad (statz.ai). He set up Chesnokov's goal in Moldova. In the statz.ai XI. No per-90s found."
+          },
+          {
+            "name": "Alexandr Mrynskiy",
+            "pos": "DF",
+            "start": 0.75,
+            "note": "Used in Moldova on 13 Nov and in the statz.ai XI. The statz.ai match page lists 1+ fouls at 1.50 (bet365) with an 80% hit rate but does not say over how many games, so no hit is recorded. He is not among Kazakhstan's top three foulers over the last 10 games (Orazov 10, Samorodov 9, Vorogovskiy 7). No statz.ai player page or per-90s found."
+          },
+          {
+            "name": "Dinmukhamed Karaman",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "13 tackles in this Nations League campaign, the most for Kazakhstan (KickOff). In the statz.ai XI. No per-90s found."
+          },
+          {
+            "name": "Zhassulan Amir",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "1 assist in this Nations League campaign (KickOff). In the statz.ai XI."
+          },
+          {
+            "name": "Galymzhan Kenzhebek",
+            "pos": "FW",
+            "start": 0.4,
+            "shots": 11,
+            "note": "Shots cover Kazakhstan's last 10 games (statz.ai), the most in the squad, with 2 on target and 3 yellow cards. Not in the statz.ai XI, but Sports Mole expected him to start in Moldova."
+          },
+          {
+            "name": "Sergei Malyy",
+            "pos": "DF",
+            "start": 0.4,
+            "goals": 2,
+            "note": "Goals cover Kazakhstan's last 10 games (statz.ai). He is back from a one-match ban but not in the statz.ai XI."
+          },
+          {
+            "name": "Bauyrzhan Islamkhan",
+            "pos": "AM",
+            "start": 0.3,
+            "note": "statz.ai: a shot in each of his last 3 games (1.3 per game). In the squad but not in the statz.ai XI."
+          }
+        ],
+        "away": [
+          {
+            "name": "Lukáš Haraslín",
+            "pos": "FW",
+            "start": 0.85,
+            "shots": 19,
+            "goals": 4,
+            "note": "Shots and goals cover Slovakia's 9 games in 2026 (statz.ai team page), with 8 on target and 10 tackles. In this Nations League campaign: 2 goals, 6 shots on target and 1 assist (KickOff). statz.ai: a shot in 5 straight games (3 per game) and a tackle in each of them. No per-90s found."
+          },
+          {
+            "name": "Dávid Hancko",
+            "pos": "DF",
+            "start": 0.85,
+            "shots": 15,
+            "goals": 2,
+            "note": "Shots and goals cover Slovakia's 9 games in 2026 (statz.ai team page), with 4 on target. The statz.ai match page has 18 shots over the last 10 games. 4 big chances in the Nations League (KickOff). No per-90s found."
+          },
+          {
+            "name": "Dávid Strelec",
+            "pos": "FW",
+            "start": 0.8,
+            "shots": 10,
+            "goals": 3,
+            "note": "Shots and goals cover Slovakia's 9 games in 2026 (statz.ai team page), with 6 on target and 6 fouls in 8 games. Booked against Kazakhstan in September. No per-90s found."
+          },
+          {
+            "name": "Milan Škriniar",
+            "pos": "DF",
+            "start": 0.85,
+            "shots": 7,
+            "note": "Shots cover Slovakia's 9 games in 2026 (statz.ai team page). Captain. 11 tackles in 2026, the most for Slovakia. statz.ai: a tackle in 5 straight games (2.2 per game) and a shot in 4 straight. No per-90s found."
+          },
+          {
+            "name": "Ondrej Duda",
+            "pos": "AM",
+            "start": 0.8,
+            "note": "Started every Nations League game (KickOff: 5 starts, 1 assist). 2 yellow cards in 2026."
+          },
+          {
+            "name": "Erik Prekop",
+            "pos": "FW",
+            "start": 0.7,
+            "goals": 1,
+            "note": "Goal covers Slovakia's 9 games in 2026 (statz.ai). Started against the Faroes on 13 Nov and is in the statz.ai XI."
+          },
+          {
+            "name": "Martin Valjent",
+            "pos": "DF",
+            "start": 0.8,
+            "note": "3 yellow cards in 2026, the most for Slovakia (statz.ai), 2 of them in this Nations League campaign (KickOff). 4 fouls in 2026."
+          },
+          {
+            "name": "Tomáš Suslov",
+            "pos": "AM",
+            "start": 0.4,
+            "shots": 9,
+            "note": "Shots cover Slovakia's 9 games in 2026 (statz.ai team page). statz.ai: a shot in 4 straight games (2 per game). On the bench against the Faroes."
+          },
+          {
+            "name": "Róbert Boženík",
+            "pos": "FW",
+            "start": 0.35,
+            "note": "statz.ai: a shot in 3 straight games (1.3 per game) and 6 fouls in 4 games in 2026. On the bench against the Faroes."
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Alexandr Mrynskiy",
+          "market": "1+ fouls",
+          "odds": 1.5
+        }
+      ],
+      "benchmarks": {
+        "statz": {
+          "h": 0.24,
+          "d": 0.26,
+          "a": 0.5,
+          "xg": [
+            1.0,
+            1.5
+          ]
+        },
+        "kickoff": {
+          "h": 0.27,
+          "d": 0.25,
+          "a": 0.48
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Kazakhstan v Slovakia odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/kazakhstan-vs-slovakia/"
+        },
+        {
+          "title": "Statz.ai: Kazakhstan vs Slovakia stats, predicted lineups & referee",
+          "url": "https://statz.ai/h2h/kazakhstan-vs-slovakia/19676746"
+        },
+        {
+          "title": "Statz.ai: Kazakhstan vs Slovakia predictions & betting tips",
+          "url": "https://statz.ai/news/19676746-kazakhstan-vs-slovakia-predictions-betting-tips"
+        },
+        {
+          "title": "Statz.ai: Kazakhstan vs Slovakia bet builder",
+          "url": "https://statz.ai/bet-builder/sgp/uefa-nations-league/kazakhstan-vs-slovakia-2026-11-16"
+        },
+        {
+          "title": "Statz.ai: referee Əliyar Ağayev",
+          "url": "https://statz.ai/referee/eliyar-agayev"
+        },
+        {
+          "title": "Statshub: referee Aliyar Aghayev",
+          "url": "https://www.statshub.com/referee/aliyar-aghayev/81771"
+        },
+        {
+          "title": "Statz.ai: Kazakhstan team stats",
+          "url": "https://statz.ai/team/kazakhstan"
+        },
+        {
+          "title": "Statz.ai: Slovakia team stats",
+          "url": "https://statz.ai/team/slovakia"
+        },
+        {
+          "title": "OddsCalendar: Kazakhstan vs Slovakia (Megapari 1X2, kick-off, referee)",
+          "url": "https://www.oddscalendar.com/football/europe/nations-league/kazakhstan-vs-slovakia/1528986"
+        },
+        {
+          "title": "Starting11: Kazakhstan vs Slovakia (kick-off, referee, rotation)",
+          "url": "https://starting11.com/fixtures/kazakhstan-vs-slovakia"
+        },
+        {
+          "title": "FutbolTotal: Kazakhstan vs Slovakia (Group C3 standings)",
+          "url": "https://futboltotal.futbol/partido/partido-kazakhstan-vs-slovakia-uefa-nations-league-2026-11-16"
+        },
+        {
+          "title": "karlobag.eu: Kazakhstan vs Slovakia preview (squads, injuries)",
+          "url": "https://karlobag.eu/en/sports/news/kazakhstan-vs-slovakia-tickets-nations-league-astana-h4p10/"
+        },
+        {
+          "title": "Sportmail.ru: Moldova 2-1 Kazakhstan, 13 Nov (scorers, cards)",
+          "url": "https://sportmail.ru/football-nations/411/match/452927/"
+        },
+        {
+          "title": "Sportmail.ru: Kazakhstan vs Slovakia (kick-off 18:00 MSK)",
+          "url": "https://sportmail.ru/football-nations/411/match/452930/"
+        },
+        {
+          "title": "Sports Mole: Moldova vs Kazakhstan preview (Kazakhstan team news, 11 Nov)",
+          "url": "https://www.sportsmole.co.uk/football/moldova/uefa-nations-league/preview/moldova-vs-kazakhstan-prediction-team-news-lineups_608901.html"
+        },
+        {
+          "title": "UEFA: Slovakia v Kazakhstan line-ups, 29 Sep 2026 (reverse fixture)",
+          "url": "https://www.uefa.com/newsfiles/UNL/2027/2047996_FR.pdf"
+        },
+        {
+          "title": "TASR (Teraz.sk): Faroe Islands 1-1 Slovakia, 2 Oct",
+          "url": "https://www.teraz.sk/sport/greif-podrzal-slovakov-mrzel-ho-gol/996934-clanok.html"
+        },
+        {
+          "title": "Bes.media: Kazakhstan 1-2 Moldova, 2 Oct",
+          "url": "https://bes.media/news/kazahstan-proigral-moldove-v-matche-ligi-natsiy/"
+        }
+      ]
+    },
+    {
+      "id": "est-bul",
+      "competition": "UEFA Nations League C, Group 4",
+      "kickoff": "2026-11-16T17:00:00Z",
+      "venue": "A. Le Coq Arena, Tallinn",
+      "neutral": false,
+      "home": {
+        "name": "Estonia",
+        "short": "Estonia",
+        "code": "EST"
+      },
+      "away": {
+        "name": "Bulgaria",
+        "short": "Bulgaria",
+        "code": "BUL"
+      },
+      "context": "Estonia are second in Group C4 on 9 points (W2 D3 L0, goals 3-1), two behind Iceland on 11. Bulgaria are third on 4 (W1 D1 L3, 3-10) and Luxembourg are bottom on 3. Estonia are sure of a top-two finish and, per Sports Mole, at least a promotion play-off. They go up automatically only if they beat Bulgaria and Luxembourg win in Reykjavik, where Iceland host Luxembourg on the same matchday. Bulgaria can finish no higher than third and drop to fourth if Luxembourg win and Bulgaria fail to. The reverse fixture in Bulgaria on 29 September ended 0-0. Matchday 5 on 13 November: Luxembourg 0-1 Estonia (Paskotši) and Bulgaria 0-5 Iceland in Plovdiv. Estonia have conceded once in five group games, and none of their group games has gone over 2.5 goals (statz.ai).",
+      "referee": {
+        "name": "Nenad Minaković",
+        "country": "SRB",
+        "games": 1,
+        "yellowsPg": 2.0,
+        "foulsPg": 15.0,
+        "redsPg": 1.0,
+        "note": "Appointment from statz.ai and starting11.com. Figures are from the statz.ai match page and cover only 1 game this season, so treat them as a tiny sample. Foot Mercato's profile gives a wider 2026/27 sample of 9 games with 33 yellows (about 3.7 a game) and 0 reds, and 112 career games at about 4.1 yellows a game. Neither statz.ai nor Foot Mercato gives his nationality: Serbia comes from his FIFA listing and was not re-checked in this run."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (16 Nov, matchday; the page shows no odds timestamp; fractions converted). Cross-check: the statz.ai preview quotes Estonia 2.20 (Ladbrokes), draw 3.20 (bet365), Bulgaria 3.70 (Coral), BTTS Yes 2.20, Over 1.5 1.53 and Over 2.5 2.63 (bet365), close to the KickOff table. The statz.ai bet-builder page shows best prices of Estonia 1/1 (2.00) and Over 2.5 5/4 (2.25), so Over 2.5 may have shortened at some books. KickOff also lists No goal 11/2 in the first-team-to-score market. No bet365 scorer prices, corners, cards or Asian handicap lines found.",
+        "h": 2.05,
+        "d": 3.25,
+        "a": 3.8,
+        "ou": {
+          "0.5": [
+            1.1,
+            6.5
+          ],
+          "1.5": [
+            1.5,
+            2.5
+          ],
+          "2.5": [
+            2.5,
+            1.5
+          ],
+          "3.5": [
+            4.5,
+            1.17
+          ],
+          "4.5": [
+            8.5,
+            1.05
+          ],
+          "5.5": [
+            13,
+            1.01
+          ]
+        },
+        "btts": [
+          2.2,
+          1.62
+        ],
+        "dc": {
+          "1X": 1.25,
+          "12": 1.33,
+          "X2": 1.73
+        },
+        "dnb": {
+          "home": 1.44,
+          "away": 2.63
+        },
+        "wtn": {
+          "home": 3.0,
+          "away": 6.0
+        },
+        "firstGoal": {
+          "home": 1.73,
+          "away": 2.6
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 0.8,
+          "ga": 1.5,
+          "xgf": 0.8,
+          "xga": 1.9
+        },
+        "away": {
+          "gf": 1.2,
+          "ga": 2.3,
+          "xgf": 0.6,
+          "xga": 2.0
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 4.2,
+          "fouls": 14.8,
+          "shots": 10.2,
+          "sot": 4.8,
+          "gf": 0.6,
+          "ga": 0.2
+        },
+        "away": {
+          "corners": 4.0,
+          "fouls": 12.0,
+          "shots": 11.8,
+          "sot": 3.8,
+          "gf": 0.6,
+          "ga": 2.0
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.6
+        },
+        "away": {
+          "yellowsPg": 2.8
+        }
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "Estonia: Sports Mole (14/15 Nov) and statz.ai both predict the XI that won 1-0 in Luxembourg, listed by both as a 5-3-2 (it was reported as a 5-4-1 on 13 Nov). Bulgaria: Sports Mole, which expects changes after the 0-5 defeat to Iceland. starting11.com shows position slots only, and 22Bet says no prediction has been published.",
+        "home": {
+          "formation": "5-3-2",
+          "xi": [
+            "Karl Jakob Hein",
+            "Rasmus Peetson",
+            "Maksim Paskotši",
+            "Erko Jonne Tõugjas",
+            "Karol Mets",
+            "Michael Schjønning-Larsen",
+            "Mattias Käit",
+            "Kevor Palumets",
+            "Rocco Robert Shein",
+            "Mattias Männilaan",
+            "Patrik Kristal"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "xi": [
+            "Daniel Naumov",
+            "Ivan Turitsov",
+            "Stefan Velkov",
+            "Emil Tsenov",
+            "Dimitar Velkovski",
+            "Andrian Kraev",
+            "Ilia Gruev",
+            "Lukas Petkov",
+            "Ivaylo Chochev",
+            "Marin Petkov",
+            "Georgi Lazarov"
+          ]
+        },
+        "alt": "Bulgaria: statz.ai simply repeats the XI that lost 0-5 to Iceland, also as a 4-2-3-1: Naumov; Yoan Stoyanov, Velkov, Tsenov, Hristiyan Petrov; Kraev, Gruev; Kristiyan Balov, Georgi Rusev, Lukas Petkov; Atanas Iliev. So Turitsov, Velkovski, Chochev, Marin Petkov and Lazarov are less certain than the six players both sources name (Naumov, Velkov, Tsenov, Kraev, Gruev, Lukas Petkov). Turitsov, Velkovski, Chochev, Marin Petkov and Lazarov were all on the bench on 13 Nov."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Sports Mole expects coach Jürgen Henn to keep the side that won 1-0 in Luxembourg. No injuries or suspensions reported.",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Mattias Männilaan has five goals in his last four club games for Kalju. Maksim Paskotši scored the winner in Luxembourg, his second goal of this Nations League campaign.",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Markus Poom was not in the matchday squad in Luxembourg on 13 Nov. No reason was found, and no preview mentions him.",
+          "src": "ERR / 13 Nov team sheets"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Martin Minchev is injured and has withdrawn from the squad.",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Changes expected after the 0-5 home defeat to Iceland: Ivan Turitsov and Dimitar Velkovski are in contention at full-back, and Marin Petkov, Ivaylo Chochev and Georgi Lazarov could come into the XI. Bulgaria have failed to score in three of their last four games.",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Bulgaria cannot finish higher than third, and they drop to fourth if Luxembourg win in Iceland and Bulgaria fail to win.",
+          "src": "Sports Mole / statz.ai standings"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Patrik Kristal",
+            "pos": "FW",
+            "start": 0.85,
+            "shots": 9,
+            "note": "Shots cover Estonia's last 10 internationals (statz.ai). Had a shot in four straight games (1.8 a game). Also 13 fouls in the same span, the most of any Estonia player, and 2 yellows. In both predicted XIs. No per-90s found."
+          },
+          {
+            "name": "Maksim Paskotši",
+            "pos": "DF",
+            "start": 0.9,
+            "shots": 7,
+            "goals": 2,
+            "note": "Shots and goals cover Estonia's last 10 internationals (statz.ai), with 5 on target and 10 fouls. Had a shot in five straight games (1.2 a game). Scored the winner in Luxembourg on 13 Nov."
+          },
+          {
+            "name": "Mattias Käit",
+            "pos": "MF",
+            "start": 0.85,
+            "shots": 8,
+            "goals": 1,
+            "note": "Shots and goals cover Estonia's last 10 internationals (statz.ai), with 4 on target and 7 fouls. Made a tackle in four straight games (2 a game). No per-90s found."
+          },
+          {
+            "name": "Mattias Männilaan",
+            "pos": "FW",
+            "start": 0.85,
+            "shots": 7,
+            "note": "Shots cover Estonia's last 10 internationals (statz.ai), with 3 on target. Five goals in his last four club games for Kalju (Sports Mole)."
+          },
+          {
+            "name": "Rasmus Peetson",
+            "pos": "DF",
+            "start": 0.85,
+            "goals": 1,
+            "note": "Goal covers Estonia's last 10 internationals (statz.ai), with 4 shots on target and 7 fouls. Had a shot in three straight games (1.7 a game). Scored the 1-0 winner against Luxembourg in October."
+          },
+          {
+            "name": "Karol Mets",
+            "pos": "DF",
+            "start": 0.9,
+            "note": "9 fouls and 3 yellows in Estonia's last 10 internationals (statz.ai), the most yellows of any Estonia player."
+          },
+          {
+            "name": "Karl Jakob Hein",
+            "pos": "GK",
+            "start": 0.85,
+            "note": "Kept goal in Luxembourg and starts in both predicted XIs. Matvei Igonen kept goal in October."
+          }
+        ],
+        "away": [
+          {
+            "name": "Stefan Velkov",
+            "pos": "DF",
+            "start": 0.85,
+            "shots90": 0.81,
+            "sot90": 0.31,
+            "fouls90": 1.42,
+            "tackles90": 1.02,
+            "note": "Per-90s are calculated from his statz.ai season totals across Sønderjyske (Superliga) and Bulgaria, 2026/27: 885 min, 14 fouls, 10 tackles, 8 shots, 3 on target. 8 fouls in 368 Nations League minutes (1.96 per 90), with 5 against Estonia in September. 1+ fouls in each of his last five games (1, 1, 1, 1, 2) and in four straight for Bulgaria. In both predicted XIs. The 1+ fouls price is from the statz.ai bet-builder pick, combined bet quoted at bet365."
+          },
+          {
+            "name": "Emil Tsenov",
+            "pos": "DF",
+            "start": 0.85,
+            "note": "statz.ai gives him an 80% hit rate for 1+ fouls but does not state the span. He is not in Bulgaria's top five for fouls over the last 10 internationals (fifth place has 4). No statz.ai player page or per-90s found. In both predicted XIs. The 1+ fouls price is from the statz.ai bet-builder pick, combined bet quoted at bet365."
+          },
+          {
+            "name": "Ilia Gruev",
+            "pos": "MF",
+            "start": 0.85,
+            "shots": 4,
+            "note": "Shots cover Bulgaria's last 10 internationals (statz.ai). Made a tackle in five straight games (1.4 a game). In both predicted XIs."
+          },
+          {
+            "name": "Andrian Kraev",
+            "pos": "MF",
+            "start": 0.85,
+            "note": "6 fouls in Bulgaria's last 10 internationals (statz.ai), second only to Velkov. In both predicted XIs."
+          },
+          {
+            "name": "Lukas Petkov",
+            "pos": "AM",
+            "start": 0.85,
+            "note": "In both predicted XIs. 2 yellows in Bulgaria's last 10 internationals (statz.ai)."
+          },
+          {
+            "name": "Atanas Iliev",
+            "pos": "FW",
+            "start": 0.45,
+            "shots": 9,
+            "goals": 1,
+            "note": "Shots and goals cover Bulgaria's last 10 internationals (statz.ai), with 4 on target, both team highs. A shot on target in three straight games (3 shots a game). Started on 13 Nov and statz.ai keeps him, but Sports Mole picks Lazarov up front."
+          },
+          {
+            "name": "Georgi Rusev",
+            "pos": "AM",
+            "start": 0.45,
+            "shots": 5,
+            "goals": 1,
+            "note": "Shots and goals cover Bulgaria's last 10 internationals (statz.ai), with 3 on target. Had a shot in three straight games. In the statz.ai XI but not Sports Mole's."
+          },
+          {
+            "name": "Marin Petkov",
+            "pos": "AM",
+            "start": 0.5,
+            "note": "Made a tackle in four straight games (statz.ai). On the bench on 13 Nov; Sports Mole expects him to return to the XI."
+          },
+          {
+            "name": "Kristiyan Balov",
+            "pos": "FW",
+            "start": 0.4,
+            "goals": 1,
+            "note": "Goal covers Bulgaria's last 10 internationals (statz.ai). Started on 13 Nov and statz.ai keeps him, but he is not in Sports Mole's XI."
+          },
+          {
+            "name": "Daniel Naumov",
+            "pos": "GK",
+            "start": 0.85,
+            "note": "Started on 13 Nov and starts in both predicted XIs."
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Stefan Velkov",
+          "market": "1+ fouls",
+          "odds": 1.25,
+          "hit": "5/5"
+        },
+        {
+          "player": "Emil Tsenov",
+          "market": "1+ fouls",
+          "odds": 1.5
+        }
+      ],
+      "benchmarks": {
+        "kickoff": {
+          "h": 0.48,
+          "d": 0.28,
+          "a": 0.25
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Estonia v Bulgaria odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/estonia-vs-bulgaria/"
+        },
+        {
+          "title": "Statz.ai: Estonia vs Bulgaria stats, predicted lineups & referee",
+          "url": "https://statz.ai/h2h/estonia-vs-bulgaria/19676745"
+        },
+        {
+          "title": "Statz.ai: Estonia vs Bulgaria live stats & bet builder picks",
+          "url": "https://statz.ai/h2h/19676745"
+        },
+        {
+          "title": "Statz.ai: Estonia vs Bulgaria predictions & betting tips",
+          "url": "https://statz.ai/news/19676745-estonia-vs-bulgaria-predictions-betting-tips"
+        },
+        {
+          "title": "Statz.ai: Estonia vs Bulgaria bet builder",
+          "url": "https://statz.ai/bet-builder/sgp/uefa-nations-league/estonia-vs-bulgaria-2026-11-16"
+        },
+        {
+          "title": "Statz.ai: Stefan Velkov 2026/27 stats",
+          "url": "https://statz.ai/player/stefan-velkov/70186"
+        },
+        {
+          "title": "Statz.ai: Bulgaria team stats and results",
+          "url": "https://statz.ai/team/bulgaria"
+        },
+        {
+          "title": "Sports Mole: Estonia vs Bulgaria preview (team news, lineups)",
+          "url": "https://www.sportsmole.co.uk/football/estonia/uefa-nations-league/preview/estonia-vs-bulgaria-prediction-team-news-lineups_609090.html"
+        },
+        {
+          "title": "Starting11: Estonia vs Bulgaria (kick-off, referee)",
+          "url": "https://starting11.com/fixtures/estonia-vs-bulgaria"
+        },
+        {
+          "title": "22Bet: Estonia vs Bulgaria prediction (kick-off time)",
+          "url": "https://news.22bet.com/predictions/estonia-vs-bulgaria-prediction-booking-code-16-11-2026/"
+        },
+        {
+          "title": "Foot Mercato: referee Nenad Minaković",
+          "url": "https://www.footmercato.net/arbitre/nenad-minakovic"
+        },
+        {
+          "title": "ERR Sport: Estonia XI in Luxembourg (13 Nov)",
+          "url": "https://sport.err.ee/1610195209/vaata-otse-kas-eesti-saab-ka-voorsil-luksemburgist-jagu"
+        }
+      ]
+    },
+    {
+      "id": "isl-lux",
+      "competition": "UEFA Nations League C, Group 4",
+      "kickoff": "2026-11-16T17:00:00Z",
+      "venue": "Laugardalsvöllur, Reykjavík",
+      "neutral": false,
+      "home": {
+        "name": "Iceland",
+        "short": "Iceland",
+        "code": "ISL"
+      },
+      "away": {
+        "name": "Luxembourg",
+        "short": "Luxembourg",
+        "code": "LUX"
+      },
+      "context": "Iceland top Group C4 with 11 points from three wins and two draws (12-1), two ahead of Estonia (9, 3-1). Bulgaria have 4 (3-10) and Luxembourg 3 (2-8), and Estonia host Bulgaria in the other game. The group winners go up to League B, so a win guarantees Iceland first place. A draw would almost certainly be enough too: Iceland and Estonia drew both their meetings (1-1, 0-0), and on UEFA's usual tie-breakers Iceland's goal difference (+11) is nine better than Estonia's (+2). Iceland won the reverse fixture 3-0 in Luxembourg on 29 September. On 13 November Iceland won 5-0 in Bulgaria and Luxembourg lost 1-0 at home to Estonia, their fourth defeat in a row without scoring. Iceland have kept clean sheets in four of their five group games. The game is in Reykjavík: the groundskeeper says the undersoil-heated pitch is free of frost, with -3°C forecast for Monday.",
+      "referee": {
+        "name": "Marian Alexandru Barbu",
+        "country": "ROU",
+        "games": 2,
+        "yellowsPg": 3.5,
+        "foulsPg": 33,
+        "redsPg": 0,
+        "note": "Appointment and figures from the statz.ai match page (2 games this season: 3.5 yellows, 33.0 fouls, 0 reds per game); starting11.com also names him. 33 fouls a game is a tiny sample. His statz.ai profile combines 2025/26 and 2026/27 into 12 games: 3.25 yellows and 22.75 fouls per game, with one red (0.08 a game). That table shows 2-6 yellows in each game, including 2 in Kazakhstan v Moldova (Nations League, 2 Oct) and 6 in Benfica v Hearts. statz.ai does not give his nationality; Wikipedia lists him as a Romanian UEFA First Category referee."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (16 Nov, matchday; the page shows decimal prices and no odds timestamp). Cross-check: voetbalwedden.net shows the same bet365 1X2 (1.27 / 5.25 / 11.00), with BetMGM 1.27 / 5.75 / 10.00, Unibet 1.27 / 5.50 / 11.00 and TonyBet 1.28 / 6.00 / 11.00. OddsCalendar's Megapari row (page updated 16 Nov, 09:54 CET) reads about 1.23 / 6.00 / 13.50. The statz.ai bet-builder page has Over 2.5 at 4/6 (1.67) best price, the same as bet365 here. An earlier statz.ai preview quoted bet365 Iceland 1.33, Over 1.5 1.25 and Over 2.5 1.80, and BTTS Yes 2.15 at Ladbrokes, so Iceland and the overs have shortened since then. No second site showed today's BTTS price. No bet365 scorer prices, corners, cards or Asian handicap lines found.",
+        "h": 1.27,
+        "d": 5.25,
+        "a": 11,
+        "ou": {
+          "0.5": [
+            1.04,
+            9
+          ],
+          "1.5": [
+            1.2,
+            4.33
+          ],
+          "2.5": [
+            1.67,
+            2.15
+          ],
+          "3.5": [
+            2.63,
+            1.44
+          ],
+          "4.5": [
+            4.5,
+            1.17
+          ],
+          "5.5": [
+            8,
+            1.06
+          ]
+        },
+        "btts": [
+          2.25,
+          1.57
+        ],
+        "dc": {
+          "12": 1.14,
+          "1X": 1.02,
+          "X2": 3.75
+        },
+        "dnb": {
+          "home": 1.07,
+          "away": 7.5
+        },
+        "wtn": {
+          "home": 1.83,
+          "away": 17
+        },
+        "firstGoal": {
+          "home": 1.29,
+          "away": 4
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 1.7,
+          "ga": 1.5,
+          "xgf": 1.5,
+          "xga": 1.3
+        },
+        "away": {
+          "gf": 0.4,
+          "ga": 1.4,
+          "xgf": 0.7,
+          "xga": 1.6
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 5.2,
+          "fouls": 11.6,
+          "shots": 14,
+          "sot": 5.2,
+          "gf": 2.4,
+          "ga": 0.2
+        },
+        "away": {
+          "corners": 3.2,
+          "fouls": 13.8,
+          "shots": 10.8,
+          "sot": 4,
+          "gf": 0.4,
+          "ga": 1.6
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 2.1
+        },
+        "away": {
+          "yellowsPg": 2.3
+        }
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "statz.ai predicted XIs (16 Nov). For Iceland, this is the XI that won 5-0 in Bulgaria, with Aron Gunnarsson and Arnór Sigurðsson in place of the injured Stefán Teitur Þórðarson and Kristall Máni Ingason. For Luxembourg, it is the XI that lost 1-0 to Estonia, with Enes Mahmutović in place of Tim Hall. No other predicted XI was found: starting11.com and voetbalwedden.net have none yet.",
+        "home": {
+          "formation": "4-4-2",
+          "xi": [
+            "Hákon Valdimarsson",
+            "Victor Pálsson",
+            "Aron Gunnarsson",
+            "Daníel Leó Grétarsson",
+            "Logi Tómasson",
+            "Mikael Egill Ellertsson",
+            "Hákon Arnar Haraldsson",
+            "Ísak Jóhannesson",
+            "Arnór Sigurðsson",
+            "Andri Guðjohnsen",
+            "Orri Óskarsson"
+          ]
+        },
+        "away": {
+          "formation": "4-1-4-1",
+          "xi": [
+            "Anthony Moris",
+            "Florian Bohnert",
+            "Enes Mahmutović",
+            "Vahid Selimović",
+            "Laurent Jans",
+            "Mathias Olesen",
+            "Hamza Kadamani",
+            "Tomás Moreira",
+            "Sébastien Thill",
+            "Vincent Thill",
+            "Aiman Dardari"
+          ]
+        },
+        "alt": "Iceland played a 4-3-3 in Bulgaria, with Stefán Teitur Þórðarson at centre-back and Kristall Máni Ingason in midfield. Both were injured in that game. Hörður Björgvin Magnússon is suspended. Centre-backs Brynjar Ingi Bjarnason and Hjörtur Hermannsson were called up on 14 Nov, so either could start instead of Aron Gunnarsson. Gylfi Sigurðsson, Jón Dagur Þorsteinsson, Brynjólfur Willumsson and Kristian Hlynsson were on the bench in Bulgaria and could replace Arnór Sigurðsson. Luxembourg lined up 4-4-2 against Estonia with Tim Hall at centre-back. Omar Natami, Jayson Videira and Eric Veiga were on the bench."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Stefán Teitur Þórðarson and Kristall Máni Ingason were injured in the 5-0 win in Bulgaria, where both started, and cannot play on Monday.",
+          "src": "Fotbolti.net (14 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Hörður Björgvin Magnússon is suspended after a yellow card. Brynjar Ingi Bjarnason (Sønderjyske), Hjörtur Hermannsson (Gothenburg) and Sævar Atli Magnússon (Brann) were called up for the Luxembourg game.",
+          "src": "Fotbolti.net (14 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Albert Guðmundsson is not in the squad. He is recovering from an injury picked up in the previous international window.",
+          "src": "karlobag.eu (6 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "back",
+          "text": "Kristian Nökkvi Hlynsson (Twente) is back in the squad after injury and was on the bench in Bulgaria.",
+          "src": "karlobag.eu / Vísir headline / 13 Nov team sheet"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Aron Einar Gunnarsson has said he will retire from international football after this Nations League campaign. statz.ai has him starting at centre-back.",
+          "src": "karlobag.eu / statz.ai"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Andri Guðjohnsen leads Iceland's Nations League scoring with 5 goals, and Orri Óskarsson has 4.",
+          "src": "KickOff"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Leandro Barreiro, who started in September, is not in the squad. Danel Sinani, Seid Korac and Dirk Carlson are not on the squad list UEFA published for this game either. No reasons found.",
+          "src": "karlobag.eu / UEFA.com squad list"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Luxembourg have lost four in a row without scoring since winning 2-1 in Bulgaria on the opening matchday. Vincent Thill is their only listed Nations League scorer. No injury or suspension news found for Monday.",
+          "src": "statz.ai / KickOff"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Andri Guðjohnsen",
+            "pos": "FW",
+            "start": 0.85,
+            "shots": 10,
+            "goals": 5,
+            "shots90": 1.91,
+            "sot90": 1.15,
+            "fouls90": 1.15,
+            "tackles90": 0.67,
+            "note": "Shots and goals cover Iceland's last 10 internationals (5 apps), statz.ai, with 5 shots on target. All 5 goals came in this Nations League campaign. Per-90s cover Blackburn, Championship 2026/27 (942 min, 10 goals), statz.ai. fouls90 and tackles90 are calculated from 12 fouls and 7 tackles. 1+ shots on target in 4 of his last 5 Championship games (1, 1, 0, 2, 2); the 13 Nov game is not in that log. The 1+ SoT price is a statz.ai bet-builder leg; the combined bet is quoted at bet365."
+          },
+          {
+            "name": "Orri Óskarsson",
+            "pos": "FW",
+            "start": 0.85,
+            "shots": 16,
+            "goals": 6,
+            "note": "Shots and goals cover Iceland's last 10 internationals (7 apps), statz.ai, with 9 on target. 2+ shots in 4 of those 7 games. 4 Nations League goals (KickOff). Captained Iceland in Bulgaria. No per-90s found."
+          },
+          {
+            "name": "Victor Pálsson",
+            "pos": "DF",
+            "start": 0.85,
+            "shots": 7,
+            "goals": 1,
+            "shots90": 0.8,
+            "sot90": 0.22,
+            "fouls90": 0.36,
+            "tackles90": 1.6,
+            "note": "Shots and goals cover Iceland's last 10 internationals (7 apps), statz.ai. In this Nations League campaign: 7 shots, 2 on target and 11 tackles in 5 apps (383 min). Per-90s are calculated from his Horsens, Superliga 2026/27 totals (1,239 min: 11 shots, 3 on target, 5 fouls, 22 tackles), statz.ai. 1+ shots in 4 of his last 5 games (1, 0, 1, 1, 2), including 1 in Bulgaria. Started at right-back on 13 Nov. The 1+ shots price is a statz.ai bet-builder leg; the combined bet is quoted at bet365."
+          },
+          {
+            "name": "Logi Tómasson",
+            "pos": "DF",
+            "start": 0.75,
+            "fouls90": 1.73,
+            "shots90": 1.09,
+            "sot90": 0.36,
+            "tackles90": 1.45,
+            "note": "Per-90s are calculated from his Samsunspor, Süper Lig 2026/27 totals (990 min: 19 fouls, 12 shots, 4 on target, 16 tackles), statz.ai. 1+ fouls in each of his last 5 Süper Lig games (2, 1, 1, 1, 4); the 13 Nov game is not in that log. For Iceland the rate is lower: 6 fouls in his last 8 caps, with 1+ in only 4 of them. He has played just 217 minutes in 5 Nations League apps, but he started in Bulgaria. The 1+ fouls price is a statz.ai bet-builder leg; the combined bet is quoted at bet365."
+          },
+          {
+            "name": "Ísak Jóhannesson",
+            "pos": "MF",
+            "start": 0.85,
+            "fouls90": 0.95,
+            "shots90": 1.32,
+            "sot90": 0.57,
+            "tackles90": 2.08,
+            "note": "Per-90s are calculated from his FC Köln, Bundesliga 2026/27 totals (476 min: 5 fouls, 7 shots, 3 on target, 11 tackles), statz.ai. 1+ fouls in only 3 of his last 5 Bundesliga games (0, 2, 1, 2, 0), but statz.ai gives the 1+ fouls leg an 80% hit rate without saying over which games, so no hit is recorded. 8 fouls in his last 8 caps (1+ in 4), 2 fouls and 9 tackles in 4 Nations League apps (345 min). statz.ai's preview has a tackle in 4 straight games (2.5 per game). The 1+ fouls price is a statz.ai bet-builder leg; the combined bet is quoted at bet365."
+          },
+          {
+            "name": "Hákon Arnar Haraldsson",
+            "pos": "AM",
+            "start": 0.85,
+            "shots": 6,
+            "note": "Shots cover Iceland's last 10 internationals (8 apps), statz.ai, with 2 on target. 11 fouls in the same span, 1+ in 6 of 8. statz.ai's preview has a tackle in 5 straight games (2.2 per game) and a foul in 4 straight. No per-90s found."
+          },
+          {
+            "name": "Mikael Egill Ellertsson",
+            "pos": "AM",
+            "start": 0.85,
+            "shots": 6,
+            "goals": 1,
+            "note": "Shots cover Iceland's last 10 internationals (8 apps), statz.ai. 9 fouls in the same span. statz.ai's preview has a shot and a tackle in each of his last 4 games (1.3 shots, 2.5 tackles per game). 1 Nations League goal (KickOff). No per-90s found."
+          },
+          {
+            "name": "Daníel Leó Grétarsson",
+            "pos": "DF",
+            "start": 0.85,
+            "note": "10 fouls in Iceland's last 10 internationals (7 apps, 1+ in 6), statz.ai. Started in Bulgaria. No per-90s found."
+          },
+          {
+            "name": "Arnór Sigurðsson",
+            "pos": "AM",
+            "start": 0.5,
+            "shots": 5,
+            "note": "Shots cover Iceland's last 10 internationals (6 apps), statz.ai. statz.ai has him starting in place of the injured Kristall Máni Ingason. He was on the bench in Bulgaria."
+          },
+          {
+            "name": "Aron Gunnarsson",
+            "pos": "DF",
+            "start": 0.5,
+            "note": "statz.ai has him starting at centre-back in place of the injured Stefán Teitur Þórðarson. He was on the bench in Bulgaria, and the 14 Nov call-ups Brynjar Ingi Bjarnason and Hjörtur Hermannsson are alternatives. 5 caps in Iceland's last 10 games."
+          },
+          {
+            "name": "Hákon Valdimarsson",
+            "pos": "GK",
+            "start": 0.9,
+            "note": "7 apps in Iceland's last 10 games (statz.ai). Started in goal in Bulgaria."
+          }
+        ],
+        "away": [
+          {
+            "name": "Vincent Thill",
+            "pos": "AM",
+            "start": 0.85,
+            "shots": 17,
+            "goals": 3,
+            "note": "Shots and goals cover Luxembourg's last 10 internationals, statz.ai, with 6 on target. 9 fouls in the same span. statz.ai's preview has a shot and a foul in each of his last 5 games (1.8 shots per game). Luxembourg's only listed Nations League scorer (KickOff). No per-90s found."
+          },
+          {
+            "name": "Tomás Moreira",
+            "pos": "MF",
+            "start": 0.8,
+            "shots": 10,
+            "note": "Shots cover Luxembourg's last 10 internationals, statz.ai, with 4 on target. statz.ai's preview has a shot in 3 straight games (1.3 per game). No per-90s found."
+          },
+          {
+            "name": "Aiman Dardari",
+            "pos": "FW",
+            "start": 0.8,
+            "shots": 7,
+            "note": "Shots cover Luxembourg's last 10 internationals, statz.ai, with 3 on target. Started up front against Estonia. No per-90s found."
+          },
+          {
+            "name": "Mathias Olesen",
+            "pos": "MF",
+            "start": 0.8,
+            "note": "11 fouls and 3 shots on target in Luxembourg's last 10 internationals, statz.ai. Started against Estonia. No per-90s found."
+          },
+          {
+            "name": "Sébastien Thill",
+            "pos": "AM",
+            "start": 0.8,
+            "note": "Started against Estonia and is in statz.ai's XI."
+          },
+          {
+            "name": "Hamza Kadamani",
+            "pos": "AM",
+            "start": 0.75,
+            "note": "Started against Estonia and is in statz.ai's XI."
+          },
+          {
+            "name": "Vahid Selimović",
+            "pos": "DF",
+            "start": 0.85,
+            "note": "Started against Estonia. 2 yellow cards in 4 apps in Luxembourg's last 10 games, statz.ai."
+          },
+          {
+            "name": "Enes Mahmutović",
+            "pos": "DF",
+            "start": 0.6,
+            "note": "statz.ai has him starting in place of Tim Hall. He was on the bench against Estonia. statz.ai's preview has a tackle in 3 straight games (2 per game)."
+          },
+          {
+            "name": "Omar Natami",
+            "pos": "FW",
+            "start": 0.3,
+            "shots": 9,
+            "note": "Shots cover Luxembourg's last 10 internationals, statz.ai. statz.ai's preview has a shot in 3 straight games (3 per game). On the bench against Estonia."
+          },
+          {
+            "name": "Anthony Moris",
+            "pos": "GK",
+            "start": 0.9,
+            "note": "Captain. Started in goal against Estonia."
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Logi Tómasson",
+          "market": "1+ fouls",
+          "odds": 1.25,
+          "hit": "5/5"
+        },
+        {
+          "player": "Andri Guðjohnsen",
+          "market": "1+ shots on target",
+          "odds": 1.28,
+          "hit": "4/5"
+        },
+        {
+          "player": "Victor Pálsson",
+          "market": "1+ shots",
+          "odds": 1.4,
+          "hit": "4/5"
+        },
+        {
+          "player": "Ísak Jóhannesson",
+          "market": "1+ fouls",
+          "odds": 1.44
+        }
+      ],
+      "benchmarks": {
+        "statz": {
+          "h": 0.7,
+          "d": 0.19,
+          "a": 0.11,
+          "xg": [
+            2.1,
+            0.7
+          ]
+        },
+        "kickoff": {
+          "h": 0.76,
+          "d": 0.16,
+          "a": 0.08
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Iceland v Luxembourg odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/iceland-vs-luxembourg/"
+        },
+        {
+          "title": "Statz.ai: Iceland vs Luxembourg stats, predicted lineups & referee",
+          "url": "https://statz.ai/h2h/iceland-vs-luxembourg/19676744"
+        },
+        {
+          "title": "Statz.ai: Iceland vs Luxembourg predictions & betting tips",
+          "url": "https://statz.ai/news/19676744-iceland-vs-luxembourg-predictions-betting-tips"
+        },
+        {
+          "title": "Statz.ai: Iceland vs Luxembourg bet builder",
+          "url": "https://statz.ai/bet-builder/sgp/uefa-nations-league/iceland-vs-luxembourg-2026-11-16"
+        },
+        {
+          "title": "Statz.ai: referee Marian Alexandru Barbu",
+          "url": "https://statz.ai/referee/marian-alexandru-barbu"
+        },
+        {
+          "title": "Statz.ai: Iceland fouls (last 10 games)",
+          "url": "https://statz.ai/team/iceland/fouls"
+        },
+        {
+          "title": "Statz.ai: Iceland shots (last 10 games)",
+          "url": "https://statz.ai/team/iceland/shots-total"
+        },
+        {
+          "title": "Statz.ai: Iceland yellow cards",
+          "url": "https://statz.ai/team/iceland/yellowcards"
+        },
+        {
+          "title": "Statz.ai: Luxembourg yellow cards",
+          "url": "https://statz.ai/team/luxembourg/yellowcards"
+        },
+        {
+          "title": "Statz.ai: Andri Guðjohnsen 2026/27 stats",
+          "url": "https://statz.ai/player/andri-gudjohnsen/9938963"
+        },
+        {
+          "title": "Statz.ai: Victor Pálsson 2026/27 stats",
+          "url": "https://statz.ai/player/victor-palsson/8688"
+        },
+        {
+          "title": "Statz.ai: Logi Tómasson 2026/27 stats",
+          "url": "https://statz.ai/player/logi-tomasson/119634"
+        },
+        {
+          "title": "Statz.ai: Ísak Jóhannesson 2026/27 stats",
+          "url": "https://statz.ai/player/isak-johannesson/23310980"
+        },
+        {
+          "title": "Fotbolti.net: Þrír kallaðir inn í landsliðið (injuries, suspension, call-ups)",
+          "url": "https://www.fotbolti.net/news/14-11-2026/thrir-kalladir-inn-i-landslidid"
+        },
+        {
+          "title": "Fotbolti.net: Landsliðið mætt heim í kuldann (venue, pitch, kick-off)",
+          "url": "https://www.fotbolti.net/news/14-11-2026/landslidid-maett-heim-i-kuldann-ekkert-frost-i-vellinum"
+        },
+        {
+          "title": "karlobag.eu: Iceland vs Luxembourg in Reykjavík (squads, stakes)",
+          "url": "https://karlobag.eu/en/sports/news/iceland-vs-luxembourg-nations-league-tickets-in-reykjavik-37u8d/"
+        },
+        {
+          "title": "UEFA.com: Iceland vs Luxembourg squad lists",
+          "url": "https://www.uefa.com/uefanationsleague/match/2047906--iceland-vs-luxembourg/lineups/"
+        },
+        {
+          "title": "Voetbalwedden.net: IJsland - Luxemburg (1X2 odds cross-check)",
+          "url": "https://www.voetbalwedden.net/wedstrijden/ijsland-luxemburg/opstellingen"
+        },
+        {
+          "title": "OddsCalendar: Iceland vs Luxembourg (Megapari 1X2, kick-off)",
+          "url": "https://www.oddscalendar.com/football/europe/nations-league/iceland-vs-luxembourg/1545617"
+        },
+        {
+          "title": "Starting11: Iceland vs Luxembourg (kick-off, referee)",
+          "url": "https://starting11.com/fixtures/iceland-vs-luxembourg"
+        },
+        {
+          "title": "Wikipedia: Marian Barbu (referee)",
+          "url": "https://en.wikipedia.org/wiki/Marian_Barbu"
+        }
+      ]
+    },
+    {
+      "id": "ltu-lie",
+      "competition": "UEFA Nations League D, Group 2",
+      "kickoff": "2026-11-16T17:00:00Z",
+      "venue": "Darius and Girėnas Stadium, Kaunas",
+      "neutral": false,
+      "home": {
+        "name": "Lithuania",
+        "short": "Lithuania",
+        "code": "LTU"
+      },
+      "away": {
+        "name": "Liechtenstein",
+        "short": "Liechtenstein",
+        "code": "LIE"
+      },
+      "context": "Azerbaijan have already won Group D2 with 8 points from their four games, so this last game decides second place. Lithuania are second on 4 points (one win, one draw, one defeat; goals 3-2) and Liechtenstein third on 1 point, without a goal in their three Nations League games (0-3). Lithuania won the reverse fixture 2-0 in Vaduz on 24 September, so on UEFA's usual tie-breakers Liechtenstein would need to win by three goals to finish second. On 12 November Lithuania drew 0-0 with Suriname in a friendly in Kaunas, the first game for interim coach Mindaugas Čepas. On 13 November Liechtenstein lost 1-0 at home to Azerbaijan with 5 shots and none on target. Since that win in Vaduz, Lithuania have drawn 1-1 at home to Azerbaijan and lost 1-0 away to Azerbaijan in their only other competitive games.",
+      "referee": {
+        "name": "Allard Lindhout",
+        "country": "NED",
+        "games": 41,
+        "yellowsPg": 3.29,
+        "foulsPg": 21.54,
+        "redsPg": 0.2,
+        "note": "Named by starting11.com and OddsCalendar. statz.ai has no page for this match, so the figures come from his statz.ai referee profile, which combines 2025/26 and 2026/27 into one sample of 41 games (8 reds). The 12 games of 2026/27 in its match list (Eredivisie, Conference League and Ireland 2-2 Austria in this Nations League) average about 2.7 yellows, but that list may be incomplete. The profile does not give his nationality; he is a Dutch referee who works in the Eredivisie."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (16 Nov, matchday; the page shows no odds timestamp). This KickOff page showed decimal prices, not fractions, so they are used as shown. KickOff's article text quotes a best price of 1.10 for Lithuania, a little shorter than its own bet365 table. Cross-check: Megapari via OddsCalendar (page updated 16 Nov, 09:53 CET) has 1.11 / 8.60 / 28.00, in line with bet365 on the favourite. No second site with O/U 2.5 or BTTS prices was found: bettingodds.com shows only unlabelled 1X2 columns, oddspedia and valuestats could not be opened, and the 22Bet page had no odds yet. In bet365's first-team-to-score market, 'no goal' is 11.00. No bet365 scorer prices, corners, cards, Asian handicap lines or player props found.",
+        "h": 1.13,
+        "d": 8.0,
+        "a": 19.0,
+        "ou": {
+          "0.5": [
+            1.04,
+            9.0
+          ],
+          "1.5": [
+            1.25,
+            3.75
+          ],
+          "2.5": [
+            1.8,
+            2.0
+          ],
+          "3.5": [
+            3.0,
+            1.36
+          ],
+          "4.5": [
+            5.0,
+            1.14
+          ],
+          "5.5": [
+            9.0,
+            1.04
+          ]
+        },
+        "btts": [
+          4.0,
+          1.22
+        ],
+        "dc": {
+          "1X": 1.01,
+          "12": 1.06,
+          "X2": 5.5
+        },
+        "dnb": {
+          "home": 1.03,
+          "away": 10.5
+        },
+        "wtn": {
+          "home": 1.36,
+          "away": 23.0
+        },
+        "firstGoal": {
+          "home": 1.17,
+          "away": 6.0
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 0.9,
+          "ga": 1.6,
+          "xgf": 0.9,
+          "xga": 1.6
+        },
+        "away": {
+          "gf": 0.2,
+          "ga": 2.8,
+          "xgf": 0.3,
+          "xga": 2.3
+        }
+      },
+      "season": {
+        "home": {
+          "shots": 8,
+          "gf": 1.0,
+          "ga": 0.67
+        },
+        "away": {
+          "shots": 3,
+          "gf": 0.0,
+          "ga": 1.0
+        }
+      },
+      "teamStats": {
+        "home": {},
+        "away": {}
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "No predicted XI with names was found. starting11.com shows only empty position slots, and KickOff and 22Bet have no lineups yet. Team sheets are due about an hour before kick-off.",
+        "home": {
+          "formation": "",
+          "xi": []
+        },
+        "away": {
+          "formation": "",
+          "xi": []
+        },
+        "alt": "Lithuania's last competitive XI, in the 1-0 defeat in Azerbaijan on 4 Oct (FotMob): Švedkauskas, Armalas, Utkus, Lekiatas, Lasickas, Lickūnas, Vorobjovas, Gineitis, Slivka, Dolžnikov and Kučys. Utkus is injured, Kučys is suspended, and Vorobjovas and Lickūnas were not called up, so at least four changes are forced. Čepas said he wants two strikers in official games: Edgaras Dubickas and Manfredas Ruzgis. Liechtenstein started a 5-3-2 against Azerbaijan on 13 Nov (t-online): Benjamin Büchel; Emanuel Zünd, Livio Meier, Jens Hofer, Severin Schlegel, Max Göppel; Aron Sele, Marcel Büchel, Alessio Hasler; Fabio Luque Notaro, Alessandro Lo Russo."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Armandas Kučys is serving a two-match ban for official games. He was called up only for the Suriname friendly and is not registered for Liechtenstein. Čepas called him a key player; he has 1 goal and 1 assist in this campaign.",
+          "src": "LRT (4 Nov) / FotMob"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Goalkeeper Edvinas Gertmonas and defender Edgaras Utkus are injured and not in the squad. Utkus started in Azerbaijan on 4 Oct.",
+          "src": "LRT (4 Nov) / FotMob"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Modestas Vorobjovas and Adrianas Lickūnas, both starters in Azerbaijan, were left out. Čepas said he is using different players in this window and expects the squad to fill their roles. No new caps were called up.",
+          "src": "LRT (4 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Mindaugas Čepas, previously the U19 coach, took over as interim coach on 21 Oct for the November window only. He replaced Edgaras Jankauskas, whose contract ended after the 1-0 defeat in Azerbaijan. He called the 0-0 draw with Suriname a dress rehearsal for this game and wants a front two of Edgaras Dubickas and Manfredas Ruzgis.",
+          "src": "LRT (4 Nov) / Sky Sports"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "In the 1-0 home defeat by Azerbaijan on 13 Nov, Liechtenstein had 5 shots (none on target) and 1 corner to Azerbaijan's 29 shots and 9 corners. Severin Schlegel and Emanuel Zünd needed treatment for knocks; Schlegel was replaced late. There was no update on their fitness. Zünd and Marcel Büchel were booked.",
+          "src": "t-online live ticker"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Liechtenstein have one win, one draw and 18 defeats in their last 20 games (4 goals scored, 55 conceded) and have not scored in their last five (0-7).",
+          "src": "KickOff / OddsCalendar"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Edgaras Dubickas",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "Čepas named him and Manfredas Ruzgis as his front two for official games (LRT, 4 Nov). Back from Suwon Bluewings in South Korea for this window. No campaign stats found."
+          },
+          {
+            "name": "Manfredas Ruzgis",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "Plays for Besa in Albania. Čepas praised his professionalism and goalscoring and wants two strikers (LRT, 4 Nov). No campaign stats found."
+          },
+          {
+            "name": "Gvidas Gineitis",
+            "pos": "MF",
+            "start": 0.75,
+            "assists": 1,
+            "note": "Torino. Assists cover the 3 Nations League games (24 Sep-4 Oct). He played all three, with 2 shots on target and 1 booking (KickOff). FotMob's top-rated Lithuania player in the campaign (7.68). No per-90s found."
+          },
+          {
+            "name": "Artūr Dolžnikov",
+            "pos": "MF",
+            "start": 0.75,
+            "goals": 1,
+            "note": "Slovácko. Goals cover the 3 Nations League games (24 Sep-4 Oct): 1 goal, 1 shot on target, 1 booking (KickOff, FotMob). Started in Azerbaijan. LRT spells his name Artūras Dolžnikovas. No per-90s found."
+          },
+          {
+            "name": "Lukas Michelbrink",
+            "pos": "MF",
+            "start": 0.75,
+            "goals": 1,
+            "note": "Energie Cottbus. Goals cover the 3 Nations League games (24 Sep-4 Oct): 1 goal and 1 shot on target in 3 appearances (KickOff, FotMob). Not in FotMob's XI in Azerbaijan. LRT spells his name Michelbrinkas. No per-90s found."
+          },
+          {
+            "name": "Vykintas Slivka",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "Kauno Žalgiris. 2 Nations League appearances and 1 shot on target (KickOff). Started in Azerbaijan."
+          },
+          {
+            "name": "Justas Lasickas",
+            "pos": "DF",
+            "start": 0.75,
+            "note": "Rijeka. Played all 3 Nations League games, with 1 booking (KickOff)."
+          },
+          {
+            "name": "Motiejus Burba",
+            "pos": "MF",
+            "start": 0.5,
+            "note": "Kauno Žalgiris. KickOff lists M. Burba with 3 Nations League appearances and 3 shots on target, the most for Lithuania. LRT lists him as a midfielder. He was not in FotMob's XI in Azerbaijan, so he may have come off the bench and his role under Čepas is unclear. No per-90s found."
+          },
+          {
+            "name": "Tomas Švedkauskas",
+            "pos": "GK",
+            "start": 0.75,
+            "note": "Kauno Žalgiris. Started in Azerbaijan on 4 Oct (FotMob). Vincentas Šarkauskas and Arnas Voitinovičius are the other keepers in the squad."
+          }
+        ],
+        "away": [
+          {
+            "name": "Benjamin Büchel",
+            "pos": "GK",
+            "start": 0.75,
+            "note": "Started all 3 Nations League games (KickOff), including the 1-0 defeat by Azerbaijan on 13 Nov."
+          },
+          {
+            "name": "Fabio Luque Notaro",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "Started all 3 Nations League games (KickOff), without a goal. Replaced by Bruno Poitner after 62 minutes on 13 Nov (t-online)."
+          },
+          {
+            "name": "Alessandro Lo Russo",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "Started all 3 Nations League games (KickOff), without a goal. Replaced by Liam Kranz after 73 minutes on 13 Nov (t-online)."
+          },
+          {
+            "name": "Aron Sele",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "Played all 3 Nations League games (KickOff) and started on 13 Nov."
+          },
+          {
+            "name": "Marcel Büchel",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "Played all 3 Nations League games (KickOff). Booked for a rough challenge on 13 Nov (t-online)."
+          },
+          {
+            "name": "Alessio Hasler",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "KickOff lists A. Hasler with 3 appearances and 1 booking; t-online names him Alessio Hasler. Replaced by Ferhat Saglam after 73 minutes on 13 Nov."
+          },
+          {
+            "name": "Emanuel Zünd",
+            "pos": "DF",
+            "start": 0.75,
+            "note": "Played all 3 Nations League games (KickOff lists him as a midfielder; he played in the back five on 13 Nov). Booked and treated for a knock against Azerbaijan, but finished the game (t-online)."
+          }
+        ]
+      },
+      "props": [],
+      "benchmarks": {
+        "kickoff": {
+          "h": 0.84,
+          "d": 0.12,
+          "a": 0.04
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Lithuania v Liechtenstein odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/lithuania-vs-liechtenstein/"
+        },
+        {
+          "title": "OddsCalendar: Lithuania vs Liechtenstein (Megapari 1X2, kick-off, referee)",
+          "url": "https://www.oddscalendar.com/football/europe/nations-league/lithuania-vs-liechtenstein/1528989"
+        },
+        {
+          "title": "Starting11: Lithuania vs Liechtenstein (kick-off, referee)",
+          "url": "https://starting11.com/fixtures/lithuania-vs-liechtenstein"
+        },
+        {
+          "title": "Statz.ai: referee Allard Lindhout",
+          "url": "https://statz.ai/referee/allard-lindhout"
+        },
+        {
+          "title": "LRT: Lithuania squad named for Suriname and Liechtenstein (4 Nov)",
+          "url": "https://www.lrt.lt/naujienos/sportas/10/3103142/paskelbta-futbolo-rinktines-sudetis-dvikovoms-su-surinamu-ir-lichtensteinu"
+        },
+        {
+          "title": "LRT: Čepas on his debut, the strikers and his future (4 Nov)",
+          "url": "https://www.lrt.lt/naujienos/sportas/10/3103121/debiuto-laukiantis-cepas-apie-surinamo-pasirinkima-puoleju-grandi-ir-ateiti-rinktineje"
+        },
+        {
+          "title": "ESPN: Lithuania v Liechtenstein (group table, form, scorers)",
+          "url": "https://africa.espn.com/football/match/_/gameId/401861184/liechtenstein-lithuania"
+        },
+        {
+          "title": "Sky Sports: Lithuania vs Liechtenstein (recent results with dates)",
+          "url": "https://www.skysports.com/football/lithuania-vs-liechtenstein/554125"
+        },
+        {
+          "title": "FotMob: Lithuania team overview (coach, last XI, scorers)",
+          "url": "https://www.fotmob.com/teams/8254/overview/lithuania"
+        },
+        {
+          "title": "t-online: Liechtenstein 0-1 Azerbaijan live ticker (13 Nov)",
+          "url": "https://www.t-online.de/sport/live-ticker/fussball/nations-league/sdc_fm-56988/liechtenstein-aserbaidschan-nations-league-im-liveticker.html"
+        },
+        {
+          "title": "Baltic Football News: Lithuania's Nations League fixtures",
+          "url": "https://balticfootballnews.com/?p=16812"
+        },
+        {
+          "title": "Sports Mole: Liechtenstein vs Lithuania preview (reverse fixture, 24 Sep)",
+          "url": "https://www.sportsmole.co.uk/football/lithuania/uefa-nations-league/preview/liechtenstein-vs-lithuania-prediction-team-news-lineups_605604.html"
+        },
+        {
+          "title": "22Bet: Lithuania vs Liechtenstein prediction page (kick-off 17:00 UTC)",
+          "url": "https://news.22bet.com/predictions/lithuania-vs-liechtenstein-prediction-booking-code-16-11-2026/"
+        }
+      ]
+    },
+    {
+      "id": "ger-ned",
+      "competition": "UEFA Nations League A, Group 2",
+      "kickoff": "2026-11-16T19:45:00Z",
+      "venue": "Olympiastadion, Berlin",
+      "neutral": false,
+      "home": {
+        "name": "Germany",
+        "short": "Germany",
+        "code": "GER"
+      },
+      "away": {
+        "name": "Netherlands",
+        "short": "Netherlands",
+        "code": "NED"
+      },
+      "context": "The Netherlands top Group A2 with 11 points (14-5) and are unbeaten. Germany (6-3) and Greece (5-10) have 8 each, and Serbia have none. Greece host Serbia at the same time. Greece lead Germany on head-to-head (1-0 in Germany, 0-0 in Athens), so Germany must win to be sure of a top-two place. A draw is only enough if Serbia beat Greece. The Netherlands are practically through: Sports Mole says only a 14-goal swing in goal difference would knock them out, and a draw or better keeps them top (RotoWire). The reverse fixture in Amsterdam on 24 September ended 1-1: Felix Nmecha scored first and Cody Gakpo equalised in stoppage time. Matchday 5 on 13 November: Serbia 1-3 Germany (Babić own goal, Wirtz, Gruda; Serbia finished with nine men) and Netherlands 7-0 Greece (Reijnders first-half hat-trick, Timber 2, Summerville, Malen).",
+      "referee": {
+        "name": "Glenn Nyberg",
+        "country": "SWE",
+        "games": 4,
+        "yellowsPg": 4.0,
+        "foulsPg": 24.3,
+        "redsPg": 0.25,
+        "note": "Figures from the statz.ai match page (4 games this season). Starting11 also names him. His statz.ai profile lists only 7 internationals across 2025/26 and 2026/27 (World Cup 2026 and European qualifiers): 3.29 yellows, 22.43 fouls and 0.14 reds per game, with 1-6 yellows a game. So the 4-game sample probably includes domestic games that the profile does not show. The profile does not give his nationality; he is a Swedish FIFA referee."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (16 Nov, matchday; the page shows no odds timestamp). Cross-checks: BetMGM via SportsGambler (captured 14 Nov) 1.85 / 4.00 / 3.60, O 2.5 1.40, BTTS Yes 1.40. bet365 via RotoWire/OddsJam -118 / +320 / +260 (1.85 / 4.20 / 3.60). statz.ai quotes bet365 draw 4.00, Netherlands 3.80, O 2.5 1.40 and BTTS Yes 1.40, with a best price of 1.91 on Germany at Ladbrokes. KickOff's O 2.5 (1.33) and BTTS Yes (1.36) are slightly shorter than the other sites. No bet365 scorer prices, corners, cards or Asian handicap lines were found. Wirtz anytime is quoted only at BetMGM (+125), so it is not included.",
+        "h": 1.85,
+        "d": 4.33,
+        "a": 3.6,
+        "ou": {
+          "0.5": [
+            1.01,
+            23
+          ],
+          "1.5": [
+            1.1,
+            7
+          ],
+          "2.5": [
+            1.33,
+            3.4
+          ],
+          "3.5": [
+            1.83,
+            1.83
+          ],
+          "4.5": [
+            3,
+            1.36
+          ],
+          "5.5": [
+            5,
+            1.17
+          ]
+        },
+        "btts": [
+          1.36,
+          3
+        ],
+        "dc": {
+          "1X": 1.29,
+          "12": 1.2,
+          "X2": 1.91
+        },
+        "dnb": {
+          "home": 1.4,
+          "away": 2.75
+        },
+        "wtn": {
+          "home": 4.5,
+          "away": 10
+        },
+        "firstGoal": {
+          "home": 1.62,
+          "away": 2.2
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 2.3,
+          "ga": 0.9,
+          "xgf": 2.3,
+          "xga": 1.0
+        },
+        "away": {
+          "gf": 2.8,
+          "ga": 0.9,
+          "xgf": 2.4,
+          "xga": 0.8
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 6.0,
+          "fouls": 13.2,
+          "shots": 20.2,
+          "sot": 5.0,
+          "gf": 1.2,
+          "ga": 0.6
+        },
+        "away": {
+          "corners": 7.0,
+          "fouls": 9.4,
+          "shots": 21.0,
+          "sot": 8.6,
+          "gf": 2.8,
+          "ga": 1.0
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.2
+        },
+        "away": {
+          "yellowsPg": 1.2
+        }
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "Sports Mole (preview of 14/15 Nov). RotoWire (15 Nov), Al Jazeera, The Football Faithful, Tipman Tips and statz.ai predict the same two XIs. For Germany, that is the XI that won 3-1 in Serbia. For the Netherlands, it is the XI that beat Greece 7-0, with Teun Koopmeiners in for the injured Frenkie de Jong. No Kicker, VI or WhoScored predicted XI was found.",
+        "home": {
+          "formation": "4-2-3-1",
+          "xi": [
+            "Marc-André ter Stegen",
+            "Philipp Treu",
+            "Malick Thiaw",
+            "Jonathan Tah",
+            "Maximilian Mittelstädt",
+            "Joshua Kimmich",
+            "Aleksandar Pavlović",
+            "Brajan Gruda",
+            "Florian Wirtz",
+            "Derry Scherhant",
+            "Kai Havertz"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "xi": [
+            "Bart Verbruggen",
+            "Denzel Dumfries",
+            "Jan Paul van Hecke",
+            "Micky van de Ven",
+            "Jurriën Timber",
+            "Teun Koopmeiners",
+            "Joey Veerman",
+            "Crysencio Summerville",
+            "Tijjani Reijnders",
+            "Cody Gakpo",
+            "Donyell Malen"
+          ]
+        },
+        "alt": "Germany: Ippen.media (webnachrichten.de / fr.de) has Nico Schlotterbeck in for Thiaw and says Nathaniel Brown could replace Mittelstädt. It lists Niclas Füllkrug and Younes Ebnoutalib as alternatives to Havertz, who started the reverse fixture. Sky Deutschland says Klopp is sticking with continuity and has kept the 23-man squad unchanged. Netherlands: Voetbalzone (via Goal) has the same XI as a 4-3-3, with Koopmeiners, Veerman and Reijnders in midfield and Malen through the middle."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Jamal Musiala and Serge Gnabry are out with muscle injuries. Waldemar Anton withdrew injured before the Serbia game, and Ridle Baku was called up.",
+          "src": "Sports Mole / Al Jazeera / DFB"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Joshua Kimmich took a kick to the ankle in Serbia but trained in the final session. He is very likely to play, and The Football Faithful says he is fit to start.",
+          "src": "Ippen.media (webnachrichten.de) / The Football Faithful"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "No new injuries came out of the final training session in Herzogenaurach. Klopp keeps the 23-man squad unchanged. Wael Mohya (17) is only there to get a taste of the squad and is not expected to play. Niclas Füllkrug is the alternative to Havertz up front.",
+          "src": "Sky Deutschland / Al Jazeera"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Klopp said Germany were happy to have set up a 'final' in Berlin that they can settle themselves. Sports Mole says a win puts them ahead of Greece whatever happens against Serbia. Florian Wirtz is set to win his 50th cap.",
+          "src": "Al Jazeera / Sky Deutschland / Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Frenkie de Jong came off at half-time against Greece with back pain and has gone back to Barcelona for treatment. Teun Koopmeiners is expected to replace him.",
+          "src": "Sports Mole / Al Jazeera / Goal (Voetbalzone)"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Captain Virgil van Dijk (physical discomfort) and striker Brian Brobbey withdrew before the Greece game. Ryan Gravenberch is also missing.",
+          "src": "Sports Mole / Goal / The Football Faithful"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Nathan Aké, Jeremie Frimpong and Jorrel Hato were injured when the squad was named.",
+          "src": "Reuters via The Star (6 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "The Dutch are unbeaten in their last seven away games. The 7-0 win over Greece was their first clean sheet of the campaign, and they need only a draw to finish top.",
+          "src": "Sports Mole / RotoWire"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Florian Wirtz",
+            "pos": "AM",
+            "start": 0.9,
+            "shots": 36,
+            "goals": 5,
+            "shots90": 3.17,
+            "sot90": 0.93,
+            "tackles90": 1.39,
+            "note": "Shots and goals cover Germany's 2026 internationals (statz.ai team page). Per-90s cover all competitions in 2026/27 (Liverpool and Germany, 1361 min, 48 shots, 14 on target, 21 tackles), statz.ai. 14 shots in 4 Nations League games (286 min). Shots in his last five games: 5, 4, 0 (24 min), 3, 1 (31 min). That gives 3+ shots in 3 of 5, and statz.ai says he has 3+ shots in three straight games, averaging 4.3. fouls90 is left out: 22 fouls in all competitions (1.45) but 19 in 796 Premier League minutes, with no second source. The 3+ shots price is bet365, quoted by statz.ai."
+          },
+          {
+            "name": "Kai Havertz",
+            "pos": "FW",
+            "start": 0.85,
+            "shots": 21,
+            "goals": 5,
+            "note": "Shots and goals cover Germany's 2026 internationals (statz.ai team page). Started the reverse fixture and the 3-1 win in Serbia. Füllkrug is the alternative. No per-90s found."
+          },
+          {
+            "name": "Joshua Kimmich",
+            "pos": "MF",
+            "start": 0.85,
+            "shots90": 1.37,
+            "sot90": 0.53,
+            "fouls90": 0.3,
+            "tackles90": 1.22,
+            "note": "Per-90s cover Bayern (Bundesliga and Champions League) plus Germany in 2026/27 (1181 min, 18 shots, 7 on target, 4 fouls, 16 tackles), statz.ai. Shots in his last five games: 2, 3, 1, 2, 2. Took a kick to the ankle in Serbia but trained on Sunday. The 1+ shots price is bet365, from the statz.ai match page bet builder."
+          },
+          {
+            "name": "Aleksandar Pavlović",
+            "pos": "MF",
+            "start": 0.85,
+            "note": "19 fouls for Germany in 2026, the most in the squad (statz.ai team page). Starts in every predicted XI. No per-90s found."
+          },
+          {
+            "name": "Derry Scherhant",
+            "pos": "FW",
+            "start": 0.8,
+            "note": "statz.ai: 2+ shots in each of his last three games, 4.7 a game. Started on the left in Serbia. No per-90s found."
+          },
+          {
+            "name": "Brajan Gruda",
+            "pos": "AM",
+            "start": 0.8,
+            "goals": 1,
+            "note": "Scored on his Germany debut in the 3-1 win in Serbia (1 goal in 1 international). Starts on the right in every predicted XI."
+          },
+          {
+            "name": "Malick Thiaw",
+            "pos": "DF",
+            "start": 0.65,
+            "note": "statz.ai: had a shot in three straight games, 1.7 a game. Ippen.media has Schlotterbeck in his place."
+          },
+          {
+            "name": "Nathaniel Brown",
+            "pos": "DF",
+            "start": 0.35,
+            "note": "26 tackles for Germany in 2026, the most in the squad (statz.ai team page). Ippen.media says he could replace Mittelstädt at left-back."
+          },
+          {
+            "name": "Felix Nmecha",
+            "pos": "MF",
+            "start": 0.25,
+            "shots": 16,
+            "goals": 1,
+            "shots90": 2.44,
+            "sot90": 1.01,
+            "fouls90": 1.35,
+            "tackles90": 2.02,
+            "note": "Shots cover Germany's 2026 internationals (statz.ai team page). The goal is his opener in the 1-1 reverse fixture. Per-90s cover Dortmund (Bundesliga and Champions League) plus Germany in 2026/27 (1068 min, 29 shots, 12 on target, 16 fouls, 24 tackles), statz.ai. Shots in his last five games: 2 (9 min), 6, 2, 2, 4, so 2+ in 5 of 5. On the bench in Serbia and in no predicted XI. The 2+ shots price is from the statz.ai bet-builder page, which calls it the best price; the combined bet is quoted at bet365."
+          },
+          {
+            "name": "Niclas Füllkrug",
+            "pos": "FW",
+            "start": 0.2,
+            "note": "Recalled after 523 days and the alternative to Havertz. statz.ai bet builder: 2+ fouls in 4 of his last 5 games, 2.6 a game. In no predicted XI. fouls90 is left out because there is no second source. The 2+ fouls price is the best price on the statz.ai bet-builder page; the combined bet is quoted at bet365."
+          }
+        ],
+        "away": [
+          {
+            "name": "Tijjani Reijnders",
+            "pos": "MF",
+            "start": 0.9,
+            "shots": 16,
+            "goals": 4,
+            "shots90": 3.69,
+            "sot90": 2.07,
+            "fouls90": 0.77,
+            "tackles90": 0.92,
+            "note": "Shots and goals cover his 5 Nations League games this season (339 min), including a first-half hat-trick against Greece. Per-90s cover Al-Qadsiah (Saudi Pro League) plus the Netherlands in 2026/27 (1172 min, 48 shots, 27 on target, 10 fouls, 12 tackles), statz.ai. Shots in his last five games: 3, 6, 2, 5, 2. Shots on target: 3, 4, 2, 4, 0. The 2+ shots price is from the statz.ai match page bet builder. The 1+ shots and 1+ shots on target prices are bet365 quotes in the statz.ai preview."
+          },
+          {
+            "name": "Donyell Malen",
+            "pos": "FW",
+            "start": 0.9,
+            "shots90": 5.22,
+            "sot90": 2.42,
+            "fouls90": 0.75,
+            "tackles90": 0.28,
+            "note": "Per-90s come from the 13 Nov data (Roma, Serie A plus Champions League 2026/27, statz.ai). His statz.ai page could not be reopened today. 12 goals for Roma this season, and he scored against Greece. 1+ shots on target is 5/5: he had 5/5 before the Greece game and scored in it, and statz.ai shows a 100% hit rate. The price is bet365, from the statz.ai match page bet builder."
+          },
+          {
+            "name": "Cody Gakpo",
+            "pos": "FW",
+            "start": 0.9,
+            "shots": 20,
+            "goals": 6,
+            "note": "Shots and goals cover the Netherlands' last 10 internationals (statz.ai, from the 13 Nov data), with 12 on target. Scored the stoppage-time equaliser in the reverse fixture."
+          },
+          {
+            "name": "Crysencio Summerville",
+            "pos": "FW",
+            "start": 0.85,
+            "note": "statz.ai: had a shot in five straight games, 2.4 a game. Scored against Greece. 16 tackles in the last 10 internationals (10 apps), statz.ai. No per-90s found."
+          },
+          {
+            "name": "Teun Koopmeiners",
+            "pos": "MF",
+            "start": 0.8,
+            "shots90": 1.81,
+            "sot90": 0.85,
+            "fouls90": 1.81,
+            "tackles90": 1.7,
+            "note": "Per-90s cover Juventus (Serie A and Europa League) plus the Netherlands in 2026/27 (845 min, 17 shots, 8 on target, 17 fouls, 16 tackles), statz.ai. Tackles in his last five games: 0 (44 min against Greece), 2, 2, 2, 0 (13 min). Only 4 tackles in 6 games in the Netherlands' last 10 internationals, and none in 134 Nations League minutes. Expected to replace Frenkie de Jong. The 1+ tackles price is bet365, from the statz.ai match page bet builder, which shows an 80% hit rate over an unstated sample."
+          },
+          {
+            "name": "Micky van de Ven",
+            "pos": "DF",
+            "start": 0.9,
+            "note": "statz.ai: made a tackle in five straight games, 2.2 a game. 16 tackles in 9 games in the last 10 internationals. No bet365 price found."
+          },
+          {
+            "name": "Denzel Dumfries",
+            "pos": "DF",
+            "start": 0.9,
+            "note": "17 tackles in the Netherlands' last 10 internationals (statz.ai). Starts at right-back, with Jurriën Timber on the left."
+          },
+          {
+            "name": "Justin Kluivert",
+            "pos": "AM",
+            "start": 0.2,
+            "note": "statz.ai bet builder: 2+ fouls in 4 of his last 5 games, 3.0 a game. On the bench against Greece and in no predicted XI. fouls90 is left out because there is no second source. The 2+ fouls price is the best price on the statz.ai bet-builder page; the combined bet is quoted at bet365."
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Tijjani Reijnders",
+          "market": "2+ shots",
+          "odds": 1.22,
+          "hit": "5/5"
+        },
+        {
+          "player": "Tijjani Reijnders",
+          "market": "1+ shots",
+          "odds": 1.04,
+          "hit": "5/5"
+        },
+        {
+          "player": "Tijjani Reijnders",
+          "market": "1+ shots on target",
+          "odds": 1.44,
+          "hit": "4/5"
+        },
+        {
+          "player": "Donyell Malen",
+          "market": "1+ shots on target",
+          "odds": 1.3,
+          "hit": "5/5"
+        },
+        {
+          "player": "Joshua Kimmich",
+          "market": "1+ shots",
+          "odds": 1.33,
+          "hit": "5/5"
+        },
+        {
+          "player": "Teun Koopmeiners",
+          "market": "1+ tackles",
+          "odds": 1.3,
+          "hit": "3/5"
+        },
+        {
+          "player": "Florian Wirtz",
+          "market": "3+ shots",
+          "odds": 1.67,
+          "hit": "3/5"
+        },
+        {
+          "player": "Felix Nmecha",
+          "market": "2+ shots",
+          "odds": 1.8,
+          "hit": "5/5"
+        },
+        {
+          "player": "Niclas Füllkrug",
+          "market": "2+ fouls",
+          "odds": 1.83,
+          "hit": "4/5"
+        },
+        {
+          "player": "Justin Kluivert",
+          "market": "2+ fouls",
+          "odds": 2.2,
+          "hit": "4/5"
+        }
+      ],
+      "benchmarks": {
+        "statz": {
+          "h": 0.53,
+          "d": 0.22,
+          "a": 0.25,
+          "xg": [
+            1.95,
+            1.26
+          ]
+        },
+        "kickoff": {
+          "h": 0.52,
+          "d": 0.2,
+          "a": 0.28
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Germany v Netherlands odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/germany-vs-netherlands/"
+        },
+        {
+          "title": "Statz.ai: Germany vs Netherlands stats, predicted lineups & referee",
+          "url": "https://statz.ai/h2h/germany-vs-netherlands/19676651"
+        },
+        {
+          "title": "Statz.ai: Germany vs Netherlands predictions & betting tips",
+          "url": "https://statz.ai/news/19676651-germany-vs-netherlands-predictions-betting-tips"
+        },
+        {
+          "title": "Statz.ai: Germany vs Netherlands bet builder",
+          "url": "https://statz.ai/bet-builder/sgp/uefa-nations-league/germany-vs-netherlands-2026-11-16"
+        },
+        {
+          "title": "Statz.ai: referee Glenn Nyberg",
+          "url": "https://statz.ai/referee/glenn-nyberg"
+        },
+        {
+          "title": "Statz.ai: Germany team stats (last 10 results, 2026 player totals)",
+          "url": "https://statz.ai/team/germany"
+        },
+        {
+          "title": "Statz.ai: Netherlands tackles (last 10 / 2026)",
+          "url": "https://statz.ai/team/netherlands/tackles"
+        },
+        {
+          "title": "Statz.ai: Netherlands 1-1 Germany (reverse fixture, 24 Sep 2026)",
+          "url": "https://statz.ai/h2h/19676695"
+        },
+        {
+          "title": "Statz.ai: Florian Wirtz 2026/27 stats",
+          "url": "https://statz.ai/player/florian-wirtz/37429246"
+        },
+        {
+          "title": "Statz.ai: Joshua Kimmich 2026/27 stats",
+          "url": "https://statz.ai/player/joshua-kimmich/32362"
+        },
+        {
+          "title": "Statz.ai: Felix Nmecha 2026/27 stats",
+          "url": "https://statz.ai/player/felix-nmecha/6306127"
+        },
+        {
+          "title": "Statz.ai: Tijjani Reijnders 2026/27 stats",
+          "url": "https://statz.ai/player/tijjani-reijnders/3156873"
+        },
+        {
+          "title": "Statz.ai: Teun Koopmeiners 2026/27 stats",
+          "url": "https://statz.ai/player/teun-koopmeiners/29184"
+        },
+        {
+          "title": "Statz.ai: Donyell Malen 2026/27 stats (per-90s from the 13 Nov data)",
+          "url": "https://statz.ai/player/537758"
+        },
+        {
+          "title": "Sports Mole: Germany vs Netherlands preview",
+          "url": "https://www.sportsmole.co.uk/football/germany/uefa-nations-league/preview/germany-vs-netherlands-prediction-team-news-lineups_609122.html"
+        },
+        {
+          "title": "RotoWire: Germany vs Netherlands prediction, lineups & team news (bet365 1X2 via OddsJam)",
+          "url": "https://www.rotowire.com/soccer/article/germany-vs-netherlands-prediction-predicted-lineups-team-news-146661"
+        },
+        {
+          "title": "Al Jazeera: Germany vs Netherlands preview, team news",
+          "url": "https://www.aljazeera.com/sports/2026/11/15/germany-vs-netherlands-nations-league-preview-team-news-predictions"
+        },
+        {
+          "title": "The Football Faithful: Germany vs Netherlands match preview",
+          "url": "https://thefootballfaithful.com/germany-vs-netherlands-match-preview/"
+        },
+        {
+          "title": "Goal: Predicted Netherlands line-up, Xavi picks De Jong's replacement (Voetbalzone)",
+          "url": "https://www.goal.com/en-za/news/predicted-netherlands-line-up-xavi-picks-de-jong-s-replacement/blt43c70461f61f87d2"
+        },
+        {
+          "title": "Sky Deutschland: Klopp setzt im Nations-League-Endspiel auf bewährten DFB-Kader",
+          "url": "https://sport.sky.de/fussball/artikel/deutschland-gegen-niederlande-juergen-klopp-setzt-im-nations-league-endspiel-auf-bewaehrten-dfb-kader/13612454/35857"
+        },
+        {
+          "title": "webnachrichten.de (Ippen.media): So könnte Klopps Startelf aussehen",
+          "url": "https://www.webnachrichten.de/sport/fussball/dfb-gegen-niederlande-so-koennte-klopps-startelf-aussehen-zr-94591118.html"
+        },
+        {
+          "title": "Starting11: Germany vs Netherlands (kick-off, referee)",
+          "url": "https://starting11.com/fixtures/germany-vs-netherlands"
+        },
+        {
+          "title": "SportsGambler: Germany vs Netherlands odds (BetMGM cross-check)",
+          "url": "https://www.sportsgambler.com/betting-tips/football/germany-vs-netherlands-prediction-lineups-odds-2026-11-16/"
+        },
+        {
+          "title": "Tipman Tips: Germany v Netherlands bet builder",
+          "url": "https://www.tipmantips.com/news/germany-v-netherlands-tips-prediction-bet-builder-nations-league/"
+        },
+        {
+          "title": "Football Whispers: Germany vs Netherlands prediction",
+          "url": "https://footballwhispers.com/blog/germany-vs-netherlands-prediction-16-11-2026/"
+        },
+        {
+          "title": "Reuters via The Star: Netherlands recall De Jong for Greece and Germany games",
+          "url": "https://www.thestar.com.my/sport/football/2026/11/06/soccer-netherlands-recall-de-jong-for-greece-and-germany-games"
+        },
+        {
+          "title": "DFB: Füllkrug and Mohya included as Klopp names squad",
+          "url": "https://www.dfb.de/news/fuellkrug-and-mohya-included-as-klopp-names-squad-for-serbia-and-netherlands"
+        }
+      ]
+    },
+    {
+      "id": "gre-srb",
+      "competition": "UEFA Nations League A, Group 2",
+      "kickoff": "2026-11-16T19:45:00Z",
+      "venue": "Panthessaliko Stadium, Volos",
+      "neutral": false,
+      "home": {
+        "name": "Greece",
+        "short": "Greece",
+        "code": "GRE"
+      },
+      "away": {
+        "name": "Serbia",
+        "short": "Serbia",
+        "code": "SRB"
+      },
+      "context": "Group 2 is decided on Monday, and only the top two reach the quarter-finals. The Netherlands lead on 11 points (14-5) after beating Greece 7-0 in Amsterdam on 13 November. Greece (5-10) and Germany (6-3) both have 8, and Serbia (4-11) are certain to finish bottom after a fifth straight defeat, 1-3 at home to Germany. Greece beat Germany 1-0 away and drew 0-0 at home, so they lead the head-to-head. By our reading of UEFA's tie-breakers, Greece go through if Germany lose to the Netherlands, need at least a draw if Germany draw, and are out whatever they do if Germany win: a Greece win would then create a three-way tie on 11 points, and the 7-0 puts Greece last in that mini-table. Greece won the reverse fixture 2-1 in Belgrade on 24 September with a stoppage-time winner from Anastasios Douvikas, and they are unbeaten at home in the group (2-2 v Netherlands, 0-0 v Germany).",
+      "referee": {
+        "name": "Michael Oliver",
+        "country": "ENG",
+        "games": 8,
+        "yellowsPg": 3.1,
+        "foulsPg": 21.6,
+        "redsPg": 0.38,
+        "note": "Figures from the statz.ai match page (8 games this season). OddsCalendar and starting11.com also name him. His statz.ai profile lists eight 2026/27 games, all in the Premier League, with 24 yellows in total (2 to 6 per game). It combines 2025/26 and 2026/27 into 37 games: 3.08 yellows, 22.65 fouls and 0.14 reds per game. The profile does not give his nationality; he is an English Premier League referee. Team cards: Serbia average 2.8 cards per game in this Nations League campaign (statz.ai preview)."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (16 Nov, matchday; the page shows no odds timestamp; fractions converted). Cross-check: the statz.ai preview quotes bet365 at 1.45 / 4.75 / 6.50, Over 1.5 at 1.20 and Over 2.5 at 1.67, with BTTS Yes 1.85 at Ladbrokes. Megapari via OddsCalendar (16 Nov, 09:53 CET) has 1.45 / 4.60 / 6.80. KickOff's 6/1 for Serbia is slightly shorter than both. No bet365 scorer, corners, cards or Asian handicap prices found.",
+        "h": 1.42,
+        "d": 4.75,
+        "a": 7,
+        "ou": {
+          "0.5": [
+            1.04,
+            13
+          ],
+          "1.5": [
+            1.2,
+            4.33
+          ],
+          "2.5": [
+            1.67,
+            2.15
+          ],
+          "3.5": [
+            2.63,
+            1.44
+          ],
+          "4.5": [
+            5,
+            1.17
+          ],
+          "5.5": [
+            10,
+            1.06
+          ]
+        },
+        "btts": [
+          1.83,
+          1.83
+        ],
+        "dc": {
+          "1X": 1.1,
+          "12": 1.18,
+          "X2": 2.75
+        },
+        "dnb": {
+          "home": 1.14,
+          "away": 5.5
+        },
+        "wtn": {
+          "home": 2.38,
+          "away": 13
+        },
+        "firstGoal": {
+          "home": 1.4,
+          "away": 3
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 1.5,
+          "ga": 1.4,
+          "xgf": 1.5,
+          "xga": 1.4
+        },
+        "away": {
+          "gf": 1.0,
+          "ga": 1.7,
+          "xgf": 1.3,
+          "xga": 1.8
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 4,
+          "fouls": 8.2,
+          "shots": 11.2,
+          "sot": 3.4,
+          "gf": 1.0,
+          "ga": 2.0
+        },
+        "away": {
+          "corners": 2,
+          "fouls": 11.4,
+          "shots": 8,
+          "sot": 3.6,
+          "gf": 0.8,
+          "ga": 2.2
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.9
+        },
+        "away": {
+          "yellowsPg": 2.1
+        }
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "statz.ai predicted XIs (16 Nov). Both are close to the XIs that started on 13 November: Greece swap Triantis for Kourbelis, and Serbia keep the same eleven that lost to Germany. No Sports Mole or national-press predicted XI was found, and starting11.com shows positions only.",
+        "home": {
+          "formation": "4-4-2",
+          "xi": [
+            "Konstantinos Tzolakis",
+            "Lazaros Rota",
+            "Konstantinos Mavropanos",
+            "Panagiotis Retsos",
+            "Kostas Tsimikas",
+            "Konstantinos Karetsas",
+            "Nektarios Triantis",
+            "Thanasis Androutsos",
+            "Christos Tzolis",
+            "Vangelis Pavlidis",
+            "Fotis Ioannidis"
+          ]
+        },
+        "away": {
+          "formation": "5-3-2",
+          "xi": [
+            "Vanja Milinković-Savić",
+            "Petar Sukačev",
+            "Srđan Babić",
+            "Nikola Milenković",
+            "Stefan Gudelj",
+            "Kosta Nedeljković",
+            "Sergej Milinković-Savić",
+            "Stefan Džodić",
+            "Lazar Samardžić",
+            "Dušan Tadić",
+            "Mihajlo Cvetković"
+          ]
+        },
+        "alt": "Greece: Christos Zafeiris and Manolis Saliakas are available again after their one-match bans against the Netherlands. statz.ai leaves them out, but both are regular starters and could replace Triantis/Androutsos and Rota. After a 7-0 defeat, changes are likely. Serbia: Saša Lukić and Nemanja Maksimović return from suspension and could come into midfield. Against Germany the same eleven lined up 4-2-3-1, with Gudelj in midfield and Cvetković up front, while Mitrović and Jović were left out of the XI. starting11.com rates Serbia as heavy rotators (41% of the XI kept over the last five games; Greece 68%)."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "back",
+          "text": "Christos Zafeiris and Manolis Saliakas missed the 7-0 defeat in Amsterdam through suspension (second bookings against Germany) and are available again.",
+          "src": "Sports Mole (13 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Giannis Michailidis, Dimitrios Pelkas and Giannis Konstantelias are injured.",
+          "src": "The Football Faithful via Yahoo (13 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Christos Tzolis started in Amsterdam despite a muscle doubt, and Dimitris Kourbelis was fit after an ankle sprain. statz.ai's predicted XI has Nektarios Triantis in midfield instead of Kourbelis. No injury news from the 7-0 was found.",
+          "src": "13 Nov confirmed line-ups / statz.ai"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "The 7-0 was Greece's first defeat of the campaign. Before it they were unbeaten (W2 D2), with wins away to Serbia and Germany.",
+          "src": "statz.ai"
+        },
+        {
+          "team": "away",
+          "tag": "back",
+          "text": "Saša Lukić and Nemanja Maksimović served their yellow-card bans against Germany and are available again.",
+          "src": "Sports Mole (13 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Aleksandar Stanković (adductor) was ruled out of both the Germany and Greece games. Strahinja Pavlović (blow to the kidney) and Dušan Vlahović (private reasons) also miss the camp. Filip Kostić withdrew with a leg haematoma, and Aleksa Terzić has an infection.",
+          "src": "Novosti"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Aleksandar Mitrović is back from injury but short of match fitness, and he and Luka Jović were left out of the XI against Germany. Mihajlo Cvetković led the line. Veljko Paunović served a touchline ban for the Germany game, with assistant Quinton Fortune in charge. Serbia cannot move off the bottom of the group.",
+          "src": "Novosti / 13 Nov confirmed line-ups"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Vangelis Pavlidis",
+            "pos": "FW",
+            "start": 0.9,
+            "shots": 12,
+            "shots90": 3.48,
+            "sot90": 1.63,
+            "fouls90": 1.03,
+            "tackles90": 1.14,
+            "note": "12 shots (3 on target) in Greece's last 10 games (statz.ai). No goals in five Nations League games. Committed a foul in 4 straight games (statz.ai preview). Per-90s are from club and Nations League 2026/27 totals on statz.ai, as compiled on 13 Nov before the 7-0. The 1+ shots on target price is from the statz.ai match page (80% hit rate, window not stated), and the combined bet is quoted at bet365."
+          },
+          {
+            "name": "Christos Tzolis",
+            "pos": "FW",
+            "start": 0.8,
+            "shots": 20,
+            "goals": 1,
+            "note": "20 shots (5 on target) and 1 goal in Greece's last 10 games (statz.ai), the most shots in the squad. Started on 13 Nov despite a muscle doubt. No per-90s found."
+          },
+          {
+            "name": "Fotis Ioannidis",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "Pavlidis's strike partner in the statz.ai XI. Scored in the 2-2 draw with the Netherlands on 1 October. No per-90s found."
+          },
+          {
+            "name": "Konstantinos Karetsas",
+            "pos": "AM",
+            "start": 0.75,
+            "shots": 8,
+            "note": "8 shots in Greece's last 10 games and 6 fouls in the same span (statz.ai). No per-90s found."
+          },
+          {
+            "name": "Konstantinos Mavropanos",
+            "pos": "DF",
+            "start": 0.9,
+            "shots": 9,
+            "shots90": 1.75,
+            "sot90": 0.66,
+            "fouls90": 0.66,
+            "tackles90": 1.59,
+            "note": "9 shots (3 on target) in Greece's last 10 games (statz.ai). A shot in 5 straight games (1.6 per game) and a tackle in 4 straight (1.8 per game), per the statz.ai preview. 2+ shots in 3 of his last 5 games (2.0 per game), per the statz.ai bet builder. Per-90s are from club and Nations League 2026/27 totals on statz.ai, as compiled on 13 Nov. Prices: 1+ tackles from the statz.ai match page (100% hit rate, window not stated); 2+ shots (13/8) from the statz.ai bet-builder page, which calls it the best price. Both combined bets are quoted at bet365."
+          },
+          {
+            "name": "Lazaros Rota",
+            "pos": "DF",
+            "start": 0.6,
+            "shots90": 0.6,
+            "sot90": 0,
+            "fouls90": 1.0,
+            "tackles90": 2.8,
+            "note": "Per-90s are from his only listed 2026/27 games on statz.ai: 5 Champions League games for AEK (450 min, 5 fouls, 14 tackles, 3 shots). 6 fouls in Greece's last 10 games (statz.ai). Started at right-back on 13 Nov, but Saliakas is available again, so his start is less certain. The 1+ fouls price is from the statz.ai match page (100% hit rate, window not stated), and the combined bet is quoted at bet365."
+          },
+          {
+            "name": "Christos Zafeiris",
+            "pos": "MF",
+            "start": 0.5,
+            "note": "Back from suspension. 10 fouls in Greece's last 10 games, second only to Retsos's 11 (statz.ai). Not in the statz.ai predicted XI."
+          },
+          {
+            "name": "Anastasios Douvikas",
+            "pos": "FW",
+            "start": 0.3,
+            "goals": 1,
+            "note": "Scored the stoppage-time winner in the 2-1 win in Belgrade on 24 September. On the bench on 13 Nov."
+          }
+        ],
+        "away": [
+          {
+            "name": "Mihajlo Cvetković",
+            "pos": "FW",
+            "start": 0.7,
+            "shots": 6,
+            "goals": 1,
+            "shots90": 2.68,
+            "sot90": 1.25,
+            "fouls90": 0.95,
+            "tackles90": 0.6,
+            "note": "6 shots and 1 goal in Serbia's last 10 games (statz.ai). Per-90s are calculated from his statz.ai 2026/27 totals for Anderlecht (Pro League and Europa League) plus the Nations League: 1,512 min, 45 shots, 21 on target, 16 fouls, 10 tackles. Shots in his last five games: 1, 2, 3, 5, 2. Led the line against Germany, but Mitrović or Jović could start instead. The 2+ shots price (8/13) is from the statz.ai bet-builder page, which calls it the best price (4 of 5, 2.6 per game), and the combined bet is quoted at bet365."
+          },
+          {
+            "name": "Lazar Samardžić",
+            "pos": "AM",
+            "start": 0.8,
+            "shots": 14,
+            "goals": 1,
+            "note": "Shots and goals are from Serie A 2026/27 (9 apps, 1 on target, 2 fouls, 11 tackles; Stat Sniper). Minutes are not given, so there are no per-90s. 1+ shots in 4 of his last 5 games (1.2 per game), per the statz.ai bet builder. The 1+ shots price matches on the statz.ai match page and the bet-builder page, and the combined bets are quoted at bet365."
+          },
+          {
+            "name": "Dušan Tadić",
+            "pos": "AM",
+            "start": 0.8,
+            "note": "Started behind Cvetković against Germany and is in the statz.ai XI. No per-90s found."
+          },
+          {
+            "name": "Sergej Milinković-Savić",
+            "pos": "MF",
+            "start": 0.8,
+            "note": "Started against Germany and is in the statz.ai XI. No per-90s found."
+          },
+          {
+            "name": "Luka Jović",
+            "pos": "FW",
+            "start": 0.35,
+            "shots": 10,
+            "goals": 1,
+            "note": "10 shots (4 on target) and 1 goal in Serbia's last 10 games, the most shots in the squad (statz.ai). Not in the XI against Germany."
+          },
+          {
+            "name": "Aleksandar Mitrović",
+            "pos": "FW",
+            "start": 0.3,
+            "goals": 1,
+            "note": "Back from injury but short of match fitness, and not in the XI against Germany. 1 goal and 3 shots on target for Serbia in 2026 (statz.ai)."
+          },
+          {
+            "name": "Srđan Babić",
+            "pos": "DF",
+            "start": 0.85,
+            "shots90": 0.7,
+            "sot90": 0,
+            "fouls90": 0.7,
+            "tackles90": 1.3,
+            "note": "Per-90s are from Spartak Moscow, Russian Premier League 2026/27 (898 min), statz.ai, as compiled on 13 Nov. 5 fouls in Serbia's last 10 games (statz.ai)."
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Vangelis Pavlidis",
+          "market": "1+ shots on target",
+          "odds": 1.25
+        },
+        {
+          "player": "Konstantinos Mavropanos",
+          "market": "1+ tackles",
+          "odds": 1.48
+        },
+        {
+          "player": "Konstantinos Mavropanos",
+          "market": "2+ shots",
+          "odds": 2.63,
+          "hit": "3/5"
+        },
+        {
+          "player": "Lazaros Rota",
+          "market": "1+ fouls",
+          "odds": 1.48
+        },
+        {
+          "player": "Lazar Samardžić",
+          "market": "1+ shots",
+          "odds": 1.36,
+          "hit": "4/5"
+        },
+        {
+          "player": "Mihajlo Cvetković",
+          "market": "2+ shots",
+          "odds": 1.62,
+          "hit": "4/5"
+        }
+      ],
+      "benchmarks": {
+        "statz": {
+          "h": 0.64,
+          "d": 0.21,
+          "a": 0.15,
+          "xg": [
+            1.91,
+            0.8
+          ]
+        },
+        "kickoff": {
+          "h": 0.67,
+          "d": 0.19,
+          "a": 0.14
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Greece v Serbia odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/greece-vs-serbia/"
+        },
+        {
+          "title": "Statz.ai: Greece vs Serbia stats, predicted lineups & referee (season table shows 1.3 goals per game for Greece; we used 5 in 5 from the results)",
+          "url": "https://statz.ai/h2h/greece-vs-serbia/19676650"
+        },
+        {
+          "title": "Statz.ai: Greece vs Serbia predictions & betting tips",
+          "url": "https://statz.ai/news/19676650-greece-vs-serbia-predictions-betting-tips"
+        },
+        {
+          "title": "Statz.ai: Greece vs Serbia bet builder",
+          "url": "https://statz.ai/bet-builder/sgp/uefa-nations-league/greece-vs-serbia-2026-11-16"
+        },
+        {
+          "title": "Statz.ai: referee Michael Oliver",
+          "url": "https://statz.ai/referee/michael-oliver"
+        },
+        {
+          "title": "Statz.ai: Greece team stats & 2026 results",
+          "url": "https://statz.ai/team/greece"
+        },
+        {
+          "title": "Statz.ai: Serbia team stats & 2026 results",
+          "url": "https://statz.ai/team/serbia"
+        },
+        {
+          "title": "Statz.ai: Mihajlo Cvetković 2026/27 stats",
+          "url": "https://statz.ai/player/mihajlo-cvetkovic/37671351"
+        },
+        {
+          "title": "Statz.ai: Lazaros Rota 2026/27 stats",
+          "url": "https://statz.ai/player/lazaros-rota/13186573"
+        },
+        {
+          "title": "Statz.ai: Konstantinos Mavropanos 2026/27 stats (per-90s via the 13 Nov file)",
+          "url": "https://statz.ai/player/konstantinos-mavropanos/109417"
+        },
+        {
+          "title": "Statz.ai: Vangelis Pavlidis 2026/27 stats (per-90s via the 13 Nov file)",
+          "url": "https://statz.ai/player/vangelis-pavlidis/36265"
+        },
+        {
+          "title": "Statz.ai: Srdjan Babic 2026/27 stats (per-90s via the 13 Nov file)",
+          "url": "https://statz.ai/player/srdjan-babic/177822"
+        },
+        {
+          "title": "Stat Sniper: Lazar Samardžić Serie A 2026/27",
+          "url": "https://statsniper.com/serie-a/player/lazar_samardzic_ATA/"
+        },
+        {
+          "title": "OddsCalendar: Greece vs Serbia (Megapari 1X2, kick-off, referee)",
+          "url": "https://www.oddscalendar.com/football/europe/nations-league/greece-vs-serbia/1528991"
+        },
+        {
+          "title": "Starting11: Greece vs Serbia (kick-off, referee, XI retention)",
+          "url": "https://starting11.com/fixtures/greece-vs-serbia"
+        },
+        {
+          "title": "Greek City Times: Greece stun Serbia with late Douvikas winner (reverse fixture)",
+          "url": "https://greekcitytimes.com/2026/09/25/greece-serbia-2-1-douvikas-tzolis/"
+        },
+        {
+          "title": "Sports Mole: Netherlands vs Greece preview (Zafeiris and Saliakas suspended)",
+          "url": "https://www.sportsmole.co.uk/football/netherlands/uefa-nations-league/preview/netherlands-vs-greece-prediction-team-news-lineups_608925.html"
+        },
+        {
+          "title": "Sports Mole: Serbia vs Germany preview (Lukić and Maksimović suspended)",
+          "url": "https://www.sportsmole.co.uk/football/germany/uefa-nations-league/preview/serbia-vs-germany-prediction-team-news-lineups_608896.html"
+        },
+        {
+          "title": "The Football Faithful via Yahoo: Netherlands vs Greece preview (Greece injuries)",
+          "url": "https://sports.yahoo.com/articles/netherlands-vs-greece-match-preview-062200911.html"
+        },
+        {
+          "title": "Novosti: Stanković ruled out of the Germany and Greece games",
+          "url": "https://www.novosti.rs/sport/fudbal/1669947/novi-ozbiljan-udarac-paunovica-srbija-bez-jednog-najboljih-nemacku-grcku"
+        },
+        {
+          "title": "Novosti: Paunović press conference (Vlahović, Terzić, suspensions)",
+          "url": "https://www.novosti.rs/sport/fudbal/1669519/veljko-paunovic-okupljanje-fudbalska-reprezentacija-srbije-pres-konferencija"
+        },
+        {
+          "title": "Novosti: Pavlović out, Milenković back",
+          "url": "https://www.novosti.rs/sport/fudbal/1669464/srbija-bez-glavnog-igraca-ligi-nacija"
+        },
+        {
+          "title": "Novosti: Bukinac replaces Kostić",
+          "url": "https://www.novosti.rs/sport/fudbal/1669914/paunovic-naknadno-pozvao-jos-jednog-fudbalera-reprezentaciju-srbije"
+        },
+        {
+          "title": "Novosti: Paunović touchline ban for the Germany match",
+          "url": "https://www.novosti.rs/sport/fudbal/1669635/paunovic-vodi-srbiju-protiv-nemacke-menja-bivsi-mancester-junajteda"
+        },
+        {
+          "title": "DFB: Klopp names squad for Serbia and Netherlands",
+          "url": "https://www.dfb.de/news/fuellkrug-and-mohya-included-as-klopp-names-squad-for-serbia-and-netherlands"
+        }
+      ]
+    },
+    {
+      "id": "sui-sco",
+      "competition": "UEFA Nations League B, Group 1",
+      "kickoff": "2026-11-16T19:45:00Z",
+      "venue": "Kybunpark (AFG Arena), St. Gallen",
+      "neutral": false,
+      "home": {
+        "name": "Switzerland",
+        "short": "Switzerland",
+        "code": "SUI"
+      },
+      "away": {
+        "name": "Scotland",
+        "short": "Scotland",
+        "code": "SCO"
+      },
+      "context": "Switzerland have already won Group B1 and promotion back to League A. The 0-0 in Maribor on 13 November took them to 13 points from five games (11-1 on goals, four clean sheets), out of Slovenia's reach. Scotland beat North Macedonia 2-1 at Hampden the same night and are third on 7 points, one behind Slovenia (8), with North Macedonia bottom on 0. Second place brings a promotion play-off, so Scotland must win here and hope Slovenia fail to win in North Macedonia tonight; if the two finish level on points, Slovenia have the better head-to-head (0-0 away and 2-1 at Hampden). Switzerland won the reverse fixture 3-0 at Hampden on 29 September after Jack Hendry was sent off in the 11th minute, with 23 shots to Scotland's 2.",
+      "referee": {
+        "name": "Danny Makkelie",
+        "country": "NED",
+        "games": 5,
+        "yellowsPg": 2.8,
+        "foulsPg": 24.0,
+        "redsPg": 0,
+        "note": "Figures from the statz.ai match page (5 games this season); starting11.com also lists him for this game. His statz.ai profile (listed as Danny Desmond Makkelie) only covers international matches: 10 games across 2025/26 and 2026/27 with 2.9 yellows, 24.2 fouls and 0 reds per game, ranging from 0 yellows (France v Sweden, World Cup) to 8 (Romania v Bosnia and Herzegovina). Neither page gives his nationality; he is a Dutch referee."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (16 Nov, matchday; the page shows no odds timestamp and lists the prices in decimals). KickOff's article text quotes best prices of 1.70 for Switzerland and 1.73 for Under 2.5, slightly below its own bet365 table (1.75 for both). Cross-check from the statz.ai preview (16 Nov): Switzerland 1.75 and Over 2.5 2.10 at bet365, best draw 3.75 (Coral), Scotland 5.25 (Ladbrokes), BTTS Yes 2.00 (Ladbrokes), Over 1.5 1.33 (Ladbrokes). First goal 'no goal' is 9.00. No bet365 scorer, corners, cards or Asian handicap prices found.",
+        "h": 1.75,
+        "d": 3.7,
+        "a": 4.5,
+        "ou": {
+          "0.5": [
+            1.07,
+            9
+          ],
+          "1.5": [
+            1.33,
+            3.25
+          ],
+          "2.5": [
+            2.05,
+            1.75
+          ],
+          "3.5": [
+            3.75,
+            1.25
+          ],
+          "4.5": [
+            8,
+            1.08
+          ],
+          "5.5": [
+            17,
+            1.03
+          ]
+        },
+        "btts": [
+          1.91,
+          1.8
+        ],
+        "wtn": {
+          "home": 2.75,
+          "away": 8
+        },
+        "dc": {
+          "12": 1.29,
+          "1X": 1.18,
+          "X2": 2.0
+        },
+        "dnb": {
+          "home": 1.3,
+          "away": 3.4
+        },
+        "firstGoal": {
+          "home": 1.57,
+          "away": 2.63
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 1.95,
+          "ga": 0.65,
+          "xgf": 1.5,
+          "xga": 0.6
+        },
+        "away": {
+          "gf": 1.6,
+          "ga": 1.15,
+          "xgf": 1.7,
+          "xga": 1.3
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 6.8,
+          "fouls": 9,
+          "shots": 18.4,
+          "sot": 7.2,
+          "gf": 2.2,
+          "ga": 0.2
+        },
+        "away": {
+          "corners": 5,
+          "fouls": 14.4,
+          "shots": 14.8,
+          "sot": 5.4,
+          "gf": 1.0,
+          "ga": 1.2
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 0.8
+        },
+        "away": {
+          "yellowsPg": 1.4
+        }
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "statz.ai match page (16 Nov). Its Scotland XI is the one that started the 2-1 win over North Macedonia on 13 Nov. Its Switzerland XI makes two changes from the side that drew 0-0 in Maribor: Eray Cömert for Manuel Akanji and Zeki Amdouni for Dan Ndoye. No source gives a reason, both are in UEFA's squad list and no injury has been reported. No Sports Mole, BBC, Daily Record or Blick predicted XIs for this game could be found; searches only returned previews of the reverse fixture.",
+        "home": {
+          "formation": "4-2-3-1",
+          "xi": [
+            "Gregor Kobel",
+            "Zachary Athekame",
+            "Nico Elvedi",
+            "Eray Cömert",
+            "Sascha Britschgi",
+            "Remo Freuler",
+            "Denis Zakaria",
+            "Zeki Amdouni",
+            "Fabian Rieder",
+            "Michel Aebischer",
+            "Breel Embolo"
+          ]
+        },
+        "away": {
+          "formation": "3-4-1-2",
+          "xi": [
+            "Angus Gunn",
+            "Kieran Tierney",
+            "Luke Graham",
+            "Ryan Porteous",
+            "Andy Robertson",
+            "Billy Gilmour",
+            "Lewis Ferguson",
+            "Ben Gannon-Doak",
+            "John McGinn",
+            "Ché Adams",
+            "Scott McTominay"
+          ]
+        },
+        "alt": "Switzerland: the XI that started in Maribor had Akanji and Ndoye instead of Cömert and Amdouni, and the group is already won, so Yakin could rotate either way. The statz.ai preview article lists a different, heavily changed Swiss XI (Mvogo; Athekame, Akanji, Elvedi, Schmidt; Freuler, Sow, Aebischer; Rieder, Ndoye, Embolo) and a Scotland XI that includes Stephen Welsh, who withdrew injured, so it was not used. Scotland played 3-4-2-1 on Friday with the same eleven."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Captain Granit Xhaka is out with a calf injury, Miro Muheim left camp with a muscle problem and Johan Manzambi is injured.",
+          "src": "blue News (via 13 Nov research)"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Rubén Vargas joined the squad late after a stomach illness, was not in the matchday squad in Maribor and is not in UEFA's squad list for this game.",
+          "src": "blue News / UEFA.com"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Switzerland picked up no bookings in Maribor, so Michel Aebischer (one booking away from a ban before that game) is available. Embolo, back after missing September and October, started and was replaced by Amdouni after 59 minutes.",
+          "src": "Fox Sports box score / Sports Mole / blue News"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Fox Sports' box score lists goalkeeper Marvin Keller as an 88th-minute substitute in Maribor without saying whom he replaced. No Swiss injury was reported, and statz.ai keeps Gregor Kobel in goal.",
+          "src": "Fox Sports / statz.ai"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Switzerland have already won the group and promotion to League A, so there is little at stake for them.",
+          "src": "statz.ai / KickOff"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Scott McKenna (back) and Kenny McLean (ankle) are out. Centre-backs Stephen Welsh (ligament damage) and Luis Binks withdrew, and Ryan Porteous was called up.",
+          "src": "Flashscore / Racing Post (via 13 Nov research)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Andy Robertson equalled Kenny Dalglish's record of 102 caps against North Macedonia; one more appearance makes him Scotland's most-capped player.",
+          "src": "Flashscore / statz.ai (13 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "back",
+          "text": "Scott McTominay returned on Friday after missing the first four Nations League games following a minor heart procedure; Kieran Tierney and Ché Adams are also back from injury.",
+          "src": "Reuters / Sports Mole (via 13 Nov research)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Scotland need a win and for Slovenia not to win in North Macedonia to take second place and a promotion play-off.",
+          "src": "statz.ai standings / 13 Nov results"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Dan Ndoye",
+            "pos": "FW",
+            "start": 0.5,
+            "shots": 30,
+            "goals": 4,
+            "note": "Shots and goals cover Switzerland's last 10 internationals (statz.ai), with 17 on target; 46 shots, 25 on target and 7 goals in 15 internationals in 2026. 3+ shots and a shot on target in each of his last five games (4 shots per game), per the statz.ai preview. Started in Maribor and is in UEFA's squad list, but statz.ai's predicted XI leaves him out. No bet365 prop found."
+          },
+          {
+            "name": "Zeki Amdouni",
+            "pos": "FW",
+            "start": 0.6,
+            "shots": 17,
+            "goals": 3,
+            "shots90": 3.91,
+            "sot90": 1.42,
+            "tackles90": 0.89,
+            "note": "Shots and goals cover this Nations League campaign (5 games, 350 min, 9 on target), statz.ai; scored in the reverse fixture. Per-90s cover Burnley, Championship 2026/27 (507 min, 22 shots, 8 on target, 3 goals), statz.ai; tackles90 is calculated from 5 tackles. fouls90 (about 1.78 from 10 fouls) is left out because there is no second source. His statz.ai match log shows a shot on target in 3 of his last 5 games (0, 0, 2, 1, 1), with only 31 and 10 minutes in the last two; the bet-builder page claims 4/5. Came on for Embolo after 59 minutes in Maribor. The 1+ shots on target price is from the statz.ai bet-builder page, quoted at bet365."
+          },
+          {
+            "name": "Breel Embolo",
+            "pos": "FW",
+            "start": 0.8,
+            "shots": 15,
+            "goals": 4,
+            "note": "Shots and goals cover his 10 internationals in 2026 (statz.ai), with 11 on target. Started in Maribor on his return from injury and was replaced after 59 minutes."
+          },
+          {
+            "name": "Fabian Rieder",
+            "pos": "AM",
+            "start": 0.8,
+            "shots": 16,
+            "shots90": 1.57,
+            "sot90": 0.67,
+            "fouls90": 1.12,
+            "tackles90": 2.24,
+            "note": "Shots cover Switzerland's last 10 internationals (statz.ai); 12 fouls in the same span, the most of any Switzerland player. Per-90s cover Augsburg, Bundesliga 2026/27 (803 min, 14 shots, 6 on target, 2 goals), statz.ai; fouls90 and tackles90 are calculated from 10 fouls and 20 tackles. Committed a foul in each of his last 5 games (2, 1, 1, 3, 1), including 2 fouls and 3 shots in Maribor. The 1+ fouls price is from the statz.ai match-page bet builder, quoted at bet365."
+          },
+          {
+            "name": "Michel Aebischer",
+            "pos": "AM",
+            "start": 0.8,
+            "note": "Started in Maribor and was replaced after 88 minutes; 11 fouls in 12 internationals in 2026 (statz.ai). No per-90s found."
+          },
+          {
+            "name": "Remo Freuler",
+            "pos": "MF",
+            "start": 0.85,
+            "note": "25 tackles and 15 fouls in 15 internationals in 2026, the most of any Switzerland player (statz.ai). A shot and a tackle in each of his last five games (statz.ai preview). No bet365 prop found."
+          },
+          {
+            "name": "Denis Zakaria",
+            "pos": "MF",
+            "start": 0.8,
+            "note": "16 tackles in 9 internationals in 2026 (statz.ai). Started in Maribor."
+          },
+          {
+            "name": "Eray Cömert",
+            "pos": "DF",
+            "start": 0.6,
+            "note": "In statz.ai's predicted XI in place of Manuel Akanji, who started in Maribor; no source explains the change. No statz.ai player page or per-90s found. The 1+ tackles price is from the statz.ai match-page bet builder, quoted at bet365."
+          },
+          {
+            "name": "Manuel Akanji",
+            "pos": "DF",
+            "start": 0.45,
+            "note": "Started in Maribor and is in UEFA's squad list, but statz.ai's predicted XI has Cömert instead. 22 tackles in 15 internationals in 2026; a tackle in each of his last five games (2 per game), per statz.ai."
+          },
+          {
+            "name": "Ricardo Rodríguez",
+            "pos": "DF",
+            "start": 0.25,
+            "note": "Scored the opener in the reverse fixture. A late substitute in Maribor."
+          }
+        ],
+        "away": [
+          {
+            "name": "Scott McTominay",
+            "pos": "AM",
+            "start": 0.85,
+            "shots": 15,
+            "shots90": 2.88,
+            "sot90": 1.15,
+            "fouls90": 0.58,
+            "tackles90": 1.58,
+            "note": "Shots cover Scotland's last 10 internationals (statz.ai), with 6 on target; 21 shots and 9 on target in 7 internationals in 2026. Per-90s are from FotMob Serie A 2026/27 totals (carried over from the 13 Nov research). Returned against North Macedonia after his heart procedure. The 1+ shots on target price is from the statz.ai match-page bet builder, quoted at bet365, which shows an 80% hit rate without saying over how many games."
+          },
+          {
+            "name": "John McGinn",
+            "pos": "AM",
+            "start": 0.85,
+            "shots": 15,
+            "goals": 4,
+            "shots90": 0.99,
+            "sot90": 0.42,
+            "fouls90": 1.13,
+            "tackles90": 1.55,
+            "note": "Shots and goals cover Scotland's last 10 internationals (statz.ai), with 6 on target; joint top scorer in that span. 2+ shots in each of his last three games (statz.ai preview). Per-90s are from FotMob Premier League 2026/27 totals (carried over from the 13 Nov research)."
+          },
+          {
+            "name": "Ché Adams",
+            "pos": "FW",
+            "start": 0.85,
+            "goals": 2,
+            "shots90": 2.19,
+            "sot90": 0.88,
+            "fouls90": 0.58,
+            "tackles90": 0.44,
+            "note": "Goals cover his 6 internationals in 2026 (statz.ai). Per-90s cover Torino, Serie A 2026/27 (616 min, 15 shots, 6 on target, 4 goals), statz.ai; fouls90 and tackles90 are calculated from 4 fouls and 3 tackles. 2+ shots in 3 of his last 5 games (4, 2, 1, 1, 4), including 4 shots in 67 minutes against North Macedonia. The 2+ shots price is from the statz.ai bet-builder page, quoted at bet365."
+          },
+          {
+            "name": "Ben Gannon-Doak",
+            "pos": "AM",
+            "start": 0.8,
+            "shots": 13,
+            "note": "Shots cover Scotland's last 10 internationals (statz.ai); 10 fouls and 12 tackles in 10 internationals in 2026. Right wing-back. No club per-90s (few Bournemouth minutes)."
+          },
+          {
+            "name": "Lewis Ferguson",
+            "pos": "MF",
+            "start": 0.85,
+            "shots90": 0.45,
+            "sot90": 0.18,
+            "fouls90": 2.09,
+            "tackles90": 2.27,
+            "note": "Per-90s cover Bologna, Serie A 2026/27 (990 min, 5 shots, 2 on target, 23 fouls, 25 tackles), statz.ai; fouls90 and tackles90 are calculated from the totals. 26 fouls in Scotland's last 10 internationals, by far the most of any player in this game, and 31 fouls and 26 tackles in 11 internationals in 2026 (statz.ai). 2+ tackles in 4 of his last 5 games (2.4 per game), per the statz.ai bet-builder page; his club log shows 2, 1, 2, 4 in the four Serie A games among them. The 2+ tackles price is from that page, quoted at bet365."
+          },
+          {
+            "name": "Andy Robertson",
+            "pos": "DF",
+            "start": 0.85,
+            "note": "Captain; one cap away from becoming Scotland's most-capped player. 7 fouls and 2 yellow cards for Scotland in 2026 (statz.ai)."
+          },
+          {
+            "name": "Billy Gilmour",
+            "pos": "MF",
+            "start": 0.85,
+            "note": "Started on Friday and is in statz.ai's predicted XI."
+          },
+          {
+            "name": "Ryan Porteous",
+            "pos": "DF",
+            "start": 0.75,
+            "note": "Called up after the withdrawals of Welsh and Binks; started on Friday."
+          },
+          {
+            "name": "Ryan Christie",
+            "pos": "AM",
+            "start": 0.3,
+            "goals": 2,
+            "note": "Goals cover his 11 internationals in 2026 (statz.ai). Not in the XI on Friday."
+          },
+          {
+            "name": "Kieron Bowie",
+            "pos": "FW",
+            "start": 0.2,
+            "shots": 12,
+            "goals": 1,
+            "note": "Shots and goals cover his 4 internationals in 2026 (statz.ai), with 8 on target. Not in the XI on Friday."
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Eray Cömert",
+          "market": "1+ tackles",
+          "odds": 1.33
+        },
+        {
+          "player": "Fabian Rieder",
+          "market": "1+ fouls",
+          "odds": 1.11,
+          "hit": "5/5"
+        },
+        {
+          "player": "Zeki Amdouni",
+          "market": "1+ shots on target",
+          "odds": 1.36,
+          "hit": "3/5"
+        },
+        {
+          "player": "Scott McTominay",
+          "market": "1+ shots on target",
+          "odds": 1.67
+        },
+        {
+          "player": "Ché Adams",
+          "market": "2+ shots",
+          "odds": 1.67,
+          "hit": "3/5"
+        },
+        {
+          "player": "Lewis Ferguson",
+          "market": "2+ tackles",
+          "odds": 1.62,
+          "hit": "4/5"
+        }
+      ],
+      "benchmarks": {
+        "statz": {
+          "h": 0.59,
+          "d": 0.24,
+          "a": 0.18,
+          "xg": [
+            1.7,
+            0.8
+          ]
+        },
+        "kickoff": {
+          "h": 0.56,
+          "d": 0.24,
+          "a": 0.2
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Switzerland v Scotland odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/switzerland-vs-scotland/"
+        },
+        {
+          "title": "Statz.ai: Switzerland vs Scotland stats, predicted lineups & referee",
+          "url": "https://statz.ai/h2h/switzerland-vs-scotland/19676703"
+        },
+        {
+          "title": "Statz.ai: Switzerland vs Scotland predictions & betting tips",
+          "url": "https://statz.ai/news/19676703-switzerland-vs-scotland-predictions-betting-tips"
+        },
+        {
+          "title": "Statz.ai: Switzerland vs Scotland bet builder",
+          "url": "https://statz.ai/bet-builder/sgp/uefa-nations-league/switzerland-vs-scotland-2026-11-16"
+        },
+        {
+          "title": "Statz.ai: referee Danny Desmond Makkelie",
+          "url": "https://statz.ai/referee/danny-desmond-makkelie"
+        },
+        {
+          "title": "Statz.ai: Switzerland team stats",
+          "url": "https://statz.ai/team/switzerland"
+        },
+        {
+          "title": "Statz.ai: Scotland team stats",
+          "url": "https://statz.ai/team/scotland"
+        },
+        {
+          "title": "Statz.ai: Scotland vs Switzerland, 29 Sep 2026 (reverse fixture)",
+          "url": "https://statz.ai/h2h/19676729"
+        },
+        {
+          "title": "Statz.ai: Zeki Amdouni 2026/27 stats",
+          "url": "https://statz.ai/player/zeki-amdouni/37261110"
+        },
+        {
+          "title": "Statz.ai: Fabian Rieder 2026/27 stats",
+          "url": "https://statz.ai/player/fabian-rieder/24817439"
+        },
+        {
+          "title": "Statz.ai: Lewis Ferguson 2026/27 stats",
+          "url": "https://statz.ai/player/lewis-ferguson/6648042"
+        },
+        {
+          "title": "Statz.ai: Ché Adams 2026/27 stats",
+          "url": "https://statz.ai/player/che-adams/3596"
+        },
+        {
+          "title": "Starting11: Switzerland vs Scotland (kick-off, venue, referee, head-to-head)",
+          "url": "https://starting11.com/fixtures/switzerland-vs-scotland"
+        },
+        {
+          "title": "22Bet: Switzerland vs Scotland (kick-off time)",
+          "url": "https://news.22bet.com/predictions/switzerland-vs-scotland-prediction-booking-code-16-11-2026/"
+        },
+        {
+          "title": "UEFA.com: Switzerland vs Scotland squad lists",
+          "url": "https://www.uefa.com/uefanationsleague/match/2047914--switzerland-vs-scotland/lineups"
+        },
+        {
+          "title": "Fox Sports: Slovenia vs Switzerland box score (13 Nov)",
+          "url": "https://www.foxsports.com/soccer/nations-league-slovenia-vs-switzerland-nov-13-2026-game-boxscore-689057"
+        },
+        {
+          "title": "blue News: Xhaka and Muheim out, Vargas arrives late, Yakin calls up a newcomer",
+          "url": "https://www.bluewin.ch/en/sport/football/xhaka-and-muheim-are-out-vargas-arrives-late-yakin-calls-up-a-newcomer-li.3667101"
+        },
+        {
+          "title": "Sports Mole: Slovenia vs Switzerland preview (Aebischer one booking from a ban)",
+          "url": "https://www.sportsmole.co.uk/football/slovenia/uefa-nations-league/preview/slovenia-vs-switzerland-prediction-team-news-lineups_608906.html"
+        },
+        {
+          "title": "Flashscore: Scotland vs North Macedonia preview, lineups and odds",
+          "url": "https://www.flashscore.co.uk/news/football-uefa-nations-league-scotland-vs-north-macedonia-where-to-watch-preview-lineups-and-odds/0CvU6F8D/"
+        },
+        {
+          "title": "Reuters via The Star: McTominay returns to Scotland squad",
+          "url": "https://www.thestar.com.my/sport/football/2026/11/03/soccer-mctominay-returns-to-scotland-squad-after-heart-surgery"
+        },
+        {
+          "title": "FotMob: Scott McTominay (Serie A 2026/27 totals, per-90 computed)",
+          "url": "https://www.fotmob.com/en-GB/players/843099"
+        },
+        {
+          "title": "FotMob: John McGinn (Premier League 2026/27 totals, per-90 computed)",
+          "url": "https://www.fotmob.com/en-GB/players/356406/john-mcginn"
+        }
+      ]
+    },
+    {
+      "id": "mkd-svn",
+      "competition": "UEFA Nations League B, Group 1",
+      "kickoff": "2026-11-16T19:45:00Z",
+      "venue": "Toše Proeski Arena, Skopje",
+      "neutral": false,
+      "home": {
+        "name": "North Macedonia",
+        "short": "N. Macedonia",
+        "code": "MKD"
+      },
+      "away": {
+        "name": "Slovenia",
+        "short": "Slovenia",
+        "code": "SVN"
+      },
+      "context": "Switzerland clinched Group B1 with the 0-0 draw in Maribor on 13 November (13 points), so tonight's games decide second place and the promotion play-off that goes with it. Slovenia are second on 8 points (5-3 on goals), one ahead of Scotland on 7 (5-6), who play Switzerland in the other group game. Slovenia also lead the head-to-head with Scotland (0-0 in Ljubljana, 2-1 in Glasgow), so they finish second if they win here or if Scotland fail to beat Switzerland. North Macedonia have lost all five games (1-12) and are already certain to finish bottom. On 13 November they lost 2-1 at Hampden, their first goal of the campaign. Slovenia won the reverse fixture 2-0 in Ljubljana on 29 September (Lovrić, Matko).",
+      "referee": {
+        "name": "Serdar Gözübüyük",
+        "country": "NED",
+        "games": 12,
+        "yellowsPg": 3.58,
+        "foulsPg": 21,
+        "redsPg": 0.08,
+        "note": "Appointment from starting11.com and futboltotal. No statz.ai page for this match came back from searches, so the figures come from his statz.ai referee profile: 12 games over 2025/26 and 2026/27 combined, all Eredivisie or Saudi Pro League, the latest on 10 May 2026, with 1-7 yellows a game. redsPg is 1 red in 12 games; the profile's FAQ rounds it to 0.09. The profile does not give his nationality; he is a Dutch referee. No Nations League games of his this season were found."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (16 Nov, matchday; the page shows no odds timestamp, and the fetched page gave decimal prices directly). No second bookmaker price could be found to cross-check: bettingodds.com shows only an unlabelled 'best odds' row (6/1, 11/2, 6/1) that cannot be matched to markets, Flashscore's odds page lists no prices, and foresportia, wincomparator, betmines and dailysports would not open. Futboltotal's model (14/24/62) is close to the bet365 implied split (14/25/60). KickOff's article text gives 2.50 for Slovenia/Slovenia at half-time/full-time where its table shows 2.40. No bet365 scorer prices, corners, cards or Asian handicap lines were found.",
+        "h": 6.5,
+        "d": 3.7,
+        "a": 1.55,
+        "ou": {
+          "0.5": [
+            1.07,
+            9
+          ],
+          "1.5": [
+            1.36,
+            3
+          ],
+          "2.5": [
+            2.15,
+            1.67
+          ],
+          "3.5": [
+            4,
+            1.22
+          ],
+          "4.5": [
+            9,
+            1.07
+          ],
+          "5.5": [
+            19,
+            1.02
+          ]
+        },
+        "btts": [
+          2.2,
+          1.62
+        ],
+        "dc": {
+          "1X": 2.38,
+          "12": 1.29,
+          "X2": 1.11
+        },
+        "dnb": {
+          "home": 5,
+          "away": 1.17
+        },
+        "wtn": {
+          "home": 10,
+          "away": 2.25
+        },
+        "firstGoal": {
+          "home": 3.2,
+          "away": 1.5
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 0.9,
+          "ga": 1.6,
+          "xgf": 0.9,
+          "xga": 1.9
+        },
+        "away": {
+          "gf": 0.9,
+          "ga": 1.0,
+          "xgf": 0.8,
+          "xga": 1.3
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 1.8,
+          "fouls": 13,
+          "shots": 5.8,
+          "sot": 0.3,
+          "gf": 0.2,
+          "ga": 2.4
+        },
+        "away": {
+          "corners": 4.5,
+          "fouls": 13.5,
+          "shots": 10,
+          "sot": 3,
+          "gf": 1.0,
+          "ga": 0.6
+        },
+        "note": "gf and ga cover all five group games (North Macedonia 1-12, Slovenia 5-3). Corners, fouls, shots and shots on target cover the first four games only (statz.ai, SportsCafe and UEFA reports via the 13 Nov research), because no stats for the 13 Nov games were found."
+      },
+      "teamStats": {
+        "home": {},
+        "away": {},
+        "note": "No yellow-card averages for either side in this campaign were found, so the engine uses fouls and the referee."
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "No predicted XIs found. Searches returned no Sports Mole preview or statz.ai page for this game. starting11.com shows empty 4-3-3 slots and KickOff says lineups will appear when available. Team sheets are due about an hour before kick-off.",
+        "home": {
+          "formation": "",
+          "xi": []
+        },
+        "away": {
+          "formation": "",
+          "xi": []
+        },
+        "alt": "The 13 Nov XIs are the best guide. North Macedonia (4-3-3) at Hampden: Dimitrievski; Ilievski, Musliu, Mladenovski, Alioski; Bardhi, Elmas, Gashtarov; Doriev, Rastoder, Churlinov. starting11.com says Sedloski rotates, keeping 43% of his XI over the last five games. Slovenia (4-4-2) against Switzerland: Oblak; Zaletel, Drkušić, Bijol, Kuzmić; Karničnik, Gnezda Čerin, Zabukovnik, Šturm; Matko, Vipotnik. starting11.com says Slovenia keep 75% of their XI. Janža and Zec are eligible again after their bans."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Bojan Miovski was left out of the squad by coach Goce Sedloski for lack of minutes at Rangers. Gjoko Zajkov, Andrej Stojchevski and Tihomir Kostadinov are also not in the squad.",
+          "src": "Macedonian Football / Racing Post (13 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Darko Churlinov returned after missing four games over a visa issue and started at Hampden, in a front three with Doriev and Rastoder. Nikola Serafimov, Boban Nikolov, Imran Fetai and Stefan Despotovski were recalled for this window.",
+          "src": "Macedonian Football / statz.ai / Republika.mk (13 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "North Macedonia lost 2-1 in Glasgow on 13 Nov, their fifth defeat in five group games and their first goal of the campaign. Their winless run reached 10 games with the 2-0 loss in Ljubljana in September.",
+          "src": "13 Nov result / Flashscore"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Benjamin Šeško (shin) misses another window and is not expected back until early 2027.",
+          "src": "Sports Mole (13 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Timi Max Elšnik was injured playing for Crvena zvezda and is not in the squad. Cesar did not call up a replacement.",
+          "src": "RTV SLO"
+        },
+        {
+          "team": "away",
+          "tag": "back",
+          "text": "Erik Janža and David Zec served one-match bans against Switzerland after their second bookings of the campaign in Glasgow, so both should be available again.",
+          "src": "Sports Mole (13 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Against Switzerland, Slovenia switched to a back four, with Zaletel and Kuzmić in and Karničnik in midfield. Sandi Lovrić, who scored in the reverse fixture, and Andraž Šporar were on the bench. Atalanta's Relja Obrić, 20, has his first senior call-up.",
+          "src": "Planet Nogomet / Radio Central / SoccerNews (13 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "No team news published after the 13 Nov games (new injuries or bans) was found for either side.",
+          "src": "Research note"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Enis Bardhi",
+            "pos": "AM",
+            "start": 0.75,
+            "shots": 8,
+            "goals": 0,
+            "note": "Captain. Shots and goals cover the first four group games (13 Nov research). KickOff's squad table has him as the leading scorer (20) and leader in shots on target (46), over an unstated span. Started at Hampden."
+          },
+          {
+            "name": "Eljif Elmas",
+            "pos": "AM",
+            "start": 0.75,
+            "goals": 0,
+            "note": "Started at Hampden. Goals cover the first four group games."
+          },
+          {
+            "name": "Elmin Rastoder",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 0,
+            "note": "Started up front at Hampden. Goals cover the first four group games."
+          },
+          {
+            "name": "Darko Churlinov",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "Back after a visa issue and started at Hampden."
+          },
+          {
+            "name": "Ljupcho Doriev",
+            "pos": "FW",
+            "start": 0.6,
+            "note": "Started at Hampden. starting11.com asks whether he will start again."
+          },
+          {
+            "name": "Ezgjan Alioski",
+            "pos": "DF",
+            "start": 0.75,
+            "note": "Left-back at Hampden in Republika.mk's XI; statz.ai had Pablo Acebal there. KickOff's squad table has him leading in assists (13) and tackles (129), over an unstated span."
+          },
+          {
+            "name": "Stole Dimitrievski",
+            "pos": "GK",
+            "start": 0.75,
+            "note": "First-choice goalkeeper; most starts in KickOff's squad table (91)."
+          },
+          {
+            "name": "Jani Atanasov",
+            "pos": "MF",
+            "start": 0.4,
+            "shots": 5,
+            "goals": 0,
+            "note": "Not in the XI at Hampden. Shots and goals cover the first four group games."
+          }
+        ],
+        "away": [
+          {
+            "name": "Aljoša Matko",
+            "pos": "AM",
+            "start": 0.75,
+            "shots": 6,
+            "goals": 2,
+            "assists": 2,
+            "note": "Slovenia's top scorer in this campaign, including the second goal in the 2-0 reverse fixture. Goals and assists cover all five group games, shots only the first four. Started up front against Switzerland."
+          },
+          {
+            "name": "Žan Vipotnik",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 1,
+            "note": "Scored in Lucerne. Hit the crossbar and had a goal ruled out for offside against North Macedonia in September. Started against Switzerland."
+          },
+          {
+            "name": "Danijel Šturm",
+            "pos": "AM",
+            "start": 0.75,
+            "goals": 1,
+            "assists": 1,
+            "note": "Flashscore's man of the match in the 2-0 reverse fixture, where he set up Matko. Goals and assists cover the five group games."
+          },
+          {
+            "name": "Adam Gnezda Čerin",
+            "pos": "MF",
+            "start": 0.75,
+            "shots": 5,
+            "goals": 0,
+            "note": "Shots and goals cover the first four group games. Started against Switzerland."
+          },
+          {
+            "name": "Jaka Bijol",
+            "pos": "DF",
+            "start": 0.75,
+            "note": "Started against Switzerland. KickOff's squad table has him leading in passes and tackles (91), over an unstated span."
+          },
+          {
+            "name": "Jan Oblak",
+            "pos": "GK",
+            "start": 0.75,
+            "note": "First-choice goalkeeper; most starts in KickOff's squad table (86)."
+          },
+          {
+            "name": "Sandi Lovrić",
+            "pos": "MF",
+            "start": 0.4,
+            "goals": 1,
+            "note": "Scored the opener in the 2-0 reverse fixture (his sixth international goal). On the bench against Switzerland."
+          },
+          {
+            "name": "Andraž Šporar",
+            "pos": "FW",
+            "start": 0.3,
+            "note": "On the bench against Switzerland. KickOff's squad table has him leading in goals (13), assists (11) and shots on target (32), over an unstated span."
+          }
+        ]
+      },
+      "benchmarks": {
+        "kickoff": {
+          "h": 0.16,
+          "d": 0.23,
+          "a": 0.61
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: North Macedonia v Slovenia odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/macedonia-fyr-vs-slovenia/"
+        },
+        {
+          "title": "Starting11: North Macedonia vs Slovenia (kick-off, referee, rotation)",
+          "url": "https://starting11.com/fixtures/north-macedonia-vs-slovenia"
+        },
+        {
+          "title": "Futboltotal: Macedonia vs Eslovenia (kick-off, referee, table)",
+          "url": "https://futboltotal.futbol/partido/fyr-macedonia-vs-slovenia-uefa-nations-league-2026-11-16"
+        },
+        {
+          "title": "Statz.ai: referee Serdar Gözübüyük",
+          "url": "https://statz.ai/referee/serdar-gozubuyuk"
+        },
+        {
+          "title": "22Bet: FYR Macedonia vs Slovenia (kick-off, form)",
+          "url": "https://news.22bet.com/predictions/fyr-macedonia-vs-slovenia-prediction-booking-code-16-11-2026/"
+        },
+        {
+          "title": "BettingOdds.com: N. Macedonia vs Slovenia (attempted odds cross-check)",
+          "url": "https://www.bettingodds.com/football/uefa-nations-league/16-11-2026/north-macedonia-vs-slovenia"
+        },
+        {
+          "title": "Flashscore: Slovenia 2-0 North Macedonia report (29 Sep)",
+          "url": "https://www.flashscore.com/news/slovenia-north-macedonia-nations-league-report-september-29-2026/0nJGgXaJ/"
+        },
+        {
+          "title": "RTV SLO: Slovenia 0-0 Scotland in Stožice",
+          "url": "https://www.rtvslo.si/n/794956"
+        },
+        {
+          "title": "Sports Mole: Slovenia vs Switzerland preview (Šeško, Janža and Zec bans)",
+          "url": "https://www.sportsmole.co.uk/football/slovenia/uefa-nations-league/preview/slovenia-vs-switzerland-prediction-team-news-lineups_608906.html"
+        },
+        {
+          "title": "RTV SLO: Cesar without the injured Elšnik",
+          "url": "https://www.rtvslo.si/n/799517"
+        },
+        {
+          "title": "Macedonian Football: 26 players summoned for final Nations League matches",
+          "url": "https://macedonianfootball.com/26-players-summoned-for-final-nations-league-matches/"
+        },
+        {
+          "title": "Statz.ai: Scotland vs North Macedonia (13 Nov XIs)",
+          "url": "https://statz.ai/h2h/19676711"
+        },
+        {
+          "title": "Racing Post: Scotland vs North Macedonia team news",
+          "url": "https://www.racingpost.com/sport/football-tips/nations-league/scotland-vs-north-macedonia-predictions-team-news-odds-betting-tips-bet-builder-aFm4W6F53tJy/"
+        },
+        {
+          "title": "SoccerNews: Slovenia vs Switzerland prediction (Obrić call-up)",
+          "url": "https://www.soccernews.com/prediction-slovenia-vs-switzerland/407932/"
+        }
+      ]
+    },
+    {
+      "id": "gib-mlt",
+      "competition": "UEFA Nations League D, Group 1",
+      "kickoff": "2026-11-16T19:45:00Z",
+      "venue": "Europa Point Stadium, Gibraltar",
+      "neutral": false,
+      "home": {
+        "name": "Gibraltar",
+        "short": "Gibraltar",
+        "code": "GIB"
+      },
+      "away": {
+        "name": "Malta",
+        "short": "Malta",
+        "code": "MLT"
+      },
+      "context": "Malta lead Group D1 with 7 points from three games (W2 D1, goals 4-2) and are already sure of first place: Andorra have finished on 4 points and Gibraltar can reach at most 5. Gibraltar have 2 points (D2 L1, goals 1-3). A win would lift them above Andorra into second, and a draw or a defeat leaves them third. The reverse fixture in Malta on 1 October ended 1-1, with Joseph Mbong scoring on 53 minutes and James Scanlon equalising on 61. On 13 November Gibraltar lost 2-0 in Andorra. Malta had no group game that week and drew 1-1 with Eswatini in a friendly on 12 November. Gibraltar have scored once in three group games and have not won.",
+      "referee": {
+        "name": "Balázs Berke",
+        "country": "HUN",
+        "note": "Named by starting11.com and 365scores. statz.ai has no page for this match and no UEFA match report with his figures was found, so games, yellows, fouls and reds are left out and the engine uses its 4.1 yellow-card prior. The sources do not state his nationality; he is a Hungarian FIFA referee. Team yellow-card averages are counted from KickOff's squad tables for this Nations League campaign (3 games each side: Gibraltar 6 cards, Malta 4). Those tables list only 11 players per side, so the averages are minimums. Graeme Torrilla, suspended in Andorra, is not in Gibraltar's table."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (16 Nov, matchday; the page shows no odds timestamp), fractions converted. Cross-check: the bettingodds.com comparison (bookmakers not named) has Gibraltar at 5/1 to 15/2, the draw at 13/5 to 16/5 and Malta at 2/5 to 40/85, in line with bet365's 7/1, 14/5 and 12/25. No second source for O/U 2.5 or BTTS could be read: 22Bet blocks fetching, and the Oddspedia, Footboom and DailySports pages failed to load. No bet365 scorer, corner, card, Asian handicap or player-prop prices are listed, and statz.ai has no page for this match.",
+        "h": 8.0,
+        "d": 3.8,
+        "a": 1.48,
+        "ou": {
+          "0.5": [
+            1.08,
+            7.0
+          ],
+          "1.5": [
+            1.44,
+            2.63
+          ],
+          "2.5": [
+            2.35,
+            1.57
+          ],
+          "3.5": [
+            4.33,
+            1.2
+          ],
+          "4.5": [
+            8.0,
+            1.06
+          ],
+          "5.5": [
+            12.0,
+            1.02
+          ]
+        },
+        "btts": [
+          2.63,
+          1.44
+        ],
+        "dc": {
+          "1X": 2.63,
+          "12": 1.25,
+          "X2": 1.06
+        },
+        "dnb": {
+          "home": 5.5,
+          "away": 1.13
+        },
+        "wtn": {
+          "home": 11.0,
+          "away": 1.91
+        },
+        "firstGoal": {
+          "home": 3.75,
+          "away": 1.44
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 0.8,
+          "ga": 1.8,
+          "xgf": 0.4,
+          "xga": 2.7
+        },
+        "away": {
+          "gf": 0.9,
+          "ga": 1.5,
+          "xgf": 1.2,
+          "xga": 1.8
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 0.33,
+          "ga": 1.0
+        },
+        "away": {
+          "gf": 1.33,
+          "ga": 0.67
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 2.0
+        },
+        "away": {
+          "yellowsPg": 1.33
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "No predicted XI has been published. KickOff and starting11.com say line-ups will appear about an hour before kick-off. statz.ai has no page for this match and no Sports Mole preview was found. starting11's Malta XI is only the 'most-used XI', not a prediction.",
+        "home": {
+          "formation": "",
+          "xi": []
+        },
+        "away": {
+          "formation": "",
+          "xi": []
+        },
+        "alt": "365scores shows a partial probable line-up. Gibraltar: Hankins in goal; Ronan, Valarino, Lopes and Annesley in defence; Borge and Richards in attack. Malta: Bonello in goal; Teuma, Azzopardi, Guillaumier and Camenzuli in midfield; Cardona, Chouaref, Mbong and Corbalan in attack. Gibraltar's XI in Andorra on 13 Nov, with Torrilla suspended, was Hankins; Richards, Lopes, Jolley, Valarino; Ronan, Pozo, Bent; Scanlon, Borge, De Barr. Malta's XI in the 1-1 draw with Gibraltar on 1 Oct was Bonello; Corbalan, Shaw, Pepe, Camenzuli; Guillaumier, Satariano, Mbong, Teuma, Chouaref; Cardona. In the 12 Nov friendly with Eswatini, De Leo used a rotated side: Sissons; Muscat, Shaw, Mentz, Beerman; Guillaumier, Satariano, Cannavò, Ewurum, Paul Mbong; Andrea Zammit."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Head coach Scott Wiseman said the defeat in Andorra was disappointing but that Gibraltar could not expect to win every game against teams like Andorra. Graeme Torrilla said the result had hurt the players. Monday's game against Malta is Gibraltar's last in the group.",
+          "src": "Gibraltar Chronicle (15 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Graeme Torrilla was suspended for the 2-0 defeat in Andorra after starting the reverse fixture in Malta. No source says whether he returns to the XI.",
+          "src": "13 Nov line-ups (FotMob) / VAVEL"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Gibraltar have one goal in three group games, Scanlon's equaliser in Malta, and have failed to score in their other two.",
+          "src": "FotMob / 365scores / VAVEL"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "starting11.com lists Henry Bonello, Juan Corbalan and Joseph Mbong as 'no longer available' (tagged 'left the club'). None of the three started against Eswatini. No other source confirms they are missing, and 365scores still has all three in its probable line-up.",
+          "src": "starting11.com / 365scores"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Malta drew 1-1 with Eswatini in a friendly on 12 Nov with a rotated XI. starting11 rates Malta's selection as 'Rotates', with 32% of the XI kept over the last five games. Emilio De Leo (Italy) has been head coach since March 2025.",
+          "src": "FotMob / starting11.com"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "James Scanlon",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 1,
+            "note": "Goals cover this Nations League campaign (3 games). He scored Gibraltar's only goal of the campaign, the 61st-minute equaliser in Malta on 1 Oct (VAVEL), and started in Andorra on 13 Nov. No shot counts or per-90s found."
+          },
+          {
+            "name": "Tjay De Barr",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "Started all three group games (KickOff: 3 apps) and the 2-0 defeat in Andorra. He has 2 cards in the campaign, the most of any Gibraltar player. No shot counts or per-90s found."
+          },
+          {
+            "name": "Dylan Borge",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "Started in Andorra on 13 Nov and has 2 group appearances (KickOff). 365scores has him in attack in its probable line-up."
+          },
+          {
+            "name": "Dan Bent",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "3 group appearances and 1 card (KickOff, which lists him as a defender). Played in midfield in Andorra. 21 duels won in the campaign."
+          },
+          {
+            "name": "Kian Ronan",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "3 group appearances with 7 tackles (KickOff, listed as a defender). Started in Andorra."
+          },
+          {
+            "name": "Graeme Torrilla",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "Started the 1-1 draw in Malta and was suspended in Andorra. He was quoted by the Chronicle after that game. No source confirms whether he starts."
+          }
+        ],
+        "away": [
+          {
+            "name": "Teddy Teuma",
+            "pos": "AM",
+            "start": 0.75,
+            "goals": 2,
+            "assists": 1,
+            "note": "Goals and assists cover this Nations League campaign (3 games), with 6 shots on target (KickOff). Malta's top scorer in the group. No total shots or per-90s found."
+          },
+          {
+            "name": "Irvin Cardona",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 1,
+            "assists": 1,
+            "note": "Goals and assists cover this Nations League campaign (3 games), with 2 shots on target (KickOff). Started up front in the 1-1 draw with Gibraltar."
+          },
+          {
+            "name": "Ilyas Chouaref",
+            "pos": "AM",
+            "start": 0.75,
+            "assists": 2,
+            "pens": true,
+            "note": "2 assists and 2 shots on target in 3 group games, and Malta's leader in duels won (34), per KickOff. He took Malta's one penalty of the campaign and missed it (starting11). FotMob rates him Malta's best player (7.92)."
+          },
+          {
+            "name": "Joseph Mbong",
+            "pos": "AM",
+            "start": 0.6,
+            "goals": 1,
+            "note": "Goals cover this Nations League campaign (2 appearances), with 4 shots on target (KickOff). He scored in the 1-1 draw with Gibraltar. starting11 lists him as 'no longer available', which no other source confirms, so start is lowered."
+          },
+          {
+            "name": "Matthew Guillaumier",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "Started the 1-1 draw with Gibraltar and the 12 Nov friendly with Eswatini. 2 group appearances (KickOff)."
+          },
+          {
+            "name": "Ryan Camenzuli",
+            "pos": "DF",
+            "start": 0.75,
+            "note": "3 group appearances with 9 tackles and 2 shots on target (KickOff). Left-back in the 1-1 draw with Gibraltar."
+          },
+          {
+            "name": "Alexander Satariano",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "Started the 1-1 draw with Gibraltar and the friendly with Eswatini. starting11 lists him with 4 starts in Malta's last five official games, joint most."
+          }
+        ]
+      },
+      "benchmarks": {
+        "kickoff": {
+          "h": 0.12,
+          "d": 0.22,
+          "a": 0.66
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Gibraltar v Malta odds & stats",
+          "url": "https://www.kickoff.co.uk/uefa-nations-league-predictions-stats-odds/gibraltar-vs-malta/"
+        },
+        {
+          "title": "Starting11: Gibraltar vs Malta (kick-off, venue, referee)",
+          "url": "https://starting11.com/fixtures/gibraltar-vs-malta"
+        },
+        {
+          "title": "Starting11: Malta line-ups and results",
+          "url": "https://starting11.com/malta"
+        },
+        {
+          "title": "365Scores: Gibraltar vs Malta (venue, referee, probable line-ups, table)",
+          "url": "https://www.365scores.com/football/match/uefa-nations-league-7016/gibraltar-malta-5035-12775-7016"
+        },
+        {
+          "title": "FotMob: Malta team page (Group D1 table, results, top players)",
+          "url": "https://www.fotmob.com/teams/8495"
+        },
+        {
+          "title": "BettingOdds.com: Gibraltar vs Malta odds comparison",
+          "url": "https://www.bettingodds.com/football/uefa-nations-league/16-11-2026/gibraltar-vs-malta"
+        },
+        {
+          "title": "Gibraltar Chronicle: Wiseman and Torrilla acknowledge hurt and disappointment following Andorra defeat",
+          "url": "https://www.chronicle.gi/wiseman-and-torrilla-acknowledge-hurt-and-disappointment-following-andorra-defeat-as-focus-turns-to-malta/"
+        },
+        {
+          "title": "VAVEL: Malta 1-1 Gibraltar (reverse fixture)",
+          "url": "https://www.vavel.com/en-us/soccer/2026/10/01/1273525-malta-vs-gibraltar-live-score-uefa-nations-league.html"
+        },
+        {
+          "title": "UEFA: Gibraltar Nations League fixtures",
+          "url": "https://www.uefa.com/uefanationsleague/teams/94080--gibraltar/matches/"
+        }
+      ]
+    }
+  ]
+}

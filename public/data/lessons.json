@@ -2,6 +2,13 @@
   "note": "Changes to the model or the data process, each tied to the graded result or data problem that prompted it. Newest first.",
   "lessons": [
     {
+      "date": "2026-11-16",
+      "area": "Grading",
+      "kind": "data",
+      "saw": "On 15 Nov, ESPN's player stats and player game logs gave complete shot, shot-on-target and fouls-committed lines, which settled 24 of the 48 priced props (16 won). The 16 tackle props for players who played stayed ungraded because ESPN only lists 'defensive interventions' and Sofascore would not load. Latvia v Armenia's ESPN pages only loaded as a 32nd-minute snapshot, so its 4 props were left out even though two of them showed as landed.",
+      "change": "Shot, shot-on-target and foul props are graded from ESPN's player stats and game logs, after checking that the player rows add up to the team totals. Tackle props stay ungraded until a full per-player source is found. When a match's pages only load as an in-game snapshot, all of its props are left out, wins and losses alike, so the track record isn't tilted toward props that landed early."
+    },
+    {
       "date": "2026-11-15",
       "area": "Grading",
       "kind": "data",
