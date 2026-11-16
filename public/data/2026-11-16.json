@@ -1,8 +1,8 @@
 {
   "date": "2026-11-16",
   "title": "Nations League, matchday 6",
-  "updated": "2026-11-16T13:52:35.470Z",
-  "updateNote": "16:00 games: suspended Iovu (MDA), Danielsen (FRO) and Valjent (SVK) taken out of the predicted XIs at 15:00; confirmed XIs to follow. Morning update: all ten UEFA Nations League matchday-6 games on Monday. League C Group 3 at 16:00 (Faroe Islands v Moldova, Kazakhstan v Slovakia), League C Group 4 and League D Group 2 at 18:00 (Estonia v Bulgaria, Iceland v Luxembourg, Lithuania v Liechtenstein), then League A Group 2 (Germany v Netherlands, Greece v Serbia), League B Group 1 (Switzerland v Scotland, North Macedonia v Slovenia) and League D Group 1 (Gibraltar v Malta) at 20:45. Predicted XIs where previews publish them; North Macedonia v Slovenia, Gibraltar v Malta and Lithuania v Liechtenstein wait for the team sheets. The kick-off-minus-40 runs confirm the XIs and refresh the odds.",
+  "updated": "2026-11-16T13:55:45.774Z",
+  "updateNote": "15:00: Kazakhstan–Slovakia lineups confirmed (Slovakia make nine changes); Faroe Islands–Moldova benches confirmed, full XIs to follow. League C Group 3 at 16:00 (Faroe Islands v Moldova, Kazakhstan v Slovakia), League C Group 4 and League D Group 2 at 18:00 (Estonia v Bulgaria, Iceland v Luxembourg, Lithuania v Liechtenstein), then League A Group 2 (Germany v Netherlands, Greece v Serbia), League B Group 1 (Switzerland v Scotland, North Macedonia v Slovenia) and League D Group 1 (Gibraltar v Malta) at 20:45. Predicted XIs where previews publish them; North Macedonia v Slovenia, Gibraltar v Malta and Lithuania v Liechtenstein wait for the team sheets. The kick-off-minus-40 runs confirm the XIs and refresh the odds.",
   "matches": [
     {
       "id": "fro-mda",
@@ -124,43 +124,69 @@
         }
       },
       "lineups": {
-        "status": "predicted",
-        "source": "statz.ai match page (16 Nov), which switches to confirmed teams about an hour before kick-off. starting11.com shows position slots only, with no names.",
+        "status": "pending",
+        "source": "Benches from the official team sheet (user screenshot, 14:52); full XIs to follow",
         "home": {
           "formation": "5-4-1",
           "xi": [
             "Mattias Lamhauge",
-            "Benjaminsen",
             "Odmar Færø",
             "Gunnar Vatnhamar",
             "Andrias Edmundsson",
-            "Viljormur Davidsen",
-            "Meinhard Olsen",
             "Géza Dávid Turi",
+            "Hanus Sørensen"
+          ],
+          "bench": [
             "Jákup Andreasen",
-            "Hanus Sørensen",
-            "Petur Knudsen"
+            "A. Benjaminsen",
+            "S. Chukwudi",
+            "A. Dam",
+            "Viljormur Davidsen",
+            "Mattias Hellisdal",
+            "Poul Kallsberg",
+            "Petur Knudsen",
+            "Meinhard Olsen",
+            "A. Petersen",
+            "B. Reynatrod",
+            "A. Svensson"
           ]
         },
         "away": {
           "formation": "5-3-2",
           "xi": [
-            "Dumitru Celeadnic",
             "Oleg Reabciuk",
             "Mihail Gherasimencov",
-            "Mihail Ștefan",
             "Vladislav Baboglo",
             "Ioan-Călin Revenco",
             "Sergiu Perciun",
-            "Vadim Rață",
             "Vladimir Fratea",
             "Petru Popescu",
             "Nicky Clescenco"
+          ],
+          "bench": [
+            "A. Betivu",
+            "Dumitru Celeadnic",
+            "S. Cojocari",
+            "C. Cucos",
+            "O. David",
+            "Denis Dumbravanu",
+            "Dan Forov",
+            "D. Marandici",
+            "Vadim Rață",
+            "Mihail Ștefan",
+            "Victor Stînă",
+            "E. Timbur"
           ]
         },
-        "alt": "Faroes: statz.ai's XI is the side that drew 2-2 in Košice on 13 Nov, with Meinhard Olsen in for Áki Samuelsen; that team was listed as a 3-4-3 with the same back three. starting11.com says the Faroes rotate (64% of the XI kept over the last five games), while Moldova are settled (82%, and the same XI three games running). Moldova's 13 Nov XI was not found, so statz.ai's 5-3-2 could not be checked against it. Nichita Moțpan, who made a tackle in each of Moldova's last five games, is not in it."
+        "alt": "Big Faroese rotation: Davidsen, Knudsen, Olsen and Andreasen are on the bench. Moldova bench Celeadnic (GK), Rață, Ștefan, Stînă and Forov. Confirmed starters so far: Vatnhamar (FRO), Revenco (MDA)."
       },
       "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Team sheet: Petur Knudsen, Meinhard Olsen, Viljormur Davidsen and Jákup Andreasen all start on the bench. Engine attack factor 0.92.",
+          "src": "Team sheet (user screenshot)"
+        },
         {
           "team": "home",
           "tag": "out",
@@ -203,10 +229,10 @@
           {
             "name": "Petur Knudsen",
             "pos": "FW",
-            "start": 0.8,
+            "start": 0,
             "shots": 12,
             "goals": 2,
-            "note": "Shots and goals cover the Faroes' last 10 games (statz.ai), with 5 on target, all team highs; also 8 fouls. A shot in each of his last five games, 2.2 a game (statz.ai preview). Started in Košice and is in the predicted XI. No per-90s found."
+            "note": "On the bench"
           },
           {
             "name": "Áki Samuelsen",
@@ -219,8 +245,8 @@
           {
             "name": "Meinhard Olsen",
             "pos": "FW",
-            "start": 0.6,
-            "note": "In statz.ai's predicted XI in place of Samuelsen; did not start on 13 Nov. Most assists in KickOff's Faroes squad stats (5)."
+            "start": 0,
+            "note": "On the bench"
           },
           {
             "name": "Géza Dávid Turi",
@@ -239,10 +265,10 @@
           {
             "name": "Viljormur Davidsen",
             "pos": "DF",
-            "start": 0.8,
+            "start": 0,
             "goals": 2,
             "pens": true,
-            "note": "Goals cover the Faroes' last 10 games (statz.ai). Scored the penalty in the 1-1 in Chișinău. Most appearances (88) and goals (8) in KickOff's Faroes squad stats."
+            "note": "On the bench"
           }
         ],
         "away": [
@@ -279,8 +305,8 @@
           {
             "name": "Vadim Rață",
             "pos": "MF",
-            "start": 0.75,
-            "note": "In the predicted XI. 7 appearances in 2026 with 8 tackles, 5 fouls and 1 shot (statz.ai team page)."
+            "start": 0,
+            "note": "On the bench"
           },
           {
             "name": "Nichita Moțpan",
@@ -377,7 +403,10 @@
           "title": "Bes.media: Kazakhstan 1-2 Moldova (2 Oct)",
           "url": "https://bes.media/news/kazahstan-proigral-moldove-v-matche-ligi-natsiy/"
         }
-      ]
+      ],
+      "adjust": {
+        "home": 0.92
+      }
     },
     {
       "id": "kaz-svk",
@@ -500,43 +529,51 @@
         "note": "Yellow cards per game come from the statz.ai team pages for calendar year 2026, covering the 8 games with card data (Slovakia: 12 yellows). The statz.ai match page gives no team card averages. KickOff lists 5 Slovakia yellows in this Nations League campaign (1.0 per game). Kazakhstan had 19 fouls and 2 yellows in Moldova, plus Samorodov's second yellow."
       },
       "lineups": {
-        "status": "predicted",
-        "source": "statz.ai predicted XIs (match page, 16 Nov). Slovakia's predicted XI is the same as the one that started the 2-2 draw with the Faroes on 13 Nov. Neither Sports Mole nor the Slovak press had a published predicted XI for this game.",
+        "status": "confirmed",
+        "source": "Official team sheets via the user’s live-score app (screenshot, 14:52)",
         "home": {
-          "formation": "5-3-2",
+          "formation": "",
           "xi": [
             "Stas Pokatilov",
-            "Alexandr Mrynskiy",
-            "Alibek Kasym",
-            "Temirlan Yerlanov",
             "Nuraly Alip",
-            "Nauryzbek Zhagorov",
-            "Zhassulan Amir",
+            "A. Ashirbek",
+            "Islam Chesnokov",
+            "Bauyrzhan Islamkhan",
             "Dinmukhamed Karaman",
-            "Ramazan Orazov",
-            "Azamat Tuyakbayev",
-            "Islam Chesnokov"
-          ]
+            "Galymzhan Kenzhebek",
+            "Sergei Malyy",
+            "Erkin Tapalov",
+            "Yan Vorogovskiy",
+            "A. Zhumakhanov"
+          ],
+          "bench": []
         },
         "away": {
-          "formation": "4-2-3-1",
+          "formation": "",
           "xi": [
-            "Dominik Greif",
+            "Marek Rodák",
             "Tobiáš Pališčák",
             "Ľubomír Šatka",
-            "Milan Škriniar",
-            "Dávid Hancko",
-            "Ľudovít Reis",
-            "Ondrej Duda",
+            "Ivan Mesík",
+            "Dávid Krčík",
+            "Peter Pokorný",
+            "Tomáš Rigo",
+            "S. Nebyla",
             "Lukáš Haraslín",
-            "Albert Rusnák",
             "Erik Prekop",
-            "Dávid Strelec"
-          ]
+            "Róbert Boženík"
+          ],
+          "bench": []
         },
-        "alt": "Slovakia: the Slovak press listed the same XI as a 4-3-3 on 13 Nov. With the group already won, Starting11 expects both sides to rotate (Slovakia have kept 55% of their XI over the last five games, Kazakhstan 39%). Martin Dúbravka, Tomáš Suslov, Stanislav Lobotka and Adam Obert started the September win over Kazakhstan, and Tomáš Bobček and Róbert Boženík came off the bench. Kazakhstan: statz.ai leaves out the suspended Samorodov and also Islambek Kuat, Yan Vorogovskiy and Galymzhan Kenzhebek, who were all in the squad used in Moldova. Sergei Malyy is available again after a ban but is not in the statz.ai XI. Sports Mole's predicted XI for the Moldova game was Pokatilov; Alip, Kassym, Zhagorov, Tapalov; Ashirbek, Kuat, Zhukov, Amir; Kenzhebek, Karimov. Player names follow the UEFA team sheets (statz.ai spells them Aleksandr Mrynskiy, Temirlan Erlanov, Zhasulan Amir and Azamat Tuyakbaev)."
+        "alt": "Slovakia rotate heavily with the group already won: Škriniar, Hancko, Duda, Greif and Bero rested (coach’s decision); Dúbravka, Lobotka, Obert, Sauer and Suslov injured; Schranz inactive; Valjent suspended. Strelec is not in the XI. Kazakhstan: Samorodov suspended (red card), Satpaev inactive; Islamkhan captains, Kenzhebek, Malyy and Vorogovskiy start."
       },
       "news": [
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Confirmed XI: nine changes. Škriniar, Hancko, Duda, Greif and Bero rested; Dúbravka, Lobotka, Obert, Sauer, Suslov injured; Strelec not in the XI. Engine attack factor 0.90.",
+          "src": "Team sheet (user screenshot)"
+        },
         {
           "team": "away",
           "tag": "out",
@@ -585,67 +622,77 @@
           {
             "name": "Nuraly Alip",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "goals": 2,
             "note": "Goals cover this Nations League campaign (KickOff: 5 starts, 2 goals, 3 shots on target, the most for Kazakhstan). He scored against Moldova on 2 Oct. statz.ai: a tackle in 5 straight games, 2.4 per game. No per-90s found."
           },
           {
             "name": "Islam Chesnokov",
             "pos": "FW",
-            "start": 0.75,
+            "start": 1,
             "goals": 1,
             "note": "Goal: scored in Moldova on 13 Nov (51', assisted by Ramazan Orazov), per Sportmail.ru. 2 shots on target in Kazakhstan's last 10 games (statz.ai). In the statz.ai XI. No per-90s found."
           },
           {
             "name": "Ramazan Orazov",
             "pos": "MF",
-            "start": 0.75,
+            "start": 0,
             "note": "10 fouls in Kazakhstan's last 10 games, the most in the squad (statz.ai). He set up Chesnokov's goal in Moldova. In the statz.ai XI. No per-90s found."
           },
           {
             "name": "Alexandr Mrynskiy",
             "pos": "DF",
-            "start": 0.75,
+            "start": 0,
             "note": "Used in Moldova on 13 Nov and in the statz.ai XI. The statz.ai match page lists 1+ fouls at 1.50 (bet365) with an 80% hit rate but does not say over how many games, so no hit is recorded. He is not among Kazakhstan's top three foulers over the last 10 games (Orazov 10, Samorodov 9, Vorogovskiy 7). No statz.ai player page or per-90s found."
           },
           {
             "name": "Dinmukhamed Karaman",
             "pos": "MF",
-            "start": 0.75,
+            "start": 1,
             "note": "13 tackles in this Nations League campaign, the most for Kazakhstan (KickOff). In the statz.ai XI. No per-90s found."
           },
           {
             "name": "Zhassulan Amir",
             "pos": "MF",
-            "start": 0.75,
+            "start": 0,
             "note": "1 assist in this Nations League campaign (KickOff). In the statz.ai XI."
           },
           {
             "name": "Galymzhan Kenzhebek",
             "pos": "FW",
-            "start": 0.4,
+            "start": 1,
             "shots": 11,
             "note": "Shots cover Kazakhstan's last 10 games (statz.ai), the most in the squad, with 2 on target and 3 yellow cards. Not in the statz.ai XI, but Sports Mole expected him to start in Moldova."
           },
           {
             "name": "Sergei Malyy",
             "pos": "DF",
-            "start": 0.4,
+            "start": 1,
             "goals": 2,
             "note": "Goals cover Kazakhstan's last 10 games (statz.ai). He is back from a one-match ban but not in the statz.ai XI."
           },
           {
             "name": "Bauyrzhan Islamkhan",
             "pos": "AM",
-            "start": 0.3,
+            "start": 1,
             "note": "statz.ai: a shot in each of his last 3 games (1.3 per game). In the squad but not in the statz.ai XI."
+          },
+          {
+            "name": "Yan Vorogovskiy",
+            "pos": "DF",
+            "start": 1
+          },
+          {
+            "name": "Erkin Tapalov",
+            "pos": "DF",
+            "start": 1
           }
         ],
         "away": [
           {
             "name": "Lukáš Haraslín",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "shots": 19,
             "goals": 4,
             "note": "Shots and goals cover Slovakia's 9 games in 2026 (statz.ai team page), with 8 on target and 10 tackles. In this Nations League campaign: 2 goals, 6 shots on target and 1 assist (KickOff). statz.ai: a shot in 5 straight games (3 per game) and a tackle in each of them. No per-90s found."
@@ -653,7 +700,7 @@
           {
             "name": "Dávid Hancko",
             "pos": "DF",
-            "start": 0.85,
+            "start": 0,
             "shots": 15,
             "goals": 2,
             "note": "Shots and goals cover Slovakia's 9 games in 2026 (statz.ai team page), with 4 on target. The statz.ai match page has 18 shots over the last 10 games. 4 big chances in the Nations League (KickOff). No per-90s found."
@@ -661,7 +708,7 @@
           {
             "name": "Dávid Strelec",
             "pos": "FW",
-            "start": 0.8,
+            "start": 0,
             "shots": 10,
             "goals": 3,
             "note": "Shots and goals cover Slovakia's 9 games in 2026 (statz.ai team page), with 6 on target and 6 fouls in 8 games. Booked against Kazakhstan in September. No per-90s found."
@@ -669,20 +716,20 @@
           {
             "name": "Milan Škriniar",
             "pos": "DF",
-            "start": 0.85,
+            "start": 0,
             "shots": 7,
             "note": "Shots cover Slovakia's 9 games in 2026 (statz.ai team page). Captain. 11 tackles in 2026, the most for Slovakia. statz.ai: a tackle in 5 straight games (2.2 per game) and a shot in 4 straight. No per-90s found."
           },
           {
             "name": "Ondrej Duda",
             "pos": "AM",
-            "start": 0.8,
+            "start": 0,
             "note": "Started every Nations League game (KickOff: 5 starts, 1 assist). 2 yellow cards in 2026."
           },
           {
             "name": "Erik Prekop",
             "pos": "FW",
-            "start": 0.7,
+            "start": 1,
             "goals": 1,
             "note": "Goal covers Slovakia's 9 games in 2026 (statz.ai). Started against the Faroes on 13 Nov and is in the statz.ai XI."
           },
@@ -695,15 +742,30 @@
           {
             "name": "Tomáš Suslov",
             "pos": "AM",
-            "start": 0.4,
+            "start": 0,
             "shots": 9,
             "note": "Shots cover Slovakia's 9 games in 2026 (statz.ai team page). statz.ai: a shot in 4 straight games (2 per game). On the bench against the Faroes."
           },
           {
             "name": "Róbert Boženík",
             "pos": "FW",
-            "start": 0.35,
+            "start": 1,
             "note": "statz.ai: a shot in 3 straight games (1.3 per game) and 6 fouls in 4 games in 2026. On the bench against the Faroes."
+          },
+          {
+            "name": "Tomáš Rigo",
+            "pos": "MF",
+            "start": 1
+          },
+          {
+            "name": "S. Nebyla",
+            "pos": "MF",
+            "start": 1
+          },
+          {
+            "name": "Ivan Mesík",
+            "pos": "DF",
+            "start": 1
           }
         ]
       },
@@ -803,7 +865,10 @@
           "title": "Bes.media: Kazakhstan 1-2 Moldova, 2 Oct",
           "url": "https://bes.media/news/kazahstan-proigral-moldove-v-matche-ligi-natsiy/"
         }
-      ]
+      ],
+      "adjust": {
+        "away": 0.9
+      }
     },
     {
       "id": "est-bul",
