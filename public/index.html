@@ -207,6 +207,7 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
 .nobet { font-weight: 600; color: var(--warn); }
 .track td.r b { font-weight: 600; }
 @media (max-width: 860px) { .lout { grid-template-columns: minmax(0, 1fr); } }
+.track tr.subrow td:first-child { padding-left: 22px; color: var(--muted); }
 .err { background: var(--bad-bg); color: var(--bad); padding: 14px 16px; border-radius: 8px; margin-top: 20px; }
 
 @media (max-width: 860px) {
@@ -573,11 +574,16 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
   // ---------- track record ----------
   function trackRecord(rec) {
     if (!rec || !rec.legs || !rec.legs.length) return "";
-    var g = E.trackStats(rec.legs), keys = Object.keys(g).sort(function (a, b) { return g[b].n - g[a].n; });
+    var g = E.trackStats(rec.legs), keys = [];
+    Object.keys(g).filter(function (k) { return !g[k].sub; }).sort(function (a, b) { return g[b].n - g[a].n; }).forEach(function (k) {
+      keys.push(k);
+      Object.keys(g).filter(function (s) { return g[s].sub && s.indexOf(k + ": ") === 0; }).sort(function (a, b) { return g[b].n - g[a].n; }).forEach(function (s) { keys.push(s); });
+    });
     var all = rec.legs.filter(function (l) { return l.won != null; }), wins = all.filter(function (l) { return l.won; }).length;
     var rows = keys.map(function (k) {
       var s = g[k], diff = s.hit - s.meanP;
-      return "<tr><td>" + esc(k) + '<div class="resp show-sm">' + response(k, true) + "</div>" + '</td><td class="r num">' + s.wins + "/" + s.n + '</td><td class="r num">' + pct(s.meanP) + '</td><td class="r num"><b style="color:var(' + (diff >= 0 ? "--good" : "--bad") + ')">' + pct(s.hit) + '</b></td><td class="r num">' + (s.roi == null ? "–" : (s.roi >= 0 ? "+" : "") + (s.roi * 100).toFixed(0) + "%") + '</td><td class="resp hide-sm">' + response(k) + "</td></tr>";
+      var label = s.sub ? "↳ " + k.split(": ")[1] : k;
+      return "<tr" + (s.sub ? ' class="subrow"' : "") + "><td>" + esc(label) + '<div class="resp show-sm">' + response(k, true) + "</div>" + '</td><td class="r num">' + s.wins + "/" + s.n + '</td><td class="r num">' + pct(s.meanP) + '</td><td class="r num"><b style="color:var(' + (diff >= 0 ? "--good" : "--bad") + ')">' + pct(s.hit) + '</b></td><td class="r num">' + (s.roi == null ? "–" : (s.roi >= 0 ? "+" : "") + (s.roi * 100).toFixed(0) + "%") + '</td><td class="resp hide-sm">' + response(k) + "</td></tr>";
     }).join("");
     var days = {}; rec.legs.forEach(function (l) { days[l.date] = 1; });
     return '<div class="section-title" id="track"><h2>Track record</h2><p>' + wins + " of " + all.length + " graded picks landed over " + plural(Object.keys(days).length, "day") + ". Markets that land less often than the model said get their chances trimmed automatically.</p></div>" +

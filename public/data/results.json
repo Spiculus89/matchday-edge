@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T09:09:29.000Z",
+  "updated": "2026-11-17T22:27:49.037Z",
   "note": "Every graded pick shown on the site. p = the chance shown at the time (bookmaker-implied for player props, which had no model then).",
   "legs": [
     {
@@ -1333,6 +1333,96 @@
       "p": 0.47,
       "odds": null,
       "won": false
+    },
+    {
+      "date": "2026-11-17",
+      "match": "den-nor",
+      "group": "BTTS",
+      "pick": "Both teams to score (best bet)",
+      "p": 0.683,
+      "odds": 1.44,
+      "won": true
+    },
+    {
+      "date": "2026-11-17",
+      "match": "wal-por",
+      "group": "Bet builder",
+      "pick": "Portugal to win + Over 2.5 goals",
+      "p": 0.463,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-17",
+      "match": "hun-nir",
+      "group": "Double chance",
+      "pick": "N. Ireland or draw (best bet)",
+      "p": 0.545,
+      "odds": 1.83,
+      "won": true
+    },
+    {
+      "date": "2026-11-17",
+      "match": "hun-nir",
+      "group": "Bet builder",
+      "pick": "Hungary or draw + Over 1.5 goals",
+      "p": 0.487,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-17",
+      "match": "ukr-geo",
+      "group": "Double chance",
+      "pick": "Georgia or draw (best bet)",
+      "p": 0.593,
+      "odds": 1.67,
+      "won": false
+    },
+    {
+      "date": "2026-11-17",
+      "match": "ukr-geo",
+      "group": "Bet builder",
+      "pick": "Under 3.5 goals + BTTS: No",
+      "p": 0.494,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-17",
+      "match": "irl-kos",
+      "group": "Bet builder",
+      "pick": "Ireland or draw + Over 1.5 goals",
+      "p": 0.486,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-17",
+      "match": "isr-aut",
+      "group": "Bet builder",
+      "pick": "Austria or draw + Under 3.5 goals",
+      "p": 0.526,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-17",
+      "match": "bih-rou",
+      "group": "BTTS",
+      "pick": "Both teams to score (best bet)",
+      "p": 0.566,
+      "odds": 1.73,
+      "won": true
+    },
+    {
+      "date": "2026-11-17",
+      "match": "bih-rou",
+      "group": "Bet builder",
+      "pick": "Bosnia or draw + Under 3.5 goals",
+      "p": 0.503,
+      "odds": null,
+      "won": true
     }
   ]
 }

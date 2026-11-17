@@ -2,6 +2,13 @@
   "note": "Changes to the model or the data process, each tied to the graded result or data problem that prompted it. Newest first.",
   "lessons": [
     {
+      "date": "2026-11-17",
+      "area": "Player props",
+      "kind": "model",
+      "saw": "After 61 graded props the lumped \"Player prop\" line looked fine (61% predicted, 59% landed), but it hid opposite errors: shots props landed 18/27 (67%) against 60% predicted, while shots-on-target props landed 11/20 (55%) against 65% and fouls 6/13 (46%) against 57%. On 17 Nov the user's own low-line shot legs (Scales 1+ shot, Vitinha 1+ on target) landed again.",
+      "change": "Props are now also tracked per stat (shots, shots on target, fouls, tackles). Once a stat has 8 graded props it gets its own calibration, so shots props are stretched and on-target and foul props trimmed; until then the shared Player prop line is used. The track record shows the per-stat rows under Player prop."
+    },
+    {
       "date": "2026-11-16",
       "area": "Grading",
       "kind": "data",

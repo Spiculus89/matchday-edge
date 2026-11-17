@@ -304,9 +304,15 @@
     var g = {};
     (legs || []).forEach(function (l) {
       if (l.won == null || l.p == null || l.void) return;
-      var s = g[l.group] || (g[l.group] = { n: 0, wins: 0, sumP: 0, staked: 0, ret: 0 });
-      s.n++; s.wins += l.won ? 1 : 0; s.sumP += l.p;
-      if (l.odds) { s.staked++; s.ret += l.won ? l.odds : 0; }
+      var keys = [l.group];
+      // Props are also tracked per stat (17 Nov: shots props landed 67% against 60% predicted,
+      // shots on target 55% against 65%, fouls 46% against 57%: one lumped number hid both errors)
+      if (l.group === "Player prop") { var pp = parseProp(l.pick); if (pp) keys.push("Player prop: " + PROP_LABEL[pp.stat]); }
+      keys.forEach(function (key) {
+        var s = g[key] || (g[key] = { n: 0, wins: 0, sumP: 0, staked: 0, ret: 0, sub: key !== l.group });
+        s.n++; s.wins += l.won ? 1 : 0; s.sumP += l.p;
+        if (l.odds) { s.staked++; s.ret += l.won ? l.odds : 0; }
+      });
     });
     Object.keys(g).forEach(function (k) { var s = g[k]; s.hit = s.wins / s.n; s.meanP = s.sumP / s.n; s.roi = s.staked ? s.ret / s.staked - 1 : null; });
     return g;
@@ -328,6 +334,7 @@
   // ---------- player props (shots, shots on target, fouls, tackles) ----------
   // Bookmakers price "1+ shot on target" at 1.30 (needs 77%) for wingers who average under one
   // a game. Every prop now gets a model chance, and a prop is only a bet if that beats the price.
+  var PROP_LABEL = { shots: "shots", sot: "shots on target", fouls: "fouls", tackles: "tackles" };
   var PROP_PRIOR = {
     shots:   { FW: 2.5, AM: 1.8, MF: 1.0, DF: 0.55, GK: 0 },
     sot:     { FW: 0.95, AM: 0.65, MF: 0.33, DF: 0.17, GK: 0 },
@@ -363,7 +370,8 @@
     var p = nbAtLeast(pp.k, mu, pp.stat === "fouls" || pp.stat === "tackles" ? 6 : 4);
     var hit = /^(\d+)\/(\d+)$/.exec(prop.hit || "");
     if (hit) p = (p * 10 + +hit[1]) / (10 + +hit[2]); // last-5 hit rates are noisy: worth 5 games against 10 of model
-    p = calib("Player prop", p);
+    var sub = "Player prop: " + PROP_LABEL[pp.stat];
+    p = CAL[sub] && CAL[sub].n >= 8 ? calib(sub, p) : calib("Player prop", p);
     var ev = prop.odds ? p * prop.odds - 1 : null;
     return { player: prop.player, market: prop.market, odds: prop.odds || null, hitRate: prop.hit || null, p: p, fair: fair(p), ev: ev,
       need: prop.odds ? 1 / prop.odds : null, basis: basis, mean: mu,
