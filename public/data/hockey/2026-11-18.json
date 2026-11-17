@@ -1,0 +1,298 @@
+{
+  "date": "2026-11-18",
+  "updated": "2026-11-17T22:37:44.273Z",
+  "updateNote": "NHL, Tuesday night in North America (after midnight here). Puck lines and totals from BetMGM, moneylines from DraftKings where published; totals and puck lines include OT and the shootout.",
+  "games": [
+    {
+      "id": "ott-wpg",
+      "league": "NHL",
+      "start": "2026-11-18T01:00:00Z",
+      "venue": "Canada Life Centre, Winnipeg",
+      "home": {
+        "name": "Winnipeg Jets",
+        "short": "Jets",
+        "code": "WPG"
+      },
+      "away": {
+        "name": "Ottawa Senators",
+        "short": "Senators",
+        "code": "OTT"
+      },
+      "context": "Ottawa (13-6-2) are favourites in Winnipeg (10-8-3), and 95% of moneyline money is on them. Tim Stützle leads Ottawa with 25 points (11 goals). The total is a flat 6, so exactly six goals pushes.",
+      "odds": {
+        "book": "BetMGM",
+        "puck": {
+          "line": 1.5,
+          "h": 1.455,
+          "a": 2.8
+        },
+        "total": {
+          "line": 6,
+          "o": 1.87,
+          "u": 1.952
+        }
+      },
+      "form": {
+        "away": {
+          "gf": 3.14,
+          "ga": 2.91,
+          "games": 21
+        }
+      },
+      "players": {
+        "home": [],
+        "away": [
+          {
+            "name": "Tim Stützle",
+            "pos": "C",
+            "gp": 21,
+            "g": 11,
+            "a": 14
+          }
+        ]
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "BetMGM: Senators vs Jets",
+          "url": "https://sports.betmgm.com/en/blog/nhl/senators-jets-prediction-odds-picks-nov-17-2026-jaa/"
+        },
+        {
+          "title": "ESPN: Ottawa Senators team stats",
+          "url": "https://www.espn.com/nhl/team/_/name/ott/ottawa-senators"
+        }
+      ]
+    },
+    {
+      "id": "la-bos",
+      "league": "NHL",
+      "start": "2026-11-18T00:00:00Z",
+      "venue": "TD Garden, Boston",
+      "home": {
+        "name": "Boston Bruins",
+        "short": "Bruins",
+        "code": "BOS"
+      },
+      "away": {
+        "name": "Los Angeles Kings",
+        "short": "Kings",
+        "code": "LA"
+      },
+      "context": "Boston are favourites at home. The Kings have gone under the total in 16 of their last 25 road games.",
+      "odds": {
+        "book": "BetMGM",
+        "puck": {
+          "line": -1.5,
+          "h": 2.45,
+          "a": 1.571
+        },
+        "total": {
+          "line": 6,
+          "o": 1.909,
+          "u": 1.909
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "BetMGM: Kings vs Bruins",
+          "url": "https://sports.betmgm.com/en/blog/nhl/kings-bruins-prediction-odds-picks-nov-17-2026-jaa/"
+        }
+      ]
+    },
+    {
+      "id": "edm-fla",
+      "league": "NHL",
+      "start": "2026-11-18T00:00:00Z",
+      "venue": "Amerant Bank Arena, Sunrise",
+      "home": {
+        "name": "Florida Panthers",
+        "short": "Panthers",
+        "code": "FLA"
+      },
+      "away": {
+        "name": "Edmonton Oilers",
+        "short": "Oilers",
+        "code": "EDM"
+      },
+      "context": "A Stanley Cup Final rematch. Florida are favourites at home, while Edmonton have covered the puck line in 17 of their last 25 road games.",
+      "odds": {
+        "book": "BetMGM / DraftKings",
+        "puck": {
+          "line": -1.5,
+          "h": 2.9,
+          "a": 1.426
+        },
+        "total": {
+          "line": 6,
+          "o": 1.909,
+          "u": 1.909
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "BetMGM: Oilers vs Panthers",
+          "url": "https://sports.betmgm.com/en/blog/nhl/oilers-panthers-prediction-odds-picks-nov-17-2026-jaa/"
+        }
+      ]
+    },
+    {
+      "id": "wsh-tb",
+      "league": "NHL",
+      "start": "2026-11-18T00:00:00Z",
+      "venue": "Benchmark International Arena, Tampa",
+      "home": {
+        "name": "Tampa Bay Lightning",
+        "short": "Lightning",
+        "code": "TB"
+      },
+      "away": {
+        "name": "Washington Capitals",
+        "short": "Capitals",
+        "code": "WSH"
+      },
+      "context": "Tampa Bay have won 8 of their last 9 at home. The total is 6.5, one of only two on the slate above 6.",
+      "odds": {
+        "book": "BetMGM",
+        "puck": {
+          "line": -1.5,
+          "h": 2.45,
+          "a": 1.571
+        },
+        "total": {
+          "line": 6.5,
+          "o": 1.87,
+          "u": 1.952
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "BetMGM: Capitals vs Lightning",
+          "url": "https://sports.betmgm.com/en/blog/nhl/capitals-lightning-prediction-odds-picks-nov-17-2026-jaa/"
+        }
+      ]
+    },
+    {
+      "id": "tor-chi",
+      "league": "NHL",
+      "start": "2026-11-18T01:30:00Z",
+      "venue": "United Center, Chicago",
+      "home": {
+        "name": "Chicago Blackhawks",
+        "short": "Blackhawks",
+        "code": "CHI"
+      },
+      "away": {
+        "name": "Toronto Maple Leafs",
+        "short": "Maple Leafs",
+        "code": "TOR"
+      },
+      "context": "Toronto are road favourites and have gone over in 9 of their last 11 away games. Total 6.5.",
+      "odds": {
+        "book": "BetMGM",
+        "puck": {
+          "line": 1.5,
+          "h": 1.541,
+          "a": 2.5
+        },
+        "total": {
+          "line": 6.5,
+          "o": 1.909,
+          "u": 1.909
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "BetMGM: Maple Leafs vs Blackhawks",
+          "url": "https://sports.betmgm.com/en/blog/nhl/maple-leafs-blackhawks-prediction-odds-picks-nov-17-2026-jaa/"
+        }
+      ]
+    },
+    {
+      "id": "dal-vgk",
+      "league": "NHL",
+      "start": "2026-11-18T03:00:00Z",
+      "venue": "T-Mobile Arena, Las Vegas",
+      "home": {
+        "name": "Vegas Golden Knights",
+        "short": "Golden Knights",
+        "code": "VGK"
+      },
+      "away": {
+        "name": "Dallas Stars",
+        "short": "Stars",
+        "code": "DAL"
+      },
+      "context": "Vegas are favourites, but 92% of the moneyline money is on Dallas at +112. The lowest total on the slate: 5.5.",
+      "odds": {
+        "book": "Yahoo / BetMGM",
+        "ml": [
+          1.746,
+          2.12
+        ],
+        "puck": {
+          "line": -1.5,
+          "h": 2.9,
+          "a": 1.426
+        },
+        "total": {
+          "line": 5.5,
+          "o": 1.82,
+          "u": 2
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "Yahoo Sports: Stars vs Golden Knights",
+          "url": "https://sports.yahoo.com/articles/stars-vs-golden-knights-prediction-153945641.html"
+        },
+        {
+          "title": "DraftKings Network: NHL betting trends 17 Nov",
+          "url": "https://dknetwork.draftkings.com/2026/11/17/nhl-public-betting-trends-tuesday-november-17/"
+        }
+      ]
+    }
+  ]
+}

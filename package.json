@@ -9,6 +9,7 @@
   },
   "scripts": {
     "test": "node --test test/*.test.mjs",
-    "check": "node scripts/check.mjs"
+    "check": "node scripts/check.mjs",
+    "check-sport": "node scripts/check-sport.mjs"
   }
 }

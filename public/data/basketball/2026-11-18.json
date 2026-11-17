@@ -1,0 +1,481 @@
+{
+  "date": "2026-11-18",
+  "updated": "2026-11-17T22:37:44.273Z",
+  "updateNote": "NBA, Tuesday night in the US (after midnight here). Odds from DraftKings and FanDuel as of the afternoon; starters are confirmed about 30 minutes before tip-off.",
+  "games": [
+    {
+      "id": "nyk-tor",
+      "league": "NBA",
+      "start": "2026-11-18T00:30:00Z",
+      "venue": "Scotiabank Arena, Toronto",
+      "home": {
+        "name": "Toronto Raptors",
+        "short": "Raptors",
+        "code": "TOR"
+      },
+      "away": {
+        "name": "New York Knicks",
+        "short": "Knicks",
+        "code": "NYK"
+      },
+      "context": "Toronto (5-8) are without Kawhi Leonard (knee management) and Scottie Barnes is questionable with an illness. New York (7-6) have the league's third-best defence by points allowed. The public is all over the Over, but the line has stayed at 215.5.",
+      "odds": {
+        "book": "DraftKings",
+        "ml": [
+          2.25,
+          1.676
+        ],
+        "spread": {
+          "line": 2.5,
+          "h": 1.952,
+          "a": 1.87
+        },
+        "total": {
+          "line": 215.5,
+          "o": 1.952,
+          "u": 1.862
+        }
+      },
+      "form": {
+        "home": {
+          "pf": 113.8,
+          "pa": 112.8,
+          "games": 13
+        },
+        "away": {
+          "pf": 109.9,
+          "pa": 104,
+          "games": 13
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Scottie Barnes",
+            "pos": "F",
+            "pts": 24.2,
+            "reb": 7.8,
+            "ast": 5,
+            "status": "Questionable (illness)",
+            "start": 0.6
+          },
+          {
+            "name": "Kawhi Leonard",
+            "pos": "F",
+            "status": "Out (knee management)"
+          }
+        ],
+        "away": []
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Kawhi Leonard out (left knee injury management); Scottie Barnes questionable (illness).",
+          "src": "NBA injury report"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "DraftKings Network: public betting trends 17 Nov",
+          "url": "https://dknetwork.draftkings.com/2026/11/17/nba-public-betting-trends-tuesday-november-17/"
+        },
+        {
+          "title": "NBA official injury report 17 Nov (4:45 PM)",
+          "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-17_04_45PM.pdf"
+        },
+        {
+          "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
+          "url": "https://champsorchumps.us/summary/nba/2027"
+        }
+      ]
+    },
+    {
+      "id": "det-sas",
+      "league": "NBA",
+      "start": "2026-11-18T01:00:00Z",
+      "venue": "Frost Bank Center, San Antonio",
+      "home": {
+        "name": "San Antonio Spurs",
+        "short": "Spurs",
+        "code": "SAS"
+      },
+      "away": {
+        "name": "Detroit Pistons",
+        "short": "Pistons",
+        "code": "DET"
+      },
+      "context": "San Antonio (12-2) go for 13 wins in a row. Detroit (8-4) are badly short: Jalen Duren, Duncan Robinson, Ron Holland II, Taurean Prince and Isaiah Joe are all out. The line has moved from Spurs -7.5 to -9.5.",
+      "odds": {
+        "book": "TheSpread / FanDuel consensus",
+        "ml": [
+          1.238,
+          4.15
+        ],
+        "spread": {
+          "line": -9.5,
+          "h": 1.909,
+          "a": 1.909
+        },
+        "total": {
+          "line": 222.5,
+          "o": 1.909,
+          "u": 1.909
+        }
+      },
+      "form": {
+        "home": {
+          "pf": 118.8,
+          "pa": 105.9,
+          "games": 14
+        },
+        "away": {
+          "pf": 115.7,
+          "pa": 110.2,
+          "games": 12
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Victor Wembanyama",
+            "pos": "C",
+            "pts": 28.6,
+            "reb": 11.6,
+            "ast": 3.3
+          }
+        ],
+        "away": [
+          {
+            "name": "Jalen Duren",
+            "pos": "C",
+            "status": "Out (hamstring)"
+          },
+          {
+            "name": "Duncan Robinson",
+            "pos": "F",
+            "status": "Out (quadriceps)"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "away",
+          "text": "Out: Jalen Duren (hamstring), Duncan Robinson (quad), Ron Holland II (knee), Taurean Prince (knee), Isaiah Joe (hip).",
+          "src": "NBA injury report / Detroit Sports Nation"
+        },
+        {
+          "team": "home",
+          "text": "Out: Tobias Harris (calf), Jayden Quaintance (knee surgery).",
+          "src": "ClutchPoints"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "TheSpread: Pistons vs Spurs",
+          "url": "https://www.thespread.com/nba-articles/pistons-vs-spurs-prediction-november-17-2026/"
+        },
+        {
+          "title": "FanDuel Research: Spurs vs Pistons",
+          "url": "https://www.fanduel.com/research/spurs-vs-pistons-prediction-nba-odds-spread-best-bets-for-11-17-2026"
+        },
+        {
+          "title": "NBA official injury report 17 Nov (4:45 PM)",
+          "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-17_04_45PM.pdf"
+        },
+        {
+          "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
+          "url": "https://champsorchumps.us/summary/nba/2027"
+        }
+      ]
+    },
+    {
+      "id": "por-min",
+      "league": "NBA",
+      "start": "2026-11-18T01:00:00Z",
+      "venue": "Target Center, Minneapolis",
+      "home": {
+        "name": "Minnesota Timberwolves",
+        "short": "Wolves",
+        "code": "MIN"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "short": "Blazers",
+        "code": "POR"
+      },
+      "context": "Two of the West's in-form teams: Minnesota (9-4, 6-2 at home) against Portland (9-3, 6-2 on the road). Portland are without Shaedon Sharpe. 69% of bets are on the Over 228.5, but the money is split.",
+      "odds": {
+        "book": "DraftKings",
+        "ml": [
+          1.769,
+          2.1
+        ],
+        "spread": {
+          "line": -2.5,
+          "h": 1.971,
+          "a": 1.855
+        },
+        "total": {
+          "line": 228.5,
+          "o": 1.901,
+          "u": 1.917
+        }
+      },
+      "form": {
+        "home": {
+          "pf": 118.3,
+          "pa": 106.8,
+          "games": 13
+        },
+        "away": {
+          "pf": 119.6,
+          "pa": 111.8,
+          "games": 12
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "L. Ball",
+            "pos": "G",
+            "pts": 18.6,
+            "reb": 3.6,
+            "ast": 6.2
+          }
+        ],
+        "away": [
+          {
+            "name": "Shaedon Sharpe",
+            "pos": "G",
+            "status": "Out"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "away",
+          "text": "Shaedon Sharpe is out.",
+          "src": "NBA injury report"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "DraftKings Network: public betting trends 17 Nov",
+          "url": "https://dknetwork.draftkings.com/2026/11/17/nba-public-betting-trends-tuesday-november-17/"
+        },
+        {
+          "title": "NBA official injury report 17 Nov (4:45 PM)",
+          "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-17_04_45PM.pdf"
+        },
+        {
+          "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
+          "url": "https://champsorchumps.us/summary/nba/2027"
+        }
+      ]
+    },
+    {
+      "id": "uta-lac",
+      "league": "NBA",
+      "start": "2026-11-18T03:30:00Z",
+      "venue": "Intuit Dome, Inglewood",
+      "home": {
+        "name": "LA Clippers",
+        "short": "Clippers",
+        "code": "LAC"
+      },
+      "away": {
+        "name": "Utah Jazz",
+        "short": "Jazz",
+        "code": "UTA"
+      },
+      "context": "Utah are 1-13 and without Lauri Markkanen (hand fracture). The Clippers (4-8) are missing Bradley Beal and Brandon Ingram. Spread and total are DraftKings' via ESPN; the prices weren't shown, so the standard -110 is assumed.",
+      "odds": {
+        "book": "DraftKings line via ESPN (prices assumed -110)",
+        "spread": {
+          "line": -5.5,
+          "h": 1.909,
+          "a": 1.909
+        },
+        "total": {
+          "line": 225.5,
+          "o": 1.909,
+          "u": 1.909
+        }
+      },
+      "form": {
+        "home": {
+          "pf": 112.3,
+          "pa": 116.5,
+          "games": 12
+        },
+        "away": {
+          "pf": 107.1,
+          "pa": 118,
+          "games": 14
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Darius Garland",
+            "pos": "G",
+            "pts": 21.2,
+            "reb": 2.3,
+            "ast": 6.9
+          },
+          {
+            "name": "Bradley Beal",
+            "pos": "G",
+            "status": "Out (knee)"
+          }
+        ],
+        "away": [
+          {
+            "name": "Lauri Markkanen",
+            "pos": "F",
+            "status": "Out (hand fracture)"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "away",
+          "text": "Lauri Markkanen out (right hand fracture).",
+          "src": "NBA injury report"
+        },
+        {
+          "team": "home",
+          "text": "Bradley Beal and Brandon Ingram out.",
+          "src": "NBA injury report"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "ESPN NBA scoreboard 17 Nov",
+          "url": "https://www.espn.com/nba/scoreboard/_/date/20261117"
+        },
+        {
+          "title": "NBA official injury report 17 Nov (4:45 PM)",
+          "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-17_04_45PM.pdf"
+        },
+        {
+          "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
+          "url": "https://champsorchumps.us/summary/nba/2027"
+        }
+      ]
+    },
+    {
+      "id": "cha-lal",
+      "league": "NBA",
+      "start": "2026-11-18T03:30:00Z",
+      "venue": "Crypto.com Arena, Los Angeles",
+      "home": {
+        "name": "Los Angeles Lakers",
+        "short": "Lakers",
+        "code": "LAL"
+      },
+      "away": {
+        "name": "Charlotte Hornets",
+        "short": "Hornets",
+        "code": "CHA"
+      },
+      "context": "The Lakers (12-2) have the league's best offence, but Austin Reaves and Walker Kessler are out. Charlotte (4-9) score the fewest points in the league and are without Dennis Schröder and Kon Knueppel. Money on the Hornets has moved the line from -10.5 to -8.5.",
+      "odds": {
+        "book": "DraftKings via NBC Sports (spread/total prices assumed -110)",
+        "ml": [
+          1.262,
+          4.02
+        ],
+        "spread": {
+          "line": -8.5,
+          "h": 1.909,
+          "a": 1.909
+        },
+        "total": {
+          "line": 218.5,
+          "o": 1.909,
+          "u": 1.909
+        }
+      },
+      "form": {
+        "home": {
+          "pf": 122.8,
+          "pa": 114.9,
+          "games": 14
+        },
+        "away": {
+          "pf": 99.1,
+          "pa": 109.8,
+          "games": 13
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Luka Dončić",
+            "pos": "G",
+            "pts": 40.1
+          },
+          {
+            "name": "Austin Reaves",
+            "pos": "G",
+            "status": "Out (heel)"
+          }
+        ],
+        "away": [
+          {
+            "name": "Dennis Schröder",
+            "pos": "G",
+            "status": "Out (soreness)"
+          },
+          {
+            "name": "Kon Knueppel",
+            "pos": "F",
+            "status": "Out (leg)"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Austin Reaves (heel) and Walker Kessler (lower leg) out.",
+          "src": "TalkBasket / NBA injury report"
+        },
+        {
+          "team": "away",
+          "text": "Dennis Schröder and Kon Knueppel out.",
+          "src": "Covers injury report"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "NBC Sports: Hornets vs Lakers",
+          "url": "https://nbcsports.com/nba/news/hornets-vs-lakers-predictions-odds-recent-stats-trends-and-best-bets-for-november-17"
+        },
+        {
+          "title": "TalkBasket injury report",
+          "url": "https://www.talkbasket.net/228706-nba-injury-report-reaves-kessler-duren-out-on-tuesday-november-17"
+        },
+        {
+          "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
+          "url": "https://champsorchumps.us/summary/nba/2027"
+        }
+      ]
+    }
+  ]
+}

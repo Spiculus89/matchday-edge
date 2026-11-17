@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matchday Edge · Ice hockey</title>
+<meta name="description" content="The day’s biggest ice hockey games, priced by a model built on bookmaker odds, team form, goalies and player scoring rates.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#app">Skip to games</a>
+<div class="wrap">
+  <nav class="sports" aria-label="Sport">
+    <a href="./"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7l4 3-1.5 4.5h-5L8 10z" fill="currentColor"/></svg>Football</a>
+    <a href="basketball.html"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.6 5.6c3 3 3 9.8 0 12.8M18.4 5.6c-3 3-3 9.8 0 12.8"/></svg>Basketball</a>
+    <a href="hockey.html" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 3l6 13h6"/><path d="M20 3l-6 13"/><ellipse cx="12" cy="19.5" rx="4" ry="1.6" fill="currentColor"/></svg>Ice hockey</a>
+  </nav>
+  <header class="top">
+    <div class="brand">
+      <h1 translate="no">Matchday <span>Edge</span></h1>
+      <p>The day’s biggest ice hockey games, priced by a model built on bookmaker odds, team form, goalies and player scoring rates.</p>
+    </div>
+    <div>
+      <div class="days" id="days" role="group" aria-label="Choose a day"></div>
+      <div class="meta" id="meta"></div>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <p class="meta" style="text-align:left;margin-top:20px">Loading today’s games…</p>
+  </main>
+  <p class="sr" id="announce" aria-live="polite"></p>
+
+  <footer>
+    <div>
+      <h3>How the picks are made</h3>
+      <p>The moneyline (including overtime), the 60-minute result where listed, the puck line and the total are stripped of their margin, and the engine finds the regulation scoring rate for each team that best reproduces them. That is blended 75/25 with each team's recent goals for and against, then adjusted for goalie and injury news.</p>
+      <p>A score grid gives every regulation result; a tie goes to overtime and the shootout, won slightly more often by the stronger team and adding one goal to the total, as NHL bets are settled. Player goals, points and shots on goal scale each player's per-game rates to the expected team scoring.</p>
+      <p>Picks are graded each morning, and once a market has 8 graded picks the model adjusts it, the same way as football.</p>
+    </div>
+    <div>
+      <h3>Reading the numbers</h3>
+      <p><b>Fair odds</b> are what the model thinks a bet is worth with no bookmaker margin. Only take a price above it.</p>
+      <p><b>60-minute result</b> markets settle after regulation (a draw is possible). <b>Moneyline, puck line and totals</b> include overtime and the shootout.</p>
+      <p><b>Verdict</b>: Bet (the price beats the model), Lean (about fair, 55%+ chance) or Skip (the price is too short, or the chance is too low). Build slips from Bet and Lean rows only.</p>
+      <p><b>Live mode</b> opens on each game once it starts. It pulls the score from a free feed for the NBA and NHL, or takes what you type, and re-prices the game for the time left.</p>
+    </div>
+    <div>
+      <h3>Before you bet</h3>
+      <p>These are probabilities, not certainties. A 60% pick still loses four times in ten, and with odds this close to the market most bets carry no real edge. Never stake more than you can afford to lose. 18+.</p>
+      <p>Odds are a snapshot from the time shown at the top and move quickly. Check the live price before placing anything.</p>
+    </div>
+  </footer>
+</div>
+<script src="engine-hockey.js"></script>
+<script>window.SPORT = { key: "hockey", engine: window.HockeyEngine, data: "data/hockey/", length: 170 };</script>
+<script src="sport-page.js"></script>
+</body>
+</html>
