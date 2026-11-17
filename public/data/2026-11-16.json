@@ -406,6 +406,10 @@
       ],
       "adjust": {
         "home": 0.92
+      },
+      "result": {
+        "home": 1,
+        "away": 0
       }
     },
     {
@@ -868,6 +872,10 @@
       ],
       "adjust": {
         "away": 0.9
+      },
+      "result": {
+        "home": 2,
+        "away": 2
       }
     },
     {
@@ -1258,7 +1266,11 @@
           "title": "ERR Sport: Estonia XI in Luxembourg (13 Nov)",
           "url": "https://sport.err.ee/1610195209/vaata-otse-kas-eesti-saab-ka-voorsil-luksemburgist-jagu"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 1
+      }
     },
     {
       "id": "isl-lux",
@@ -1755,7 +1767,11 @@
           "title": "Wikipedia: Marian Barbu (referee)",
           "url": "https://en.wikipedia.org/wiki/Marian_Barbu"
         }
-      ]
+      ],
+      "result": {
+        "home": 3,
+        "away": 0
+      }
     },
     {
       "id": "ltu-lie",
@@ -2083,7 +2099,11 @@
           "title": "22Bet: Lithuania vs Liechtenstein prediction page (kick-off 17:00 UTC)",
           "url": "https://news.22bet.com/predictions/lithuania-vs-liechtenstein-prediction-booking-code-16-11-2026/"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 1
+      }
     },
     {
       "id": "ger-ned",
@@ -2626,7 +2646,11 @@
           "title": "DFB: Füllkrug and Mohya included as Klopp names squad",
           "url": "https://www.dfb.de/news/fuellkrug-and-mohya-included-as-klopp-names-squad-for-serbia-and-netherlands"
         }
-      ]
+      ],
+      "result": {
+        "home": 5,
+        "away": 0
+      }
     },
     {
       "id": "gre-srb",
@@ -3109,7 +3133,11 @@
           "title": "DFB: Klopp names squad for Serbia and Netherlands",
           "url": "https://www.dfb.de/news/fuellkrug-and-mohya-included-as-klopp-names-squad-for-serbia-and-netherlands"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 0
+      }
     },
     {
       "id": "sui-sco",
@@ -3628,7 +3656,11 @@
           "title": "FotMob: John McGinn (Premier League 2026/27 totals, per-90 computed)",
           "url": "https://www.fotmob.com/en-GB/players/356406/john-mcginn"
         }
-      ]
+      ],
+      "result": {
+        "home": 4,
+        "away": 0
+      }
     },
     {
       "id": "mkd-svn",
@@ -3991,7 +4023,11 @@
           "title": "SoccerNews: Slovenia vs Switzerland prediction (Obrić call-up)",
           "url": "https://www.soccernews.com/prediction-slovenia-vs-switzerland/407932/"
         }
-      ]
+      ],
+      "result": {
+        "home": 0,
+        "away": 3
+      }
     },
     {
       "id": "gib-mlt",
@@ -4281,7 +4317,11 @@
           "title": "UEFA: Gibraltar Nations League fixtures",
           "url": "https://www.uefa.com/uefanationsleague/teams/94080--gibraltar/matches/"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 1
+      }
     }
   ]
 }

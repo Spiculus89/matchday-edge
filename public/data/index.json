@@ -1,6 +1,11 @@
 {
   "days": [
     {
+      "date": "2026-11-17",
+      "file": "data/2026-11-17.json",
+      "title": "Nations League, matchday 6"
+    },
+    {
       "date": "2026-11-16",
       "file": "data/2026-11-16.json",
       "title": "Nations League, matchday 6"
