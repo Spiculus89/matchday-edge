@@ -1,8 +1,8 @@
 {
   "date": "2026-11-17",
   "title": "Nations League, matchday 6",
-  "updated": "2026-11-17T18:44:51.858Z",
-  "updateNote": "19:50: suspensions/absences applied (Orbán, Vitális, Zhegrova); confirmed XIs being added. Morning update: the last eight Nations League group games, all at 20:45 Warsaw time. League A Group 4 (Denmark v Norway for second place, Wales v Portugal), League B Group 2 (Hungary v Northern Ireland for first place and promotion, Ukraine v Georgia), Group 3 (Republic of Ireland v Kosovo for second, Israel v Austria in Debrecen) and Group 4 (Poland v Sweden in Wrocław, Bosnia and Herzegovina v Romania). Plus Qatar v South Korea, a friendly in Doha at 15:00, priced from footballpredictions.ai because no bet365 prices were found. Hungary v Northern Ireland waits for the team sheets; the other XIs are predicted. Japan v Paraguay (14:10) is left off because no full set of prices could be found, and Singapore v Brazil (11:00) kicked off too early to price. The kick-off-minus-40 runs confirm the XIs and refresh the odds.",
+  "updated": "2026-11-17T18:59:58.786Z",
+  "updateNote": "20:00: confirmed XIs in for Wales–Portugal and Ireland–Kosovo (both sides), Bosnia, Poland and Northern Ireland; key starters/benches for the rest. Lewandowski, Demirović and most of Austria's first XI start on the bench. League A Group 4 (Denmark v Norway for second place, Wales v Portugal), League B Group 2 (Hungary v Northern Ireland for first place and promotion, Ukraine v Georgia), Group 3 (Republic of Ireland v Kosovo for second, Israel v Austria in Debrecen) and Group 4 (Poland v Sweden in Wrocław, Bosnia and Herzegovina v Romania). Plus Qatar v South Korea, a friendly in Doha at 15:00, priced from footballpredictions.ai because no bet365 prices were found. Hungary v Northern Ireland waits for the team sheets; the other XIs are predicted. Japan v Paraguay (14:10) is left off because no full set of prices could be found, and Singapore v Brazil (11:00) kicked off too early to price. The kick-off-minus-40 runs confirm the XIs and refresh the odds.",
   "matches": [
     {
       "id": "qat-kor",
@@ -497,12 +497,12 @@
       },
       "lineups": {
         "status": "predicted",
-        "source": "statz.ai match page (both XIs). Each is the XI that started on 14 November: Denmark's in Braga per 101 Great Goals, Norway's against Wales per All Football. Joachim Andersen is a doubt after going off injured in Braga.",
+        "source": "WhoScored confirmed-lineup pages, VAVEL, 101 Great Goals (19:50–20:00)",
         "home": {
           "formation": "4-3-3",
           "xi": [
             "Mads Hermansen",
-            "Alexander Bah",
+            "Rasmus Kristensen",
             "Joachim Andersen",
             "Oliver Provstgaard",
             "Joakim Mæhle",
@@ -530,7 +530,7 @@
             "Antonio Nusa"
           ]
         },
-        "alt": "If Andersen is not fit, Victor Nelsson, who replaced him on 82 minutes in Braga, is the obvious stand-in. FootballPredictions.com has Rasmus Kristensen instead of Bah in a Denmark 4-2-3-1, and Patrick Berg instead of Aasgaard in a Norway 4-1-4-1. The statz.ai preview article gives older-looking XIs. Denmark: Jørgensen; Bah, Nelsson, Provstgaard, Mæhle; Højbjerg, Hjulmand, Frøholdt; Isaksen, Damsgaard, Højlund. Norway: Selvik; Pedersen, Ajer, Østigård, Møller Wolfe; Berge, Berg, Ødegaard; Bobb, Schjelderup, Haaland. Schjelderup scored off the bench against Wales and is the main alternative in Norway's attack."
+        "alt": "Denmark 4-3-3: Hermansen; Provstgaard, Andersen (passed fit), Kristensen, Mæhle; Højbjerg, Hjulmand, Damsgaard; Isaksen, Daramy and (by every preview) Højlund. Norway 4-4-2 with Ørjan Nyland in goal behind Ryerson, Østigård, Ajer, Heggem."
       },
       "news": [
         {
@@ -592,47 +592,47 @@
           {
             "name": "Gustav Isaksen",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "shots": 25,
             "note": "Shots cover the 10 internationals before 14 Nov (statz.ai). He has had a shot in 4 straight games, averaging 2.8 (statz.ai preview). No per-90s found."
           },
           {
             "name": "Mikkel Damsgaard",
             "pos": "AM",
-            "start": 0.8,
+            "start": 1,
             "shots": 16,
             "note": "Shots cover the 10 internationals before 14 Nov (statz.ai). He started in Braga and crossed for Højlund's volley. He has 2 goals and 2 assists in the Nations League (KickOff). No per-90s found."
           },
           {
             "name": "Pierre-Emile Højbjerg",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 18,
             "note": "Shots cover the 10 internationals before 14 Nov (statz.ai). Captain, and he scored the opener in Braga. No per-90s found."
           },
           {
             "name": "Morten Hjulmand",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 10,
             "note": "Shots cover the 10 internationals before 14 Nov (statz.ai). He has had a shot and committed a foul in 5 straight games (statz.ai preview; 1+ shots quoted only by Ladbrokes at 1.35). No per-90s found."
           },
           {
             "name": "Mohamed Daramy",
             "pos": "FW",
-            "start": 0.8,
+            "start": 1,
             "note": "Started in Braga and is in statz.ai's XI. No shot totals or per-90s found."
           },
           {
             "name": "Joakim Mæhle",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "note": "Has 14 tackles in the Nations League, Denmark's most (KickOff). No per-90s found."
           },
           {
             "name": "Joachim Andersen",
             "pos": "DF",
-            "start": 0.5,
+            "start": 1,
             "note": "Scored in Braga but went off injured on 82 minutes (Al Jazeera). He is in statz.ai's XI, but his fitness is unconfirmed. He has 1 Nations League goal (KickOff). No per-90s found."
           }
         ],
@@ -990,41 +990,43 @@
         }
       },
       "lineups": {
-        "status": "predicted",
-        "source": "statz.ai match page (both XIs). It is the only XI published since the 14 November games. FootballPredictions.com's XIs are out of date: they include the suspended Ampadu and Rúben Dias and the injured Nuno Mendes. Starting11 shows positions only, with no names.",
+        "status": "confirmed",
+        "source": "WhoScored confirmed-lineup pages, VAVEL, 101 Great Goals (19:50–20:00)",
         "home": {
           "formation": "4-4-2",
           "xi": [
-            "Karl Darlow",
+            "Danny Ward",
             "Connor Roberts",
             "Joe Rodon",
             "Ben Davies",
-            "Jay Dasilva",
-            "Daniel James",
+            "Jay DaSilva",
+            "Josh Sheehan",
             "Rubin Colwill",
-            "Liam Cullen",
-            "Brennan Johnson",
-            "Lewis Koumas",
-            "Harry Wilson"
-          ]
+            "Daniel James",
+            "David Brooks",
+            "Harry Wilson",
+            "Sorba Thomas"
+          ],
+          "confirmed": true
         },
         "away": {
           "formation": "4-2-3-1",
           "xi": [
             "Diogo Costa",
-            "Flávio Nazinho",
-            "António Silva",
+            "Diogo Dalot",
+            "João Cancelo",
             "Renato Veiga",
-            "Alberto Costa",
+            "António Silva",
             "Vitinha",
-            "Rúben Neves",
-            "João Félix",
+            "João Neves",
             "Bruno Fernandes",
-            "Carlos Forbs",
+            "Trincão",
+            "Pedro Neto",
             "Gonçalo Ramos"
-          ]
+          ],
+          "confirmed": true
         },
-        "alt": "Wales: Rubin Colwill replaces the suspended Ethan Ampadu in statz.ai's XI. Neco Williams is not in it, and FootballPredictions.com expects him to miss out injured. Ben Cabango is available again after his suspension in Oslo. FootballPredictions.com says David Brooks is pushing for a start after scoring off the bench. Portugal: António Silva replaces the suspended Rúben Dias. João Cancelo is available again after his ban but is not in statz.ai's XI. FootballPredictions.com says Francisco Trincão and Carlos Forbs are pushing for starts, and Pedro Neto and Bernardo Silva are the other options in attack. No Portuguese outlet's predicted XI for Cardiff was found."
+        "alt": "Wales: no recognised No. 9 — Brennan Johnson, Lewis Koumas and Liam Cullen are all on the bench; Ward in goal for Darlow. Portugal: Félix and Rúben Neves on the bench, Ramos leads the line; Dias and Palhinha suspended."
       },
       "news": [
         {
@@ -1093,7 +1095,7 @@
           {
             "name": "Daniel James",
             "pos": "AM",
-            "start": 0.85,
+            "start": 1,
             "shots": 17,
             "goals": 2,
             "note": "Shots and goals cover Wales's 9 games in 2026 (statz.ai team page). His 7 shots on target are the most in the squad. Statz.ai's 2026/27 list has him top for Wales shots (12). No per-90s found."
@@ -1101,7 +1103,7 @@
           {
             "name": "Harry Wilson",
             "pos": "AM",
-            "start": 0.75,
+            "start": 1,
             "shots": 11,
             "goals": 0,
             "note": "11 shots in 3 games in 2026 (statz.ai team page), the highest rate in the squad. Started in Oslo after injury and assisted Brooks's goal. In statz.ai's XI. No per-90s found."
@@ -1109,23 +1111,23 @@
           {
             "name": "Lewis Koumas",
             "pos": "FW",
-            "start": 0.8,
+            "start": 0,
             "shots": 9,
             "goals": 1,
-            "note": "2026, 8 apps (statz.ai team page): 6 shots on target and 11 fouls. In statz.ai's XI. No per-90s found."
+            "note": "Not in the confirmed XI. 2026, 8 apps (statz.ai team page): 6 shots on target and 11 fouls. In statz.ai's XI. No per-90s found."
           },
           {
             "name": "Brennan Johnson",
             "pos": "FW",
-            "start": 0.8,
+            "start": 0,
             "shots": 9,
             "goals": 0,
-            "note": "2026, 8 apps (statz.ai team page), with 7 tackles. In statz.ai's XI. No per-90s found."
+            "note": "Not in the confirmed XI. 2026, 8 apps (statz.ai team page), with 7 tackles. In statz.ai's XI. No per-90s found."
           },
           {
             "name": "David Brooks",
             "pos": "AM",
-            "start": 0.4,
+            "start": 1,
             "shots": 9,
             "goals": 2,
             "note": "2026, 6 apps (statz.ai team page). Scored off the bench in Oslo. FootballPredictions.com says he is pushing for a start, but he is not in statz.ai's XI."
@@ -1133,32 +1135,37 @@
           {
             "name": "Liam Cullen",
             "pos": "FW",
-            "start": 0.75,
-            "note": "Started in Oslo and is in statz.ai's XI. 6 fouls and 2 yellows in 4 games in 2026 (statz.ai team page). 1 shot on target in 3 Nations League games (KickOff). No shot total found."
+            "start": 0,
+            "note": "Not in the confirmed XI. Started in Oslo and is in statz.ai's XI. 6 fouls and 2 yellows in 4 games in 2026 (statz.ai team page). 1 shot on target in 3 Nations League games (KickOff). No shot total found."
           },
           {
             "name": "Rubin Colwill",
             "pos": "MF",
-            "start": 0.7,
+            "start": 1,
             "note": "Came off the bench in Oslo and replaces the suspended Ampadu in statz.ai's XI. Not in statz.ai's 2026 player tables."
           },
           {
             "name": "Neco Williams",
             "pos": "DF",
-            "start": 0.3,
+            "start": 0,
             "goals": 1,
             "shots90": 1.22,
             "sot90": 0.27,
             "fouls90": 1.01,
             "tackles90": 2.23,
-            "note": "Doubtful: FootballPredictions.com says he is expected to miss out injured, and he is not in statz.ai's XI. 28 tackles in 9 games in 2026, the most for Wales (statz.ai team page). Per-90s are from Nottingham Forest + Wales 2026/27 (1,333 min) on statz.ai, carried over from the 14 Nov file."
+            "note": "Not in the confirmed XI. Doubtful: FootballPredictions.com says he is expected to miss out injured, and he is not in statz.ai's XI. 28 tackles in 9 games in 2026, the most for Wales (statz.ai team page). Per-90s are from Nottingham Forest + Wales 2026/27 (1,333 min) on statz.ai, carried over from the 14 Nov file."
+          },
+          {
+            "start": 1,
+            "name": "Sorba Thomas",
+            "pos": "AM"
           }
         ],
         "away": [
           {
             "name": "Gonçalo Ramos",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "shots": 16,
             "goals": 4,
             "shots90": 2.7,
@@ -1169,19 +1176,19 @@
           {
             "name": "João Félix",
             "pos": "FW",
-            "start": 0.85,
+            "start": 0,
             "shots": 22,
             "goals": 4,
             "shots90": 3.48,
             "sot90": 1.58,
             "fouls90": 1.27,
             "tackles90": 1.19,
-            "note": "Shots and goals cover 2026 internationals (12 apps, 9 on target; statz.ai team page). Scored the only goal of the reverse fixture and has 3 Nations League goals. Statz.ai's news piece says he has had a shot in five straight games. Per-90s are from Al Nassr and the Nations League in 2026/27 up to 29 Oct (1,138 min) on statz.ai, carried over from the 14 Nov file."
+            "note": "Not in the confirmed XI. Shots and goals cover 2026 internationals (12 apps, 9 on target; statz.ai team page). Scored the only goal of the reverse fixture and has 3 Nations League goals. Statz.ai's news piece says he has had a shot in five straight games. Per-90s are from Al Nassr and the Nations League in 2026/27 up to 29 Oct (1,138 min) on statz.ai, carried over from the 14 Nov file."
           },
           {
             "name": "Bruno Fernandes",
             "pos": "AM",
-            "start": 0.9,
+            "start": 1,
             "shots": 21,
             "assists": 5,
             "shots90": 2.97,
@@ -1193,7 +1200,7 @@
           {
             "name": "Vitinha",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 13,
             "shots90": 1.73,
             "sot90": 0.83,
@@ -1204,7 +1211,7 @@
           {
             "name": "Rúben Neves",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots90": 1.73,
             "sot90": 0.6,
             "fouls90": 1.43,
@@ -1214,19 +1221,19 @@
           {
             "name": "Carlos Forbs",
             "pos": "FW",
-            "start": 0.7,
-            "note": "In statz.ai's predicted XI. FootballPredictions.com says he is pushing for a start. Statz.ai's team-page bet builder shows 1+ shots on target in 80% of his last 10 games. No per-90s found."
+            "start": 0,
+            "note": "Not in the confirmed XI. In statz.ai's predicted XI. FootballPredictions.com says he is pushing for a start. Statz.ai's team-page bet builder shows 1+ shots on target in 80% of his last 10 games. No per-90s found."
           },
           {
             "name": "António Silva",
             "pos": "DF",
-            "start": 0.75,
+            "start": 1,
             "note": "Replaces the suspended Rúben Dias at centre-back in statz.ai's XI. No per-90s found."
           },
           {
             "name": "Francisco Trincão",
             "pos": "AM",
-            "start": 0.4,
+            "start": 1,
             "shots90": 2.77,
             "sot90": 1.19,
             "fouls90": 1.29,
@@ -1236,7 +1243,7 @@
           {
             "name": "Pedro Neto",
             "pos": "FW",
-            "start": 0.4,
+            "start": 1,
             "shots90": 1.94,
             "sot90": 1.16,
             "tackles90": 1.4,
@@ -1430,7 +1437,10 @@
           "title": "FotMob: Portugal vs Denmark absentees (14 Nov file)",
           "url": "https://www.fotmob.com/matches/denmark-vs-portugal/2a13rx"
         }
-      ]
+      ],
+      "adjust": {
+        "home": 0.93
+      }
     },
     {
       "id": "hun-nir",
@@ -1545,16 +1555,42 @@
       },
       "lineups": {
         "status": "pending",
-        "source": "No usable predicted XI was found. statz.ai's predicted XIs (see below) still include Jamie Donley, who is suspended, and leave out Szoboszlai and Orbán, who both started on 14 Nov, with no reason given. starting11 shows predicted XIs without names, and KickOff, footballpredictions.ai and 22Bet have none. Team sheets are due about an hour before kick-off.",
+        "source": "WhoScored confirmed-lineup pages, VAVEL, 101 Great Goals (19:50–20:00)",
         "home": {
           "formation": "",
-          "xi": []
+          "xi": [],
+          "bench": [
+            "Rajmund Tóth",
+            "Gábor Jurek",
+            "Milán Peto",
+            "Ármin Pécsi",
+            "Péter Baráth",
+            "Ákos Szendrei",
+            "Kornél Szűcs",
+            "Bendegúz Bolla",
+            "Bence Gundel-Takács",
+            "Jozef Urblík",
+            "Attila Szalai"
+          ]
         },
         "away": {
           "formation": "",
-          "xi": []
+          "xi": [
+            "Pierce Charles",
+            "Ruairi McConville",
+            "Tom Atcheson",
+            "Ciaron Brown",
+            "Terry Devlin",
+            "Justin Devenny",
+            "Shea Charles",
+            "Trai Hume",
+            "Patrick Kelly",
+            "Isaac Price",
+            "Ethan Galbraith"
+          ],
+          "confirmed": true
         },
-        "alt": "statz.ai's predicted XIs. Hungary (4-2-3-1): Balázs Tóth; Attila Osváth, Attila Szalai, Márk Csinger, Milos Kerkez; András Schäfer, Rajmund Tóth; Roland Sallai, Áron Csongvai, Gábor Jurek; Barnabás Varga. Northern Ireland (5-4-1): Pierce Charles; Justin Devenny, Ciaron Brown, Ruairi McConville, Tom Atcheson, Terry Devlin; Isaac Price, Shea Charles, Trai Hume, Ethan Galbraith; Jamie Donley (suspended). Hungary's XI in the 2-0 win in Tbilisi (ESPN): B. Tóth; Osváth, Csinger, Orbán, Kerkez; Schäfer, Vitális; Sallai, Szoboszlai, Zsolt Nagy; Varga. Hungary's subs were Csongvai (61'), Bolla and R. Tóth (70'), Pető and Szendrei (86'). No source was found for Northern Ireland's XI against Ukraine. Donley's possible replacements in the UEFA squad list are Callum Marshall, Kieran Morrison, Paul Smyth, Braiden Graham and Josh Magennis. starting11 says Hungary have kept 77% of their XI over the last five games and Northern Ireland 82%."
+        "alt": "Northern Ireland 3-4-2-1 confirmed (no Donley; Devlin in). Hungary: Szalai, R. Tóth, Bolla and Jurek on the bench; Orbán and Vitális suspended. Hungary XI not readable in full."
       },
       "news": [
         {
@@ -1676,8 +1712,8 @@
           {
             "name": "Attila Szalai",
             "pos": "DF",
-            "start": 0.45,
-            "note": "Recalled after injury for this window. He did not play in Tbilisi (ESPN) but is at centre-back in the statz.ai predicted XI. Committed a foul in each of his last five games, 1.0 a game (statz.ai). No per-90s found."
+            "start": 0,
+            "note": "On the bench. Recalled after injury for this window. He did not play in Tbilisi (ESPN) but is at centre-back in the statz.ai predicted XI. Committed a foul in each of his last five games, 1.0 a game (statz.ai). No per-90s found."
           },
           {
             "name": "Áron Csongvai",
@@ -1696,7 +1732,7 @@
           {
             "name": "Isaac Price",
             "pos": "AM",
-            "start": 0.9,
+            "start": 1,
             "shots": 20,
             "goals": 1,
             "shots90": 3.07,
@@ -1708,7 +1744,7 @@
           {
             "name": "Shea Charles",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 9,
             "shots90": 1.04,
             "sot90": 0.32,
@@ -1719,21 +1755,21 @@
           {
             "name": "Ciaron Brown",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "goals": 2,
             "note": "Northern Ireland's joint top scorer over the last 10 internationals, with 2 goals, both in the 3-0 win in Trnava (statz.ai). In the statz.ai predicted XI."
           },
           {
             "name": "Terry Devlin",
             "pos": "DF",
-            "start": 0.8,
+            "start": 1,
             "goals": 1,
             "note": "Scored the winner against Ukraine on 14 Nov (68'), his first international goal (Irish Examiner). In the statz.ai predicted XI."
           },
           {
             "name": "Trai Hume",
             "pos": "DF",
-            "start": 0.8,
+            "start": 1,
             "shots": 7,
             "shots90": 1.12,
             "sot90": 0.21,
@@ -1744,7 +1780,7 @@
           {
             "name": "Ruairi McConville",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 8,
             "shots90": 0.79,
             "sot90": 0.28,
@@ -1755,7 +1791,7 @@
           {
             "name": "Ethan Galbraith",
             "pos": "MF",
-            "start": 0.8,
+            "start": 1,
             "shots90": 1.18,
             "sot90": 0.41,
             "fouls90": 1.36,
@@ -1765,8 +1801,8 @@
           {
             "name": "Josh Magennis",
             "pos": "FW",
-            "start": 0.35,
-            "note": "2 shots on target over the last 10 internationals (statz.ai). He is one of five forwards in the UEFA squad list who could replace the suspended Donley; no source names who will."
+            "start": 0,
+            "note": "Not in the confirmed XI. 2 shots on target over the last 10 internationals (statz.ai). He is one of five forwards in the UEFA squad list who could replace the suspended Donley; no source names who will."
           }
         ]
       },
@@ -2040,12 +2076,12 @@
       },
       "lineups": {
         "status": "predicted",
-        "source": "statz.ai match page predicted XIs. All 22 players are on UEFA's squad lists for this match. Georgia's XI is the one that started against Hungary on 14 Nov, with Davitashvili in for the suspended Tsitaishvili.",
+        "source": "WhoScored confirmed-lineup pages, VAVEL, 101 Great Goals (19:50–20:00)",
         "home": {
           "formation": "4-4-2",
           "xi": [
-            "Anatoliy Trubin",
-            "Illia Krupskyi",
+            "Dmytro Riznyk",
+            "Eduard Sarapii",
             "Illia Zabarnyi",
             "Mykola Matviyenko",
             "Vitaliy Mykolenko",
@@ -2062,18 +2098,31 @@
           "xi": [
             "Giorgi Mamardashvili",
             "Otar Kakabadze",
-            "Lasha Dvali",
             "Luka Lochoshvili",
             "Saba Goglichidze",
-            "Anzor Mekvabishvili",
             "Nika Gagnidze",
             "Giorgi Chakvetadze",
             "Zuriko Davitashvili",
             "Giorgi Kvernadze",
-            "Georges Mikautadze"
+            "Georges Mikautadze",
+            "Unconfirmed",
+            "Unconfirmed"
+          ],
+          "bench": [
+            "Irakli Yegoian",
+            "Lasha Dvali",
+            "Giorgi Gagua",
+            "Iva Gelashvili",
+            "Giorgi Maisuradze",
+            "Anzor Mekvabishvili",
+            "Nodar Kalichava",
+            "Saba Sazonov",
+            "Giorgi Moistsrapishvili",
+            "Luka Gugeshashvili",
+            "Jimmy Tabidze"
           ]
         },
-        "alt": "Ukraine started in Belfast on 14 Nov in a 4-4-2: Trubin; Zabarnyi, Sarapii, Matviyenko, Mykolenko; Kashchuk, Yarmolyuk, Ocheretko, Sudakov; Sikan, Yaremchuk (starting11). So Sarapii, Kashchuk and Yaremchuk could start ahead of Krupskyi, Andriyevskyi and Krasnopir. The statz.ai preview article gives a different XI: Trubin; Krupskyi, Zabarnyi, Krushynskyi, Sarapii; Kashchuk, Yarmolyuk, Sudakov; Nazarenko, Vanat, Krasnopir. Nazarenko is not on UEFA's squad list. Starting11's own 3-4-1-2 still includes Tsygankov and Ponomarenko, who are not in the squad, so it is ignored. Georgia started against Hungary with Mamardashvili; Kakabadze, Dvali, Lochoshvili, Goglichidze; Mekvabishvili, Gagnidze; Tsitaishvili, Chakvetadze, Kvernadze; Mikautadze (ESPN). The statz.ai article has Gelashvili, Gagua and Zivzivadze in, but Gelashvili and Gagua are not on UEFA's squad list. Benches are not published."
+        "alt": "Ukraine 4-1-4-1: Riznyk in goal, Sarapii, Matviienko, Zabarnyi, Mykolenko, Krasnopir up front. Georgia 4-2-3-1 with Mamardashvili, Kakabadze, Lochoshvili, Goglichidze; Dvali and Mekvabishvili on the bench; Kvaratskhelia injured."
       },
       "news": [
         {
@@ -2155,7 +2204,7 @@
           {
             "name": "Ihor Krasnopir",
             "pos": "FW",
-            "start": 0.6,
+            "start": 1,
             "shots": 3,
             "note": "3 shots in 3 appearances over the last 10 games (statz.ai). In both statz.ai XIs, but did not start in Belfast."
           },
@@ -2177,7 +2226,7 @@
           {
             "name": "Eduard Sarapii",
             "pos": "DF",
-            "start": 0.45,
+            "start": 1,
             "shots": 4,
             "note": "4 shots in 6 appearances over the last 10 games. The statz.ai article says he has had a shot in four straight games and a tackle in three straight. Started at centre-back in Belfast but is not in the statz.ai match-page XI."
           },
@@ -2216,13 +2265,13 @@
           {
             "name": "Anzor Mekvabishvili",
             "pos": "MF",
-            "start": 0.85,
+            "start": 0,
             "shots": 3,
             "shots90": 1.55,
             "sot90": 0.69,
             "fouls90": 3.44,
             "tackles90": 2.75,
-            "note": "Per-90s come from his statz.ai last-10 game log (5 MLS games for Chicago Fire plus 5 Nations League games, 524 min: 9 shots, 4 on target, 20 fouls, 16 tackles). Shots in his last five games: 2, 1, 0, 1, 2 (4/5 with 1+). 10 fouls in 289 Nations League minutes. Booked on 28 Sep, not since. 3 shots is his last-10 international total (before 14 Nov)."
+            "note": "On the bench. Per-90s come from his statz.ai last-10 game log (5 MLS games for Chicago Fire plus 5 Nations League games, 524 min: 9 shots, 4 on target, 20 fouls, 16 tackles). Shots in his last five games: 2, 1, 0, 1, 2 (4/5 with 1+). 10 fouls in 289 Nations League minutes. Booked on 28 Sep, not since. 3 shots is his last-10 international total (before 14 Nov)."
           },
           {
             "name": "Otar Kakabadze",
@@ -2596,41 +2645,43 @@
         }
       },
       "lineups": {
-        "status": "predicted",
-        "source": "Ireland: the XI that started in Linz on 14 Nov (Irish Times), which is also the statz.ai match-page XI apart from Ogbene for Idah. Captain Nathan Collins is ruled out, so Jake O'Brien in the back three is our own guess (see alt). Kosovo: statz.ai match-page predicted XI (5-4-1), which has no suspended or injured player. Kosovo's XI against Israel on 14 Nov was not found.",
+        "status": "confirmed",
+        "source": "WhoScored confirmed-lineup pages, VAVEL, 101 Great Goals (19:50–20:00)",
         "home": {
           "formation": "3-4-3",
           "xi": [
             "Caoimhín Kelleher",
+            "John Egan",
             "Dara O'Shea",
-            "Jake O'Brien",
             "Liam Scales",
+            "Ryan Manning",
+            "Jayson Molumby",
+            "Jack Moylan",
             "James Abankwah",
             "Finn Azaz",
-            "Jayson Molumby",
-            "Ryan Manning",
-            "Jack Moylan",
             "Adam Idah",
             "Troy Parrott"
-          ]
+          ],
+          "confirmed": true
         },
         "away": {
           "formation": "5-4-1",
           "xi": [
             "Arijanet Murić",
-            "Dion Gallapeni",
-            "Lindrit Kamberi",
             "Kreshnik Hajrizi",
+            "Lindrit Kamberi",
             "Ilir Krasniqi",
             "Mërgim Vojvoda",
-            "Milot Rashica",
-            "Elvis Rexhbecaj",
+            "Dion Gallapeni",
+            "Elvis Rexhbeçaj",
             "Leon Avdullahu",
             "Lindon Emërllahu",
-            "Vedat Muriqi"
-          ]
+            "Vedat Muriqi",
+            "Fisnik Asllani"
+          ],
+          "confirmed": true
         },
-        "alt": "Ireland: the statz.ai match page has a 3-5-2 with Collins and Ogbene in place of O'Brien and Idah. The statz.ai preview article (15 Nov) has Kelleher; Dunne, O'Shea, Collins; Vale, Molumby, Coventry; Azaz, Moylan; Parrott, Idah, so Jimmy Dunne is the other option for Collins' place. Starting 11 (15 Nov) has Kelleher; O'Brien, Abankwah, Scales; Knight, Molumby, Killian Phillips, Parrott; Coventry, Azaz; Vata. Kosovo: the statz.ai preview article has a 4-4-2 (Murić; Vojvoda, Dellova, I. Krasniqi, Hajrizi; Gallapeni, Hodža; Zhegrova, Zabergja; Asllani, Muriqi), but Hodža is suspended. Starting 11's crowd XI is a 3-4-3 with Amir Saipi in goal plus Krasniqi, Raci, Zhegrova, Avdullahu, Rrahmani, Vojvoda, Asllani and Hodža (two slots blank). Saipi was in the predicted XIs for the 14 Nov game and was Kosovo's best player in the 0-0 against Israel on 1 Oct (Balkanweb). Team sheets due about an hour before kick-off."
+        "alt": "Ireland as expected (Egan in for the injured Collins). Kosovo 3-5-2 with Muriqi and Asllani up front; Zhegrova and Rashica absent, Murić in goal."
       },
       "news": [
         {
@@ -2681,7 +2732,7 @@
           {
             "name": "Troy Parrott",
             "pos": "FW",
-            "start": 0.9,
+            "start": 1,
             "shots": 28,
             "goals": 5,
             "pens": true,
@@ -2694,7 +2745,7 @@
           {
             "name": "Adam Idah",
             "pos": "FW",
-            "start": 0.7,
+            "start": 1,
             "shots": 14,
             "shots90": 3.78,
             "sot90": 1.3,
@@ -2705,7 +2756,7 @@
           {
             "name": "Jack Moylan",
             "pos": "AM",
-            "start": 0.8,
+            "start": 1,
             "shots": 13,
             "goals": 4,
             "note": "13 shots and 4 goals in 7 apps over the last 10 games (statz.ai). Started in Linz."
@@ -2713,7 +2764,7 @@
           {
             "name": "Finn Azaz",
             "pos": "AM",
-            "start": 0.85,
+            "start": 1,
             "shots": 6,
             "shots90": 2.15,
             "sot90": 0.62,
@@ -2724,14 +2775,14 @@
           {
             "name": "Jayson Molumby",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 7,
             "note": "7 shots in 9 apps over the last 10 games (statz.ai). statz.ai's preview: a shot in four of his last five."
           },
           {
             "name": "Ryan Manning",
             "pos": "DF",
-            "start": 0.7,
+            "start": 1,
             "shots": 6,
             "shots90": 1.33,
             "sot90": 0.08,
@@ -2742,7 +2793,7 @@
           {
             "name": "Dara O'Shea",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 5,
             "shots90": 0.31,
             "sot90": 0.23,
@@ -2753,7 +2804,7 @@
           {
             "name": "Liam Scales",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 3,
             "shots90": 1.17,
             "sot90": 0.26,
@@ -2764,35 +2815,35 @@
           {
             "name": "Chiedozie Ogbene",
             "pos": "FW",
-            "start": 0.4,
+            "start": 0,
             "shots": 11,
-            "note": "11 shots in 9 apps over the last 10 games (statz.ai). In the statz.ai match-page XI; came on at 68 minutes in Linz."
+            "note": "Not in the confirmed XI. 11 shots in 9 apps over the last 10 games (statz.ai). In the statz.ai match-page XI; came on at 68 minutes in Linz."
           },
           {
             "name": "Conor Coventry",
             "pos": "MF",
-            "start": 0.3,
+            "start": 0,
             "shots": 2,
             "shots90": 0.41,
             "sot90": 0.08,
             "fouls90": 2.03,
             "tackles90": 1.87,
-            "note": "In the statz.ai preview XI only; did not start in Linz. Per-90s from the 14 Nov file: Charlton + Nations League 2026/27 (1,107 min), statz.ai."
+            "note": "Not in the confirmed XI. In the statz.ai preview XI only; did not start in Linz. Per-90s from the 14 Nov file: Charlton + Nations League 2026/27 (1,107 min), statz.ai."
           },
           {
             "name": "Tom Cannon",
             "pos": "FW",
-            "start": 0.15,
+            "start": 0,
             "shots": 9,
             "goals": 2,
-            "note": "9 shots and 2 goals in 3 apps over the last 10 games (statz.ai)."
+            "note": "Not in the confirmed XI. 9 shots and 2 goals in 3 apps over the last 10 games (statz.ai)."
           }
         ],
         "away": [
           {
             "name": "Vedat Muriqi",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "shots": 15,
             "note": "15 shots in 7 apps over Kosovo's last 10 games (statz.ai). Scored the 83rd-minute winner against Ireland in September; KickOff lists 1 Nations League goal."
           },
@@ -2802,12 +2853,12 @@
             "start": 0,
             "shots": 16,
             "goals": 1,
-            "note": "Edon Zhegrova is ruled out."
+            "note": "Not in the confirmed XI. Edon Zhegrova is ruled out."
           },
           {
             "name": "Fisnik Asllani",
             "pos": "FW",
-            "start": 0.45,
+            "start": 1,
             "shots": 10,
             "goals": 2,
             "note": "10 shots and 2 goals in 9 apps over the last 10 games (statz.ai). In the statz.ai preview XI and Starting 11's crowd XI, not the match-page XI."
@@ -2815,37 +2866,37 @@
           {
             "name": "Milot Rashica",
             "pos": "AM",
-            "start": 0.6,
+            "start": 0,
             "shots": 6,
-            "note": "6 shots in 5 apps over the last 10 games (statz.ai). In the statz.ai match-page XI."
+            "note": "Not in the confirmed XI. 6 shots in 5 apps over the last 10 games (statz.ai). In the statz.ai match-page XI."
           },
           {
             "name": "Dion Gallapeni",
             "pos": "MF",
-            "start": 0.8,
+            "start": 1,
             "shots": 4,
             "note": "4 shots in 9 apps; 10 fouls over the last 10 games (statz.ai). In both statz.ai XIs."
           },
           {
             "name": "Ilir Krasniqi",
             "pos": "DF",
-            "start": 0.8,
+            "start": 1,
             "shots": 1,
             "note": "statz.ai preview: a tackle in each of his last five games, averaging 3.2 (no price given). In every predicted XI."
           },
           {
             "name": "Ermal Krasniqi",
             "pos": "FW",
-            "start": 0.3,
+            "start": 1,
             "shots": 6,
             "note": "6 shots in 5 apps over the last 10 games (statz.ai). Not in a predicted XI."
           },
           {
             "name": "Baton Zabergja",
             "pos": "AM",
-            "start": 0.4,
+            "start": 0,
             "shots": 2,
-            "note": "2 shots in 7 apps over the last 10 games (statz.ai). In the statz.ai preview XI only."
+            "note": "Not in the confirmed XI. 2 shots in 7 apps over the last 10 games (statz.ai). In the statz.ai preview XI only."
           }
         ]
       },
@@ -3127,7 +3178,7 @@
       },
       "lineups": {
         "status": "predicted",
-        "source": "statz.ai predicted XIs (match page, 17 Nov). Austria's is the XI that started the 1-0 win over Ireland on 14 Nov (Irish Times line-up). Starting 11 shows positions only, and KickOff has no predicted XI. No other predicted XI was found.",
+        "source": "WhoScored confirmed-lineup pages, VAVEL, 101 Great Goals (19:50–20:00)",
         "home": {
           "formation": "5-4-1",
           "xi": [
@@ -3147,20 +3198,33 @@
         "away": {
           "formation": "4-2-3-1",
           "xi": [
-            "Alexander Schlager",
+            "Lukas Jungwirth",
             "Phillipp Mwene",
-            "Kevin Danso",
-            "Philipp Lienhart",
-            "Stefan Posch",
             "Nicolas Seiwald",
             "Konrad Laimer",
-            "Christoph Lang",
-            "Christoph Baumgartner",
             "Romano Schmid",
-            "Michael Gregoritsch"
+            "Junior Adamu",
+            "Unconfirmed",
+            "Unconfirmed",
+            "Unconfirmed",
+            "Unconfirmed",
+            "Unconfirmed"
+          ],
+          "bench": [
+            "Florian Wiegele",
+            "Michael Gregoritsch",
+            "Christian Zawieschitzky",
+            "Christoph Lang",
+            "Yanik Spalt",
+            "Christoph Baumgartner",
+            "Michael Svoboda",
+            "Philipp Lienhart",
+            "Stefan Posch",
+            "Alexander Schlager",
+            "Kevin Danso"
           ]
         },
-        "alt": "Austria have already won the group and Starting 11 says Rangnick rotates (53% of the XI kept over the last six games), so changes from the Ireland XI are likely but none has been reported. The 14 Nov substitutes were Sasa Kalajdzic (winner off the bench, 3 goals in the last 10 games), Horvath, Florucz and Affengruber (surnames as given by the Irish Times). Israel: statz.ai has Daniel Peretz in goal (he started the reverse fixture) and Idan Toklomati as the lone striker. Its 14 Nov prediction for the Kosovo game had Assaf Tzur in goal and Dor Turgeman up front, and Ben Shimon said before the window that three goalkeepers were in contention (Jerusalem Post). We did not find Israel's line-up from the 0-0 in Pristina. Team sheets are due about an hour before kick-off."
+        "alt": "Austria rotate with the group won: Gregoritsch, Baumgartner, Lang, Schlager, Danso, Lienhart and Posch all on the bench; Lukas Jungwirth in goal, Junior Adamu up front. Israel 4-2-3-1 with Idan Toklomati as the striker."
       },
       "news": [
         {
@@ -3230,7 +3294,7 @@
           {
             "name": "Dor Peretz",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 10,
             "shots90": 1.7,
             "sot90": 1.36,
@@ -3261,7 +3325,7 @@
           {
             "name": "Idan Toklomati",
             "pos": "FW",
-            "start": 0.7,
+            "start": 1,
             "note": "Lone striker in the statz.ai XI. No shot or goal figures found."
           },
           {
@@ -3283,13 +3347,13 @@
           {
             "name": "Michael Gregoritsch",
             "pos": "FW",
-            "start": 0.85,
+            "start": 0,
             "shots": 13,
             "shots90": 3.7,
             "sot90": 2.38,
             "fouls90": 0.53,
             "tackles90": 0.53,
-            "note": "Shots from the last 10 games (statz.ai); 16 shots and 6 on target in 2026. 1 Nations League goal (the equaliser in Dublin) and 5 shots on target (KickOff). Shot in four straight games, averaging 3 (statz.ai preview). Per-90s: Bundesliga + Nations League 2026/27 (681 min, up to 14 Nov), statz.ai. Midnite (not bet365) has 1+ shots on target at 1.25."
+            "note": "On the bench. Shots from the last 10 games (statz.ai); 16 shots and 6 on target in 2026. 1 Nations League goal (the equaliser in Dublin) and 5 shots on target (KickOff). Shot in four straight games, averaging 3 (statz.ai preview). Per-90s: Bundesliga + Nations League 2026/27 (681 min, up to 14 Nov), statz.ai. Midnite (not bet365) has 1+ shots on target at 1.25."
           },
           {
             "name": "Romano Schmid",
@@ -3305,13 +3369,13 @@
           {
             "name": "Stefan Posch",
             "pos": "DF",
-            "start": 0.8,
+            "start": 0,
             "shots": 11,
             "shots90": 1.61,
             "sot90": 0.8,
             "fouls90": 1.21,
             "tackles90": 2.21,
-            "note": "11 shots in the last 10 games (statz.ai); started v Ireland and came off after 76 minutes. Small per-90 sample: Mainz + Nations League 2026/27 (448 min, up to 14 Nov), statz.ai. Midnite (not bet365) has 1+ fouls at 1.40."
+            "note": "On the bench. 11 shots in the last 10 games (statz.ai); started v Ireland and came off after 76 minutes. Small per-90 sample: Mainz + Nations League 2026/27 (448 min, up to 14 Nov), statz.ai. Midnite (not bet365) has 1+ fouls at 1.40."
           },
           {
             "name": "Sasa Kalajdzic",
@@ -3324,15 +3388,15 @@
           {
             "name": "Christoph Lang",
             "pos": "FW",
-            "start": 0.7,
+            "start": 0,
             "goals": 1,
-            "note": "1 goal in the last 10 games (statz.ai), off the bench in Kosovo. Started v Ireland and was replaced after an hour."
+            "note": "On the bench. 1 goal in the last 10 games (statz.ai), off the bench in Kosovo. Started v Ireland and was replaced after an hour."
           },
           {
             "name": "Christoph Baumgartner",
             "pos": "AM",
-            "start": 0.75,
-            "note": "Started v Ireland on his return from a tendon injury. 8 shots and 3 on target in 2026 (statz.ai team page)."
+            "start": 0,
+            "note": "On the bench. Started v Ireland on his return from a tendon injury. 8 shots and 3 on target in 2026 (statz.ai team page)."
           },
           {
             "name": "Konrad Laimer",
@@ -3345,6 +3409,11 @@
             "pos": "MF",
             "start": 0.85,
             "note": "Tackle in five straight games, averaging 2.8 (statz.ai preview); 28 tackles in 2026, most in the squad (statz.ai team page)."
+          },
+          {
+            "start": 1,
+            "name": "Junior Adamu",
+            "pos": "FW"
           }
         ]
       },
@@ -3454,7 +3523,10 @@
           "title": "weekend.at: ÖFB September squad (Arnautović retired, Sabitzer on a break)",
           "url": "https://www.weekend.at/sport/oefb-kader-nations-league"
         }
-      ]
+      ],
+      "adjust": {
+        "away": 0.9
+      }
     },
     {
       "id": "pol-swe",
@@ -3577,22 +3649,23 @@
       },
       "lineups": {
         "status": "predicted",
-        "source": "Poland: Piłka Nożna (via MagiaPiłki, 17 Nov) and Dziennik.pl (17 Nov) predict the same XI. Dziennik calls the midfielder 'Mateusz Poręba'; the Poland midfielder is Łukasz Poręba, as Piłka Nożna has it. Sweden: the XI that beat Bosnia 3-2, which TVP Sport expects to start again (via TVmatchen). statz.ai's predicted Sweden XI is the same eleven. Potter did not reveal his team.",
+        "source": "WhoScored confirmed-lineup pages, VAVEL, 101 Great Goals (19:50–20:00)",
         "home": {
           "formation": "4-2-3-1",
           "xi": [
             "Sławomir Abramowicz",
-            "Arkadiusz Pyrka",
-            "Jan Bednarek",
             "Kacper Potulski",
+            "Jan Bednarek",
+            "Arkadiusz Pyrka",
             "Oskar Kubiak",
-            "Łukasz Poręba",
+            "Piotr Zieliński",
             "Wiktor Nowak",
             "Marcel Reguła",
-            "Piotr Zieliński",
+            "Sebastian Szymański",
             "Nicola Zalewski",
-            "Robert Lewandowski"
-          ]
+            "Adrian Benedyczak"
+          ],
+          "confirmed": true
         },
         "away": {
           "formation": "4-4-2",
@@ -3610,7 +3683,7 @@
             "Alexander Isak"
           ]
         },
-        "alt": "Poland: Bartłomiej Drągowski kept goal in Romania, and both Polish predictions have Abramowicz making his debut instead. Zieliński is a late fitness call (foot). statz.ai's 4-4-2 has Drągowski, Kędziora in place of Bednarek, and Sebastian Szymański and Karol Świderski in place of Poręba and Zieliński. Dziennik says Urban will make five changes from the Romania game. Sweden: Benjamin Nygren is doubtful with a heel problem. Kulusevski is planned for about 30 minutes off the bench. A related-link teaser on Sweden Herald says Alieu Njie and Genesis Antwi could debut."
+        "alt": "Poland confirmed: Lewandowski and Świderski on the bench, Adrian Benedyczak starts up front. Sweden 4-4-2 with Gyökeres; Bergvall and Wålemark injured."
       },
       "news": [
         {
@@ -3691,19 +3764,19 @@
           {
             "name": "Robert Lewandowski",
             "pos": "FW",
-            "start": 0.85,
+            "start": 0,
             "shots": 21,
             "goals": 5,
             "pens": true,
             "shots90": 2.92,
             "sot90": 1.25,
             "tackles90": 0.5,
-            "note": "Shots and goals cover Poland's last 10 games (statz.ai match page); 7 of the shots were on target. All 3 of his Nations League goals came in the 6-0 win over Romania, one a penalty. Per-90s come from the 14 Nov data (Chicago Fire MLS 2026 plus Nations League, 1,078 min, statz.ai). fouls90 is left out: 1.67 is above 1.5 for an attacker and has only one source. 13 fouls in the last 10 games, the most for Poland (statz.ai). He was substituted in Romania, and Urban says they will discuss his minutes."
+            "note": "Not in the confirmed XI. Shots and goals cover Poland's last 10 games (statz.ai match page); 7 of the shots were on target. All 3 of his Nations League goals came in the 6-0 win over Romania, one a penalty. Per-90s come from the 14 Nov data (Chicago Fire MLS 2026 plus Nations League, 1,078 min, statz.ai). fouls90 is left out: 1.67 is above 1.5 for an attacker and has only one source. 13 fouls in the last 10 games, the most for Poland (statz.ai). He was substituted in Romania, and Urban says they will discuss his minutes."
           },
           {
             "name": "Piotr Zieliński",
             "pos": "MF",
-            "start": 0.6,
+            "start": 1,
             "shots": 23,
             "goals": 3,
             "shots90": 2.45,
@@ -3715,7 +3788,7 @@
           {
             "name": "Wiktor Nowak",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 8,
             "goals": 0,
             "shots90": 1.76,
@@ -3727,7 +3800,7 @@
           {
             "name": "Nicola Zalewski",
             "pos": "AM",
-            "start": 0.8,
+            "start": 1,
             "shots": 3,
             "goals": 0,
             "shots90": 1.62,
@@ -3739,42 +3812,47 @@
           {
             "name": "Marcel Reguła",
             "pos": "AM",
-            "start": 0.8,
+            "start": 1,
             "goals": 1,
             "note": "Scored Poland's goal in the 2-1 defeat in Romania on 14 Nov. Both Polish predicted XIs start him. No per-90s found."
           },
           {
             "name": "Sebastian Szymański",
             "pos": "AM",
-            "start": 0.4,
+            "start": 1,
             "shots": 8,
             "note": "Shots are from his Nations League games before 14 Nov (14 Nov data). He has 5 Nations League shots on target and 2 assists, Poland's most (KickOff), and scored in the reverse fixture. statz.ai: had a shot in 5 straight games, averaging 1.8. He is in statz.ai's predicted XI but not in either Polish one. His 1+ shots price (1.10) is from Ladbrokes, not bet365."
           },
           {
             "name": "Karol Świderski",
             "pos": "FW",
-            "start": 0.25,
+            "start": 0,
             "goals": 2,
-            "note": "Goals cover Poland's last 10 games, with 5 shots on target (statz.ai match page). He is in statz.ai's predicted XI but not in either Polish one."
+            "note": "Not in the confirmed XI. Goals cover Poland's last 10 games, with 5 shots on target (statz.ai match page). He is in statz.ai's predicted XI but not in either Polish one."
           },
           {
             "name": "Jan Bednarek",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "note": "Back from suspension. Expected to start in central defence."
           },
           {
             "name": "Arkadiusz Pyrka",
             "pos": "DF",
-            "start": 0.8,
+            "start": 1,
             "note": "Expected to replace the concussed Matty Cash at right-back."
+          },
+          {
+            "start": 1,
+            "name": "Adrian Benedyczak",
+            "pos": "FW"
           }
         ],
         "away": [
           {
             "name": "Viktor Gyökeres",
             "pos": "FW",
-            "start": 0.9,
+            "start": 1,
             "shots": 29,
             "goals": 8,
             "pens": true,
@@ -3799,7 +3877,7 @@
           {
             "name": "Yasin Ayari",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 12,
             "goals": 3,
             "shots90": 2.79,
@@ -4008,7 +4086,10 @@
           "title": "TVmatchen: Polen-Sverige 17 november 2026 (team news, Expekt odds, Sweden XI v Bosnia)",
           "url": "https://www.tvmatchen.nu/sport/fotboll/polen-sverige-17-november-2026/"
         }
-      ]
+      ],
+      "adjust": {
+        "home": 0.92
+      }
     },
     {
       "id": "bih-rou",
@@ -4123,22 +4204,23 @@
       },
       "lineups": {
         "status": "predicted",
-        "source": "statz.ai match page (checked 17 Nov). Both XIs take account of 14 November: Bosnia's has Mahmić up front with Demirović in place of the injured Tabaković, and Romania's leaves out the suspended Băluță. No Sports Mole, WhoScored or federation predicted XI was found. Starting11 shows only empty position slots.",
+        "source": "WhoScored confirmed-lineup pages, VAVEL, 101 Great Goals (19:50–20:00)",
         "home": {
           "formation": "4-4-2",
           "xi": [
             "Martin Zlomislić",
+            "Amar Memić",
+            "Zinedin Smajlović",
+            "Tarik Muharemović",
             "Amar Dedić",
-            "Nikola Katić",
-            "Stjepan Radeljić",
-            "Sead Kolašinac",
-            "Esmir Bajraktarević",
+            "Benjamin Tahirović",
             "Ivan Bašić",
-            "Armin Gigović",
-            "Kerim Alajbegović",
             "Ermin Mahmić",
-            "Ermedin Demirović"
-          ]
+            "Kerim Alajbegović",
+            "Jovo Lukić",
+            "Esmir Bajraktarević"
+          ],
+          "confirmed": true
         },
         "away": {
           "formation": "4-3-1-2",
@@ -4156,7 +4238,7 @@
             "Florinel Coman"
           ]
         },
-        "alt": "The statz.ai preview article gives older XIs that do not match the match page. For Bosnia it has Muharemović and Malić in defence and Memić and Tabaković in the team. For Romania it has Popescu in goal and Marin, Băluță, Stoica, Moruțan and Bîrligea, but Băluță is suspended. Muharemović, back from suspension, could return in defence. Bosnia's XI in Sweden on 14 Nov, as inferred from the SportsDunia ratings, was Zlomislić; Kolašinac, Dedić, Katić and Radeljić; Gigović, Bašić, Bajraktarević and Alajbegović; Demirović and Tabaković. Bîrligea (Romania's top shooter over the last 10 games) and Ianis Stoica are options up front for Romania, and Răzvan Marin is available again. Hagi said there would 'probably' be changes."
+        "alt": "Bosnia confirmed: Jovo Lukić starts up front, Ermedin Demirović, Kolašinac, Katić and Gigović on the bench (Džeko not in the squad). Romania XI not yet readable; predicted XI kept."
       },
       "news": [
         {
@@ -4225,57 +4307,62 @@
           {
             "name": "Kerim Alajbegović",
             "pos": "AM",
-            "start": 0.85,
+            "start": 1,
             "shots": 14,
             "note": "14 shots in Bosnia's last 10 games, the most in the squad (statz.ai). Nations League: 1 goal, 6 shots on target and 2 assists (KickOff). Took the corner for Kolašinac's goal on 14 Nov. Averages 2.8 shots over his last 5 games, with 2+ shots in 4 of them (statz.ai bet builder). Plays for Juventus. No per-90s found."
           },
           {
             "name": "Ermedin Demirović",
             "pos": "FW",
-            "start": 0.85,
-            "note": "15 fouls committed in Bosnia's last 10 games, the most in the squad (statz.ai). Averages 1.4 shots on target over his last 5 games, with 1+ on target in 4 of them (statz.ai bet builder). No per-90s found."
+            "start": 0,
+            "note": "Not in the confirmed XI. 15 fouls committed in Bosnia's last 10 games, the most in the squad (statz.ai). Averages 1.4 shots on target over his last 5 games, with 1+ on target in 4 of them (statz.ai bet builder). No per-90s found."
           },
           {
             "name": "Armin Gigović",
             "pos": "MF",
-            "start": 0.85,
+            "start": 0,
             "goals": 2,
-            "note": "Bosnia's top Nations League scorer (2 goals, 2 shots on target; KickOff), with goals in the reverse fixture and in Sweden. The 1+ fouls price is from the statz.ai match-page bet builder (slip priced at Midnite). Statz.ai shows a 100% hit rate without a game count. No per-90s found."
+            "note": "Not in the confirmed XI. Bosnia's top Nations League scorer (2 goals, 2 shots on target; KickOff), with goals in the reverse fixture and in Sweden. The 1+ fouls price is from the statz.ai match-page bet builder (slip priced at Midnite). Statz.ai shows a 100% hit rate without a game count. No per-90s found."
           },
           {
             "name": "Ivan Bašić",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 10,
             "note": "10 shots in Bosnia's last 10 games (statz.ai). 1 Nations League goal and 1 assist (KickOff). 8 fouls this season, joint most in the squad (statz.ai)."
           },
           {
             "name": "Ermin Mahmić",
             "pos": "AM",
-            "start": 0.8,
+            "start": 1,
             "shots": 10,
             "note": "10 shots in Bosnia's last 10 games (statz.ai). Scored in the reverse fixture and set up Gigović's goal in Sweden after coming on for the injured Tabaković."
           },
           {
             "name": "Esmir Bajraktarević",
             "pos": "AM",
-            "start": 0.8,
+            "start": 1,
             "assists": 2,
             "note": "2 Nations League assists (KickOff)."
           },
           {
             "name": "Sead Kolašinac",
             "pos": "DF",
-            "start": 0.85,
+            "start": 0,
             "goals": 1,
-            "note": "Headed in from a corner in Sweden, but also gave away the second penalty. 14 fouls in the last 10 games and 8 this season (statz.ai)."
+            "note": "Not in the confirmed XI. Headed in from a corner in Sweden, but also gave away the second penalty. 14 fouls in the last 10 games and 8 this season (statz.ai)."
           },
           {
             "name": "Haris Tabaković",
             "pos": "FW",
-            "start": 0.3,
+            "start": 0,
             "goals": 1,
-            "note": "Injured in the first half on 14 Nov; fitness unknown. Scored in the reverse fixture."
+            "note": "Not in the confirmed XI. Injured in the first half on 14 Nov; fitness unknown. Scored in the reverse fixture."
+          },
+          {
+            "start": 1,
+            "name": "Jovo Lukić",
+            "pos": "FW"
           }
         ],
         "away": [
@@ -4504,7 +4591,10 @@
           "title": "TV4: Sweden's squad for the Nations League decider (4 Nov) (14 Nov data, reused)",
           "url": "https://www.tv4.se/artikel/4KzdExJuykyJJwc29jKNL/klart-blagults-trupp-till-nations-league-avgoerandet"
         }
-      ]
+      ],
+      "adjust": {
+        "home": 0.95
+      }
     }
   ]
 }
