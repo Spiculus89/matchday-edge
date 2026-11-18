@@ -1,0 +1,1827 @@
+{
+ "at": "2026-11-18T10:29:54.709Z",
+ "sports": [
+  {
+   "sportId": 10,
+   "slug": "soccer",
+   "sportName": "Soccer"
+  },
+  {
+   "sportId": 11,
+   "slug": "basketball",
+   "sportName": "Basketball"
+  },
+  {
+   "sportId": 12,
+   "slug": "tennis",
+   "sportName": "Tennis"
+  },
+  {
+   "sportId": 13,
+   "slug": "baseball",
+   "sportName": "Baseball"
+  },
+  {
+   "sportId": 14,
+   "slug": "american-football",
+   "sportName": "American Football"
+  },
+  {
+   "sportId": 15,
+   "slug": "ice-hockey",
+   "sportName": "Ice Hockey"
+  },
+  {
+   "sportId": 16,
+   "slug": "esport-dota",
+   "sportName": "ESport Dota"
+  },
+  {
+   "sportId": 17,
+   "slug": "esport-counter-strike",
+   "sportName": "ESport Counter-Strike"
+  },
+  {
+   "sportId": 18,
+   "slug": "esport-league-of-legends",
+   "sportName": "ESport League of Legends"
+  },
+  {
+   "sportId": 19,
+   "slug": "darts",
+   "sportName": "Darts"
+  },
+  {
+   "sportId": 20,
+   "slug": "mma",
+   "sportName": "MMA"
+  },
+  {
+   "sportId": 21,
+   "slug": "boxing",
+   "sportName": "Boxing"
+  },
+  {
+   "sportId": 22,
+   "slug": "handball",
+   "sportName": "Handball"
+  },
+  {
+   "sportId": 23,
+   "slug": "volleyball",
+   "sportName": "Volleyball"
+  },
+  {
+   "sportId": 24,
+   "slug": "snooker",
+   "sportName": "Snooker"
+  },
+  {
+   "sportId": 25,
+   "slug": "table-tennis",
+   "sportName": "Table Tennis"
+  },
+  {
+   "sportId": 26,
+   "slug": "rugby",
+   "sportName": "Rugby"
+  },
+  {
+   "sportId": 27,
+   "slug": "cricket",
+   "sportName": "Cricket"
+  },
+  {
+   "sportId": 28,
+   "slug": "waterpolo",
+   "sportName": "Waterpolo"
+  },
+  {
+   "sportId": 29,
+   "slug": "futsal",
+   "sportName": "Futsal"
+  },
+  {
+   "sportId": 30,
+   "slug": "beach-volley",
+   "sportName": "Beach Volley"
+  },
+  {
+   "sportId": 31,
+   "slug": "aussie-rules",
+   "sportName": "Aussie Rules"
+  },
+  {
+   "sportId": 32,
+   "slug": "field-hockey",
+   "sportName": "Field hockey"
+  },
+  {
+   "sportId": 33,
+   "slug": "floorball",
+   "sportName": "Floorball"
+  },
+  {
+   "sportId": 34,
+   "slug": "squash",
+   "sportName": "Squash"
+  },
+  {
+   "sportId": 35,
+   "slug": "basketball-3x3",
+   "sportName": "Basketball 3x3"
+  },
+  {
+   "sportId": 36,
+   "slug": "beach-soccer",
+   "sportName": "Beach Soccer"
+  },
+  {
+   "sportId": 37,
+   "slug": "pesapallo",
+   "sportName": "Pesapallo"
+  },
+  {
+   "sportId": 38,
+   "slug": "lacrosse",
+   "sportName": "Lacrosse"
+  },
+  {
+   "sportId": 39,
+   "slug": "curling",
+   "sportName": "Curling"
+  },
+  {
+   "sportId": 40,
+   "slug": "padel",
+   "sportName": "Padel"
+  },
+  {
+   "sportId": 41,
+   "slug": "bandy",
+   "sportName": "Bandy"
+  },
+  {
+   "sportId": 42,
+   "slug": "kabaddi",
+   "sportName": "Kabaddi"
+  },
+  {
+   "sportId": 43,
+   "slug": "rink-hockey",
+   "sportName": "Rink Hockey"
+  },
+  {
+   "sportId": 44,
+   "slug": "soccer-specials",
+   "sportName": "Soccer Specials"
+  },
+  {
+   "sportId": 45,
+   "slug": "gaelic-football",
+   "sportName": "Gaelic Football"
+  },
+  {
+   "sportId": 46,
+   "slug": "netball",
+   "sportName": "Netball"
+  },
+  {
+   "sportId": 47,
+   "slug": "beach-handball",
+   "sportName": "Beach Handball"
+  },
+  {
+   "sportId": 48,
+   "slug": "athletics",
+   "sportName": "Athletics"
+  },
+  {
+   "sportId": 49,
+   "slug": "badminton",
+   "sportName": "Badminton"
+  },
+  {
+   "sportId": 50,
+   "slug": "bowls",
+   "sportName": "Bowls"
+  },
+  {
+   "sportId": 51,
+   "slug": "cross-country",
+   "sportName": "Cross-Country"
+  },
+  {
+   "sportId": 52,
+   "slug": "gaelic-hurling",
+   "sportName": "Gaelic Hurling"
+  },
+  {
+   "sportId": 53,
+   "slug": "softball",
+   "sportName": "Softball"
+  },
+  {
+   "sportId": 54,
+   "slug": "esoccer",
+   "sportName": "eSoccer"
+  },
+  {
+   "sportId": 55,
+   "slug": "ebasketball",
+   "sportName": "eBasketball"
+  },
+  {
+   "sportId": 56,
+   "slug": "esport-call-of-duty",
+   "sportName": "ESport Call of Duty"
+  },
+  {
+   "sportId": 57,
+   "slug": "esport-overwatch",
+   "sportName": "ESport Overwatch"
+  },
+  {
+   "sportId": 58,
+   "slug": "esport-rainbow-six",
+   "sportName": "ESport Rainbow Six"
+  },
+  {
+   "sportId": 59,
+   "slug": "esport-rocket-league",
+   "sportName": "ESport Rocket League"
+  },
+  {
+   "sportId": 60,
+   "slug": "esport-starcraft",
+   "sportName": "ESport StarCraft"
+  },
+  {
+   "sportId": 61,
+   "slug": "esport-valorant",
+   "sportName": "ESport Valorant"
+  },
+  {
+   "sportId": 62,
+   "slug": "esport-arena-of-valor",
+   "sportName": "ESport Arena of Valor"
+  },
+  {
+   "sportId": 63,
+   "slug": "esport-king-of-glory",
+   "sportName": "ESport King of Glory"
+  },
+  {
+   "sportId": 64,
+   "slug": "judo",
+   "sportName": "Judo"
+  },
+  {
+   "sportId": 65,
+   "slug": "esport-honor-of-kings",
+   "sportName": "ESport Honor of Kings"
+  },
+  {
+   "sportId": 66,
+   "slug": "speedway",
+   "sportName": "Speedway"
+  },
+  {
+   "sportId": 67,
+   "slug": "golf",
+   "sportName": "Golf"
+  },
+  {
+   "sportId": 68,
+   "slug": "cycling",
+   "sportName": "Cycling"
+  },
+  {
+   "sportId": 69,
+   "slug": "politics",
+   "sportName": "Politics"
+  },
+  {
+   "sportId": 70,
+   "slug": "elections",
+   "sportName": "Elections"
+  },
+  {
+   "sportId": 71,
+   "slug": "economics",
+   "sportName": "Economics"
+  },
+  {
+   "sportId": 72,
+   "slug": "finance",
+   "sportName": "Finance"
+  },
+  {
+   "sportId": 73,
+   "slug": "technology",
+   "sportName": "Technology"
+  },
+  {
+   "sportId": 74,
+   "slug": "health",
+   "sportName": "Health"
+  },
+  {
+   "sportId": 75,
+   "slug": "science",
+   "sportName": "Science"
+  },
+  {
+   "sportId": 76,
+   "slug": "cryptocurrency",
+   "sportName": "Cryptocurrency"
+  },
+  {
+   "sportId": 77,
+   "slug": "weather",
+   "sportName": "Weather"
+  },
+  {
+   "sportId": 78,
+   "slug": "culture",
+   "sportName": "Culture"
+  },
+  {
+   "sportId": 82,
+   "slug": "chess",
+   "sportName": "Chess"
+  },
+  {
+   "sportId": 83,
+   "slug": "esport-mobile-legends"
+  },
+  {
+   "sportId": 84,
+   "slug": "formula-1",
+   "sportName": "Formula 1"
+  }
+ ],
+ "bookmakerCount": 323,
+ "bookmakers": [
+  {
+   "bookmakerName": "AdmiralBet BA",
+   "slug": "admiralbet.ba",
+   "liveOdds": true,
+   "cloneOf": "admiralbet.rs"
+  },
+  {
+   "bookmakerName": "AdmiralBet IT",
+   "slug": "admiralbet.it",
+   "liveOdds": true,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "AdmiralBet ME",
+   "slug": "admiralbet.me",
+   "liveOdds": true,
+   "cloneOf": "admiralbet.rs"
+  },
+  {
+   "bookmakerName": "AdmiralBet RS",
+   "slug": "admiralbet.rs",
+   "liveOdds": false,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "Asports Bet",
+   "slug": "asports.bet",
+   "liveOdds": true,
+   "cloneOf": "pinnacle"
+  },
+  {
+   "bookmakerName": "bet365",
+   "slug": "bet365",
+   "liveOdds": false,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "bet365 NJ",
+   "slug": "bet365-nj",
+   "liveOdds": false,
+   "cloneOf": "bet365"
+  },
+  {
+   "bookmakerName": "bet365 AR",
+   "slug": "bet365.bet.ar",
+   "liveOdds": false,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "bet365 DE",
+   "slug": "bet365.de",
+   "liveOdds": false,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "bet365 ES",
+   "slug": "bet365.es",
+   "liveOdds": false,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "bet365 FR",
+   "slug": "bet365.fr",
+   "liveOdds": false,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "bet365 GR",
+   "slug": "bet365.gr",
+   "liveOdds": false,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "bet365 IT",
+   "slug": "bet365.it",
+   "liveOdds": false,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "bet365 NL",
+   "slug": "bet365.nl",
+   "liveOdds": false,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "Bet487",
+   "slug": "bet487",
+   "liveOdds": true,
+   "cloneOf": "pinnacle"
+  },
+  {
+   "bookmakerName": "Bolsa de Aposta Sportsbook",
+   "slug": "bolsadeaposta-spb",
+   "liveOdds": true,
+   "cloneOf": "pinnacle"
+  },
+  {
+   "bookmakerName": "Mozzart Bet",
+   "slug": "mozzartbet",
+   "liveOdds": false,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "OLE777",
+   "slug": "ole777",
+   "liveOdds": true,
+   "cloneOf": "pinnacle"
+  },
+  {
+   "bookmakerName": "Pin88",
+   "slug": "pin88",
+   "liveOdds": true,
+   "cloneOf": "pinnacle"
+  },
+  {
+   "bookmakerName": "Pinnacle Sports",
+   "slug": "pinnacle",
+   "liveOdds": true,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "Pinnacle +30 sec",
+   "slug": "pinnacle+30",
+   "liveOdds": true,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "Pinnacle +5 sec",
+   "slug": "pinnacle+5",
+   "liveOdds": true,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "Piwi247 Sportsbook",
+   "slug": "piwi247-spb",
+   "liveOdds": true,
+   "cloneOf": "pinnacle"
+  },
+  {
+   "bookmakerName": "PS3838",
+   "slug": "ps3838",
+   "liveOdds": true,
+   "cloneOf": "pinnacle"
+  }
+ ],
+ "bookmakerSample": [
+  {
+   "bookmakerName": "18Bet",
+   "slug": "18bet",
+   "liveOdds": true,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "198Bet",
+   "slug": "198bet",
+   "liveOdds": true,
+   "cloneOf": null
+  },
+  {
+   "bookmakerName": "1Red",
+   "slug": "1red",
+   "liveOdds": false,
+   "cloneOf": "n1bet"
+  }
+ ],
+ "tournaments": {
+  "soccer": {
+   "sportId": 10,
+   "count": 2018,
+   "sample": [
+    {
+     "tournamentId": 1,
+     "tournamentSlug": "uefa-euro",
+     "tournamentName": "UEFA Euro",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 2,
+     "tournamentSlug": "dont-use-2",
+     "tournamentName": "don't use",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    }
+   ],
+   "picked": [
+    {
+     "tournamentId": 7,
+     "tournamentSlug": "uefa-champions-league",
+     "tournamentName": "UEFA Champions League",
+     "categorySlug": "international-clubs",
+     "categoryName": "International Clubs",
+     "futureFixtures": 72,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 8,
+     "tournamentSlug": "laliga",
+     "tournamentName": "LaLiga",
+     "categorySlug": "spain",
+     "categoryName": "Spain",
+     "futureFixtures": 260,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 11,
+     "tournamentSlug": "wc-qualification-uefa",
+     "tournamentName": "FIFA World Cup Qualification, UEFA",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 13,
+     "tournamentSlug": "fifa-world-cup-qualification-caf",
+     "tournamentName": "FIFA World Cup Qualification, CAF",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 14,
+     "tournamentSlug": "world-cup-qualification-concacaf",
+     "tournamentName": "FIFA World Cup Qualification, CONCACAF",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 16,
+     "tournamentSlug": "world-cup",
+     "tournamentName": "FIFA World Cup",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 17,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "england",
+     "categoryName": "England",
+     "futureFixtures": 280,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 23,
+     "tournamentSlug": "serie-a",
+     "tournamentName": "Serie A",
+     "categorySlug": "italy",
+     "categoryName": "Italy",
+     "futureFixtures": 270,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 34,
+     "tournamentSlug": "ligue-1",
+     "tournamentName": "Ligue 1",
+     "categorySlug": "france",
+     "categoryName": "France",
+     "futureFixtures": 220,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 35,
+     "tournamentSlug": "bundesliga",
+     "tournamentName": "Bundesliga",
+     "categorySlug": "germany",
+     "categoryName": "Germany",
+     "futureFixtures": 225,
+     "upcomingFixtures": 0,
+     "liveFixtures": 1
+    },
+    {
+     "tournamentId": 44,
+     "tournamentSlug": "2-bundesliga",
+     "tournamentName": "2. Bundesliga",
+     "categorySlug": "germany",
+     "categoryName": "Germany",
+     "futureFixtures": 207,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 45,
+     "tournamentSlug": "bundesliga",
+     "tournamentName": "Bundesliga",
+     "categorySlug": "austria",
+     "categoryName": "Austria",
+     "futureFixtures": 60,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 54,
+     "tournamentSlug": "laliga-2",
+     "tournamentName": "LaLiga 2",
+     "categorySlug": "spain",
+     "categoryName": "Spain",
+     "futureFixtures": 310,
+     "upcomingFixtures": 1,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 92,
+     "tournamentSlug": "carioca",
+     "tournamentName": "Carioca, Serie A",
+     "categorySlug": "brazil",
+     "categoryName": "Brazil",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 203,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "russia",
+     "categoryName": "Russia",
+     "futureFixtures": 128,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 218,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "ukraine",
+     "categoryName": "Ukraine",
+     "futureFixtures": 146,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 232,
+     "tournamentSlug": "women-bundesliga",
+     "tournamentName": "Women Bundesliga",
+     "categorySlug": "germany-amateur",
+     "categoryName": "Germany Amateur",
+     "futureFixtures": 112,
+     "upcomingFixtures": 1,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 266,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "israel",
+     "categoryName": "Israel",
+     "futureFixtures": 112,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 279,
+     "tournamentSlug": "u17-fifa-world-cup",
+     "tournamentName": "U17 FIFA World Cup",
+     "categorySlug": "international-youth",
+     "categoryName": "International Youth",
+     "futureFixtures": 72,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 280,
+     "tournamentSlug": "int-friendly-games",
+     "tournamentName": "Int. Friendly Games",
+     "categorySlug": "international-clubs",
+     "categoryName": "International Clubs",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 290,
+     "tournamentSlug": "world-cup-women",
+     "tournamentName": "FIFA World Cup, Women",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 295,
+     "tournamentSlug": "wc-qual-conmebol",
+     "tournamentName": "FIFA World Cup Qualification, CONMEBOL",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 309,
+     "tournamentSlug": "fifa-world-cup-qualification-ofc",
+     "tournamentName": "FIFA World Cup Qualification, OFC",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 325,
+     "tournamentSlug": "brasileiro-serie-a",
+     "tournamentName": "Brasileiro Serie A",
+     "categorySlug": "brazil",
+     "categoryName": "Brazil",
+     "futureFixtures": 39,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 357,
+     "tournamentSlug": "fifa-club-world-cup",
+     "tournamentName": "FIFA Club World Cup",
+     "categorySlug": "international-clubs",
+     "categoryName": "International Clubs",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 372,
+     "tournamentSlug": "paulista-serie-a1",
+     "tournamentName": "Paulista, Serie A1",
+     "categorySlug": "brazil",
+     "categoryName": "Brazil",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 374,
+     "tournamentSlug": "baiano",
+     "tournamentName": "Baiano, Serie A",
+     "categorySlug": "brazil",
+     "categoryName": "Brazil",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 376,
+     "tournamentSlug": "catarinense-serie-a",
+     "tournamentName": "Catarinense, Serie A",
+     "categorySlug": "brazil",
+     "categoryName": "Brazil",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 377,
+     "tournamentSlug": "gaucho-serie-a1",
+     "tournamentName": "Gaucho, Serie A1",
+     "categorySlug": "brazil",
+     "categoryName": "Brazil",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 378,
+     "tournamentSlug": "cearense",
+     "tournamentName": "Cearense, Serie A",
+     "categorySlug": "brazil",
+     "categoryName": "Brazil",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 453,
+     "tournamentSlug": "u20-world-cup",
+     "tournamentName": "U20 FIFA World Cup",
+     "categorySlug": "international-youth",
+     "categoryName": "International Youth",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 463,
+     "tournamentSlug": "afc-champions-league-elite",
+     "tournamentName": "AFC Champions League Elite",
+     "categorySlug": "international-clubs",
+     "categoryName": "International Clubs",
+     "futureFixtures": 65,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 479,
+     "tournamentSlug": "world-cup-qualification-asia",
+     "tournamentName": "World Cup Qualification Asia",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 629,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "malta",
+     "categoryName": "Malta",
+     "futureFixtures": 18,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 634,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "singapore",
+     "categoryName": "Singapore",
+     "futureFixtures": 61,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 668,
+     "tournamentSlug": "afc-champions-league-two",
+     "tournamentName": "AFC Champions League Two",
+     "categorySlug": "international-clubs",
+     "categoryName": "International Clubs",
+     "futureFixtures": 32,
+     "upcomingFixtures": 0,
+     "liveFixtures": 1
+    },
+    {
+     "tournamentId": 671,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "armenia",
+     "categoryName": "Armenia",
+     "futureFixtures": 24,
+     "upcomingFixtures": 0,
+     "liveFixtures": 1
+    },
+    {
+     "tournamentId": 673,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "faroe-islands",
+     "categoryName": "Faroe Islands",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 679,
+     "tournamentSlug": "uefa-europa-league",
+     "tournamentName": "UEFA Europa League",
+     "categorySlug": "international-clubs",
+     "categoryName": "International Clubs",
+     "futureFixtures": 72,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 682,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "kazakhstan",
+     "categoryName": "Kazakhstan",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 696,
+     "tournamentSlug": "uefa-champions-league-women",
+     "tournamentName": "UEFA Champions League Women",
+     "categorySlug": "international-clubs",
+     "categoryName": "International Clubs",
+     "futureFixtures": 19,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 709,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "azerbaijan",
+     "categoryName": "Azerbaijan",
+     "futureFixtures": 134,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 780,
+     "tournamentSlug": "world-championship-qualification-women-europe",
+     "tournamentName": "FIFA World Cup, Women, Qualification, UEFA",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 16,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 804,
+     "tournamentSlug": "u20-fifa-world-cup-women",
+     "tournamentName": "U20 FIFA World Cup, Women",
+     "categorySlug": "international-youth",
+     "categoryName": "International Youth",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 808,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "egypt",
+     "categoryName": "Egypt",
+     "futureFixtures": 110,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 809,
+     "tournamentSlug": "a-junioren-bundesliga-n-n-e",
+     "tournamentName": "A-Junioren-Bundesliga N/N-E",
+     "categorySlug": "germany-amateur",
+     "categoryName": "Germany Amateur",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 810,
+     "tournamentSlug": "a-junioren-bundesliga-west",
+     "tournamentName": "A-Junioren-Bundesliga West",
+     "categorySlug": "germany-amateur",
+     "categoryName": "Germany Amateur",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 811,
+     "tournamentSlug": "a-junioren-bundesliga-s-s-w",
+     "tournamentName": "A-Junioren-Bundesliga S/S-W",
+     "categorySlug": "germany-amateur",
+     "categoryName": "Germany Amateur",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 827,
+     "tournamentSlug": "u17-fifa-world-cup-women",
+     "tournamentName": "U17 FIFA World Cup, Women",
+     "categorySlug": "international-youth",
+     "categoryName": "International Youth",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 841,
+     "tournamentSlug": "ligue-1",
+     "tournamentName": "Ligue 1",
+     "categorySlug": "algeria",
+     "categoryName": "Algeria",
+     "futureFixtures": 51,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 846,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "bahrain",
+     "categoryName": "Bahrain",
+     "futureFixtures": 6,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 851,
+     "tournamentSlug": "int-friendly-games",
+     "tournamentName": "Int. Friendly Games",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 16,
+     "upcomingFixtures": 1,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 852,
+     "tournamentSlug": "int-friendly-games-w",
+     "tournamentName": "Int. Friendly Games W",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 1,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 853,
+     "tournamentSlug": "club-friendly-games",
+     "tournamentName": "Club Friendly Games",
+     "categorySlug": "international-clubs",
+     "categoryName": "International Clubs",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 16
+    },
+    {
+     "tournamentId": 854,
+     "tournamentSlug": "u21-friendly-games",
+     "tournamentName": "U21 Friendly Games",
+     "categorySlug": "international-youth",
+     "categoryName": "International Youth",
+     "futureFixtures": 6,
+     "upcomingFixtures": 4,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 855,
+     "tournamentSlug": "u20-friendly-games",
+     "tournamentName": "U20 Friendly Games",
+     "categorySlug": "international-youth",
+     "categoryName": "International Youth",
+     "futureFixtures": 1,
+     "upcomingFixtures": 1,
+     "liveFixtures": 1
+    },
+    {
+     "tournamentId": 856,
+     "tournamentSlug": "u19-friendly-games",
+     "tournamentName": "U19 Friendly Games",
+     "categorySlug": "international-youth",
+     "categoryName": "International Youth",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 857,
+     "tournamentSlug": "u18-friendly-games",
+     "tournamentName": "U18 Friendly Games",
+     "categorySlug": "international-youth",
+     "categoryName": "International Youth",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 858,
+     "tournamentSlug": "u17-friendly-games",
+     "tournamentName": "U17 Friendly Games",
+     "categorySlug": "international-youth",
+     "categoryName": "International Youth",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 947,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "hong-kong-china",
+     "categoryName": "Hong Kong, China",
+     "futureFixtures": 72,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    }
+   ]
+  },
+  "basketball": {
+   "sportId": 11,
+   "count": 627,
+   "sample": [
+    {
+     "tournamentId": 86,
+     "tournamentSlug": "oblhauptrunde-1",
+     "tournamentName": "OBLHauptrunde 1",
+     "categorySlug": "austria",
+     "categoryName": "Austria",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 87,
+     "tournamentSlug": "obl-hauptrunde-2",
+     "tournamentName": "OBL Hauptrunde 2",
+     "categorySlug": "austria",
+     "categoryName": "Austria",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    }
+   ],
+   "picked": [
+    {
+     "tournamentId": 132,
+     "tournamentSlug": "nba",
+     "tournamentName": "NBA",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 995,
+     "upcomingFixtures": 8,
+     "liveFixtures": 6
+    },
+    {
+     "tournamentId": 138,
+     "tournamentSlug": "euroleague",
+     "tournamentName": "Euroleague",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 272,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 262,
+     "tournamentSlug": "serie-a",
+     "tournamentName": "Serie A",
+     "categorySlug": "italy",
+     "categoryName": "Italy",
+     "futureFixtures": 176,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 441,
+     "tournamentSlug": "fiba-world-cup",
+     "tournamentName": "FIBA World Cup",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 442,
+     "tournamentSlug": "fiba-world-cup-women",
+     "tournamentName": "FIBA World Cup, Women",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 486,
+     "tournamentSlug": "wnba",
+     "tournamentName": "WNBA",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 871,
+     "tournamentSlug": "int-friendly-games",
+     "tournamentName": "Int. Friendly Games",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 875,
+     "tournamentSlug": "nba-all-star-game",
+     "tournamentName": "NBA All Star Game",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 1167,
+     "tournamentSlug": "euroleague-women",
+     "tournamentName": "Euroleague Women",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 16,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 1195,
+     "tournamentSlug": "club-friendly-games",
+     "tournamentName": "Club Friendly Games",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 10,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 1201,
+     "tournamentSlug": "premier-league-women",
+     "tournamentName": "Premier League Women",
+     "categorySlug": "russia",
+     "categoryName": "Russia",
+     "futureFixtures": 92,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 1329,
+     "tournamentSlug": "wnba-all-star-game",
+     "tournamentName": "WNBA All Star Game",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 1520,
+     "tournamentSlug": "serie-a2",
+     "tournamentName": "Serie A2",
+     "categorySlug": "italy",
+     "categoryName": "Italy",
+     "futureFixtures": 281,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 1580,
+     "tournamentSlug": "nba-g-league",
+     "tournamentName": "NBA G League",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 2197,
+     "tournamentSlug": "international-friendly-games-women",
+     "tournamentName": "International Friendly Games, Women",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 2382,
+     "tournamentSlug": "nba-preseason",
+     "tournamentName": "NBA Preseason",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 14051,
+     "tournamentSlug": "champions-league",
+     "tournamentName": "FIBA Champions League",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 40,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 14458,
+     "tournamentSlug": "wnba-preseason",
+     "tournamentName": "WNBA Preseason",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 15011,
+     "tournamentSlug": "serie-a2-lnp-cup",
+     "tournamentName": "Serie A2, LNP Cup",
+     "categorySlug": "italy",
+     "categoryName": "Italy",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 15822,
+     "tournamentSlug": "nba-summer-league",
+     "tournamentName": "NBA Summer League",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 16882,
+     "tournamentSlug": "world-cup-qualification-europe",
+     "tournamentName": "World Cup Qualification, Europe",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 48,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 17304,
+     "tournamentSlug": "world-cup-qualification-africa",
+     "tournamentName": "World Cup Qualification, Africa",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 18,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 17324,
+     "tournamentSlug": "world-cup-qualification-americas",
+     "tournamentName": "World Cup Qualification, Americas",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 24,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 17788,
+     "tournamentSlug": "world-cup-qualification-asia-and-oceania",
+     "tournamentName": "World Cup Qualification, Asia & Oceania",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 24,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 23881,
+     "tournamentSlug": "nba-rising-stars",
+     "tournamentName": "NBA Rising Stars",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 25467,
+     "tournamentSlug": "nba-africa-game",
+     "tournamentName": "NBA Africa Game",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 26764,
+     "tournamentSlug": "champions-league-asia",
+     "tournamentName": "FIBA Champions League Asia",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 30754,
+     "tournamentSlug": "champions-league-americas",
+     "tournamentName": "FIBA Champions League Americas",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 36,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 34992,
+     "tournamentSlug": "wnba-commissioners-cup",
+     "tournamentName": "WNBA Commissioner’s Cup",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 36141,
+     "tournamentSlug": "fiba-world-cup-qualification-women",
+     "tournamentName": "FIBA World Cup Qualification, Women",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 36153,
+     "tournamentSlug": "world-cup-women-qualification",
+     "tournamentName": "World Cup Women, Qualification",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 38503,
+     "tournamentSlug": "rollstuhl-bundesliga",
+     "tournamentName": "Rollstuhl Bundesliga",
+     "categorySlug": "austria",
+     "categoryName": "Austria",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 38949,
+     "tournamentSlug": "nba-draft",
+     "tournamentName": "NBA Draft",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 40401,
+     "tournamentSlug": "nba-cup",
+     "tournamentName": "NBA Cup",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 41126,
+     "tournamentSlug": "nba-g-league-showcase-cup",
+     "tournamentName": "NBA G League Tip-Off Tournament",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 153,
+     "upcomingFixtures": 5,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 43223,
+     "tournamentSlug": "u20-international-friendly-games",
+     "tournamentName": "U20 International Friendly Games",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 43225,
+     "tournamentSlug": "u20-international-friendly-games-women",
+     "tournamentName": "U20 International Friendly Games, Women",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 43641,
+     "tournamentSlug": "club-friendly-games-women",
+     "tournamentName": "Club Friendly Games, Women",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 44855,
+     "tournamentSlug": "serie-a2-women",
+     "tournamentName": "Serie A2, Women",
+     "categorySlug": "italy",
+     "categoryName": "Italy",
+     "futureFixtures": 160,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 46157,
+     "tournamentSlug": "champions-league-asia-east",
+     "tournamentName": "FIBA Champions League Asia - East",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 46736,
+     "tournamentSlug": "wnba-draft",
+     "tournamentName": "WNBA Draft",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 46809,
+     "tournamentSlug": "premier-league",
+     "tournamentName": "Premier League",
+     "categorySlug": "jordan",
+     "categoryName": "Jordan",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 52158,
+     "tournamentSlug": "u17-world-cup",
+     "tournamentName": "U17 World Cup",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 52160,
+     "tournamentSlug": "u17-world-cup-women",
+     "tournamentName": "U17 World Cup, Women",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 52954,
+     "tournamentSlug": "euroleague-supercup",
+     "tournamentName": "Euroleague SuperCup",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 53394,
+     "tournamentSlug": "fiba-champions-league-qualification",
+     "tournamentName": "FIBA Champions League, Qualification",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 53592,
+     "tournamentSlug": "nba-specials",
+     "tournamentName": "NBA Specials",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    }
+   ]
+  },
+  "hockey": {
+   "sportId": 15,
+   "count": 400,
+   "sample": [
+    {
+     "tournamentId": 3,
+     "tournamentSlug": "world-championship",
+     "tournamentName": "World Championship",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 128,
+     "tournamentSlug": "national-league",
+     "tournamentName": "National League",
+     "categorySlug": "switzerland",
+     "categoryName": "Switzerland",
+     "futureFixtures": 222,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    }
+   ],
+   "picked": [
+    {
+     "tournamentId": 234,
+     "tournamentSlug": "nhl",
+     "tournamentName": "NHL",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 1012,
+     "upcomingFixtures": 2,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 870,
+     "tournamentSlug": "nhl-all-star-game",
+     "tournamentName": "NHL All Star Game",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 873,
+     "tournamentSlug": "int-friendly-games",
+     "tournamentName": "Int. Friendly Games",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 919,
+     "tournamentSlug": "club-friendly-games",
+     "tournamentName": "Club Friendly Games",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 957,
+     "tournamentSlug": "nhl-preseason",
+     "tournamentName": "NHL Preseason",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 13907,
+     "tournamentSlug": "the-world-cup-of-hockey",
+     "tournamentName": "The World Cup of Hockey",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 32915,
+     "tournamentSlug": "club-friendly-games-u21",
+     "tournamentName": "Club Friendly Games U21",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 35691,
+     "tournamentSlug": "international-friendly-games-women",
+     "tournamentName": "International Friendly Games, Women",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 37327,
+     "tournamentSlug": "nhl-draft",
+     "tournamentName": "NHL Draft",
+     "categorySlug": "usa",
+     "categoryName": "USA",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 43941,
+     "tournamentSlug": "u20-friendly-games",
+     "tournamentName": "U20 Friendly Games",
+     "categorySlug": "international",
+     "categoryName": "International",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 47387,
+     "tournamentSlug": "deb-u20-friendly-games",
+     "tournamentName": "DEB, U20 Friendly Games",
+     "categorySlug": "germany",
+     "categoryName": "Germany",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 47480,
+     "tournamentSlug": "friendly-games",
+     "tournamentName": "Friendly Games",
+     "categorySlug": "germany",
+     "categoryName": "Germany",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 47482,
+     "tournamentSlug": "friendly-games",
+     "tournamentName": "Friendly Games",
+     "categorySlug": "switzerland",
+     "categoryName": "Switzerland",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    },
+    {
+     "tournamentId": 47484,
+     "tournamentSlug": "friendly-games",
+     "tournamentName": "Friendly Games",
+     "categorySlug": "austria",
+     "categoryName": "Austria",
+     "futureFixtures": 0,
+     "upcomingFixtures": 0,
+     "liveFixtures": 0
+    }
+   ]
+  }
+ }
+}
