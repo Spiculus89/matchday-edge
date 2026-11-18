@@ -117,7 +117,7 @@
           (b ? '<div class="builder"><b>Bet builder:</b> ' + b.legs.map(esc).join(" + ") + ' <span class="num">· chance ' + pct(b.p) + " · fair odds " + odd(b.fair) + "</span></div>" : "") + "</div>" +
         modelPanel(g, r) + newsPanel(g) + playersPanel(g, r) +
       "</div>" +
-      '<div class="sources"><b>Sources</b>' + (g.sources || []).map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + "</a>"; }).join("") + (g.odds && g.odds.book ? "<span>Odds: " + esc(g.odds.book) + "</span>" : "") + "</div></section>";
+      '<div class="sources"><b>Sources</b>' + (g.sources || []).map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + "</a>"; }).join("") + (g.odds && g.odds.book ? "<span>Odds: " + esc(g.odds.book) + "</span>" : "") + (g.odds && g.odds.local && g.odds.local.text ? "<span>Local prices (AdmiralBet BA, close to Meridian): " + esc(g.odds.local.text) + "</span>" : "") + "</div></section>";
   }
 
   // ---------- live ----------

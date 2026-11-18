@@ -34,6 +34,14 @@ This is what each scheduled run does. Each match follows the schema of the exist
 6. **Check and push.** Run `npm run check -- <date>` and `npm test`, and fix anything marked BAD. The check prices picks with the track-record calibration, so the best bets it prints are the ones the page shows. Then commit ("Data: <date> <morning|lineups|evening> update") and push to `main`.
 7. **Record lessons.** When a graded result or a data problem leads to a change in the engine or in this runbook, add an entry at the top of `public/data/lessons.json`: `{date, area, kind: "model" | "data", saw, change}`. `saw` states what happened with real numbers from `results.json` or the source, and `change` states what is done differently now. The site shows these under "What the model learned". Scheduled data runs don't change the engine; they add a `data` lesson only when they change how data is collected.
 
+## Odds feed (OddsPapi)
+
+- A GitHub Action (`.github/workflows/odds.yml`, key in the `ODDSPAPI_KEY` repository secret) fetches odds at about 08:40, 18:15 and 00:10 Warsaw. It writes `public/data/odds/latest.json` and merges prices into upcoming games on the site; games that have started are never touched.
+- Books: **Pinnacle** is the main price (sharpest, best for fitting the model). **AdmiralBet BA** is the local comparison (the user bets at Meridian, which OddsPapi doesn't carry), stored in `odds.local`.
+- **Morning build:** read `latest.json` first and use it for every game it covers. Search the web only for games or lines it lacks, and mark guessed prices in `odds.assumed` as before.
+- **Budget:** the free tier is ~200 requests a month and the script stops at 190 (`public/data/odds/usage.json`). Each run costs 1–2 requests, so don't trigger extra runs except for something important. To run it on demand, commit a new line to `.github/odds-request` starting with `fetch`.
+- Tournament IDs live in `data/odds-config.json`. Add a league's ID there (look it up in `data/odds-cache/discover.json`) when the site starts covering it.
+
 ## Basketball and ice hockey
 
 The menu at the top switches between `index.html` (football), `basketball.html` and `hockey.html`. Each sport has its own folder: `public/data/basketball/` and `public/data/hockey/`, each with `index.json`, `<date>.json` and `results.json`. Use the newest day file as the template; the engines are `engine-basketball.js` (`HoopsEngine`) and `engine-hockey.js` (`HockeyEngine`).

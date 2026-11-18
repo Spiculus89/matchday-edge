@@ -1,0 +1,27 @@
+{
+ "books": {
+  "main": "pinnacle",
+  "local": "admiralbet.ba"
+ },
+ "tournaments": {
+  "basketball": [
+   132,
+   138
+  ],
+  "hockey": [
+   234
+  ],
+  "football": [
+   7,
+   8,
+   11,
+   17,
+   23,
+   34,
+   35,
+   679,
+   851
+  ]
+ },
+ "note": "OddsPapi tournament IDs. Football: UCL 7, LaLiga 8, WCQ UEFA 11, Premier League 17, Serie A 23, Ligue 1 34, Bundesliga 35, Europa League 679, international friendlies 851. Add more from data/odds-cache/discover.json."
+}

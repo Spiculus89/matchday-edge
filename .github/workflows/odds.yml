@@ -5,6 +5,10 @@ on:
       mode: { description: "discover or fetch", default: "fetch" }
   push:
     paths: [".github/odds-request"]   # push a change to this file to run on demand
+  schedule:
+    - cron: "40 7 * * *"    # 08:40 Warsaw (winter), before the 09:47 morning build: Pinnacle + AdmiralBet BA
+    - cron: "15 17 * * *"   # 18:15 Warsaw, before evening kickoffs and lineup runs
+    - cron: "10 23 * * *"   # 00:10 Warsaw, NBA/NHL refresh, Pinnacle only
 permissions:
   contents: write
 concurrency: { group: odds, cancel-in-progress: false }
@@ -20,12 +24,13 @@ jobs:
           ODDSPAPI_KEY: ${{ secrets.ODDSPAPI_KEY }}
         run: |
           MODE="${{ github.event.inputs.mode }}"
-          if [ -z "$MODE" ] && [ -f .github/odds-request ]; then MODE=$(head -1 .github/odds-request | cut -d' ' -f1); fi
+          if [ "${{ github.event_name }}" = "push" ]; then MODE=$(head -1 .github/odds-request | cut -d' ' -f1); fi
+          if [ "${{ github.event.schedule }}" = "10 23 * * *" ]; then MODE=fetch-late; fi
           node scripts/fetch-odds.mjs "${MODE:-fetch}" || echo "::warning::odds fetch failed"
       - name: Commit
         run: |
           git config user.name "odds-bot"; git config user.email "odds-bot@users.noreply.github.com"
-          git add public/data/odds
+          git add public/data data/odds-cache
           git diff --cached --quiet && exit 0
           git commit -m "Data: odds $(date -u +%FT%H:%MZ)"
           for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

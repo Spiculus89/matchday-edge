@@ -232,7 +232,7 @@
         '<div class="panel"><h3>Scorers and assists <small>chance in 90 minutes</small></h3>' + playerTable(m, r) + props(m, r) + "</div>" +
         '<div class="panel"><h3>Corners and cards</h3>' + cornersCards(m, r) + "</div>" +
       "</div>" +
-      '<div class="sources"><b>Sources</b>' + (m.sources || []).map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + "</a>"; }).join("") + (m.odds && m.odds.book ? "<span>Odds: " + esc(m.odds.book) + "</span>" : "") + "</div>" +
+      '<div class="sources"><b>Sources</b>' + (m.sources || []).map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + "</a>"; }).join("") + (m.odds && m.odds.book ? "<span>Odds: " + esc(m.odds.book) + "</span>" : "") + (m.odds && m.odds.local && m.odds.local.text ? "<span>Local prices (AdmiralBet BA, close to Meridian): " + esc(m.odds.local.text) + "</span>" : "") + "</div>" +
       "</section>";
   }
 
