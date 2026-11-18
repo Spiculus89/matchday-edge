@@ -1,0 +1,31 @@
+name: Odds
+on:
+  workflow_dispatch:
+    inputs:
+      mode: { description: "discover or fetch", default: "fetch" }
+  push:
+    paths: [".github/odds-request"]   # push a change to this file to run on demand
+permissions:
+  contents: write
+concurrency: { group: odds, cancel-in-progress: false }
+jobs:
+  odds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Fetch
+        env:
+          ODDSPAPI_KEY: ${{ secrets.ODDSPAPI_KEY }}
+        run: |
+          MODE="${{ github.event.inputs.mode }}"
+          if [ -z "$MODE" ] && [ -f .github/odds-request ]; then MODE=$(head -1 .github/odds-request | cut -d' ' -f1); fi
+          node scripts/fetch-odds.mjs "${MODE:-fetch}" || echo "::warning::odds fetch failed"
+      - name: Commit
+        run: |
+          git config user.name "odds-bot"; git config user.email "odds-bot@users.noreply.github.com"
+          git add public/data/odds
+          git diff --cached --quiet && exit 0
+          git commit -m "Data: odds $(date -u +%FT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
