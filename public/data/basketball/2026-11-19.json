@@ -21,61 +21,85 @@
       "context": "Philadelphia (12-3) lead the East and visit Orlando (6-7). The 76ers are without Jaylen Brown (hamstring), and Joel Embiid is day-to-day with a foot injury. Orlando are missing Paolo Banchero (high-ankle sprain), Jonathan Isaac (knee) and Noah Penda (hamstring). Despite the gap in the standings, the market makes Philadelphia only a short road favourite (-122 at DraftKings), with the total at 223.5.",
       "odds": {
         "ml": [
-          2.16,
-          1.763
+          1.8,
+          2.09
         ],
         "total": {
-          "line": 222,
-          "o": 1.925,
-          "u": 1.943
+          "line": 219,
+          "o": 1.884,
+          "u": 1.961
         },
         "teamTotal": {
           "home": {
             "line": 110.5,
-            "o": 1.925,
-            "u": 1.925
+            "o": 1.952,
+            "u": 1.9
           },
           "away": {
-            "line": 111.5,
-            "o": 1.884,
-            "u": 1.97
+            "line": 108.5,
+            "o": 1.847,
+            "u": 2.01
           }
         },
         "spread": {
-          "line": 2,
+          "line": -2,
           "h": 1.952,
-          "a": 1.934
+          "a": 1.917
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "h1": {
+          "spread": {
+            "line": -0.5,
+            "h": 1.943,
+            "a": 1.943
+          },
+          "total": {
+            "line": 113.5,
+            "o": 1.97,
+            "u": 1.892
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            2.09,
-            1.75
+            1.69,
+            2.17
           ],
           "total": {
-            "line": 222.5,
-            "o": 1.95,
+            "line": 220.5,
+            "o": 1.94,
             "u": 1.87
           },
           "teamTotal": {
             "home": {
-              "line": 110.5,
-              "o": 1.92,
-              "u": 1.85
+              "line": 111.5,
+              "o": 1.93,
+              "u": 1.84
             },
             "away": {
-              "line": 111.5,
-              "o": 1.85,
-              "u": 1.93
+              "line": 108.5,
+              "o": 1.84,
+              "u": 1.94
             }
           },
           "spread": {
-            "line": 2.5,
-            "h": 1.85,
-            "a": 1.96
+            "line": -2.5,
+            "h": 1.89,
+            "a": 1.92
           },
-          "text": "win 2.09/1.75, +2.5 1.85/1.96, total 222.5 1.95/1.87"
+          "h1": {
+            "spread": {
+              "line": -1.5,
+              "h": 1.92,
+              "a": 1.86
+            },
+            "total": {
+              "line": 113.5,
+              "o": 1.93,
+              "u": 1.84
+            }
+          },
+          "text": "win 1.69/2.17, -2.5 1.89/1.92, total 220.5 1.94/1.87"
         }
       },
       "form": {
@@ -191,61 +215,85 @@
       "context": "ESPN's early game. Milwaukee (1-13) are last in the East and had lost ten in a row through 15 Nov, scoring 106.1 points a game. Miami (8-6, fourth in the East) score 118.7 a game but also allow 119.8. The spread has moved from Heat -12.5 to -13; the total is 236.5. Nikola Jović is probable and Myron Gardner questionable for Miami; Milwaukee are without Ousmane Dieng (finger).",
       "odds": {
         "ml": [
-          1.128,
-          6.56
+          1.162,
+          6.07
         ],
         "total": {
-          "line": 237.5,
-          "o": 1.925,
-          "u": 1.943
+          "line": 236,
+          "o": 1.961,
+          "u": 1.925
         },
         "teamTotal": {
           "home": {
-            "line": 125.5,
-            "o": 1.909,
-            "u": 1.943
+            "line": 124.5,
+            "o": 1.98,
+            "u": 1.877
           },
           "away": {
             "line": 111.5,
-            "o": 1.833,
-            "u": 2.03
+            "o": 1.9,
+            "u": 1.952
           }
         },
         "spread": {
-          "line": -12.5,
-          "h": 1.877,
-          "a": 2.01
+          "line": -12,
+          "h": 1.97,
+          "a": 1.934
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "h1": {
+          "spread": {
+            "line": -7,
+            "h": 1.909,
+            "a": 1.98
+          },
+          "total": {
+            "line": 114.5,
+            "o": 1.943,
+            "u": 1.909
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.12,
-            6.2
+            1.15,
+            5.6
           ],
           "total": {
             "line": 236.5,
-            "o": 1.88,
-            "u": 1.93
+            "o": 1.93,
+            "u": 1.88
           },
           "teamTotal": {
             "home": {
               "line": 124.5,
-              "o": 1.84,
-              "u": 1.93
+              "o": 1.93,
+              "u": 1.85
             },
             "away": {
-              "line": 111.5,
-              "o": 1.84,
-              "u": 1.94
+              "line": 112.5,
+              "o": 1.95,
+              "u": 1.83
             }
           },
           "spread": {
-            "line": -12.5,
-            "h": 1.88,
-            "a": 1.93
+            "line": -11.5,
+            "h": 1.85,
+            "a": 1.96
           },
-          "text": "win 1.12/6.2, -12.5 1.88/1.93, total 236.5 1.88/1.93"
+          "h1": {
+            "spread": {
+              "line": -6.5,
+              "h": 1.86,
+              "a": 1.92
+            },
+            "total": {
+              "line": 115.5,
+              "o": 1.92,
+              "u": 1.86
+            }
+          },
+          "text": "win 1.15/5.6, -11.5 1.85/1.96, total 236.5 1.93/1.88"
         }
       },
       "form": {
@@ -344,61 +392,85 @@
       "context": "ESPN's late game; both teams have lost three straight. Golden State (8-6) are without Stephen Curry (oblique tear), Jimmy Butler (ACL), Moses Moody and Kristaps Porzingis, and Draymond Green (elbow) and Al Horford (back) are questionable. Dallas (7-7) are missing Dereck Lively II (foot); Max Christie is questionable and Santi Aldama probable. FanDuel has the Mavericks -6.5 (-220) with a total of 222.5, but numberFire's model makes Golden State a 60.4% winner.",
       "odds": {
         "ml": [
-          1.434,
-          2.98
+          1.523,
+          2.7
         ],
         "total": {
-          "line": 221.5,
-          "o": 1.952,
-          "u": 1.917
+          "line": 226,
+          "o": 1.961,
+          "u": 1.909
         },
         "teamTotal": {
           "home": {
             "line": 114.5,
-            "o": 2.05,
-            "u": 1.813
+            "o": 1.826,
+            "u": 2.03
           },
           "away": {
-            "line": 108.5,
-            "o": 2.03,
-            "u": 1.826
+            "line": 110.5,
+            "o": 1.934,
+            "u": 1.917
           }
         },
         "spread": {
-          "line": -6,
-          "h": 1.934,
-          "a": 1.952
+          "line": -4.5,
+          "h": 1.909,
+          "a": 2
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "h1": {
+          "spread": {
+            "line": -2.5,
+            "h": 1.925,
+            "a": 1.961
+          },
+          "total": {
+            "line": 108.5,
+            "o": 1.854,
+            "u": 2.02
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.43,
-            2.85
+            1.53,
+            2.55
           ],
           "total": {
-            "line": 222.5,
+            "line": 225.5,
             "o": 1.93,
             "u": 1.88
           },
           "teamTotal": {
             "home": {
               "line": 114.5,
-              "o": 1.95,
-              "u": 1.83
+              "o": 1.87,
+              "u": 1.9
             },
             "away": {
-              "line": 108.5,
-              "o": 1.93,
-              "u": 1.85
+              "line": 110.5,
+              "o": 1.88,
+              "u": 1.89
             }
           },
           "spread": {
-            "line": -6.5,
-            "h": 1.95,
-            "a": 1.86
+            "line": -4.5,
+            "h": 1.9,
+            "a": 1.91
           },
-          "text": "win 1.43/2.85, -6.5 1.95/1.86, total 222.5 1.93/1.88"
+          "h1": {
+            "spread": {
+              "line": -2.5,
+              "h": 1.91,
+              "a": 1.86
+            },
+            "total": {
+              "line": 108.5,
+              "o": 1.88,
+              "u": 1.89
+            }
+          },
+          "text": "win 1.53/2.55, -4.5 1.9/1.91, total 225.5 1.93/1.88"
         }
       },
       "form": {
@@ -571,61 +643,85 @@
       "context": "Boston (11-3) bring the league's best defence by points allowed (102.4 a game through 15 Nov) to Denver (7-5). Jayson Tatum averages 26.5 points; Jamal Murray (26.1) and Nikola Jokic (24.1 points, 10.9 rebounds, 8.9 assists) lead the Nuggets, who are 1-4 against the spread at home. FanDuel has Boston -2.5 (-146) with a total of 220.5, while numberFire's model leans Denver (52.4%). Denver are without Julian Strawther (knee).",
       "odds": {
         "ml": [
-          2.21,
-          1.729
+          2.22,
+          1.757
         ],
         "total": {
-          "line": 222,
-          "o": 1.877,
+          "line": 220,
+          "o": 1.9,
           "u": 1.99
         },
         "teamTotal": {
           "home": {
-            "line": 110.5,
-            "o": 1.934,
-            "u": 1.917
+            "line": 108.5,
+            "o": 1.854,
+            "u": 2
           },
           "away": {
             "line": 111.5,
-            "o": 1.826,
-            "u": 2.04
+            "o": 1.943,
+            "u": 1.909
           }
         },
         "spread": {
-          "line": 2,
-          "h": 2.02,
-          "a": 1.877
+          "line": 2.5,
+          "h": 1.943,
+          "a": 1.961
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "h1": {
+          "spread": {
+            "line": 1,
+            "h": 1.925,
+            "a": 1.961
+          },
+          "total": {
+            "line": 113.5,
+            "o": 1.97,
+            "u": 1.884
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            2.11,
-            1.74
+            2.17,
+            1.7
           ],
           "total": {
-            "line": 222.5,
-            "o": 1.92,
-            "u": 1.89
+            "line": 220.5,
+            "o": 1.94,
+            "u": 1.87
           },
           "teamTotal": {
             "home": {
-              "line": 110.5,
-              "o": 1.91,
-              "u": 1.86
+              "line": 108.5,
+              "o": 1.83,
+              "u": 1.94
             },
             "away": {
               "line": 111.5,
-              "o": 1.82,
-              "u": 1.95
+              "o": 1.94,
+              "u": 1.84
             }
           },
           "spread": {
             "line": 2.5,
-            "h": 1.86,
-            "a": 1.95
+            "h": 1.92,
+            "a": 1.89
           },
-          "text": "win 2.11/1.74, +2.5 1.86/1.95, total 222.5 1.92/1.89"
+          "h1": {
+            "spread": {
+              "line": 1.5,
+              "h": 1.86,
+              "a": 1.92
+            },
+            "total": {
+              "line": 113.5,
+              "o": 1.93,
+              "u": 1.84
+            }
+          },
+          "text": "win 2.17/1.7, +2.5 1.92/1.89, total 220.5 1.94/1.87"
         }
       },
       "form": {
@@ -767,73 +863,85 @@
       "context": "EuroLeague Round 12. Pinnacle has Dubai favoured by 4 and the total at 177. Team news (the official Round 12 injury report) is added by the morning update.",
       "odds": {
         "ml": [
-          2.48,
-          1.54
+          2.33,
+          1.641
         ],
         "total": {
-          "line": 177,
-          "o": 1.9,
-          "u": 1.9
+          "line": 176,
+          "o": 2.01,
+          "u": 1.854
+        },
+        "teamTotal": {
+          "home": {
+            "line": 86.5,
+            "o": 1.87,
+            "u": 1.94
+          },
+          "away": {
+            "line": 89.5,
+            "o": 1.89,
+            "u": 1.92
+          }
         },
         "spread": {
-          "line": 4,
-          "h": 1.9,
+          "line": 3,
+          "h": 1.952,
           "a": 1.9
         },
         "h1": {
           "spread": {
             "line": 2,
-            "h": 1.917,
-            "a": 1.884
+            "h": 1.854,
+            "a": 2
           },
           "total": {
-            "line": 88.5,
-            "o": 1.917,
-            "u": 1.884
+            "line": 87.5,
+            "o": 1.934,
+            "u": 1.917
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            2.55,
-            1.51
+            2.39,
+            1.58
           ],
           "total": {
             "line": 176.5,
-            "o": 1.851,
-            "u": 1.94
+            "o": 1.92,
+            "u": 1.89
           },
           "teamTotal": {
             "home": {
               "line": 86.5,
-              "o": 1.86,
-              "u": 1.91
+              "o": 1.87,
+              "u": 1.94
             },
             "away": {
-              "line": 90.5,
-              "o": 1.9,
-              "u": 1.87
+              "line": 89.5,
+              "o": 1.89,
+              "u": 1.92
             }
           },
           "spread": {
-            "line": 4.5,
-            "h": 1.89,
-            "a": 1.92
+            "line": 3.5,
+            "h": 1.92,
+            "a": 1.89
           },
           "h1": {
             "spread": {
               "line": 1.5,
-              "h": 1.98,
-              "a": 1.83
+              "h": 1.91,
+              "a": 1.9
             },
             "total": {
               "line": 88.5,
-              "o": 1.86,
-              "u": 1.95
+              "o": 1.96,
+              "u": 1.85
             }
           },
-          "text": "win 2.55/1.51, +4.5 1.89/1.92, total 176.5 1.851/1.94"
+          "text": "win 2.39/1.58, +3.5 1.92/1.89, total 176.5 1.92/1.89"
         }
       },
       "players": {
@@ -869,65 +977,77 @@
       "context": "EuroLeague Round 12. Pinnacle has Panathinaikos favoured by 1 and the total at 166.5. Team news (the official Round 12 injury report) is added by the morning update.",
       "odds": {
         "ml": [
-          1.934,
-          1.869
+          1.847,
+          2.02
         ],
         "total": {
-          "line": 166.5,
-          "o": 1.9,
-          "u": 1.9
+          "line": 167.5,
+          "o": 1.917,
+          "u": 1.934
+        },
+        "teamTotal": {
+          "home": {
+            "line": 83.5,
+            "o": 1.85,
+            "u": 1.92
+          },
+          "away": {
+            "line": 83.5,
+            "o": 1.9,
+            "u": 1.87
+          }
         },
         "spread": {
-          "line": 1,
-          "h": 1.9,
-          "a": 1.9
+          "line": -2,
+          "h": 2,
+          "a": 1.854
         },
         "h1": {
           "spread": {
-            "line": 0.5,
-            "h": 1.884,
+            "line": -0.5,
+            "h": 1.934,
             "a": 1.917
           },
           "total": {
             "line": 83.5,
-            "o": 1.97,
-            "u": 1.826
+            "o": 1.877,
+            "u": 1.97
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            2,
-            1.82
+            1.86,
+            1.95
           ],
           "total": {
-            "line": 166.5,
-            "o": 1.851,
-            "u": 1.94
+            "line": 167.5,
+            "o": 1.94,
+            "u": 1.87
           },
           "teamTotal": {
             "home": {
               "line": 83.5,
-              "o": 1.93,
-              "u": 1.84
+              "o": 1.85,
+              "u": 1.92
             },
             "away": {
               "line": 83.5,
-              "o": 1.83,
-              "u": 1.95
+              "o": 1.9,
+              "u": 1.87
             }
           },
           "spread": {
-            "line": 1.5,
-            "h": 1.89,
-            "a": 1.92
+            "line": -1.5,
+            "h": 1.96,
+            "a": 1.85
           },
           "h1": {
             "spread": {
-              "line": 0.5,
-              "h": 1.89,
-              "a": 1.92
+              "line": -0.5,
+              "h": 1.95,
+              "a": 1.86
             },
             "total": {
               "line": 83.5,
@@ -935,7 +1055,7 @@
               "u": 1.94
             }
           },
-          "text": "win 2/1.82, +1.5 1.89/1.92, total 166.5 1.851/1.94"
+          "text": "win 1.86/1.95, -1.5 1.96/1.85, total 167.5 1.94/1.87"
         }
       },
       "players": {
@@ -971,37 +1091,49 @@
       "context": "EuroLeague Round 12. Pinnacle has Bayern favoured by 6.5 and the total at 178. Team news (the official Round 12 injury report) is added by the morning update.",
       "odds": {
         "ml": [
-          1.344,
-          3.24
+          1.333,
+          3.46
         ],
         "total": {
           "line": 178,
-          "o": 1.909,
-          "u": 1.892
+          "o": 1.862,
+          "u": 1.99
+        },
+        "teamTotal": {
+          "home": {
+            "line": 92.5,
+            "o": 1.94,
+            "u": 1.83
+          },
+          "away": {
+            "line": 85.5,
+            "o": 1.88,
+            "u": 1.9
+          }
         },
         "spread": {
           "line": -6.5,
-          "h": 1.892,
-          "a": 1.909
+          "h": 1.833,
+          "a": 2.03
         },
         "h1": {
           "spread": {
             "line": -3.5,
-            "h": 1.9,
-            "a": 1.9
+            "h": 1.877,
+            "a": 1.98
           },
           "total": {
             "line": 89.5,
-            "o": 1.925,
-            "u": 1.877
+            "o": 1.877,
+            "u": 1.97
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.36,
-            3.2
+            1.33,
+            3.35
           ],
           "total": {
             "line": 177.5,
@@ -1010,34 +1142,34 @@
           },
           "teamTotal": {
             "home": {
-              "line": 91.5,
-              "o": 1.83,
-              "u": 1.94
+              "line": 92.5,
+              "o": 1.94,
+              "u": 1.83
             },
             "away": {
               "line": 85.5,
-              "o": 1.84,
-              "u": 1.93
+              "o": 1.88,
+              "u": 1.9
             }
           },
           "spread": {
             "line": -6.5,
-            "h": 1.92,
-            "a": 1.89
+            "h": 1.85,
+            "a": 1.96
           },
           "h1": {
             "spread": {
               "line": -3.5,
-              "h": 1.95,
-              "a": 1.86
+              "h": 1.91,
+              "a": 1.9
             },
             "total": {
-              "line": 88.5,
-              "o": 1.85,
-              "u": 1.96
+              "line": 89.5,
+              "o": 1.94,
+              "u": 1.87
             }
           },
-          "text": "win 1.36/3.2, -6.5 1.92/1.89, total 177.5 1.89/1.92"
+          "text": "win 1.33/3.35, -6.5 1.85/1.96, total 177.5 1.89/1.92"
         }
       },
       "players": {
@@ -1073,65 +1205,77 @@
       "context": "EuroLeague Round 12. Pinnacle has Fenerbahce favoured by 5.5 and the total at 165.5. Team news (the official Round 12 injury report) is added by the morning update.",
       "odds": {
         "ml": [
-          2.95,
-          1.401
+          2.66,
+          1.507
         ],
         "total": {
           "line": 165.5,
-          "o": 1.909,
-          "u": 1.892
+          "o": 1.943,
+          "u": 1.909
+        },
+        "teamTotal": {
+          "home": {
+            "line": 81.5,
+            "o": 1.93,
+            "u": 1.85
+          },
+          "away": {
+            "line": 84.5,
+            "o": 1.811,
+            "u": 1.95
+          }
         },
         "spread": {
-          "line": 5.5,
-          "h": 1.884,
-          "a": 1.917
+          "line": 4.5,
+          "h": 1.847,
+          "a": 2.02
         },
         "h1": {
           "spread": {
-            "line": 3,
-            "h": 1.877,
-            "a": 1.925
+            "line": 2.5,
+            "h": 1.847,
+            "a": 2.01
           },
           "total": {
             "line": 82.5,
-            "o": 1.869,
+            "o": 1.917,
             "u": 1.934
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            2.9,
-            1.41
+            2.6,
+            1.5
           ],
           "total": {
             "line": 166.5,
-            "o": 1.94,
-            "u": 1.87
+            "o": 1.93,
+            "u": 1.88
           },
           "teamTotal": {
             "home": {
-              "line": 80.5,
-              "o": 1.89,
-              "u": 1.89
+              "line": 81.5,
+              "o": 1.93,
+              "u": 1.85
             },
             "away": {
-              "line": 85.5,
-              "o": 1.87,
-              "u": 1.91
+              "line": 84.5,
+              "o": 1.811,
+              "u": 1.95
             }
           },
           "spread": {
-            "line": 5.5,
-            "h": 1.92,
-            "a": 1.89
+            "line": 4.5,
+            "h": 1.9,
+            "a": 1.91
           },
           "h1": {
             "spread": {
-              "line": 2.5,
-              "h": 1.94,
-              "a": 1.87
+              "line": 1.5,
+              "h": 1.99,
+              "a": 1.83
             },
             "total": {
               "line": 83.5,
@@ -1139,7 +1283,7 @@
               "u": 1.91
             }
           },
-          "text": "win 2.9/1.41, +5.5 1.92/1.89, total 166.5 1.94/1.87"
+          "text": "win 2.6/1.5, +4.5 1.9/1.91, total 166.5 1.93/1.88"
         }
       },
       "players": {
@@ -1175,65 +1319,77 @@
       "context": "EuroLeague Round 12. Pinnacle has Hapoel favoured by 2.5 and the total at 185. Team news (the official Round 12 injury report) is added by the morning update.",
       "odds": {
         "ml": [
-          2.15,
-          1.704
+          2.03,
+          1.833
         ],
         "total": {
           "line": 185,
-          "o": 1.9,
-          "u": 1.9
+          "o": 1.925,
+          "u": 1.925
+        },
+        "teamTotal": {
+          "home": {
+            "line": 92.5,
+            "o": 1.95,
+            "u": 1.83
+          },
+          "away": {
+            "line": 92.5,
+            "o": 1.89,
+            "u": 1.88
+          }
         },
         "spread": {
-          "line": 2.5,
-          "h": 1.9,
-          "a": 1.9
+          "line": 1.5,
+          "h": 1.943,
+          "a": 1.909
         },
         "h1": {
           "spread": {
             "line": 1,
-            "h": 1.917,
-            "a": 1.884
+            "h": 1.892,
+            "a": 1.961
           },
           "total": {
             "line": 92.5,
-            "o": 1.925,
-            "u": 1.877
+            "o": 1.952,
+            "u": 1.9
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            2.23,
-            1.66
+            1.96,
+            1.86
           ],
           "total": {
-            "line": 185.5,
-            "o": 1.94,
-            "u": 1.87
+            "line": 184.5,
+            "o": 1.91,
+            "u": 1.9
           },
           "teamTotal": {
             "home": {
-              "line": 91.5,
-              "o": 1.88,
-              "u": 1.89
+              "line": 92.5,
+              "o": 1.95,
+              "u": 1.83
             },
             "away": {
-              "line": 93.5,
-              "o": 1.87,
-              "u": 1.9
+              "line": 92.5,
+              "o": 1.89,
+              "u": 1.88
             }
           },
           "spread": {
-            "line": 2.5,
-            "h": 1.94,
-            "a": 1.87
+            "line": 1.5,
+            "h": 1.85,
+            "a": 1.96
           },
           "h1": {
             "spread": {
-              "line": 1.5,
-              "h": 1.85,
-              "a": 1.97
+              "line": 0.5,
+              "h": 1.86,
+              "a": 1.95
             },
             "total": {
               "line": 92.5,
@@ -1241,7 +1397,7 @@
               "u": 1.91
             }
           },
-          "text": "win 2.23/1.66, +2.5 1.94/1.87, total 185.5 1.94/1.87"
+          "text": "win 1.96/1.86, +1.5 1.85/1.96, total 184.5 1.91/1.9"
         }
       },
       "players": {
@@ -1277,47 +1433,59 @@
       "context": "EuroLeague Round 12. Pinnacle has Valencia favoured by 10 and the total at 183.5. Team news (the official Round 12 injury report) is added by the morning update.",
       "odds": {
         "ml": [
-          1.183,
-          4.84
+          1.177,
+          5.29
         ],
         "total": {
-          "line": 183.5,
-          "o": 1.854,
-          "u": 1.952
+          "line": 186.5,
+          "o": 1.961,
+          "u": 1.892
+        },
+        "teamTotal": {
+          "home": {
+            "line": 97.5,
+            "o": 1.82,
+            "u": 1.95
+          },
+          "away": {
+            "line": 87.5,
+            "o": 1.96,
+            "u": 1.82
+          }
         },
         "spread": {
-          "line": -10,
+          "line": -10.5,
           "h": 1.892,
-          "a": 1.909
+          "a": 1.961
         },
         "h1": {
           "spread": {
             "line": -5.5,
-            "h": 1.961,
-            "a": 1.847
+            "h": 1.917,
+            "a": 1.934
           },
           "total": {
-            "line": 92.5,
-            "o": 1.909,
-            "u": 1.884
+            "line": 94.5,
+            "o": 1.99,
+            "u": 1.862
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.2,
-            4.6
+            1.18,
+            5
           ],
           "total": {
-            "line": 183.5,
+            "line": 184.5,
             "o": 1.87,
-            "u": 1.94
+            "u": 1.95
           },
           "teamTotal": {
             "home": {
-              "line": 96.5,
-              "o": 1.83,
+              "line": 97.5,
+              "o": 1.82,
               "u": 1.95
             },
             "away": {
@@ -1327,23 +1495,23 @@
             }
           },
           "spread": {
-            "line": -9.5,
-            "h": 1.87,
-            "a": 1.94
+            "line": -10.5,
+            "h": 1.9,
+            "a": 1.91
           },
           "h1": {
             "spread": {
               "line": -5.5,
-              "h": 1.93,
-              "a": 1.88
+              "h": 1.85,
+              "a": 1.96
             },
             "total": {
-              "line": 92.5,
+              "line": 93.5,
               "o": 1.89,
               "u": 1.92
             }
           },
-          "text": "win 1.2/4.6, -9.5 1.87/1.94, total 183.5 1.87/1.94"
+          "text": "win 1.18/5, -10.5 1.9/1.91, total 184.5 1.87/1.95"
         }
       },
       "players": {
