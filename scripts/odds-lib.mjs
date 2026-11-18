@@ -56,7 +56,7 @@ export function normalize(fx, slug, MK, sport) {
 }
 
 // ---------- matching site games to fixtures ----------
-const ALIAS = { "korea republic": "south korea", "ir iran": "iran", "turkiye": "turkey", "czechia": "czech republic", "usa": "united states", "la clippers": "los angeles clippers", "utah mammoth": "utah hockey club" };
+const ALIAS = { "korea republic": "south korea", "ir iran": "iran", "turkiye": "turkey", "czechia": "czech republic", "usa": "united states", "la clippers": "los angeles clippers" };
 export function norm(s) {
   let n = String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
   return ALIAS[n] || n;
