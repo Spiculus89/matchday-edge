@@ -76,6 +76,26 @@ if (mode === "setup") {
   fs.writeFileSync(CACHE + "/participants.json", JSON.stringify(parts)); fs.writeFileSync(CACHE + "/setup.json", JSON.stringify(out, null, 1)); console.log("setup ok", usage.used);
 }
 
+// Tue-Fri European cups, Sat-Mon domestic leagues (Warsaw day)
+function watchIds(cfg) { const d = new Date(Date.now() + 3600e3).getUTCDay(); return ((cfg.watch || {})[d >= 2 && d <= 5 ? "weekday" : "weekend"] || []).map(String); }
+if (mode === "watch") {
+  const cfg = JSON.parse(fs.readFileSync("data/odds-config.json", "utf8"));
+  const MK = JSON.parse(fs.readFileSync(CACHE + "/markets.json", "utf8")), PT = JSON.parse(fs.readFileSync(CACHE + "/participants.json", "utf8"));
+  const ids = (process.argv[3] || watchIds(cfg).join(",")), now = Date.now();
+  const prev = fs.existsSync(DIR + "/latest.json") ? JSON.parse(fs.readFileSync(DIR + "/latest.json", "utf8")) : { fixtures: [] };
+  const byId = Object.fromEntries(prev.fixtures.filter(f => Date.parse(f.start) > now - 3 * 3600e3).map(f => [f.id, f]));
+  for (const slug of (process.argv[4] || cfg.books.main).split(",")) {
+    const list = await get("/odds-by-tournaments", { bookmaker: slug, tournamentIds: ids });
+    for (const fx of Array.isArray(list) ? list : []) {
+      if (fx.sportId !== 11 || Date.parse(fx.startTime) < now) continue;
+      const F = byId[fx.fixtureId] ||= { id: fx.fixtureId, sport: "basketball", tournamentId: fx.tournamentId, start: fx.startTime, home: PT[fx.participant1Id] || String(fx.participant1Id), away: PT[fx.participant2Id] || String(fx.participant2Id), odds: {} };
+      F.tournamentId = fx.tournamentId; const o = normalize(fx, slug, MK, "basketball"); if (o) F.odds[slug] = o;
+    }
+  }
+  const all = Object.values(byId).sort((a, b) => a.start.localeCompare(b.start));
+  save("latest.json", { ...prev, updatedAt: new Date().toISOString(), fixtures: all });
+  console.log("watch ok:", all.filter(f => f.sport === "basketball").length, "basketball fixtures; requests", usage.used);
+}
 if (mode === "fetch" || mode === "fetch-late") {
   const cfg = JSON.parse(fs.readFileSync("data/odds-config.json", "utf8"));
   const MK = JSON.parse(fs.readFileSync(CACHE + "/markets.json", "utf8")), PT = JSON.parse(fs.readFileSync(CACHE + "/participants.json", "utf8"));
@@ -101,12 +121,17 @@ if (mode === "fetch" || mode === "fetch-late") {
     if (id) count[id] = (count[id] || 0) + (s.sport === "football" ? 1 : 100); else noId.push(g.id);
   }
   // NBA/NHL first, then the football competitions with the most games; 5 IDs a request
-  const ids = Object.keys(count).sort((a, b) => count[b] - count[a]), chunks = [];
+  // the morning run also fetches the basketball watch list (European leagues) so the daily build can pick games
+  const morning = mode === "fetch" && new Date().getUTCHours() < 12 && usage.used < 160;
+  const watch = morning ? watchIds(cfg) : [];
+  const ids = Object.keys(count).filter(id => !watch.includes(id)).sort((a, b) => count[b] - count[a]), chunks = [];
   for (let i = 0; i < ids.length; i += 5) chunks.push(ids.slice(i, i + 5).join(","));
-  const plan = [];
+  const plan = [], lean = usage.used >= 160; // near the monthly cap: main book, first chunk only
+  if (watch.length) plan.push([cfg.books.main, watch.join(",")]);
   if (chunks[0]) plan.push([cfg.books.main, chunks[0]]);
-  if (mode !== "fetch-late" && chunks[0]) plan.push([cfg.books.local, chunks[0]]);
-  if (mode !== "fetch-late" && chunks[1]) plan.push([cfg.books.main, chunks[1]]);
+  if (mode !== "fetch-late" && !lean && chunks[0]) plan.push([cfg.books.local, chunks[0]]);
+  if (lean) plan.splice(2);
+  if (mode !== "fetch-late" && !lean && chunks[1]) plan.push([cfg.books.main, chunks[1]]);
   console.log("tournaments", ids.join(","), "no ID for", noId.join(" ") || "none");
   const fixtures = {};
   for (const [slug, tids] of plan) {
@@ -120,6 +145,8 @@ if (mode === "fetch" || mode === "fetch-late") {
   const all = Object.values(fixtures).sort((a, b) => a.start.localeCompare(b.start));
   // keep the previous local prices when this run only fetched the main book
   const prev = fs.existsSync(DIR + "/latest.json") ? JSON.parse(fs.readFileSync(DIR + "/latest.json", "utf8")) : null;
+  if (prev) for (const p of prev.fixtures) if (!fixtures[p.id] && p.sport === "basketball" && Date.parse(p.start) > now) all.push(p);
+  all.sort((a, b) => a.start.localeCompare(b.start));
   if (mode === "fetch-late" && prev) for (const f of all) { const p = prev.fixtures.find(x => x.id === f.id); if (p && p.odds[cfg.books.local] && !f.odds[cfg.books.local]) f.odds[cfg.books.local] = p.odds[cfg.books.local]; }
   save("latest.json", { updatedAt: at, books: cfg.books, note: "Pinnacle is the sharp reference the model fits to; AdmiralBet BA is the closest local (Bosnian) book on OddsPapi.", fixtures: all });
   let n = 0, miss = [];

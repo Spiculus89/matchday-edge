@@ -24,9 +24,10 @@ jobs:
           ODDSPAPI_KEY: ${{ secrets.ODDSPAPI_KEY }}
         run: |
           MODE="${{ github.event.inputs.mode }}"
-          if [ "${{ github.event_name }}" = "push" ]; then MODE=$(head -1 .github/odds-request | cut -d' ' -f1); fi
+          ARGS=""
+          if [ "${{ github.event_name }}" = "push" ]; then ARGS=$(head -1 .github/odds-request | sed 's/#.*//'); MODE=$(echo $ARGS | cut -d' ' -f1); ARGS=$(echo $ARGS | cut -s -d' ' -f2-); fi
           if [ "${{ github.event.schedule }}" = "10 23 * * *" ]; then MODE=fetch-late; fi
-          node scripts/fetch-odds.mjs "${MODE:-fetch}" || echo "::warning::odds fetch failed"
+          node scripts/fetch-odds.mjs "${MODE:-fetch}" $ARGS || echo "::warning::odds fetch failed"
       - name: Commit
         run: |
           git config user.name "odds-bot"; git config user.email "odds-bot@users.noreply.github.com"

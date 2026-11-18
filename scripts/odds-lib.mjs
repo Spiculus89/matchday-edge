@@ -99,6 +99,8 @@ export function applyToGame(game, fx, sport, at) {
 export function tournamentFor(text, sportId, cfg, T) {
   const raw = String(text || ""), country = (/\(([^)]+)\)/.exec(raw) || [])[1];
   const base = norm(raw.replace(/\(.*?\)/g, "").split(/[,–-]/)[0]);
+  const bySport = (cfg.aliasesBySport || {})[sportId] || {};
+  for (const [k, id] of Object.entries(bySport)) if (base === k) return id;
   for (const [k, id] of Object.entries(cfg.aliases || {})) if (base === k) return id;
   const rows = (T && T[sportId]) || [], hits = rows.filter(r => norm(r[1]) === base);
   if (!hits.length) { for (const [k, id] of Object.entries(cfg.aliases || {})) if (base.includes(k)) return id; return null; }

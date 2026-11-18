@@ -38,5 +38,58 @@
   "fa cup": 19,
   "coupe de france": 335,
   "world cup qualifying": 11
+ },
+ "aliasesBySport": {
+  "11": {
+   "nba": 132,
+   "euroleague": 138,
+   "turkish airlines euroleague": 138,
+   "eurocup": 141,
+   "bkt eurocup": 141,
+   "champions league": 14051,
+   "basketball champions league": 14051,
+   "fiba champions league": 14051,
+   "bcl": 14051,
+   "europe cup": 2388,
+   "fiba europe cup": 2388,
+   "aba league": 235,
+   "liga aba": 235,
+   "aba": 235,
+   "adriatic league": 235,
+   "acb": 264,
+   "liga acb": 264,
+   "liga endesa": 264,
+   "lega a": 262,
+   "lba": 262,
+   "serie a": 262,
+   "greek basket league": 304,
+   "gbl": 304,
+   "greece": 304,
+   "super lig": 519,
+   "bsl": 519,
+   "turkish super league": 519,
+   "lnb elite": 156,
+   "betclic elite": 156,
+   "bbl": 227,
+   "easycredit bbl": 227,
+   "bundesliga": 227
+  }
+ },
+ "watch": {
+  "note": "Basketball leagues fetched once each morning (main book) so the daily build can pick European games. Midweek = European cups, weekend = domestic leagues.",
+  "weekday": [
+   138,
+   141,
+   14051,
+   2388,
+   235
+  ],
+  "weekend": [
+   264,
+   262,
+   304,
+   519,
+   156
+  ]
  }
 }
