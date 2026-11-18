@@ -2,6 +2,13 @@
   "note": "Changes to the model or the data process, each tied to the graded result or data problem that prompted it. Newest first.",
   "lessons": [
     {
+      "date": "2026-11-18",
+      "area": "Grading",
+      "kind": "data",
+      "saw": "The 17 Nov props were graded the next morning, after the evening session had switched props to per-stat calibration. Re-running the new engine would have recorded chances the page never showed: Pedro Neto 1+ shots at 88% instead of 79%, Yasin Ayari 1+ shots at 84% instead of 76%, Callum Styles 1+ shots at 24% instead of 30%.",
+      "change": "Legs are graded with the engine as it was on match day (the version before any later change, from git) and results.json as it stood before that day's legs, so the track record holds the chances the page actually showed. The 22 remaining 17 Nov legs were graded this way (13 won); fouls and tackles props stayed ungraded because no full per-player source had them."
+    },
+    {
       "date": "2026-11-17",
       "area": "Player props",
       "kind": "model",

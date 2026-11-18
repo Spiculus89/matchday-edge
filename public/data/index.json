@@ -1,6 +1,11 @@
 {
   "days": [
     {
+      "date": "2026-11-18",
+      "file": "data/2026-11-18.json",
+      "title": "Copa del Rey, first round"
+    },
+    {
       "date": "2026-11-17",
       "file": "data/2026-11-17.json",
       "title": "Nations League, matchday 6"

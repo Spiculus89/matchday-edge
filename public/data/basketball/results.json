@@ -1,5 +1,96 @@
 {
-  "updated": "2026-11-17T22:37:44.273Z",
+  "updated": "2026-11-18T09:15:41.164Z",
   "note": "Graded picks for basketball, same format as football's results.json.",
-  "legs": []
+  "legs": [
+    {
+      "date": "2026-11-18",
+      "match": "nyk-tor",
+      "group": "Spread",
+      "pick": "Raptors +2.5 (best bet)",
+      "p": 0.518,
+      "odds": 1.952,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "nyk-tor",
+      "group": "Bet builder",
+      "pick": "Knicks -1.5 + Over 207.5 points",
+      "p": 0.348,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "det-sas",
+      "group": "Spread",
+      "pick": "Pistons +9.5 (best bet)",
+      "p": 0.53,
+      "odds": 1.909,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "det-sas",
+      "group": "Bet builder",
+      "pick": "Spurs to win + Over 214.5 points",
+      "p": 0.511,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "por-min",
+      "group": "Moneyline",
+      "pick": "Wolves to win (best bet)",
+      "p": 0.574,
+      "odds": 1.769,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "por-min",
+      "group": "Bet builder",
+      "pick": "Wolves -1.5 + Over 220.5 points",
+      "p": 0.351,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "uta-lac",
+      "group": "Moneyline",
+      "pick": "Clippers to win",
+      "p": 0.646,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "uta-lac",
+      "group": "Bet builder",
+      "pick": "Clippers to win + Over 217.5 points",
+      "p": 0.452,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "cha-lal",
+      "group": "Spread",
+      "pick": "Lakers -8.5 (best bet)",
+      "p": 0.53,
+      "odds": 1.909,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "cha-lal",
+      "group": "Bet builder",
+      "pick": "Lakers to win + Over 210.5 points",
+      "p": 0.532,
+      "odds": null,
+      "won": true
+    }
+  ]
 }

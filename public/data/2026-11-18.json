@@ -1,0 +1,1859 @@
+{
+  "date": "2026-11-18",
+  "title": "Copa del Rey, first round (rescheduled ties)",
+  "updated": "2026-11-18T09:16:24.000Z",
+  "updateNote": "The first day after the international window, with no top-flight league games in Europe. Six Copa del Rey first-round ties that were postponed twice (after the Toledo rail crash on 28 Oct and the death of Tenerife's Jesús de Miguel) are played tonight, Mallorca's trip to Alcoyano the pick of them. Plus Coritiba v Santos in the Brasileirão (23:30) and Alianza Atlético v Melgar in Peru. KickOff has no bet365 prices for the cup ties or the Peru game, so those ladders come from other named bookmakers (each odds note says which, and what is missing); Coritiba v Santos is priced from bet365. Team sheets for the cup ties are pending and the kick-off-minus-40 runs fill them in. Brazil's later games (Cruzeiro v Palmeiras, Flamengo v Athletico-PR and others) kick off after midnight here and belong to 19 Nov; the Women's Champions League games are left off.",
+  "matches": [
+    {
+      "id": "ptg-run",
+      "competition": "Copa del Rey, first round",
+      "kickoff": "2026-11-18T18:00:00Z",
+      "venue": "Campo de Fútbol La Florida, Portugalete",
+      "neutral": false,
+      "home": {
+        "name": "Club Portugalete",
+        "short": "Portugalete",
+        "code": "PTG"
+      },
+      "away": {
+        "name": "Real Unión Club",
+        "short": "Real Unión",
+        "code": "RUN"
+      },
+      "context": "This is a one-off, all-Basque first-round tie. The tie was first due on Wednesday 28 October. The RFEF suspended that evening's 24 Copa del Rey games after the train crash at Urda (Toledo), moved this one to 4 November, then postponed it again after the death of CD Tenerife player Jesús de Miguel. Its RFEF notice of 5 November set the new date: Wednesday 18 November, 19:00 peninsular time. Portugalete are 4th in Segunda Federación Group 1 (W5 D4 L2, 19-13, 19 points) and unbeaten in five league games (W2 D3, 12-6). They won 3-0 at Ourense CF on 8 November and beat Marino de Luanco 4-1 at home on 14 November. Real Unión play a tier higher and are 11th in Primera Federación Group 1 (W4 D4 L4, 20-19, 16 points). Their last five league games went 2-2, 4-1, 0-3, 0-2 and 1-0, the last a home win over Cultural Leonesa on 14 November. Away from home they are W1 D2 L3 (8-11). Recent meetings: a 1-1 friendly at Irun on 9 August 2025, Portugalete 2-0 Real Unión on 21 March 2021 and Real Unión 2-1 Portugalete on 20 December 2020.",
+      "referee": {
+        "note": "No referee designation found for the 18 Nov date. The RFEF reschedule notice and the match pages (futboltotal, FotMob) name none, so there are no referee stats."
+      },
+      "odds": {
+        "book": "No bet365 prices: KickOff.co.uk has no page for this tie, and searches return none. The 1X2 and double chance are BC.Game via Oddslot (Spanish page, 18 Nov listing, 18:00 GMT kick-off). Oddslot's English page still showed the 4 Nov listing at 3.10 / 3.20 / 2.30. O/U 1.5, 2.5 and 3.5 and BTTS are from footballpredictions.ai (18 Nov page), which names no bookmaker. Its 1X2 is 3.00 / 3.10 / 2.30, with double chance 1.57 / 1.35 / 1.36. Oddslot quotes Under 3.5 at 1.25 with no bookmaker named, the same as footballpredictions.ai. Gidstats had no fresh odds. No page has an O/U 0.5, 4.5 or 5.5, DNB, win to nil, first goal, scorer, corners, cards or Asian handicap price.",
+        "h": 3.0,
+        "d": 3.2,
+        "a": 2.4,
+        "ou": {
+          "1.5": [
+            1.33,
+            3.25
+          ],
+          "2.5": [
+            2.1,
+            1.7
+          ],
+          "3.5": [
+            3.75,
+            1.25
+          ]
+        },
+        "btts": [
+          1.75,
+          1.95
+        ],
+        "dc": {
+          "1X": 1.57,
+          "X2": 1.36,
+          "12": 1.36
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 1.73,
+          "ga": 1.18
+        },
+        "away": {
+          "gf": 1.67,
+          "ga": 1.58
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "No predicted XI is published for either side (FotMob, futboltotal and the preview pages list none). Take the confirmed XIs from the clubs' accounts or FotMob about 60 minutes before kick-off.",
+        "home": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        },
+        "away": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "No Portugalete injury or suspension news was found. Jorge García is their top league scorer with 5.",
+          "src": "FotMob"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "No Real Unión injury or suspension news was found. Aitor Galarza is their top league scorer with 6.",
+          "src": "FotMob"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Jorge García",
+            "start": 0.75,
+            "goals": 5,
+            "note": "Portugalete's top league scorer with 5 (Segunda Federación Group 1, 2026/27, 11 games to 14 Nov, FotMob). Position not confirmed by the sources opened."
+          },
+          {
+            "name": "Gorka Crespo",
+            "start": 0.75,
+            "goals": 3,
+            "note": "3 league goals (FotMob, same span). Position not confirmed by the sources opened."
+          },
+          {
+            "name": "Jon López",
+            "start": 0.75,
+            "goals": 3,
+            "note": "3 league goals (FotMob, same span). Position not confirmed by the sources opened."
+          }
+        ],
+        "away": [
+          {
+            "name": "Aitor Galarza",
+            "start": 0.75,
+            "goals": 6,
+            "note": "Real Unión's top league scorer with 6 (Primera Federación Group 1, 2026/27, 12 games to 14 Nov, FotMob). Position not confirmed by the sources opened."
+          },
+          {
+            "name": "Ekain Azkune",
+            "start": 0.75,
+            "goals": 3,
+            "note": "3 league goals (FotMob, same span). Position not confirmed by the sources opened."
+          },
+          {
+            "name": "Luca Sangalli",
+            "start": 0.75,
+            "goals": 2,
+            "note": "2 league goals (FotMob, same span). Position not confirmed by the sources opened."
+          }
+        ]
+      },
+      "teamTotals": {
+        "home": {
+          "goals": 19
+        },
+        "away": {
+          "goals": 20
+        }
+      },
+      "props": [],
+      "sources": [
+        {
+          "title": "RFEF: updated calendar of postponed Copa del Rey games (5 Nov; sets 18 Nov dates and kick-offs)",
+          "url": "https://rfef.es/es/noticias/actualizado-el-calendario-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre-y-de-la-copa"
+        },
+        {
+          "title": "RFEF: new dates for the games postponed on 28 October (31 Oct; first move to 4 Nov)",
+          "url": "https://rfef.es/es/noticias/fechas-y-horarios-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre"
+        },
+        {
+          "title": "El Gol Digital: Copa del Rey first round suspended after the Toledo train crash (28 Oct)",
+          "url": "https://www.elgoldigital.com/futbol/copa-del-rey/copa-del-rey-suspendida-primera-ronda-accidente-tren-toledo/"
+        },
+        {
+          "title": "Oddslot (ES): Portugalete vs Real Unión, BC.Game 1X2 and double chance (18 Nov listing)",
+          "url": "https://oddslot.com/es/futbol/partido/copa-del-rey/portugalete/real-uni%C3%B3n/4-nov-2026/"
+        },
+        {
+          "title": "Footballpredictions.ai: Portugalete vs Real Unión, goals ladder, BTTS, last five and H2H (18 Nov)",
+          "url": "https://footballpredictions.ai/football-predictions/portugalete-vs-real-uni%C3%B3n-predictions-tips-18-nov-2026/"
+        },
+        {
+          "title": "Gidstats: Portugalete vs Real Unión (no fresh odds)",
+          "url": "https://gidstats.com/football/copa-del-rey/2026-11-18-1644369-portugalete-vs-real-union/"
+        },
+        {
+          "title": "Futboltotal: Portugalete vs Real Unión match page (kick-off 19:00 Spain)",
+          "url": "https://futboltotal.futbol/partido/portugalete-vs-real-union-copa-del-rey-2026-11-18"
+        },
+        {
+          "title": "Futboltotal: Segunda Federación Group 1 table 2026/27",
+          "url": "https://futboltotal.futbol/league/segunda-division-rfef/grupo-1/clasificacion"
+        },
+        {
+          "title": "Futboltotal: Primera Federación Group 1 table with home/away splits 2026/27",
+          "url": "https://futboltotal.futbol/league/primera-division-rfef/grupo-1/clasificacion"
+        },
+        {
+          "title": "FotMob: Portugalete team overview (top scorers, results)",
+          "url": "https://www.fotmob.com/en-GB/teams/4701/overview/android-app:/com.mobilefootie.wc2010/http"
+        },
+        {
+          "title": "FotMob: Real Unión team overview (top scorers, results)",
+          "url": "https://www.fotmob.com/teams/8380/overview/com.mobilefootie.wc2010,http"
+        }
+      ]
+    },
+    {
+      "id": "ute-sab",
+      "competition": "Copa del Rey, first round",
+      "kickoff": "2026-11-18T18:00:00Z",
+      "venue": "Campo Municipal Santa Ana, Utebo",
+      "neutral": false,
+      "home": {
+        "name": "Utebo FC",
+        "short": "Utebo",
+        "code": "UTE"
+      },
+      "away": {
+        "name": "CE Sabadell FC",
+        "short": "Sabadell",
+        "code": "SAB"
+      },
+      "context": "This is a one-off first-round tie, with extra time and penalties if it is level after 90 minutes. The tie was first due on Wednesday 28 October. The RFEF suspended that evening's 24 Copa del Rey games after the train crash at Urda (Toledo), moved this one to 4 November, then postponed it again after the death of CD Tenerife player Jesús de Miguel. Its RFEF notice of 5 November set the new date: Wednesday 18 November, 19:00 peninsular time. Sabadell are two tiers above Utebo. They are 14th in LaLiga Hypermotion (W4 D6 L4, 12-13, 18 points) and winless in five (D2 L3, 2-6), most recently 2-0 at Eldense on 15 November. They are unbeaten at home (W3 D3, 8-4) but W1 D3 L4 away (4-9). For the original date, coach Ferran Costa said he would make more changes than usual and called up reserve-team players Enric Sáez and Samu Bauló, so rotation is likely. Utebo, coached by Javi Suárez, are 11th in Segunda Federación Group 2 (W2 D6 L3, 11-12, 12 points) and lost 3-1 at Ebro on 14 November. Juan Delgado, Carlos Beitia and Aleix Roig have played for both clubs. 22Bet lists no previous meeting between the sides.",
+      "referee": {
+        "name": "Iosu Galech Apezteguía",
+        "country": "ESP",
+        "note": "El Gol Digital named him for the original 28 Oct date. No designation was found for 18 Nov, so this is not confirmed. No per-game stats were found."
+      },
+      "odds": {
+        "book": "No bet365 prices: KickOff.co.uk has no page for this tie, and searches return none. The 1X2 and double chance are BC.Game via Oddslot (Spanish page, 18 Nov listing, 18:00 GMT kick-off). The page prints the outcome label in front of each price ('16.00', 'X3.90', '21.55'), and its poll and analysis confirm Utebo 6.00 and Sabadell 1.55. Oddslot's English page still showed the 4 Nov listing at 5.75 / 3.50 / 1.67. O/U 1.5, 2.5 and 3.5 and BTTS are from footballpredictions.ai (18 Nov page), which names no bookmaker. Its 1X2 is 7.00 / 3.80 / 1.44, with double chance 2.62 / 1.22 / 1.10, the same as BC.Game. Gidstats' margin-free 1X2 is 15.1% / 24.5% / 60.4%, close to BC.Game's. No page has an O/U 0.5, 4.5 or 5.5, DNB, win to nil, first goal, scorer, corners, cards or Asian handicap price.",
+        "h": 6.0,
+        "d": 3.9,
+        "a": 1.55,
+        "ou": {
+          "1.5": [
+            1.28,
+            3.5
+          ],
+          "2.5": [
+            1.9,
+            1.9
+          ],
+          "3.5": [
+            3.25,
+            1.33
+          ]
+        },
+        "btts": [
+          1.95,
+          1.75
+        ],
+        "dc": {
+          "1X": 2.62,
+          "X2": 1.1,
+          "12": 1.22
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 1.0,
+          "ga": 1.09
+        },
+        "away": {
+          "gf": 0.86,
+          "ga": 0.93
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "No predicted XI is published for either side (FotMob, futboltotal and the preview pages list none). Take the confirmed XIs from the clubs' accounts or FotMob about 60 minutes before kick-off. Expect a rotated Sabadell side.",
+        "home": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        },
+        "away": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        }
+      },
+      "news": [
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Nicolás Gioacchini has torn a cruciate ligament.",
+          "src": "El Gol Digital (28 Oct)"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Pipa, Miki Codina, Nuamah, Xavi Moreno and Genar Fornés were also missing for the original 28 Oct date (no reasons given). No update was found for 18 Nov.",
+          "src": "El Gol Digital (28 Oct)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "For the original date, Ferran Costa planned more changes than usual and added B-team players Enric Sáez and Samu Bauló to the squad.",
+          "src": "El Gol Digital (28 Oct)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "No Utebo injury or suspension news was found. Daniel Lyubomirov is their top league scorer with 5.",
+          "src": "FotMob"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Daniel Lyubomirov",
+            "start": 0.75,
+            "goals": 5,
+            "note": "Utebo's top league scorer with 5 (Segunda Federación Group 2, 2026/27, 11 games to 14 Nov, FotMob). Position not confirmed by the sources opened."
+          },
+          {
+            "name": "David Aparicio",
+            "start": 0.75,
+            "goals": 2,
+            "note": "2 league goals (FotMob, same span). Position not confirmed by the sources opened."
+          },
+          {
+            "name": "Álvaro Barrero",
+            "start": 0.75,
+            "goals": 1,
+            "note": "1 league goal (FotMob, same span). Position not confirmed by the sources opened."
+          }
+        ],
+        "away": [
+          {
+            "name": "Ángel Baena",
+            "start": 0.6,
+            "goals": 3,
+            "assists": 0,
+            "note": "Joint top league scorer with 3 in 6 appearances (LaLiga Hypermotion 2026/27, futboltotal, results to 9 Nov; Sabadell scored 0 on 15 Nov). Start lowered for expected cup rotation. Position not confirmed by the sources opened."
+          },
+          {
+            "name": "Óscar Sanz",
+            "start": 0.6,
+            "goals": 2,
+            "assists": 0,
+            "note": "2 league goals in 12 appearances (futboltotal, same span), including against Tenerife on 25 Oct. Start lowered for expected cup rotation."
+          },
+          {
+            "name": "Urri",
+            "start": 0.6,
+            "goals": 1,
+            "assists": 1,
+            "note": "1 goal and 1 assist in 12 appearances (futboltotal, same span). Start lowered for expected cup rotation."
+          },
+          {
+            "name": "Ton Ripoll",
+            "start": 0.6,
+            "assists": 4,
+            "note": "Sabadell's top league assister with 4 in 12 appearances (futboltotal, same span). He is not in the site's top-five scorer list, and his goal count is not shown. Start lowered for expected cup rotation."
+          },
+          {
+            "name": "Q. Liameed",
+            "start": 0.6,
+            "assists": 3,
+            "note": "3 league assists in 12 appearances (futboltotal, same span). His goal count is not shown, and futboltotal gives only his initial. Start lowered for expected cup rotation."
+          }
+        ]
+      },
+      "teamTotals": {
+        "home": {
+          "goals": 11
+        },
+        "away": {
+          "goals": 12
+        }
+      },
+      "props": [],
+      "sources": [
+        {
+          "title": "RFEF: updated calendar of postponed Copa del Rey games (5 Nov; sets 18 Nov dates and kick-offs)",
+          "url": "https://rfef.es/es/noticias/actualizado-el-calendario-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre-y-de-la-copa"
+        },
+        {
+          "title": "RFEF: new dates for the games postponed on 28 October (31 Oct; first move to 4 Nov)",
+          "url": "https://rfef.es/es/noticias/fechas-y-horarios-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre"
+        },
+        {
+          "title": "El Gol Digital: Copa del Rey first round suspended after the Toledo train crash (28 Oct)",
+          "url": "https://www.elgoldigital.com/futbol/copa-del-rey/copa-del-rey-suspendida-primera-ronda-accidente-tren-toledo/"
+        },
+        {
+          "title": "Oddslot (ES): Utebo vs Sabadell, BC.Game 1X2 and double chance (18 Nov listing)",
+          "url": "https://oddslot.com/es/futbol/partido/copa-del-rey/utebo/sabadell/4-nov-2026/"
+        },
+        {
+          "title": "Footballpredictions.ai: Utebo vs Sabadell, goals ladder, BTTS and last five (18 Nov)",
+          "url": "https://footballpredictions.ai/football-predictions/utebo-vs-sabadell-predictions-tips-18-nov-2026/"
+        },
+        {
+          "title": "Gidstats (ES): Utebo vs Sabadell, margin-free market probabilities",
+          "url": "https://gidstats.com/es/futbol/copa-del-rey/2026-11-18-1644384-utebo-sabadell/"
+        },
+        {
+          "title": "Futboltotal: Utebo vs Sabadell match page (kick-off 19:00 Spain, Aragón TV)",
+          "url": "https://futboltotal.futbol/partido/utebo-vs-sabadell-copa-del-rey-2026-11-18"
+        },
+        {
+          "title": "Futboltotal: Segunda División (LaLiga Hypermotion) table with home/away splits 2026/27",
+          "url": "https://futboltotal.futbol/league/segunda-division/clasificacion"
+        },
+        {
+          "title": "Futboltotal: Segunda Federación Group 2 table 2026/27",
+          "url": "https://futboltotal.futbol/league/segunda-division-rfef/grupo-2/clasificacion"
+        },
+        {
+          "title": "Futboltotal: Sabadell team page (scorers, assists, results)",
+          "url": "https://futboltotal.futbol/teams/sabadell?season=2026"
+        },
+        {
+          "title": "FotMob: Utebo team overview (top scorers, results)",
+          "url": "https://www.fotmob.com/teams/96923/overview/utebo"
+        },
+        {
+          "title": "El Gol Digital: Utebo-Sabadell preview, Ferran Costa and absences (28 Oct)",
+          "url": "https://www.elgoldigital.com/futbol/copa-del-rey/utebo-sabadell-copa-del-rey-ferran-costa-bajas/"
+        },
+        {
+          "title": "22Bet news: Utebo vs Sabadell (no previous meetings)",
+          "url": "https://news.22bet.com/match/1644384/"
+        }
+      ]
+    },
+    {
+      "id": "alc-mll",
+      "competition": "Copa del Rey, first round",
+      "kickoff": "2026-11-18T19:00:00Z",
+      "venue": "Estadio El Collao, Alcoy",
+      "neutral": false,
+      "home": {
+        "name": "Alcoyano",
+        "short": "Alcoyano",
+        "code": "ALC"
+      },
+      "away": {
+        "name": "RCD Mallorca",
+        "short": "Mallorca",
+        "code": "MLL"
+      },
+      "context": "This is a one-off first-round Copa del Rey tie at El Collao, kicking off at 20:00 Madrid time (19:00 UTC). It was first set for 28 October, but the RFEF suspended it on the day after the train accident in Toledo, when Mallorca were already at their hotel. It was then moved to 5 November at 21:00 and postponed a second time. Mallorca play in Segunda División this season and are 7th, a point behind Burgos in the last play-off place. They are six league games unbeaten and drew 3-3 with Córdoba on 14 November, with two goals from Sergi Darder and one from Adam Buksa. Alcoyano are two levels lower, 7th of 18 in Segunda Federación Group 3 with 17 points from 11 games (W5 D2 L4, goals 16-15). They beat Intercity 4-1 on 15 November and have scored four goals in two of their last three league games, and in October they won 1-0 at Mallorca B. Mallorca are expected to rotate heavily and fill the squad with reserve-team players, as they did against Córdoba. If the score is level after 90 minutes the tie goes to extra time and penalties, and all prices here are for 90 minutes. In past meetings, Alcoyano knocked a top-flight Mallorca out of the cup 4-1 in October 2005, and Mallorca won both Segunda B games in 2017/18.",
+      "referee": {
+        "name": "Alejandro Ojaos Valera",
+        "country": "ESP",
+        "yellowsPg": 5.6,
+        "foulsPg": 27.6,
+        "note": "Treat this appointment as unconfirmed. FotMob's match page still shows the original 28 October date and lists Ojaos Valera with 5.6 yellow cards and 27.6 fouls a game, both marked 'above average'. It gives no game count, span or red-card figure, so games and redsPg are left out. No RFEF designation for the 18 November date was found, so after two postponements he may not be the referee. statz.ai has no page for this match."
+      },
+      "odds": {
+        "book": "There is no bet365 ladder: KickOff.co.uk has no page for this tie and statz.ai has no match page. The 1X2 and O/U 2.5 are 20Bet prices from MightyTips' 18 November preview; Megapari and Paripesa show the same 6.50 / 4.00 / 1.53 and 1.95 / 1.85, 1xBet has 6.00 / 3.75 / 1.53 and Melbet 5.92 / 3.70 / 1.57. O/U 1.5 and 3.5, BTTS and double chance come from footballpredictions.ai, which names no bookmaker; its O/U 2.5 of 1.95 / 1.85 matches 20Bet. Cross-checks: footballpredictions.ai has the 1X2 at 6.50 / 3.75 / 1.50. apuestas-deportivas.es, at 17 Nov 23:11, has Interwetten 6.00 / 3.85 / 1.55, TonyBet 6.20 / 4.20 / 1.55, Winamax 5.60 / 4.20 / 1.52 and Codere 5.25 / 3.70 / 1.53, plus Codere BTTS Yes at 1.95. MightyTips' best BTTS Yes is 2.01 (22bet). GidStats' bookmaker consensus with the margin removed is 15.5% / 24.6% / 59.9%. Missing: O/U 0.5, 4.5 and 5.5, draw no bet, win to nil, first goal, anytime scorers, corners, cards and Asian handicap. All prices are for 90 minutes.",
+        "h": 6.5,
+        "d": 4,
+        "a": 1.53,
+        "ou": {
+          "1.5": [
+            1.28,
+            3.5
+          ],
+          "2.5": [
+            1.95,
+            1.85
+          ],
+          "3.5": [
+            3.4,
+            1.3
+          ]
+        },
+        "btts": [
+          2,
+          1.75
+        ],
+        "dc": {
+          "1X": 2.45,
+          "X2": 1.11,
+          "12": 1.25
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "Club and RFEF team sheets, about an hour before kick-off (19:00 Madrid time)",
+        "home": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        },
+        "away": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        },
+        "alt": "Última Hora's probable Mallorca XI (18 Nov, 4-4-2): Cuéllar; Calatayud, Valjent, Soumahoro, Lato; Jandro, Darder, Kalumba, Orejuela; Buksa, Abdón. No local-press Alcoyano XI was found. MightyTips and ruptura360 publish Alcoyano XIs that contradict each other, and MightyTips' Mallorca XI includes players Última Hora rules out, so none of those XIs is used."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Alcoyano are 7th of 18 in Segunda Federación Group 3, with 17 points from 11 games (W5 D2 L4, goals 16-15). Their last five games: 0-2 at Atlético Baleares (25 Oct), 1-1 v Murcia B (1 Nov), 4-3 at Castellonense (8 Nov), 1-2 v Elche Ilicitano (11 Nov) and 4-1 v Intercity (15 Nov).",
+          "src": "FotMob; apuestas-deportivas.es"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "apuestas-deportivas.es says Alcoyano have lost only one of six home league games, to Ilicitano. Before the first cup date, apuestas-deportivas.es counted 7 of 9 home points and one goal conceded.",
+          "src": "apuestas-deportivas.es"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "The sources disagree on the coach: apuestas-deportivas.es names Fran Alcoy and FotMob names Asier Garitano.",
+          "src": "apuestas-deportivas.es; FotMob"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "FotMob lists no unavailable Alcoyano players. No team news from Alcoyano's local press (Información, Las Provincias) was found.",
+          "src": "FotMob"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Manu Morlanes has a ligament injury and FotMob expects him back in early December. He is also listed out by MightyTips and apuestas-deportivas.es.",
+          "src": "FotMob; MightyTips; apuestas-deportivas.es"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Jan Salas has a cruciate ligament injury and is still listed out on 17-18 Nov.",
+          "src": "FotMob; MightyTips; apuestas-deportivas.es"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Antonio Sánchez, Alberto Moreno and Arnau Puigmal have knocks and will be left out with the league in mind.",
+          "src": "Última Hora (18 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Antoniu Roca (hamstring) is a doubt for MightyTips and listed out by apuestas-deportivas.es.",
+          "src": "FotMob; MightyTips; apuestas-deportivas.es"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "John Donald and Josep Cerdà are not yet fully fit.",
+          "src": "Última Hora (18 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "back",
+          "text": "Martin Valjent and Lucas Bergström are back from international duty. Valjent is in Última Hora's probable XI and Iván Cuéllar is expected in goal. apuestas-deportivas.es still lists both as absent; the matchday report from Última Hora is preferred.",
+          "src": "Última Hora (18 Nov); apuestas-deportivas.es"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Luis García will complete the squad with reserve-team players, as he did against Córdoba. He had already planned a team with many changes and several reserve-team players for the original 28 October date.",
+          "src": "Última Hora (29 Oct, 18 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Mallorca are 7th in Segunda División, a point off the play-off places, and six league games unbeaten. Their last five league games: 3-1 v Las Palmas, 1-1 at Eibar, 1-1 at Leganés, 2-1 v Cádiz and 3-3 v Córdoba (14 Nov). They have scored 13 second-half goals in 13 league games.",
+          "src": "apuestas-deportivas.es; footballpredictions.ai; FotMob"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Tiko Iniesta",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 4,
+            "note": "Alcoyano's top scorer, with 4 league goals in 11 Segunda Federación games (FotMob; apuestas-deportivas.es). No source found gives his position, so FW is an assumption from his scoring. No per-90s found."
+          },
+          {
+            "name": "Toni Penyafort",
+            "pos": "MF",
+            "start": 0.75,
+            "goals": 3,
+            "note": "3 league goals in 11 games (FotMob; apuestas-deportivas.es). In midfield in MightyTips' probable XI. No per-90s found."
+          },
+          {
+            "name": "Guillem Naranjo",
+            "pos": "FW",
+            "start": 0.5,
+            "note": "The lone forward in MightyTips' probable XI; no other source confirms this. No goal or per-90 data found. FotMob's third scorer is Pedro Fernández, with 2 goals, whose position is not known."
+          }
+        ],
+        "away": [
+          {
+            "name": "Sergi Darder",
+            "pos": "MF",
+            "start": 0.75,
+            "note": "Scored twice in the 3-3 against Córdoba on 14 Nov (ontourfootball; apuestas-deportivas.es) and is in Última Hora's probable XI. No season totals or per-90s found."
+          },
+          {
+            "name": "Adam Buksa",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "Scored against Córdoba on 14 Nov, and apuestas-deportivas.es names him one of Mallorca's key scorers. Up front in Última Hora's probable XI. No season totals or per-90s found."
+          },
+          {
+            "name": "Abdón Prats",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "Up front with Buksa in Última Hora's probable XI. No season totals or per-90s found."
+          },
+          {
+            "name": "Adrián Fuentes",
+            "pos": "FW",
+            "start": 0.3,
+            "goals": 7,
+            "note": "MightyTips calls him Mallorca's key player, with 7 goals; this is not confirmed elsewhere and the span is not given. No source found gives his position, so FW is an assumption from his scoring. Not in Última Hora's probable XI, so he is likely rested."
+          },
+          {
+            "name": "Martin Valjent",
+            "pos": "DF",
+            "start": 0.75,
+            "note": "Back from international duty and at centre-back in Última Hora's probable XI. apuestas-deportivas.es lists him as absent."
+          }
+        ]
+      },
+      "props": [],
+      "sources": [
+        {
+          "title": "MightyTips: Alcoyano vs Mallorca prediction, odds by bookmaker, form, team news (18 Nov)",
+          "url": "https://www.mightytips.com/football-predictions/alcoyano-vs-mallorca-prediction-18-11-2026/"
+        },
+        {
+          "title": "Footballpredictions.ai: Alcoyano vs Mallorca odds, O/U ladder, BTTS, double chance (18 Nov)",
+          "url": "https://footballpredictions.ai/football-predictions/alcoyano-vs-mallorca-predictions-tips-18-nov-2026/"
+        },
+        {
+          "title": "Apuestas-deportivas.es: Alcoyano - Mallorca pronóstico, Copa del Rey 18/11/2026 (odds by bookmaker, standings, scorers)",
+          "url": "https://www.apuestas-deportivas.es/pronostico/alcoyano-mallorca-pronostico-copa-del-rey-18-11-2026"
+        },
+        {
+          "title": "Última Hora: Una Copa peligrosa (18 Nov, Mallorca squad news and probable XI)",
+          "url": "https://www.ultimahora.es/deportes/real-mallorca/2026/11/18/2751315/copa-peligrosa.html"
+        },
+        {
+          "title": "Última Hora: Un día lleno de incertidumbre para el Mallorca en Alcoy (first postponement)",
+          "url": "https://www.ultimahora.es/deportes/real-mallorca/2026/10/29/2738473/dia-lleno-incertidumbre-para-mallorca-alcoy.html"
+        },
+        {
+          "title": "FotMob: Alcoyano vs Mallorca match page (referee, injuries; still shows the 28 Oct date)",
+          "url": "https://www.fotmob.com/matches/alcoyano-vs-mallorca/1h4ky6"
+        },
+        {
+          "title": "FotMob: Alcoyano team overview (table, top scorers, results)",
+          "url": "https://www.fotmob.com/es/teams/4697/overview/alcoyano"
+        },
+        {
+          "title": "GidStats: Alcoyano vs Mallorca (bookmaker consensus, kick-off)",
+          "url": "https://gidstats.com/football/copa-del-rey/2026-11-18-1644334-alcoyano-vs-mallorca/"
+        },
+        {
+          "title": "Futboltotal: Alcoyano vs RCD Mallorca, Copa del Rey 18/11/2026 (kick-off 20:00 Madrid, TV)",
+          "url": "https://futboltotal.futbol/partido/alcoyano-vs-rcd-mallorca-copa-del-rey-2026-11-18"
+        },
+        {
+          "title": "ONTOUR Football: Alcoyano vs Mallorca fixture (19:00 UTC, Córdoba scorers)",
+          "url": "https://ontourfootball.com/fixtures/alcoyano-vs-mallorca-2026-11-18"
+        },
+        {
+          "title": "El Periódico de Aquí: Alcoyano-Mallorca de Copa del Rei, horari i on vore el partit",
+          "url": "https://www.elperiodicodeaqui.com/deportes/alcoyano-mallorca-copa-rei-horari-on-vore-partit-en-directe_100124219_102.html"
+        },
+        {
+          "title": "SoccerVital: Alcoyano vs Mallorca (goal averages, form)",
+          "url": "https://www.soccervital.com/alcoyano-vs-mallorca-soccer-prediction-jgga2j68g.html"
+        }
+      ]
+    },
+    {
+      "id": "bad-tfe",
+      "competition": "Copa del Rey, first round",
+      "kickoff": "2026-11-18T19:00:00Z",
+      "venue": "Estadio Nuevo Vivero, Badajoz",
+      "neutral": false,
+      "home": {
+        "name": "CD Badajoz",
+        "short": "Badajoz",
+        "code": "BAD"
+      },
+      "away": {
+        "name": "CD Tenerife",
+        "short": "Tenerife",
+        "code": "TEN"
+      },
+      "context": "This is a one-off first-round cup tie, with extra time and penalties if it is level after 90 minutes. The 1X2 prices are for 90 minutes only. The tie was first set for 28 October and suspended after the Urda (Toledo) rail crash. The RFEF then moved it to 10 November, and it was postponed again after Tenerife forward Jesús de Miguel died on 3 November, after a collision in Tenerife's league game against Andorra. Badajoz are third in Segunda Federación Group 4 (W5 D5 L1, 12-8 after 11 games) and unbeaten in seven league games, most recently a 2-1 win over Don Benito on 15 November. Tenerife, two divisions higher, are 13th in LaLiga Hypermotion (W4 D6 L3, 17-17 after 13 games) and beat Ceuta 2-0 on 15 November in their first game since De Miguel's death. Before the original date, Álvaro Cervera said he would make changes for the cup and left Enric Gallego, Nacho Gil, David Rodríguez and Landázuri at home, so expect rotation again; no squad list for 18 November was found.",
+      "referee": {
+        "name": "Andrés Fuentes Molina",
+        "country": "ESP",
+        "note": "Named only by the livetipsportal.com preview. No RFEF designation for the rescheduled date was found, so this may be the original appointment. No per-game figures were found (statz.ai has no page for this tie, and the valuestats referee page would not load)."
+      },
+      "odds": {
+        "book": "No bet365 or other single-bookmaker 1X2 was found. KickOff.co.uk has no page for this tie (two searches), and soccerway's and BetExplorer/OddsPortal's Copa del Rey odds tables show no prices for it. The 1X2 and BTTS prices are the best price for each outcome on livetipsportal.com (18 Nov preview): Badajoz 4.75 (Gbets), draw 3.85 (Betika), Tenerife 1.73 (Bet9ja), BTTS Yes 1.83 (Betwinner) and No 1.95 (Gbets). This is a best-of mix of named bookmakers, not one book's prices. O/U 1.5-3.5 and double chance come from footballpredictions.ai (18 Nov page), which does not name its bookmaker. Its 1X2 is 4.60 / 3.50 / 1.67 and its BTTS 1.80 / 1.95. GidStats' bookmaker consensus with the margin removed is 20.0% / 26.1% / 53.9%, close to these prices. Missing: O/U 0.5, 4.5 and 5.5, DNB, win to nil, first goal, scorers, corners, cards and Asian handicap. All prices are 90 minutes only.",
+        "h": 4.75,
+        "d": 3.85,
+        "a": 1.73,
+        "ou": {
+          "1.5": [
+            1.28,
+            3.5
+          ],
+          "2.5": [
+            1.95,
+            1.85
+          ],
+          "3.5": [
+            3.25,
+            1.33
+          ]
+        },
+        "btts": [
+          1.83,
+          1.95
+        ],
+        "dc": {
+          "1X": 2.1,
+          "12": 1.29,
+          "X2": 1.18
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 1.09,
+          "ga": 0.73
+        },
+        "away": {
+          "gf": 1.31,
+          "ga": 1.31
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "No predicted XI found for either side. rtvc.es (Televisión Canaria) says its live page will carry the line-ups once they are confirmed; also check the clubs' accounts about 60 minutes before kick-off.",
+        "home": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        },
+        "away": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        }
+      },
+      "news": [
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Tenerife forward Jesús de Miguel, 30, died on 3 November after a 97th-minute collision with Andorra goalkeeper Jesús Owono in a league game at the Heliodoro Rodríguez López. Before the original 28 October date he was named among the players due to get minutes in this tie.",
+          "src": "El Gol Digital"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "For the original 28 October date, Cervera left Enric Gallego, Nacho Gil, David Rodríguez and Landázuri in Tenerife. He said he would make changes but wanted to go through. Gabri de Vuyst was expected in goal, with minutes for Mateu, Pecar and Ranos, and B-team players Oier Gastesi and Omar Sánchez travelled. No squad list for 18 November was found.",
+          "src": "El Gol Digital (28 Oct)"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Fabricio went off injured after 78 minutes in the 2-0 win over Ceuta on 15 November and was replaced by Juanjo.",
+          "src": "LaLiga.com match page"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Tenerife beat Ceuta 2-0 on 15 November (Nacho Gil 40', Neal Viereck 86' from a Nacho Gil corner) after league draws with Andorra (2-2), Sabadell (1-1) and Celta Fortuna (1-1).",
+          "src": "LaLiga.com; rtvc.es"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Badajoz beat Don Benito 2-1 on 15 November (Nacho 11', G. Perero 59'), after 1-1 draws with Ciudad de Lucena and Linares. They are unbeaten in seven league games. Coach: Miguel Ángel Ávila. No injury or suspension news was found.",
+          "src": "futboltotal.futbol; rtvc.es; El Gol Digital"
+        }
+      ],
+      "players": {
+        "home": [],
+        "away": [
+          {
+            "name": "Enric Gallego",
+            "pos": "FW",
+            "start": 0.4,
+            "goals": 8,
+            "shots": 30,
+            "assists": 1,
+            "pens": true,
+            "shots90": 3.15,
+            "note": "Tenerife's top scorer: 8 goals, 30 shots and 1 assist in 12 league games (856 min), with 2 penalties listed (LaLiga.com). Started against Ceuta on 15 Nov. He was left at home for the original cup date, so he is a rotation risk. LaLiga lists 36 fouls but does not say whether they were committed or won, so fouls90 is left out."
+          },
+          {
+            "name": "Nacho Gil",
+            "pos": "MF",
+            "start": 0.4,
+            "goals": 2,
+            "assists": 5,
+            "note": "2 league goals and 5 assists this season (soccernews.com, updated 17 Nov). Scored and set up the other goal against Ceuta on 15 Nov. Left at home for the original cup date, so he is a rotation risk."
+          },
+          {
+            "name": "Christian Gomis",
+            "pos": "MF",
+            "start": 0.5,
+            "goals": 2,
+            "note": "2 league goals (soccernews.com lists him as a midfielder). Started up front alongside Gallego in the 4-4-2 against Ceuta on 15 Nov and was replaced after 62 minutes (LaLiga.com)."
+          },
+          {
+            "name": "Omar Sánchez",
+            "pos": "FW",
+            "start": 0.35,
+            "note": "B-team striker who had 7 goals in 8 games and travelled for the original 28 Oct date as a possible debutant (El Gol Digital). Not known whether he is in the squad for 18 Nov."
+          }
+        ]
+      },
+      "props": [],
+      "sources": [
+        {
+          "title": "livetipsportal: CD Badajoz vs CD Tenerife tips (best named-bookmaker odds, referee)",
+          "url": "https://www.livetipsportal.com/en/sportsbetting-tips/cd-badajoz-vs-cd-tenerife-copa-del-rey-12594879/"
+        },
+        {
+          "title": "Footballpredictions.ai: Badajoz vs Tenerife, 18 Nov 2026 (odds ladder, kick-off)",
+          "url": "https://footballpredictions.ai/football-predictions/badajoz-vs-tenerife-predictions-tips-18-nov-2026/"
+        },
+        {
+          "title": "GidStats: Badajoz vs Tenerife (bookmaker consensus, kick-off)",
+          "url": "https://gidstats.com/football/copa-del-rey/2026-11-18-1644346-badajoz-vs-tenerife/"
+        },
+        {
+          "title": "ONTOUR: Badajoz vs Tenerife, 18 Nov 2026 19:00 UTC",
+          "url": "https://ontourfootball.com/fixtures/badajoz-vs-tenerife-2026-11-18"
+        },
+        {
+          "title": "BetExplorer: Copa del Rey fixtures (kick-off times)",
+          "url": "https://www.betexplorer.com/football/spain/copa-del-rey/"
+        },
+        {
+          "title": "RTVC: CD Badajoz vs CD Tenerife, Copa del Rey first round (17 Nov preview)",
+          "url": "https://rtvc.es/cd-badajoz-vs-cd-tenerife-primera-eliminatoria-copa-del-rey-2026-27/"
+        },
+        {
+          "title": "RFEF: updated calendar of postponed Copa del Rey matches (5 Nov)",
+          "url": "https://rfef.es/es/noticias/actualizado-el-calendario-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre-y-de-la-copa"
+        },
+        {
+          "title": "RFEF: resolution moving Badajoz v Tenerife to 10 Nov (2 Nov)",
+          "url": "https://rfef.es/sites/default/files/sanciones/Resolucion_BAD_TFE_1E_CR.pdf?cb=78117aec"
+        },
+        {
+          "title": "El Gol Digital: RFEF suspends the Copa round after Jesús de Miguel's death (3 Nov)",
+          "url": "https://www.elgoldigital.com/futbol/copa-del-rey/rfef-suspende-jornada-copa-muerte-jesus-de-miguel/"
+        },
+        {
+          "title": "El Gol Digital: Badajoz v Tenerife preview, Cervera rotation (28 Oct)",
+          "url": "https://www.elgoldigital.com/futbol/copa-del-rey/badajoz-tenerife-copa-del-rey-cervera-enric-gallego/"
+        },
+        {
+          "title": "LaLiga: LaLiga Hypermotion 2026/27 table (Tenerife 13th)",
+          "url": "https://www.laliga.com/laliga-hypermotion/clasificacion"
+        },
+        {
+          "title": "LaLiga: CD Tenerife 2-0 AD Ceuta FC (15 Nov)",
+          "url": "https://www.laliga.com/es-NL/partido/temporada-2026-2027-laliga-hypermotion-cd-tenerife-ad-ceuta-fc-14"
+        },
+        {
+          "title": "LaLiga: Enric Gallego 2026/27 stats",
+          "url": "https://www.laliga.com/en-NL/player/enric-gallego"
+        },
+        {
+          "title": "SoccerNews: Segunda División 2026-27 top scorers and assists",
+          "url": "https://www.soccernews.com/soccer-stats/segunda-division/top-scorers-assists/2026-27/"
+        },
+        {
+          "title": "futboltotal: Segunda Federación Group 4 table (Badajoz 3rd)",
+          "url": "https://futboltotal.futbol/league/segunda-division-rfef-group-4/clasificacion"
+        },
+        {
+          "title": "futboltotal: Badajoz 2-1 Don Benito (15 Nov)",
+          "url": "https://futboltotal.futbol/partido/badajoz-vs-don-benito-segunda-division-rfef-group-4-2026-11-15"
+        },
+        {
+          "title": "Cancha Llena: Badajoz vs Tenerife, head-to-head",
+          "url": "https://canchallena.lanacion.com.ar/futbol/copa-del-rey-2026-2027/badajoz-tenerife-cqt68hd53eetby9qvl58v6g44/"
+        }
+      ]
+    },
+    {
+      "id": "dmi-car",
+      "competition": "Copa del Rey, first round",
+      "kickoff": "2026-11-18T19:30:00Z",
+      "venue": "Estadio Municipal Ángel Celdrán, El Llano del Beal (Cartagena)",
+      "neutral": false,
+      "home": {
+        "name": "Deportiva Minera",
+        "short": "Minera",
+        "code": "DMI"
+      },
+      "away": {
+        "name": "FC Cartagena",
+        "short": "Cartagena",
+        "code": "CAR"
+      },
+      "context": "This is a one-off first-round cup tie, with extra time and penalties if it is level after 90 minutes. The 1X2 prices are for 90 minutes only. The tie was postponed twice, after the Urda rail crash in late October and after the death of Tenerife forward Jesús de Miguel on 3 November. On 5 November the RFEF set it for Wednesday 18 November at 20:30 peninsular time. Deportiva Minera lead Segunda Federación Group 3 with 23 points from 11 games (W7 D2 L2, 15-9). They beat Poblense 2-0 on 15 November, four days after losing 3-0 at Castellón B. FC Cartagena, a division higher, are fifth in Primera Federación Group 2 with 19 points from 12 games (W5 D4 L3, 17-13) and won 1-0 at Ibiza on 15 November; away from home they are W2 D2 L3, with 7 scored and 10 conceded. Minera's last cup run ended with a 5-0 home defeat to Real Madrid in the last 32 in January 2025, and the two clubs have no recorded meeting.",
+      "referee": {
+        "note": "No referee designation was found: no RFEF designation for the rescheduled date and nothing in the previews. statz.ai has no page for this tie."
+      },
+      "odds": {
+        "book": "No bet365 or other single-bookmaker 1X2 was found. KickOff.co.uk has no page for this tie, and soccerway's and BetExplorer/OddsPortal's Copa del Rey odds tables show no prices for it. The 1X2 and BTTS prices are the best price for each outcome on livetipsportal.com (18 Nov preview): Minera 3.30 (Betika), draw 3.20 (Betika), Cartagena 2.31 (Betwinner), BTTS Yes 1.95 (Gbets) and No 1.86 (Bet9ja). This is a best-of mix of named bookmakers, not one book's prices. O/U 1.5-3.5 and double chance come from footballpredictions.ai (18 Nov page), which does not name its bookmaker. Its 1X2 is 3.10 / 3.00 / 2.25 and its BTTS 1.85 / 1.85. futboltotal's probabilities (no bookmaker named) are 26% / 27% / 46%. Missing: O/U 0.5, 4.5 and 5.5, DNB, win to nil, first goal, scorers, corners, cards and Asian handicap. All prices are 90 minutes only.",
+        "h": 3.3,
+        "d": 3.2,
+        "a": 2.31,
+        "ou": {
+          "1.5": [
+            1.36,
+            3
+          ],
+          "2.5": [
+            2.2,
+            1.65
+          ],
+          "3.5": [
+            4,
+            1.22
+          ]
+        },
+        "btts": [
+          1.95,
+          1.86
+        ],
+        "dc": {
+          "1X": 1.6,
+          "12": 1.36,
+          "X2": 1.33
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 1.36,
+          "ga": 0.82
+        },
+        "away": {
+          "gf": 1.42,
+          "ga": 1.08
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "No predicted XI found for either side. Check the clubs' accounts about 60 minutes before kick-off.",
+        "home": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        },
+        "away": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Minera's last five: 2-0 v Yeclano (24 Oct), 1-0 at Cieza (1 Nov), 2-0 at Real Murcia B (8 Nov), 0-3 at Castellón B (11 Nov, rescheduled), 2-0 v Poblense (15 Nov). Coach: Héctor Sandroni. No injury or suspension news was found.",
+          "src": "futboltotal.futbol; livetipsportal.com"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Cartagena won 1-0 at Ibiza on 15 November. Coach: Iñigo Vélez. In their last cup tie, in December 2025, they drew 1-1 with Valencia and lost 2-1 after extra time. No squad, injury or rotation news was found.",
+          "src": "futboltotal.futbol; livetipsportal.com"
+        }
+      ],
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "props": [],
+      "sources": [
+        {
+          "title": "livetipsportal: Deportiva Minera vs FC Cartagena tips (best named-bookmaker odds, coaches)",
+          "url": "https://www.livetipsportal.com/en/sportsbetting-tips/deportiva-minera-vs-fc-cartagena-copa-del-rey-12594858/"
+        },
+        {
+          "title": "Footballpredictions.ai: Deportiva Minera vs FC Cartagena, 18 Nov 2026 (odds ladder, kick-off)",
+          "url": "https://footballpredictions.ai/football-predictions/deportiva-minera-vs-fc-cartagena-predictions-tips-18-nov-2026/"
+        },
+        {
+          "title": "RFEF: updated calendar of postponed Copa del Rey matches (Minera v Cartagena, 18 Nov 20:30)",
+          "url": "https://rfef.es/es/noticias/actualizado-el-calendario-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre-y-de-la-copa"
+        },
+        {
+          "title": "El Gol Digital: RFEF suspends the Copa round after Jesús de Miguel's death (3 Nov)",
+          "url": "https://www.elgoldigital.com/futbol/copa-del-rey/rfef-suspende-jornada-copa-muerte-jesus-de-miguel/"
+        },
+        {
+          "title": "futboltotal: Deportiva Minera vs FC Cartagena (venue, kick-off, probabilities)",
+          "url": "https://futboltotal.futbol/partido/deportiva-minera-vs-fc-cartagena-copa-del-rey-2026-11-18"
+        },
+        {
+          "title": "futboltotal: Deportiva Minera team page (Segunda Federación Group 3 record, results)",
+          "url": "https://futboltotal.futbol/teams/deportiva-minera"
+        },
+        {
+          "title": "futboltotal: Primera Federación Group 2 table (FC Cartagena 5th)",
+          "url": "https://futboltotal.futbol/league/primera-division-rfef-group-2/clasificacion"
+        },
+        {
+          "title": "BetExplorer: Copa del Rey fixtures (kick-off times)",
+          "url": "https://www.betexplorer.com/football/spain/copa-del-rey/"
+        }
+      ]
+    },
+    {
+      "id": "reu-bar",
+      "competition": "Copa del Rey, first round",
+      "kickoff": "2026-11-18T19:30:00Z",
+      "venue": "Estadi Municipal de Reus, Reus",
+      "neutral": false,
+      "home": {
+        "name": "Reus FC Reddis",
+        "short": "Reus",
+        "code": "REU"
+      },
+      "away": {
+        "name": "Barakaldo CF",
+        "short": "Barakaldo",
+        "code": "BAR"
+      },
+      "context": "This is a one-off first-round tie. The tie was first due on Wednesday 28 October. The RFEF suspended that evening's 24 Copa del Rey games after the train crash at Urda (Toledo), moved this one to 4 November, then postponed it again after the death of CD Tenerife player Jesús de Miguel. Its RFEF notice of 5 November set the new date: Wednesday 18 November, 20:30 peninsular time. Reus are 9th in Segunda Federación Group 2 (W5 D2 L4, 11-12, 17 points). They won their last two league games 1-0, against UD Logroñés II at home on 8 November and at Calamocha on 15 November. Barakaldo play a tier higher and are 12th in Primera Federación Group 1 (W3 D6 L3, 12-12, 15 points). They are unbeaten in five league games (W2 D3, 6-2), most recently 2-2 at Deportivo La Coruña II on 14 November. They are strong at home (W3 D4 L0, 9-4) but have not won away (W0 D2 L3, 3-8). The coaches are Edu Albacar (Reus) and Imanol de la Sota (Barakaldo).",
+      "referee": {
+        "note": "No referee designation found for the 18 Nov date. The RFEF reschedule notice and the match pages (futboltotal, FotMob) name none, so there are no referee stats."
+      },
+      "odds": {
+        "book": "No bet365 prices: KickOff.co.uk has no page for this tie, and searches return none. The 1X2 and double chance are BC.Game via Oddslot (Spanish page, 18 Nov listing, 19:30 GMT kick-off). Oddslot's English page showed BC.Game at 3.80 / 3.30 / 2.00 with the same double chance, so the price has moved a little. O/U 1.5, 2.5 and 3.5 and BTTS are from footballpredictions.ai (18 Nov page), which names no bookmaker. Its 1X2 is 3.70 / 3.00 / 2.00, with double chance 1.75 / 1.35 / 1.25. Soccervital shows 3.8 / 3.2 / 2.0 unlabelled, and Oddslot quotes Under 3.5 at 1.22 with no bookmaker named, the same as footballpredictions.ai. No page has an O/U 0.5, 4.5 or 5.5, DNB, win to nil, first goal, scorer, corners, cards or Asian handicap price.",
+        "h": 3.6,
+        "d": 3.25,
+        "a": 2.05,
+        "ou": {
+          "1.5": [
+            1.36,
+            3.0
+          ],
+          "2.5": [
+            2.2,
+            1.65
+          ],
+          "3.5": [
+            4.0,
+            1.22
+          ]
+        },
+        "btts": [
+          1.85,
+          1.85
+        ],
+        "dc": {
+          "1X": 1.8,
+          "X2": 1.25,
+          "12": 1.33
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 1.0,
+          "ga": 1.09
+        },
+        "away": {
+          "gf": 1.0,
+          "ga": 1.0
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "No predicted XI is published for either side (FotMob, futboltotal and the preview pages list none). Take the confirmed XIs from the clubs' accounts or FotMob about 60 minutes before kick-off.",
+        "home": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        },
+        "away": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Xavi Jaime and Miquel Ustrell were injured and not expected to play when the tie was first due on 28 Oct. No update was found for 18 Nov.",
+          "src": "Diari de Tarragona (28 Oct)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Agus served his league suspension after his red card against Espanyol II and was available for the original cup date.",
+          "src": "Diari de Tarragona (28 Oct)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Three former Nàstic players are in the Barakaldo squad: Zoilo, Camus and Pablo Trigueros. No Barakaldo injury or suspension news was found.",
+          "src": "Diari de Tarragona (28 Oct)"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Bruno Calcagno",
+            "start": 0.75,
+            "goals": 2,
+            "note": "Joint top league scorer for Reus with 2 goals (Segunda Federación Group 2, 2026/27, 11 games to 15 Nov, FotMob). Position not confirmed by the sources opened."
+          },
+          {
+            "name": "Pol Fernández",
+            "start": 0.75,
+            "goals": 2,
+            "note": "Joint top league scorer with 2 goals (FotMob, same span). Position not confirmed by the sources opened."
+          },
+          {
+            "name": "Miquel Ustrell",
+            "start": 0.3,
+            "goals": 2,
+            "note": "Joint top league scorer with 2 goals (FotMob, same span), but he was injured and not expected to play on 28 Oct (Diari de Tarragona). No update was found, so he is treated as a doubt."
+          }
+        ],
+        "away": [
+          {
+            "name": "Carlos Mattheus",
+            "start": 0.75,
+            "goals": 3,
+            "note": "Barakaldo's top league scorer with 3 (Primera Federación Group 1, 2026/27, 12 games to 14 Nov, FotMob). Position not confirmed by the sources opened."
+          },
+          {
+            "name": "Ángel Troncho",
+            "start": 0.75,
+            "goals": 2,
+            "note": "2 league goals (FotMob, same span). Position not confirmed by the sources opened."
+          },
+          {
+            "name": "Ager Badiola",
+            "start": 0.75,
+            "goals": 1,
+            "note": "1 league goal (FotMob, same span). Position not confirmed by the sources opened."
+          }
+        ]
+      },
+      "teamTotals": {
+        "home": {
+          "goals": 11
+        },
+        "away": {
+          "goals": 12
+        }
+      },
+      "props": [],
+      "sources": [
+        {
+          "title": "RFEF: updated calendar of postponed Copa del Rey games (5 Nov; sets 18 Nov dates and kick-offs)",
+          "url": "https://rfef.es/es/noticias/actualizado-el-calendario-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre-y-de-la-copa"
+        },
+        {
+          "title": "RFEF: new dates for the games postponed on 28 October (31 Oct; first move to 4 Nov)",
+          "url": "https://rfef.es/es/noticias/fechas-y-horarios-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre"
+        },
+        {
+          "title": "El Gol Digital: Copa del Rey first round suspended after the Toledo train crash (28 Oct)",
+          "url": "https://www.elgoldigital.com/futbol/copa-del-rey/copa-del-rey-suspendida-primera-ronda-accidente-tren-toledo/"
+        },
+        {
+          "title": "Oddslot (ES): Reddis vs Barakaldo, BC.Game 1X2 and double chance (18 Nov listing)",
+          "url": "https://oddslot.com/es/futbol/partido/copa-del-rey/reddis/barakaldo/4-nov-2026/"
+        },
+        {
+          "title": "Oddslot (EN): Reddis vs Barakaldo, BC.Game 1X2 (earlier snapshot)",
+          "url": "https://oddslot.com/football/match/copa-del-rey/reddis/barakaldo/4-nov-2026/"
+        },
+        {
+          "title": "Footballpredictions.ai: Reddis vs Barakaldo, goals ladder, BTTS and last five (18 Nov)",
+          "url": "https://footballpredictions.ai/football-predictions/reddis-vs-barakaldo-predictions-tips-18-nov-2026/"
+        },
+        {
+          "title": "Soccervital: Reddis vs Barakaldo (unlabelled 1X2 cross-check)",
+          "url": "https://www.soccervital.com/reddis-vs-barakaldo-soccer-prediction-jgga2j696.html"
+        },
+        {
+          "title": "Futboltotal: Reddis vs Barakaldo match page (kick-off 20:30 Spain)",
+          "url": "https://futboltotal.futbol/partido/reddis-vs-barakaldo-copa-del-rey-2026-11-18"
+        },
+        {
+          "title": "Futboltotal: Segunda Federación Group 2 table 2026/27",
+          "url": "https://futboltotal.futbol/league/segunda-division-rfef/grupo-2/clasificacion"
+        },
+        {
+          "title": "Futboltotal: Primera Federación Group 1 table with home/away splits 2026/27",
+          "url": "https://futboltotal.futbol/league/primera-division-rfef/grupo-1/clasificacion"
+        },
+        {
+          "title": "FotMob: Reus team overview (top scorers, results)",
+          "url": "https://www.fotmob.com/teams/96927/overview/reus"
+        },
+        {
+          "title": "FotMob: Barakaldo team overview (top scorers, results)",
+          "url": "https://www.fotmob.com/teams/7734/overview/barakaldo"
+        },
+        {
+          "title": "Diari de Tarragona: La Copa inyecta ilusión a la temporada del Reus (28 Oct preview, injuries, coaches)",
+          "url": "https://www.diaridetarragona.com/deportes/274127/copa-inyecta-ilusion-temporada-reus.html"
+        }
+      ]
+    },
+    {
+      "id": "aat-mel",
+      "competition": "Liga 1 (Peru)",
+      "kickoff": "2026-11-18T20:00:00Z",
+      "venue": "Estadio Campeones del 36, Sullana",
+      "neutral": false,
+      "home": {
+        "name": "Alianza Atlético",
+        "short": "Alianza Atl.",
+        "code": "AAT"
+      },
+      "away": {
+        "name": "FBC Melgar",
+        "short": "Melgar",
+        "code": "MEL"
+      },
+      "context": "This is matchday 17 of the Torneo Clausura, kicking off at 15:00 Lima time (20:00 UTC) in Sullana. Melgar are 5th in the Clausura on 29 points from 16 games (W8 D5 L3), one point ahead of 7th-placed Alianza Atlético on 28 (W9 D1 L6). Over the whole season (33 games) Melgar are 3rd on 57 points and Alianza 9th on 49. Alianza have lost three of their last five (scored 5, conceded 10): 1-4 at Sport Huancayo, 3-2 v Garcilaso, 1-0 v Juan Pablo II, 0-2 at FC Cajamarca, then 0-2 v Sporting Cristal on 15 November, a game footballpredictions.ai lists as Copa de la Liga. That leaves them three days' rest, while Melgar last played on 7 November. Melgar's last five read W L D W W (scored 9, conceded 7), most recently 2-1 v Juan Pablo II. Melgar won the last meeting 3-1 at home in Arequipa on 31 May and have won four of the last eight meetings to Alianza's two. The last two games in Sullana ended 0-0 (August 2025) and 3-1 to Alianza (July 2024). The 1X2 has moved toward Alianza: footballpredictions.ai shows 2.30 / 3.25 / 2.88, BC.Game 2.10 / 3.40 / 3.30 with the home price falling, and Betsson 1.92 / 3.70 / 4.00 on the evening of 17 November. No source found explains the move.",
+      "referee": {
+        "note": "No appointment found. The preview pages opened (apuestas-deportivas.pe, Gainblers, starting11, footballpredictions.ai, oddslot) do not name a referee, and statz.ai and KickOff.co.uk have no page for this match, so there are no referee figures."
+      },
+      "odds": {
+        "book": "There is no bet365 ladder: KickOff.co.uk and statz.ai have no page for this match. The 1X2 and O/U 2.5 are Betsson prices from the apuestas-deportivas.pe preview, last updated 17 Nov at 19:44 Lima time. BTTS uses the two prices that preview quotes: Yes 1.58 at Inkabet and No 2.28 at Betano. O/U 1.5 and 3.5 come from footballpredictions.ai, which names no bookmaker. Its prices look older than Betsson's: its 1X2 is 2.30 / 3.25 / 2.88 and its O/U 2.5 is 1.73 / 2.08. Cross-checks: BC.Game, via oddslot.com, has 2.10 / 3.40 / 3.30 with the home price shortening, double chance 1X 1.25, 12 1.28 and X2 1.91, and Over 1.5 at 1.20. footballpredictions.ai has BTTS at 1.60 / 2.20 and double chance 1X 1.36, 12 1.30 and X2 1.57. Gainblers has BTTS Yes at 1.66 (Golden Bull). The double chance prices are left out because neither set matches Betsson's 1X2. Missing: O/U 0.5, 4.5 and 5.5, double chance and DNB from the same book as the 1X2, win to nil, first goal, scorers, corners, cards and Asian handicap.",
+        "h": 1.92,
+        "d": 3.7,
+        "a": 4.0,
+        "ou": {
+          "1.5": [
+            1.22,
+            4.0
+          ],
+          "2.5": [
+            1.65,
+            2.18
+          ],
+          "3.5": [
+            2.75,
+            1.4
+          ]
+        },
+        "btts": [
+          1.58,
+          2.28
+        ]
+      },
+      "season": {
+        "home": {
+          "gf": 1.48,
+          "ga": 1.45
+        },
+        "away": {
+          "gf": 1.7,
+          "ga": 1.15
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "No predicted XI with names was found (starting11 shows unnamed pitch graphics). Confirmed XIs are usually out about an hour before kick-off (starting11).",
+        "home": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        },
+        "away": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Defender Carlos Villegas is out. Only the tipster preview says so, and it gives no reason.",
+          "src": "Gainblers"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Lost 0-2 to Sporting Cristal on 15 November, listed as Copa de la Liga, three days before this game. Before that, lost 0-2 at FC Cajamarca on 7 November.",
+          "src": "footballpredictions.ai; apuestas-deportivas.pe"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Last played on 7 November, a 2-1 home win over Juan Pablo II College, so they come in with 11 days' rest.",
+          "src": "footballpredictions.ai; apuestas-deportivas.pe"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "No injury or suspension news was found for Melgar.",
+          "src": "apuestas-deportivas.pe; Gainblers; footballpredictions.ai"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Cristian Penilla",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 6,
+            "note": "Six goals in the Clausura (apuestas-deportivas.pe). Gainblers calls him Alianza's standout striker. No shot or per-90 figures found."
+          },
+          {
+            "name": "Guillermo Larios",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "Named by apuestas-deportivas.pe as one of Alianza's attacking options. No goal tally or per-90 figures found."
+          },
+          {
+            "name": "Adrián Fernández",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "Named by apuestas-deportivas.pe as one of Alianza's attacking options. No goal tally or per-90 figures found."
+          }
+        ],
+        "away": [
+          {
+            "name": "Jhonny Vidales",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 7,
+            "note": "Melgar's top scorer in the Clausura with seven goals (apuestas-deportivas.pe). No shot or per-90 figures found."
+          },
+          {
+            "name": "Bernardo Cuesta",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "apuestas-deportivas.pe calls him an important reference point up front. No goal tally found for this tournament."
+          },
+          {
+            "name": "Nicolás Quagliata",
+            "pos": "AM",
+            "start": 0.75,
+            "note": "apuestas-deportivas.pe credits him with four assists but does not say over which games, so the figure is not in the assists field."
+          },
+          {
+            "name": "Cristian Bordacahar",
+            "pos": "FW",
+            "start": 0.75,
+            "note": "apuestas-deportivas.pe says he gives Melgar mobility in the final third. No goal or assist figures found."
+          }
+        ]
+      },
+      "props": [],
+      "sources": [
+        {
+          "title": "apuestas-deportivas.pe: Alianza Atlético vs FBC Melgar preview (Betsson, Inkabet and Betano odds, table, key players)",
+          "url": "https://www.apuestas-deportivas.pe/pronostico-alianza-atletico-vs-fbc-melgar-quien-gana-y-cuanto-paga-en-las-apuestas/"
+        },
+        {
+          "title": "Footballpredictions.ai: Alianza Atletico vs FBC Melgar (odds ladder, form, tables, head-to-head)",
+          "url": "https://footballpredictions.ai/football-predictions/alianza-atletico-vs-fbc-melgar-predictions-tips-18-nov-2026/"
+        },
+        {
+          "title": "Oddslot: Alianza Atletico vs FBC Melgar (BC.Game odds, Clausura table)",
+          "url": "https://oddslot.com/football/match/primera-divisi%C3%B3n/alianza-atletico/fbc-melgar/14-nov-2026/"
+        },
+        {
+          "title": "Gainblers: Alianza Atletico vs Melgar prediction (Villegas injury, BTTS price)",
+          "url": "https://gainblers.com/us/picks/football/peru/liga-1/prediction-alianza-atletico-melgar-18-11-2026/"
+        },
+        {
+          "title": "Starting11: Alianza Atletico vs FBC Melgar (kick-off 20:00 GMT, venue, lineup timing)",
+          "url": "https://starting11.com/fixtures/alianza-atletico-vs-fbc-melgar"
+        },
+        {
+          "title": "MyBets.today: 18 November fixture list (kick-off 20:00)",
+          "url": "https://www.mybets.today/soccer-predictions/match-prediction-analysis-alianza-atletico-vs-fbc-melgar-betting-tip-dii32585i/"
+        }
+      ]
+    },
+    {
+      "id": "cfc-san",
+      "competition": "Brasileirão Série A, round 35",
+      "kickoff": "2026-11-18T22:30:00Z",
+      "venue": "Estádio Major Antônio Couto Pereira, Curitiba",
+      "neutral": false,
+      "home": {
+        "name": "Coritiba",
+        "short": "Coritiba",
+        "code": "CFC"
+      },
+      "away": {
+        "name": "Santos",
+        "short": "Santos",
+        "code": "SAN"
+      },
+      "context": "Kick-off is 19:30 Brasília time (22:30 UTC), per the CBF referee listing and Revista Oeste. KickOff and statz.ai both give 22:30 UK time. Coritiba are 13th on 42 points after 34 games (W11 D9 L14, 40-51), five points clear of the relegation zone. They are under interim coach Guilherme Bossle after Fernando Seabra was sacked, and they have won one of their last nine league games (W1 D2 L6), most recently losing 1-0 at Internacional on 4 Nov. Santos (Cuca) are 9th on 47 points (W12 D11 L11, 50-49) and chasing a continental place: Sports Mole has them six points behind sixth-placed Bahia, and O Liberal (5 Nov) has them seven behind Athletico-PR. They have won one of their last six league games, the latest a 2-1 defeat at Red Bull Bragantino on 2 Nov. Coritiba won the reverse fixture 3-0 at Santos on 17 May (Breno Lopes 6' and 20', Josué penalty 39'; Barreal sent off on 73'). Santos had already knocked Coritiba out of the Copa do Brasil fifth round, 0-0 away and then 2-0 in Curitiba on 13 May. Neymar's two-game ban (a red card against Bahia under the 'Lei Vini Jr.') was cut to one game by the STJD and has already been served, so he is available.",
+      "referee": {
+        "name": "Bráulio da Silva Machado",
+        "country": "BRA",
+        "games": 8,
+        "yellowsPg": 3.88,
+        "foulsPg": 21.38,
+        "redsPg": 0.12,
+        "note": "The CBF referee page (MASTER-PRO, from Tubarão, SC) lists him for this game, Série A Jogo 348, and statz.ai names him too. The figures come from his statz.ai profile, which covers 8 Campeonato Brasileiro games labelled 2025/26 and 2026/27. Its match table shows 31 yellows in the 8 Série A games of 2026. The fouls and red-card figures can't be checked against that table, which has no fouls or reds column. Foot Mercato's 2026 numbers are 39 yellows (3.9 a game) and 0 reds in 10 Série A games, and 117 yellows (4.5) and 0 reds in 26 games across all competitions. Its career line is 5.6 yellows and 0.13 reds a game over 264 games. Foot Mercato's 0 reds in 2026 conflicts with statz.ai's 1 red. He refereed Vasco 5-0 Coritiba on 19 Sep (3 yellows, statz.ai). CBF also lists him on Santos 0-3 Coritiba (17 May), but statz.ai names Paulo Cesar Zanovelli as that game's referee, so he was probably on the VAR team."
+      },
+      "odds": {
+        "book": "bet365 via KickOff.co.uk (18 Nov, matchday; KickOff shows decimal prices with no timestamp, and its Coral column is empty). KickOff loaded on the first try. Cross-checks: footballpredictions.ai (no bookmaker named) has 3.30 / 3.40 / 2.00, O/U 2.5 at 1.67 / 2.15, BTTS at 1.62 / 2.20, and double chance at 1.73 / 1.30 / 1.30. The statz.ai preview quotes bet365 at Coritiba 3.50, Over 1.5 1.22 and Over 2.5 1.70, all the same as KickOff, plus Ladbrokes at draw 3.60, Santos 2.10 and BTTS Yes 1.60. KickOff also lists 'no goal' at 13.00 in the first-goal market. No bet365 anytime-scorer, corners, cards or Asian handicap prices were found. Player props: Josué and Gustavo Henrique are bet365 prices from the statz.ai preview. The Jacy, Gabriel Barbosa and Nicolás Fonseca prices are 'best prices' from the statz.ai bet builder, which says only that its combined price was taken with bet365, so those three may not be bet365 single prices. Ladbrokes-only props (Neymar 1+ shots on target 1.28, Gabriel Barbosa 3+ shots 1.30, João Alencar 1+ tackles 1.33) are left out.",
+        "h": 3.5,
+        "d": 3.4,
+        "a": 2.05,
+        "ou": {
+          "0.5": [
+            1.04,
+            13
+          ],
+          "1.5": [
+            1.22,
+            4.33
+          ],
+          "2.5": [
+            1.7,
+            2.1
+          ],
+          "3.5": [
+            2.75,
+            1.44
+          ],
+          "4.5": [
+            5,
+            1.17
+          ],
+          "5.5": [
+            10,
+            1.06
+          ]
+        },
+        "btts": [
+          1.57,
+          2.25
+        ],
+        "dc": {
+          "1X": 1.7,
+          "X2": 1.29,
+          "12": 1.3
+        },
+        "dnb": {
+          "home": 2.5,
+          "away": 1.5
+        },
+        "wtn": {
+          "home": 7,
+          "away": 4
+        },
+        "firstGoal": {
+          "home": 2.2,
+          "away": 1.73
+        }
+      },
+      "form20": {
+        "note": "KickOff 20-game form: each side's last 20 league games overall (Coritiba 24-34, W6 D5 L9; Santos 31-27, W9 D5 L6). KickOff gives xG only as season averages over 34 games, so xgf/xga are season figures. KickOff's venue splits: Coritiba's last 20 at home were 22-21 (W6 D8 L6); Santos's last 20 away were 33-32 (W7 D5 L8).",
+        "home": {
+          "gf": 1.2,
+          "ga": 1.7,
+          "xgf": 1.1,
+          "xga": 1.6
+        },
+        "away": {
+          "gf": 1.55,
+          "ga": 1.35,
+          "xgf": 1.3,
+          "xga": 1.3
+        }
+      },
+      "season": {
+        "note": "statz.ai match page, 2026 Brasileirão per-game averages. Coritiba rank 20th of 20 for shots, shots on target and corners. Santos rank 1st for tackles (18.6 a game, against 13.4 for Coritiba). The statz.ai preview has Coritiba at 3.38 shots on target and 3.85 corners per home game, both the fewest in the league. Santos have the league's highest away BTTS rate (74%) and away over-2.5 rate (65%), and the most cards on the road (3.24 a game).",
+        "home": {
+          "corners": 3.9,
+          "fouls": 11.1,
+          "shots": 11.3,
+          "sot": 3.4,
+          "gf": 1.2,
+          "ga": 1.5
+        },
+        "away": {
+          "corners": 5.4,
+          "fouls": 12.3,
+          "shots": 13.9,
+          "sot": 4.3,
+          "gf": 1.5,
+          "ga": 1.4
+        }
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "statz.ai match page predicted XIs (18 Nov). Brazilian press previews (Bem Paraná, Lance) were found but would not load.",
+        "home": {
+          "formation": "4-3-1-2",
+          "xi": [
+            "Pedro Rangel",
+            "Tinga",
+            "Tiago Cóser",
+            "Jacy",
+            "Bruno Melo",
+            "Thiago Santos",
+            "Sebastián Gómez",
+            "Nicolás Fonseca",
+            "Josué",
+            "Pedro Rocha",
+            "Breno Lopes"
+          ],
+          "bench": []
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "xi": [
+            "Diógenes",
+            "Rodinei",
+            "Willian Arão",
+            "Luan Peres",
+            "João Alencar",
+            "Gustavo Henrique",
+            "Arthur Melo",
+            "Philippe Coutinho",
+            "Neymar",
+            "Everton",
+            "Gabriel Barbosa"
+          ],
+          "bench": []
+        },
+        "alt": "The statz.ai preview article has Gonzalo Escobar instead of Willian Arão (Diógenes; Rodinei, Luan Peres, Escobar, João Alencar; Gustavo Henrique, Arthur Melo; Everton, Coutinho, Neymar; Gabriel Barbosa). It also lists the same Coritiba XI as a 4-2-3-1. Sports Mole (16 Nov) has Coritiba as Rangel; Tinga, Tiago Cóser, Moledo, Bruno Melo; Gómez, Thiago Santos; Lavega, Josué, Breno Lopes; Pedro Rocha, with Rodrigo Moledo for the doubtful Jacy and Joaquín Lavega for Fonseca. Its Santos XI is Diógenes; Rodinei, Arão, Luan Peres, Escobar; Gustavo Henrique, Oliva; Coutinho, Neymar, Everton; Gabriel Barbosa, with Christian Oliva for Arthur and no João Alencar."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Goalkeeper Pedro Morisco is away with the Brazil national team and is not expected back in time. Pedro Rangel (6 clean sheets this season, FotMob) starts.",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Lucas Ronier (serious knee injury) remains out. He had 37 shots (2.06 a game) and 33 tackles this season.",
+          "src": "Sports Mole; statz.ai"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Jacy hurt his knee against Internacional and was still in treatment, not yet back in full training. He is in the statz.ai predicted XI, while Sports Mole has Rodrigo Moledo in his place.",
+          "src": "Sports Mole; statz.ai"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Guilherme Bossle is in interim charge after Fernando Seabra was sacked.",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "back",
+          "text": "Neymar is available. The STJD cut his two-game ban for the red card against Bahia (Lei Vini Jr.) to one game, which he served in the 2-1 loss at Bragantino.",
+          "src": "O Liberal (5 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Goalkeeper Gabriel Brazão had left-shoulder surgery and should not play again this season.",
+          "src": "Revista Oeste (13 Nov); Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Álvaro Barreal has a grade-3 right-thigh muscle injury and should miss the rest of the Brasileirão.",
+          "src": "Revista Oeste (13 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Centre-back Lucas Veríssimo has a thigh muscle injury and is due back only in the final rounds.",
+          "src": "Revista Oeste (13 Nov); Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Vinícius Lira is still in physical transition after a serious left-knee injury.",
+          "src": "Revista Oeste (13 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "back",
+          "text": "Willian Arão (right thigh) has recovered and can return at centre-back. Gonzalo Escobar is cleared for left-back, and Thaciano is back training after an adductor problem.",
+          "src": "Revista Oeste (13 Nov); Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Gabriel Bontempo (Brazil), Miguelito (Bolivia) and Gustavo Caballero (Paraguay) were with their national teams this window, and none is in any predicted XI.",
+          "src": "Revista Oeste (13 Nov); Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Rony was due back in training on 16 Nov after leave following his father's death and could be available.",
+          "src": "Revista Oeste (13 Nov)"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Pedro Rocha",
+            "pos": "FW",
+            "start": 0.9,
+            "goals": 9,
+            "shots": 65,
+            "shots90": 2.3,
+            "sot90": 1.1,
+            "note": "Coritiba's top scorer: 9 goals, 65 shots and 30 on target in 33 games this season (statz.ai team page). Over the last 10 games he has 22 shots, 13 on target and 3 goals (statz.ai match page). xG 9.4 and 12 big chances missed. Per-90s from FotMob, 2026 Série A (2,523 min). In both predicted XIs."
+          },
+          {
+            "name": "Breno Lopes",
+            "pos": "FW",
+            "start": 0.85,
+            "goals": 8,
+            "sot90": 0.6,
+            "note": "8 goals in 30 games and 14 shots on target (statz.ai). 0.37 goals per 90, the team's best, per FotMob. Scored twice in the 3-0 at Santos on 17 May. FotMob shows no shots per 90 for him. In both predicted XIs."
+          },
+          {
+            "name": "Josué",
+            "pos": "AM",
+            "start": 0.85,
+            "assists": 11,
+            "pens": true,
+            "shots90": 1.21,
+            "sot90": 0.34,
+            "fouls90": 1.07,
+            "tackles90": 1.12,
+            "note": "Coritiba's creator, with 11 assists and xA 6.5 (FotMob). Per-90s are calculated from FotMob's 2026 Série A totals: 25 games, 1,853 min, 25 shots, 7 on target, 22 fouls, 23 tackles, 1 goal (a penalty). statz.ai counts more, 38 shots (1.23 a game), and 16 shots (4 on target) over the last 10 games. He has had 2+ shots in six straight games, averaging 2.2, with 2, 2, 2, 3 and 2 in the last five (statz.ai preview). Scored the penalty against Santos on 17 May; no source names the regular taker."
+          },
+          {
+            "name": "Joaquín Lavega",
+            "pos": "FW",
+            "start": 0.4,
+            "goals": 5,
+            "note": "5 goals in 31 games (statz.ai). 1.7 shots and 0.6 on target per 90 (FotMob). Starts in Sports Mole's XI but not statz.ai's."
+          },
+          {
+            "name": "Thiago Santos",
+            "pos": "MF",
+            "start": 0.85,
+            "fouls90": 2.1,
+            "tackles90": 1.8,
+            "note": "35 fouls this season (1.40 a game, statz.ai), 16 of them in the last 10 games, and 9 yellow cards, the most at the club. He has made at least one tackle in 17 straight games and committed a foul in five straight (statz.ai preview, no price). Per-90s from FotMob, 2026 Série A. In both predicted XIs."
+          },
+          {
+            "name": "Sebastián Gómez",
+            "pos": "MF",
+            "start": 0.85,
+            "fouls90": 1.5,
+            "note": "40 fouls (1.33 a game) and 44 tackles (1.47 a game) this season, statz.ai. Fouls per 90 from FotMob. In both predicted XIs."
+          },
+          {
+            "name": "Nicolás Fonseca",
+            "pos": "MF",
+            "start": 0.6,
+            "note": "17 fouls in the last 10 games, the most for Coritiba (statz.ai match page). 2+ fouls in 4 of his last 5 games, averaging 2.4 (statz.ai bet builder). In the statz.ai XI; Sports Mole has Lavega instead. No per-90s found."
+          },
+          {
+            "name": "Tiago Cóser",
+            "pos": "DF",
+            "start": 0.85,
+            "fouls90": 1.4,
+            "note": "34 fouls this season (1.17 a game, statz.ai) and 3 yellow cards in the last 10 games. Fouls per 90 from FotMob ('Tiago')."
+          },
+          {
+            "name": "Jacy",
+            "pos": "DF",
+            "start": 0.5,
+            "tackles90": 2.2,
+            "note": "Doubtful with a knee problem (Sports Mole), though he is in the statz.ai XI. 55 tackles this season (1.83 a game, statz.ai), and 2+ tackles in 4 of his last 5 games, averaging 2.4 (statz.ai bet builder). Tackles per 90 from FotMob. Rodrigo Moledo would come in if he misses out."
+          }
+        ],
+        "away": [
+          {
+            "name": "Gabriel Barbosa",
+            "pos": "FW",
+            "start": 0.9,
+            "goals": 21,
+            "shots": 115,
+            "assists": 9,
+            "note": "21 goals, 9 assists, 115 shots and 42 on target in 35 games this season (statz.ai team page; competitions not stated). Sports Mole puts his Brasileirão tally at 15. Over the last 10 games he has 45 shots, 19 on target and 7 goals. He has had 3+ shots in seven straight games, averaging 5.6 (5, 7, 9, 4 and 5 in the last five), and 2+ shots on target in 3 of his last 5, averaging 2.6 (statz.ai). 9 yellow cards. No per-90s found; his season averages are 3.29 shots and 1.2 on target a game."
+          },
+          {
+            "name": "Neymar",
+            "pos": "AM",
+            "start": 0.85,
+            "goals": 10,
+            "shots": 63,
+            "assists": 5,
+            "note": "10 goals, 5 assists, 63 shots and 27 on target in 20 games this season (statz.ai team page). He has had a shot on target in 10 straight games and averaged 4 shots a game over a nine-game run of 2+ shots (statz.ai preview, Ladbrokes 1.28 for 1+ on target). 81 fouls drawn and 10 yellow cards. Back from his ban (STJD). KickOff lists him as Santos's top scorer with 8, which conflicts with statz.ai. No per-90s found."
+          },
+          {
+            "name": "Philippe Coutinho",
+            "pos": "AM",
+            "start": 0.8,
+            "note": "1+ shots on target in 70% of the last 10 games, averaging 1.4 a game (statz.ai team page). In all three predicted XIs. No per-90s found."
+          },
+          {
+            "name": "Everton",
+            "pos": "FW",
+            "start": 0.8,
+            "note": "18 shots (4 on target) over the last 10 games, second only to Gabriel Barbosa (statz.ai). In all three predicted XIs. No per-90s found."
+          },
+          {
+            "name": "Gustavo Henrique",
+            "pos": "MF",
+            "start": 0.85,
+            "note": "95 tackles in 29 games (3.28 a game, statz.ai). He has had 2+ tackles in eight straight games, averaging 3.9 (statz.ai preview, bet365 1.17). 12 fouls in the last 10 games. In all three predicted XIs. No per-90s found."
+          },
+          {
+            "name": "Rodinei",
+            "pos": "DF",
+            "start": 0.85,
+            "note": "14 fouls over the last 10 games, the most for Santos (statz.ai). In all three predicted XIs."
+          },
+          {
+            "name": "Luan Peres",
+            "pos": "DF",
+            "start": 0.85,
+            "note": "64 tackles in 37 games (1.73 a game) and 9 yellow cards (statz.ai). In all three predicted XIs."
+          },
+          {
+            "name": "João Alencar",
+            "pos": "DF",
+            "start": 0.7,
+            "note": "In both statz.ai XIs but not Sports Mole's. Ladbrokes price for 1+ tackles: 1.33 (statz.ai bet builder; not bet365, so left out of props)."
+          },
+          {
+            "name": "Arthur Melo",
+            "pos": "MF",
+            "start": 0.7,
+            "note": "In both statz.ai XIs; Sports Mole has Christian Oliva instead. His contract runs to the end of the season (Revista Oeste)."
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Josué",
+          "market": "2+ shots",
+          "odds": 1.62,
+          "hit": "5/5"
+        },
+        {
+          "player": "Gustavo Henrique",
+          "market": "2+ tackles",
+          "odds": 1.17,
+          "hit": "5/5"
+        },
+        {
+          "player": "Jacy",
+          "market": "2+ tackles",
+          "odds": 1.73,
+          "hit": "4/5"
+        },
+        {
+          "player": "Gabriel Barbosa",
+          "market": "2+ shots on target",
+          "odds": 2.2,
+          "hit": "3/5"
+        },
+        {
+          "player": "Nicolás Fonseca",
+          "market": "2+ fouls",
+          "odds": 1.3,
+          "hit": "4/5"
+        }
+      ],
+      "benchmarks": {
+        "statz": {
+          "h": 0.3,
+          "d": 0.27,
+          "a": 0.43,
+          "xg": [
+            1.24,
+            1.52
+          ]
+        },
+        "kickoff": {
+          "h": 0.32,
+          "d": 0.24,
+          "a": 0.44
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Coritiba v Santos odds & stats (bet365 ladder, 20-game form)",
+          "url": "https://www.kickoff.co.uk/brazillian-serie-a-predictions-stats-odds/coritiba-vs-santos/"
+        },
+        {
+          "title": "Footballpredictions.ai: Coritiba vs Santos odds, referee and table (cross-check)",
+          "url": "https://footballpredictions.ai/football-predictions/coritiba-vs-santos-predictions-tips-18-nov-2026/"
+        },
+        {
+          "title": "Statz.ai: Coritiba vs Santos stats, predicted lineups, referee",
+          "url": "https://statz.ai/h2h/coritiba-vs-santos/19621732"
+        },
+        {
+          "title": "Statz.ai: Coritiba vs Santos predictions & betting tips (bet365 props)",
+          "url": "https://statz.ai/news/19621732-coritiba-vs-santos-predictions-betting-tips"
+        },
+        {
+          "title": "Statz.ai: Coritiba vs Santos bet builder (last-5 hit rates)",
+          "url": "https://statz.ai/bet-builder/sgp/campeonato-brasileiro/coritiba-vs-santos-2026-11-18"
+        },
+        {
+          "title": "Statz.ai: referee Braulio da Silva Machado",
+          "url": "https://statz.ai/referee/braulio-da-silva-machado"
+        },
+        {
+          "title": "Statz.ai: Coritiba team stats 2026",
+          "url": "https://statz.ai/team/coritiba"
+        },
+        {
+          "title": "Statz.ai: Santos team stats 2026",
+          "url": "https://statz.ai/team/santos"
+        },
+        {
+          "title": "Statz.ai: Santos 0-3 Coritiba (reverse fixture, 17 May)",
+          "url": "https://statz.ai/h2h/santos-vs-coritiba/19621927"
+        },
+        {
+          "title": "CBF: referee Braulio da Silva Machado, 2026 appointments (Coritiba x Santos, Jogo 348)",
+          "url": "https://www.cbf.com.br/a-cbf/arbitragem/arbitros/1181/2026"
+        },
+        {
+          "title": "Foot Mercato: Braulio da Silva Machado referee stats",
+          "url": "https://www.footmercato.net/arbitre/braulio-da-silva-machado"
+        },
+        {
+          "title": "Sports Mole: Coritiba vs Santos prediction, team news, lineups",
+          "url": "https://www.sportsmole.co.uk/football/coritiba/preview/coritiba-vs-santos-prediction-team-news-lineups_609230.html"
+        },
+        {
+          "title": "Revista Oeste: Notícias do Santos hoje (13/11/2026)",
+          "url": "https://revistaoeste.com/esporte/noticias-do-santos-hoje-13-11-2026/"
+        },
+        {
+          "title": "O Liberal: Neymar tem pena reduzida pelo STJD e reforça o Santos contra o Coritiba",
+          "url": "https://www.oliberal.com/esportes/neymar-tem-pena-reduzida-pelo-stjd-e-reforca-o-santos-contra-o-coritiba-1.1190876"
+        },
+        {
+          "title": "FotMob: Coritiba player stats (Série A 2026 per-90s)",
+          "url": "https://www.fotmob.com/teams/9767/stats/players"
+        },
+        {
+          "title": "FotMob: Josué (Coritiba) 2026 Série A stats",
+          "url": "https://www.fotmob.com/players/163824/josue"
+        }
+      ]
+    }
+  ]
+}

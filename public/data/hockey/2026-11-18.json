@@ -64,7 +64,11 @@
           "title": "ESPN: Ottawa Senators team stats",
           "url": "https://www.espn.com/nhl/team/_/name/ott/ottawa-senators"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 2
+      }
     },
     {
       "id": "la-bos",
@@ -108,7 +112,11 @@
           "title": "BetMGM: Kings vs Bruins",
           "url": "https://sports.betmgm.com/en/blog/nhl/kings-bruins-prediction-odds-picks-nov-17-2026-jaa/"
         }
-      ]
+      ],
+      "result": {
+        "home": 0,
+        "away": 3
+      }
     },
     {
       "id": "edm-fla",
@@ -152,7 +160,11 @@
           "title": "BetMGM: Oilers vs Panthers",
           "url": "https://sports.betmgm.com/en/blog/nhl/oilers-panthers-prediction-odds-picks-nov-17-2026-jaa/"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 5
+      }
     },
     {
       "id": "wsh-tb",
@@ -196,7 +208,11 @@
           "title": "BetMGM: Capitals vs Lightning",
           "url": "https://sports.betmgm.com/en/blog/nhl/capitals-lightning-prediction-odds-picks-nov-17-2026-jaa/"
         }
-      ]
+      ],
+      "result": {
+        "home": 5,
+        "away": 2
+      }
     },
     {
       "id": "tor-chi",
@@ -240,7 +256,11 @@
           "title": "BetMGM: Maple Leafs vs Blackhawks",
           "url": "https://sports.betmgm.com/en/blog/nhl/maple-leafs-blackhawks-prediction-odds-picks-nov-17-2026-jaa/"
         }
-      ]
+      ],
+      "result": {
+        "home": 6,
+        "away": 3
+      }
     },
     {
       "id": "dal-vgk",
@@ -292,7 +312,12 @@
           "title": "DraftKings Network: NHL betting trends 17 Nov",
           "url": "https://dknetwork.draftkings.com/2026/11/17/nhl-public-betting-trends-tuesday-november-17/"
         }
-      ]
+      ],
+      "result": {
+        "home": 3,
+        "away": 4,
+        "ot": "OT"
+      }
     }
   ]
 }

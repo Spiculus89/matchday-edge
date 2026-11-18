@@ -1,5 +1,114 @@
 {
-  "updated": "2026-11-17T22:37:44.273Z",
+  "updated": "2026-11-18T09:15:41.668Z",
   "note": "Graded picks for hockey, same format as football's results.json.",
-  "legs": []
+  "legs": [
+    {
+      "date": "2026-11-18",
+      "match": "ott-wpg",
+      "group": "Puck line",
+      "pick": "Jets +1.5 (best bet)",
+      "p": 0.684,
+      "odds": 1.455,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "ott-wpg",
+      "group": "Bet builder",
+      "pick": "Jets +1.5 + Over 4.5 goals",
+      "p": 0.529,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "la-bos",
+      "group": "Puck line",
+      "pick": "Kings +1.5 (best bet)",
+      "p": 0.635,
+      "odds": 1.571,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "la-bos",
+      "group": "Bet builder",
+      "pick": "Kings +1.5 + Over 4.5 goals",
+      "p": 0.486,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "edm-fla",
+      "group": "Bet builder",
+      "pick": "Oilers +1.5 + Over 4.5 goals",
+      "p": 0.523,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "wsh-tb",
+      "group": "Puck line",
+      "pick": "Capitals +1.5 (best bet)",
+      "p": 0.634,
+      "odds": 1.571,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "wsh-tb",
+      "group": "Bet builder",
+      "pick": "Capitals +1.5 + Over 4.5 goals",
+      "p": 0.507,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "tor-chi",
+      "group": "Puck line",
+      "pick": "Blackhawks +1.5 (best bet)",
+      "p": 0.655,
+      "odds": 1.541,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "tor-chi",
+      "group": "Bet builder",
+      "pick": "Blackhawks +1.5 + Over 4.5 goals",
+      "p": 0.522,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "dal-vgk",
+      "group": "Total",
+      "pick": "Over 5.5 goals (best bet)",
+      "p": 0.539,
+      "odds": 1.82,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "dal-vgk",
+      "group": "Puck line",
+      "pick": "Stars +1.5",
+      "p": 0.697,
+      "odds": 1.426,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "dal-vgk",
+      "group": "Bet builder",
+      "pick": "Stars +1.5 + Over 4.5 goals",
+      "p": 0.526,
+      "odds": null,
+      "won": true
+    }
+  ]
 }

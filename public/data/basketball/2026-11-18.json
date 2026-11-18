@@ -90,7 +90,11 @@
           "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
           "url": "https://champsorchumps.us/summary/nba/2027"
         }
-      ]
+      ],
+      "result": {
+        "home": 102,
+        "away": 111
+      }
     },
     {
       "id": "det-sas",
@@ -192,7 +196,11 @@
           "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
           "url": "https://champsorchumps.us/summary/nba/2027"
         }
-      ]
+      ],
+      "result": {
+        "home": 93,
+        "away": 105
+      }
     },
     {
       "id": "por-min",
@@ -280,7 +288,11 @@
           "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
           "url": "https://champsorchumps.us/summary/nba/2027"
         }
-      ]
+      ],
+      "result": {
+        "home": 106,
+        "away": 105
+      }
     },
     {
       "id": "uta-lac",
@@ -374,7 +386,11 @@
           "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
           "url": "https://champsorchumps.us/summary/nba/2027"
         }
-      ]
+      ],
+      "result": {
+        "home": 107,
+        "away": 132
+      }
     },
     {
       "id": "cha-lal",
@@ -475,7 +491,12 @@
           "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
           "url": "https://champsorchumps.us/summary/nba/2027"
         }
-      ]
+      ],
+      "result": {
+        "home": 118,
+        "away": 114,
+        "ot": "OT"
+      }
     }
   ]
 }

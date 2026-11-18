@@ -382,7 +382,11 @@
           "title": "Statz.ai: Qatar team stats (2026 results, player totals)",
           "url": "https://statz.ai/team/qatar"
         }
-      ]
+      ],
+      "result": {
+        "home": 0,
+        "away": 1
+      }
     },
     {
       "id": "den-nor",
@@ -4113,6 +4117,10 @@
       ],
       "adjust": {
         "home": 0.92
+      },
+      "result": {
+        "home": 1,
+        "away": 1
       }
     },
     {
@@ -4624,47 +4632,5 @@
         "away": 1
       }
     }
-  ],
-  "gradingTodo": [
-    "qat-kor: all picks (no result yet)",
-    "den-nor: Both teams to score Yes",
-    "den-nor: prop Erling Haaland 2+ shots on target",
-    "den-nor: prop Martin Ødegaard 1+ shots",
-    "den-nor: prop Martin Ødegaard 2+ shots",
-    "den-nor: prop Thelo Aasgaard 2+ shots",
-    "den-nor: prop Kristoffer Ajer 1+ tackles",
-    "wal-por: prop Rúben Neves 1+ shots",
-    "wal-por: prop Rúben Neves 2+ tackles",
-    "wal-por: prop Gonçalo Ramos 1+ fouls",
-    "wal-por: prop João Félix 1+ fouls",
-    "wal-por: prop António Silva 1+ tackles",
-    "wal-por: prop Carlos Forbs 1+ tackles",
-    "wal-por: prop Pedro Neto 1+ shots",
-    "wal-por: prop Bruno Fernandes 1+ shots on target",
-    "wal-por: prop Vitinha 1+ shots on target",
-    "wal-por: prop Francisco Trincão 2+ shots",
-    "hun-nir: prop Isaac Price 1+ shots on target",
-    "hun-nir: prop Willi Orbán 1+ shots",
-    "hun-nir: prop Callum Styles 1+ shots",
-    "hun-nir: prop Attila Szalai 1+ fouls",
-    "hun-nir: prop Áron Csongvai 1+ fouls",
-    "hun-nir: prop Roland Sallai 1+ tackles",
-    "hun-nir: prop Attila Osváth 1+ tackles",
-    "ukr-geo: prop Anzor Mekvabishvili 1+ shots",
-    "ukr-geo: prop Giorgi Kvernadze 2+ shots",
-    "ukr-geo: prop Otar Kakabadze 1+ fouls",
-    "ukr-geo: prop Giorgi Chakvetadze 1+ fouls",
-    "irl-kos: Cards Over 2.5 cards",
-    "irl-kos: prop Finn Azaz 2+ shots",
-    "irl-kos: prop Ryan Manning 1+ shots",
-    "irl-kos: prop Dara O'Shea 2+ tackles",
-    "irl-kos: prop Liam Scales 1+ shots",
-    "pol-swe: all picks (no result yet)",
-    "bih-rou: Both teams to score Yes",
-    "bih-rou: prop Kerim Alajbegović 2+ shots",
-    "bih-rou: prop Ermedin Demirović 1+ shots on target",
-    "bih-rou: prop Alexandru Cicâldău 2+ shots",
-    "bih-rou: prop Dennis Man 1+ fouls",
-    "bih-rou: prop Armin Gigović 1+ fouls"
   ]
 }
