@@ -47,3 +47,13 @@ if (mode === "discover") {
   save("discover.json", out);
   console.log("discover ok, requests used this month:", usage.used);
 }
+if (mode === "probe") {
+  const out = {};
+  for (const b of ["pinnacle", "admiralbet.ba"]) {
+    try { const r = await get("/odds-by-tournaments", { bookmaker: b, tournamentIds: "132,234" });
+      const arr = Array.isArray(r) ? r : Object.values(r);
+      out[b] = { type: Array.isArray(r) ? "array" : typeof r, n: arr.length, first: JSON.stringify(arr[0]).slice(0, 6000), keys: Object.keys(arr[0] || {}) };
+    } catch (e) { out[b] = { error: String(e.message) }; }
+  }
+  save("probe.json", out); console.log("probe ok", usage.used);
+}
