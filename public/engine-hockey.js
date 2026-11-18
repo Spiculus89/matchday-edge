@@ -23,7 +23,25 @@
   function erf(x) { var t = 1 / (1 + 0.3275911 * Math.abs(x)); var y = 1 - (((((1.061405429 * t - 1.453152027) * t) + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * Math.exp(-x * x); return x >= 0 ? y : -y; }
   function Phi(z) { return 0.5 * (1 + erf(z / Math.SQRT2)); }
 
-  function matrix(lh, la) { var M = []; for (var i = 0; i <= MAXG; i++) { M[i] = []; for (var j = 0; j <= MAXG; j++) M[i][j] = pois(i, lh) * pois(j, la); } return M; }
+  function poisM(lh, la) { var M = []; for (var i = 0; i <= MAXG; i++) { M[i] = []; for (var j = 0; j <= MAXG; j++) M[i][j] = pois(i, lh) * pois(j, la); } return M; }
+  // Pulled goalie. A plain Poisson grid has far too many one-goal regulation results: in the NHL the
+  // side trailing by one pulls its goalie in ~98% of games, the leader then scores into the empty
+  // net roughly 30% of the time and the trailer ties it about 18% (both well above the normal rate
+  // for those minutes, which the grid already has). 18 Nov: four of five best bets were underdog
+  // +1.5 puck lines, and Capitals +1.5 lost 5-2 on exactly this. The extra goals are moved here,
+  // so the fit to the bookmaker's lines and every puck line, total and team total see them.
+  var ENG = { lead1: 0.22, tie1: 0.10, lead2: 0.15, cut2: 0.07 };
+  function lateGame(M) {
+    var N = M.map(function (r) { return r.slice(); });
+    for (var i = 0; i <= MAXG; i++) for (var j = 0; j <= MAXG; j++) {
+      var d = i - j, p = M[i][j], ad = Math.abs(d); if (p < 1e-12 || (ad !== 1 && ad !== 2)) continue;
+      var e = ad === 1 ? ENG.lead1 : ENG.lead2, t = ad === 1 ? ENG.tie1 : ENG.cut2;
+      if (d > 0) { if (i < MAXG) { N[i + 1][j] += p * e; N[i][j] -= p * e; } if (j < MAXG) { N[i][j + 1] += p * t; N[i][j] -= p * t; } }
+      else { if (j < MAXG) { N[i][j + 1] += p * e; N[i][j] -= p * e; } if (i < MAXG) { N[i + 1][j] += p * t; N[i][j] -= p * t; } }
+    }
+    return N;
+  }
+  function matrix(lh, la) { return lateGame(poisM(lh, la)); }
   function sumIf(M, f) { var s = 0; for (var i = 0; i <= MAXG; i++) for (var j = 0; j <= MAXG; j++) if (f(i, j)) s += M[i][j]; return s; }
   function otShare(lh, la) { return clamp(0.5 + 0.6 * (lh - la) / (lh + la), 0.4, 0.6); }
   // full-game (incl. OT/SO) outcome distribution: returns function(fn(h,a,ot)) summing probabilities
@@ -51,7 +69,7 @@
     mk.btts = sumIf(M, function (i, j) { return i > 0 && j > 0; });
     mk.ot = mk.regDraw;
     var cs = []; for (var i = 0; i <= 7; i++) for (var j = 0; j <= 7; j++) cs.push({ score: i + "-" + j, p: M[i][j] }); cs.sort(function (a, b) { return b.p - a.p; }); mk.correctScores = cs.slice(0, 6);
-    mk.teamOver = function (side, L) { var l = side === "home" ? lh : la, s = 0; for (var k = 0; k <= Math.floor(L); k++) s += pois(k, l); return 1 - s; };
+    mk.teamOver = function (side, L) { return G.P(function (h, a) { return (side === "home" ? h : a) > L; }); };
     mk.G = G; return mk;
   }
 
@@ -235,7 +253,7 @@
       var en = left / 60 * 9; if (d > 0) { ra += en * 0.35; rh += en; } else { rh += en * 0.35; ra += en; }
     }
     if (st.ppHome) rh += 0.17; if (st.ppAway) ra += 0.17;
-    var M = matrix(Math.max(rh, 1e-6), Math.max(ra, 1e-6)), q = otShare(lh, la), mk = {}, tie = 0;
+    var M = poisM(Math.max(rh, 1e-6), Math.max(ra, 1e-6)), q = otShare(lh, la), mk = {}, tie = 0;
     function P(f) { var s = 0; for (var i = 0; i <= MAXG; i++) for (var j = 0; j <= MAXG; j++) { var p = M[i][j]; if (p < 1e-12) continue; var h = hs + i, a = as + j; if (h !== a) { if (f(h, a)) s += p; } else { if (f(h + 1, a)) s += p * q; if (f(h, a + 1)) s += p * (1 - q); } } return s; }
     if (per >= 4) { mk.home = d > 0 ? 1 : d < 0 ? 0 : q; mk.away = 1 - mk.home; mk.regHome = d > 0 ? 1 : 0; mk.regDraw = d === 0 ? 1 : 0; }
     else { mk.home = P(function (h, a) { return h > a; }); mk.away = 1 - mk.home; mk.regHome = sumIf(M, function (i, j) { return hs + i > as + j; }); mk.regDraw = sumIf(M, function (i, j) { return hs + i === as + j; }); }

@@ -50,3 +50,20 @@ test("hockey live: empty-net late, settled in OT", () => {
   const ot = K.live(nhl, { period: 4, minute: 2, home: 3, away: 3 });
   assert.ok(ot.markets.home > 0.4 && ot.markets.home < 0.6);
 });
+
+test("hockey: pulled goalie thins one-goal games and lifts overtime", () => {
+  const g = { home: { name: "A" }, away: { name: "B" }, odds: { ml: [1.8, 2.05], total: { line: 6.5, o: 1.95, u: 1.87 } } };
+  const r = K.analyse(g), mk = r.markets;
+  assert.ok(mk.ot > 0.18 && mk.ot < 0.26, "OT " + mk.ot);
+  // the puck line for the favourite stays a minority outcome but well above the plain-Poisson 1-goal-heavy split
+  assert.ok(mk.puckHome > 0.3 && mk.puckHome < 0.45, "puckHome " + mk.puckHome);
+});
+
+test("basketball: assumed prices never make the best bet", () => {
+  const g = JSON.parse(JSON.stringify(nba));
+  g.odds = { ml: [1.5, 2.65], spread: { line: -5.5, h: 2.3, a: 1.6 }, total: { line: 225.5, o: 1.91, u: 1.91 }, assumed: ["spread", "total"] };
+  const r = B.analyse(g);
+  assert.ok(!r.picks.top || r.picks.top.group === "Moneyline");
+  r.picks.slip.filter(s => s.assumed).forEach(s => assert.notEqual(s.grade, "Bet"));
+  assert.ok(r.picks.all.some(x => x.assumed && x.confidence === "Price unconfirmed"));
+});

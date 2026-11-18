@@ -3,6 +3,20 @@
   "lessons": [
     {
       "date": "2026-11-18",
+      "area": "NBA best bet",
+      "kind": "model",
+      "saw": "Night one of NBA: best bets went 2 of 4. Pistons +9.5 and Wolves won. Raptors +2.5 lost, and both other losers came from the two games whose spread prices weren't published, so the model used 1.91: Lakers -8.5 (the real price had moved to 2.09, and they won by 4 in OT) and Clippers to win at 65%, a row with no price that lost by 25.",
+      "change": "Markets with an assumed price are marked \"price assumed\" and can be Lean at most. They can never be the best bet. A moneyline row with no price needs 72% instead of 64% to be more than Skip. On 19 Nov this turns two fake edges into No bet: Warriors +6.5 had shown +9.8%, and that was a guessed price."
+    },
+    {
+      "date": "2026-11-18",
+      "area": "NHL puck line",
+      "kind": "model",
+      "saw": "Night one of NHL: puck-line best bets went 4 of 5, all underdog +1.5. The loser, Capitals +1.5, lost by 3. The scoring model had no idea that a team trailing by one pulls its goalie, which turns many one-goal wins into two-goal wins. It also expected too few games to go to overtime (16% vs about 23% in the NHL).",
+      "change": "The pre-match score grid now adds pulled-goalie goals. When a side trails by one, the leader scores again 22% of the time and the trailer ties it 10%. When it trails by two, the figures are 15% and 7%. Underdog +1.5 chances drop about a point, overtime is up to 19-20%, and overs and team totals go up a little. Tonight Canadiens +1.5 drops to No bet. Avalanche–Mammoth Over 6.5 becomes the hockey best bet."
+    },
+    {
+      "date": "2026-11-18",
       "area": "Grading",
       "kind": "data",
       "saw": "The 17 Nov props were graded the next morning, after the evening session had switched props to per-stat calibration. Re-running the new engine would have recorded chances the page never showed: Pedro Neto 1+ shots at 88% instead of 79%, Yasin Ayari 1+ shots at 84% instead of 76%, Callum Styles 1+ shots at 24% instead of 30%.",
