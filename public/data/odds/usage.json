@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "used": 20,
+ "used": 22,
  "log": [
   {
    "t": "2026-11-18T10:28:33.159Z",
@@ -121,28 +121,25 @@
    "path": "/tournaments",
    "status": 200,
    "hdr": {}
+  },
+  {
+   "t": "2026-11-18T10:40:34.162Z",
+   "path": "/odds-by-tournaments",
+   "status": 200,
+   "hdr": {}
+  },
+  {
+   "t": "2026-11-18T10:40:36.285Z",
+   "path": "/odds-by-tournaments",
+   "status": 200,
+   "hdr": {}
   }
  ],
  "lastFetch": {
-  "at": "2026-11-18T10:36:52.997Z",
-  "fixtures": 0,
-  "updated": 0,
-  "unmatched": [
-   "football:ptg-run",
-   "football:ute-sab",
-   "football:alc-mll",
-   "football:bad-tfe",
-   "football:dmi-car",
-   "football:reu-bar",
-   "football:aat-mel",
-   "football:cfc-san",
-   "basketball:phi-orl",
-   "basketball:mil-mia",
-   "basketball:gsw-dal",
-   "basketball:bos-den",
-   "hockey:bos-det",
-   "hockey:mtl-nj",
-   "hockey:col-uta"
-  ]
+  "at": "2026-11-18T10:40:32.373Z",
+  "fixtures": 34,
+  "updated": 15,
+  "unmatched": [],
+  "noTournament": []
  }
 }

@@ -25,32 +25,73 @@
         "note": "No referee designation found for the 18 Nov date. The RFEF reschedule notice and the match pages (futboltotal, FotMob) name none, so there are no referee stats."
       },
       "odds": {
-        "book": "No bet365 prices: KickOff.co.uk has no page for this tie, and searches return none. The 1X2 and double chance are BC.Game via Oddslot (Spanish page, 18 Nov listing, 18:00 GMT kick-off). Oddslot's English page still showed the 4 Nov listing at 3.10 / 3.20 / 2.30. O/U 1.5, 2.5 and 3.5 and BTTS are from footballpredictions.ai (18 Nov page), which names no bookmaker. Its 1X2 is 3.00 / 3.10 / 2.30, with double chance 1.57 / 1.35 / 1.36. Oddslot quotes Under 3.5 at 1.25 with no bookmaker named, the same as footballpredictions.ai. Gidstats had no fresh odds. No page has an O/U 0.5, 4.5 or 5.5, DNB, win to nil, first goal, scorer, corners, cards or Asian handicap price.",
-        "h": 3.0,
-        "d": 3.2,
-        "a": 2.4,
+        "dc": {
+          "12": 1.36,
+          "1X": 1.57,
+          "X2": 1.36
+        },
+        "h": 2.93,
+        "d": 3.15,
+        "a": 2.35,
         "ou": {
           "1.5": [
-            1.33,
-            3.25
+            1.314,
+            3.22
           ],
           "2.5": [
-            2.1,
-            1.7
-          ],
-          "3.5": [
-            3.75,
-            1.25
+            2.02,
+            1.751
           ]
         },
         "btts": [
-          1.75,
+          1.81,
           1.95
         ],
-        "dc": {
-          "1X": 1.57,
-          "X2": 1.36,
-          "12": 1.36
+        "ah": [
+          {
+            "line": 0,
+            "home": 2.12,
+            "away": 1.689
+          },
+          {
+            "line": 0.5,
+            "home": 1.574,
+            "away": 2.32
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 3.06,
+          "d": 3.16,
+          "a": 2.34,
+          "ou": {
+            "0.5": [
+              1.03,
+              10.1
+            ],
+            "1.5": [
+              1.31,
+              3.27
+            ],
+            "2.5": [
+              2,
+              1.75
+            ],
+            "3.5": [
+              3.64,
+              1.26
+            ],
+            "4.5": [
+              7.65,
+              1.06
+            ]
+          },
+          "btts": [
+            1.81,
+            1.95
+          ],
+          "text": "1X2 3.06/3.16/2.34, O/U 2.5 2/1.75"
         }
       },
       "season": {
@@ -212,37 +253,79 @@
         "note": "El Gol Digital named him for the original 28 Oct date. No designation was found for 18 Nov, so this is not confirmed. No per-game stats were found."
       },
       "odds": {
-        "book": "No bet365 prices: KickOff.co.uk has no page for this tie, and searches return none. The 1X2 and double chance are BC.Game via Oddslot (Spanish page, 18 Nov listing, 18:00 GMT kick-off). The page prints the outcome label in front of each price ('16.00', 'X3.90', '21.55'), and its poll and analysis confirm Utebo 6.00 and Sabadell 1.55. Oddslot's English page still showed the 4 Nov listing at 5.75 / 3.50 / 1.67. O/U 1.5, 2.5 and 3.5 and BTTS are from footballpredictions.ai (18 Nov page), which names no bookmaker. Its 1X2 is 7.00 / 3.80 / 1.44, with double chance 2.62 / 1.22 / 1.10, the same as BC.Game. Gidstats' margin-free 1X2 is 15.1% / 24.5% / 60.4%, close to BC.Game's. No page has an O/U 0.5, 4.5 or 5.5, DNB, win to nil, first goal, scorer, corners, cards or Asian handicap price.",
-        "h": 6.0,
-        "d": 3.9,
-        "a": 1.55,
+        "dc": {
+          "12": 1.22,
+          "1X": 2.62,
+          "X2": 1.1
+        },
+        "h": 5.59,
+        "d": 3.73,
+        "a": 1.568,
         "ou": {
-          "1.5": [
-            1.28,
-            3.5
-          ],
           "2.5": [
-            1.9,
-            1.9
-          ],
-          "3.5": [
-            3.25,
-            1.33
+            1.917,
+            1.869
           ]
         },
         "btts": [
-          1.95,
-          1.75
+          2.01,
+          1.73
         ],
-        "dc": {
-          "1X": 2.62,
-          "X2": 1.1,
-          "12": 1.22
+        "ah": [
+          {
+            "line": 0.5,
+            "home": 2.36,
+            "away": 1.555
+          },
+          {
+            "line": 1,
+            "home": 1.854,
+            "away": 1.934
+          },
+          {
+            "line": 1.5,
+            "home": 1.518,
+            "away": 2.46
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 5.75,
+          "d": 3.79,
+          "a": 1.58,
+          "ou": {
+            "0.5": [
+              1.02,
+              11.1
+            ],
+            "1.5": [
+              1.27,
+              3.53
+            ],
+            "2.5": [
+              1.89,
+              1.85
+            ],
+            "3.5": [
+              3.35,
+              1.3
+            ],
+            "4.5": [
+              6.8,
+              1.08
+            ]
+          },
+          "btts": [
+            2.01,
+            1.73
+          ],
+          "text": "1X2 5.75/3.79/1.58, O/U 2.5 1.89/1.85"
         }
       },
       "season": {
         "home": {
-          "gf": 1.0,
+          "gf": 1,
           "ga": 1.09
         },
         "away": {
@@ -436,32 +519,74 @@
         "note": "Treat this appointment as unconfirmed. FotMob's match page still shows the original 28 October date and lists Ojaos Valera with 5.6 yellow cards and 27.6 fouls a game, both marked 'above average'. It gives no game count, span or red-card figure, so games and redsPg are left out. No RFEF designation for the 18 November date was found, so after two postponements he may not be the referee. statz.ai has no page for this match."
       },
       "odds": {
-        "book": "There is no bet365 ladder: KickOff.co.uk has no page for this tie and statz.ai has no match page. The 1X2 and O/U 2.5 are 20Bet prices from MightyTips' 18 November preview; Megapari and Paripesa show the same 6.50 / 4.00 / 1.53 and 1.95 / 1.85, 1xBet has 6.00 / 3.75 / 1.53 and Melbet 5.92 / 3.70 / 1.57. O/U 1.5 and 3.5, BTTS and double chance come from footballpredictions.ai, which names no bookmaker; its O/U 2.5 of 1.95 / 1.85 matches 20Bet. Cross-checks: footballpredictions.ai has the 1X2 at 6.50 / 3.75 / 1.50. apuestas-deportivas.es, at 17 Nov 23:11, has Interwetten 6.00 / 3.85 / 1.55, TonyBet 6.20 / 4.20 / 1.55, Winamax 5.60 / 4.20 / 1.52 and Codere 5.25 / 3.70 / 1.53, plus Codere BTTS Yes at 1.95. MightyTips' best BTTS Yes is 2.01 (22bet). GidStats' bookmaker consensus with the margin removed is 15.5% / 24.6% / 59.9%. Missing: O/U 0.5, 4.5 and 5.5, draw no bet, win to nil, first goal, anytime scorers, corners, cards and Asian handicap. All prices are for 90 minutes.",
-        "h": 6.5,
-        "d": 4,
-        "a": 1.53,
+        "dc": {
+          "12": 1.25,
+          "1X": 2.45,
+          "X2": 1.11
+        },
+        "h": 5.96,
+        "d": 3.86,
+        "a": 1.52,
         "ou": {
-          "1.5": [
-            1.28,
-            3.5
-          ],
           "2.5": [
-            1.95,
-            1.85
-          ],
-          "3.5": [
-            3.4,
-            1.3
+            1.925,
+            1.862
           ]
         },
         "btts": [
-          2,
-          1.75
+          2.03,
+          1.71
         ],
-        "dc": {
-          "1X": 2.45,
-          "X2": 1.11,
-          "12": 1.25
+        "ah": [
+          {
+            "line": 0.5,
+            "home": 2.48,
+            "away": 1.51
+          },
+          {
+            "line": 1,
+            "home": 1.917,
+            "away": 1.862
+          },
+          {
+            "line": 1.5,
+            "home": 1.537,
+            "away": 2.41
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 6.05,
+          "d": 3.84,
+          "a": 1.55,
+          "ou": {
+            "0.5": [
+              1.02,
+              11
+            ],
+            "1.5": [
+              1.27,
+              3.52
+            ],
+            "2.5": [
+              1.89,
+              1.85
+            ],
+            "3.5": [
+              3.37,
+              1.29
+            ],
+            "4.5": [
+              6.8,
+              1.08
+            ]
+          },
+          "btts": [
+            2.03,
+            1.71
+          ],
+          "text": "1X2 6.05/3.84/1.55, O/U 2.5 1.89/1.85"
         }
       },
       "lineups": {
@@ -685,32 +810,69 @@
         "note": "Named only by the livetipsportal.com preview. No RFEF designation for the rescheduled date was found, so this may be the original appointment. No per-game figures were found (statz.ai has no page for this tie, and the valuestats referee page would not load)."
       },
       "odds": {
-        "book": "No bet365 or other single-bookmaker 1X2 was found. KickOff.co.uk has no page for this tie (two searches), and soccerway's and BetExplorer/OddsPortal's Copa del Rey odds tables show no prices for it. The 1X2 and BTTS prices are the best price for each outcome on livetipsportal.com (18 Nov preview): Badajoz 4.75 (Gbets), draw 3.85 (Betika), Tenerife 1.73 (Bet9ja), BTTS Yes 1.83 (Betwinner) and No 1.95 (Gbets). This is a best-of mix of named bookmakers, not one book's prices. O/U 1.5-3.5 and double chance come from footballpredictions.ai (18 Nov page), which does not name its bookmaker. Its 1X2 is 4.60 / 3.50 / 1.67 and its BTTS 1.80 / 1.95. GidStats' bookmaker consensus with the margin removed is 20.0% / 26.1% / 53.9%, close to these prices. Missing: O/U 0.5, 4.5 and 5.5, DNB, win to nil, first goal, scorers, corners, cards and Asian handicap. All prices are 90 minutes only.",
-        "h": 4.75,
-        "d": 3.85,
-        "a": 1.73,
+        "dc": {
+          "12": 1.29,
+          "1X": 2.1,
+          "X2": 1.18
+        },
+        "h": 4.5,
+        "d": 3.6,
+        "a": 1.709,
         "ou": {
-          "1.5": [
-            1.28,
-            3.5
-          ],
           "2.5": [
-            1.95,
-            1.85
-          ],
-          "3.5": [
-            3.25,
-            1.33
+            2,
+            1.8
           ]
         },
         "btts": [
-          1.83,
-          1.95
+          1.97,
+          1.77
         ],
-        "dc": {
-          "1X": 2.1,
-          "12": 1.29,
-          "X2": 1.18
+        "ah": [
+          {
+            "line": 0.5,
+            "home": 2.1,
+            "away": 1.694
+          },
+          {
+            "line": 1,
+            "home": 1.598,
+            "away": 2.27
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 4.95,
+          "d": 3.4,
+          "a": 1.74,
+          "ou": {
+            "0.5": [
+              1.03,
+              10.2
+            ],
+            "1.5": [
+              1.31,
+              3.29
+            ],
+            "2.5": [
+              1.99,
+              1.76
+            ],
+            "3.5": [
+              3.62,
+              1.26
+            ],
+            "4.5": [
+              7.6,
+              1.06
+            ]
+          },
+          "btts": [
+            1.97,
+            1.77
+          ],
+          "text": "1X2 4.95/3.4/1.74, O/U 2.5 1.99/1.76"
         }
       },
       "season": {
@@ -899,32 +1061,78 @@
         "note": "No referee designation was found: no RFEF designation for the rescheduled date and nothing in the previews. statz.ai has no page for this tie."
       },
       "odds": {
-        "book": "No bet365 or other single-bookmaker 1X2 was found. KickOff.co.uk has no page for this tie, and soccerway's and BetExplorer/OddsPortal's Copa del Rey odds tables show no prices for it. The 1X2 and BTTS prices are the best price for each outcome on livetipsportal.com (18 Nov preview): Minera 3.30 (Betika), draw 3.20 (Betika), Cartagena 2.31 (Betwinner), BTTS Yes 1.95 (Gbets) and No 1.86 (Bet9ja). This is a best-of mix of named bookmakers, not one book's prices. O/U 1.5-3.5 and double chance come from footballpredictions.ai (18 Nov page), which does not name its bookmaker. Its 1X2 is 3.10 / 3.00 / 2.25 and its BTTS 1.85 / 1.85. futboltotal's probabilities (no bookmaker named) are 26% / 27% / 46%. Missing: O/U 0.5, 4.5 and 5.5, DNB, win to nil, first goal, scorers, corners, cards and Asian handicap. All prices are 90 minutes only.",
-        "h": 3.3,
-        "d": 3.2,
-        "a": 2.31,
+        "dc": {
+          "12": 1.36,
+          "1X": 1.6,
+          "X2": 1.33
+        },
+        "h": 2.81,
+        "d": 2.93,
+        "a": 2.59,
         "ou": {
           "1.5": [
-            1.36,
-            3
+            1.42,
+            2.73
           ],
           "2.5": [
-            2.2,
-            1.65
-          ],
-          "3.5": [
-            4,
-            1.22
+            2.33,
+            1.574
           ]
         },
         "btts": [
-          1.95,
-          1.86
+          2,
+          1.74
         ],
-        "dc": {
-          "1X": 1.6,
-          "12": 1.36,
-          "X2": 1.33
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.77,
+            "away": 1.418
+          },
+          {
+            "line": 0,
+            "home": 1.98,
+            "away": 1.819
+          },
+          {
+            "line": 0.5,
+            "home": 1.483,
+            "away": 2.56
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.83,
+          "d": 3.04,
+          "a": 2.58,
+          "ou": {
+            "0.5": [
+              1.05,
+              8.3
+            ],
+            "1.5": [
+              1.4,
+              2.79
+            ],
+            "2.5": [
+              2.29,
+              1.58
+            ],
+            "3.5": [
+              4.5,
+              1.18
+            ],
+            "4.5": [
+              10.1,
+              1.03
+            ]
+          },
+          "btts": [
+            2,
+            1.74
+          ],
+          "text": "1X2 2.83/3.04/2.58, O/U 2.5 2.29/1.58"
         }
       },
       "season": {
@@ -1026,42 +1234,83 @@
         "note": "No referee designation found for the 18 Nov date. The RFEF reschedule notice and the match pages (futboltotal, FotMob) name none, so there are no referee stats."
       },
       "odds": {
-        "book": "No bet365 prices: KickOff.co.uk has no page for this tie, and searches return none. The 1X2 and double chance are BC.Game via Oddslot (Spanish page, 18 Nov listing, 19:30 GMT kick-off). Oddslot's English page showed BC.Game at 3.80 / 3.30 / 2.00 with the same double chance, so the price has moved a little. O/U 1.5, 2.5 and 3.5 and BTTS are from footballpredictions.ai (18 Nov page), which names no bookmaker. Its 1X2 is 3.70 / 3.00 / 2.00, with double chance 1.75 / 1.35 / 1.25. Soccervital shows 3.8 / 3.2 / 2.0 unlabelled, and Oddslot quotes Under 3.5 at 1.22 with no bookmaker named, the same as footballpredictions.ai. No page has an O/U 0.5, 4.5 or 5.5, DNB, win to nil, first goal, scorer, corners, cards or Asian handicap price.",
+        "dc": {
+          "12": 1.33,
+          "1X": 1.8,
+          "X2": 1.25
+        },
         "h": 3.6,
-        "d": 3.25,
-        "a": 2.05,
+        "d": 3.08,
+        "a": 2.07,
         "ou": {
           "1.5": [
-            1.36,
-            3.0
+            1.387,
+            2.86
           ],
           "2.5": [
-            2.2,
-            1.65
-          ],
-          "3.5": [
-            4.0,
-            1.22
+            2.24,
+            1.613
           ]
         },
         "btts": [
-          1.85,
-          1.85
+          1.98,
+          1.75
         ],
-        "dc": {
-          "1X": 1.8,
-          "X2": 1.25,
-          "12": 1.33
+        "ah": [
+          {
+            "line": 0,
+            "home": 2.59,
+            "away": 1.473
+          },
+          {
+            "line": 0.5,
+            "home": 1.729,
+            "away": 2.05
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 3.54,
+          "d": 3.09,
+          "a": 2.16,
+          "ou": {
+            "0.5": [
+              1.05,
+              8.8
+            ],
+            "1.5": [
+              1.37,
+              2.92
+            ],
+            "2.5": [
+              2.2,
+              1.63
+            ],
+            "3.5": [
+              4.2,
+              1.2
+            ],
+            "4.5": [
+              9.25,
+              1.04
+            ]
+          },
+          "btts": [
+            1.98,
+            1.75
+          ],
+          "text": "1X2 3.54/3.09/2.16, O/U 2.5 2.2/1.63"
         }
       },
       "season": {
         "home": {
-          "gf": 1.0,
+          "gf": 1,
           "ga": 1.09
         },
         "away": {
-          "gf": 1.0,
-          "ga": 1.0
+          "gf": 1,
+          "ga": 1
         }
       },
       "lineups": {
@@ -1225,28 +1474,75 @@
         "note": "No appointment found. The preview pages opened (apuestas-deportivas.pe, Gainblers, starting11, footballpredictions.ai, oddslot) do not name a referee, and statz.ai and KickOff.co.uk have no page for this match, so there are no referee figures."
       },
       "odds": {
-        "book": "There is no bet365 ladder: KickOff.co.uk and statz.ai have no page for this match. The 1X2 and O/U 2.5 are Betsson prices from the apuestas-deportivas.pe preview, last updated 17 Nov at 19:44 Lima time. BTTS uses the two prices that preview quotes: Yes 1.58 at Inkabet and No 2.28 at Betano. O/U 1.5 and 3.5 come from footballpredictions.ai, which names no bookmaker. Its prices look older than Betsson's: its 1X2 is 2.30 / 3.25 / 2.88 and its O/U 2.5 is 1.73 / 2.08. Cross-checks: BC.Game, via oddslot.com, has 2.10 / 3.40 / 3.30 with the home price shortening, double chance 1X 1.25, 12 1.28 and X2 1.91, and Over 1.5 at 1.20. footballpredictions.ai has BTTS at 1.60 / 2.20 and double chance 1X 1.36, 12 1.30 and X2 1.57. Gainblers has BTTS Yes at 1.66 (Golden Bull). The double chance prices are left out because neither set matches Betsson's 1X2. Missing: O/U 0.5, 4.5 and 5.5, double chance and DNB from the same book as the 1X2, win to nil, first goal, scorers, corners, cards and Asian handicap.",
-        "h": 1.92,
-        "d": 3.7,
-        "a": 4.0,
+        "h": 2.2,
+        "d": 3.2,
+        "a": 3.28,
         "ou": {
-          "1.5": [
-            1.22,
-            4.0
-          ],
           "2.5": [
-            1.65,
-            2.18
-          ],
-          "3.5": [
-            2.75,
-            1.4
+            1.961,
+            1.847
           ]
         },
         "btts": [
-          1.58,
-          2.28
-        ]
+          1.671,
+          2.16
+        ],
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.18,
+            "away": 1.671
+          },
+          {
+            "line": 0,
+            "home": 1.578,
+            "away": 2.36
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.709,
+            2.01
+          ],
+          "10.5": [
+            2.13,
+            1.628
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.2,
+          "d": 3.29,
+          "a": 3.2,
+          "ou": {
+            "0.5": [
+              1.02,
+              10.8
+            ],
+            "1.5": [
+              1.27,
+              3.46
+            ],
+            "2.5": [
+              1.9,
+              1.82
+            ],
+            "3.5": [
+              3.39,
+              1.28
+            ],
+            "4.5": [
+              6.9,
+              1.07
+            ]
+          },
+          "btts": [
+            1.75,
+            2
+          ],
+          "text": "1X2 2.2/3.29/3.2, O/U 2.5 1.9/1.82"
+        }
       },
       "season": {
         "home": {
@@ -1403,48 +1699,14 @@
         "note": "The CBF referee page (MASTER-PRO, from Tubarão, SC) lists him for this game, Série A Jogo 348, and statz.ai names him too. The figures come from his statz.ai profile, which covers 8 Campeonato Brasileiro games labelled 2025/26 and 2026/27. Its match table shows 31 yellows in the 8 Série A games of 2026. The fouls and red-card figures can't be checked against that table, which has no fouls or reds column. Foot Mercato's 2026 numbers are 39 yellows (3.9 a game) and 0 reds in 10 Série A games, and 117 yellows (4.5) and 0 reds in 26 games across all competitions. Its career line is 5.6 yellows and 0.13 reds a game over 264 games. Foot Mercato's 0 reds in 2026 conflicts with statz.ai's 1 red. He refereed Vasco 5-0 Coritiba on 19 Sep (3 yellows, statz.ai). CBF also lists him on Santos 0-3 Coritiba (17 May), but statz.ai names Paulo Cesar Zanovelli as that game's referee, so he was probably on the VAR team."
       },
       "odds": {
-        "book": "bet365 via KickOff.co.uk (18 Nov, matchday; KickOff shows decimal prices with no timestamp, and its Coral column is empty). KickOff loaded on the first try. Cross-checks: footballpredictions.ai (no bookmaker named) has 3.30 / 3.40 / 2.00, O/U 2.5 at 1.67 / 2.15, BTTS at 1.62 / 2.20, and double chance at 1.73 / 1.30 / 1.30. The statz.ai preview quotes bet365 at Coritiba 3.50, Over 1.5 1.22 and Over 2.5 1.70, all the same as KickOff, plus Ladbrokes at draw 3.60, Santos 2.10 and BTTS Yes 1.60. KickOff also lists 'no goal' at 13.00 in the first-goal market. No bet365 anytime-scorer, corners, cards or Asian handicap prices were found. Player props: Josué and Gustavo Henrique are bet365 prices from the statz.ai preview. The Jacy, Gabriel Barbosa and Nicolás Fonseca prices are 'best prices' from the statz.ai bet builder, which says only that its combined price was taken with bet365, so those three may not be bet365 single prices. Ladbrokes-only props (Neymar 1+ shots on target 1.28, Gabriel Barbosa 3+ shots 1.30, João Alencar 1+ tackles 1.33) are left out.",
-        "h": 3.5,
-        "d": 3.4,
-        "a": 2.05,
-        "ou": {
-          "0.5": [
-            1.04,
-            13
-          ],
-          "1.5": [
-            1.22,
-            4.33
-          ],
-          "2.5": [
-            1.7,
-            2.1
-          ],
-          "3.5": [
-            2.75,
-            1.44
-          ],
-          "4.5": [
-            5,
-            1.17
-          ],
-          "5.5": [
-            10,
-            1.06
-          ]
-        },
-        "btts": [
-          1.57,
-          2.25
-        ],
-        "dc": {
-          "1X": 1.7,
-          "X2": 1.29,
-          "12": 1.3
-        },
         "dnb": {
           "home": 2.5,
           "away": 1.5
+        },
+        "dc": {
+          "12": 1.3,
+          "1X": 1.7,
+          "X2": 1.29
         },
         "wtn": {
           "home": 7,
@@ -1453,6 +1715,105 @@
         "firstGoal": {
           "home": 2.2,
           "away": 1.73
+        },
+        "h": 3.67,
+        "d": 3.52,
+        "a": 2.14,
+        "ou": {
+          "1.5": [
+            1.224,
+            4.56
+          ],
+          "2.5": [
+            1.751,
+            2.19
+          ],
+          "3.5": [
+            2.82,
+            1.469
+          ],
+          "4.5": [
+            5.23,
+            1.184
+          ]
+        },
+        "btts": [
+          1.625,
+          2.38
+        ],
+        "ah": [
+          {
+            "line": 0,
+            "home": 2.66,
+            "away": 1.54
+          },
+          {
+            "line": 0.5,
+            "home": 1.8,
+            "away": 2.13
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.485,
+            2.49
+          ],
+          "10.5": [
+            1.813,
+            1.98
+          ],
+          "11.5": [
+            2.22,
+            1.613
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.332,
+            3.08
+          ],
+          "4.5": [
+            1.806,
+            1.99
+          ],
+          "5.5": [
+            2.55,
+            1.467
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 3.3,
+          "d": 3.59,
+          "a": 2.13,
+          "ou": {
+            "1.5": [
+              1.2,
+              4.25
+            ],
+            "2.5": [
+              1.67,
+              2.12
+            ],
+            "3.5": [
+              2.76,
+              1.41
+            ],
+            "4.5": [
+              5.2,
+              1.13
+            ],
+            "5.5": [
+              10.9,
+              1.02
+            ]
+          },
+          "btts": [
+            1.6,
+            2.26
+          ],
+          "text": "1X2 3.3/3.59/2.13, O/U 2.5 1.67/2.12"
         }
       },
       "form20": {

@@ -20,15 +20,62 @@
       },
       "context": "Philadelphia (12-3) lead the East and visit Orlando (6-7). The 76ers are without Jaylen Brown (hamstring), and Joel Embiid is day-to-day with a foot injury. Orlando are missing Paolo Banchero (high-ankle sprain), Jonathan Isaac (knee) and Noah Penda (hamstring). Despite the gap in the standings, the market makes Philadelphia only a short road favourite (-122 at DraftKings), with the total at 223.5.",
       "odds": {
-        "book": "DraftKings via Covers (no spread published)",
         "ml": [
-          2.03,
-          1.82
+          2.16,
+          1.763
         ],
         "total": {
-          "line": 223.5,
-          "o": 1.943,
-          "u": 1.877
+          "line": 222,
+          "o": 1.925,
+          "u": 1.943
+        },
+        "teamTotal": {
+          "home": {
+            "line": 110.5,
+            "o": 1.925,
+            "u": 1.925
+          },
+          "away": {
+            "line": 111.5,
+            "o": 1.884,
+            "u": 1.97
+          }
+        },
+        "spread": {
+          "line": 2,
+          "h": 1.952,
+          "a": 1.934
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            2.09,
+            1.75
+          ],
+          "total": {
+            "line": 222.5,
+            "o": 1.95,
+            "u": 1.87
+          },
+          "teamTotal": {
+            "home": {
+              "line": 110.5,
+              "o": 1.92,
+              "u": 1.85
+            },
+            "away": {
+              "line": 111.5,
+              "o": 1.85,
+              "u": 1.93
+            }
+          },
+          "spread": {
+            "line": 2.5,
+            "h": 1.85,
+            "a": 1.96
+          },
+          "text": "win 2.09/1.75, +2.5 1.85/1.96, total 222.5 1.95/1.87"
         }
       },
       "form": {
@@ -143,24 +190,63 @@
       },
       "context": "ESPN's early game. Milwaukee (1-13) are last in the East and had lost ten in a row through 15 Nov, scoring 106.1 points a game. Miami (8-6, fourth in the East) score 118.7 a game but also allow 119.8. The spread has moved from Heat -12.5 to -13; the total is 236.5. Nikola Jović is probable and Myron Gardner questionable for Miami; Milwaukee are without Ousmane Dieng (finger).",
       "odds": {
-        "book": "DraftKings via Covers (moneyline, total); spread line from Sportbusy (book not named), prices assumed -110",
         "ml": [
-          1.13,
-          6.39
+          1.128,
+          6.56
         ],
-        "spread": {
-          "line": -13,
-          "h": 1.909,
-          "a": 1.909
-        },
         "total": {
-          "line": 236.5,
-          "o": 1.943,
-          "u": 1.877
+          "line": 237.5,
+          "o": 1.925,
+          "u": 1.943
         },
-        "assumed": [
-          "spread"
-        ]
+        "teamTotal": {
+          "home": {
+            "line": 125.5,
+            "o": 1.909,
+            "u": 1.943
+          },
+          "away": {
+            "line": 111.5,
+            "o": 1.833,
+            "u": 2.03
+          }
+        },
+        "spread": {
+          "line": -12.5,
+          "h": 1.877,
+          "a": 2.01
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.12,
+            6.2
+          ],
+          "total": {
+            "line": 236.5,
+            "o": 1.88,
+            "u": 1.93
+          },
+          "teamTotal": {
+            "home": {
+              "line": 124.5,
+              "o": 1.84,
+              "u": 1.93
+            },
+            "away": {
+              "line": 111.5,
+              "o": 1.84,
+              "u": 1.94
+            }
+          },
+          "spread": {
+            "line": -12.5,
+            "h": 1.88,
+            "a": 1.93
+          },
+          "text": "win 1.12/6.2, -12.5 1.88/1.93, total 236.5 1.88/1.93"
+        }
       },
       "form": {
         "home": {
@@ -257,25 +343,63 @@
       },
       "context": "ESPN's late game; both teams have lost three straight. Golden State (8-6) are without Stephen Curry (oblique tear), Jimmy Butler (ACL), Moses Moody and Kristaps Porzingis, and Draymond Green (elbow) and Al Horford (back) are questionable. Dallas (7-7) are missing Dereck Lively II (foot); Max Christie is questionable and Santi Aldama probable. FanDuel has the Mavericks -6.5 (-220) with a total of 222.5, but numberFire's model makes Golden State a 60.4% winner.",
       "odds": {
-        "book": "FanDuel via FanDuel Research (spread/total prices not shown, -110 assumed)",
         "ml": [
-          1.455,
-          2.84
+          1.434,
+          2.98
         ],
-        "spread": {
-          "line": -6.5,
-          "h": 1.909,
-          "a": 1.909
-        },
         "total": {
-          "line": 222.5,
-          "o": 1.909,
-          "u": 1.909
+          "line": 221.5,
+          "o": 1.952,
+          "u": 1.917
         },
-        "assumed": [
-          "spread",
-          "total"
-        ]
+        "teamTotal": {
+          "home": {
+            "line": 114.5,
+            "o": 2.05,
+            "u": 1.813
+          },
+          "away": {
+            "line": 108.5,
+            "o": 2.03,
+            "u": 1.826
+          }
+        },
+        "spread": {
+          "line": -6,
+          "h": 1.934,
+          "a": 1.952
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.43,
+            2.85
+          ],
+          "total": {
+            "line": 222.5,
+            "o": 1.93,
+            "u": 1.88
+          },
+          "teamTotal": {
+            "home": {
+              "line": 114.5,
+              "o": 1.95,
+              "u": 1.83
+            },
+            "away": {
+              "line": 108.5,
+              "o": 1.93,
+              "u": 1.85
+            }
+          },
+          "spread": {
+            "line": -6.5,
+            "h": 1.95,
+            "a": 1.86
+          },
+          "text": "win 1.43/2.85, -6.5 1.95/1.86, total 222.5 1.93/1.88"
+        }
       },
       "form": {
         "home": {
@@ -446,25 +570,63 @@
       },
       "context": "Boston (11-3) bring the league's best defence by points allowed (102.4 a game through 15 Nov) to Denver (7-5). Jayson Tatum averages 26.5 points; Jamal Murray (26.1) and Nikola Jokic (24.1 points, 10.9 rebounds, 8.9 assists) lead the Nuggets, who are 1-4 against the spread at home. FanDuel has Boston -2.5 (-146) with a total of 220.5, while numberFire's model leans Denver (52.4%). Denver are without Julian Strawther (knee).",
       "odds": {
-        "book": "FanDuel via FanDuel Research (spread/total prices not shown, -110 assumed)",
         "ml": [
-          2.24,
-          1.685
+          2.21,
+          1.729
         ],
-        "spread": {
-          "line": 2.5,
-          "h": 1.909,
-          "a": 1.909
-        },
         "total": {
-          "line": 220.5,
-          "o": 1.909,
-          "u": 1.909
+          "line": 222,
+          "o": 1.877,
+          "u": 1.99
         },
-        "assumed": [
-          "spread",
-          "total"
-        ]
+        "teamTotal": {
+          "home": {
+            "line": 110.5,
+            "o": 1.934,
+            "u": 1.917
+          },
+          "away": {
+            "line": 111.5,
+            "o": 1.826,
+            "u": 2.04
+          }
+        },
+        "spread": {
+          "line": 2,
+          "h": 2.02,
+          "a": 1.877
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 10:40 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            2.11,
+            1.74
+          ],
+          "total": {
+            "line": 222.5,
+            "o": 1.92,
+            "u": 1.89
+          },
+          "teamTotal": {
+            "home": {
+              "line": 110.5,
+              "o": 1.91,
+              "u": 1.86
+            },
+            "away": {
+              "line": 111.5,
+              "o": 1.82,
+              "u": 1.95
+            }
+          },
+          "spread": {
+            "line": 2.5,
+            "h": 1.86,
+            "a": 1.95
+          },
+          "text": "win 2.11/1.74, +2.5 1.86/1.95, total 222.5 1.92/1.89"
+        }
       },
       "form": {
         "home": {
