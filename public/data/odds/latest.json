@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T10:40:32.373Z",
+ "updatedAt": "2026-11-18T17:45:36.423Z",
  "books": {
   "main": "pinnacle",
   "local": "admiralbet.ba"
@@ -144,6 +144,602 @@
    }
   },
   {
+   "id": "id1100014172902106",
+   "sport": "basketball",
+   "tournamentId": 141,
+   "start": "2026-11-18T18:00:00.000Z",
+   "home": "BC Aris Thessaloniki",
+   "away": "Le Mans Sarthe Basket",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.213,
+      4.19
+     ],
+     "total": {
+      "line": 171.5,
+      "o": 1.961,
+      "u": 1.862
+     },
+     "spread": {
+      "line": -10,
+      "h": 1.99,
+      "a": 1.833
+     },
+     "h1": {
+      "spread": {
+       "line": -5.5,
+       "h": 1.98,
+       "a": 1.84
+      },
+      "total": {
+       "line": 85.5,
+       "o": 1.862,
+       "u": 1.952
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.17,
+      4.9
+     ],
+     "total": {
+      "line": 171.5,
+      "o": 1.87,
+      "u": 1.91
+     },
+     "teamTotal": {
+      "home": {
+       "line": 91.5,
+       "o": 1.9,
+       "u": 1.88
+      },
+      "away": {
+       "line": 80.5,
+       "o": 1.91,
+       "u": 1.86
+      }
+     },
+     "spread": {
+      "line": -10.5,
+      "h": 1.86,
+      "a": 1.91
+     },
+     "h1": {
+      "spread": {
+       "line": -5.5,
+       "h": 1.83,
+       "a": 1.95
+      },
+      "total": {
+       "line": 86.5,
+       "o": 1.87,
+       "u": 1.9
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100014172902474",
+   "sport": "basketball",
+   "tournamentId": 141,
+   "start": "2026-11-18T18:00:00.000Z",
+   "home": "Buducnost Podgorica",
+   "away": "Slask Wroclaw",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.067,
+      7.97
+     ],
+     "total": {
+      "line": 172,
+      "o": 1.892,
+      "u": 1.925
+     },
+     "spread": {
+      "line": -14.5,
+      "h": 1.943,
+      "a": 1.877
+     },
+     "h1": {
+      "spread": {
+       "line": -7.5,
+       "h": 1.877,
+       "a": 1.934
+      },
+      "total": {
+       "line": 85.5,
+       "o": 1.869,
+       "u": 1.943
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.06,
+      8.6
+     ],
+     "total": {
+      "line": 173.5,
+      "o": 1.86,
+      "u": 1.91
+     },
+     "teamTotal": {
+      "home": {
+       "line": 94.5,
+       "o": 1.87,
+       "u": 1.91
+      },
+      "away": {
+       "line": 79.5,
+       "o": 1.94,
+       "u": 1.83
+      }
+     },
+     "spread": {
+      "line": -15.5,
+      "h": 1.92,
+      "a": 1.86
+     },
+     "h1": {
+      "spread": {
+       "line": -8.5,
+       "h": 1.9,
+       "a": 1.87
+      },
+      "total": {
+       "line": 86.5,
+       "o": 1.87,
+       "u": 1.9
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100014172902480",
+   "sport": "basketball",
+   "tournamentId": 141,
+   "start": "2026-11-18T18:00:00.000Z",
+   "home": "Niners Chemnitz",
+   "away": "Tofas SK Bursa",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      2.12,
+      1.735
+     ],
+     "total": {
+      "line": 175.5,
+      "o": 1.84,
+      "u": 1.98
+     },
+     "spread": {
+      "line": 2.5,
+      "h": 1.9,
+      "a": 1.917
+     },
+     "h1": {
+      "spread": {
+       "line": 1.5,
+       "h": 1.826,
+       "a": 2
+      },
+      "total": {
+       "line": 88.5,
+       "o": 1.925,
+       "u": 1.884
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      2.15,
+      1.68
+     ],
+     "total": {
+      "line": 175.5,
+      "o": 1.88,
+      "u": 1.89
+     },
+     "teamTotal": {
+      "home": {
+       "line": 86.5,
+       "o": 1.83,
+       "u": 1.95
+      },
+      "away": {
+       "line": 88.5,
+       "o": 1.86,
+       "u": 1.92
+      }
+     },
+     "spread": {
+      "line": 2.5,
+      "h": 1.88,
+      "a": 1.89
+     },
+     "h1": {
+      "spread": {
+       "line": 0.5,
+       "h": 1.96,
+       "a": 1.82
+      },
+      "total": {
+       "line": 88.5,
+       "o": 1.94,
+       "u": 1.84
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100238875108490",
+   "sport": "basketball",
+   "tournamentId": 2388,
+   "start": "2026-11-18T18:00:00.000Z",
+   "home": "KB Bashkimi",
+   "away": "Manchester Basketball",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.492,
+      2.62
+     ],
+     "total": {
+      "line": 163.5,
+      "o": 1.925,
+      "u": 1.884
+     },
+     "spread": {
+      "line": -4.5,
+      "h": 1.869,
+      "a": 1.952
+     },
+     "h1": {
+      "spread": {
+       "line": -2.5,
+       "h": 1.943,
+       "a": 1.877
+      },
+      "total": {
+       "line": 81.5,
+       "o": 1.884,
+       "u": 1.925
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.47,
+      2.5
+     ],
+     "total": {
+      "line": 163.5,
+      "o": 1.87,
+      "u": 1.83
+     },
+     "teamTotal": {
+      "home": {
+       "line": 83.5,
+       "o": 1.82,
+       "u": 1.88
+      },
+      "away": {
+       "line": 79.5,
+       "o": 1.83,
+       "u": 1.87
+      }
+     },
+     "spread": {
+      "line": -4.5,
+      "h": 1.83,
+      "a": 1.88
+     },
+     "h1": {
+      "spread": {
+       "line": -2.5,
+       "h": 1.91,
+       "a": 1.8
+      },
+      "total": {
+       "line": 81.5,
+       "o": 1.86,
+       "u": 1.84
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100238875108376",
+   "sport": "basketball",
+   "tournamentId": 2388,
+   "start": "2026-11-18T18:00:00.000Z",
+   "home": "Wilki Morskie Szczecin",
+   "away": "BC Vienna",
+   "odds": {
+    "admiralbet.ba": {
+     "ml": [
+      1.3,
+      3.25
+     ],
+     "total": {
+      "line": 170.5,
+      "o": 1.86,
+      "u": 1.84
+     },
+     "teamTotal": {
+      "home": {
+       "line": 88.5,
+       "o": 1.81,
+       "u": 1.9
+      },
+      "away": {
+       "line": 81.5,
+       "o": 1.84,
+       "u": 1.87
+      }
+     },
+     "spread": {
+      "line": -7.5,
+      "h": 1.86,
+      "a": 1.84
+     },
+     "h1": {
+      "spread": {
+       "line": -3.5,
+       "h": 1.81,
+       "a": 1.9
+      },
+      "total": {
+       "line": 85.5,
+       "o": 1.9,
+       "u": 1.81
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100014172902318",
+   "sport": "basketball",
+   "tournamentId": 141,
+   "start": "2026-11-18T18:30:00.000Z",
+   "home": "Skyliners Frankfurt",
+   "away": "Reyer Venezia",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      3.13,
+      1.357
+     ],
+     "total": {
+      "line": 175.5,
+      "o": 1.84,
+      "u": 1.98
+     },
+     "spread": {
+      "line": 6.5,
+      "h": 1.943,
+      "a": 1.869
+     },
+     "h1": {
+      "spread": {
+       "line": 3.5,
+       "h": 1.854,
+       "a": 1.97
+      },
+      "total": {
+       "line": 87.5,
+       "o": 1.862,
+       "u": 1.961
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      3.1,
+      1.36
+     ],
+     "total": {
+      "line": 176.5,
+      "o": 1.92,
+      "u": 1.85
+     },
+     "teamTotal": {
+      "home": {
+       "line": 84.5,
+       "o": 1.82,
+       "u": 1.95
+      },
+      "away": {
+       "line": 91.5,
+       "o": 1.93,
+       "u": 1.84
+      }
+     },
+     "spread": {
+      "line": 6.5,
+      "h": 1.9,
+      "a": 1.87
+     },
+     "h1": {
+      "spread": {
+       "line": 3.5,
+       "h": 1.86,
+       "a": 1.92
+      },
+      "total": {
+       "line": 87.5,
+       "o": 1.86,
+       "u": 1.92
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100014172902478",
+   "sport": "basketball",
+   "tournamentId": 141,
+   "start": "2026-11-18T18:30:00.000Z",
+   "home": "JL Bourg Basket",
+   "away": "Napoli Basket",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      2.12,
+      1.735
+     ],
+     "total": {
+      "line": 175.5,
+      "o": 1.909,
+      "u": 1.909
+     },
+     "spread": {
+      "line": 2.5,
+      "h": 1.84,
+      "a": 1.98
+     },
+     "h1": {
+      "spread": {
+       "line": 1,
+       "h": 1.917,
+       "a": 1.9
+      },
+      "total": {
+       "line": 87.5,
+       "o": 1.99,
+       "u": 1.833
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      2.08,
+      1.73
+     ],
+     "total": {
+      "line": 175.5,
+      "o": 1.85,
+      "u": 1.92
+     },
+     "teamTotal": {
+      "home": {
+       "line": 87.5,
+       "o": 1.91,
+       "u": 1.86
+      },
+      "away": {
+       "line": 88.5,
+       "o": 1.87,
+       "u": 1.91
+      }
+     },
+     "spread": {
+      "line": 2.5,
+      "h": 1.82,
+      "a": 1.95
+     },
+     "h1": {
+      "spread": {
+       "line": 0.5,
+       "h": 1.92,
+       "a": 1.86
+      },
+      "total": {
+       "line": 87.5,
+       "o": 1.91,
+       "u": 1.86
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100014174290218",
+   "sport": "basketball",
+   "tournamentId": 141,
+   "start": "2026-11-18T18:30:00.000Z",
+   "home": "KK Bosna Royal Sarajevo",
+   "away": "BC Lietkabelis Panevezys",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.353,
+      3.15
+     ],
+     "total": {
+      "line": 160.5,
+      "o": 2,
+      "u": 1.826
+     },
+     "spread": {
+      "line": -6,
+      "h": 1.909,
+      "a": 1.909
+     },
+     "h1": {
+      "spread": {
+       "line": -3,
+       "h": 1.9,
+       "a": 1.917
+      },
+      "total": {
+       "line": 80.5,
+       "o": 1.961,
+       "u": 1.862
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.34,
+      3.15
+     ],
+     "total": {
+      "line": 159.5,
+      "o": 1.88,
+      "u": 1.9
+     },
+     "teamTotal": {
+      "home": {
+       "line": 82.5,
+       "o": 1.82,
+       "u": 1.95
+      },
+      "away": {
+       "line": 76.5,
+       "o": 1.85,
+       "u": 1.93
+      }
+     },
+     "spread": {
+      "line": -6.5,
+      "h": 1.88,
+      "a": 1.89
+     },
+     "h1": {
+      "spread": {
+       "line": -3.5,
+       "h": 1.92,
+       "a": 1.85
+      },
+      "total": {
+       "line": 79.5,
+       "o": 1.87,
+       "u": 1.9
+      }
+     }
+    }
+   }
+  },
+  {
    "id": "id1000032976489976",
    "sport": "football",
    "tournamentId": 329,
@@ -273,6 +869,240 @@
       1.97,
       1.77
      ]
+    }
+   }
+  },
+  {
+   "id": "id1100014172902476",
+   "sport": "basketball",
+   "tournamentId": 141,
+   "start": "2026-11-18T19:00:00.000Z",
+   "home": "Aquila Basket Trento",
+   "away": "BC Neptunas Klaipeda",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.349,
+      3.17
+     ],
+     "total": {
+      "line": 174,
+      "o": 1.877,
+      "u": 1.943
+     },
+     "spread": {
+      "line": -7,
+      "h": 1.934,
+      "a": 1.884
+     },
+     "h1": {
+      "spread": {
+       "line": -3,
+       "h": 1.833,
+       "a": 1.99
+      },
+      "total": {
+       "line": 87.5,
+       "o": 1.97,
+       "u": 1.84
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.38,
+      2.95
+     ],
+     "total": {
+      "line": 174.5,
+      "o": 1.89,
+      "u": 1.89
+     },
+     "teamTotal": {
+      "home": {
+       "line": 90.5,
+       "o": 1.95,
+       "u": 1.83
+      },
+      "away": {
+       "line": 84.5,
+       "o": 1.89,
+       "u": 1.89
+      }
+     },
+     "spread": {
+      "line": -6.5,
+      "h": 1.95,
+      "a": 1.811
+     },
+     "h1": {
+      "spread": {
+       "line": -2.5,
+       "h": 1.82,
+       "a": 1.96
+      },
+      "total": {
+       "line": 87.5,
+       "o": 1.93,
+       "u": 1.84
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100238875108228",
+   "sport": "basketball",
+   "tournamentId": 2388,
+   "start": "2026-11-18T19:00:00.000Z",
+   "home": "Gladiators Trier",
+   "away": "Promitheas Patras BC",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.087,
+      6.93
+     ],
+     "total": {
+      "line": 175.5,
+      "o": 1.84,
+      "u": 1.98
+     },
+     "spread": {
+      "line": -13.5,
+      "h": 1.892,
+      "a": 1.925
+     },
+     "h1": {
+      "spread": {
+       "line": -7.5,
+       "h": 1.9,
+       "a": 1.917
+      },
+      "total": {
+       "line": 88.5,
+       "o": 1.961,
+       "u": 1.854
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.1,
+      6
+     ],
+     "total": {
+      "line": 175.5,
+      "o": 1.81,
+      "u": 1.89
+     },
+     "teamTotal": {
+      "home": {
+       "line": 94.5,
+       "o": 1.83,
+       "u": 1.88
+      },
+      "away": {
+       "line": 81.5,
+       "o": 1.89,
+       "u": 1.82
+      }
+     },
+     "spread": {
+      "line": -13.5,
+      "h": 1.9,
+      "a": 1.81
+     },
+     "h1": {
+      "spread": {
+       "line": -7.5,
+       "h": 1.89,
+       "a": 1.82
+      },
+      "total": {
+       "line": 88.5,
+       "o": 1.88,
+       "u": 1.82
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1101405173110572",
+   "sport": "basketball",
+   "tournamentId": 14051,
+   "start": "2026-11-18T19:00:00.000Z",
+   "home": "KK Cibona",
+   "away": "SIG Strasbourg",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      2.51,
+      1.552
+     ],
+     "total": {
+      "line": 165,
+      "o": 1.884,
+      "u": 1.952
+     },
+     "spread": {
+      "line": 4.5,
+      "h": 1.892,
+      "a": 1.943
+     },
+     "h1": {
+      "spread": {
+       "line": 2,
+       "h": 1.961,
+       "a": 1.869
+      },
+      "total": {
+       "line": 82.5,
+       "o": 1.909,
+       "u": 1.917
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      2.47,
+      1.5
+     ],
+     "total": {
+      "line": 165.5,
+      "o": 1.9,
+      "u": 1.821
+     },
+     "teamTotal": {
+      "home": {
+       "line": 80.5,
+       "o": 1.83,
+       "u": 1.88
+      },
+      "away": {
+       "line": 84.5,
+       "o": 1.87,
+       "u": 1.84
+      }
+     },
+     "spread": {
+      "line": 4.5,
+      "h": 1.85,
+      "a": 1.88
+     },
+     "h1": {
+      "spread": {
+       "line": 1.5,
+       "h": 1.94,
+       "a": 1.8
+      },
+      "total": {
+       "line": 82.5,
+       "o": 1.93,
+       "u": 1.81
+      }
+     }
     }
    }
   },
@@ -414,6 +1244,236 @@
       1.98,
       1.75
      ]
+    }
+   }
+  },
+  {
+   "id": "id1100014172902590",
+   "sport": "basketball",
+   "tournamentId": 141,
+   "start": "2026-11-18T19:30:00.000Z",
+   "home": "Basquet Manresa",
+   "away": "PAOK BC",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.97,
+      1.854
+     ],
+     "total": {
+      "line": 174.5,
+      "o": 1.934,
+      "u": 1.884
+     },
+     "spread": {
+      "line": 1,
+      "h": 1.925,
+      "a": 1.892
+     },
+     "h1": {
+      "spread": {
+       "line": 1,
+       "h": 1.806,
+       "a": 2.02
+      },
+      "total": {
+       "line": 85.5,
+       "o": 1.862,
+       "u": 1.961
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.97,
+      1.81
+     ],
+     "total": {
+      "line": 173.5,
+      "o": 1.91,
+      "u": 1.86
+     },
+     "teamTotal": {
+      "home": {
+       "line": 86.5,
+       "o": 1.92,
+       "u": 1.86
+      },
+      "away": {
+       "line": 86.5,
+       "o": 1.82,
+       "u": 1.96
+      }
+     },
+     "spread": {
+      "line": 1.5,
+      "h": 1.87,
+      "a": 1.91
+     },
+     "h1": {
+      "spread": {
+       "line": 0.5,
+       "h": 1.86,
+       "a": 1.91
+      },
+      "total": {
+       "line": 86.5,
+       "o": 1.91,
+       "u": 1.86
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100238875108330",
+   "sport": "basketball",
+   "tournamentId": 2388,
+   "start": "2026-11-18T19:30:00.000Z",
+   "home": "Sporting Cp",
+   "away": "SCM Universitatea Craiova",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.357,
+      3.13
+     ],
+     "total": {
+      "line": 173.5,
+      "o": 1.884,
+      "u": 1.925
+     },
+     "spread": {
+      "line": -6.5,
+      "h": 1.97,
+      "a": 1.847
+     },
+     "h1": {
+      "spread": {
+       "line": -3.5,
+       "h": 1.952,
+       "a": 1.869
+      },
+      "total": {
+       "line": 87.5,
+       "o": 1.943,
+       "u": 1.877
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.34,
+      3
+     ],
+     "total": {
+      "line": 173.5,
+      "o": 1.85,
+      "u": 1.85
+     },
+     "teamTotal": {
+      "home": {
+       "line": 89.5,
+       "o": 1.82,
+       "u": 1.88
+      },
+      "away": {
+       "line": 83.5,
+       "o": 1.81,
+       "u": 1.9
+      }
+     },
+     "spread": {
+      "line": -6.5,
+      "h": 1.88,
+      "a": 1.82
+     },
+     "h1": {
+      "spread": {
+       "line": -3.5,
+       "h": 1.91,
+       "a": 1.8
+      },
+      "total": {
+       "line": 86.5,
+       "o": 1.8,
+       "u": 1.91
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1101405173110632",
+   "sport": "basketball",
+   "tournamentId": 14051,
+   "start": "2026-11-18T19:30:00.000Z",
+   "home": "CB Malaga",
+   "away": "BK Pardubice",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.037,
+      14.98
+     ],
+     "total": {
+      "line": 167,
+      "o": 1.917,
+      "u": 1.917
+     },
+     "spread": {
+      "line": -22,
+      "h": 1.9,
+      "a": 1.934
+     },
+     "h1": {
+      "spread": {
+       "line": -13,
+       "h": 1.961,
+       "a": 1.877
+      },
+      "total": {
+       "line": 83.5,
+       "o": 1.892,
+       "u": 1.943
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "total": {
+      "line": 167.5,
+      "o": 1.86,
+      "u": 1.87
+     },
+     "teamTotal": {
+      "home": {
+       "line": 94.5,
+       "o": 1.8,
+       "u": 1.9
+      },
+      "away": {
+       "line": 72.5,
+       "o": 1.82,
+       "u": 1.88
+      }
+     },
+     "spread": {
+      "line": -22.5,
+      "h": 1.91,
+      "a": 1.83
+     },
+     "h1": {
+      "spread": {
+       "line": -12.5,
+       "h": 1.94,
+       "a": 1.81
+      },
+      "total": {
+       "line": 83.5,
+       "o": 1.83,
+       "u": 1.91
+      }
+     }
     }
    }
   },
@@ -2132,6 +3192,528 @@
    }
   },
   {
+   "id": "id1100013873263180",
+   "sport": "basketball",
+   "tournamentId": 138,
+   "start": "2026-11-19T17:15:00.000Z",
+   "home": "Maccabi Tel-Aviv",
+   "away": "Dubai Basketball",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      2.48,
+      1.54
+     ],
+     "total": {
+      "line": 177,
+      "o": 1.9,
+      "u": 1.9
+     },
+     "spread": {
+      "line": 4,
+      "h": 1.9,
+      "a": 1.9
+     },
+     "h1": {
+      "spread": {
+       "line": 2,
+       "h": 1.917,
+       "a": 1.884
+      },
+      "total": {
+       "line": 88.5,
+       "o": 1.917,
+       "u": 1.884
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      2.55,
+      1.51
+     ],
+     "total": {
+      "line": 176.5,
+      "o": 1.851,
+      "u": 1.94
+     },
+     "teamTotal": {
+      "home": {
+       "line": 86.5,
+       "o": 1.86,
+       "u": 1.91
+      },
+      "away": {
+       "line": 90.5,
+       "o": 1.9,
+       "u": 1.87
+      }
+     },
+     "spread": {
+      "line": 4.5,
+      "h": 1.89,
+      "a": 1.92
+     },
+     "h1": {
+      "spread": {
+       "line": 1.5,
+       "h": 1.98,
+       "a": 1.83
+      },
+      "total": {
+       "line": 88.5,
+       "o": 1.86,
+       "u": 1.95
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100013873263178",
+   "sport": "basketball",
+   "tournamentId": 138,
+   "start": "2026-11-19T18:00:00.000Z",
+   "home": "BC Zalgiris Kaunas",
+   "away": "Panathinaikos BC",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.934,
+      1.869
+     ],
+     "total": {
+      "line": 166.5,
+      "o": 1.9,
+      "u": 1.9
+     },
+     "spread": {
+      "line": 1,
+      "h": 1.9,
+      "a": 1.9
+     },
+     "h1": {
+      "spread": {
+       "line": 0.5,
+       "h": 1.884,
+       "a": 1.917
+      },
+      "total": {
+       "line": 83.5,
+       "o": 1.97,
+       "u": 1.826
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      2,
+      1.82
+     ],
+     "total": {
+      "line": 166.5,
+      "o": 1.851,
+      "u": 1.94
+     },
+     "teamTotal": {
+      "home": {
+       "line": 83.5,
+       "o": 1.93,
+       "u": 1.84
+      },
+      "away": {
+       "line": 83.5,
+       "o": 1.83,
+       "u": 1.95
+      }
+     },
+     "spread": {
+      "line": 1.5,
+      "h": 1.89,
+      "a": 1.92
+     },
+     "h1": {
+      "spread": {
+       "line": 0.5,
+       "h": 1.89,
+       "a": 1.92
+      },
+      "total": {
+       "line": 83.5,
+       "o": 1.87,
+       "u": 1.94
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100238875108276",
+   "sport": "basketball",
+   "tournamentId": 2388,
+   "start": "2026-11-19T18:00:00.000Z",
+   "home": "BK Levicki Patrioti",
+   "away": "Basket Zielona Gora",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      2.3,
+      1.628
+     ],
+     "total": {
+      "line": 163,
+      "o": 1.925,
+      "u": 1.892
+     },
+     "spread": {
+      "line": 3,
+      "h": 1.9,
+      "a": 1.917
+     },
+     "h1": {
+      "spread": {
+       "line": 1,
+       "h": 1.99,
+       "a": 1.833
+      },
+      "total": {
+       "line": 81.5,
+       "o": 1.884,
+       "u": 1.934
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      2.22,
+      1.59
+     ],
+     "total": {
+      "line": 162.5,
+      "o": 1.83,
+      "u": 1.87
+     },
+     "spread": {
+      "line": 3.5,
+      "h": 1.81,
+      "a": 1.9
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100013873263184",
+   "sport": "basketball",
+   "tournamentId": 138,
+   "start": "2026-11-19T19:00:00.000Z",
+   "home": "Bayern Munich",
+   "away": "Baskonia Vitoria-Gasteiz",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.344,
+      3.24
+     ],
+     "total": {
+      "line": 178,
+      "o": 1.909,
+      "u": 1.892
+     },
+     "spread": {
+      "line": -6.5,
+      "h": 1.892,
+      "a": 1.909
+     },
+     "h1": {
+      "spread": {
+       "line": -3.5,
+       "h": 1.9,
+       "a": 1.9
+      },
+      "total": {
+       "line": 89.5,
+       "o": 1.925,
+       "u": 1.877
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.36,
+      3.2
+     ],
+     "total": {
+      "line": 177.5,
+      "o": 1.89,
+      "u": 1.92
+     },
+     "teamTotal": {
+      "home": {
+       "line": 91.5,
+       "o": 1.83,
+       "u": 1.94
+      },
+      "away": {
+       "line": 85.5,
+       "o": 1.84,
+       "u": 1.93
+      }
+     },
+     "spread": {
+      "line": -6.5,
+      "h": 1.92,
+      "a": 1.89
+     },
+     "h1": {
+      "spread": {
+       "line": -3.5,
+       "h": 1.95,
+       "a": 1.86
+      },
+      "total": {
+       "line": 88.5,
+       "o": 1.85,
+       "u": 1.96
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100013873263182",
+   "sport": "basketball",
+   "tournamentId": 138,
+   "start": "2026-11-19T19:30:00.000Z",
+   "home": "Olimpia Milano",
+   "away": "Fenerbahce Istanbul",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      2.95,
+      1.401
+     ],
+     "total": {
+      "line": 165.5,
+      "o": 1.909,
+      "u": 1.892
+     },
+     "spread": {
+      "line": 5.5,
+      "h": 1.884,
+      "a": 1.917
+     },
+     "h1": {
+      "spread": {
+       "line": 3,
+       "h": 1.877,
+       "a": 1.925
+      },
+      "total": {
+       "line": 82.5,
+       "o": 1.869,
+       "u": 1.934
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      2.9,
+      1.41
+     ],
+     "total": {
+      "line": 166.5,
+      "o": 1.94,
+      "u": 1.87
+     },
+     "teamTotal": {
+      "home": {
+       "line": 80.5,
+       "o": 1.89,
+       "u": 1.89
+      },
+      "away": {
+       "line": 85.5,
+       "o": 1.87,
+       "u": 1.91
+      }
+     },
+     "spread": {
+      "line": 5.5,
+      "h": 1.92,
+      "a": 1.89
+     },
+     "h1": {
+      "spread": {
+       "line": 2.5,
+       "h": 1.94,
+       "a": 1.87
+      },
+      "total": {
+       "line": 83.5,
+       "o": 1.9,
+       "u": 1.91
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100013873263186",
+   "sport": "basketball",
+   "tournamentId": 138,
+   "start": "2026-11-19T19:45:00.000Z",
+   "home": "Paris Basketball",
+   "away": "Hapoel Tel-Aviv",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      2.15,
+      1.704
+     ],
+     "total": {
+      "line": 185,
+      "o": 1.9,
+      "u": 1.9
+     },
+     "spread": {
+      "line": 2.5,
+      "h": 1.9,
+      "a": 1.9
+     },
+     "h1": {
+      "spread": {
+       "line": 1,
+       "h": 1.917,
+       "a": 1.884
+      },
+      "total": {
+       "line": 92.5,
+       "o": 1.925,
+       "u": 1.877
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      2.23,
+      1.66
+     ],
+     "total": {
+      "line": 185.5,
+      "o": 1.94,
+      "u": 1.87
+     },
+     "teamTotal": {
+      "home": {
+       "line": 91.5,
+       "o": 1.88,
+       "u": 1.89
+      },
+      "away": {
+       "line": 93.5,
+       "o": 1.87,
+       "u": 1.9
+      }
+     },
+     "spread": {
+      "line": 2.5,
+      "h": 1.94,
+      "a": 1.87
+     },
+     "h1": {
+      "spread": {
+       "line": 1.5,
+       "h": 1.85,
+       "a": 1.97
+      },
+      "total": {
+       "line": 92.5,
+       "o": 1.9,
+       "u": 1.91
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100013873263188",
+   "sport": "basketball",
+   "tournamentId": 138,
+   "start": "2026-11-19T20:00:00.000Z",
+   "home": "Valencia Basket",
+   "away": "Virtus Bologna",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.183,
+      4.84
+     ],
+     "total": {
+      "line": 183.5,
+      "o": 1.854,
+      "u": 1.952
+     },
+     "spread": {
+      "line": -10,
+      "h": 1.892,
+      "a": 1.909
+     },
+     "h1": {
+      "spread": {
+       "line": -5.5,
+       "h": 1.961,
+       "a": 1.847
+      },
+      "total": {
+       "line": 92.5,
+       "o": 1.909,
+       "u": 1.884
+      }
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.2,
+      4.6
+     ],
+     "total": {
+      "line": 183.5,
+      "o": 1.87,
+      "u": 1.94
+     },
+     "teamTotal": {
+      "home": {
+       "line": 96.5,
+       "o": 1.83,
+       "u": 1.95
+      },
+      "away": {
+       "line": 87.5,
+       "o": 1.96,
+       "u": 1.82
+      }
+     },
+     "spread": {
+      "line": -9.5,
+      "h": 1.87,
+      "a": 1.94
+     },
+     "h1": {
+      "spread": {
+       "line": -5.5,
+       "h": 1.93,
+       "a": 1.88
+      },
+      "total": {
+       "line": 92.5,
+       "o": 1.89,
+       "u": 1.92
+      }
+     }
+    }
+   }
+  },
+  {
    "id": "id1000032566887160",
    "sport": "football",
    "tournamentId": 325,
@@ -2446,6 +4028,358 @@
    }
   },
   {
+   "id": "id1100023574131786",
+   "sport": "basketball",
+   "tournamentId": 235,
+   "start": "2026-11-20T17:00:00.000Z",
+   "home": "KK FMP Belgrade",
+   "away": "Igokea Aleksandrovac",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.602,
+      2.35
+     ],
+     "total": {
+      "line": 167.5,
+      "o": 1.925,
+      "u": 1.892
+     },
+     "spread": {
+      "line": -4,
+      "h": 1.952,
+      "a": 1.862
+     },
+     "h1": {
+      "spread": {
+       "line": -2,
+       "h": 1.934,
+       "a": 1.884
+      },
+      "total": {
+       "line": 83.5,
+       "o": 1.892,
+       "u": 1.925
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100023574131776",
+   "sport": "basketball",
+   "tournamentId": 235,
+   "start": "2026-11-20T17:30:00.000Z",
+   "home": "KK Krka Novo Mesto",
+   "away": "KK Borac Cacak",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.456,
+      2.73
+     ],
+     "total": {
+      "line": 165,
+      "o": 1.892,
+      "u": 1.925
+     },
+     "spread": {
+      "line": -5,
+      "h": 1.961,
+      "a": 1.862
+     },
+     "h1": {
+      "spread": {
+       "line": -2.5,
+       "h": 1.917,
+       "a": 1.9
+      },
+      "total": {
+       "line": 83.5,
+       "o": 1.98,
+       "u": 1.833
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100013873263190",
+   "sport": "basketball",
+   "tournamentId": 138,
+   "start": "2026-11-20T17:30:00.000Z",
+   "home": "Anadolu Efes SK",
+   "away": "ASVEL Lyon-Villeurbanne",
+   "odds": {
+    "admiralbet.ba": {
+     "ml": [
+      1.31,
+      3.5
+     ],
+     "total": {
+      "line": 173.5,
+      "o": 1.92,
+      "u": 1.89
+     },
+     "teamTotal": {
+      "home": {
+       "line": 90.5,
+       "o": 1.93,
+       "u": 1.85
+      },
+      "away": {
+       "line": 83.5,
+       "o": 1.94,
+       "u": 1.83
+      }
+     },
+     "spread": {
+      "line": -7.5,
+      "h": 1.94,
+      "a": 1.88
+     },
+     "h1": {
+      "spread": {
+       "line": -3.5,
+       "h": 1.87,
+       "a": 1.94
+      },
+      "total": {
+       "line": 87.5,
+       "o": 1.93,
+       "u": 1.88
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100023574131972",
+   "sport": "basketball",
+   "tournamentId": 235,
+   "start": "2026-11-20T19:00:00.000Z",
+   "home": "KK Bosna Royal Sarajevo",
+   "away": "KD Ilirija",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.14,
+      5.33
+     ],
+     "total": {
+      "line": 165.5,
+      "o": 1.909,
+      "u": 1.909
+     },
+     "spread": {
+      "line": -10.5,
+      "h": 1.854,
+      "a": 1.97
+     },
+     "h1": {
+      "spread": {
+       "line": -6,
+       "h": 1.892,
+       "a": 1.925
+      },
+      "total": {
+       "line": 83.5,
+       "o": 1.917,
+       "u": 1.9
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100013873263192",
+   "sport": "basketball",
+   "tournamentId": 138,
+   "start": "2026-11-20T19:15:00.000Z",
+   "home": "BC Olympiakos Piraeus",
+   "away": "Real Madrid",
+   "odds": {
+    "admiralbet.ba": {
+     "ml": [
+      1.86,
+      1.95
+     ],
+     "total": {
+      "line": 169.5,
+      "o": 1.94,
+      "u": 1.87
+     },
+     "teamTotal": {
+      "home": {
+       "line": 84.5,
+       "o": 1.85,
+       "u": 1.93
+      },
+      "away": {
+       "line": 84.5,
+       "o": 1.89,
+       "u": 1.88
+      }
+     },
+     "spread": {
+      "line": -1.5,
+      "h": 1.97,
+      "a": 1.85
+     },
+     "h1": {
+      "spread": {
+       "line": -0.5,
+       "h": 1.96,
+       "a": 1.85
+      },
+      "total": {
+       "line": 84.5,
+       "o": 1.89,
+       "u": 1.92
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100013873263194",
+   "sport": "basketball",
+   "tournamentId": 138,
+   "start": "2026-11-20T19:30:00.000Z",
+   "home": "FC Barcelona",
+   "away": "KK Crvena zvezda Belgrade",
+   "odds": {
+    "admiralbet.ba": {
+     "ml": [
+      1.73,
+      2.12
+     ],
+     "total": {
+      "line": 168.5,
+      "o": 1.93,
+      "u": 1.88
+     },
+     "teamTotal": {
+      "home": {
+       "line": 84.5,
+       "o": 1.83,
+       "u": 1.94
+      },
+      "away": {
+       "line": 83.5,
+       "o": 1.9,
+       "u": 1.87
+      }
+     },
+     "spread": {
+      "line": -2.5,
+      "h": 1.95,
+      "a": 1.86
+     },
+     "h1": {
+      "spread": {
+       "line": -0.5,
+       "h": 1.86,
+       "a": 1.95
+      },
+      "total": {
+       "line": 85.5,
+       "o": 1.93,
+       "u": 1.88
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100013873263196",
+   "sport": "basketball",
+   "tournamentId": 138,
+   "start": "2026-11-20T19:45:00.000Z",
+   "home": "KK Partizan Belgrade",
+   "away": "Besiktas JK",
+   "odds": {
+    "admiralbet.ba": {
+     "ml": [
+      1.43,
+      2.85
+     ],
+     "total": {
+      "line": 167.5,
+      "o": 1.91,
+      "u": 1.9
+     },
+     "teamTotal": {
+      "home": {
+       "line": 86.5,
+       "o": 1.91,
+       "u": 1.87
+      },
+      "away": {
+       "line": 81.5,
+       "o": 1.94,
+       "u": 1.84
+      }
+     },
+     "spread": {
+      "line": -5.5,
+      "h": 1.88,
+      "a": 1.93
+     },
+     "h1": {
+      "spread": {
+       "line": -2.5,
+       "h": 1.87,
+       "a": 1.94
+      },
+      "total": {
+       "line": 82.5,
+       "o": 1.94,
+       "u": 1.87
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100023574131792",
+   "sport": "basketball",
+   "tournamentId": 235,
+   "start": "2026-11-21T16:30:00.000Z",
+   "home": "KK Cedevita Olimpija Ljubljana",
+   "away": "BC Slovan Bratislava",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.235,
+      3.96
+     ],
+     "total": {
+      "line": 165.5,
+      "o": 1.909,
+      "u": 1.909
+     },
+     "spread": {
+      "line": -7.5,
+      "h": 1.833,
+      "a": 1.99
+     },
+     "h1": {
+      "spread": {
+       "line": -4.5,
+       "h": 1.934,
+       "a": 1.884
+      },
+      "total": {
+       "line": 82.5,
+       "o": 1.869,
+       "u": 1.934
+      }
+     }
+    }
+   }
+  },
+  {
    "id": "id1000040676414552",
    "sport": "football",
    "tournamentId": 406,
@@ -2484,6 +4418,196 @@
        "away": 2.19
       }
      ]
+    }
+   }
+  },
+  {
+   "id": "id1100023574131976",
+   "sport": "basketball",
+   "tournamentId": 235,
+   "start": "2026-11-22T11:00:00.000Z",
+   "home": "KK Mega Basket Belgrade",
+   "away": "KK Studentski centar Podgorica",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.578,
+      2.4
+     ],
+     "total": {
+      "line": 172,
+      "o": 1.862,
+      "u": 1.961
+     },
+     "spread": {
+      "line": -3.5,
+      "h": 1.884,
+      "a": 1.934
+     },
+     "h1": {
+      "spread": {
+       "line": -1.5,
+       "h": 1.847,
+       "a": 1.97
+      },
+      "total": {
+       "line": 86.5,
+       "o": 1.892,
+       "u": 1.917
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100023574131790",
+   "sport": "basketball",
+   "tournamentId": 235,
+   "start": "2026-11-22T12:00:00.000Z",
+   "home": "KK Crvena zvezda Belgrade",
+   "away": "KK Cibona",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.065,
+      8.07
+     ],
+     "total": {
+      "line": 176.5,
+      "o": 1.909,
+      "u": 1.909
+     },
+     "spread": {
+      "line": -14.5,
+      "h": 1.917,
+      "a": 1.9
+     },
+     "h1": {
+      "spread": {
+       "line": -8.5,
+       "h": 1.943,
+       "a": 1.877
+      },
+      "total": {
+       "line": 88.5,
+       "o": 1.833,
+       "u": 1.98
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100023574131980",
+   "sport": "basketball",
+   "tournamentId": 235,
+   "start": "2026-11-22T15:30:00.000Z",
+   "home": "FC Universitatea Cluj",
+   "away": "KK Zadar",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.387,
+      2.99
+     ],
+     "total": {
+      "line": 167.5,
+      "o": 1.943,
+      "u": 1.877
+     },
+     "spread": {
+      "line": -5,
+      "h": 1.892,
+      "a": 1.925
+     },
+     "h1": {
+      "spread": {
+       "line": -2.5,
+       "h": 1.884,
+       "a": 1.934
+      },
+      "total": {
+       "line": 83.5,
+       "o": 1.833,
+       "u": 1.98
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100023574131788",
+   "sport": "basketball",
+   "tournamentId": 235,
+   "start": "2026-11-22T16:00:00.000Z",
+   "home": "Buducnost Podgorica",
+   "away": "HKK Siroki",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.085,
+      7.02
+     ],
+     "total": {
+      "line": 172,
+      "o": 1.909,
+      "u": 1.909
+     },
+     "spread": {
+      "line": -13,
+      "h": 1.9,
+      "a": 1.917
+     },
+     "h1": {
+      "spread": {
+       "line": -7.5,
+       "h": 1.909,
+       "a": 1.909
+      },
+      "total": {
+       "line": 87.5,
+       "o": 1.98,
+       "u": 1.833
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "id1100023574131978",
+   "sport": "basketball",
+   "tournamentId": 235,
+   "start": "2026-11-22T18:30:00.000Z",
+   "home": "KK Partizan Belgrade",
+   "away": "Dubai Basketball",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.854,
+      1.97
+     ],
+     "total": {
+      "line": 171.5,
+      "o": 1.909,
+      "u": 1.909
+     },
+     "spread": {
+      "line": -1.5,
+      "h": 1.934,
+      "a": 1.884
+     },
+     "h1": {
+      "spread": {
+       "line": -1,
+       "h": 2.02,
+       "a": 1.806
+      },
+      "total": {
+       "line": 86.5,
+       "o": 1.97,
+       "u": 1.847
+      }
+     }
     }
    }
   },
