@@ -748,6 +748,618 @@
           "url": "https://champsorchumps.us/summary/nba/2027"
         }
       ]
+    },
+    {
+      "id": "dub-mta",
+      "league": "EuroLeague, Round 12",
+      "start": "2026-11-19T17:15:00.000Z",
+      "venue": "Menora Mivtachim Arena, Tel Aviv",
+      "home": {
+        "name": "Maccabi Tel-Aviv",
+        "short": "Maccabi",
+        "code": "MTA"
+      },
+      "away": {
+        "name": "Dubai Basketball",
+        "short": "Dubai",
+        "code": "DUB"
+      },
+      "context": "EuroLeague Round 12. Pinnacle has Dubai favoured by 4 and the total at 177. Team news (the official Round 12 injury report) is added by the morning update.",
+      "odds": {
+        "ml": [
+          2.48,
+          1.54
+        ],
+        "total": {
+          "line": 177,
+          "o": 1.9,
+          "u": 1.9
+        },
+        "spread": {
+          "line": 4,
+          "h": 1.9,
+          "a": 1.9
+        },
+        "h1": {
+          "spread": {
+            "line": 2,
+            "h": 1.917,
+            "a": 1.884
+          },
+          "total": {
+            "line": 88.5,
+            "o": 1.917,
+            "u": 1.884
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            2.55,
+            1.51
+          ],
+          "total": {
+            "line": 176.5,
+            "o": 1.851,
+            "u": 1.94
+          },
+          "teamTotal": {
+            "home": {
+              "line": 86.5,
+              "o": 1.86,
+              "u": 1.91
+            },
+            "away": {
+              "line": 90.5,
+              "o": 1.9,
+              "u": 1.87
+            }
+          },
+          "spread": {
+            "line": 4.5,
+            "h": 1.89,
+            "a": 1.92
+          },
+          "h1": {
+            "spread": {
+              "line": 1.5,
+              "h": 1.98,
+              "a": 1.83
+            },
+            "total": {
+              "line": 88.5,
+              "o": 1.86,
+              "u": 1.95
+            }
+          },
+          "text": "win 2.55/1.51, +4.5 1.89/1.92, total 176.5 1.851/1.94"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "EuroLeague injury reports",
+          "url": "https://www.euroleaguebasketball.net/euroleague/news/"
+        }
+      ]
+    },
+    {
+      "id": "pan-zal",
+      "league": "EuroLeague, Round 12",
+      "start": "2026-11-19T18:00:00.000Z",
+      "venue": "Zalgirio Arena, Kaunas",
+      "home": {
+        "name": "BC Zalgiris Kaunas",
+        "short": "Zalgiris",
+        "code": "ZAL"
+      },
+      "away": {
+        "name": "Panathinaikos BC",
+        "short": "Panathinaikos",
+        "code": "PAN"
+      },
+      "context": "EuroLeague Round 12. Pinnacle has Panathinaikos favoured by 1 and the total at 166.5. Team news (the official Round 12 injury report) is added by the morning update.",
+      "odds": {
+        "ml": [
+          1.934,
+          1.869
+        ],
+        "total": {
+          "line": 166.5,
+          "o": 1.9,
+          "u": 1.9
+        },
+        "spread": {
+          "line": 1,
+          "h": 1.9,
+          "a": 1.9
+        },
+        "h1": {
+          "spread": {
+            "line": 0.5,
+            "h": 1.884,
+            "a": 1.917
+          },
+          "total": {
+            "line": 83.5,
+            "o": 1.97,
+            "u": 1.826
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            2,
+            1.82
+          ],
+          "total": {
+            "line": 166.5,
+            "o": 1.851,
+            "u": 1.94
+          },
+          "teamTotal": {
+            "home": {
+              "line": 83.5,
+              "o": 1.93,
+              "u": 1.84
+            },
+            "away": {
+              "line": 83.5,
+              "o": 1.83,
+              "u": 1.95
+            }
+          },
+          "spread": {
+            "line": 1.5,
+            "h": 1.89,
+            "a": 1.92
+          },
+          "h1": {
+            "spread": {
+              "line": 0.5,
+              "h": 1.89,
+              "a": 1.92
+            },
+            "total": {
+              "line": 83.5,
+              "o": 1.87,
+              "u": 1.94
+            }
+          },
+          "text": "win 2/1.82, +1.5 1.89/1.92, total 166.5 1.851/1.94"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "EuroLeague injury reports",
+          "url": "https://www.euroleaguebasketball.net/euroleague/news/"
+        }
+      ]
+    },
+    {
+      "id": "bkn-bay",
+      "league": "EuroLeague, Round 12",
+      "start": "2026-11-19T19:00:00.000Z",
+      "venue": "SAP Garden, Munich",
+      "home": {
+        "name": "Bayern Munich",
+        "short": "Bayern",
+        "code": "BAY"
+      },
+      "away": {
+        "name": "Baskonia Vitoria-Gasteiz",
+        "short": "Baskonia",
+        "code": "BKN"
+      },
+      "context": "EuroLeague Round 12. Pinnacle has Bayern favoured by 6.5 and the total at 178. Team news (the official Round 12 injury report) is added by the morning update.",
+      "odds": {
+        "ml": [
+          1.344,
+          3.24
+        ],
+        "total": {
+          "line": 178,
+          "o": 1.909,
+          "u": 1.892
+        },
+        "spread": {
+          "line": -6.5,
+          "h": 1.892,
+          "a": 1.909
+        },
+        "h1": {
+          "spread": {
+            "line": -3.5,
+            "h": 1.9,
+            "a": 1.9
+          },
+          "total": {
+            "line": 89.5,
+            "o": 1.925,
+            "u": 1.877
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.36,
+            3.2
+          ],
+          "total": {
+            "line": 177.5,
+            "o": 1.89,
+            "u": 1.92
+          },
+          "teamTotal": {
+            "home": {
+              "line": 91.5,
+              "o": 1.83,
+              "u": 1.94
+            },
+            "away": {
+              "line": 85.5,
+              "o": 1.84,
+              "u": 1.93
+            }
+          },
+          "spread": {
+            "line": -6.5,
+            "h": 1.92,
+            "a": 1.89
+          },
+          "h1": {
+            "spread": {
+              "line": -3.5,
+              "h": 1.95,
+              "a": 1.86
+            },
+            "total": {
+              "line": 88.5,
+              "o": 1.85,
+              "u": 1.96
+            }
+          },
+          "text": "win 1.36/3.2, -6.5 1.92/1.89, total 177.5 1.89/1.92"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "EuroLeague injury reports",
+          "url": "https://www.euroleaguebasketball.net/euroleague/news/"
+        }
+      ]
+    },
+    {
+      "id": "fen-mil",
+      "league": "EuroLeague, Round 12",
+      "start": "2026-11-19T19:30:00.000Z",
+      "venue": "Unipol Forum, Milan",
+      "home": {
+        "name": "Olimpia Milano",
+        "short": "Milan",
+        "code": "MIL"
+      },
+      "away": {
+        "name": "Fenerbahce Istanbul",
+        "short": "Fenerbahce",
+        "code": "FEN"
+      },
+      "context": "EuroLeague Round 12. Pinnacle has Fenerbahce favoured by 5.5 and the total at 165.5. Team news (the official Round 12 injury report) is added by the morning update.",
+      "odds": {
+        "ml": [
+          2.95,
+          1.401
+        ],
+        "total": {
+          "line": 165.5,
+          "o": 1.909,
+          "u": 1.892
+        },
+        "spread": {
+          "line": 5.5,
+          "h": 1.884,
+          "a": 1.917
+        },
+        "h1": {
+          "spread": {
+            "line": 3,
+            "h": 1.877,
+            "a": 1.925
+          },
+          "total": {
+            "line": 82.5,
+            "o": 1.869,
+            "u": 1.934
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            2.9,
+            1.41
+          ],
+          "total": {
+            "line": 166.5,
+            "o": 1.94,
+            "u": 1.87
+          },
+          "teamTotal": {
+            "home": {
+              "line": 80.5,
+              "o": 1.89,
+              "u": 1.89
+            },
+            "away": {
+              "line": 85.5,
+              "o": 1.87,
+              "u": 1.91
+            }
+          },
+          "spread": {
+            "line": 5.5,
+            "h": 1.92,
+            "a": 1.89
+          },
+          "h1": {
+            "spread": {
+              "line": 2.5,
+              "h": 1.94,
+              "a": 1.87
+            },
+            "total": {
+              "line": 83.5,
+              "o": 1.9,
+              "u": 1.91
+            }
+          },
+          "text": "win 2.9/1.41, +5.5 1.92/1.89, total 166.5 1.94/1.87"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "EuroLeague injury reports",
+          "url": "https://www.euroleaguebasketball.net/euroleague/news/"
+        }
+      ]
+    },
+    {
+      "id": "hta-par",
+      "league": "EuroLeague, Round 12",
+      "start": "2026-11-19T19:45:00.000Z",
+      "venue": "Adidas Arena, Paris",
+      "home": {
+        "name": "Paris Basketball",
+        "short": "Paris",
+        "code": "PAR"
+      },
+      "away": {
+        "name": "Hapoel Tel-Aviv",
+        "short": "Hapoel",
+        "code": "HTA"
+      },
+      "context": "EuroLeague Round 12. Pinnacle has Hapoel favoured by 2.5 and the total at 185. Team news (the official Round 12 injury report) is added by the morning update.",
+      "odds": {
+        "ml": [
+          2.15,
+          1.704
+        ],
+        "total": {
+          "line": 185,
+          "o": 1.9,
+          "u": 1.9
+        },
+        "spread": {
+          "line": 2.5,
+          "h": 1.9,
+          "a": 1.9
+        },
+        "h1": {
+          "spread": {
+            "line": 1,
+            "h": 1.917,
+            "a": 1.884
+          },
+          "total": {
+            "line": 92.5,
+            "o": 1.925,
+            "u": 1.877
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            2.23,
+            1.66
+          ],
+          "total": {
+            "line": 185.5,
+            "o": 1.94,
+            "u": 1.87
+          },
+          "teamTotal": {
+            "home": {
+              "line": 91.5,
+              "o": 1.88,
+              "u": 1.89
+            },
+            "away": {
+              "line": 93.5,
+              "o": 1.87,
+              "u": 1.9
+            }
+          },
+          "spread": {
+            "line": 2.5,
+            "h": 1.94,
+            "a": 1.87
+          },
+          "h1": {
+            "spread": {
+              "line": 1.5,
+              "h": 1.85,
+              "a": 1.97
+            },
+            "total": {
+              "line": 92.5,
+              "o": 1.9,
+              "u": 1.91
+            }
+          },
+          "text": "win 2.23/1.66, +2.5 1.94/1.87, total 185.5 1.94/1.87"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "EuroLeague injury reports",
+          "url": "https://www.euroleaguebasketball.net/euroleague/news/"
+        }
+      ]
+    },
+    {
+      "id": "vir-val",
+      "league": "EuroLeague, Round 12",
+      "start": "2026-11-19T20:00:00.000Z",
+      "venue": "Roig Arena, Valencia",
+      "home": {
+        "name": "Valencia Basket",
+        "short": "Valencia",
+        "code": "VAL"
+      },
+      "away": {
+        "name": "Virtus Bologna",
+        "short": "Virtus",
+        "code": "VIR"
+      },
+      "context": "EuroLeague Round 12. Pinnacle has Valencia favoured by 10 and the total at 183.5. Team news (the official Round 12 injury report) is added by the morning update.",
+      "odds": {
+        "ml": [
+          1.183,
+          4.84
+        ],
+        "total": {
+          "line": 183.5,
+          "o": 1.854,
+          "u": 1.952
+        },
+        "spread": {
+          "line": -10,
+          "h": 1.892,
+          "a": 1.909
+        },
+        "h1": {
+          "spread": {
+            "line": -5.5,
+            "h": 1.961,
+            "a": 1.847
+          },
+          "total": {
+            "line": 92.5,
+            "o": 1.909,
+            "u": 1.884
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.2,
+            4.6
+          ],
+          "total": {
+            "line": 183.5,
+            "o": 1.87,
+            "u": 1.94
+          },
+          "teamTotal": {
+            "home": {
+              "line": 96.5,
+              "o": 1.83,
+              "u": 1.95
+            },
+            "away": {
+              "line": 87.5,
+              "o": 1.96,
+              "u": 1.82
+            }
+          },
+          "spread": {
+            "line": -9.5,
+            "h": 1.87,
+            "a": 1.94
+          },
+          "h1": {
+            "spread": {
+              "line": -5.5,
+              "h": 1.93,
+              "a": 1.88
+            },
+            "total": {
+              "line": 92.5,
+              "o": 1.89,
+              "u": 1.92
+            }
+          },
+          "text": "win 1.2/4.6, -9.5 1.87/1.94, total 183.5 1.87/1.94"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "EuroLeague injury reports",
+          "url": "https://www.euroleaguebasketball.net/euroleague/news/"
+        }
+      ]
     }
   ]
 }

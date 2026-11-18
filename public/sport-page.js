@@ -204,15 +204,26 @@
   }
 
   var RECORD = null;
+  // League filter (basketball: NBA vs European competitions). Shown only when a day mixes groups.
+  var FILTER = "all", LASTDAY = null;
+  function group(g) { var l = String(g.league || ""); return /^(NBA|WNBA|NHL|AHL)/i.test(l) ? l.split(/[ ,]/)[0].toUpperCase() : /NCAA|college/i.test(l) ? "NCAA" : "Europe"; }
   function render(day) {
-    var list = (day.games || []).map(function (g) { return { g: g, r: E.analyse(g) }; }).sort(function (a, b) { return new Date(a.g.start) - new Date(b.g.start); });
+    LASTDAY = day;
+    var all = (day.games || []).map(function (g) { return { g: g, r: E.analyse(g) }; }).sort(function (a, b) { return new Date(a.g.start) - new Date(b.g.start); });
+    var groups = []; all.forEach(function (x) { var k = group(x.g); if (groups.indexOf(k) < 0) groups.push(k); });
+    if (FILTER !== "all" && groups.indexOf(FILTER) < 0) FILTER = "all";
+    var list = all.filter(function (x) { return FILTER === "all" || group(x.g) === FILTER; });
+    var chips = groups.length > 1 ? '<div class="days leaguefilter" role="group" aria-label="Filter by league">' + ["all"].concat(groups).map(function (k) {
+      var n = k === "all" ? all.length : all.filter(function (x) { return group(x.g) === k; }).length;
+      return '<button type="button" data-league="' + esc(k) + '" aria-pressed="' + (k === FILTER) + '">' + esc(k === "all" ? "All" : k) + " · " + n + "</button>"; }).join("") + "</div>" : "";
     metaEl.innerHTML = esc(dateLong(day.date)) + " · updated " + esc(stamp(day.updated)) + '<br><span class="num">Times shown in ' + esc(tz) + "</span>";
-    app.innerHTML = (list.length
+    app.innerHTML = chips + (list.length
       ? '<div class="section-title"><h2>Best bets</h2><p>' + esc(day.updateNote || "") + '</p></div><div class="slipgrid">' + list.map(function (x) { return tile(x.g, x.r); }).join("") + "</div>" +
         '<div class="section-title"><h2>Games</h2><p>' + plural(list.length, "game") + "</p></div>" + list.map(function (x) { return card(x.g, x.r); }).join("")
       : '<p class="err" style="background:var(--warn-bg);color:var(--warn)">No ' + CFG.key + " games on this day yet. The morning update adds them.</p>") + trackRecord(RECORD);
     announce.textContent = "Showing " + plural(list.length, "game") + " for " + dateLong(day.date) + ".";
     var byId = {}; list.forEach(function (x) { byId[x.g.id] = x.g; }); wireLive(byId);
+    Array.prototype.forEach.call(app.querySelectorAll(".leaguefilter button"), function (b) { b.addEventListener("click", function () { FILTER = b.dataset.league; render(LASTDAY); }); });
     if (location.hash) { var el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
   }
   function loadDay(entry, buttons, push) {
@@ -228,7 +239,17 @@
       var all = idx.days.slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; }), days = all.slice(0, 7);
       var buttons = days.map(function (d) { var b = document.createElement("button"); b.type = "button"; b.dataset.date = d.date; b.textContent = new Date(d.date + "T12:00:00Z").toLocaleDateString([], { weekday: "short", day: "numeric", month: "short" }); b.addEventListener("click", function () { loadDay(d, buttons, true); }); daysEl.appendChild(b); return b; });
       var want = null; try { want = new URLSearchParams(location.search).get("day"); } catch (e) { /* old browser */ }
-      return loadDay(all.filter(function (d) { return d.date === want; })[0] || days[0], buttons, false);
+      var pick = all.filter(function (d) { return d.date === want; })[0];
+      if (pick) return loadDay(pick, buttons, false);
+      // Open on today while today still has games to play (European evening games sit on today's date,
+      // while the NBA/NHL night slate is already filed under tomorrow).
+      var t = new Date(), today = t.getFullYear() + "-" + String(t.getMonth() + 1).padStart(2, "0") + "-" + String(t.getDate()).padStart(2, "0");
+      var td = days.filter(function (d) { return d.date === today; })[0];
+      if (!td || td === days[0]) return loadDay(days[0], buttons, false);
+      return fetch(CFG.data + td.file, { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (day) {
+        var live = (day.games || []).some(function (g) { return !g.result && new Date(g.start).getTime() + 3 * 3600e3 > Date.now(); });
+        return loadDay(live ? td : days[0], buttons, false);
+      }, function () { return loadDay(days[0], buttons, false); });
     })
     .catch(function () { app.innerHTML = '<p class="err" style="background:var(--warn-bg);color:var(--warn)">No ' + CFG.key + " games published yet. The morning update adds them.</p>"; });
 })();

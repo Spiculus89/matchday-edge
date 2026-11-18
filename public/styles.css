@@ -232,3 +232,5 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
   .sports a { padding: 8px 6px; font-size: 14px; letter-spacing: 0; flex: 1 1 0; justify-content: center; }
   .sports svg { display: none; }
 }
+
+.leaguefilter { margin: 4px 0 14px; }
