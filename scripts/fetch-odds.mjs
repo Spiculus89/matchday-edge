@@ -57,3 +57,20 @@ if (mode === "probe") {
   }
   save("probe.json", out); console.log("probe ok", usage.used);
 }
+if (mode === "setup") {
+  const out = {};
+  try { const m = await get("/markets"); const arr = Array.isArray(m) ? m : Object.values(m);
+    out.marketsN = arr.length; out.marketsSample = arr.slice(0, 5);
+    const keep = arr.filter(x => [10, 11, 15].includes(x.sportId) || x.sportId == null);
+    save("markets.json", keep);
+  } catch (e) { out.markets = String(e.message); }
+  const parts = fs.existsSync(DIR + "/participants.json") ? JSON.parse(fs.readFileSync(DIR + "/participants.json", "utf8")) : {};
+  for (const sid of [11, 15, 10]) {
+    try { const p = await get("/participants", { sportId: sid });
+      const arr = Array.isArray(p) ? p : Object.entries(p).map(([k, v]) => (typeof v === "object" ? { participantId: +k, ...v } : { participantId: +k, participantName: v }));
+      out["p" + sid] = { n: arr.length, sample: arr.slice(0, 3) };
+      arr.forEach(x => { const id = x.participantId ?? x.id; parts[id] = x.participantName || x.name || x.shortName; });
+    } catch (e) { out["p" + sid] = String(e.message); }
+  }
+  save("participants.json", parts); save("setup.json", out); console.log("setup ok", usage.used);
+}
