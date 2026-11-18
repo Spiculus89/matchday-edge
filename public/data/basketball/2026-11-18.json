@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
-  "updated": "2026-11-17T22:37:44.273Z",
-  "updateNote": "NBA, Tuesday night in the US (after midnight here). Odds from DraftKings and FanDuel as of the afternoon; starters are confirmed about 30 minutes before tip-off.",
+  "updated": "2026-11-18T17:55:00Z",
+  "updateNote": "Added tonight's European games (EuroCup, Champions League) with Pinnacle prices.",
   "games": [
     {
       "id": "nyk-tor",
@@ -497,6 +497,657 @@
         "away": 114,
         "ot": "OT"
       }
+    },
+    {
+      "id": "lie-bos",
+      "league": "EuroCup, Group D",
+      "start": "2026-11-18T18:30:00.000Z",
+      "venue": "Mirza Delibasic Hall, Sarajevo",
+      "home": {
+        "name": "KK Bosna Royal Sarajevo",
+        "short": "Bosna Royal",
+        "code": "BOS"
+      },
+      "away": {
+        "name": "BC Lietkabelis Panevezys",
+        "short": "Lietkabelis",
+        "code": "LIE"
+      },
+      "context": "Bosna are back in the EuroCup for the first time in 18 years. Lietkabelis won the first meeting in Panevezys 75-72 on 30 September. Bosna won 85-80 at Roma on 27 October, then lost 69-78 at home to Balkan on 4 November. Pinnacle makes Bosna 6-point favourites at home.",
+      "odds": {
+        "ml": [
+          1.353,
+          3.15
+        ],
+        "total": {
+          "line": 160.5,
+          "o": 2,
+          "u": 1.826
+        },
+        "spread": {
+          "line": -6,
+          "h": 1.909,
+          "a": 1.909
+        },
+        "h1": {
+          "spread": {
+            "line": -3,
+            "h": 1.9,
+            "a": 1.917
+          },
+          "total": {
+            "line": 80.5,
+            "o": 1.961,
+            "u": 1.862
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.34,
+            3.15
+          ],
+          "total": {
+            "line": 159.5,
+            "o": 1.88,
+            "u": 1.9
+          },
+          "teamTotal": {
+            "home": {
+              "line": 82.5,
+              "o": 1.82,
+              "u": 1.95
+            },
+            "away": {
+              "line": 76.5,
+              "o": 1.85,
+              "u": 1.93
+            }
+          },
+          "spread": {
+            "line": -6.5,
+            "h": 1.88,
+            "a": 1.89
+          },
+          "h1": {
+            "spread": {
+              "line": -3.5,
+              "h": 1.92,
+              "a": 1.85
+            },
+            "total": {
+              "line": 79.5,
+              "o": 1.87,
+              "u": 1.9
+            }
+          },
+          "text": "win 1.34/3.15, -6.5 1.88/1.89, total 159.5 1.88/1.9"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Won 85-80 at Roma (27 Oct), then lost 69-78 at home to Balkan Botevgrad (4 Nov).",
+          "src": "Wincomparator form"
+        },
+        {
+          "team": "away",
+          "text": "Won the first meeting 75-72 at home (30 Sep), and won 81-73 at Taurage in the LKL on 14 Nov.",
+          "src": "Scores24 / Wincomparator"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "Wincomparator: Bosna Sarajevo vs Lietkabelis",
+          "url": "https://www.wincomparator.com/predictions/bosna-sarajevo-bc-lietkabelis-8796041/"
+        },
+        {
+          "title": "Scores24: Lietkabelis vs Bosna Royal, 30 Sep",
+          "url": "https://scores24.live/en/basketball/m-30-09-2026-lietkabelis-panevezys-monaco-prediction"
+        }
+      ]
+    },
+    {
+      "id": "ven-sky",
+      "league": "EuroCup, Group B",
+      "start": "2026-11-18T18:30:00.000Z",
+      "venue": "Süwag Energie Arena, Frankfurt",
+      "home": {
+        "name": "Skyliners Frankfurt",
+        "short": "Skyliners",
+        "code": "SKY"
+      },
+      "away": {
+        "name": "Reyer Venezia",
+        "short": "Reyer",
+        "code": "VEN"
+      },
+      "context": "Venezia beat Frankfurt 104-72 in the first meeting in Venice on 29 September. Pinnacle has Venezia as 6.5-point road favourites.",
+      "odds": {
+        "ml": [
+          3.13,
+          1.357
+        ],
+        "total": {
+          "line": 175.5,
+          "o": 1.84,
+          "u": 1.98
+        },
+        "spread": {
+          "line": 6.5,
+          "h": 1.943,
+          "a": 1.869
+        },
+        "h1": {
+          "spread": {
+            "line": 3.5,
+            "h": 1.854,
+            "a": 1.97
+          },
+          "total": {
+            "line": 87.5,
+            "o": 1.862,
+            "u": 1.961
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            3.1,
+            1.36
+          ],
+          "total": {
+            "line": 176.5,
+            "o": 1.92,
+            "u": 1.85
+          },
+          "teamTotal": {
+            "home": {
+              "line": 84.5,
+              "o": 1.82,
+              "u": 1.95
+            },
+            "away": {
+              "line": 91.5,
+              "o": 1.93,
+              "u": 1.84
+            }
+          },
+          "spread": {
+            "line": 6.5,
+            "h": 1.9,
+            "a": 1.87
+          },
+          "h1": {
+            "spread": {
+              "line": 3.5,
+              "h": 1.86,
+              "a": 1.92
+            },
+            "total": {
+              "line": 87.5,
+              "o": 1.86,
+              "u": 1.92
+            }
+          },
+          "text": "win 3.1/1.36, +6.5 1.9/1.87, total 176.5 1.92/1.85"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [
+        {
+          "team": "away",
+          "text": "Beat Frankfurt 104-72 at home in round 1 (29 Sep); Watson, Wiltjer and Candi scored 14 each.",
+          "src": "OA Sport"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OA Sport: Venezia domina Francoforte all'esordio in EuroCup",
+          "url": "https://www.oasport.it/2026/09/basket-venezia-domina-francoforte-allesordio-in-eurocup/"
+        }
+      ]
+    },
+    {
+      "id": "nap-bou",
+      "league": "EuroCup, Group C",
+      "start": "2026-11-18T18:30:00.000Z",
+      "venue": "Ekinox, Bourg-en-Bresse",
+      "home": {
+        "name": "JL Bourg Basket",
+        "short": "Bourg",
+        "code": "BOU"
+      },
+      "away": {
+        "name": "Napoli Basket",
+        "short": "Napoli",
+        "code": "NAP"
+      },
+      "context": "Group C rematch: the two met in round 1 in Naples on 30 September. Pinnacle makes Napoli 2.5-point favourites in France, which is unusual for a road team at this level.",
+      "odds": {
+        "ml": [
+          2.12,
+          1.735
+        ],
+        "total": {
+          "line": 175.5,
+          "o": 1.909,
+          "u": 1.909
+        },
+        "spread": {
+          "line": 2.5,
+          "h": 1.84,
+          "a": 1.98
+        },
+        "h1": {
+          "spread": {
+            "line": 1,
+            "h": 1.917,
+            "a": 1.9
+          },
+          "total": {
+            "line": 87.5,
+            "o": 1.99,
+            "u": 1.833
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            2.08,
+            1.73
+          ],
+          "total": {
+            "line": 175.5,
+            "o": 1.85,
+            "u": 1.92
+          },
+          "teamTotal": {
+            "home": {
+              "line": 87.5,
+              "o": 1.91,
+              "u": 1.86
+            },
+            "away": {
+              "line": 88.5,
+              "o": 1.87,
+              "u": 1.91
+            }
+          },
+          "spread": {
+            "line": 2.5,
+            "h": 1.82,
+            "a": 1.95
+          },
+          "h1": {
+            "spread": {
+              "line": 0.5,
+              "h": 1.92,
+              "a": 1.86
+            },
+            "total": {
+              "line": 87.5,
+              "o": 1.91,
+              "u": 1.86
+            }
+          },
+          "text": "win 2.08/1.73, +2.5 1.82/1.95, total 175.5 1.85/1.92"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "Napolike: Napoli Basket – Bourg-en-Bresse, debutto europeo",
+          "url": "https://www.napolike.it/napoli-basket-bourg-en-bresse-debutto-europeo"
+        }
+      ]
+    },
+    {
+      "id": "nep-tre",
+      "league": "EuroCup, Group C",
+      "start": "2026-11-18T19:00:00.000Z",
+      "venue": "Il T Quotidiano Arena, Trento",
+      "home": {
+        "name": "Aquila Basket Trento",
+        "short": "Trento",
+        "code": "TRE"
+      },
+      "away": {
+        "name": "BC Neptunas Klaipeda",
+        "short": "Neptunas",
+        "code": "NEP"
+      },
+      "context": "Trento won the first meeting 76-73 in Klaipeda on 29 September; Olivari had 23 points and Darius Brown 19. Trento are 7-point favourites at home.",
+      "odds": {
+        "ml": [
+          1.349,
+          3.17
+        ],
+        "total": {
+          "line": 174,
+          "o": 1.877,
+          "u": 1.943
+        },
+        "spread": {
+          "line": -7,
+          "h": 1.934,
+          "a": 1.884
+        },
+        "h1": {
+          "spread": {
+            "line": -3,
+            "h": 1.833,
+            "a": 1.99
+          },
+          "total": {
+            "line": 87.5,
+            "o": 1.97,
+            "u": 1.84
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.38,
+            2.95
+          ],
+          "total": {
+            "line": 174.5,
+            "o": 1.89,
+            "u": 1.89
+          },
+          "teamTotal": {
+            "home": {
+              "line": 90.5,
+              "o": 1.95,
+              "u": 1.83
+            },
+            "away": {
+              "line": 84.5,
+              "o": 1.89,
+              "u": 1.89
+            }
+          },
+          "spread": {
+            "line": -6.5,
+            "h": 1.95,
+            "a": 1.811
+          },
+          "h1": {
+            "spread": {
+              "line": -2.5,
+              "h": 1.82,
+              "a": 1.96
+            },
+            "total": {
+              "line": 87.5,
+              "o": 1.93,
+              "u": 1.84
+            }
+          },
+          "text": "win 1.38/2.95, -6.5 1.95/1.811, total 174.5 1.89/1.89"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Won 76-73 at Neptunas in round 1 (Olivari 23 pts, Darius Brown 19).",
+          "src": "Eurohoops"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "Eurohoops: Trento grabs the win after drama",
+          "url": "https://www.eurohoops.net/en/eurocup/2013794/eurocup-roundup-trento-grabs-the-win-after-drama/"
+        }
+      ]
+    },
+    {
+      "id": "str-cib",
+      "league": "Basketball Champions League, Group B",
+      "start": "2026-11-18T19:00:00.000Z",
+      "venue": "Drazen Petrovic Basketball Center, Zagreb",
+      "home": {
+        "name": "KK Cibona",
+        "short": "Cibona",
+        "code": "CIB"
+      },
+      "away": {
+        "name": "SIG Strasbourg",
+        "short": "Strasbourg",
+        "code": "STR"
+      },
+      "context": "Cibona opened the season with a 96-76 home win over Galatasaray. The sides already met in Strasbourg on 3 November. Strasbourg are 4.5-point favourites on the road.",
+      "odds": {
+        "ml": [
+          2.51,
+          1.552
+        ],
+        "total": {
+          "line": 165,
+          "o": 1.884,
+          "u": 1.952
+        },
+        "spread": {
+          "line": 4.5,
+          "h": 1.892,
+          "a": 1.943
+        },
+        "h1": {
+          "spread": {
+            "line": 2,
+            "h": 1.961,
+            "a": 1.869
+          },
+          "total": {
+            "line": 82.5,
+            "o": 1.909,
+            "u": 1.917
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            2.47,
+            1.5
+          ],
+          "total": {
+            "line": 165.5,
+            "o": 1.9,
+            "u": 1.821
+          },
+          "teamTotal": {
+            "home": {
+              "line": 80.5,
+              "o": 1.83,
+              "u": 1.88
+            },
+            "away": {
+              "line": 84.5,
+              "o": 1.87,
+              "u": 1.84
+            }
+          },
+          "spread": {
+            "line": 4.5,
+            "h": 1.85,
+            "a": 1.88
+          },
+          "h1": {
+            "spread": {
+              "line": 1.5,
+              "h": 1.94,
+              "a": 1.8
+            },
+            "total": {
+              "line": 82.5,
+              "o": 1.93,
+              "u": 1.81
+            }
+          },
+          "text": "win 2.47/1.5, +4.5 1.85/1.88, total 165.5 1.9/1.821"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Beat Galatasaray 96-76 at home in round 1.",
+          "src": "Eurohoops"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "Eurohoops: BCL roundup, wins for Cibona and Cholet",
+          "url": "https://www.eurohoops.net/en/fiba-champions-league/2017059/bcl-roundup-wins-for-cibona-and-cholet-tough-loss-for-galatasaray/"
+        }
+      ]
+    },
+    {
+      "id": "pao-man",
+      "league": "EuroCup, Group D",
+      "start": "2026-11-18T19:30:00.000Z",
+      "venue": "Nou Congost, Manresa",
+      "home": {
+        "name": "Basquet Manresa",
+        "short": "Manresa",
+        "code": "MAN"
+      },
+      "away": {
+        "name": "PAOK BC",
+        "short": "PAOK",
+        "code": "PAO"
+      },
+      "context": "PAOK won the first meeting 93-78 in Thessaloniki on 30 September. Pinnacle has the rematch nearly level, with Manresa a 1-point home favourite.",
+      "odds": {
+        "ml": [
+          1.97,
+          1.854
+        ],
+        "total": {
+          "line": 174.5,
+          "o": 1.934,
+          "u": 1.884
+        },
+        "spread": {
+          "line": 1,
+          "h": 1.925,
+          "a": 1.892
+        },
+        "h1": {
+          "spread": {
+            "line": 1,
+            "h": 1.806,
+            "a": 2.02
+          },
+          "total": {
+            "line": 85.5,
+            "o": 1.862,
+            "u": 1.961
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-18 17:45 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.97,
+            1.81
+          ],
+          "total": {
+            "line": 173.5,
+            "o": 1.91,
+            "u": 1.86
+          },
+          "teamTotal": {
+            "home": {
+              "line": 86.5,
+              "o": 1.92,
+              "u": 1.86
+            },
+            "away": {
+              "line": 86.5,
+              "o": 1.82,
+              "u": 1.96
+            }
+          },
+          "spread": {
+            "line": 1.5,
+            "h": 1.87,
+            "a": 1.91
+          },
+          "h1": {
+            "spread": {
+              "line": 0.5,
+              "h": 1.86,
+              "a": 1.91
+            },
+            "total": {
+              "line": 86.5,
+              "o": 1.91,
+              "u": 1.86
+            }
+          },
+          "text": "win 1.97/1.81, +1.5 1.87/1.91, total 173.5 1.91/1.86"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [
+        {
+          "team": "away",
+          "text": "Beat Manresa 93-78 at home in round 1.",
+          "src": "SKAI"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "SKAI: PAOK beat Manresa 93-78",
+          "url": "https://www.skai.gr/news/sports/eurocup-o-paok-eykola-ti-manresa-93-78"
+        }
+      ]
     }
   ]
 }

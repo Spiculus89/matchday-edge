@@ -16,7 +16,7 @@
     NBA: { minutes: 48, sigM: 12.5, sigT: 18.5, hca: 2.4, avgTotal: 228 },
     WNBA: { minutes: 40, sigM: 11.5, sigT: 15.5, hca: 2.5, avgTotal: 164 },
     NCAA: { minutes: 40, sigM: 11.5, sigT: 16, hca: 3.2, avgTotal: 145 },
-    EURO: { minutes: 40, sigM: 11, sigT: 15, hca: 3.0, avgTotal: 162 }
+    EURO: { minutes: 40, sigM: 11, sigT: 15, hca: 3.0, avgTotal: 162, h1Share: 0.5 }
   };
   function league(g) {
     var l = String(g.league || "").toUpperCase();
@@ -200,7 +200,13 @@
     }
     function totalP(side, line) { var r = overLine(m.muT, L.sigT, line); return side === "over" ? r : { win: 1 - r.win - r.push, push: r.push }; }
     function teamTotP(team, side, line) { var r = overLine(team === "home" ? muH : muA, sigTeam, line); return side === "over" ? r : { win: 1 - r.win - r.push, push: r.push }; }
-    var h1 = { muM: m.muM * 0.5, muT: m.muT * 0.495, sigM: L.sigM * 0.72, sigT: L.sigT * 0.7 };
+    // First-half share of the points: taken from the bookmaker's own first-half and full-game lines when
+    // both exist, otherwise the league norm. 18 Nov: a fixed 49.5% invented "1H under" edges in European
+    // games, where Pinnacle prices the first half at ~50% (Bosna 80.5 of 160.5).
+    var shT = L.h1Share || 0.495, shM = 0.5;
+    if (o.h1 && o.h1.total && o.total && o.total.line) shT = o.h1.total.line / o.total.line;
+    if (o.h1 && o.h1.spread && o.spread && Math.abs(o.spread.line) >= 3) shM = Math.min(0.65, Math.max(0.35, o.h1.spread.line / o.spread.line));
+    var h1 = { muM: m.muM * shM, muT: m.muT * shT, sigM: L.sigM * 0.72, sigT: L.sigT * 0.7 };
 
     var c = [], ASM = assumedMarkets(o);
     function add(group, label, odds, p, push) {
