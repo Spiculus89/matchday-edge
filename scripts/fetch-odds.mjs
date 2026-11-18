@@ -49,6 +49,14 @@ if (mode === "discover") {
   fs.writeFileSync(CACHE + "/discover.json", JSON.stringify(out, null, 1));
   console.log("discover ok, requests used this month:", usage.used);
 }
+if (mode === "tournaments") {
+  const all = {};
+  for (const sid of [10, 11, 15]) {
+    const t = await get("/tournaments", { sportId: sid });
+    all[sid] = (Array.isArray(t) ? t : t.tournaments || []).map(x => [x.tournamentId, x.tournamentName, x.categoryName, (x.upcomingFixtures || 0) + (x.futureFixtures || 0)]);
+  }
+  fs.writeFileSync(CACHE + "/tournaments.json", JSON.stringify(all)); console.log("tournaments ok", usage.used);
+}
 if (mode === "setup") {
   const out = {};
   try { const m = await get("/markets"); const arr = Array.isArray(m) ? m : Object.values(m);
