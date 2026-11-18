@@ -2,7 +2,7 @@
 // The key lives in the ODDSPAPI_KEY repository secret and never reaches the site.
 // Usage: node scripts/fetch-odds.mjs discover|fetch
 import fs from "node:fs";
-import { normalize, findFixture, applyToGame } from "./odds-lib.mjs";
+import { normalize, findFixture, applyToGame, tournamentFor } from "./odds-lib.mjs";
 const CACHE = "data/odds-cache";
 const KEY = process.env.ODDSPAPI_KEY, BASE = "https://api.oddspapi.io/v4", DIR = "public/data/odds";
 const CAP = 190; // stay under the smaller published free allowance (200)
@@ -92,11 +92,24 @@ if (mode === "fetch" || mode === "fetch-late") {
       if (games.some(g => !g.result && Date.parse(g.start || g.kickoff || 0) > now)) site.push({ sport, file: f, data, games });
     }
   }
-  const sports = [...new Set(site.map(s => s.sport))];
-  if (!sports.length) { console.log("no upcoming games on the site, nothing fetched"); process.exit(0); }
-  const tids = sports.flatMap(s => cfg.tournaments[s] || []).join(",");
+  if (!site.length) { console.log("no upcoming games on the site, nothing fetched"); process.exit(0); }
+  const T = fs.existsSync(CACHE + "/tournaments.json") ? JSON.parse(fs.readFileSync(CACHE + "/tournaments.json", "utf8")) : {};
+  const SID = { football: 10, basketball: 11, hockey: 15 }, count = {}, noId = [];
+  for (const s of site) for (const g of s.games) {
+    if (g.result || Date.parse(g.start || g.kickoff || 0) <= now) continue;
+    const id = tournamentFor(g.competition || g.league, SID[s.sport], cfg, T);
+    if (id) count[id] = (count[id] || 0) + (s.sport === "football" ? 1 : 100); else noId.push(g.id);
+  }
+  // NBA/NHL first, then the football competitions with the most games; 5 IDs a request
+  const ids = Object.keys(count).sort((a, b) => count[b] - count[a]), chunks = [];
+  for (let i = 0; i < ids.length; i += 5) chunks.push(ids.slice(i, i + 5).join(","));
+  const plan = [];
+  if (chunks[0]) plan.push([cfg.books.main, chunks[0]]);
+  if (mode !== "fetch-late" && chunks[0]) plan.push([cfg.books.local, chunks[0]]);
+  if (mode !== "fetch-late" && chunks[1]) plan.push([cfg.books.main, chunks[1]]);
+  console.log("tournaments", ids.join(","), "no ID for", noId.join(" ") || "none");
   const fixtures = {};
-  for (const slug of mode === "fetch-late" ? [cfg.books.main] : [cfg.books.main, cfg.books.local]) {
+  for (const [slug, tids] of plan) {
     let list; try { list = await get("/odds-by-tournaments", { bookmaker: slug, tournamentIds: tids }); } catch (e) { console.error(slug, e.message); continue; }
     for (const fx of Array.isArray(list) ? list : []) {
       const sport = SP[fx.sportId]; if (!sport || Date.parse(fx.startTime) < now - 3 * 3600e3) continue;
@@ -122,5 +135,5 @@ if (mode === "fetch" || mode === "fetch-late") {
     if (changed) fs.writeFileSync(s.file, JSON.stringify(s.data, null, 2) + "\n");
   }
   console.log(`fetch ok: ${all.length} fixtures, ${n} site games updated, unmatched: ${miss.join(" ") || "none"}; requests this month ${usage.used}`);
-  save("usage.json", { ...usage, lastFetch: { at, fixtures: all.length, updated: n, unmatched: miss } });
+  save("usage.json", { ...usage, lastFetch: { at, fixtures: all.length, updated: n, unmatched: miss, noTournament: noId } });
 }

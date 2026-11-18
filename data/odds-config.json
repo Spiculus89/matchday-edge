@@ -3,25 +3,40 @@
   "main": "pinnacle",
   "local": "admiralbet.ba"
  },
- "tournaments": {
-  "basketball": [
-   132,
-   138
-  ],
-  "hockey": [
-   234
-  ],
-  "football": [
-   7,
-   8,
-   11,
-   17,
-   23,
-   34,
-   35,
-   679,
-   851
-  ]
- },
- "note": "OddsPapi tournament IDs. Football: UCL 7, LaLiga 8, WCQ UEFA 11, Premier League 17, Serie A 23, Ligue 1 34, Bundesliga 35, Europa League 679, international friendlies 851. Add more from data/odds-cache/discover.json."
+ "note": "Site competition names are matched to OddsPapi tournament IDs: first `aliases` (lowercase, accents stripped, text before a comma), then the cached list in data/odds-cache/tournaments.json, using a country in brackets, e.g. 'Liga 1 (Peru)'. At most 5 IDs per request.",
+ "aliases": {
+  "nba": 132,
+  "nhl": 234,
+  "euroleague": 138,
+  "eurocup": 141,
+  "aba": 235,
+  "premier league": 17,
+  "championship": 18,
+  "serie a": 23,
+  "bundesliga": 35,
+  "ligue 1": 34,
+  "laliga": 8,
+  "la liga": 8,
+  "eredivisie": 37,
+  "super lig": 52,
+  "brasileirao serie a": 325,
+  "brasileiro serie a": 325,
+  "champions league": 7,
+  "uefa champions league": 7,
+  "europa league": 679,
+  "uefa europa league": 679,
+  "conference league": 34480,
+  "uefa conference league": 34480,
+  "nations league": 23755,
+  "uefa nations league": 23755,
+  "world cup qualification": 11,
+  "international friendly": 851,
+  "friendly": 851,
+  "copa del rey": 329,
+  "coppa italia": 328,
+  "dfb pokal": 217,
+  "fa cup": 19,
+  "coupe de france": 335,
+  "world cup qualifying": 11
+ }
 }
