@@ -1,0 +1,160 @@
+{
+ "marketsN": 70742,
+ "marketsSample": [
+  {
+   "marketId": 101,
+   "marketLength": 3,
+   "marketName": "Full Time Result",
+   "playerProp": false,
+   "sportId": 10,
+   "handicap": 0,
+   "period": "fulltime",
+   "marketType": "1x2",
+   "outcomes": [
+    {
+     "outcomeId": 102,
+     "outcomeName": "X"
+    },
+    {
+     "outcomeId": 103,
+     "outcomeName": "2"
+    },
+    {
+     "outcomeId": 101,
+     "outcomeName": "1"
+    }
+   ]
+  },
+  {
+   "marketId": 104,
+   "marketLength": 2,
+   "marketName": "Both Teams To Score",
+   "playerProp": false,
+   "sportId": 10,
+   "handicap": 0,
+   "period": "fulltime",
+   "marketType": "bothteamsscore",
+   "outcomes": [
+    {
+     "outcomeId": 104,
+     "outcomeName": "Yes"
+    },
+    {
+     "outcomeId": 105,
+     "outcomeName": "No"
+    }
+   ]
+  },
+  {
+   "marketId": 106,
+   "marketLength": 2,
+   "marketName": "Over Under Full Time",
+   "playerProp": false,
+   "sportId": 10,
+   "handicap": 0.5,
+   "period": "fulltime",
+   "marketType": "totals",
+   "outcomes": [
+    {
+     "outcomeId": 107,
+     "outcomeName": "Under"
+    },
+    {
+     "outcomeId": 106,
+     "outcomeName": "Over"
+    }
+   ]
+  },
+  {
+   "marketId": 108,
+   "marketLength": 2,
+   "marketName": "Over Under Full Time",
+   "playerProp": false,
+   "sportId": 10,
+   "handicap": 1.5,
+   "period": "fulltime",
+   "marketType": "totals",
+   "outcomes": [
+    {
+     "outcomeId": 108,
+     "outcomeName": "Over"
+    },
+    {
+     "outcomeId": 109,
+     "outcomeName": "Under"
+    }
+   ]
+  },
+  {
+   "marketId": 1010,
+   "marketLength": 2,
+   "marketName": "Over Under Full Time",
+   "playerProp": false,
+   "sportId": 10,
+   "handicap": 2.5,
+   "period": "fulltime",
+   "marketType": "totals",
+   "outcomes": [
+    {
+     "outcomeId": 1011,
+     "outcomeName": "Under"
+    },
+    {
+     "outcomeId": 1010,
+     "outcomeName": "Over"
+    }
+   ]
+  }
+ ],
+ "p11": {
+  "n": 6593,
+  "sample": [
+   {
+    "participantId": 3409,
+    "participantName": "Chicago Bulls"
+   },
+   {
+    "participantId": 3410,
+    "participantName": "Milwaukee Bucks"
+   },
+   {
+    "participantId": 3411,
+    "participantName": "Dallas Mavericks"
+   }
+  ]
+ },
+ "p15": {
+  "n": 1598,
+  "sample": [
+   {
+    "participantId": 3675,
+    "participantName": "Anaheim Ducks"
+   },
+   {
+    "participantId": 3676,
+    "participantName": "Winnipeg Jets"
+   },
+   {
+    "participantId": 3677,
+    "participantName": "Boston Bruins"
+   }
+  ]
+ },
+ "p10": {
+  "n": 21783,
+  "sample": [
+   {
+    "participantId": 1,
+    "participantName": "Queens Park Rangers"
+   },
+   {
+    "participantId": 2,
+    "participantName": "Portsmouth FC"
+   },
+   {
+    "participantId": 3,
+    "participantName": "Wolverhampton Wanderers"
+   }
+  ]
+ }
+}
