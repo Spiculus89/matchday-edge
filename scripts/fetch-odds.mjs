@@ -14,7 +14,9 @@ function save(name, data) { fs.writeFileSync(DIR + "/" + name, JSON.stringify(da
 async function get(path, params = {}) {
   if (usage.used >= CAP) throw new Error("monthly cap reached (" + usage.used + ")");
   const u = new URL(BASE + path); Object.entries({ ...params, apiKey: KEY }).forEach(([k, v]) => u.searchParams.set(k, v));
-  const r = await fetch(u); usage.used++;
+  await new Promise(res => setTimeout(res, 1300)); // OddsPapi allows about one call a second per endpoint
+  let r = await fetch(u); usage.used++;
+  if (r.status === 429) { const j = await r.json().catch(() => ({})); await new Promise(res => setTimeout(res, ((j.error && j.error.retryMs) || 1500) + 300)); r = await fetch(u); usage.used++; }
   const hdr = {}; r.headers.forEach((v, k) => { if (/limit|remain|quota|credit/i.test(k)) hdr[k] = v; });
   usage.log.push({ t: new Date().toISOString(), path, status: r.status, hdr });
   usage.log = usage.log.slice(-60); save("usage.json", usage);
