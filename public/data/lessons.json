@@ -11,7 +11,7 @@
     {
       "date": "2026-11-19",
       "area": "Price",
-      "kind": "process",
+      "kind": "data",
       "saw": "The user bets at Meridian. On 18 Nov its prices on the site's picks were far below Pinnacle's: Heat under 1.71 vs 1.94, Warriors +6.5 1.68 vs +6 at 1.95, Avalanche 1.88 vs 2.01. A small edge at Pinnacle is a 5-12% loss at those prices.",
       "change": "'Min odds' replaces 'Fair' on every bet slip row and on the best bet: below it, skip the bet. Odds refreshes now retire team-news adjustments once the new price contains them, so injuries aren't counted twice."
     },
