@@ -1,0 +1,2440 @@
+{
+  "date": "2026-11-19",
+  "title": "Brasileirão round 35, Uruguay's final Clausura round, UAE Pro League",
+  "updated": "2026-11-19T09:34:26.000Z",
+  "updateNote": "A quiet Thursday after the international window: no top-flight men's league games in Europe (the leagues return on Friday). Seven games instead: two UAE Pro League games (Al Wasl v Hatta 13:45, Al Ain v Al Dhafra 16:25), the last round of Uruguay's Clausura at 20:30 with Peñarol one win from first place in the annual table, and two Brasileirão round-35 games at 23:30 (Vasco v Internacional, Vitória v Bragantino). Main prices are Pinnacle via OddsPapi (09:53 Warsaw); bet365 extras and player props for the Brazilian games come from KickOff. Team sheets for the UAE and Uruguayan games are pending and the kick-off-minus-40 runs fill them in. São Paulo v Fluminense (01:30) belongs to 20 Nov; the Women's Champions League and U-17 World Cup games are left off.",
+  "matches": [
+    {
+      "id": "wsl-hat",
+      "competition": "UAE Pro League, round 9",
+      "kickoff": "2026-11-19T12:45:00Z",
+      "venue": "Zabeel Stadium, Dubai",
+      "neutral": false,
+      "home": {
+        "name": "Al Wasl",
+        "short": "Al Wasl",
+        "code": "WSL"
+      },
+      "away": {
+        "name": "Hatta",
+        "short": "Hatta",
+        "code": "HAT"
+      },
+      "context": "Kick-off is 12:45 UTC (16:45 UAE) at Zabeel Stadium, per footballpredictions.ai (12:45 UK time) and 22bet (12:45 UTC). Round 9 per 22bet ('Matchweek 9'). Emarat Al Youm (7 Nov) calls the 7-8 Nov games Round 8 and Gulf Today calls 10-11 Sep Round 5, yet all four sides have played only seven league games, so one earlier round has not been played by these teams. Al Wasl are 6th on 13 points after seven games (W4 D1 L2, 18-8). Their last league game was a 2-1 defeat at Al Jazira on 8 Nov, after a 2-0 win at Baniyas on 16 Oct, and they beat Al Nasr 2-0 on 14 Nov. Hatta are 13th of 14 on 3 points (W1 D0 L6, 6-15). Their only league win is 1-0 against Baniyas on 5 Sep, and they lost 2-1 at home to Khorfakkan on 7 Nov and 1-0 to Al Ain in the League Cup on 14 Nov. Al Wasl are unbeaten in the last eight meetings listed (W7 D1), including 3-0 at home and 5-0 away in the 2023-24 Pro League; the sides have not met since April 2024.",
+      "referee": {
+        "note": "No referee appointment found. English and Arabic searches for this round's officials returned nothing (the UAE FA usually names referees on match day), so there are no referee stats."
+      },
+      "odds": {
+        "h": 1.106,
+        "d": 10.72,
+        "a": 19.16,
+        "ou": {
+          "2.5": [
+            1.22,
+            4.16
+          ],
+          "3.5": [
+            1.613,
+            2.3
+          ],
+          "4.5": [
+            2.43,
+            1.558
+          ],
+          "5.5": [
+            3.94,
+            1.24
+          ]
+        },
+        "btts": [
+          1.833,
+          1.961
+        ],
+        "ah": [
+          {
+            "line": -3,
+            "home": 2.54,
+            "away": 1.523
+          },
+          {
+            "line": -2.5,
+            "home": 1.943,
+            "away": 1.892
+          },
+          {
+            "line": -2,
+            "home": 1.52,
+            "away": 2.55
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.609,
+            2.22
+          ],
+          "10.5": [
+            2.01,
+            1.757
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.12,
+          "d": 8.5,
+          "a": 16.8,
+          "ou": {
+            "1.5": [
+              1.03,
+              9.7
+            ],
+            "2.5": [
+              1.21,
+              4.05
+            ],
+            "3.5": [
+              1.59,
+              2.25
+            ],
+            "4.5": [
+              2.35,
+              1.53
+            ],
+            "5.5": [
+              3.91,
+              1.22
+            ]
+          },
+          "btts": [
+            1.85,
+            1.89
+          ],
+          "text": "1X2 1.12/8.5/16.8, O/U 2.5 1.21/4.05"
+        }
+      },
+      "season": {
+        "note": "Pro League per-game goals from the table after 7 games (footballpredictions.ai, soccervital): Al Wasl 18-8, Hatta 6-15. No corners, fouls, shots or shots-on-target figures were found (no statz.ai or KickOff page exists for this game). soccervital's longer goal averages (15 games, competitions not stated) are Al Wasl 2.47 scored / 1.40 conceded and Hatta 1.47 / 1.73, with over 2.5 in 80% and 67% of those games. footballpredictions.ai's last-5 splits: Al Wasl 2.6 scored / 1.6 conceded at home; Hatta 1.4 / 2.6 away.",
+        "home": {
+          "gf": 2.57,
+          "ga": 1.14
+        },
+        "away": {
+          "gf": 0.86,
+          "ga": 2.14
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "No predicted XI found: KickOff and statz.ai have no page for this game, and footballpredictions.ai, 22bet and soccervital publish none. Take the confirmed XIs from FotMob or the clubs' accounts about 60 minutes before kick-off.",
+        "home": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        },
+        "away": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Goalkeeper Zayed Al Hammadi is injured and recently had surgery; no return date given.",
+          "src": "Emarat Al Youm (7 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Alaa Zuhair and Abdullah Hamad were one booking from a suspension before the 8 Nov game at Al Jazira. Whether either was booked there was not checked; if so, he is banned for this game.",
+          "src": "Emarat Al Youm (7 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "back",
+          "text": "Hamdan Al Bashr (straight red against Al Nasr) served his one-game ban against Khorfakkan on 7 Nov and is available. He has 1 league assist.",
+          "src": "Emarat Al Youm (7 Nov); 22bet"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Tahnoun Al Zaabi, sent off in the 2-1 home defeat to Al Dhafra in round 5, was still listed as absent with no end date on 7 Nov.",
+          "src": "Emarat Al Youm (7 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "No coach change or further injury news found for either side.",
+          "src": "searches of 19 Nov"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Nicolás Giménez",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 4,
+            "assists": 1,
+            "note": "Al Wasl's top league scorer: 4 goals and 1 assist in 7 games (22bet). Position not given by the source (assumed)."
+          },
+          {
+            "name": "Serginho",
+            "pos": "AM",
+            "start": 0.75,
+            "goals": 2,
+            "assists": 3,
+            "note": "2 goals and 3 assists in 7 league games, the team's most assists (22bet). Position not given by the source (assumed)."
+          },
+          {
+            "name": "S. Sidibé",
+            "pos": "MF",
+            "start": 0.75,
+            "goals": 1,
+            "assists": 2,
+            "note": "1 goal and 2 assists in 6 league games (22bet; first name not given). Position not given by the source (assumed)."
+          },
+          {
+            "name": "Pedro Malheiro",
+            "pos": "DF",
+            "start": 0.75,
+            "goals": 1,
+            "assists": 1,
+            "note": "1 goal and 1 assist in 7 league games (22bet). Position not given by the source (assumed)."
+          },
+          {
+            "name": "Renato Tapia",
+            "pos": "MF",
+            "start": 0.6,
+            "goals": 0,
+            "assists": 1,
+            "note": "1 assist in 4 of the 7 league games (22bet lists 'R. Tapia'). Position not given by the source (assumed)."
+          }
+        ],
+        "away": [
+          {
+            "name": "Seifeddine Jaziri",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 1,
+            "assists": 0,
+            "note": "1 goal in 7 league games (22bet lists 'S. Jaziri'); Hatta have scored only 6. Position not given by the source (assumed)."
+          },
+          {
+            "name": "A. Rchoq",
+            "pos": "MF",
+            "start": 0.75,
+            "goals": 1,
+            "assists": 0,
+            "note": "1 goal in 7 league games (22bet; first name not given). Position not given by the source (assumed)."
+          },
+          {
+            "name": "Hamdan Al Bashr",
+            "pos": "MF",
+            "start": 0.75,
+            "goals": 0,
+            "assists": 1,
+            "note": "1 assist in 6 league games (22bet: 'Hamdan Humaid Hasan Ahmed Albeshr'). Back from a one-game ban. Position not given by the source (assumed)."
+          },
+          {
+            "name": "Bruno Leonardo",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 0,
+            "assists": 1,
+            "note": "1 assist in 7 league games (22bet). Position not given by the source (assumed)."
+          }
+        ]
+      },
+      "props": [],
+      "benchmarks": {
+        "footballpredictions": {
+          "h": 0.816,
+          "d": 0.114,
+          "a": 0.07,
+          "odds": [
+            1.12,
+            8,
+            13
+          ],
+          "ou25": [
+            1.25,
+            3.75
+          ],
+          "btts": [
+            1.73,
+            2
+          ],
+          "note": "footballpredictions.ai prices (bookmaker not named), margin removed for h/d/a. soccervital shows 1.10 / 7.7 / 15.0 unlabelled."
+        }
+      },
+      "sources": [
+        {
+          "title": "Footballpredictions.ai: Al-Wasl vs Hatta (kick-off, table, form, H2H, odds incl. double chance)",
+          "url": "https://footballpredictions.ai/football-predictions/al-wasl-fc-vs-hatta-sc-predictions-tips-19-nov-2026/"
+        },
+        {
+          "title": "22bet: Al-Wasl vs Hatta preview (matchweek 9, 12:45 UTC, league results, goals and assists)",
+          "url": "https://news.22bet.com/predictions/al-wasl-fc-vs-hatta-sc-prediction-booking-code-19-11-2026/"
+        },
+        {
+          "title": "Soccervital: Al-Wasl vs Hatta (venue, goal averages, over rates)",
+          "url": "https://www.soccervital.com/al-wasl-fc-vs-hatta-sc-soccer-prediction-jgga258gg.html"
+        },
+        {
+          "title": "Emarat Al Youm (7 Nov): round 8 suspensions and injuries",
+          "url": "https://emaratalyoum.com/sports/local/2026-11-07-1.2100180"
+        },
+        {
+          "title": "Gulf Today (10 Sep): fifth-round fixtures",
+          "url": "https://www.gulftoday.ae/sport/2026/09/10/three-heavyweight-pro-league-clashes-headline-fifth-round"
+        }
+      ]
+    },
+    {
+      "id": "ain-dha",
+      "competition": "UAE Pro League, round 9",
+      "kickoff": "2026-11-19T15:25:00Z",
+      "venue": "Hazza Bin Zayed Stadium, Al Ain",
+      "neutral": false,
+      "home": {
+        "name": "Al Ain",
+        "short": "Al Ain",
+        "code": "AIN"
+      },
+      "away": {
+        "name": "Al Dhafra",
+        "short": "Al Dhafra",
+        "code": "DHA"
+      },
+      "context": "Kick-off is 15:25 UTC (19:25 UAE) at Hazza Bin Zayed Stadium, per footballpredictions.ai (15:25 UK time) and 22bet (15:25 UTC). Round 9 per 22bet ('Matchweek 9'). Emarat Al Youm (7 Nov) calls the 7-8 Nov games Round 8 and Gulf Today calls 10-11 Sep Round 5, yet all four sides have played only seven league games, so one earlier round has not been played by these teams. Al Ain are 3rd on 14 points after seven games (W4 D2 L1, 12-7; home W2 D1, 6-3). They drew 0-0 at Al Wahda on 8 Nov, beat Hatta 1-0 in the League Cup on 14 Nov and won 4-1 at Al-Ittihad in the AFC Champions League Elite on 2 Nov; their only league defeat is 2-0 to Shabab Al Ahli on 17 Oct. Al Dhafra are 12th on 6 points (W2 D0 L5, 9-13; away W1 L2, 2-5). They lost 3-1 at home to Ittihad Kalba on 7 Nov, then beat Ajman 1-0 in the League Cup on 14 Nov; their league wins are 2-1 at Hatta and 5-1 against Dubai United. Al Ain have won the last five meetings and seven of the last eight, including 5-0 at home on 10 May 2026 and 2-1 away on 8 Jan 2026.",
+      "referee": {
+        "note": "No referee appointment found. English and Arabic searches for this round's officials returned nothing (the UAE FA usually names referees on match day), so there are no referee stats."
+      },
+      "odds": {
+        "h": 1.135,
+        "d": 9.65,
+        "a": 14.87,
+        "ou": {
+          "2.5": [
+            1.21,
+            4.29
+          ],
+          "3.5": [
+            1.595,
+            2.34
+          ],
+          "4.5": [
+            2.49,
+            1.531
+          ],
+          "5.5": [
+            4.22,
+            1.216
+          ]
+        },
+        "btts": [
+          1.819,
+          1.97
+        ],
+        "ah": [
+          {
+            "line": -3,
+            "home": 2.56,
+            "away": 1.515
+          },
+          {
+            "line": -2.5,
+            "home": 1.943,
+            "away": 1.884
+          },
+          {
+            "line": -2,
+            "home": 1.537,
+            "away": 2.5
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.769,
+            1.99
+          ],
+          "10.5": [
+            2.2,
+            1.621
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.12,
+          "d": 8.4,
+          "a": 16.6,
+          "ou": {
+            "1.5": [
+              1.03,
+              9.6
+            ],
+            "2.5": [
+              1.21,
+              4.05
+            ],
+            "3.5": [
+              1.59,
+              2.24
+            ],
+            "4.5": [
+              2.36,
+              1.53
+            ],
+            "5.5": [
+              3.94,
+              1.22
+            ]
+          },
+          "btts": [
+            1.85,
+            1.89
+          ],
+          "text": "1X2 1.12/8.4/16.6, O/U 2.5 1.21/4.05"
+        }
+      },
+      "season": {
+        "note": "Pro League per-game goals from the table after 7 games (footballpredictions.ai, soccervital): Al Ain 12-7, Al Dhafra 9-13. No corners, fouls, shots or shots-on-target figures were found (no statz.ai or KickOff page exists for this game). soccervital's longer goal averages (15 games, competitions not stated) are Al Ain 2.07 scored / 1.27 conceded and Al Dhafra 1.07 / 1.80, with over 2.5 in 67% and 53%. League venue splits: Al Ain at home 6-3 in 3 games; Al Dhafra away 2-5 in 3 games.",
+        "home": {
+          "gf": 1.71,
+          "ga": 1
+        },
+        "away": {
+          "gf": 1.29,
+          "ga": 1.86
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "No predicted XI found: KickOff and statz.ai have no page for this game, and footballpredictions.ai, 22bet and soccervital publish none. Take the confirmed XIs from FotMob or the clubs' accounts about 60 minutes before kick-off.",
+        "home": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        },
+        "away": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "back",
+          "text": "Abdoul Karim Traoré (two yellows against Shabab Al Ahli in round 6) served his one-game ban in the 0-0 at Al Wahda on 8 Nov and is available. He is Al Ain's top league scorer with 2.",
+          "src": "Emarat Al Youm (7 Nov); 22bet"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Sofiane Rahimi was injured against Shabab Al Ahli in the President's Cup (22 Oct) and was still out with no return date on 7 Nov.",
+          "src": "Emarat Al Youm (7 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Marcel Ratnik has been injured since the round 2 game against Khorfakkan and was still out with no return date on 7 Nov.",
+          "src": "Emarat Al Youm (7 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Skoko (Arabic: جورج سكوكو) got a straight red against Shabab Al Ahli in the President's Cup last 16, a two-game ban to be served in the next domestic competitions after Al Ain's cup exit. Al Ain have played two domestic games since (8 Nov league, 14 Nov League Cup), so it is probably served, but no source confirms it.",
+          "src": "Emarat Al Youm (7 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Al Ain are also in the AFC Champions League Elite (won 4-1 at Al-Ittihad on 2 Nov), so rotation is possible.",
+          "src": "footballpredictions.ai"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Emarat Al Youm listed no Al Dhafra absentees for round 8; Yousuf Al Marzouqi returned from a suspension for the Kalba game. No later news found.",
+          "src": "Emarat Al Youm (7 Nov)"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Abdoul Karim Traoré",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 2,
+            "assists": 0,
+            "note": "Al Ain's top league scorer: 2 goals in 6 games (22bet). Back from a one-game ban. Position not given by the source (assumed)."
+          },
+          {
+            "name": "Rami Rabia",
+            "pos": "DF",
+            "start": 0.75,
+            "goals": 1,
+            "assists": 1,
+            "note": "1 goal and 1 assist in 7 league games (22bet). Position not given by the source (assumed)."
+          },
+          {
+            "name": "B. Ilou",
+            "pos": "MF",
+            "start": 0.75,
+            "goals": 1,
+            "assists": 0,
+            "note": "1 goal in 5 league games (22bet; first name not given). Position not given by the source (assumed)."
+          },
+          {
+            "name": "V. Lazaro",
+            "pos": "MF",
+            "start": 0.75,
+            "goals": 1,
+            "assists": 0,
+            "note": "1 goal in 7 league games (22bet; first name not given). Position not given by the source (assumed)."
+          },
+          {
+            "name": "Y. Ben Khaleq",
+            "pos": "MF",
+            "start": 0.75,
+            "goals": 0,
+            "assists": 1,
+            "note": "1 assist in 7 league games (22bet; first name not given). Position not given by the source (assumed)."
+          }
+        ],
+        "away": [
+          {
+            "name": "S. Kaba",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 3,
+            "assists": 1,
+            "note": "Al Dhafra's top league scorer: 3 goals and 1 assist in 7 games (22bet; first name not given). Position not given by the source (assumed)."
+          },
+          {
+            "name": "D. Mendy",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 2,
+            "assists": 0,
+            "note": "2 goals in 7 league games (22bet; first name not given). Position not given by the source (assumed)."
+          },
+          {
+            "name": "R. Djooh",
+            "pos": "MF",
+            "start": 0.75,
+            "goals": 1,
+            "assists": 0,
+            "note": "1 goal in 7 league games (22bet; first name not given). Position not given by the source (assumed)."
+          },
+          {
+            "name": "Abdullah Al Karbi",
+            "pos": "MF",
+            "start": 0.75,
+            "goals": 0,
+            "assists": 2,
+            "note": "2 assists in 6 league games, the team's most (22bet). Position not given by the source (assumed)."
+          },
+          {
+            "name": "E. Noumonvi",
+            "pos": "MF",
+            "start": 0.75,
+            "goals": 0,
+            "assists": 1,
+            "note": "1 assist in 7 league games (22bet; first name not given). Position not given by the source (assumed)."
+          }
+        ]
+      },
+      "props": [],
+      "benchmarks": {
+        "footballpredictions": {
+          "h": 0.807,
+          "d": 0.123,
+          "a": 0.071,
+          "odds": [
+            1.14,
+            7.5,
+            13
+          ],
+          "ou25": [
+            1.33,
+            3.25
+          ],
+          "btts": [
+            1.95,
+            1.75
+          ],
+          "note": "footballpredictions.ai prices (bookmaker not named), margin removed for h/d/a. soccervital shows 1.10 / 7.3 / 14.7 unlabelled."
+        }
+      },
+      "sources": [
+        {
+          "title": "Footballpredictions.ai: Al Ain vs Al-Dhafra (kick-off, table, home/away records, form, H2H, odds incl. double chance)",
+          "url": "https://footballpredictions.ai/football-predictions/al-ain-vs-al-dhafra-predictions-tips-19-nov-2026/"
+        },
+        {
+          "title": "22bet: Al Ain vs Al-Dhafra preview (matchweek 9, 15:25 UTC, league results, goals and assists)",
+          "url": "https://news.22bet.com/predictions/al-ain-vs-al-dhafra-prediction-booking-code-19-11-2026/"
+        },
+        {
+          "title": "Soccervital: Al Ain vs Al-Dhafra (venue, goal averages, H2H)",
+          "url": "https://www.soccervital.com/al-ain-vs-al-dhafra-soccer-prediction-jgga258gj.html"
+        },
+        {
+          "title": "Emarat Al Youm (7 Nov): round 8 suspensions and injuries (Al Ain most affected)",
+          "url": "https://emaratalyoum.com/sports/local/2026-11-07-1.2100180"
+        },
+        {
+          "title": "Gulf Today (10 Sep): fifth-round fixtures",
+          "url": "https://www.gulftoday.ae/sport/2026/09/10/three-heavyweight-pro-league-clashes-headline-fifth-round"
+        }
+      ]
+    },
+    {
+      "id": "bri-mal",
+      "competition": "Primera División (Uruguay), Clausura round 15",
+      "kickoff": "2026-11-19T19:30:00Z",
+      "venue": "Estadio Campeones Olímpicos, Florida",
+      "neutral": false,
+      "home": {
+        "name": "Boston River",
+        "short": "Boston River",
+        "code": "BRI"
+      },
+      "away": {
+        "name": "Deportivo Maldonado",
+        "short": "Maldonado",
+        "code": "MAL"
+      },
+      "context": "Kick-off is Thursday 16:30 Uruguay time (19:30 UTC) in Florida, last round of the 2026 Clausura, at the same time as Peñarol v Cerro Largo and Progreso v City Torque (Montevideo Portal). Boston River are 11th in the Clausura (W4 D3 L7, 15-18, 15 pts) and 14th in the Tabla Anual (37 pts, W10 D7 L19, 34-48); Montevideo Portal says they have nothing immediate to play for. They have lost their last three: 0-2 at Cerro Largo (25 Oct), 1-2 v City Torque (1 Nov) and 0-1 at Central Español (14 Nov), after wins at Wanderers (3-1) and v Defensor (1-0). Deportivo Maldonado are 5th in the Clausura (W6 D4 L4, 18-11, 22 pts) and 3rd in the Anual on 63 (W18 D9 L9, 54-33), three behind Peñarol and one behind City Torque: they must win and need City Torque not to win and Peñarol to lose to force an Anual final, and they are also chasing a Copa Libertadores place. Maldonado have won one of their last five (2-1 v Danubio, 24 Oct), with draws v Liverpool (1-1) and at Albion (0-0) and defeats at Nacional (2-3) and at home to Cerro (0-1, 14 Nov). Maldonado beat Boston River 2-1 at home in the Apertura on 11 May (RSSSF).",
+      "referee": {
+        "name": "Esteban Guerra",
+        "country": "URU",
+        "note": "AUF appointment reported by Montevideo Portal (18 Nov): Esteban Guerra, assistants Alberto Piriz and Federico Piccardo, fourth official Bruno Sacarelo. No per-game fouls/cards figures for him were found this run."
+      },
+      "odds": {
+        "h": 3.79,
+        "d": 3.6,
+        "a": 1.869,
+        "ou": {
+          "1.5": [
+            1.249,
+            3.58
+          ],
+          "2.5": [
+            1.833,
+            1.925
+          ],
+          "3.5": [
+            3.02,
+            1.335
+          ],
+          "4.5": [
+            5.51,
+            1.117
+          ]
+        },
+        "btts": [
+          1.704,
+          2.05
+        ],
+        "ah": [
+          {
+            "line": 0.5,
+            "home": 1.9,
+            "away": 1.869
+          },
+          {
+            "line": 1,
+            "home": 1.438,
+            "away": 2.67
+          }
+        ],
+        "corners": {
+          "7.5": [
+            1.452,
+            2.59
+          ],
+          "8.5": [
+            1.813,
+            1.952
+          ],
+          "9.5": [
+            2.28,
+            1.574
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 3.88,
+          "d": 3.51,
+          "a": 1.87,
+          "ou": {
+            "0.5": [
+              1.01,
+              11.7
+            ],
+            "1.5": [
+              1.24,
+              3.65
+            ],
+            "2.5": [
+              1.82,
+              1.89
+            ],
+            "3.5": [
+              3.17,
+              1.31
+            ],
+            "4.5": [
+              6.3,
+              1.08
+            ]
+          },
+          "btts": [
+            1.74,
+            2
+          ],
+          "text": "1X2 3.88/3.51/1.87, O/U 2.5 1.82/1.89"
+        }
+      },
+      "season": {
+        "note": "No KickOff 20-game form page exists for this league, so form20 is left out. gf/ga are per game over all 36 league games of 2026 (Apertura + Intermedio + Clausura, Tabla Anual in Montevideo Portal, 17 Nov). No source this run gave per-game corners, fouls, shots or shots on target for these teams (FootyStats' corner page failed to load; Promiedos' team-stats page has no season or game count, so it was not used). Clausura only: Boston River 15-18 in 14 (1.07/1.29), Maldonado 18-11 in 14 (1.29/0.79).",
+        "home": {
+          "gf": 0.94,
+          "ga": 1.33
+        },
+        "away": {
+          "gf": 1.5,
+          "ga": 0.92
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "No predicted XIs found for either side in the Uruguayan previews read (Montevideo Portal, El Observador, Teledoce). Fill in from the confirmed team sheets about an hour before kick-off.",
+        "home": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        },
+        "away": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        }
+      },
+      "news": [
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Maldonado (3rd in the Anual, 63) must win and need City Torque not to win and Peñarol to lose to reach a final for the Anual title. They are also chasing a Copa Libertadores place.",
+          "src": "Montevideo Portal (17 Nov); Teledoce (16 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Boston River (14th in the Anual, 37 pts) are clear of relegation and out of the cup places race, with no immediate objective in the last round.",
+          "src": "Montevideo Portal (17 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "No injury or suspension news was found for either side in the previews read.",
+          "src": "Montevideo Portal; El Observador"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Francisco Bonfiglio",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 7,
+            "note": "Boston River's top scorer, 7 league goals in 2026 (Tenfield Anual list; cutoff date not shown). Next: Leandro Suhr 4, Facundo Muñoa 4, Nicolás Siri 3. No predicted XI found."
+          },
+          {
+            "name": "Leandro Suhr",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 4,
+            "note": "4 league goals (Tenfield). Position not confirmed by a source this run. No predicted XI found."
+          },
+          {
+            "name": "Gastón Ramírez",
+            "pos": "AM",
+            "start": 0.75,
+            "goals": 1,
+            "note": "Veteran playmaker, 1 league goal (Tenfield). No predicted XI found."
+          }
+        ],
+        "away": [
+          {
+            "name": "Christian Tabó",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 10,
+            "note": "Maldonado's top scorer, 10 league goals in 2026 (Tenfield Anual list); BeSoccer has 4 in 15 Apertura games. No predicted XI found."
+          },
+          {
+            "name": "Renato César",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 9,
+            "note": "9 league goals (Tenfield). No predicted XI found."
+          },
+          {
+            "name": "Maximiliano Noble",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 7,
+            "note": "7 league goals (Tenfield); BeSoccer has 6 in 15 Apertura games, so only 1 since. No predicted XI found."
+          },
+          {
+            "name": "Santiago Ramírez",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 7,
+            "note": "7 league goals (Tenfield). No predicted XI found."
+          }
+        ]
+      },
+      "props": [],
+      "sources": [
+        {
+          "title": "Teledoce (16 Nov): Peñarol, City Torque and Maldonado decide the Anual in the last round",
+          "url": "https://www.teledoce.com/telemundo/deportes/penarol-montevideo-city-torque-y-deportivo-maldonado-definen-la-anual-en-la-ultima-fecha-lo-que-les-queda-a-los-equipos/"
+        },
+        {
+          "title": "BeSoccer: Liga AUF Uruguaya 2026 top scorers (Apertura)",
+          "url": "https://www.besoccer.com/competition/rankings/uruguay_apertura/2026/top-scorers"
+        },
+        {
+          "title": "Montevideo Portal (18 Nov): Clausura, three Thursday games open the last round; referees",
+          "url": "https://www.montevideo.com.uy/Deportes/Clausura-tres-partidos-abren-este-jueves-la-ultima-fecha-con-la-tabla-Anual-en-pugna-uc982720"
+        },
+        {
+          "title": "Montevideo Portal (17 Nov): the three tables, relegation and what each club plays for",
+          "url": "https://www.montevideo.com.uy/Deportes/Clausura-las-tres-tablas-como-va-el-descenso-y-que-se-juega-cada-club-en-la-ultima-fecha-uc982507"
+        },
+        {
+          "title": "Montevideo Portal (15 Nov): Clausura table, fixtures of the last round (16:30 kick-offs)",
+          "url": "https://montevideo.com.uy/Deportes/Clausura-tablas-de-posiciones-detalles-de-la-proxima-fecha-y-lo-que-estara-en-juego-uc982336"
+        },
+        {
+          "title": "RSSSF: Uruguay 2026 (all results through Clausura round 14)",
+          "url": "https://www.rsssf.org/tablesu/uru2026.html"
+        },
+        {
+          "title": "Tenfield statistics: Goleadores 2026 (Anual tab)",
+          "url": "https://estadisticas.tenfield.com.uy/primera-division/campeonato-uruguayo-primera-division-2024/goleadores-2024/"
+        },
+        {
+          "title": "EFE via Infobae (18 Nov): last Clausura round decides the Anual and the third relegation",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/18/ultima-jornada-del-clausura-uruguayo-decide-al-campeon-de-la-anual-y-al-ultimo-descendido/"
+        }
+      ]
+    },
+    {
+      "id": "pen-cer",
+      "competition": "Primera División (Uruguay), Clausura round 15",
+      "kickoff": "2026-11-19T19:30:00Z",
+      "venue": "Estadio Campeón del Siglo, Montevideo",
+      "neutral": false,
+      "home": {
+        "name": "Peñarol",
+        "short": "Peñarol",
+        "code": "PEN"
+      },
+      "away": {
+        "name": "Cerro Largo",
+        "short": "Cerro Largo",
+        "code": "CER"
+      },
+      "context": "Kick-off is Thursday 16:30 Uruguay time (19:30 UTC), the last round of the 2026 Clausura, played at the same time as Progreso v City Torque and Boston River v Deportivo Maldonado (Montevideo Portal, El Observador). Peñarol (Diego Aguirre) top the Tabla Anual on 66 points (W19 D10 L7, 53-29 in 36, after a one-point deduction), two ahead of City Torque (64) and three ahead of Deportivo Maldonado (63); a win clinches first place and a place in the final against the winner of Racing v Liverpool. They are 4th in the Clausura (W6 D6 L2, 18-10, 23 pts) but have not won since beating Racing 1-0 on 4 Oct: in the league since then L 0-1 at Liverpool and draws with Progreso (1-1), Juventud (0-0), Wanderers (1-1) and Defensor Sporting (1-1, conceded in the last play on 15 Nov), plus a 2-0 Copa AUF Uruguay defeat to City Torque on 27 Oct that knocked them out. Cerro Largo (Bruno Silva) are 15th in the Clausura with one win in 14 (W1 D7 L6, 12-19; the win was 2-0 v Boston River on 25 Oct), 13th in the Anual (38 pts), and 12th in the relegation averages on 87, one point above Wanderers and Cerro (85): a defeat would send them down on Friday if both Cerro (v Nacional) and Wanderers (at Liverpool) win. Peñarol beat Cerro Largo 3-2 away in the Apertura (11 May) and 3-0 at home in the Intermedio (1 Aug); Cerro Largo won 2-0 at the Campeón del Siglo in 2025.",
+      "referee": {
+        "name": "Gustavo Tejera",
+        "country": "URU",
+        "note": "AUF appointment reported by Montevideo Portal (18 Nov): Gustavo Tejera, assistants Horacio Ferreiro and Mauricio Hernández, fourth official Juan Cianni. No per-game fouls/cards figures for him were found this run, so the engine should use its prior."
+      },
+      "odds": {
+        "h": 1.423,
+        "d": 4.29,
+        "a": 6.97,
+        "ou": {
+          "1.5": [
+            1.296,
+            3.29
+          ],
+          "2.5": [
+            1.99,
+            1.793
+          ],
+          "3.5": [
+            3.42,
+            1.277
+          ]
+        },
+        "btts": [
+          2.24,
+          1.602
+        ],
+        "ah": [
+          {
+            "line": -1.5,
+            "home": 2.29,
+            "away": 1.588
+          },
+          {
+            "line": -1,
+            "home": 1.709,
+            "away": 2.08
+          },
+          {
+            "line": -0.5,
+            "home": 1.411,
+            "away": 2.77
+          }
+        ],
+        "corners": {
+          "7.5": [
+            1.46,
+            2.57
+          ],
+          "8.5": [
+            1.833,
+            1.934
+          ],
+          "9.5": [
+            2.27,
+            1.574
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.43,
+          "d": 4.15,
+          "a": 7.45,
+          "ou": {
+            "0.5": [
+              1.02,
+              10.4
+            ],
+            "1.5": [
+              1.28,
+              3.33
+            ],
+            "2.5": [
+              1.94,
+              1.77
+            ],
+            "3.5": [
+              3.53,
+              1.26
+            ],
+            "4.5": [
+              7.3,
+              1.06
+            ]
+          },
+          "btts": [
+            2.27,
+            1.55
+          ],
+          "text": "1X2 1.43/4.15/7.45, O/U 2.5 1.94/1.77"
+        }
+      },
+      "season": {
+        "note": "No KickOff 20-game form page exists for this league, so form20 is left out. gf/ga are per game over all 36 league games of 2026 (Apertura + Intermedio + Clausura, Tabla Anual in Montevideo Portal, 17 Nov). No source this run gave per-game corners, fouls, shots or shots on target for these teams (FootyStats' corner page failed to load; Promiedos' team-stats page has no season or game count, so it was not used). Clausura only: Peñarol 18-10 in 14 (1.29/0.71), Cerro Largo 12-19 in 14 (0.86/1.36).",
+        "home": {
+          "gf": 1.47,
+          "ga": 0.81
+        },
+        "away": {
+          "gf": 0.97,
+          "ga": 1.19
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "Status is pending because no Cerro Largo XI was found (scripts/check.mjs needs 11 a side for 'predicted'). The home XI is the El Observador / Referí probable XI (16 Nov). Its 18 Nov follow-up says Leonel Jaime returns to the starting XI and that one striker is more likely than the Arezo-Abel Hernández pair, without naming who drops out. No Cerro Largo XI or team news was found.",
+        "home": {
+          "formation": "4-4-2",
+          "xi": [
+            "Washington Aguerre",
+            "Alegre",
+            "Lucas Ferreira",
+            "Pezzella",
+            "Maximiliano Olivera",
+            "Cabrera",
+            "Eric Remedi",
+            "Nicolás Fernández",
+            "Eduardo Darias",
+            "Abel Hernández",
+            "Matías Arezo"
+          ],
+          "bench": []
+        },
+        "away": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        },
+        "alt": "Expected change from the 18 Nov El Observador report: Leonel Jaime in for one of the two strikers (Abel Hernández or Matías Arezo, not named), giving a 4-4-1-1. The sources give only surnames for Alegre, Pezzella and Cabrera; formation 4-4-2 is inferred from the order of the names (Darias moves to wide midfield when Remedi returns)."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "back",
+          "text": "Goalkeeper Washington Aguerre and midfielder Eric Remedi (yellow-card bans) and winger Luis Angulo (sent off against Wanderers) have served their suspensions and are available.",
+          "src": "El Observador (16 and 18 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Leonel Jaime returns to the starting XI (he was on the bench against Defensor). Aguirre was weighing a double nine with Matías Arezo and Abel Hernández, but a single striker is considered more likely.",
+          "src": "El Observador (18 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Nahuel Herrera, who missed the Defensor game late with a foot problem after about a month out, is in the squad but likely to start on the bench.",
+          "src": "El Observador (16 and 18 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Franco Romero, Diego Laxalt and Gonzalo Gelini are over their injuries but have not been picked lately for lack of match fitness.",
+          "src": "El Observador (16 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Peñarol's fans are back at the Campeón del Siglo now the four-game sanction for incidents at the clásico has ended. A win secures first place in the Tabla Anual and a final against the Racing-Liverpool winner.",
+          "src": "El Observador (16 and 18 Nov); Montevideo Portal (17 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Relegation: Cerro Largo are on 87 in the averages, Wanderers and Cerro on 85, Central Español 88 (Danubio and Progreso are already down). A loss relegates Cerro Largo if Cerro and Wanderers both win on Friday; with a draw and both rivals winning, goal difference decides and Montevideo Portal says Cerro Largo and Wanderers would survive.",
+          "src": "Montevideo Portal (17 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "No Cerro Largo injury or suspension news was found in the previews read (El Observador, Montevideo Portal).",
+          "src": "El Observador (16 Nov)"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Matías Arezo",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 13,
+            "note": "Peñarol's top scorer, 13 league goals in 2026 (Tenfield Anual scorers list; its cutoff date is not shown). BeSoccer has 6 in 13 Apertura games. In the 16 Nov probable XI, but with Jaime returning one of Arezo/Abel Hernández may drop out. Scored the 89th-minute winner v Racing on 4 Oct."
+          },
+          {
+            "name": "Abel Hernández",
+            "pos": "FW",
+            "start": 0.5,
+            "goals": 8,
+            "note": "8 league goals (Tenfield Anual list). In the 16 Nov probable XI as Arezo's partner, but El Observador (18 Nov) says a single striker is more likely with Jaime back. Scored in the 1-1 v Progreso on 10 Oct."
+          },
+          {
+            "name": "Leonel Jaime",
+            "pos": "AM",
+            "start": 0.85,
+            "goals": 3,
+            "note": "3 league goals (Tenfield). El Observador (18 Nov) says he returns to the starting XI; Aguirre had started him 16 times, but his form has dropped. Position given as attacking midfielder because he comes in for a striker behind a lone nine; not confirmed by a source."
+          },
+          {
+            "name": "Luis Angulo",
+            "pos": "FW",
+            "start": 0.4,
+            "goals": 5,
+            "note": "Colombian winger, 5 league goals (Tenfield); BeSoccer has 4 in 11 Apertura games. Back from a red-card ban (scored, then was sent off, v Wanderers on 31 Oct). Not in the 16 Nov probable XI."
+          },
+          {
+            "name": "Leandro Umpiérrez",
+            "pos": "AM",
+            "start": 0.3,
+            "goals": 5,
+            "note": "5 league goals (Tenfield). Not injured but described as out of form (El Observador, 16 Nov); not in the probable XI."
+          },
+          {
+            "name": "Eduardo Darias",
+            "pos": "MF",
+            "start": 0.85,
+            "goals": 2,
+            "note": "2 league goals (Tenfield). In the probable XI, moving to wide midfield with Remedi back."
+          },
+          {
+            "name": "Nicolás Fernández",
+            "pos": "MF",
+            "start": 0.85,
+            "note": "Scored Peñarol's goal in the 1-1 at Defensor Sporting on 15 Nov (El Observador). In the probable XI. Not in the Tenfield scorers list, which may predate that game."
+          },
+          {
+            "name": "Eric Remedi",
+            "pos": "MF",
+            "start": 0.85,
+            "note": "Argentine midfielder, back from a yellow-card suspension. In the probable XI."
+          },
+          {
+            "name": "Maximiliano Olivera",
+            "pos": "DF",
+            "start": 0.85,
+            "goals": 3,
+            "note": "3 league goals (Tenfield). In the probable XI."
+          },
+          {
+            "name": "Lucas Ferreira",
+            "pos": "DF",
+            "start": 0.85,
+            "goals": 2,
+            "note": "2 league goals (Tenfield). In the probable XI; his last-play error let Defensor equalise on 15 Nov."
+          }
+        ],
+        "away": [
+          {
+            "name": "Axel Pandiani",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 7,
+            "note": "Cerro Largo's top scorer, 7 league goals in 2026 (Tenfield Anual list); BeSoccer has 4 in 12 Apertura games. No predicted XI found."
+          },
+          {
+            "name": "Diego Daguerre",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 4,
+            "note": "4 league goals (Tenfield). Position not confirmed by a source this run. No predicted XI found."
+          }
+        ]
+      },
+      "props": [],
+      "sources": [
+        {
+          "title": "El Observador (16 Nov): Peñarol, a month and a half without a win, the last chance v Cerro Largo and three players back",
+          "url": "https://www.elobservador.com.uy/futbol/penarol-un-mes-y-medio-triunfos-la-ultima-chance-cerro-largo-y-los-tres-jugadores-que-recupera-diego-aguirre-n6064042"
+        },
+        {
+          "title": "El Observador (18 Nov): Leonel Jaime back in Peñarol's XI v Cerro Largo, Nahuel Herrera in the squad",
+          "url": "https://www.elobservador.com.uy/futbol/leonel-jaime-vuelve-la-titularidad-penarol-este-jueves-cerro-largo-el-partido-del-semestre-y-nahuel-herrera-estara-la-convocatoria-n6064308"
+        },
+        {
+          "title": "El Observador (18 Nov): Peñarol v Cerro Largo, day, time, ground, TV",
+          "url": "https://www.elobservador.com.uy/futbol/penarol-vs-cerro-largo-el-torneo-clausura-dia-hora-cancha-precio-las-entradas-y-donde-verlo-n6064357"
+        },
+        {
+          "title": "Statshub: Peñarol 3-0 Cerro Largo (Intermedio, 1 Aug 2026)",
+          "url": "https://statshub.com/fixture/penarol-vs-cerro-largo-msb335/339872"
+        },
+        {
+          "title": "BeSoccer: Liga AUF Uruguaya 2026 top scorers (Apertura)",
+          "url": "https://www.besoccer.com/competition/rankings/uruguay_apertura/2026/top-scorers"
+        },
+        {
+          "title": "Montevideo Portal (18 Nov): Clausura, three Thursday games open the last round; referees",
+          "url": "https://www.montevideo.com.uy/Deportes/Clausura-tres-partidos-abren-este-jueves-la-ultima-fecha-con-la-tabla-Anual-en-pugna-uc982720"
+        },
+        {
+          "title": "Montevideo Portal (17 Nov): the three tables, relegation and what each club plays for",
+          "url": "https://www.montevideo.com.uy/Deportes/Clausura-las-tres-tablas-como-va-el-descenso-y-que-se-juega-cada-club-en-la-ultima-fecha-uc982507"
+        },
+        {
+          "title": "Montevideo Portal (15 Nov): Clausura table, fixtures of the last round (16:30 kick-offs)",
+          "url": "https://montevideo.com.uy/Deportes/Clausura-tablas-de-posiciones-detalles-de-la-proxima-fecha-y-lo-que-estara-en-juego-uc982336"
+        },
+        {
+          "title": "RSSSF: Uruguay 2026 (all results through Clausura round 14)",
+          "url": "https://www.rsssf.org/tablesu/uru2026.html"
+        },
+        {
+          "title": "Tenfield statistics: Goleadores 2026 (Anual tab)",
+          "url": "https://estadisticas.tenfield.com.uy/primera-division/campeonato-uruguayo-primera-division-2024/goleadores-2024/"
+        },
+        {
+          "title": "EFE via Infobae (18 Nov): last Clausura round decides the Anual and the third relegation",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/18/ultima-jornada-del-clausura-uruguayo-decide-al-campeon-de-la-anual-y-al-ultimo-descendido/"
+        }
+      ]
+    },
+    {
+      "id": "pro-mct",
+      "competition": "Primera División (Uruguay), Clausura round 15",
+      "kickoff": "2026-11-19T19:30:00Z",
+      "venue": "Parque Abraham Paladino, Montevideo",
+      "neutral": false,
+      "home": {
+        "name": "Progreso",
+        "short": "Progreso",
+        "code": "PRO"
+      },
+      "away": {
+        "name": "Montevideo City Torque",
+        "short": "City Torque",
+        "code": "MCT"
+      },
+      "context": "Kick-off is Thursday 16:30 Uruguay time (19:30 UTC) at the Paladino, last round of the 2026 Clausura, at the same time as Peñarol v Cerro Largo and Boston River v Maldonado (Montevideo Portal). Progreso are already relegated (75 in the averages, with Danubio) and 15th in the Tabla Anual (36 pts, W10 D6 L20, 33-51), but 8th in the Clausura (W6 D2 L6, 15-17, 20 pts); their last five were D 1-1 v Peñarol, W 2-0 v Juventud, W 1-0 at Wanderers, L 0-2 v Defensor and D 2-2 at Cerro Largo (12 Nov). City Torque are 2nd in the Clausura (W9 D2 L3, 28-16, 29 pts) and 2nd in the Anual on 64 (W19 D7 L10, 61-43, the league's highest-scoring side), two behind Peñarol: they must win and need Peñarol to drop points, and they are also chasing a Libertadores place. Torque have won three of their last five (1-0 v Danubio, 3-1 v Cerro, 2-1 at Boston River) with a 1-2 at Albion and a 2-2 v Racing on 13 Nov, and they knocked Peñarol out of the Copa AUF Uruguay 2-0 on 27 Oct. Torque beat Progreso twice earlier in 2026: 2-1 at home in the Apertura (10 May) and 2-1 away in the Intermedio (23 May).",
+      "referee": {
+        "name": "Javier Feres",
+        "country": "URU",
+        "note": "AUF appointment reported by Montevideo Portal (18 Nov): Javier Feres, assistants Marcos Rosamen and Carlos Roca, fourth official Anahí Fernández. No per-game fouls/cards figures for him were found this run."
+      },
+      "odds": {
+        "h": 5.39,
+        "d": 4.24,
+        "a": 1.526,
+        "ou": {
+          "1.5": [
+            1.184,
+            4.33
+          ],
+          "2.5": [
+            1.602,
+            2.25
+          ],
+          "3.5": [
+            2.5,
+            1.495
+          ],
+          "4.5": [
+            4.37,
+            1.182
+          ]
+        },
+        "btts": [
+          1.729,
+          2.03
+        ],
+        "ah": [
+          {
+            "line": 0.5,
+            "home": 2.46,
+            "away": 1.515
+          },
+          {
+            "line": 1,
+            "home": 1.925,
+            "away": 1.862
+          },
+          {
+            "line": 1.5,
+            "home": 1.546,
+            "away": 2.38
+          }
+        ],
+        "corners": {
+          "8.5": [
+            1.543,
+            2.34
+          ],
+          "9.5": [
+            1.909,
+            1.854
+          ],
+          "10.5": [
+            2.4,
+            1.52
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 5.35,
+          "d": 4.3,
+          "a": 1.52,
+          "ou": {
+            "1.5": [
+              1.16,
+              4.65
+            ],
+            "2.5": [
+              1.58,
+              2.25
+            ],
+            "3.5": [
+              2.52,
+              1.47
+            ],
+            "4.5": [
+              4.6,
+              1.16
+            ],
+            "5.5": [
+              9.4,
+              1.03
+            ]
+          },
+          "btts": [
+            1.7,
+            2.06
+          ],
+          "text": "1X2 5.35/4.3/1.52, O/U 2.5 1.58/2.25"
+        }
+      },
+      "season": {
+        "note": "No KickOff 20-game form page exists for this league, so form20 is left out. gf/ga are per game over all 36 league games of 2026 (Apertura + Intermedio + Clausura, Tabla Anual in Montevideo Portal, 17 Nov). No source this run gave per-game corners, fouls, shots or shots on target for these teams (FootyStats' corner page failed to load; Promiedos' team-stats page has no season or game count, so it was not used). Clausura only: Progreso 15-17 in 14 (1.07/1.21), City Torque 28-16 in 14 (2.0/1.14). FootyStats' Torque page covers only their first 15 league games (to about 10 May): 12.53 shots, 4.27 on target and 14.36 fouls committed a game, xG 1.46 for and 1.13 against, 3.87 cards a game; too old and partial to put in the per-game fields.",
+        "home": {
+          "gf": 0.92,
+          "ga": 1.42
+        },
+        "away": {
+          "gf": 1.69,
+          "ga": 1.19
+        }
+      },
+      "lineups": {
+        "status": "pending",
+        "source": "No predicted XIs found for either side in the Uruguayan previews read (Montevideo Portal, El Observador, Teledoce). Fill in from the confirmed team sheets about an hour before kick-off.",
+        "home": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        },
+        "away": {
+          "formation": "",
+          "xi": [],
+          "bench": []
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Progreso are already relegated (75 in the averages, level with Danubio) and have no immediate objective in the last round.",
+          "src": "Montevideo Portal (17 Nov); EFE (18 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "City Torque (2nd in the Anual, 64) need to win and need Peñarol (66) to drop points to have a chance of the Anual title; they are also chasing a Copa Libertadores place. They are still in the Copa AUF Uruguay semi-finals.",
+          "src": "Montevideo Portal (15 and 17 Nov); Teledoce (16 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "No injury or suspension news was found for either side in the previews read.",
+          "src": "Montevideo Portal; El Observador"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Nahuel López",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 11,
+            "note": "Progreso's top scorer by far, 11 league goals in 2026 (Tenfield Anual list; cutoff date not shown). Next: Matteo Copelotti 4. No predicted XI found."
+          }
+        ],
+        "away": [
+          {
+            "name": "Salomón Rodríguez",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 13,
+            "note": "City Torque's top scorer, 13 league goals in 2026 (Tenfield Anual list); BeSoccer has 6 in 12 Apertura games. No predicted XI found."
+          },
+          {
+            "name": "Nahuel Da Silva",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 12,
+            "note": "12 league goals (Tenfield). Position not confirmed by a source this run. No predicted XI found."
+          },
+          {
+            "name": "Esteban Obregón",
+            "pos": "FW",
+            "start": 0.75,
+            "goals": 9,
+            "note": "9 league goals (Tenfield); one of Torque's most-used players in the Apertura (12 apps, FootyStats). No predicted XI found."
+          }
+        ]
+      },
+      "props": [],
+      "sources": [
+        {
+          "title": "Teledoce (16 Nov): Peñarol, City Torque and Maldonado decide the Anual in the last round",
+          "url": "https://www.teledoce.com/telemundo/deportes/penarol-montevideo-city-torque-y-deportivo-maldonado-definen-la-anual-en-la-ultima-fecha-lo-que-les-queda-a-los-equipos/"
+        },
+        {
+          "title": "FootyStats: CA Torque 2026 team stats (first 15 league games only)",
+          "url": "https://footystats.org/clubs/ca-torque-4379"
+        },
+        {
+          "title": "El Observador (16 Nov): Peñarol's recent results incl. 0-2 v City Torque in the Copa AUF Uruguay",
+          "url": "https://www.elobservador.com.uy/futbol/penarol-un-mes-y-medio-triunfos-la-ultima-chance-cerro-largo-y-los-tres-jugadores-que-recupera-diego-aguirre-n6064042"
+        },
+        {
+          "title": "BeSoccer: Liga AUF Uruguaya 2026 top scorers (Apertura)",
+          "url": "https://www.besoccer.com/competition/rankings/uruguay_apertura/2026/top-scorers"
+        },
+        {
+          "title": "Montevideo Portal (18 Nov): Clausura, three Thursday games open the last round; referees",
+          "url": "https://www.montevideo.com.uy/Deportes/Clausura-tres-partidos-abren-este-jueves-la-ultima-fecha-con-la-tabla-Anual-en-pugna-uc982720"
+        },
+        {
+          "title": "Montevideo Portal (17 Nov): the three tables, relegation and what each club plays for",
+          "url": "https://www.montevideo.com.uy/Deportes/Clausura-las-tres-tablas-como-va-el-descenso-y-que-se-juega-cada-club-en-la-ultima-fecha-uc982507"
+        },
+        {
+          "title": "Montevideo Portal (15 Nov): Clausura table, fixtures of the last round (16:30 kick-offs)",
+          "url": "https://montevideo.com.uy/Deportes/Clausura-tablas-de-posiciones-detalles-de-la-proxima-fecha-y-lo-que-estara-en-juego-uc982336"
+        },
+        {
+          "title": "RSSSF: Uruguay 2026 (all results through Clausura round 14)",
+          "url": "https://www.rsssf.org/tablesu/uru2026.html"
+        },
+        {
+          "title": "Tenfield statistics: Goleadores 2026 (Anual tab)",
+          "url": "https://estadisticas.tenfield.com.uy/primera-division/campeonato-uruguayo-primera-division-2024/goleadores-2024/"
+        },
+        {
+          "title": "EFE via Infobae (18 Nov): last Clausura round decides the Anual and the third relegation",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/18/ultima-jornada-del-clausura-uruguayo-decide-al-campeon-de-la-anual-y-al-ultimo-descendido/"
+        }
+      ]
+    },
+    {
+      "id": "vas-int",
+      "competition": "Brasileirão Série A, round 35",
+      "kickoff": "2026-11-19T22:30:00Z",
+      "venue": "Estádio São Januário, Rio de Janeiro",
+      "neutral": false,
+      "home": {
+        "name": "Vasco da Gama",
+        "short": "Vasco",
+        "code": "VAS"
+      },
+      "away": {
+        "name": "Internacional",
+        "short": "Internacional",
+        "code": "INT"
+      },
+      "context": "Kick-off is 19:30 Brasília time (22:30 UTC) at São Januário, per Terra and Zonamista (both 18 Nov); KickOff and statz.ai both give 22:30 UK time. Vasco (Pedro Emanuel, in charge since July) are 11th on 44 points after 34 games (W12 D8 L14, 45-50) and have won their last two league games, 3-1 at Athletico-PR and 2-0 at Chapecoense on 14 Nov, after a 4-1 home defeat to Flamengo; a win would take them closer to the top eight and a possible Libertadores place. Internacional (Eduardo Baptista) are 16th on 38 points (W9 D11 L14, 38-42), one point above the relegation zone, level with Vitória and one ahead of Corinthians and Grêmio; Zonamista cites UFMG's 36.8% relegation chance for them. Inter beat Coritiba 1-0 on 3 Nov with a stoppage-time Alerrandro penalty, but their last three away league games were a 1-1 at Grêmio and defeats at Mirassol (2-0) and Fluminense (2-1), and they have scored 16 and conceded 25 in 17 away games (statz.ai). Inter won the reverse fixture 4-1 on 16 May, while Vasco won 5-1 at São Januário in November 2025. Inter are without Gabriel Maripán (suspended) and Thiago Maia, while Vasco expect Thiago Mendes and Santiago Sosa back from minor problems.",
+      "referee": {
+        "name": "Paulo César Zanovelli da Silva",
+        "country": "BRA",
+        "games": 32,
+        "yellowsPg": 5.22,
+        "foulsPg": 28.44,
+        "redsPg": 0.41,
+        "note": "Terra and Zonamista (18 Nov) both report the CBF appointment (MG; assistants Fernanda Nandrea Gomes Antunes and Felipe Alan Costa de Oliveira, VAR Emerson de Almeida Ferreira), and statz.ai names him too. The CBF page itself was not opened. The figures come from his statz.ai profile, which covers 32 games across the Brasileirão, Libertadores and Sudamericana labelled 2025/26 and 2026/27 (13 reds in all). Its match table lists 19 completed 2026 games with 105 yellows (5.53 a game); it has no fouls or reds column, so those two figures can't be checked against it. He has had both teams this season: Vasco 0-1 Bahia (12 Feb, 10 yellows), Vasco 0-0 Remo (10 Oct, 4 yellows) and Bahia 3-2 Internacional (30 Aug, 6 yellows). Vasco have the 2nd-fewest cards in the league (1.91 a game) and Inter the 4th-most (2.71), statz.ai."
+      },
+      "odds": {
+        "dnb": {
+          "home": 1.25,
+          "away": 3.75
+        },
+        "dc": {
+          "12": 1.22,
+          "1X": 1.17,
+          "X2": 2.2
+        },
+        "wtn": {
+          "home": 3,
+          "away": 10
+        },
+        "firstGoal": {
+          "home": 1.53,
+          "away": 2.63
+        },
+        "h": 1.595,
+        "d": 4.36,
+        "a": 5.6,
+        "ou": {
+          "1.5": [
+            1.227,
+            4.42
+          ],
+          "2.5": [
+            1.719,
+            2.21
+          ],
+          "3.5": [
+            2.77,
+            1.469
+          ],
+          "4.5": [
+            5.17,
+            1.181
+          ]
+        },
+        "btts": [
+          1.775,
+          2.1
+        ],
+        "ah": [
+          {
+            "line": -1.5,
+            "home": 2.65,
+            "away": 1.529
+          },
+          {
+            "line": -1,
+            "home": 2.02,
+            "away": 1.892
+          },
+          {
+            "line": -0.5,
+            "home": 1.588,
+            "away": 2.48
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.74,
+            2.05
+          ],
+          "10.5": [
+            2.14,
+            1.671
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.35,
+            2.99
+          ],
+          "4.5": [
+            1.909,
+            1.877
+          ],
+          "5.5": [
+            2.74,
+            1.409
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.6,
+          "d": 4.2,
+          "a": 5.3,
+          "ou": {
+            "1.5": [
+              1.19,
+              4.35
+            ],
+            "2.5": [
+              1.65,
+              2.16
+            ],
+            "3.5": [
+              2.69,
+              1.43
+            ],
+            "4.5": [
+              5.05,
+              1.14
+            ],
+            "5.5": [
+              10.5,
+              1.03
+            ]
+          },
+          "btts": [
+            1.74,
+            2.04
+          ],
+          "text": "1X2 1.6/4.2/5.3, O/U 2.5 1.65/2.16"
+        }
+      },
+      "form20": {
+        "note": "KickOff 20-game form: each side's last 20 league games overall (Vasco 25-29, W8 D3 L9; Internacional 24-28, W5 D6 L9). KickOff gives xG only as season averages, so xgf/xga are season figures. Venue splits: Vasco's last 20 at home were 31-30 (W9 D3 L8); Internacional's last 20 away were 19-34 (W4 D6 L10). Two reads of the page labelled Vasco's two tables differently; these labels match the page's own averages (overall 1.3 scored, 1.5 conceded; home 1.6 and 1.5).",
+        "home": {
+          "gf": 1.25,
+          "ga": 1.45,
+          "xgf": 1.7,
+          "xga": 1.1
+        },
+        "away": {
+          "gf": 1.2,
+          "ga": 1.4,
+          "xgf": 1.4,
+          "xga": 1.2
+        }
+      },
+      "season": {
+        "note": "statz.ai match page, 2026 per-game averages (no home/away split given). Vasco rank 1st for shots (17.5) and 5th for shots on target; Internacional commit the most fouls in the league (15.68) and win the 2nd-most corners (6.12). Tackles: Vasco 15.9, Inter 16.9 (2nd). Brasileirão venue splits (statz.ai team pages): Vasco 25-24 in 17 home games (W8 D3 L6); Inter 16-25 in 17 away games. Vasco BTTS 62% and over 2.5 59% (5th highest).",
+        "home": {
+          "corners": 5.6,
+          "fouls": 13,
+          "shots": 17.5,
+          "sot": 5.26,
+          "gf": 1.32,
+          "ga": 1.47
+        },
+        "away": {
+          "corners": 6.12,
+          "fouls": 15.68,
+          "shots": 14.8,
+          "sot": 4.4,
+          "gf": 1.12,
+          "ga": 1.24
+        }
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "Vasco: Terra (18 Nov) and Supervasco (18 Nov), which agree. Internacional: Terra (3-4-2-1) and Zonamista (same eleven as a 3-5-2), both 18 Nov.",
+        "home": {
+          "formation": "4-3-3",
+          "xi": [
+            "Léo Jardim",
+            "Paulo Henrique",
+            "Alan Saldivia",
+            "Robert Renan",
+            "Cuiabano",
+            "Santiago Sosa",
+            "Thiago Mendes",
+            "Alan Lescano",
+            "Facundo Colidio",
+            "Andrés Gómez",
+            "Bruno Duarte"
+          ],
+          "bench": []
+        },
+        "away": {
+          "formation": "3-4-2-1",
+          "xi": [
+            "Kauan Jesus",
+            "Ronaldo",
+            "Gabriel Mercado",
+            "Juninho",
+            "Braian Aguirre",
+            "Rodrigo Villagra",
+            "Bruno Gomes",
+            "Matheus Bahia",
+            "Vitinho",
+            "Alan Patrick",
+            "Alerrandro"
+          ],
+          "bench": []
+        },
+        "alt": "statz.ai (4-2-3-1) has Vasco as Léo Jardim; José Luis 'Puma' Rodríguez, Saldivia, Robert Renan, Lucas Piton; Jair, Lescano; Hinestroza, Colidio, Andrés Gómez; Bruno Duarte, which is the XI that won at Chapecoense (Zonamista) and matches Sports Mole (16 Nov). It leaves out Sosa and Thiago Mendes, who were then unfit. Supervasco gives Puma Rodríguez as the alternative to Paulo Henrique. For Inter, statz.ai and Sports Mole have Kauan; Juninho, Mercado, Bruno Gomes; Matheus Bahia, Villagra, Thiago Maia, Aguirre; Carbonero, Vitinho; Alerrandro, with Thiago Maia (ruled out by Terra) and Johan Carbonero in place of Ronaldo and Alan Patrick."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "back",
+          "text": "Thiago Mendes (back pain) and Santiago Sosa (left adductor, fatigue) missed the 2-0 win at Chapecoense but trained normally on 16 Nov and are expected to start in midfield.",
+          "src": "Supervasco; Terra; Zonamista (18 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Nuno Moreira (right adductor) is back in pitch work, but his availability depends on the club's assessment. Sports Mole (16 Nov) listed him out.",
+          "src": "Zonamista; Sports Mole"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Cauan Barros and Carlos Cuesta are injured. Tchê Tchê also missed the Chapecoense game on fitness grounds.",
+          "src": "Sports Mole (16 Nov)"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Robert Renan came off after 60 minutes at Chapecoense with physical discomfort (Sports Mole), but he is in every Brazilian predicted XI.",
+          "src": "Sports Mole; Terra; Supervasco"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Paulo Henrique is expected to start at right-back ahead of Puma Rodríguez (5 goals, 8 assists, 63 shots this season, statz.ai).",
+          "src": "Terra; Supervasco"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Vasco are 11th on 44 points and want to close in on the top eight and keep a Libertadores place in reach.",
+          "src": "Terra"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Gabriel Maripán is suspended after a stoppage-time red card received on the bench against Coritiba.",
+          "src": "Terra; Zonamista; Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Thiago Maia is out for physical reasons the club has not disclosed (Terra); Zonamista says his status is still unresolved. Ronaldo is the likely replacement.",
+          "src": "Terra; Zonamista"
+        },
+        {
+          "team": "away",
+          "tag": "back",
+          "text": "Alan Patrick (6 goals, statz.ai) has returned to training and is in both Brazilian predicted XIs. Sports Mole (16 Nov) had listed him out with a muscle injury.",
+          "src": "Terra; Zonamista; Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Antonio Sanabria (calf), Kayky (ankle), goalkeeper Sergio Rochet (back), Matheus Cunha (elbow), Anthoni (knee) and Benjamin Arhin (hamstring) are injured; Kauan Jesus keeps goal.",
+          "src": "Sports Mole (16 Nov)"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Inter are 16th on 38 points, one point above the relegation zone, with Vitória on 38 and Corinthians and Grêmio on 37. UFMG put their relegation chance at 36.8%. Their next two games are at home to Vitória (23 Nov) and Bragantino (29 Nov).",
+          "src": "Zonamista; Terra"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Andrés Gómez",
+            "pos": "FW",
+            "start": 0.9,
+            "goals": 5,
+            "shots": 102,
+            "assists": 5,
+            "note": "102 shots (2.83 a game) and 31 on target in 36 games this season, plus 5 assists, 36 fouls, 55 tackles and 12 yellows (statz.ai team page; competitions not stated). The 5 goals are his league tally (KickOff; Sports Mole has him joint top Série A scorer). He has had a shot in nine straight games, averaging 2.7 (statz.ai preview, bet365 1.02 for a 10th). Over the last 10 games: 22 shots, 8 on target. FotMob: 2,323 Série A minutes in 29 games. In every predicted XI. No per-90s found."
+          },
+          {
+            "name": "Bruno Duarte",
+            "pos": "FW",
+            "start": 0.9,
+            "goals": 5,
+            "note": "5 goals in 13 games (statz.ai), 4 of them in the last 10 games, with 16 shots and 5 on target over that span. 2+ shots in 7 of his last 10, averaging 2.0 (statz.ai bet builder). Scored at Chapecoense. FotMob: 521 Série A minutes in 9 games. In every predicted XI."
+          },
+          {
+            "name": "Facundo Colidio",
+            "pos": "FW",
+            "start": 0.85,
+            "goals": 3,
+            "assists": 3,
+            "note": "Vasco's busiest shooter lately: 28 shots and 9 on target over the last 10 games, plus 2 goals, 10 fouls and 2 yellows (statz.ai). 3 goals (KickOff) and 3 assists in 13 games (statz.ai). FotMob: 918 Série A minutes in 13 games. No season shot total found. In every predicted XI."
+          },
+          {
+            "name": "Alan Lescano",
+            "pos": "AM",
+            "start": 0.85,
+            "goals": 3,
+            "note": "3 goals in the last 10 games (statz.ai; KickOff also lists 3). He has made a tackle in six straight games, with 10 tackles in the last five and 2.2 a game (statz.ai preview, bet365 1.22 for 1+). 9 fouls in the last 10 games. FotMob: 652 Série A minutes in 9 games. In every predicted XI."
+          },
+          {
+            "name": "Thiago Mendes",
+            "pos": "MF",
+            "start": 0.75,
+            "goals": 7,
+            "shots": 43,
+            "note": "Back from back pain and expected to start (Supervasco, Terra). 7 goals and 43 shots in 39 games this season, 12 yellows and 68 fouls drawn (statz.ai). FotMob: 2,443 Série A minutes in 30 games. Not in the statz.ai XI, which predates his return."
+          },
+          {
+            "name": "Cuiabano",
+            "pos": "DF",
+            "start": 0.6,
+            "assists": 4,
+            "note": "90 tackles (2.90 a game) and 43 fouls (1.39) in 31 games, 4 assists (statz.ai); 13 fouls and 11 shots over the last 10 games. Starts at left-back in the Terra and Supervasco XIs; statz.ai has Lucas Piton."
+          },
+          {
+            "name": "José Luis Rodríguez",
+            "pos": "DF",
+            "start": 0.45,
+            "goals": 5,
+            "shots": 63,
+            "assists": 8,
+            "note": "'Puma' Rodríguez: 5 goals, 8 assists (the club's most), 63 shots and 17 on target in 35 games (statz.ai). He has had a shot in seven straight games, averaging 2.1 (Ladbrokes 1.14, not bet365). Terra expects Paulo Henrique to start ahead of him; he is in the statz.ai and Sports Mole XIs."
+          },
+          {
+            "name": "Jair",
+            "pos": "MF",
+            "start": 0.4,
+            "note": "bet365 1.08 for 1+ fouls with a 100% hit rate in the statz.ai bet builder (sample not stated). FotMob: 441 Série A minutes in 10 games. Starts as the single holding midfielder in the statz.ai and Sports Mole XIs, but Terra and Supervasco have Sosa and Thiago Mendes back instead. No per-90s found."
+          },
+          {
+            "name": "Marino Hinestroza",
+            "pos": "FW",
+            "start": 0.4,
+            "note": "2 goals and 4 shots on target over the last 10 games (statz.ai). FotMob: 595 Série A minutes in 19 games. In the statz.ai and Sports Mole XIs but not the Brazilian ones."
+          }
+        ],
+        "away": [
+          {
+            "name": "Alerrandro",
+            "pos": "FW",
+            "start": 0.9,
+            "goals": 4,
+            "shots": 41,
+            "assists": 5,
+            "note": "4 goals, 5 assists (team-high), 41 shots and 14 on target in 27 games (statz.ai). Over the last 10 games: 1 goal, 12 shots, 4 on target. Scored the stoppage-time penalty in the 1-0 win over Coritiba (Sports Mole). In every predicted XI."
+          },
+          {
+            "name": "Vitinho",
+            "pos": "FW",
+            "start": 0.9,
+            "goals": 4,
+            "shots": 58,
+            "assists": 3,
+            "note": "4 goals, 58 shots (1.81 a game) and 21 on target in 32 games, plus 50 fouls (1.56), 42 tackles and 7 yellows (statz.ai). Inter's form player: 3 goals, 21 shots, 8 on target, 20 fouls and 3 yellows over the last 10 games, and 2+ shots in five straight games, averaging 3.2 (statz.ai preview, Ladbrokes 1.61, not bet365). In every predicted XI."
+          },
+          {
+            "name": "Alan Patrick",
+            "pos": "AM",
+            "start": 0.6,
+            "goals": 6,
+            "note": "6 goals in 27 games (statz.ai), 3 of them in the last 10 games, with 12 shots. Back in training after a muscle problem and in both Brazilian predicted XIs (Terra, Zonamista); Sports Mole (16 Nov) still had him injured."
+          },
+          {
+            "name": "Johan Carbonero",
+            "pos": "FW",
+            "start": 0.4,
+            "goals": 7,
+            "shots": 66,
+            "assists": 4,
+            "note": "Inter's top scorer: 7 goals, 4 assists, 66 shots and 23 on target in 31 games (statz.ai; KickOff also has 7). 13 shots and 5 on target over the last 10 games. In the statz.ai and Sports Mole XIs but not in the Brazilian ones."
+          },
+          {
+            "name": "Braian Aguirre",
+            "pos": "DF",
+            "start": 0.85,
+            "note": "Right wing-back: 18 shots, 5 on target, 17 fouls and 2 yellows over the last 10 games (statz.ai); 10 shots on target in 25 games this season. 2+ shots in 7 of his last 10, averaging 2.2 (statz.ai bet builder, 2.62, bookmaker not named). In every predicted XI."
+          },
+          {
+            "name": "Bruno Gomes",
+            "pos": "MF",
+            "start": 0.85,
+            "note": "85 tackles (2.58 a game) and 40 fouls (1.21) in 33 games (statz.ai). He has committed a foul in 12 straight games and made 2+ tackles in six straight, averaging 4 tackles (statz.ai preview, bet365 1.08 and 1.36). 15 fouls over the last 10 games, 1.8 a game. In every predicted XI, as a centre-back or in midfield."
+          },
+          {
+            "name": "Rodrigo Villagra",
+            "pos": "MF",
+            "start": 0.85,
+            "note": "35 fouls (1.40 a game) and 43 tackles (1.72) in 25 games; 3 yellows in the last 10 games (statz.ai). In every predicted XI."
+          },
+          {
+            "name": "Matheus Bahia",
+            "pos": "DF",
+            "start": 0.85,
+            "assists": 3,
+            "note": "40 tackles (1.67 a game) and 3 assists in 24 games; 1 goal and 4 shots on target over the last 10 games (statz.ai). In every predicted XI."
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Andrés Gómez",
+          "market": "1+ shots",
+          "odds": 1.02,
+          "hit": "5/5"
+        },
+        {
+          "player": "Alan Lescano",
+          "market": "1+ tackles",
+          "odds": 1.22,
+          "hit": "5/5"
+        },
+        {
+          "player": "Bruno Gomes",
+          "market": "1+ fouls",
+          "odds": 1.08,
+          "hit": "5/5"
+        },
+        {
+          "player": "Bruno Gomes",
+          "market": "2+ tackles",
+          "odds": 1.36,
+          "hit": "5/5"
+        },
+        {
+          "player": "Jair",
+          "market": "1+ fouls",
+          "odds": 1.08
+        }
+      ],
+      "benchmarks": {
+        "statz": {
+          "h": 0.57,
+          "d": 0.25,
+          "a": 0.18,
+          "xg": [
+            1.84,
+            0.94
+          ]
+        },
+        "kickoff": {
+          "h": 0.51,
+          "d": 0.24,
+          "a": 0.25
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Vasco da Gama v Internacional odds & stats (bet365 extras, 20-game form)",
+          "url": "https://www.kickoff.co.uk/brazillian-serie-a-predictions-stats-odds/vasco-da-gama-vs-internacional/"
+        },
+        {
+          "title": "Statz.ai: Vasco vs Internacional stats, predicted lineups, referee",
+          "url": "https://statz.ai/h2h/19621738"
+        },
+        {
+          "title": "Statz.ai: Vasco vs Internacional predictions & betting tips (bet365 props)",
+          "url": "https://statz.ai/news/19621738-vasco-vs-internacional-predictions-betting-tips"
+        },
+        {
+          "title": "Statz.ai: referee Paulo Cesar Zanovelli",
+          "url": "https://statz.ai/referee/paulo-cesar-zanovelli"
+        },
+        {
+          "title": "Statz.ai: Vasco da Gama team stats 2026",
+          "url": "https://statz.ai/team/vasco-da-gama"
+        },
+        {
+          "title": "Statz.ai: Internacional team stats 2026",
+          "url": "https://statz.ai/team/internacional"
+        },
+        {
+          "title": "Terra: Vasco x Internacional, onde assistir, escalações e arbitragem (18 Nov)",
+          "url": "https://www.terra.com.br/esportes/futebol/internacional/vasco-x-internacional-onde-assistir-escalacoes-e-arbitragem,36f692880137564f51f1f89c9ebe571fsb81hlrf.html"
+        },
+        {
+          "title": "Zonamista: Vasco x Inter, prováveis escalações e o que está em jogo (18 Nov)",
+          "url": "https://zonamista.com.br/vasco-x-inter-onde-assistir-provaveis-escalacoes/"
+        },
+        {
+          "title": "Supervasco: A provável escalação do Vasco para enfrentar o Internacional (18 Nov)",
+          "url": "https://www.supervasco.com/noticias/a-provavel-escalacao-do-vasco-para-enfrentar-o-internacional-5-460111.html"
+        },
+        {
+          "title": "Sports Mole: Vasco da Gama vs Internacional prediction, team news, lineups (16 Nov)",
+          "url": "https://www.sportsmole.co.uk/football/vasco/preview/vasco-vs-internacional-prediction-team-news-lineups_609221.html"
+        },
+        {
+          "title": "FotMob: Vasco da Gama minutes played, Série A 2026",
+          "url": "https://www.fotmob.com/en-GB/leagues/268/stats/season/1000000388/players/mins_played/team/10276/vasco-da-gamaplayersplayersteamsplayers-players"
+        }
+      ]
+    },
+    {
+      "id": "vit-bra",
+      "competition": "Brasileirão Série A, round 35",
+      "kickoff": "2026-11-19T22:30:00Z",
+      "venue": "Estádio Manoel Barradas (Barradão), Salvador",
+      "neutral": false,
+      "home": {
+        "name": "Vitória",
+        "short": "Vitória",
+        "code": "VIT"
+      },
+      "away": {
+        "name": "Red Bull Bragantino",
+        "short": "Bragantino",
+        "code": "RBB"
+      },
+      "context": "Kick-off is 19:30 Brasília time (22:30 UTC) at the Barradão, per Terra and Lance; KickOff and statz.ai both give 22:30 UK time, and the CBF lists the game as Série A Jogo 349. Vitória are 15th on 38 points after 34 games (35-51), one point above the relegation zone, where Corinthians and Grêmio sit on 37. They have taken two points from their last five league games (L 2-1 at São Paulo, D 1-1 at Corinthians, D 1-1 v Athletico-PR, L 2-0 at Coritiba, L 3-0 v Fluminense), and Jair Ventura was sacked after the Fluminense defeat, so Rafael Lacerda (ex-Chapecoense) takes his first game. Home form is their strength: W10 D2 L5 in 17 home league games (Sports Mole), scoring 23 and conceding 16 at home against 12-35 away (statz.ai). Bragantino (Vagner Mancini) are 8th on 47 points (44-39) and chasing a 2027 Libertadores preliminary place; they beat Chapecoense 3-0 and Santos 2-1 at home in their last two, but have won only 4 of 17 away league games (W4 D5 L8, 15-21) and have not won away in six months (Terra). Bragantino won the reverse fixture 2-0 on 17 May and 4-0 in December 2025, while Vitória won the two meetings before that 1-0 at home; Bragantino are without the suspended Lucas Barbosa, and Vitória cannot use Bragantino loanees Luan Cândido and Nacho Laquintana.",
+      "referee": {
+        "name": "Ramon Abatti Abel",
+        "country": "BRA",
+        "games": 134,
+        "yellowsPg": 5.04,
+        "redsPg": 0.32,
+        "note": "The CBF referee page (FIFA-PRO, from Araranguá, SC) lists him for this game, Série A Jogo 349, and Terra and statz.ai name him too (assistants Nailton Júnior de Sousa Oliveira and Alexandre de Medeiros Lodetti, VAR Pablo Ramon Gonçalves Pinheiro). statz.ai's profile only covers his World Cup and qualifier games (3 games: 3.33 yellows, 29.33 fouls, 0 reds), so the figures here are his career Série A line from Statshub: 134 games, 676 yellows and 43 reds. Statshub has no 2026 split and no fouls, so foulsPg is left out. The CBF lists 19 Série A games for him in 2026, including Vitória x Remo (28 Jan), Mirassol x Vitória (13 Sep), Bahia x Bragantino (18 Mar) and Cruzeiro x Bragantino (12 Apr). The statz.ai Ramon Abatti Abel page was blocked."
+      },
+      "odds": {
+        "dnb": {
+          "home": 1.83,
+          "away": 1.83
+        },
+        "dc": {
+          "12": 1.29,
+          "1X": 1.5,
+          "X2": 1.44
+        },
+        "wtn": {
+          "home": 5,
+          "away": 5
+        },
+        "firstGoal": {
+          "home": 1.95,
+          "away": 1.91
+        },
+        "h": 2.8,
+        "d": 3.5,
+        "a": 2.59,
+        "ou": {
+          "1.5": [
+            1.25,
+            4.14
+          ],
+          "2.5": [
+            1.819,
+            2.07
+          ],
+          "3.5": [
+            2.97,
+            1.418
+          ],
+          "4.5": [
+            5.55,
+            1.163
+          ]
+        },
+        "btts": [
+          1.636,
+          2.34
+        ],
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.78,
+            "away": 1.487
+          },
+          {
+            "line": 0,
+            "home": 2.03,
+            "away": 1.877
+          },
+          {
+            "line": 0.5,
+            "home": 1.555,
+            "away": 2.57
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.724,
+            2.06
+          ],
+          "10.5": [
+            2.12,
+            1.684
+          ]
+        },
+        "cards": {
+          "4.5": [
+            1.632,
+            2.21
+          ],
+          "5.5": [
+            2.29,
+            1.591
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.68,
+          "d": 3.57,
+          "a": 2.51,
+          "ou": {
+            "0.5": [
+              1.01,
+              12.7
+            ],
+            "1.5": [
+              1.22,
+              3.94
+            ],
+            "2.5": [
+              1.75,
+              2
+            ],
+            "3.5": [
+              2.98,
+              1.36
+            ],
+            "4.5": [
+              5.75,
+              1.11
+            ],
+            "5.5": [
+              12.4,
+              1.01
+            ]
+          },
+          "btts": [
+            1.64,
+            2.19
+          ],
+          "text": "1X2 2.68/3.57/2.51, O/U 2.5 1.75/2"
+        }
+      },
+      "form20": {
+        "note": "KickOff 20-game form: each side's last 20 league games overall (Vitória 17-31, W5 D4 L11; Bragantino 27-23, W7 D6 L7). KickOff gives xG only as season averages, so xgf/xga are season figures. Venue splits: Vitória's last 20 at home were 26-16 (W12 D3 L5, 13 clean sheets); Bragantino's last 20 away were 17-27 (W5 D5 L10). The page's table labels are muddled, so the labels used here are the ones that match its own averages (Vitória 1.3 scored and 0.8 conceded at home; Bragantino 0.9 and 1.4 away). KickOff also notes Vitória have gone five Série A games without scoring more than once.",
+        "home": {
+          "gf": 0.85,
+          "ga": 1.55,
+          "xgf": 1,
+          "xga": 1.5
+        },
+        "away": {
+          "gf": 1.35,
+          "ga": 1.15,
+          "xgf": 1.5,
+          "xga": 1.4
+        }
+      },
+      "season": {
+        "note": "statz.ai match page, 2026 per-game averages (no home/away split given). Vitória score the 2nd-fewest goals (1.03 a game) and have the league's lowest BTTS rate (41%) but the 4th-highest clean-sheet rate (32%). Bragantino have the 3rd-most shots on target (5.47) and 2nd-most corners (6.12). Tackles: Vitória 16.1, Bragantino 14.9. Brasileirão venue splits (statz.ai team pages): Vitória 23-16 at home, Bragantino 15-21 away, 17 games each.",
+        "home": {
+          "corners": 4.4,
+          "fouls": 12.2,
+          "shots": 11.8,
+          "sot": 4.2,
+          "gf": 1.03,
+          "ga": 1.5
+        },
+        "away": {
+          "corners": 6.12,
+          "fouls": 13.3,
+          "shots": 17,
+          "sot": 5.47,
+          "gf": 1.29,
+          "ga": 1.15
+        }
+      },
+      "lineups": {
+        "status": "predicted",
+        "source": "statz.ai match page (4-2-3-1) and Sports Mole (17 Nov), which have the same elevens.",
+        "home": {
+          "formation": "4-2-3-1",
+          "xi": [
+            "Lucas Arcanjo",
+            "Mateusinho",
+            "Cacá",
+            "Emanuel Brítez",
+            "Jamerson",
+            "Caíque Gonçalves",
+            "Emmanuel Martínez",
+            "Baralhas",
+            "Erick",
+            "Matheuzinho",
+            "Renê"
+          ],
+          "bench": []
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "xi": [
+            "Tiago Volpi",
+            "Ryan Augusto",
+            "Gustavo Marques",
+            "Guzmán Rodríguez",
+            "Juninho Capixaba",
+            "Fabinho",
+            "Eric Ramires",
+            "Henry Mosquera",
+            "Wallace Yan",
+            "José Herrera",
+            "Eduardo Sasha"
+          ],
+          "bench": []
+        },
+        "alt": "Lance (19 Nov) and Terra (18 Nov) both have Vitória as Lucas Arcanjo; Brítez, Cacá, Luan Cândido, Jamerson; Caíque, Baralhas, Emmanuel Martínez, Matheuzinho; Erick, Renê. That XI includes Luan Cândido, though Terra itself and Sports Mole say he can't face his parent club, and it leaves out Mateusinho. Their Bragantino XI is Volpi; Ryan Augusto, Gustavo Marques (or Alix Vinícius), Guzmán Rodríguez, Juninho Capixaba; Fabinho, Eric Ramires, Eduardo Sasha; Herrera, Wallace Yan, Fernando, with Fernando in place of Henry Mosquera."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "New coach: Jair Ventura was sacked after the 3-0 home defeat to Fluminense, and Rafael Lacerda (ex-Chapecoense) takes charge for the first time.",
+          "src": "Sports Mole; Terra; Lance"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Luan Cândido and Nacho Laquintana are on loan from Bragantino and their loan terms keep them out of this game. The same clause ruled out Luan Cândido and Nathan Mendes for the reverse fixture in May (A Tarde).",
+          "src": "Sports Mole; Terra; A Tarde"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Nathan Mendes, Fabiano Souza, Edu, Camutanga and Riccieli are injured, and Dudu is also unavailable.",
+          "src": "Terra; Sports Mole"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Ramon (thigh; 29 fouls and 36 tackles in 20 games, statz.ai) has recovered and may be in the squad, per Lance. Terra and Sports Mole still list him injured.",
+          "src": "Lance; Terra; Sports Mole"
+        },
+        {
+          "team": "home",
+          "tag": "back",
+          "text": "Centre-back Emanuel Brítez is back from suspension.",
+          "src": "Lance; Sports Mole"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Vitória are 15th on 38 points, one point above the relegation zone (Corinthians 17th and Grêmio on 37), with no win in five league games; a defeat could drop them into the Z4.",
+          "src": "Terra; Lance"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Lucas Barbosa is suspended after his third yellow card. He leads Bragantino with 99 shots and 7 goals in 39 games (statz.ai) and 7 Série A goals (FotMob).",
+          "src": "Lance; Terra; Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Rodriguinho and Davi Gomes are with the medical department.",
+          "src": "Lance; Terra; Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "José Hurtado is a doubt with a thigh problem.",
+          "src": "Terra; Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Isidro Pitta (9 goals and 78 shots in 40 games, statz.ai; 5 Série A goals, FotMob) is in none of the predicted XIs, and none of the previews says why.",
+          "src": "statz.ai; Sports Mole; Lance"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Bragantino are 8th on 47 points and chasing the G6 and a 2027 Libertadores preliminary place. They have not won away from home in six months.",
+          "src": "Lance; Terra"
+        }
+      ],
+      "players": {
+        "home": [
+          {
+            "name": "Renê",
+            "pos": "FW",
+            "start": 0.9,
+            "goals": 10,
+            "shots": 56,
+            "note": "Vitória's top scorer: 10 goals, 56 shots (2.15 a game) and 29 on target (1.12) in 26 games (statz.ai; KickOff also has 10). Over the last 10 games: 5 goals, 17 shots and 9 on target. 1+ fouls in 6 of his last 10, averaging 0.9 (statz.ai bet builder). In every predicted XI."
+          },
+          {
+            "name": "Erick",
+            "pos": "AM",
+            "start": 0.85,
+            "goals": 5,
+            "shots": 42,
+            "assists": 6,
+            "note": "5 goals, 6 assists (the club's most), 42 shots and 14 on target in 32 games (statz.ai). Over the last 10 games: 3 goals, 16 shots and 10 fouls. 2+ shots in 5 of his last 10, averaging 1.6 (statz.ai bet builder). In every predicted XI."
+          },
+          {
+            "name": "Matheuzinho",
+            "pos": "AM",
+            "start": 0.85,
+            "goals": 5,
+            "shots": 39,
+            "assists": 4,
+            "note": "5 goals, 4 assists, 39 shots and 18 on target in 31 games, 5 yellows (statz.ai). 2 goals in the last 10 games. In every predicted XI."
+          },
+          {
+            "name": "Jamerson",
+            "pos": "DF",
+            "start": 0.85,
+            "note": "Left-back: 40 tackles (1.90 a game) in 21 games (statz.ai). Over the last 10 games he has 13 shots and 5 on target, the team's 3rd- and 2nd-highest. He has had a shot in 4 of his last 5 games, including two games with 3, and has made a tackle in five straight (statz.ai preview, bet365 1.25 for 1+ shots). In every predicted XI."
+          },
+          {
+            "name": "Emmanuel Martínez",
+            "pos": "MF",
+            "start": 0.85,
+            "note": "37 fouls (1.32 a game), 43 tackles (1.54) and 8 yellows in 28 games (statz.ai). In every predicted XI."
+          },
+          {
+            "name": "Baralhas",
+            "pos": "MF",
+            "start": 0.85,
+            "goals": 2,
+            "assists": 3,
+            "note": "32 fouls (1.60 a game), 2 goals and 3 assists in 20 games (statz.ai). In every predicted XI."
+          },
+          {
+            "name": "Caíque Gonçalves",
+            "pos": "MF",
+            "start": 0.85,
+            "note": "51 tackles (1.76 a game), 27 fouls (0.93) and 5 yellows in 29 games (statz.ai). In every predicted XI."
+          },
+          {
+            "name": "Renato Kayzer",
+            "pos": "FW",
+            "start": 0.3,
+            "goals": 5,
+            "shots": 29,
+            "note": "5 goals, 29 shots and 13 on target in 25 games (statz.ai); 4 shots on target over the last 10 games. Not in any predicted XI."
+          }
+        ],
+        "away": [
+          {
+            "name": "Juninho Capixaba",
+            "pos": "DF",
+            "start": 0.9,
+            "tackles90": 2.2,
+            "note": "Left-back: 76 tackles (2.05 a game), 63 fouls (1.70) and 14 yellows in 37 games (statz.ai); 13 fouls in the last 10 games. He has made a tackle in 19 straight games (statz.ai preview, bet365 1.06 for a 20th), but 2+ tackles in only 5 of his last 10 (statz.ai bet builder). Tackles per 90 and 12 Série A yellows from FotMob (2,644 min). KickOff lists him as joint top scorer with 3. In every predicted XI."
+          },
+          {
+            "name": "Eduardo Sasha",
+            "pos": "FW",
+            "start": 0.85,
+            "goals": 4,
+            "sot90": 0.9,
+            "note": "4 goals and 23 shots on target in 33 games (statz.ai); 8 on target over the last 10 games. FotMob (Série A 2026): xG 7.2, 0.44 xG per 90, 0.9 on target per 90, 8 big chances missed. Lone striker in the statz.ai and Sports Mole XIs; Lance has him deeper behind Fernando."
+          },
+          {
+            "name": "Wallace Yan",
+            "pos": "FW",
+            "start": 0.85,
+            "assists": 3,
+            "note": "Bragantino's form player: 3 goals, 29 shots and 17 on target over the last 10 games (statz.ai), and he scored his third goal in two games against Santos (Sports Mole). statz.ai lists only 9 appearances and 3 assists for him this season, so no season shot total is given. He has made a tackle in nine straight games (statz.ai preview, bet365 1.44). In every predicted XI."
+          },
+          {
+            "name": "José Herrera",
+            "pos": "AM",
+            "start": 0.85,
+            "shots": 53,
+            "sot90": 1,
+            "note": "53 shots (1.47 a game), 20 on target and 32 fouls in 36 games, plus 2 yellows in the last 10 games (statz.ai). 2+ shots in 6 of his last 10, averaging 1.9 (statz.ai bet builder). FotMob gives 1.0 shots on target per 90. In every predicted XI."
+          },
+          {
+            "name": "Fernando",
+            "pos": "FW",
+            "start": 0.5,
+            "goals": 6,
+            "shots": 60,
+            "shots90": 4,
+            "sot90": 1.4,
+            "note": "6 goals, 60 shots (2.31 a game) and 23 on target in 26 games (statz.ai), and the team's most shots over the last 10 games (36, 12 on target). FotMob's Série A figures: 3 goals, 4.0 shots and 1.4 on target per 90, 0.51 xG per 90 and 9 big chances missed. Starts in the Lance and Terra XI, not in the statz.ai or Sports Mole XIs."
+          },
+          {
+            "name": "Henry Mosquera",
+            "pos": "AM",
+            "start": 0.6,
+            "assists": 5,
+            "shots90": 2.8,
+            "note": "5 assists and 8 yellows in 31 games (statz.ai); 1 goal in the last 10 games. FotMob: 2.8 shots per 90, xA 4.1 and 5.6 successful dribbles per 90. In the statz.ai and Sports Mole XIs, but Lance and Terra have Fernando instead."
+          },
+          {
+            "name": "Guzmán Rodríguez",
+            "pos": "DF",
+            "start": 0.85,
+            "note": "Centre-back: 11 fouls over the last 10 games (statz.ai). He has committed a foul in five straight games (statz.ai preview, bet365 1.33), but in only 6 of his last 10, averaging 1.1 (statz.ai bet builder). 2 penalties conceded (FotMob). In every predicted XI."
+          },
+          {
+            "name": "Ryan Augusto",
+            "pos": "DF",
+            "start": 0.85,
+            "note": "Right-back. bet365 1.44 for 1+ shots, with an 80% hit rate in the statz.ai bet builder (sample not stated). No season or per-90 numbers found. In every predicted XI."
+          },
+          {
+            "name": "Fabinho",
+            "pos": "MF",
+            "start": 0.85,
+            "fouls90": 1.9,
+            "note": "1.9 fouls committed per 90, 3rd at the club, and 2 red cards this season (FotMob, Série A 2026). In every predicted XI."
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Juninho Capixaba",
+          "market": "1+ tackles",
+          "odds": 1.06,
+          "hit": "5/5"
+        },
+        {
+          "player": "Wallace Yan",
+          "market": "1+ tackles",
+          "odds": 1.44,
+          "hit": "5/5"
+        },
+        {
+          "player": "Guzmán Rodríguez",
+          "market": "1+ fouls",
+          "odds": 1.33,
+          "hit": "5/5"
+        },
+        {
+          "player": "Jamerson",
+          "market": "1+ shots",
+          "odds": 1.25,
+          "hit": "4/5"
+        },
+        {
+          "player": "Ryan Augusto",
+          "market": "1+ shots",
+          "odds": 1.44
+        }
+      ],
+      "benchmarks": {
+        "statz": {
+          "h": 0.32,
+          "d": 0.28,
+          "a": 0.4,
+          "xg": [
+            1.25,
+            1.42
+          ]
+        },
+        "kickoff": {
+          "h": 0.38,
+          "d": 0.27,
+          "a": 0.35
+        }
+      },
+      "sources": [
+        {
+          "title": "KickOff: Vitória v Bragantino odds & stats (bet365 extras, 20-game form)",
+          "url": "https://www.kickoff.co.uk/brazillian-serie-a-predictions-stats-odds/vitoria-br-vs-bragantino/"
+        },
+        {
+          "title": "Statz.ai: Vitória vs Bragantino stats, predicted lineups, referee",
+          "url": "https://statz.ai/h2h/19621731"
+        },
+        {
+          "title": "Statz.ai: Vitória vs Bragantino predictions & betting tips (bet365 props)",
+          "url": "https://statz.ai/news/19621731-vitoria-vs-bragantino-predictions-betting-tips"
+        },
+        {
+          "title": "Statz.ai: Vitória team stats 2026",
+          "url": "https://statz.ai/team/vitoria"
+        },
+        {
+          "title": "Statz.ai: Bragantino team stats 2026",
+          "url": "https://statz.ai/team/bragantino"
+        },
+        {
+          "title": "Statz.ai: referee Ramon Abatti (World Cup games only)",
+          "url": "https://statz.ai/referee/ramon-abatti"
+        },
+        {
+          "title": "CBF: referee Ramon Abatti Abel, 2026 appointments (Vitória x Red Bull Bragantino, Jogo 349)",
+          "url": "https://www.cbf.com.br/a-cbf/arbitragem/arbitros/16181/2026"
+        },
+        {
+          "title": "Statshub: Ramon Abatti referee stats (career Série A)",
+          "url": "https://statshub.com/pt/referee/abel-ramon-abatti/787576"
+        },
+        {
+          "title": "Terra: Vitória x Bragantino, onde assistir, escalações e arbitragem (18 Nov)",
+          "url": "https://www.terra.com.br/esportes/futebol/vitoria-x-bragantino-onde-assistir-escalacoes-e-arbitragem,d0e717218ade207ccea58cee7678f39craviifoc.html"
+        },
+        {
+          "title": "Lance: Vitória x Red Bull Bragantino, onde assistir, horário e escalações (19 Nov)",
+          "url": "https://www.lance.com.br/onde-assistir/vitoria-x-red-bull-bragantino-onde-assistir-horario-e-escalacoes.html"
+        },
+        {
+          "title": "Sports Mole: Vitória vs Bragantino prediction, team news, lineups (17 Nov)",
+          "url": "https://www.sportsmole.co.uk/football/vitoria/preview/vitoria-vs-bragantino-prediction-team-news-lineups_609281.html"
+        },
+        {
+          "title": "A Tarde: Vitória perde dois titulares para encarar o Bragantino (May 2026, loan clause)",
+          "url": "https://atarde.com.br/esportes/ecvitoria/vitoria-perde-dois-titulares-para-encarar-o-bragantino-no-brasileirao-1388661"
+        },
+        {
+          "title": "FotMob: Red Bull Bragantino player stats (Série A 2026 per-90s)",
+          "url": "https://www.fotmob.com/teams/109705/stats/red-bull-bragantino/players"
+        }
+      ]
+    }
+  ]
+}

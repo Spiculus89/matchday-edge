@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T09:15:07.808Z",
+  "updated": "2026-11-19T09:34:53.000Z",
   "note": "Every graded pick shown on the site. p = the chance shown at the time (bookmaker-implied for player props, which had no model then).",
   "legs": [
     {
@@ -1620,6 +1620,132 @@
       "pick": "Alexandru Cicâldău 2+ shots",
       "p": 0.329,
       "odds": 2.38,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "ptg-run",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.519,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "ute-sab",
+      "group": "Handicap",
+      "pick": "Utebo +1.5 (Asian handicap) (best bet)",
+      "p": 0.657,
+      "odds": 1.518,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "ute-sab",
+      "group": "Goals",
+      "pick": "Under 3.5 goals",
+      "p": 0.732,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "ute-sab",
+      "group": "Bet builder",
+      "pick": "Sabadell to win + Over 1.5 goals",
+      "p": 0.467,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "alc-mll",
+      "group": "Handicap",
+      "pick": "Alcoyano +1.5 (Asian handicap) (best bet)",
+      "p": 0.64,
+      "odds": 1.537,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "alc-mll",
+      "group": "Goals",
+      "pick": "Under 3.5 goals",
+      "p": 0.732,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "alc-mll",
+      "group": "Bet builder",
+      "pick": "Mallorca to win + Over 1.5 goals",
+      "p": 0.483,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "bad-tfe",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.489,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "dmi-car",
+      "group": "Double chance",
+      "pick": "Minera or draw (best bet)",
+      "p": 0.638,
+      "odds": 1.6,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "reu-bar",
+      "group": "Double chance",
+      "pick": "Reus or draw (best bet)",
+      "p": 0.552,
+      "odds": 1.8,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "reu-bar",
+      "group": "Bet builder",
+      "pick": "Barakaldo or draw + Over 1.5 goals",
+      "p": 0.51,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "aat-mel",
+      "group": "Goals",
+      "pick": "Under 3.5 goals",
+      "p": 0.729,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-18",
+      "match": "aat-mel",
+      "group": "Bet builder",
+      "pick": "Under 3.5 goals + BTTS: No",
+      "p": 0.437,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "cfc-san",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.459,
+      "odds": null,
       "won": false
     }
   ]

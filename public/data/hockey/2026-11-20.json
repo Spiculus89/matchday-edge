@@ -1,0 +1,1597 @@
+{
+  "date": "2026-11-20",
+  "updated": "2026-11-19T09:35:50.000Z",
+  "updateNote": "NHL, Thursday night in North America (after midnight here): six of the twelve games. Prices are Pinnacle via OddsPapi from this morning (AdmiralBet BA where Pinnacle had none yet: Carolina v Montreal, Colorado v Anaheim); the evening odds run refreshes them. Starting goalies are Daily Faceoff projections until the 00:45 run confirms them. Six NHL games on the night of 19 Nov US time (00:00-03:00 UTC on 20 Nov), with start times confirmed by Daily Faceoff; records and team stats are from theScore, player stats from ESPN and Stats Crew, injuries from CBS Sports and goalies from Daily Faceoff (only Dobes confirmed). No priced player props were found, so props are omitted.",
+  "games": [
+    {
+      "id": "buf-wsh",
+      "league": "NHL",
+      "start": "2026-11-20T00:00:00Z",
+      "venue": "Capital One Arena, Washington",
+      "home": {
+        "name": "Washington Capitals",
+        "short": "Capitals",
+        "code": "WSH"
+      },
+      "away": {
+        "name": "Buffalo Sabres",
+        "short": "Sabres",
+        "code": "BUF"
+      },
+      "context": "Buffalo (8-9-4) visit Washington (10-9-0), who lost 5-2 at Tampa Bay on Tuesday; Washington won the previous meeting 4-3 on 24 Oct. The Capitals allow 3.68 goals a game (29th) and Buffalo 3.48 (24th), and both penalty kills rank in the bottom third. Tage Thompson leads Buffalo with 13 goals and Alex Tuch has 12 for Washington. Daily Faceoff projects Ukko-Pekka Luukkonen (3.51 GAA, .867) against Logan Thompson (3.23 GAA, .885), neither confirmed.",
+      "form": {
+        "home": {
+          "gf": 3.37,
+          "ga": 3.68,
+          "sog": 28.2,
+          "games": 19
+        },
+        "away": {
+          "gf": 2.76,
+          "ga": 3.48,
+          "sog": 27.5,
+          "games": 21
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Dylan Strome",
+            "pos": "C",
+            "gp": 19,
+            "g": 3,
+            "a": 13,
+            "sog": 41
+          },
+          {
+            "name": "Cole Hutson",
+            "pos": "D",
+            "gp": 19,
+            "g": 5,
+            "a": 10,
+            "sog": 41
+          },
+          {
+            "name": "Ryan Leonard",
+            "pos": "RW",
+            "gp": 19,
+            "g": 8,
+            "a": 7,
+            "sog": 51
+          },
+          {
+            "name": "Alex Tuch",
+            "pos": "RW",
+            "gp": 19,
+            "g": 12,
+            "a": 2,
+            "sog": 48
+          },
+          {
+            "name": "Logan Thompson",
+            "pos": "G",
+            "note": "7-6-0, 3.23 GAA, .885 SV%; expected, not confirmed (Daily Faceoff)"
+          },
+          {
+            "name": "Rasmus Sandin",
+            "pos": "D",
+            "status": "Out (knee, IR)"
+          },
+          {
+            "name": "Vincent Desharnais",
+            "pos": "D",
+            "status": "Out (abdomen, IR)"
+          }
+        ],
+        "away": [
+          {
+            "name": "Tage Thompson",
+            "pos": "C",
+            "gp": 21,
+            "g": 13,
+            "a": 10,
+            "sog": 85
+          },
+          {
+            "name": "Jack Quinn",
+            "pos": "RW",
+            "gp": 21,
+            "g": 9,
+            "a": 10,
+            "sog": 61
+          },
+          {
+            "name": "Zach Benson",
+            "pos": "LW",
+            "gp": 21,
+            "g": 2,
+            "a": 14,
+            "sog": 51
+          },
+          {
+            "name": "Owen Power",
+            "pos": "D",
+            "gp": 21,
+            "g": 3,
+            "a": 12,
+            "sog": 25
+          },
+          {
+            "name": "Ukko-Pekka Luukkonen",
+            "pos": "G",
+            "note": "5-4-3, 3.51 GAA, .867 SV%; expected, not confirmed (Daily Faceoff)"
+          },
+          {
+            "name": "Konsta Helenius",
+            "pos": "C",
+            "status": "Out (upper body, IR)"
+          },
+          {
+            "name": "Justin Danforth",
+            "pos": "RW",
+            "status": "Out (upper body, IR)"
+          },
+          {
+            "name": "Matt Grzelcyk",
+            "pos": "D",
+            "status": "Out (lower body, IR)"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Defencemen Rasmus Sandin (knee, until at least 25 Nov) and Vincent Desharnais (abdomen, until at least 5 Dec) are on injured reserve.",
+          "src": "CBS Sports"
+        },
+        {
+          "team": "home",
+          "text": "Washington lost 5-2 at Tampa Bay on Tuesday. Logan Thompson is the projected starter, unconfirmed.",
+          "src": "NHL.com (Oilers preview) / Daily Faceoff"
+        },
+        {
+          "team": "away",
+          "text": "Konsta Helenius (upper body, until at least 21 Nov), Justin Danforth (upper body) and Matt Grzelcyk (lower body) are on injured reserve.",
+          "src": "CBS Sports"
+        },
+        {
+          "team": "away",
+          "text": "Ukko-Pekka Luukkonen is the projected starter, unconfirmed.",
+          "src": "Daily Faceoff"
+        }
+      ],
+      "lineups": {
+        "status": "expected",
+        "home": [
+          "Logan Thompson"
+        ],
+        "away": [
+          "Ukko-Pekka Luukkonen"
+        ]
+      },
+      "sources": [
+        {
+          "title": "theScore: Sabres vs Capitals matchup (records, team stats)",
+          "url": "https://www.thescore.com/nhl/event/35332"
+        },
+        {
+          "title": "CBS Sports: BUF@WAS game preview and injuries",
+          "url": "https://www.cbssports.com/nhl/gametracker/preview/NHL_20261119_BUF@WAS/"
+        },
+        {
+          "title": "ESPN: Washington Capitals skating stats",
+          "url": "https://www.espn.com/nhl/team/stats/_/name/wsh/washington-capitals"
+        },
+        {
+          "title": "ESPN: Buffalo Sabres skating stats",
+          "url": "https://www.espn.com/nhl/team/stats/_/name/buf/buffalo-sabres"
+        },
+        {
+          "title": "CBS Sports: NHL injuries",
+          "url": "https://www.cbssports.com/nhl/injuries/"
+        },
+        {
+          "title": "Daily Faceoff: starting goalies 19 Nov",
+          "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-19"
+        }
+      ],
+      "odds": {
+        "ml": [
+          1.757,
+          2.17
+        ],
+        "reg": [
+          2.18,
+          4.25,
+          2.75
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.68,
+          "u": 2.23
+        },
+        "totalReg": {
+          "line": 6.5,
+          "o": 2.09,
+          "u": 1.787
+        },
+        "btts": [
+          1.05,
+          7.8
+        ],
+        "total": {
+          "line": 6.5,
+          "o": 1.84,
+          "u": 2.04
+        },
+        "teamTotal": {
+          "home": {
+            "line": 3.5,
+            "o": 2,
+            "u": 1.826
+          },
+          "away": {
+            "line": 3.5,
+            "o": 2.36,
+            "u": 1.602
+          }
+        },
+        "puck": {
+          "line": -1.5,
+          "h": 2.82,
+          "a": 1.467
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.72,
+            2.09
+          ],
+          "reg": [
+            2.18,
+            4.2,
+            2.75
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.63,
+            "u": 2.14
+          },
+          "totalReg": {
+            "line": 6.5,
+            "o": 2.01,
+            "u": 1.75
+          },
+          "btts": [
+            1.05,
+            7.8
+          ],
+          "text": "win 1.72/2.09"
+        }
+      }
+    },
+    {
+      "id": "lak-tor",
+      "league": "NHL",
+      "start": "2026-11-20T00:00:00Z",
+      "venue": "Scotiabank Arena, Toronto",
+      "home": {
+        "name": "Toronto Maple Leafs",
+        "short": "Maple Leafs",
+        "code": "TOR"
+      },
+      "away": {
+        "name": "Los Angeles Kings",
+        "short": "Kings",
+        "code": "LAK"
+      },
+      "context": "Los Angeles (6-11-2) visit Toronto (8-13-2), who have lost seven straight and are 1-9-0 in their last 10 and 4-9-1 at home; the Kings won their last game and the teams' last meeting was a 7-6 Kings win on 4 Apr. Auston Matthews leads Toronto with 30 points (12 G, 18 A), but the Leafs are without Max Domi (back) and Kirill Marchenko (lower body) on injured reserve. Artemi Panarin, the Kings' points leader (19 in 17 games), was listed out until at least 19 Nov for personal reasons. Daily Faceoff projects Darcy Kuemper (3.26 GAA, .884) against Anthony Stolarz (2.69 GAA, .905), neither confirmed.",
+      "form": {
+        "home": {
+          "gf": 3.13,
+          "ga": 3.52,
+          "sog": 27.9,
+          "games": 23
+        },
+        "away": {
+          "gf": 2.74,
+          "ga": 3.32,
+          "sog": 27.8,
+          "games": 19
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Auston Matthews",
+            "pos": "C",
+            "gp": 23,
+            "g": 12,
+            "a": 18,
+            "sog": 72
+          },
+          {
+            "name": "William Nylander",
+            "pos": "RW",
+            "gp": 23,
+            "g": 11,
+            "a": 11,
+            "sog": 60
+          },
+          {
+            "name": "Jack Roslovic",
+            "pos": "C",
+            "gp": 22,
+            "g": 9,
+            "a": 12,
+            "sog": 59
+          },
+          {
+            "name": "Easton Cowan",
+            "pos": "RW",
+            "gp": 23,
+            "g": 8,
+            "a": 9,
+            "sog": 46
+          },
+          {
+            "name": "Anthony Stolarz",
+            "pos": "G",
+            "note": "5-4-0, 2.69 GAA, .905 SV%; expected, not confirmed (Daily Faceoff); theScore lists Sergei Bobrovsky (3-9-2, 3.65 GAA, .874)"
+          },
+          {
+            "name": "Max Domi",
+            "pos": "C",
+            "status": "Out (back, IR)"
+          },
+          {
+            "name": "Kirill Marchenko",
+            "pos": "RW",
+            "status": "Out (lower body, IR)",
+            "gp": 14,
+            "g": 6,
+            "a": 8,
+            "sog": 35
+          },
+          {
+            "name": "Miles Wood",
+            "pos": "LW",
+            "status": "Out (undisclosed, IR)"
+          },
+          {
+            "name": "Elvis Merzlikins",
+            "pos": "G",
+            "status": "Out (shoulder, IR)"
+          }
+        ],
+        "away": [
+          {
+            "name": "Artemi Panarin",
+            "pos": "LW",
+            "gp": 17,
+            "g": 8,
+            "a": 11,
+            "sog": 56,
+            "status": "Doubtful (personal; CBS lists out until at least 19 Nov)"
+          },
+          {
+            "name": "Brandt Clarke",
+            "pos": "D",
+            "gp": 19,
+            "g": 3,
+            "a": 11,
+            "sog": 29
+          },
+          {
+            "name": "Alex Laferriere",
+            "pos": "RW",
+            "gp": 19,
+            "g": 3,
+            "a": 10,
+            "sog": 57
+          },
+          {
+            "name": "Adrian Kempe",
+            "pos": "RW",
+            "gp": 18,
+            "g": 6,
+            "a": 7,
+            "sog": 56
+          },
+          {
+            "name": "Darcy Kuemper",
+            "pos": "G",
+            "note": "6-5-1, 3.26 GAA, .884 SV%; expected, not confirmed (Daily Faceoff)"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "On injured reserve: Max Domi (back, until at least 30 Jan), Kirill Marchenko (lower body, until at least 23 Nov), Miles Wood (undisclosed, until at least 30 Nov), defencemen Nick Blankenburg and Marshall Rifai (until at least 23 Nov) and goalie Elvis Merzlikins (shoulder). Colton Sissons (lower body, IR) was listed out until at least 19 Nov.",
+          "src": "CBS Sports"
+        },
+        {
+          "team": "home",
+          "text": "Toronto have lost seven in a row (1-9-0 in the last 10). Anthony Stolarz is Daily Faceoff's projected starter, unconfirmed; theScore's matchup page shows Sergei Bobrovsky instead.",
+          "src": "theScore / Daily Faceoff"
+        },
+        {
+          "team": "away",
+          "text": "Artemi Panarin (personal) was listed out until at least 19 Nov; Kings defenceman Jakub Dvorak is on injured reserve per Sportbusy.",
+          "src": "CBS Sports / Sportbusy"
+        },
+        {
+          "team": "away",
+          "text": "Darcy Kuemper is the projected starter, not yet confirmed.",
+          "src": "Daily Faceoff"
+        }
+      ],
+      "lineups": {
+        "status": "expected",
+        "home": [
+          "Anthony Stolarz"
+        ],
+        "away": [
+          "Darcy Kuemper"
+        ]
+      },
+      "sources": [
+        {
+          "title": "theScore: Kings vs Maple Leafs matchup (records, team stats)",
+          "url": "https://www.thescore.com/nhl/event/35328"
+        },
+        {
+          "title": "Sportbusy: Kings at Maple Leafs 19 Nov",
+          "url": "https://www.sportbusy.com/games/nhl/14173682-los-angeles-kings-at-toronto-maple-leafs-2026-11-19/"
+        },
+        {
+          "title": "ESPN: Toronto Maple Leafs skating stats",
+          "url": "https://www.espn.com/nhl/team/stats/_/name/tor/toronto-maple-leafs"
+        },
+        {
+          "title": "ESPN: Los Angeles Kings skating stats",
+          "url": "https://www.espn.com/nhl/team/stats/_/name/la/los-angeles-kings"
+        },
+        {
+          "title": "CBS Sports: NHL injuries",
+          "url": "https://www.cbssports.com/nhl/injuries/"
+        },
+        {
+          "title": "Daily Faceoff: starting goalies 19 Nov",
+          "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-19"
+        }
+      ],
+      "odds": {
+        "ml": [
+          1.9,
+          1.98
+        ],
+        "reg": [
+          2.39,
+          4.17,
+          2.5
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.763,
+          "u": 2.1
+        },
+        "totalReg": {
+          "line": 6,
+          "o": 1.961,
+          "u": 1.892
+        },
+        "btts": [
+          1.07,
+          7
+        ],
+        "total": {
+          "line": 6.5,
+          "o": 2.04,
+          "u": 1.84
+        },
+        "teamTotal": {
+          "home": {
+            "line": 3.5,
+            "o": 2.32,
+            "u": 1.625
+          },
+          "away": {
+            "line": 3.5,
+            "o": 2.37,
+            "u": 1.598
+          }
+        },
+        "puck": {
+          "line": -1.5,
+          "h": 3.23,
+          "a": 1.374
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.88,
+            1.89
+          ],
+          "reg": [
+            2.43,
+            4.1,
+            2.45
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.73,
+            "u": 1.99
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.63,
+            "u": 2.2
+          },
+          "btts": [
+            1.07,
+            7
+          ],
+          "text": "win 1.88/1.89"
+        }
+      }
+    },
+    {
+      "id": "mtl-car",
+      "league": "NHL",
+      "start": "2026-11-20T00:00:00Z",
+      "venue": "Lenovo Center, Raleigh",
+      "home": {
+        "name": "Carolina Hurricanes",
+        "short": "Hurricanes",
+        "code": "CAR"
+      },
+      "away": {
+        "name": "Montreal Canadiens",
+        "short": "Canadiens",
+        "code": "MTL"
+      },
+      "context": "Carolina (16-3-2) have won four straight and lead the league in goals (4.14) and goals against (2.19) per game; Montreal (13-5-4) are 8-2-1 on the road and won last time out. Montreal are on the second night of a back-to-back with Jakub Dobes (3.93 GAA, .852) confirmed in goal, and are missing Josh Anderson, Chris Kreider, Mike Matheson, Ivan Demidov and Sam Montembeault. Pyotr Kochetkov (12-1-0, 1.62 GAA, .920) is Daily Faceoff's projected Carolina starter, but CBS listed him day-to-day with an illness on 17 Nov. Carolina won the previous meeting 6-4 on 6 Oct.",
+      "form": {
+        "home": {
+          "gf": 4.14,
+          "ga": 2.19,
+          "sog": 33.3,
+          "games": 21
+        },
+        "away": {
+          "gf": 3.19,
+          "ga": 3.05,
+          "sog": 27.6,
+          "games": 22
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Sebastian Aho",
+            "pos": "C",
+            "gp": 21,
+            "g": 12,
+            "a": 17,
+            "sog": 58
+          },
+          {
+            "name": "Jackson Blake",
+            "pos": "RW",
+            "gp": 21,
+            "g": 6,
+            "a": 15,
+            "sog": 54
+          },
+          {
+            "name": "Andrei Svechnikov",
+            "pos": "LW",
+            "gp": 21,
+            "g": 11,
+            "a": 10,
+            "sog": 63
+          },
+          {
+            "name": "Logan Stankoven",
+            "pos": "C",
+            "gp": 21,
+            "g": 11,
+            "a": 9,
+            "sog": 59
+          },
+          {
+            "name": "Pyotr Kochetkov",
+            "pos": "G",
+            "note": "12-1-0, 1.62 GAA, .920 SV%, 2 shutouts; expected, not confirmed (Daily Faceoff); CBS lists him day-to-day (illness)"
+          }
+        ],
+        "away": [
+          {
+            "name": "Lane Hutson",
+            "pos": "D",
+            "gp": 22,
+            "g": 3,
+            "a": 19,
+            "sog": 43
+          },
+          {
+            "name": "Cole Caufield",
+            "pos": "RW",
+            "gp": 22,
+            "g": 12,
+            "a": 7,
+            "sog": 70
+          },
+          {
+            "name": "Nick Suzuki",
+            "pos": "C",
+            "gp": 16,
+            "g": 9,
+            "a": 9,
+            "sog": 43
+          },
+          {
+            "name": "Juraj Slafkovsky",
+            "pos": "LW",
+            "gp": 22,
+            "g": 2,
+            "a": 12,
+            "sog": 50
+          },
+          {
+            "name": "Jakub Dobes",
+            "pos": "G",
+            "note": "3-3-2, 3.93 GAA, .852 SV%; confirmed starter, second night of a back-to-back (Daily Faceoff, via Eric Engels)"
+          },
+          {
+            "name": "Josh Anderson",
+            "pos": "RW",
+            "status": "Out (lower body, IR)",
+            "gp": 19,
+            "g": 8,
+            "a": 4,
+            "sog": 35
+          },
+          {
+            "name": "Chris Kreider",
+            "pos": "LW",
+            "status": "Out (lower body, IR)"
+          },
+          {
+            "name": "Mike Matheson",
+            "pos": "D",
+            "status": "Out (lower body)"
+          },
+          {
+            "name": "Ivan Demidov",
+            "pos": "RW",
+            "status": "Out (ankle, IR)"
+          },
+          {
+            "name": "Sam Montembeault",
+            "pos": "G",
+            "status": "Out (lower body, IR)"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Pyotr Kochetkov was listed day-to-day with an illness on 17 Nov; he is Daily Faceoff's projected starter but unconfirmed.",
+          "src": "CBS Sports / Daily Faceoff"
+        },
+        {
+          "team": "home",
+          "text": "Carolina have won four straight (8-1-1 in the last 10) and allow a league-low 21.5 shots a game.",
+          "src": "theScore"
+        },
+        {
+          "team": "away",
+          "text": "Jakub Dobes is confirmed in goal on the tail end of a back-to-back; he has a 3.04 GAA and .862 SV% over his last three games.",
+          "src": "Daily Faceoff (Eric Engels)"
+        },
+        {
+          "team": "away",
+          "text": "Out: Josh Anderson (lower body, until at least 14 Dec), Chris Kreider (lower body, until at least 2 Jan), Mike Matheson (lower body, until at least 5 Dec), Ivan Demidov (ankle, until at least 21 Nov), Sam Montembeault (lower body). Alexandre Texier is day-to-day (illness).",
+          "src": "CBS Sports"
+        }
+      ],
+      "lineups": {
+        "status": "expected",
+        "home": [
+          "Pyotr Kochetkov"
+        ],
+        "away": [
+          "Jakub Dobes"
+        ]
+      },
+      "sources": [
+        {
+          "title": "theScore: Canadiens vs Hurricanes matchup (records, team stats)",
+          "url": "https://www.thescore.com/nhl/event/35331"
+        },
+        {
+          "title": "ESPN: Carolina Hurricanes skating stats",
+          "url": "https://www.espn.com/nhl/team/stats/_/name/car/carolina-hurricanes"
+        },
+        {
+          "title": "ESPN: Montreal Canadiens skating stats",
+          "url": "https://www.espn.com/nhl/team/stats/_/name/mtl/montreal-canadiens"
+        },
+        {
+          "title": "CBS Sports: NHL injuries",
+          "url": "https://www.cbssports.com/nhl/injuries/"
+        },
+        {
+          "title": "Daily Faceoff: starting goalies 19 Nov",
+          "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-19"
+        }
+      ],
+      "odds": {
+        "ml": [
+          1.37,
+          3
+        ],
+        "reg": [
+          1.64,
+          4.6,
+          4.3
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.62,
+          "u": 2.15
+        },
+        "totalReg": {
+          "line": 6.5,
+          "o": 1.99,
+          "u": 1.76
+        },
+        "hcpReg": {
+          "line": -1.5,
+          "h": 1.86,
+          "a": 1.88
+        },
+        "btts": [
+          1.07,
+          7
+        ],
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-19 08:53 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.37,
+            3
+          ],
+          "reg": [
+            1.64,
+            4.6,
+            4.3
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.62,
+            "u": 2.15
+          },
+          "totalReg": {
+            "line": 6.5,
+            "o": 1.99,
+            "u": 1.76
+          },
+          "hcpReg": {
+            "line": -1.5,
+            "h": 1.86,
+            "a": 1.88
+          },
+          "btts": [
+            1.07,
+            7
+          ],
+          "text": "win 1.37/3"
+        }
+      }
+    },
+    {
+      "id": "edm-tbl",
+      "league": "NHL",
+      "start": "2026-11-20T00:30:00Z",
+      "venue": "Benchmark International Arena, Tampa",
+      "home": {
+        "name": "Tampa Bay Lightning",
+        "short": "Lightning",
+        "code": "TBL"
+      },
+      "away": {
+        "name": "Edmonton Oilers",
+        "short": "Oilers",
+        "code": "EDM"
+      },
+      "context": "Edmonton (17-3-3) have won six straight and are 10-0-1 on the road; Tampa Bay (14-5-2) are 9-1-0 at home. Both won 5-2 on Tuesday, Edmonton over Florida and Tampa Bay over Washington. Connor McDavid has 55 points (13 G, 42 A) with a point in all 23 games and Leon Draisaitl has 21 goals, though Edmonton are 1-10-2 in their last 13 visits to Tampa. Brandon Hagel (lower body) and Ryan Nugent-Hopkins (undisclosed) were listed out until at least 19 Nov; Daily Faceoff projects Devon Levi against Andrei Vasilevskiy, neither confirmed.",
+      "form": {
+        "home": {
+          "gf": 3.76,
+          "ga": 2.86,
+          "sog": 29.3,
+          "games": 21
+        },
+        "away": {
+          "gf": 3.96,
+          "ga": 2.61,
+          "sog": 24.8,
+          "games": 23
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Nikita Kucherov",
+            "pos": "RW",
+            "gp": 21,
+            "g": 8,
+            "a": 22,
+            "sog": 67
+          },
+          {
+            "name": "Jake Guentzel",
+            "pos": "C",
+            "gp": 21,
+            "g": 13,
+            "a": 13,
+            "sog": 58
+          },
+          {
+            "name": "Brandon Hagel",
+            "pos": "LW",
+            "gp": 20,
+            "g": 13,
+            "a": 11,
+            "sog": 80,
+            "status": "Doubtful (lower body; CBS lists out until at least 19 Nov)"
+          },
+          {
+            "name": "John Carlson",
+            "pos": "D",
+            "gp": 21,
+            "g": 6,
+            "a": 13,
+            "sog": 49
+          },
+          {
+            "name": "Andrei Vasilevskiy",
+            "pos": "G",
+            "note": "10-5-1, 2.69 GAA, .891 SV%; expected, not confirmed (Daily Faceoff)"
+          },
+          {
+            "name": "Conor Geekie",
+            "pos": "C",
+            "status": "Out (upper body, IR)"
+          }
+        ],
+        "away": [
+          {
+            "name": "Connor McDavid",
+            "pos": "C",
+            "gp": 23,
+            "g": 13,
+            "a": 42,
+            "sog": 64
+          },
+          {
+            "name": "Leon Draisaitl",
+            "pos": "C",
+            "gp": 23,
+            "g": 21,
+            "a": 23,
+            "sog": 87
+          },
+          {
+            "name": "Evan Bouchard",
+            "pos": "D",
+            "gp": 23,
+            "g": 12,
+            "a": 25,
+            "sog": 59
+          },
+          {
+            "name": "Vasily Podkolzin",
+            "pos": "RW",
+            "gp": 23,
+            "g": 12,
+            "a": 7,
+            "sog": 46
+          },
+          {
+            "name": "Devon Levi",
+            "pos": "G",
+            "note": "10-1-0, 2.44 GAA, .906 SV%, 1 shutout; expected, not confirmed (Daily Faceoff)"
+          },
+          {
+            "name": "Ryan Nugent-Hopkins",
+            "pos": "C",
+            "gp": 12,
+            "g": 4,
+            "a": 7,
+            "sog": 20,
+            "status": "Doubtful (undisclosed; CBS lists out until at least 19 Nov)"
+          },
+          {
+            "name": "Frederik Andersen",
+            "pos": "G",
+            "status": "Out (knee, IR)"
+          },
+          {
+            "name": "Mattias Janmark",
+            "pos": "C",
+            "status": "Out (undisclosed, IR)"
+          },
+          {
+            "name": "Matthew Savoie",
+            "pos": "C",
+            "status": "Out (lower body, IR)"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Brandon Hagel (lower body) was listed out until at least 19 Nov, Conor Geekie (upper body) is on injured reserve and Zemgus Girgensons (undisclosed) is day-to-day.",
+          "src": "CBS Sports"
+        },
+        {
+          "team": "home",
+          "text": "Tampa Bay beat Washington 5-2 on Tuesday and are 9-1-0 at home; Kucherov has an eight-game point streak against Edmonton.",
+          "src": "NHL.com (Oilers preview)"
+        },
+        {
+          "team": "away",
+          "text": "Edmonton have won six straight; McDavid's season-opening point streak is at 23 games and Draisaitl's at 10. Devon Levi has started six straight games.",
+          "src": "NHL.com (Oilers preview)"
+        },
+        {
+          "team": "away",
+          "text": "Frederik Andersen (knee) is on injured reserve until at least 9 Jan; Ryan Nugent-Hopkins (undisclosed) was listed out until at least 19 Nov; Mattias Janmark, Matthew Savoie and Alec Regula are on injured reserve.",
+          "src": "CBS Sports"
+        }
+      ],
+      "lineups": {
+        "status": "expected",
+        "home": [
+          "Andrei Vasilevskiy"
+        ],
+        "away": [
+          "Devon Levi"
+        ]
+      },
+      "sources": [
+        {
+          "title": "theScore: Oilers vs Lightning matchup (records, team stats)",
+          "url": "https://www.thescore.com/nhl/event/35327"
+        },
+        {
+          "title": "NHL.com: Preview, Oilers at Lightning",
+          "url": "https://www.nhl.com/oilers/news/preview-oilers-at-lightning-11-18-26"
+        },
+        {
+          "title": "ESPN: Tampa Bay Lightning skating stats",
+          "url": "https://www.espn.com/nhl/team/stats/_/name/tb/tampa-bay-lightning"
+        },
+        {
+          "title": "ESPN: Edmonton Oilers skating stats",
+          "url": "https://www.espn.com/nhl/team/stats/_/name/edm/edmonton-oilers"
+        },
+        {
+          "title": "CBS Sports: NHL injuries",
+          "url": "https://www.cbssports.com/nhl/injuries/"
+        },
+        {
+          "title": "Daily Faceoff: starting goalies 19 Nov",
+          "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-19"
+        }
+      ],
+      "odds": {
+        "ml": [
+          1.719,
+          2.23
+        ],
+        "reg": [
+          2.12,
+          4.29,
+          2.83
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.729,
+          "u": 2.15
+        },
+        "totalReg": {
+          "line": 6,
+          "o": 1.943,
+          "u": 1.909
+        },
+        "btts": [
+          1.07,
+          7
+        ],
+        "total": {
+          "line": 6.5,
+          "o": 2.05,
+          "u": 1.826
+        },
+        "teamTotal": {
+          "home": {
+            "line": 3.5,
+            "o": 2.09,
+            "u": 1.757
+          },
+          "away": {
+            "line": 2.5,
+            "o": 1.595,
+            "u": 2.38
+          }
+        },
+        "puck": {
+          "line": -1.5,
+          "h": 2.76,
+          "a": 1.483
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.69,
+            2.13
+          ],
+          "reg": [
+            2.14,
+            4.2,
+            2.85
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.72,
+            "u": 2
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.61,
+            "u": 2.22
+          },
+          "btts": [
+            1.07,
+            7
+          ],
+          "text": "win 1.69/2.13"
+        }
+      }
+    },
+    {
+      "id": "ana-col",
+      "league": "NHL",
+      "start": "2026-11-20T02:00:00Z",
+      "venue": "Ball Arena, Denver",
+      "home": {
+        "name": "Colorado Avalanche",
+        "short": "Avalanche",
+        "code": "COL"
+      },
+      "away": {
+        "name": "Anaheim Ducks",
+        "short": "Ducks",
+        "code": "ANA"
+      },
+      "context": "Colorado (12-7-3) host Anaheim (11-10-1) without Nathan MacKinnon (lower body, out until at least 12 Dec) and Cale Makar (lower body, out until at least 28 Nov), and both teams lost last time out. The Ducks score 3.86 a game with the league's best power play (36%) but also allow 3.86 (30th); Cutter Gauthier has 21 goals in 21 games. Daily Faceoff projects Lukas Dostal (3.93 GAA, .857) against Mackenzie Blackwood (11-3-1, 2.47 GAA, .907), neither confirmed. Colorado won the last meeting 5-1 on 3 Mar.",
+      "form": {
+        "home": {
+          "gf": 4.05,
+          "ga": 3,
+          "sog": 30.2,
+          "games": 22
+        },
+        "away": {
+          "gf": 3.86,
+          "ga": 3.86,
+          "sog": 25.9,
+          "games": 22
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Martin Necas",
+            "pos": "C",
+            "gp": 21,
+            "g": 10,
+            "a": 14,
+            "sog": 44
+          },
+          {
+            "name": "Artturi Lehkonen",
+            "pos": "LW",
+            "gp": 21,
+            "g": 15,
+            "a": 6,
+            "sog": 46
+          },
+          {
+            "name": "Devon Toews",
+            "pos": "D",
+            "gp": 21,
+            "g": 6,
+            "a": 13,
+            "sog": 37
+          },
+          {
+            "name": "Nazem Kadri",
+            "pos": "C",
+            "gp": 21,
+            "g": 5,
+            "a": 12,
+            "sog": 60
+          },
+          {
+            "name": "Mackenzie Blackwood",
+            "pos": "G",
+            "note": "11-3-1, 2.47 GAA, .907 SV%; expected, not confirmed (Daily Faceoff)"
+          },
+          {
+            "name": "Nathan MacKinnon",
+            "pos": "C",
+            "status": "Out (lower body)",
+            "gp": 20,
+            "g": 10,
+            "a": 20,
+            "sog": 71
+          },
+          {
+            "name": "Cale Makar",
+            "pos": "D",
+            "status": "Out (lower body)",
+            "gp": 19,
+            "g": 5,
+            "a": 18,
+            "sog": 49
+          },
+          {
+            "name": "Josh Manson",
+            "pos": "D",
+            "status": "Out (ankle, IR)"
+          },
+          {
+            "name": "Zachary L'Heureux",
+            "pos": "LW",
+            "status": "Out (upper body, IR)"
+          }
+        ],
+        "away": [
+          {
+            "name": "Cutter Gauthier",
+            "pos": "LW",
+            "gp": 21,
+            "g": 21,
+            "a": 8,
+            "sog": 95
+          },
+          {
+            "name": "Leo Carlsson",
+            "pos": "C",
+            "gp": 22,
+            "g": 6,
+            "a": 22,
+            "sog": 39
+          },
+          {
+            "name": "Beckett Sennecke",
+            "pos": "RW",
+            "gp": 21,
+            "g": 12,
+            "a": 14,
+            "sog": 53,
+            "status": "Doubtful (illness; CBS lists out until at least 19 Nov)"
+          },
+          {
+            "name": "Mikael Granlund",
+            "pos": "C",
+            "gp": 21,
+            "g": 8,
+            "a": 18,
+            "sog": 40
+          },
+          {
+            "name": "Lukas Dostal",
+            "pos": "G",
+            "note": "4-5-1, 3.93 GAA, .857 SV%; expected, not confirmed (Daily Faceoff)"
+          },
+          {
+            "name": "Ryan Poehling",
+            "pos": "C",
+            "status": "Out (knee, IR)"
+          },
+          {
+            "name": "A.J. Greer",
+            "pos": "LW",
+            "status": "Out (upper body, IR)"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Nathan MacKinnon (lower body, until at least 12 Dec) and Cale Makar (lower body, until at least 28 Nov) are out; Josh Manson (ankle) and Zachary L'Heureux are on injured reserve. Backup Scott Wedgewood is day-to-day with an illness.",
+          "src": "CBS Sports"
+        },
+        {
+          "team": "home",
+          "text": "Mackenzie Blackwood is the projected starter, unconfirmed.",
+          "src": "Daily Faceoff"
+        },
+        {
+          "team": "away",
+          "text": "Beckett Sennecke (illness) was listed out until at least 19 Nov; Ryan Poehling (knee) and A.J. Greer (upper body) are on injured reserve.",
+          "src": "CBS Sports"
+        },
+        {
+          "team": "away",
+          "text": "Lukas Dostal is the projected starter, unconfirmed.",
+          "src": "Daily Faceoff"
+        }
+      ],
+      "lineups": {
+        "status": "expected",
+        "home": [
+          "Mackenzie Blackwood"
+        ],
+        "away": [
+          "Lukas Dostal"
+        ]
+      },
+      "sources": [
+        {
+          "title": "theScore: Ducks vs Avalanche matchup (records, team stats)",
+          "url": "https://www.thescore.com/nhl/event/35336"
+        },
+        {
+          "title": "ESPN: Colorado Avalanche skating stats",
+          "url": "https://www.espn.com/nhl/team/stats/_/name/col/colorado-avalanche"
+        },
+        {
+          "title": "Stats Crew: 2026-27 Anaheim Ducks statistics",
+          "url": "https://www.statscrew.com/hockey/stats/t-AND/y-2026"
+        },
+        {
+          "title": "CBS Sports: NHL injuries",
+          "url": "https://www.cbssports.com/nhl/injuries/"
+        },
+        {
+          "title": "Daily Faceoff: starting goalies 19 Nov",
+          "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-19"
+        }
+      ],
+      "odds": {
+        "ml": [
+          1.68,
+          2.15
+        ],
+        "reg": [
+          2.11,
+          4.2,
+          2.85
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.61,
+          "u": 2.17
+        },
+        "totalReg": {
+          "line": 6.5,
+          "o": 1.95,
+          "u": 1.79
+        },
+        "btts": [
+          1.05,
+          7.8
+        ],
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-19 08:53 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.68,
+            2.15
+          ],
+          "reg": [
+            2.11,
+            4.2,
+            2.85
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.61,
+            "u": 2.17
+          },
+          "totalReg": {
+            "line": 6.5,
+            "o": 1.95,
+            "u": 1.79
+          },
+          "btts": [
+            1.05,
+            7.8
+          ],
+          "text": "win 1.68/2.15"
+        }
+      }
+    },
+    {
+      "id": "dal-vgk",
+      "league": "NHL",
+      "start": "2026-11-20T03:00:00Z",
+      "venue": "T-Mobile Arena, Las Vegas",
+      "home": {
+        "name": "Vegas Golden Knights",
+        "short": "Golden Knights",
+        "code": "VGK"
+      },
+      "away": {
+        "name": "Dallas Stars",
+        "short": "Stars",
+        "code": "DAL"
+      },
+      "context": "Dallas (13-6-2) have won three straight, including a 4-3 win over Vegas (13-6-4) on 17 Nov, while Vegas have lost three straight. Dallas allow 2.43 goals (3rd) and 23.6 shots (2nd) a game, and Vegas score 3.3 a game. Daily Faceoff projects Jake Oettinger (11-4-1, 2.22 GAA, 4 shutouts) against Carter Hart (6-4-2, 2.74 GAA), neither confirmed. Dallas are without Matt Duchene (abdomen) and Vegas without defencemen Noah Hanifin and Alex Pietrangelo.",
+      "form": {
+        "home": {
+          "gf": 3.3,
+          "ga": 2.83,
+          "sog": 29.4,
+          "games": 23
+        },
+        "away": {
+          "gf": 2.81,
+          "ga": 2.43,
+          "sog": 26.2,
+          "games": 21
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Jack Eichel",
+            "pos": "C",
+            "gp": 22,
+            "g": 9,
+            "a": 18,
+            "sog": 61
+          },
+          {
+            "name": "Mitch Marner",
+            "pos": "RW",
+            "gp": 20,
+            "g": 3,
+            "a": 23,
+            "sog": 48
+          },
+          {
+            "name": "Mark Stone",
+            "pos": "RW",
+            "gp": 22,
+            "g": 11,
+            "a": 10,
+            "sog": 41
+          },
+          {
+            "name": "Tomas Hertl",
+            "pos": "C",
+            "gp": 22,
+            "g": 9,
+            "a": 8,
+            "sog": 55
+          },
+          {
+            "name": "Carter Hart",
+            "pos": "G",
+            "note": "6-4-2, 2.74 GAA, .888 SV%; expected, not confirmed (Daily Faceoff)"
+          },
+          {
+            "name": "Noah Hanifin",
+            "pos": "D",
+            "status": "Out (undisclosed)"
+          },
+          {
+            "name": "Alex Pietrangelo",
+            "pos": "D",
+            "status": "Out (hip, IR)"
+          }
+        ],
+        "away": [
+          {
+            "name": "Mikko Rantanen",
+            "pos": "RW",
+            "gp": 21,
+            "g": 10,
+            "a": 16,
+            "sog": 43
+          },
+          {
+            "name": "Jason Robertson",
+            "pos": "LW",
+            "gp": 21,
+            "g": 10,
+            "a": 14,
+            "sog": 68
+          },
+          {
+            "name": "Roope Hintz",
+            "pos": "C",
+            "gp": 21,
+            "g": 8,
+            "a": 13,
+            "sog": 37
+          },
+          {
+            "name": "Wyatt Johnston",
+            "pos": "C",
+            "gp": 19,
+            "g": 6,
+            "a": 13,
+            "sog": 52
+          },
+          {
+            "name": "Jake Oettinger",
+            "pos": "G",
+            "note": "11-4-1, 2.22 GAA, .901 SV%, 4 shutouts; expected, not confirmed (Daily Faceoff)"
+          },
+          {
+            "name": "Matt Duchene",
+            "pos": "C",
+            "status": "Out (abdomen, IR)"
+          },
+          {
+            "name": "Oskar Back",
+            "pos": "C",
+            "status": "Out (finger, IR)"
+          },
+          {
+            "name": "Lian Bichsel",
+            "pos": "D",
+            "status": "Out (lower body, IR)"
+          },
+          {
+            "name": "Kyle Capobianco",
+            "pos": "D",
+            "status": "Out (leg, IR)"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Vegas have lost three straight, including 4-3 to Dallas on 17 Nov. Noah Hanifin (undisclosed) is out until at least 24 Nov and Alex Pietrangelo (hip) is on long-term injured reserve.",
+          "src": "theScore / CBS Sports"
+        },
+        {
+          "team": "home",
+          "text": "Carter Hart is the projected starter, unconfirmed.",
+          "src": "Daily Faceoff"
+        },
+        {
+          "team": "away",
+          "text": "Matt Duchene (abdomen, until at least 12 Jan), Oskar Back (finger), Lian Bichsel and Kyle Capobianco are on injured reserve; Tyler Myers (upper body) was listed out until at least 19 Nov.",
+          "src": "CBS Sports"
+        },
+        {
+          "team": "away",
+          "text": "Jake Oettinger is the projected starter, unconfirmed.",
+          "src": "Daily Faceoff"
+        }
+      ],
+      "lineups": {
+        "status": "expected",
+        "home": [
+          "Carter Hart"
+        ],
+        "away": [
+          "Jake Oettinger"
+        ]
+      },
+      "sources": [
+        {
+          "title": "theScore: Stars vs Golden Knights matchup (records, team stats)",
+          "url": "https://www.thescore.com/nhl/event/35338"
+        },
+        {
+          "title": "ESPN: Vegas Golden Knights skating stats",
+          "url": "https://www.espn.com/nhl/team/stats/_/name/vgk"
+        },
+        {
+          "title": "Stats Crew: 2026-27 Dallas Stars statistics",
+          "url": "https://www.statscrew.com/hockey/stats/t-DAL/y-2026"
+        },
+        {
+          "title": "CBS Sports: NHL injuries",
+          "url": "https://www.cbssports.com/nhl/injuries/"
+        },
+        {
+          "title": "Daily Faceoff: starting goalies 19 Nov",
+          "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-19"
+        }
+      ],
+      "odds": {
+        "ml": [
+          1.813,
+          2.09
+        ],
+        "reg": [
+          2.28,
+          4.11,
+          2.67
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.862,
+          "u": 1.97
+        },
+        "totalReg": {
+          "line": 6,
+          "o": 2.24,
+          "u": 1.684
+        },
+        "btts": [
+          1.08,
+          6.4
+        ],
+        "total": {
+          "line": 5.5,
+          "o": 1.847,
+          "u": 2.03
+        },
+        "teamTotal": {
+          "home": {
+            "line": 3.5,
+            "o": 2.39,
+            "u": 1.588
+          },
+          "away": {
+            "line": 2.5,
+            "o": 1.724,
+            "u": 2.14
+          }
+        },
+        "puck": {
+          "line": -1.5,
+          "h": 3.04,
+          "a": 1.411
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.79,
+            2
+          ],
+          "reg": [
+            2.26,
+            3.95,
+            2.6
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.83,
+            "u": 1.88
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.77,
+            "u": 1.95
+          },
+          "btts": [
+            1.08,
+            6.4
+          ],
+          "text": "win 1.79/2"
+        }
+      }
+    }
+  ]
+}

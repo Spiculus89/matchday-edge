@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
-  "updated": "2026-11-18T09:16:34.000Z",
-  "updateNote": "NHL, Wednesday night in North America (after midnight here). Only three NHL games are scheduled tonight. Moneylines, puck lines and totals come from the ScoresAndOdds listing (sportsbook not named), and player props are DraftKings/FanDuel prices via Dimers. Totals and puck lines include OT and the shootout.",
+  "updated": "2026-11-19T09:35:50.000Z",
+  "updateNote": "Wednesday night's three NHL games (graded) and six European games tonight: two KHL games (Metallurg v Traktor 15:00, Ak Bars v Spartak 17:30), Tappara v Sport in Liiga, Färjestad v Frölunda and Djurgården v Skellefteå in the SHL, and Lausanne v ZSC in Switzerland. European prices are Pinnacle via OddsPapi and settle on 60 minutes (regulation) unless marked incl. OT. Skater stats for the European games are thin, so their picks lean on the price and team goal rates.",
   "games": [
     {
       "id": "bos-det",
@@ -250,7 +250,11 @@
           "title": "Dimers: NHL player props 18 Nov (DraftKings / FanDuel prices)",
           "url": "https://www.dimers.com/nhl/news/nhl-player-props-11-18-2026-ac"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 4
+      }
     },
     {
       "id": "mtl-nj",
@@ -475,7 +479,11 @@
           "title": "Dimers: NHL player props 18 Nov (DraftKings / FanDuel prices)",
           "url": "https://www.dimers.com/nhl/news/nhl-player-props-11-18-2026-ac"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 3
+      }
     },
     {
       "id": "col-uta",
@@ -711,7 +719,813 @@
           "title": "Dimers: NHL player props 18 Nov (DraftKings / FanDuel prices)",
           "url": "https://www.dimers.com/nhl/news/nhl-player-props-11-18-2026-ac"
         }
-      ]
+      ],
+      "result": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "trk-mmg",
+      "league": "KHL",
+      "start": "2026-11-19T14:00:00Z",
+      "venue": "Arena Metallurg, Magnitogorsk",
+      "home": {
+        "name": "Metallurg Magnitogorsk",
+        "short": "Metallurg",
+        "code": "MMG"
+      },
+      "away": {
+        "name": "Traktor Chelyabinsk",
+        "short": "Traktor",
+        "code": "TRK"
+      },
+      "context": "First Southern Urals derby of the season (17:00 Moscow time). Metallurg (19-6-3, 41 pts, 1st in the East, a league-high 101 goals per the KHL) won 7-2 at Lada on Tuesday after losing 4-5 at Barys and 3-4 in OT to Avangard; Traktor (12-11-5, 29 pts, 8th in the East) end a four-game road trip after a 1-4 loss at Sibir and have alternated wins and defeats over their last six. Traktor won the last derby 6-2 in Chelyabinsk on 18 Mar 2026, but Metallurg won the other five 2025-26 meetings.",
+      "form": {
+        "home": {
+          "gf": 3.57,
+          "ga": 2.39,
+          "games": 28
+        },
+        "away": {
+          "gf": 2.32,
+          "ga": 2.39,
+          "games": 28
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Alexander Smolin",
+            "pos": "G",
+            "note": "Expected starter (KHL preview: may play his 100th KHL game); season GAA/SV% not found"
+          }
+        ],
+        "away": [
+          {
+            "name": "Henrik Haukeland",
+            "pos": "G",
+            "note": "Week 10: 3 GP, 2 W, .941 SV%, 1.95 GAA (KHL Top Imports); expected, not confirmed; season totals not found"
+          },
+          {
+            "name": "Vitaly Kravtsov",
+            "pos": "RW",
+            "status": "Out (injured)"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Sergei Tolchinsky has a nine-game point streak (3G+10A in that span), Nathan Todd has 2G+4A in a four-game streak and Daniil Vovchenko 4G+3A in three games. Tolchinsky is fifth and Todd eighth in the KHL player rating.",
+          "src": "KHL preview"
+        },
+        {
+          "team": "home",
+          "text": "On Wednesday Metallurg traded Ruslan Iskhakov and Igor Nechayev to Spartak for Mikhail Maltsev and Ivan Morozov. Goalie Alexander Smolin may play his 100th KHL game; Valery Orekhov is one assist short of 100.",
+          "src": "KHL preview"
+        },
+        {
+          "team": "away",
+          "text": "Vitaly Kravtsov is on the injury list.",
+          "src": "KHL preview"
+        },
+        {
+          "team": "away",
+          "text": "Nathan Legare has 12 goals and tops the KHL player rating; Boris Katchouk is ninth. Henrik Haukeland went 2-0 with a .941 save percentage in week 10.",
+          "src": "KHL preview / KHL Top Imports"
+        }
+      ],
+      "lineups": {
+        "status": "expected",
+        "home": [
+          "Alexander Smolin"
+        ],
+        "away": [
+          "Henrik Haukeland"
+        ]
+      },
+      "sources": [
+        {
+          "title": "KHL: Preview 19 Nov, Southern Urals Derby opener (Metallurg v Traktor, Ak Bars v Spartak)",
+          "url": "https://en.khl.ru/news/2026/11/19/568811.html"
+        },
+        {
+          "title": "365Scores: KHL table (GF:GA), mid-Nov 2026",
+          "url": "https://www.365scores.com/en-uk/hockey/team/traktor-8708/standings"
+        },
+        {
+          "title": "KHL: Round-up 17 Nov (Lada 2-7 Metallurg, Ak Bars 2-4 Dynamo Moscow)",
+          "url": "https://en.khl.ru/news/2026/11/17/568710.html"
+        },
+        {
+          "title": "KHL: Top Imports, Week 10 (Haukeland)",
+          "url": "https://en.khl.ru/news/2026/11/18/568676.html"
+        },
+        {
+          "title": "Sportmail: Metallurg v Traktor match page (17:00 MSK, head-to-head)",
+          "url": "https://sportmail.ru/hockey-khl/407/match/8129379/"
+        }
+      ],
+      "odds": {
+        "ml": [
+          1.465,
+          2.7
+        ],
+        "reg": [
+          1.833,
+          3.84,
+          3.77
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 2.13,
+          "u": 1.729
+        },
+        "totalReg": {
+          "line": 5,
+          "o": 1.862,
+          "u": 1.952
+        },
+        "btts": [
+          1.14,
+          5
+        ],
+        "hcpReg": {
+          "line": -1.5,
+          "h": 2.37,
+          "a": 1.555
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:31 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.45,
+            2.7
+          ],
+          "reg": [
+            1.78,
+            4.2,
+            3.85
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 2.05,
+            "u": 1.69
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 2.25,
+            "u": 1.65
+          },
+          "btts": [
+            1.14,
+            5
+          ],
+          "text": "win 1.45/2.7"
+        }
+      }
+    },
+    {
+      "id": "spa-akb",
+      "league": "KHL",
+      "start": "2026-11-19T16:30:00Z",
+      "venue": "TatNeft Arena, Kazan",
+      "home": {
+        "name": "Ak Bars Kazan",
+        "short": "Ak Bars",
+        "code": "AKB"
+      },
+      "away": {
+        "name": "Spartak Moscow",
+        "short": "Spartak",
+        "code": "SPA"
+      },
+      "context": "First meeting of the season (19:30 Moscow time). Ak Bars (13-14-2, 28 pts, 9th in the East) have lost two straight, 1-5 at Avtomobilist and 2-4 at home to Dynamo Moscow on Tuesday, and have won only two of their last 10. Spartak (14-9-5, 33 pts, 5th in the West) lost 1-2 in a shootout at Avtomobilist on Tuesday, have won three of their last 10 and have lost all five of their games that went past regulation.",
+      "form": {
+        "home": {
+          "gf": 2.17,
+          "ga": 2.45,
+          "games": 29
+        },
+        "away": {
+          "gf": 2.71,
+          "ga": 2.18,
+          "games": 28
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Maxim Arefyev",
+            "pos": "G",
+            "note": "Started the 2-4 loss to Dynamo Moscow on 17 Nov; Ilya Safonov has returned, so tonight's starter is unclear; season stats not found"
+          },
+          {
+            "name": "Ilya Safonov",
+            "pos": "G",
+            "note": "Back at Ak Bars on a three-year deal after a spell in North America; dressed on 17 Nov; no stats found"
+          },
+          {
+            "name": "Artyom Galimov",
+            "pos": "C",
+            "status": "Out (injured)"
+          }
+        ],
+        "away": [
+          {
+            "name": "Maxime Comtois",
+            "pos": "LW",
+            "status": "Out (injured)"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Artyom Galimov is on the injury list. Defenceman Mitchell Miller, who scored against Dynamo on Tuesday, plays his 200th league game.",
+          "src": "KHL preview / KHL round-up 17 Nov"
+        },
+        {
+          "team": "home",
+          "text": "Goalie Ilya Safonov has returned on a three-year deal; Maxim Arefyev was in net for Tuesday's 2-4 loss to Dynamo Moscow.",
+          "src": "KHL round-up 17 Nov"
+        },
+        {
+          "team": "away",
+          "text": "Maxime Comtois, Daniil Orlov and Will Reilly are on the injury list.",
+          "src": "KHL preview"
+        },
+        {
+          "team": "away",
+          "text": "Spartak acquired Ruslan Iskhakov and Igor Nechayev from Metallurg on Wednesday (for Mikhail Maltsev and Ivan Morozov). Tonight is the second game of a three-game road trip.",
+          "src": "KHL preview"
+        }
+      ],
+      "lineups": {
+        "status": "pending",
+        "home": [],
+        "away": []
+      },
+      "sources": [
+        {
+          "title": "KHL: Preview 19 Nov, Southern Urals Derby opener (Metallurg v Traktor, Ak Bars v Spartak)",
+          "url": "https://en.khl.ru/news/2026/11/19/568811.html"
+        },
+        {
+          "title": "365Scores: KHL table (GF:GA), mid-Nov 2026",
+          "url": "https://www.365scores.com/en-uk/hockey/team/traktor-8708/standings"
+        },
+        {
+          "title": "KHL: Round-up 17 Nov (Lada 2-7 Metallurg, Ak Bars 2-4 Dynamo Moscow)",
+          "url": "https://en.khl.ru/news/2026/11/17/568710.html"
+        }
+      ],
+      "odds": {
+        "ml": [
+          1.884,
+          1.934
+        ],
+        "reg": [
+          2.5,
+          3.56,
+          2.56
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 2.25,
+          "u": 1.657
+        },
+        "totalReg": {
+          "line": 4.5,
+          "o": 1.787,
+          "u": 2.05
+        },
+        "btts": [
+          1.15,
+          4.8
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:31 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.84,
+            1.93
+          ],
+          "reg": [
+            2.4,
+            4,
+            2.55
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 2.17,
+            "u": 1.61
+          },
+          "totalReg": {
+            "line": 4.5,
+            "o": 1.76,
+            "u": 1.99
+          },
+          "btts": [
+            1.15,
+            4.8
+          ],
+          "text": "win 1.84/1.93"
+        }
+      }
+    },
+    {
+      "id": "spo-tap",
+      "league": "Liiga",
+      "start": "2026-11-19T16:30:00Z",
+      "venue": "Nokia Arena (listed as Tampere Deck Arena), Tampere",
+      "home": {
+        "name": "Tappara",
+        "short": "Tappara",
+        "code": "TAP"
+      },
+      "away": {
+        "name": "Vaasan Sport",
+        "short": "Sport",
+        "code": "SPO"
+      },
+      "context": "18:30 Finnish time. Tappara have won only two of their last 10 Liiga games and bring a four-game losing run, including 1-3 at home to HIFK on 13 Nov and 1-5 at Kärpät on 14 Nov. Vaasan Sport beat Kiekko-Espoo 5-3 and HPK 3-2 before losing 2-3 in overtime at JYP last night, so they are on the second night of a back-to-back. Current standings and season goal totals could not be verified.",
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Four straight defeats (0-3 v HPK, 1-2 shootout v Ilves, 1-3 v HIFK, 1-5 at Kärpät); 21 goals for and 30 against over the last 10 games.",
+          "src": "BetExplorer"
+        },
+        {
+          "team": "away",
+          "text": "Lost 2-3 in overtime at JYP on 18 Nov, the night before this game; 4-6 over the last 10.",
+          "src": "BetExplorer"
+        }
+      ],
+      "lineups": {
+        "status": "pending",
+        "home": [],
+        "away": []
+      },
+      "sources": [
+        {
+          "title": "BetExplorer: Tappara v Vaasan Sport (last 10 results for both teams)",
+          "url": "https://www.betexplorer.com/hockey/finland/liiga/tappara-vaasan-sport/pz2SCeaM/"
+        },
+        {
+          "title": "BetExplorer: Liiga 2026/27 results and fixtures",
+          "url": "https://www.betexplorer.com/hockey/finland/liiga/"
+        },
+        {
+          "title": "SportSchedule: Tappara v Vaasan Sport, 19 Nov 2026 (18:30 Finland)",
+          "url": "https://sportschedule.tv/sport_event/tappara-vs-vaasan-sport"
+        }
+      ],
+      "odds": {
+        "reg": [
+          1.54,
+          4.38,
+          4.99
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.98,
+          "u": 1.833
+        },
+        "totalReg": {
+          "line": 5.5,
+          "o": 1.98,
+          "u": 1.826
+        },
+        "hcpReg": {
+          "line": -1.5,
+          "h": 1.877,
+          "a": 1.925
+        },
+        "ml": [
+          1.293,
+          3.44
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:31 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "reg": [
+            1.51,
+            4.3,
+            4.4
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.91,
+            "u": 1.8
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.94,
+            "u": 1.77
+          },
+          "hcpReg": {
+            "line": -1.5,
+            "h": 1.87,
+            "a": 1.83
+          },
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "fhc-fbk",
+      "league": "SHL",
+      "start": "2026-11-19T18:00:00Z",
+      "venue": "Löfbergs Arena, Karlstad",
+      "home": {
+        "name": "Färjestads BK",
+        "short": "Färjestad",
+        "code": "FBK"
+      },
+      "away": {
+        "name": "Frölunda HC",
+        "short": "Frölunda",
+        "code": "FHC"
+      },
+      "context": "First v second in round 17 (19:00 Swedish time). Färjestad lead the SHL with 45 of a possible 48 points from 16 games, having won 15, and beat Djurgården 3-1 and Luleå 3-1 last week. Frölunda are second on 37 points after three straight wins, including 4-1 v Malmö and 4-0 at Rögle (Hurbra's table lists them on 18 games, two more than Färjestad).",
+      "form": {
+        "home": {
+          "gf": 4,
+          "ga": 1.19,
+          "games": 16
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "As of 12 Nov, Jack Berglund and Oskar Steen were doubtful and Marcus Johansson was rehabbing a foot injury.",
+          "src": "Hurbra"
+        },
+        {
+          "team": "home",
+          "text": "Färjestad had scored 58 and conceded 17 in their first 14 games and have since won 3-1 twice.",
+          "src": "Hurbra"
+        },
+        {
+          "team": "away",
+          "text": "Three straight SHL wins, including 4-1 v Malmö on 12 Nov and a 4-0 shutout at Rögle on 14 Nov.",
+          "src": "Hurbra"
+        }
+      ],
+      "lineups": {
+        "status": "pending",
+        "home": [],
+        "away": []
+      },
+      "sources": [
+        {
+          "title": "Hurbra: SHL results and table, 14 Nov 2026",
+          "url": "https://hurbra.se/shl-resultat-14-november-2026/"
+        },
+        {
+          "title": "Hurbra: SHL results and table, 12 Nov 2026",
+          "url": "https://hurbra.se/?p=48749"
+        },
+        {
+          "title": "Hurbra: Färjestad v Djurgården match guide, 12 Nov 2026 (Färjestad goals, injuries)",
+          "url": "https://hurbra.se/?p=48518"
+        },
+        {
+          "title": "SportSchedule: Färjestad v Frölunda, 19 Nov 2026 (19:00 CET, round 17)",
+          "url": "https://sportschedule.tv/sport_event/farjestad-vs-frolunda"
+        }
+      ],
+      "odds": {
+        "ml": [
+          1.444,
+          2.74
+        ],
+        "reg": [
+          1.793,
+          3.79,
+          3.88
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 2.04,
+          "u": 1.781
+        },
+        "totalReg": {
+          "line": 5,
+          "o": 1.826,
+          "u": 1.98
+        },
+        "btts": [
+          1.14,
+          5
+        ],
+        "hcpReg": {
+          "line": -1.5,
+          "h": 2.34,
+          "a": 1.595
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:31 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.48,
+            2.6
+          ],
+          "reg": [
+            1.81,
+            4.2,
+            3.7
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 2.02,
+            "u": 1.71
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 2.16,
+            "u": 1.65
+          },
+          "btts": [
+            1.14,
+            5
+          ],
+          "text": "win 1.48/2.6"
+        }
+      }
+    },
+    {
+      "id": "ske-dif",
+      "league": "SHL",
+      "start": "2026-11-19T18:00:00Z",
+      "venue": "Hovet, Stockholm",
+      "home": {
+        "name": "Djurgårdens IF",
+        "short": "Djurgården",
+        "code": "DIF"
+      },
+      "away": {
+        "name": "Skellefteå AIK",
+        "short": "Skellefteå",
+        "code": "SKE"
+      },
+      "context": "Round 17, 19:00 Swedish time. Skellefteå are third with 34 points from 16 games; they lost 4-10 at Brynäs on 12 Nov, ending a four-game winning run, then beat Linköping 5-2 on 14 Nov. Djurgården are 10th with 20 points from 17 games after losing 1-3 at Färjestad and 1-4 at Örebro, which followed three straight wins.",
+      "players": {
+        "home": [],
+        "away": [
+          {
+            "name": "Jani Lampinen",
+            "pos": "G",
+            "note": "Pulled after Brynäs's sixth goal on 12 Nov (Anton Ringquist relieved him); tonight's starter not found"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "As of 12 Nov, Jacob Josefson was back in full training after missing seven games, Lucas Carlsson was back training after a knock, Charles Hudon had an injury problem and Sebastian Hartmann was ill.",
+          "src": "Hurbra"
+        },
+        {
+          "team": "home",
+          "text": "Two straight defeats (1-3 at Färjestad, 1-4 at Örebro) after three straight wins.",
+          "src": "Hurbra"
+        },
+        {
+          "team": "away",
+          "text": "Lost 4-10 at Brynäs on 12 Nov, with Jani Lampinen replaced by Anton Ringquist, then beat Linköping 5-2 at home on 14 Nov.",
+          "src": "Hurbra"
+        }
+      ],
+      "lineups": {
+        "status": "pending",
+        "home": [],
+        "away": []
+      },
+      "sources": [
+        {
+          "title": "Hurbra: SHL results and table, 14 Nov 2026",
+          "url": "https://hurbra.se/shl-resultat-14-november-2026/"
+        },
+        {
+          "title": "Hurbra: Brynäs v Skellefteå, 12 Nov 2026",
+          "url": "https://hurbra.se/brynas-skelleftea-12-november-2026/"
+        },
+        {
+          "title": "Hurbra: Färjestad v Djurgården match guide, 12 Nov 2026 (Djurgården injuries)",
+          "url": "https://hurbra.se/?p=48518"
+        },
+        {
+          "title": "SportSchedule: Djurgården v Skellefteå, 19 Nov 2026 (19:00 CET, Hovet)",
+          "url": "https://sportschedule.tv/sport_event/djurgarden-vs-skelleftea"
+        }
+      ],
+      "odds": {
+        "ml": [
+          2.56,
+          1.502
+        ],
+        "reg": [
+          3.61,
+          3.76,
+          1.869
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 2,
+          "u": 1.813
+        },
+        "totalReg": {
+          "line": 5.5,
+          "o": 2.05,
+          "u": 1.775
+        },
+        "btts": [
+          1.12,
+          5.4
+        ],
+        "hcpReg": {
+          "line": 1.5,
+          "h": 1.581,
+          "a": 2.37
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:31 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            2.55,
+            1.5
+          ],
+          "reg": [
+            3.55,
+            4.3,
+            1.83
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.94,
+            "u": 1.77
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 2.02,
+            "u": 1.74
+          },
+          "btts": [
+            1.12,
+            5.4
+          ],
+          "text": "win 2.55/1.5"
+        }
+      }
+    },
+    {
+      "id": "zsc-lhc",
+      "league": "National League",
+      "start": "2026-11-19T19:00:00Z",
+      "venue": "Vaudoise Aréna, Lausanne",
+      "home": {
+        "name": "Lausanne HC",
+        "short": "Lausanne",
+        "code": "LHC"
+      },
+      "away": {
+        "name": "ZSC Lions",
+        "short": "ZSC Lions",
+        "code": "ZSC"
+      },
+      "context": "20:00 Swiss time. ZSC Lions lead the National League with 49 points from 20 games (+36), while Lausanne are 11th with 26 points from 21 games (-14), per Blick's live table. In late October Lausanne lost 3-9 to the SCL Tigers and 0-4 at Lugano before beating Davos 3-2 in overtime on 31 Oct, the same night ZSC won 4-0 at Kloten. The goal rates below are from the 29 Oct table (ZSC 67:35 in 16, Lausanne 56:67 in 19).",
+      "form": {
+        "home": {
+          "gf": 2.95,
+          "ga": 3.53,
+          "games": 19
+        },
+        "away": {
+          "gf": 4.19,
+          "ga": 2.19,
+          "games": 16
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Kevin Pasche",
+            "pos": "G",
+            "note": "Started 29 Oct (0-4 at Lugano) and 31 Oct (3-2 OT v Davos); expected, not confirmed; season stats not found"
+          }
+        ],
+        "away": [
+          {
+            "name": "Simon Hrubec",
+            "pos": "G",
+            "note": "28-save shutout at Kloten on 31 Oct, his first of the season; expected, not confirmed; season stats not found"
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "On 31 Oct Lausanne were without Baragano, Brännström, Czarnik, Lazar and Miller (injured) and Fust (suspended); Marti and Oksanen were also listed injured on 29 Oct. Current status not confirmed.",
+          "src": "blue News"
+        },
+        {
+          "team": "away",
+          "text": "Andrighetto was injured and Lehtonen sat out as an extra import for the 4-0 win at Kloten on 31 Oct; Derek Grant scored twice. Current status not confirmed.",
+          "src": "blue News"
+        }
+      ],
+      "lineups": {
+        "status": "expected",
+        "home": [
+          "Kevin Pasche"
+        ],
+        "away": [
+          "Simon Hrubec"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Blick: Bienne 6-1 Lausanne report with live National League 26/27 table",
+          "url": "https://www.blick.ch/fr/sport/hockey/national-league/kevin-pasche-remplace-a-la-mi-match-contre-bienne-lausanne-ny-arrive-toujours-pas-id21369393.html"
+        },
+        {
+          "title": "blue News: Lugano 4-0 Lausanne, 29 Oct 2026 (injuries, table)",
+          "url": "https://www.bluewin.ch/en/sport/lugano-bounces-back-and-hands-lausanne-another-loss-li.3654156"
+        },
+        {
+          "title": "blue News: Ambri and ZSC win derbies, 31 Oct 2026 (Kloten 0-4 ZSC, Lausanne 3-2 OT Davos)",
+          "url": "https://www.bluewin.ch/en/sport/ambri-and-zsc-win-derbies-zug-routed-bern-li.3656474"
+        },
+        {
+          "title": "SportSchedule: Lausanne HC v ZSC Lions, 19 Nov 2026 (20:00 Swiss time, round 21)",
+          "url": "https://sportschedule.tv/sport_event/lausanne-hc-vs-zsc-lions"
+        }
+      ],
+      "odds": {
+        "reg": [
+          3.9,
+          4.12,
+          1.746
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.99,
+          "u": 1.84
+        },
+        "totalReg": {
+          "line": 5.5,
+          "o": 1.952,
+          "u": 1.869
+        },
+        "btts": [
+          1.1,
+          5.8
+        ],
+        "ml": [
+          2.87,
+          1.418
+        ],
+        "hcpReg": {
+          "line": 1.5,
+          "h": 1.689,
+          "a": 2.19
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:31 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "reg": [
+            3.75,
+            4.4,
+            1.65
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.86,
+            "u": 1.84
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.83,
+            "u": 1.87
+          },
+          "btts": [
+            1.1,
+            5.8
+          ],
+          "text": ""
+        }
+      }
     }
   ]
 }

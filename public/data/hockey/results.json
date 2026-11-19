@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T09:15:41.668Z",
+  "updated": "2026-11-19T09:35:50.000Z",
   "note": "Graded picks for hockey, same format as football's results.json.",
   "legs": [
     {
@@ -107,6 +107,123 @@
       "group": "Bet builder",
       "pick": "Stars +1.5 + Over 4.5 goals",
       "p": 0.526,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-19",
+      "match": "bos-det",
+      "group": "Moneyline",
+      "pick": "Bruins to win (incl. OT) (best bet)",
+      "p": 0.517,
+      "odds": 1.952,
+      "won": true
+    },
+    {
+      "date": "2026-11-19",
+      "match": "bos-det",
+      "group": "Puck line",
+      "pick": "Bruins +1.5",
+      "p": 0.726,
+      "odds": 1.37,
+      "won": true
+    },
+    {
+      "date": "2026-11-19",
+      "match": "bos-det",
+      "group": "Bet builder",
+      "pick": "Red Wings +1.5 + Over 4.5 goals",
+      "p": 0.538,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-19",
+      "match": "bos-det",
+      "group": "Player prop",
+      "pick": "Viktor Arvidsson Anytime goalscorer",
+      "p": 0.34,
+      "odds": 3.1,
+      "won": false
+    },
+    {
+      "date": "2026-11-19",
+      "match": "bos-det",
+      "group": "Player prop",
+      "pick": "JJ Peterka Anytime goalscorer",
+      "p": 0.188,
+      "odds": 3.8,
+      "won": true
+    },
+    {
+      "date": "2026-11-19",
+      "match": "mtl-nj",
+      "group": "Team total",
+      "pick": "Canadiens over 2.5 (best bet)",
+      "p": 0.559,
+      "odds": 1.806,
+      "won": true
+    },
+    {
+      "date": "2026-11-19",
+      "match": "mtl-nj",
+      "group": "Puck line",
+      "pick": "Canadiens +1.5",
+      "p": 0.632,
+      "odds": 1.578,
+      "won": true
+    },
+    {
+      "date": "2026-11-19",
+      "match": "mtl-nj",
+      "group": "1st period",
+      "pick": "1st period over 1.5",
+      "p": 0.558,
+      "odds": 1.793,
+      "won": true
+    },
+    {
+      "date": "2026-11-19",
+      "match": "mtl-nj",
+      "group": "Bet builder",
+      "pick": "Canadiens +1.5 + Over 4.5 goals",
+      "p": 0.5,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-19",
+      "match": "mtl-nj",
+      "group": "Player prop",
+      "pick": "Cole Caufield Anytime goalscorer",
+      "p": 0.374,
+      "odds": 2.5,
+      "won": false
+    },
+    {
+      "date": "2026-11-19",
+      "match": "mtl-nj",
+      "group": "Player prop",
+      "pick": "Lane Hutson Over 0.5 points",
+      "p": 0.524,
+      "odds": 1.714,
+      "won": true
+    },
+    {
+      "date": "2026-11-19",
+      "match": "col-uta",
+      "group": "Total",
+      "pick": "Over 6.5 goals (best bet)",
+      "p": 0.501,
+      "odds": 2.04,
+      "won": false
+    },
+    {
+      "date": "2026-11-19",
+      "match": "col-uta",
+      "group": "Bet builder",
+      "pick": "Mammoth +1.5 + Over 4.5 goals",
+      "p": 0.561,
       "odds": null,
       "won": true
     }

@@ -3,6 +3,13 @@
   "lessons": [
     {
       "date": "2026-11-19",
+      "area": "Grading",
+      "kind": "data",
+      "saw": "Three of the six Copa del Rey ties on 18 Nov went to extra time. Mallorca won 3-1 at Alcoyano after extra time, but the builder 'Mallorca to win + Over 1.5 goals' lost on the 1-1 at 90 minutes. Minera v Cartagena (2-1 to Cartagena after extra time) had no published 90-minute score by the next morning, and none of the six EuroCup and Champions League games from 18 Nov had a final score that could be opened.",
+      "change": "Cup ties are graded on the 90-minute score only, and a leg whose 90-minute outcome isn't published waits in gradingTodo instead of being guessed. Basketball and hockey day files can carry gradingTodo too (the 18 Nov European basketball games)."
+    },
+    {
+      "date": "2026-11-19",
       "area": "All sports",
       "kind": "model",
       "saw": "18 Nov best bets: NBA/NHL 2 of 5 (Heat under, Warriors +6, Avalanche lost), Copa del Rey 'fair price' best bets at -0.2% and -1.7%. Re-scoring all 127 priced legs graded so far: the bookmaker's own price, margin removed, predicted results better than the model (Brier 0.245 vs 0.267), and legs where the model claimed a 3%+ edge won 46% against 66% predicted.",

@@ -1,0 +1,989 @@
+{
+  "date": "2026-11-20",
+  "updated": "2026-11-19T09:35:58.000Z",
+  "updateNote": "NBA, Thursday night in the US (after midnight here): all four games, each tipping off at 02:00. Prices are Pinnacle via OddsPapi from this morning; injury news from ESPN, Rotowire and Covers (no official 19 Nov report was out yet). The 00:45 run adds confirmed starters and late scratches. Friday's European games are added by tomorrow's morning update.",
+  "games": [
+    {
+      "id": "gsw-mem",
+      "league": "NBA",
+      "start": "2026-11-20T01:00:00Z",
+      "venue": "FedExForum, Memphis",
+      "home": {
+        "name": "Memphis Grizzlies",
+        "short": "Grizzlies",
+        "code": "MEM"
+      },
+      "away": {
+        "name": "Golden State Warriors",
+        "short": "Warriors",
+        "code": "GSW"
+      },
+      "context": "Memphis (11-4) won 124-121 at Cleveland on Wednesday for a fourth straight win (Cam Spencer 26) and are 8-0 on the road but 3-4 at home. Golden State were 8-6 and on a three-game losing streak before Wednesday's game at Dallas (result not confirmed), and are without Stephen Curry (oblique tear, 27.8 ppg), Jimmy Butler, Kristaps Porzingis and Moses Moody, with Draymond Green (elbow) and Al Horford (back) day-to-day. Both teams are on the second night of a back-to-back, and Memphis's leading scorer Ty Jerome (25.4 ppg, right hip) has missed three straight games and is listed questionable. Memphis won the season opener between them 111-108 at Chase Center on 23 Oct.",
+      "form": {
+        "home": {
+          "pf": 121.7,
+          "pa": 112.3,
+          "games": 14
+        },
+        "away": {
+          "pf": 115.1,
+          "pa": 112.6,
+          "games": 14
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Ty Jerome",
+            "pos": "G",
+            "pts": 25.4,
+            "reb": 3.4,
+            "ast": 5.3,
+            "threes": 2.5,
+            "min": 30.5,
+            "status": "Questionable (right hip impingement; missed the last three games)",
+            "start": 0.5
+          },
+          {
+            "name": "Cameron Boozer",
+            "pos": "F",
+            "pts": 16.5,
+            "reb": 9.5,
+            "ast": 5.4,
+            "threes": 2,
+            "min": 31.3
+          },
+          {
+            "name": "Cedric Coward",
+            "pos": "G",
+            "pts": 14.1,
+            "reb": 8.8,
+            "ast": 3.3,
+            "threes": 2.2,
+            "min": 28.6
+          },
+          {
+            "name": "Jaylen Wells",
+            "pos": "G",
+            "pts": 11.1,
+            "reb": 2.9,
+            "ast": 1.4,
+            "threes": 2.1,
+            "min": 27.1
+          },
+          {
+            "name": "Cam Spencer",
+            "pos": "G",
+            "pts": 10.4,
+            "reb": 3.2,
+            "ast": 5.4,
+            "threes": 1.9,
+            "min": 21.6
+          }
+        ],
+        "away": [
+          {
+            "name": "Yaxel Lendeborg",
+            "pos": "F",
+            "pts": 20.8,
+            "reb": 7.4,
+            "ast": 3.4,
+            "threes": 2.2,
+            "min": 31.6
+          },
+          {
+            "name": "Brandin Podziemski",
+            "pos": "G",
+            "pts": 16.3,
+            "reb": 5,
+            "ast": 3.8,
+            "threes": 2.8,
+            "min": 32.2
+          },
+          {
+            "name": "Draymond Green",
+            "pos": "F",
+            "status": "Questionable (right elbow inflammation; day-to-day, was questionable for Wednesday at Dallas)",
+            "start": 0.5
+          },
+          {
+            "name": "Al Horford",
+            "pos": "C",
+            "status": "Questionable (back soreness; day-to-day)",
+            "start": 0.5
+          },
+          {
+            "name": "Stephen Curry",
+            "pos": "G",
+            "pts": 27.8,
+            "reb": 3.7,
+            "ast": 3.9,
+            "threes": 4.3,
+            "min": 26.3,
+            "status": "Out (oblique abdominal tear, re-evaluation in two weeks from 12 Nov)",
+            "start": 0
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Ty Jerome (right hip impingement) was ruled out of Wednesday's game at Cleveland, his third straight absence; Covers lists him questionable for Thursday.",
+          "src": "ESPN injuries 17 Nov; Covers 18 Nov"
+        },
+        {
+          "team": "home",
+          "text": "Isaiah Stewart (illness) missed Wednesday; GG Jackson (broken left fifth metatarsal, re-evaluation in about three months), Scotty Pippen Jr. (back, week-to-week) and Richie Saunders are out.",
+          "src": "ESPN injuries"
+        },
+        {
+          "team": "home",
+          "text": "Memphis beat Cleveland 124-121 on Wednesday (Cam Spencer 26) and play the second night of a back-to-back; rookie Cameron Boozer scored a career-high 29 with seven threes on Monday.",
+          "src": "Land of Basketball 18 Nov; NBA.com Warriors preview"
+        },
+        {
+          "team": "away",
+          "text": "Stephen Curry (oblique abdominal tear), Jimmy Butler III (torn right ACL), Kristaps Porzingis (stepping away from basketball), Moses Moody (knee) and Brandon Williams (hamstring) are out.",
+          "src": "ESPN injuries"
+        },
+        {
+          "team": "away",
+          "text": "Draymond Green (right elbow inflammation) and Al Horford (back soreness) were questionable for Wednesday at Dallas; Golden State are on the second night of a back-to-back and had lost three straight (at Houston, San Antonio and New Orleans) before that game.",
+          "src": "ESPN injuries 18 Nov; The Rx preview 18 Nov"
+        },
+        {
+          "team": "away",
+          "text": "Rookie Yaxel Lendeborg averages 20.8 points and tops NBA.com's Rookie of the Year ladder.",
+          "src": "NBA.com Warriors game preview 18 Nov"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "Land of Basketball: NBA daily summary 19 Nov 2026 (4 games, all 8:00 pm ET)",
+          "url": "https://www.landofbasketball.com/nba_daily_summary/20261119.htm"
+        },
+        {
+          "title": "NBA.com: Warriors at Grizzlies game preview, 19 Nov 2026",
+          "url": "https://www.nba.com/warriors/news/gameday-preview-20261119"
+        },
+        {
+          "title": "The Rx: Warriors v Grizzlies betting preview, 19 Nov 2026 (records through 17 Nov)",
+          "url": "https://www.therx.com/nba/warriors-grizzlies-betting-preview-nov-19-2026/55733/"
+        },
+        {
+          "title": "SportBusy: Warriors at Grizzlies, 19 Nov 2026 (records, PPG)",
+          "url": "https://www.sportbusy.com/games/nba/14315911-golden-state-warriors-at-memphis-grizzlies-2026-11-19/"
+        },
+        {
+          "title": "ESPN NBA injuries (comments dated up to 18 Nov 2026)",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "Covers: NBA predictions and moneyline picks, Thursday 19 Nov 2026 (updated 18 Nov)",
+          "url": "https://www.covers.com/nba/moneyline-predictions-picks-nov-19-2026"
+        },
+        {
+          "title": "Land of Basketball: NBA daily summary 18 Nov 2026",
+          "url": "https://www.landofbasketball.com/nba_daily_summary/20261118.htm"
+        },
+        {
+          "title": "Basketball-Reference: 2026-27 NBA per-game player stats (revised 18 Nov 2026, through 17 Nov)",
+          "url": "https://www.basketball-reference.com/leagues/NBA_2027_per_game.html"
+        }
+      ],
+      "odds": {
+        "ml": [
+          1.343,
+          3.44
+        ],
+        "total": {
+          "line": 226,
+          "o": 1.952,
+          "u": 1.917
+        },
+        "teamTotal": {
+          "home": {
+            "line": 117.5,
+            "o": 2.02,
+            "u": 1.84
+          },
+          "away": {
+            "line": 108.5,
+            "o": 1.862,
+            "u": 1.99
+          }
+        },
+        "spread": {
+          "line": -8,
+          "h": 1.97,
+          "a": 1.917
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.34,
+            3.3
+          ],
+          "total": {
+            "line": 225.5,
+            "o": 1.89,
+            "u": 1.92
+          },
+          "teamTotal": {
+            "home": {
+              "line": 116.5,
+              "o": 1.88,
+              "u": 1.9
+            },
+            "away": {
+              "line": 109.5,
+              "o": 1.94,
+              "u": 1.84
+            }
+          },
+          "spread": {
+            "line": -7.5,
+            "h": 1.88,
+            "a": 1.93
+          },
+          "text": "win 1.34/3.3, -7.5 1.88/1.93, total 225.5 1.89/1.92"
+        }
+      }
+    },
+    {
+      "id": "lac-sas",
+      "league": "NBA",
+      "start": "2026-11-20T01:00:00Z",
+      "venue": "Frost Bank Center, San Antonio",
+      "home": {
+        "name": "San Antonio Spurs",
+        "short": "Spurs",
+        "code": "SAS"
+      },
+      "away": {
+        "name": "LA Clippers",
+        "short": "Clippers",
+        "code": "LAC"
+      },
+      "context": "San Antonio (12-3) had a 12-game winning streak ended on Tuesday, when Dylan Harper (18.4 ppg) left after an awkward fall; he is day-to-day, and Tobias Harris (calf) is out. Victor Wembanyama averages 28.4 points and 12.0 rebounds, and Covers rates San Antonio's net rating the best in the NBA. The Clippers (4-9) lost to Utah on Tuesday, are 0-5 on the road and have lost all four games as road underdogs by an average of 15.2 points (Covers); Bradley Beal (knee) and Yanic Konan Niederhauser (foot) are out and Brandon Ingram (Achilles) is still listed out.",
+      "form": {
+        "home": {
+          "pf": 117.1,
+          "pa": 105.9,
+          "games": 15
+        },
+        "away": {
+          "pf": 111.9,
+          "pa": 117.7,
+          "games": 13
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Victor Wembanyama",
+            "pos": "C",
+            "pts": 28.4,
+            "reb": 12,
+            "ast": 3.3,
+            "threes": 1.9,
+            "min": 30
+          },
+          {
+            "name": "Dylan Harper",
+            "pos": "G",
+            "pts": 18.4,
+            "reb": 5.4,
+            "ast": 4.5,
+            "threes": 1.1,
+            "min": 31.7,
+            "status": "Questionable (undisclosed; left Tuesday's game after an awkward fall, day-to-day)",
+            "start": 0.5
+          },
+          {
+            "name": "Stephon Castle",
+            "pos": "G",
+            "pts": 15.3,
+            "reb": 5.2,
+            "ast": 5.5,
+            "threes": 2,
+            "min": 29.4
+          },
+          {
+            "name": "De'Aaron Fox",
+            "pos": "G",
+            "pts": 13.1,
+            "reb": 4.2,
+            "ast": 5.5,
+            "threes": 0.9,
+            "min": 28.9
+          },
+          {
+            "name": "Devin Vassell",
+            "pos": "G",
+            "pts": 11.1,
+            "reb": 3.9,
+            "ast": 2.9,
+            "threes": 1.4,
+            "min": 30.1
+          },
+          {
+            "name": "Tobias Harris",
+            "pos": "F",
+            "status": "Out (calf, likely until early December)",
+            "start": 0
+          }
+        ],
+        "away": [
+          {
+            "name": "Darius Garland",
+            "pos": "G",
+            "pts": 21.2,
+            "reb": 2.4,
+            "ast": 6.9,
+            "threes": 2.5,
+            "min": 32.9
+          },
+          {
+            "name": "Brook Lopez",
+            "pos": "C",
+            "pts": 14.8,
+            "reb": 5.4,
+            "ast": 1.8,
+            "threes": 1.6,
+            "min": 24.4
+          },
+          {
+            "name": "Rui Hachimura",
+            "pos": "F",
+            "pts": 13.3,
+            "reb": 5.9,
+            "ast": 1.5,
+            "threes": 2.1,
+            "min": 28.9
+          },
+          {
+            "name": "Keaton Wagler",
+            "pos": "G",
+            "pts": 12.5,
+            "reb": 3.3,
+            "ast": 3.1,
+            "threes": 1.7,
+            "min": 22.8
+          },
+          {
+            "name": "Derrick Jones Jr.",
+            "pos": "F",
+            "pts": 11,
+            "reb": 4.5,
+            "ast": 1.3,
+            "threes": 2,
+            "min": 28.8
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Dylan Harper left Tuesday's game with an undisclosed injury after an awkward fall and is day-to-day; Tobias Harris (calf, until early December) and Jayden Quaintance are out.",
+          "src": "ESPN injuries 18 Nov"
+        },
+        {
+          "team": "home",
+          "text": "San Antonio's 12-game winning streak ended on Tuesday (12-2, W12 through 16 Nov; 12-3, L1 after Tuesday); they are 7-0 on the road and 5-3 at home.",
+          "src": "Champs or Chumps; SportBusy"
+        },
+        {
+          "team": "away",
+          "text": "Bradley Beal (knee, est. return 29 Nov), Yanic Konan Niederhauser (foot) and Jordan Miller (rotator cuff) are out; Brandon Ingram (Achilles) is listed out with an estimated return of 19 Nov.",
+          "src": "ESPN injuries"
+        },
+        {
+          "team": "away",
+          "text": "The Clippers lost to Utah on Tuesday, are 3-7 in their last 10 and 0-5 away.",
+          "src": "ESPN injuries; SportBusy"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "Land of Basketball: NBA daily summary 19 Nov 2026 (4 games, all 8:00 pm ET)",
+          "url": "https://www.landofbasketball.com/nba_daily_summary/20261119.htm"
+        },
+        {
+          "title": "SportBusy: Clippers at Spurs, 19 Nov 2026 (records, PPG, line movement)",
+          "url": "https://www.sportbusy.com/games/nba/14315914-los-angeles-clippers-at-san-antonio-spurs-2026-11-19/"
+        },
+        {
+          "title": "ESPN NBA injuries (comments dated up to 18 Nov 2026)",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "Covers: NBA predictions and moneyline picks, Thursday 19 Nov 2026 (updated 18 Nov)",
+          "url": "https://www.covers.com/nba/moneyline-predictions-picks-nov-19-2026"
+        },
+        {
+          "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 16 Nov)",
+          "url": "https://champsorchumps.us/summary/nba/2027"
+        },
+        {
+          "title": "Basketball-Reference: 2026-27 NBA per-game player stats (revised 18 Nov 2026, through 17 Nov)",
+          "url": "https://www.basketball-reference.com/leagues/NBA_2027_per_game.html"
+        }
+      ],
+      "odds": {
+        "ml": [
+          1.092,
+          8.15
+        ],
+        "total": {
+          "line": 226,
+          "o": 2,
+          "u": 1.869
+        },
+        "teamTotal": {
+          "home": {
+            "line": 120.5,
+            "o": 1.909,
+            "u": 1.943
+          },
+          "away": {
+            "line": 105.5,
+            "o": 2.05,
+            "u": 1.819
+          }
+        },
+        "spread": {
+          "line": -15.5,
+          "h": 1.909,
+          "a": 1.97
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.08,
+            8.2
+          ],
+          "total": {
+            "line": 226.5,
+            "o": 1.93,
+            "u": 1.88
+          },
+          "teamTotal": {
+            "home": {
+              "line": 121.5,
+              "o": 1.92,
+              "u": 1.85
+            },
+            "away": {
+              "line": 104.5,
+              "o": 1.83,
+              "u": 1.95
+            }
+          },
+          "spread": {
+            "line": -15.5,
+            "h": 1.86,
+            "a": 1.95
+          },
+          "text": "win 1.08/8.2, -15.5 1.86/1.95, total 226.5 1.93/1.88"
+        }
+      }
+    },
+    {
+      "id": "nyk-min",
+      "league": "NBA",
+      "start": "2026-11-20T01:00:00Z",
+      "venue": "Target Center, Minneapolis",
+      "home": {
+        "name": "Minnesota Timberwolves",
+        "short": "Timberwolves",
+        "code": "MIN"
+      },
+      "away": {
+        "name": "New York Knicks",
+        "short": "Knicks",
+        "code": "NYK"
+      },
+      "context": "Minnesota (11-4, 7-2 at home) have won two straight, both at home against Portland (106-98 and 106-105), despite playing without Anthony Edwards (right knee arthroscopy; 33.3 ppg in four games) and Donte DiVincenzo (Achilles). Jonathan Kuminga (shoulder) is day-to-day after missing Tuesday. New York (8-6, 4-3 away) have won two in a row, have no listed injuries and allow 103.9 points per game, and Covers notes they have the league's best rebounding rate. The market makes it close to a pick'em, with the Knicks narrow favourites.",
+      "form": {
+        "home": {
+          "pf": 116.7,
+          "pa": 106.1,
+          "games": 15
+        },
+        "away": {
+          "pf": 110,
+          "pa": 103.9,
+          "games": 14
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Ayo Dosunmu",
+            "pos": "G",
+            "pts": 18.6,
+            "reb": 4.6,
+            "ast": 3.5,
+            "threes": 2.1,
+            "min": 31.6
+          },
+          {
+            "name": "LaMelo Ball",
+            "pos": "G",
+            "pts": 17.7,
+            "reb": 4.1,
+            "ast": 5.5,
+            "threes": 3.5,
+            "min": 27.7
+          },
+          {
+            "name": "Jaden McDaniels",
+            "pos": "F",
+            "pts": 17.1,
+            "reb": 6.1,
+            "ast": 3.7,
+            "threes": 1.3,
+            "min": 33.5
+          },
+          {
+            "name": "Terrence Shannon Jr.",
+            "pos": "G",
+            "pts": 12.9,
+            "reb": 3.3,
+            "ast": 2.9,
+            "threes": 1.4,
+            "min": 22.9
+          },
+          {
+            "name": "Jonathan Kuminga",
+            "pos": "F",
+            "pts": 12.4,
+            "reb": 5.7,
+            "ast": 2.8,
+            "threes": 1.6,
+            "min": 30.5,
+            "status": "Questionable (shoulder; day-to-day, missed Tuesday v Portland)",
+            "start": 0.5
+          },
+          {
+            "name": "Anthony Edwards",
+            "pos": "G",
+            "pts": 33.3,
+            "reb": 4.8,
+            "ast": 3.5,
+            "threes": 4.5,
+            "min": 33.8,
+            "status": "Out (right knee arthroscopy, est. return 21 Dec)",
+            "start": 0
+          }
+        ],
+        "away": [
+          {
+            "name": "Jalen Brunson",
+            "pos": "G",
+            "pts": 27,
+            "reb": 2.9,
+            "ast": 5.9,
+            "threes": 2.9,
+            "min": 34.4
+          },
+          {
+            "name": "Karl-Anthony Towns",
+            "pos": "C",
+            "pts": 21.2,
+            "reb": 14.1,
+            "ast": 3.9,
+            "threes": 2,
+            "min": 32.8
+          },
+          {
+            "name": "OG Anunoby",
+            "pos": "F",
+            "pts": 16.4,
+            "reb": 5.3,
+            "ast": 2,
+            "threes": 2.1,
+            "min": 33.9
+          },
+          {
+            "name": "Landry Shamet",
+            "pos": "G",
+            "pts": 10.4,
+            "reb": 1.7,
+            "ast": 1.8,
+            "threes": 2.2,
+            "min": 25.7
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "home",
+          "text": "Anthony Edwards (right knee arthroscopy, est. return 21 Dec), Donte DiVincenzo (Achilles) and Jaylen Clark (hamstring) are out; Jonathan Kuminga (shoulder) and Zyon Pullin (quadriceps) are day-to-day after missing Tuesday.",
+          "src": "ESPN injuries 18 Nov"
+        },
+        {
+          "team": "home",
+          "text": "Minnesota beat Portland twice at home on 16 and 17 Nov (106-98, 106-105) and are 8-2 in their last 10.",
+          "src": "scores24; SportBusy"
+        },
+        {
+          "team": "away",
+          "text": "No Knicks players are listed on ESPN's injury page; New York are 8-6 and have won two straight (7-3 in the last 10).",
+          "src": "ESPN injuries; SportBusy"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "Land of Basketball: NBA daily summary 19 Nov 2026 (4 games, all 8:00 pm ET)",
+          "url": "https://www.landofbasketball.com/nba_daily_summary/20261119.htm"
+        },
+        {
+          "title": "SportBusy: Knicks at Timberwolves, 19 Nov 2026 (records, PPG, line movement)",
+          "url": "https://www.sportbusy.com/games/nba/14315913-new-york-knicks-at-minnesota-timberwolves-2026-11-19/"
+        },
+        {
+          "title": "ESPN NBA injuries (comments dated up to 18 Nov 2026)",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "Covers: NBA predictions and moneyline picks, Thursday 19 Nov 2026 (updated 18 Nov)",
+          "url": "https://www.covers.com/nba/moneyline-predictions-picks-nov-19-2026"
+        },
+        {
+          "title": "scores24: Bucks v Trail Blazers prediction (Portland's two results at Minnesota)",
+          "url": "https://scores24.live/en/basketball/m-20-11-2026-milwaukee-bucks-portland-trail-blazers-prediction"
+        },
+        {
+          "title": "Basketball-Reference: 2026-27 NBA per-game player stats (revised 18 Nov 2026, through 17 Nov)",
+          "url": "https://www.basketball-reference.com/leagues/NBA_2027_per_game.html"
+        }
+      ],
+      "odds": {
+        "ml": [
+          1.99,
+          1.9
+        ],
+        "total": {
+          "line": 215,
+          "o": 1.943,
+          "u": 1.925
+        },
+        "teamTotal": {
+          "home": {
+            "line": 107.5,
+            "o": 1.961,
+            "u": 1.892
+          },
+          "away": {
+            "line": 108.5,
+            "o": 2.04,
+            "u": 1.819
+          }
+        },
+        "spread": {
+          "line": 1.5,
+          "h": 1.909,
+          "a": 1.97
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            2,
+            1.82
+          ],
+          "total": {
+            "line": 215.5,
+            "o": 1.87,
+            "u": 1.94
+          },
+          "teamTotal": {
+            "home": {
+              "line": 107.5,
+              "o": 1.88,
+              "u": 1.89
+            },
+            "away": {
+              "line": 108.5,
+              "o": 1.9,
+              "u": 1.87
+            }
+          },
+          "spread": {
+            "line": 1.5,
+            "h": 1.9,
+            "a": 1.91
+          },
+          "text": "win 2/1.82, +1.5 1.9/1.91, total 215.5 1.87/1.94"
+        }
+      }
+    },
+    {
+      "id": "por-mil",
+      "league": "NBA",
+      "start": "2026-11-20T01:00:00Z",
+      "venue": "Fiserv Forum, Milwaukee",
+      "home": {
+        "name": "Milwaukee Bucks",
+        "short": "Bucks",
+        "code": "MIL"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "short": "Trail Blazers",
+        "code": "POR"
+      },
+      "context": "Milwaukee (1-14) have lost 11 straight, the latest 137-130 at Miami on Wednesday (Kyle Kuzma 26), and are on the second night of a back-to-back. Portland (9-5) lost twice at Minnesota (106-98 and 106-105) and had Wednesday off; they are 6-3 on the road. Deni Avdija (24.2 ppg) is questionable with a foot injury after missing Tuesday, and Ja Morant (hamstring) and Shaedon Sharpe (knee) are out. Portland have won the last five meetings, most recently 130-99 on 26 Mar 2026.",
+      "form": {
+        "home": {
+          "pf": 107.7,
+          "pa": 120.9,
+          "games": 15
+        },
+        "away": {
+          "pf": 117,
+          "pa": 111,
+          "games": 14
+        }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "Tyler Herro",
+            "pos": "G",
+            "pts": 20.3,
+            "reb": 4.2,
+            "ast": 4.2,
+            "threes": 2.7,
+            "min": 30.5
+          },
+          {
+            "name": "Jaime Jaquez Jr.",
+            "pos": "F",
+            "pts": 15.8,
+            "reb": 5.6,
+            "ast": 2.9,
+            "threes": 2,
+            "min": 28
+          },
+          {
+            "name": "Kyle Kuzma",
+            "pos": "F",
+            "pts": 11.3,
+            "reb": 5.3,
+            "ast": 2.5,
+            "threes": 1.6,
+            "min": 26.9
+          },
+          {
+            "name": "Ryan Rollins",
+            "pos": "G",
+            "pts": 10.5,
+            "reb": 5,
+            "ast": 3.9,
+            "threes": 1.6,
+            "min": 23.8,
+            "status": "Questionable (illness; ruled out of Wednesday's game at Miami, Thursday status not yet reported)",
+            "start": 0.5
+          }
+        ],
+        "away": [
+          {
+            "name": "Deni Avdija",
+            "pos": "F",
+            "pts": 24.2,
+            "reb": 6.2,
+            "ast": 6.1,
+            "threes": 2.1,
+            "min": 32.5,
+            "status": "Questionable (foot; missed Tuesday at Minnesota)",
+            "start": 0.5
+          },
+          {
+            "name": "Damian Lillard",
+            "pos": "G",
+            "pts": 20.1,
+            "reb": 3,
+            "ast": 4.4,
+            "threes": 3.1,
+            "min": 29.1
+          },
+          {
+            "name": "Jrue Holiday",
+            "pos": "G",
+            "pts": 13.3,
+            "reb": 3.6,
+            "ast": 4.1,
+            "threes": 2.5,
+            "min": 26.5
+          },
+          {
+            "name": "Toumani Camara",
+            "pos": "F",
+            "pts": 12.2,
+            "reb": 3.4,
+            "ast": 1.3,
+            "threes": 2.6,
+            "min": 29.1
+          },
+          {
+            "name": "Donovan Clingan",
+            "pos": "C",
+            "pts": 11,
+            "reb": 10.6,
+            "ast": 1.8,
+            "threes": 0.9,
+            "min": 25.6
+          },
+          {
+            "name": "Ja Morant",
+            "pos": "G",
+            "pts": 15.8,
+            "reb": 2.5,
+            "ast": 5.5,
+            "threes": 1.5,
+            "min": 25.8,
+            "status": "Out (hamstring)",
+            "start": 0
+          }
+        ]
+      },
+      "news": [
+        {
+          "team": "away",
+          "text": "Deni Avdija (foot) is questionable for Thursday after missing his first game of the season on Tuesday; if he sits, Jayson Kent is likely to keep his starting spot.",
+          "src": "Rotowire 18 Nov, 11:19 pm"
+        },
+        {
+          "team": "away",
+          "text": "Ja Morant (hamstring), Shaedon Sharpe (torn knee meniscus) and Vit Krejci (fractured left ankle) are out; Chris Youngblood (heel) missed Tuesday.",
+          "src": "ESPN injuries"
+        },
+        {
+          "team": "away",
+          "text": "Portland lost 106-98 and 106-105 at Minnesota on 16 and 17 Nov after wins over Sacramento and Oklahoma City (twice), and are rested with Wednesday off.",
+          "src": "scores24"
+        },
+        {
+          "team": "home",
+          "text": "Milwaukee lost 137-130 at Miami on Wednesday, their 11th straight defeat, and play the second night of a back-to-back; Covers notes they lost both earlier zero-rest games by an average of 11.0 points.",
+          "src": "Land of Basketball 18 Nov; scores24; Covers"
+        },
+        {
+          "team": "home",
+          "text": "Ryan Rollins (illness) was ruled out of Wednesday's game at Miami; Ousmane Dieng (fractured left finger) is out until mid-December.",
+          "src": "ESPN injuries 18 Nov"
+        }
+      ],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "Land of Basketball: NBA daily summary 19 Nov 2026 (4 games, all 8:00 pm ET)",
+          "url": "https://www.landofbasketball.com/nba_daily_summary/20261119.htm"
+        },
+        {
+          "title": "Rotowire: Deni Avdija questionable versus Bucks (18 Nov 2026)",
+          "url": "https://www.rotowire.com/basketball/headlines/deni-avdija-injury-questionable-versus-bucks-539815"
+        },
+        {
+          "title": "scores24: Bucks v Trail Blazers prediction, 20 Nov 2026 (recent results, H2H, team stats)",
+          "url": "https://scores24.live/en/basketball/m-20-11-2026-milwaukee-bucks-portland-trail-blazers-prediction"
+        },
+        {
+          "title": "ESPN NBA injuries (comments dated up to 18 Nov 2026)",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "Covers: NBA predictions and moneyline picks, Thursday 19 Nov 2026 (updated 18 Nov)",
+          "url": "https://www.covers.com/nba/moneyline-predictions-picks-nov-19-2026"
+        },
+        {
+          "title": "Land of Basketball: NBA daily summary 18 Nov 2026",
+          "url": "https://www.landofbasketball.com/nba_daily_summary/20261118.htm"
+        },
+        {
+          "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 16 Nov)",
+          "url": "https://champsorchumps.us/summary/nba/2027"
+        },
+        {
+          "title": "Basketball-Reference: 2026-27 NBA per-game player stats (revised 18 Nov 2026, through 17 Nov)",
+          "url": "https://www.basketball-reference.com/leagues/NBA_2027_per_game.html"
+        }
+      ],
+      "odds": {
+        "ml": [
+          4.27,
+          1.245
+        ],
+        "total": {
+          "line": 227.5,
+          "o": 1.869,
+          "u": 2.01
+        },
+        "teamTotal": {
+          "home": {
+            "line": 108.5,
+            "o": 1.847,
+            "u": 2.01
+          },
+          "away": {
+            "line": 118.5,
+            "o": 1.84,
+            "u": 2.02
+          }
+        },
+        "spread": {
+          "line": 9.5,
+          "h": 2.02,
+          "a": 1.877
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            3.9,
+            1.26
+          ],
+          "total": {
+            "line": 227.5,
+            "o": 1.87,
+            "u": 1.94
+          },
+          "teamTotal": {
+            "home": {
+              "line": 109.5,
+              "o": 1.93,
+              "u": 1.85
+            },
+            "away": {
+              "line": 118.5,
+              "o": 1.85,
+              "u": 1.92
+            }
+          },
+          "spread": {
+            "line": 9.5,
+            "h": 1.92,
+            "a": 1.89
+          },
+          "text": "win 3.9/1.26, +9.5 1.92/1.89, total 227.5 1.87/1.94"
+        }
+      }
+    }
+  ]
+}

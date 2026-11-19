@@ -228,7 +228,12 @@
           "title": "FotMob: Real Unión team overview (top scorers, results)",
           "url": "https://www.fotmob.com/teams/8380/overview/com.mobilefootie.wc2010,http"
         }
-      ]
+      ],
+      "result": {
+        "home": 0,
+        "away": 0,
+        "note": "0-0 after extra time; Portugalete won 4-1 on penalties. Bets settle on the 90-minute score."
+      }
     },
     {
       "id": "ute-sab",
@@ -492,7 +497,11 @@
           "title": "22Bet news: Utebo vs Sabadell (no previous meetings)",
           "url": "https://news.22bet.com/match/1644384/"
         }
-      ]
+      ],
+      "result": {
+        "home": 0,
+        "away": 3
+      }
     },
     {
       "id": "alc-mll",
@@ -785,7 +794,12 @@
           "title": "SoccerVital: Alcoyano vs Mallorca (goal averages, form)",
           "url": "https://www.soccervital.com/alcoyano-vs-mallorca-soccer-prediction-jgga2j68g.html"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 1,
+        "note": "1-3 after extra time (Mallorca scored in the 108th and 116th minutes). Bets settle on the 90-minute score."
+      }
     },
     {
       "id": "bad-tfe",
@@ -1038,7 +1052,11 @@
           "title": "Cancha Llena: Badajoz vs Tenerife, head-to-head",
           "url": "https://canchallena.lanacion.com.ar/futbol/copa-del-rey-2026-2027/badajoz-tenerife-cqt68hd53eetby9qvl58v6g44/"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 5
+      }
     },
     {
       "id": "dmi-car",
@@ -1451,7 +1469,12 @@
           "title": "Diari de Tarragona: La Copa inyecta ilusión a la temporada del Reus (28 Oct preview, injuries, coaches)",
           "url": "https://www.diaridetarragona.com/deportes/274127/copa-inyecta-ilusion-temporada-reus.html"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 1,
+        "note": "1-1 after extra time; Reus won 4-3 on penalties. Bets settle on the 90-minute score."
+      }
     },
     {
       "id": "aat-mel",
@@ -1670,7 +1693,11 @@
           "title": "MyBets.today: 18 November fixture list (kick-off 20:00)",
           "url": "https://www.mybets.today/soccer-predictions/match-prediction-analysis-alianza-atletico-vs-fbc-melgar-betting-tip-dii32585i/"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 1
+      }
     },
     {
       "id": "cfc-san",
@@ -2214,7 +2241,20 @@
           "title": "FotMob: Josué (Coritiba) 2026 Série A stats",
           "url": "https://www.fotmob.com/players/163824/josue"
         }
-      ]
+      ],
+      "result": {
+        "home": 0,
+        "away": 1
+      }
     }
+  ],
+  "gradingTodo": [
+    "dmi-car: result (90-minute score; Cartagena won 2-1 after extra time, so it was level at 90) and the Bet builder Under 3.5 goals + BTTS: No (p 0.513); the best bet Minera or draw is graded",
+    "cfc-san: Corners Over 10.5 corners (best bet, p 0.544 @1.813)",
+    "cfc-san: prop Josué 2+ shots",
+    "cfc-san: prop Gabriel Barbosa 2+ shots on target",
+    "cfc-san: prop Nicolás Fonseca 2+ fouls",
+    "cfc-san: prop Jacy 2+ tackles",
+    "cfc-san: prop Gustavo Henrique 2+ tackles"
   ]
 }

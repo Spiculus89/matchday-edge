@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
-  "updated": "2026-11-18T09:16:34.000Z",
-  "updateNote": "NBA, Wednesday night in the US (after midnight here). Odds from DraftKings (via Covers) and FanDuel (via FanDuel Research) as of the morning; starters are confirmed about 30 minutes before tip-off.",
+  "updated": "2026-11-19T09:35:19.000Z",
+  "updateNote": "NBA games from Wednesday night (graded) and tonight's six EuroLeague Round 13 games, with team news from the official injury report (via Eurodevotion, cross-checked with Basketnews and the clubs), EuroLeague per-game numbers from Basketball-Reference, and Pinnacle prices from 09:31 Warsaw. A refresh 45 minutes before the first tip-off adds late scratches.",
   "games": [
     {
       "id": "phi-orl",
@@ -195,7 +195,11 @@
           "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
           "url": "https://champsorchumps.us/summary/nba/2027"
         }
-      ]
+      ],
+      "result": {
+        "home": 116,
+        "away": 121
+      }
     },
     {
       "id": "mil-mia",
@@ -372,7 +376,11 @@
           "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
           "url": "https://champsorchumps.us/summary/nba/2027"
         }
-      ]
+      ],
+      "result": {
+        "home": 137,
+        "away": 130
+      }
     },
     {
       "id": "gsw-dal",
@@ -623,7 +631,11 @@
           "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
           "url": "https://champsorchumps.us/summary/nba/2027"
         }
-      ]
+      ],
+      "result": {
+        "home": 116,
+        "away": 94
+      }
     },
     {
       "id": "bos-den",
@@ -843,13 +855,17 @@
           "title": "Champs or Chumps: 2026-27 standings, PPG / PPG allowed (through 15 Nov)",
           "url": "https://champsorchumps.us/summary/nba/2027"
         }
-      ]
+      ],
+      "result": {
+        "home": 105,
+        "away": 101
+      }
     },
     {
       "id": "dub-mta",
-      "league": "EuroLeague, Round 12",
+      "league": "EuroLeague, Round 13",
       "start": "2026-11-19T17:15:00.000Z",
-      "venue": "Menora Mivtachim Arena, Tel Aviv",
+      "venue": "Spyros Kyprianou Arena, Limassol (Maccabi's EuroLeague home this season)",
       "home": {
         "name": "Maccabi Tel-Aviv",
         "short": "Maccabi",
@@ -860,7 +876,7 @@
         "short": "Dubai",
         "code": "DUB"
       },
-      "context": "EuroLeague Round 12. Pinnacle has Dubai favoured by 4 and the total at 177. Team news (the official Round 12 injury report) is added by the morning update.",
+      "context": "Dubai (8-4), one game behind leaders Valencia and Olympiacos (9-3), visit Maccabi (3-9), who play their EuroLeague home games in Limassol, Cyprus this season. Maccabi lost 97-95 in overtime to Olympiacos in Round 12; Dubai beat Anadolu Efes 80-75 behind Mfiondu Kabengele's 18 points and 18 rebounds. Maccabi are without Iffe Lundberg (quadriceps tendon), and Dubai's Mam Jaiteh (Achilles) is doubtful.",
       "odds": {
         "ml": [
           2.33,
@@ -945,10 +961,145 @@
         }
       },
       "players": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Jimmy Clark III",
+            "pos": "G",
+            "pts": 13.6,
+            "reb": 2.4,
+            "ast": 4.0,
+            "threes": 1.7,
+            "min": 22.3
+          },
+          {
+            "name": "Yam Madar",
+            "pos": "G",
+            "pts": 11.6,
+            "reb": 2.1,
+            "ast": 4.9,
+            "threes": 1.1,
+            "min": 21.2
+          },
+          {
+            "name": "Bonzie Colson",
+            "pos": "F",
+            "pts": 10.7,
+            "reb": 3.5,
+            "ast": 0.5,
+            "threes": 1.9,
+            "min": 20.5
+          },
+          {
+            "name": "Roman Sorkin",
+            "pos": "F",
+            "pts": 9.5,
+            "reb": 2.3,
+            "ast": 0.8,
+            "threes": 0.7,
+            "min": 16.7
+          },
+          {
+            "name": "Iffe Lundberg",
+            "pos": "G",
+            "pts": 7.7,
+            "reb": 2.5,
+            "ast": 3.0,
+            "status": "Out (partial quadriceps tendon tear)",
+            "start": 0
+          }
+        ],
+        "away": [
+          {
+            "name": "Dwayne Bacon",
+            "pos": "G",
+            "pts": 16.3,
+            "reb": 4.0,
+            "ast": 2.8,
+            "threes": 1.2,
+            "min": 27.5
+          },
+          {
+            "name": "Mfiondu Kabengele",
+            "pos": "C",
+            "pts": 14.7,
+            "reb": 8.5,
+            "ast": 1.3,
+            "threes": 1.2,
+            "min": 24.0
+          },
+          {
+            "name": "Elie Okobo",
+            "pos": "G",
+            "pts": 10.3,
+            "reb": 1.8,
+            "ast": 4.2,
+            "threes": 1.4,
+            "min": 26.2
+          },
+          {
+            "name": "McKinley Wright IV",
+            "pos": "G",
+            "pts": 9.5,
+            "reb": 2.8,
+            "ast": 3.0,
+            "threes": 0.9,
+            "min": 24.7
+          },
+          {
+            "name": "Dzanan Musa",
+            "pos": "F",
+            "pts": 8.4,
+            "reb": 4.0,
+            "ast": 3.8,
+            "threes": 1.2,
+            "min": 19.4
+          },
+          {
+            "name": "Mam Jaiteh",
+            "pos": "C",
+            "status": "Doubtful (Achilles)",
+            "start": 0.1
+          },
+          {
+            "name": "Davis Bertans",
+            "pos": "F",
+            "pts": 3.3,
+            "reb": 1.4,
+            "ast": 0.4,
+            "threes": 0.9,
+            "min": 11.5,
+            "status": "Out (hamstring)",
+            "start": 0
+          }
+        ]
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "text": "Iffe Lundberg is out (partial quadriceps tendon tear, suffered in practice in October). Basketnews says he will have surgery and is not expected back before February. He averaged 7.7 points in six EuroLeague games.",
+          "src": "Eurodevotion (official Round 13 report), 19 Nov; Basketnews injury tracker; Eurohoops 20 Oct"
+        },
+        {
+          "team": "home",
+          "text": "Oshae Brissett (back) is cleared. Kamar Baldwin joined from Bayern on 10 Nov. Keaton Wallace (18) and Jimmy Clark (15) led Maccabi in the 97-95 overtime loss to Olympiacos in Limassol.",
+          "src": "BasketballSphere injuries; Eurohoops Round 12 report and roundup"
+        },
+        {
+          "team": "away",
+          "text": "Mam Jaiteh is doubtful (Achilles rehab), the only Dubai name in the official Round 13 report as Eurodevotion summarises it.",
+          "src": "Eurodevotion (official Round 13 report), 19 Nov 07:00 CET"
+        },
+        {
+          "team": "away",
+          "text": "Basketnews (18 Nov) and BasketballSphere (17 Nov) also list Davis Bertans (hamstring, missed Rounds 10-12, out indefinitely) and Kosta Kondic (hip, missed Rounds 10-12) as out. Both are bench players (3.3 and 2.7 points). Justin Anderson (hamstring) has not played a EuroLeague game this season. Thomas Walkup is cleared.",
+          "src": "Basketnews injury tracker; BasketballSphere injuries"
+        },
+        {
+          "team": "away",
+          "text": "Round 12: Dubai beat Efes 80-75; Kabengele had 18 points and 18 rebounds, Musa 14 points and 7 assists, Bacon 13.",
+          "src": "Eurohoops Round 12 roundup"
+        }
+      ],
       "lineups": {
         "status": "expected"
       },
@@ -956,12 +1107,64 @@
         {
           "title": "EuroLeague injury reports",
           "url": "https://www.euroleaguebasketball.net/euroleague/news/"
+        },
+        {
+          "title": "Eurodevotion: Round 13 di Euroleague, injury report del 19 novembre",
+          "url": "https://eurodevotion.com/news/446982163974/round-13-di-euroleague-injury-report-del-19-novembre"
+        },
+        {
+          "title": "Basketnews: EuroLeague injury report (updated daily)",
+          "url": "https://basketnews.com/news-212393-euroleague-injury-report-updated.html"
+        },
+        {
+          "title": "BasketballSphere: EuroLeague injury report 2026-27",
+          "url": "https://basketballsphere.com/en/injuries/euroleague/"
+        },
+        {
+          "title": "Eurohoops: Round 12 injury report",
+          "url": "https://www.eurohoops.net/en/euroleague/2036247/injury-report-round-12-willis-gtd-melli-key-milutinov-out/"
+        },
+        {
+          "title": "Eurohoops: Round 12 roundup",
+          "url": "https://www.eurohoops.net/en/euroleague/2036457/euroleague-roundup-kabengele-leads-dubai-past-efes/"
+        },
+        {
+          "title": "Eurohoops: Iffe Lundberg sidelined 6-8 weeks",
+          "url": "https://www.eurohoops.net/en/euroleague/2023497/iffe-lundberg-suffers-an-injury-and-will-be-sidelined-for-6-to-8-weeks/"
+        },
+        {
+          "title": "Cyprus Mail: Maccabi Tel Aviv to play EuroLeague games in Cyprus",
+          "url": "https://cyprus-mail.com/2026/10/06/israels-maccabi-tel-aviv-to-play-euroleague-basketball-games-in-cyprus"
+        },
+        {
+          "title": "Basketball-Reference: EuroLeague 2026-27 standings (PPG/OPPG)",
+          "url": "https://www.basketball-reference.com/international/euroleague/"
+        },
+        {
+          "title": "Basketball-Reference: Maccabi Tel Aviv 2026-27",
+          "url": "https://www.basketball-reference.com/international/teams/maccabi-tel-aviv/2027.html"
+        },
+        {
+          "title": "Basketball-Reference: Dubai 2026-27",
+          "url": "https://www.basketball-reference.com/international/teams/dubai/2027.html"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "pf": 85.2,
+          "pa": 92.5,
+          "games": 12
+        },
+        "away": {
+          "pf": 86.0,
+          "pa": 84.8,
+          "games": 12
+        }
+      }
     },
     {
       "id": "pan-zal",
-      "league": "EuroLeague, Round 12",
+      "league": "EuroLeague, Round 13",
       "start": "2026-11-19T18:00:00.000Z",
       "venue": "Zalgirio Arena, Kaunas",
       "home": {
@@ -974,7 +1177,7 @@
         "short": "Panathinaikos",
         "code": "PAN"
       },
-      "context": "EuroLeague Round 12. Pinnacle has Panathinaikos favoured by 1 and the total at 166.5. Team news (the official Round 12 injury report) is added by the morning update.",
+      "context": "Zalgiris and Panathinaikos are both 8-4. Zalgiris beat Bayern 117-114 in overtime in Round 12 (Carsen Edwards 32 points), while Panathinaikos lost 84-79 at Virtus Bologna. Zalgiris are still without Nigel Williams-Goss (hamstring); Panathinaikos reported a full squad.",
       "odds": {
         "ml": [
           1.869,
@@ -1059,10 +1262,120 @@
         }
       },
       "players": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Carsen Edwards",
+            "pos": "G",
+            "pts": 16.6,
+            "reb": 1.3,
+            "ast": 2.6,
+            "threes": 2.5,
+            "min": 22.8
+          },
+          {
+            "name": "Jonas Valanciunas",
+            "pos": "C",
+            "pts": 12.8,
+            "reb": 9.1,
+            "ast": 1.8,
+            "threes": 0.1,
+            "min": 21.0
+          },
+          {
+            "name": "Azuolas Tubelis",
+            "pos": "F",
+            "pts": 12.2,
+            "reb": 6.0,
+            "ast": 1.5,
+            "threes": 0.4,
+            "min": 23.4
+          },
+          {
+            "name": "Sterling Brown",
+            "pos": "F",
+            "pts": 10.3,
+            "reb": 3.1,
+            "ast": 1.3,
+            "threes": 1.8,
+            "min": 19.2
+          },
+          {
+            "name": "Nigel Williams-Goss",
+            "pos": "G",
+            "pts": 7.0,
+            "reb": 1.5,
+            "ast": 4.5,
+            "threes": 0.5,
+            "min": 18.5,
+            "status": "Out (hamstring)",
+            "start": 0
+          }
+        ],
+        "away": [
+          {
+            "name": "Kendrick Nunn",
+            "pos": "G",
+            "pts": 19.7,
+            "reb": 3.5,
+            "ast": 2.8,
+            "threes": 1.8,
+            "min": 24.2
+          },
+          {
+            "name": "Sylvain Francisco",
+            "pos": "G",
+            "pts": 13.8,
+            "reb": 2.3,
+            "ast": 4.6,
+            "threes": 2.1,
+            "min": 23.2
+          },
+          {
+            "name": "Mathias Lessort",
+            "pos": "C",
+            "pts": 11.7,
+            "reb": 6.9,
+            "ast": 1.6,
+            "threes": 0.0,
+            "min": 23.4
+          },
+          {
+            "name": "Nigel Hayes-Davis",
+            "pos": "F",
+            "pts": 10.8,
+            "reb": 3.4,
+            "ast": 1.3,
+            "threes": 1.4,
+            "min": 27.2
+          },
+          {
+            "name": "Guerschon Yabusele",
+            "pos": "F",
+            "pts": 8.3,
+            "reb": 4.8,
+            "ast": 1.3,
+            "threes": 1.3,
+            "min": 24.0
+          }
+        ]
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "text": "Nigel Williams-Goss is out (hamstring). He aggravated the injury in Round 6 and Basketnews expects him back around Round 14. He has played only two EuroLeague games.",
+          "src": "Eurodevotion (official Round 13 report), 19 Nov; Basketnews injury tracker"
+        },
+        {
+          "team": "home",
+          "text": "Round 12: Zalgiris beat Bayern 117-114 in overtime. Carsen Edwards scored 32, including the last five points of regulation and eight in overtime; Tubelis and Valanciunas had 15 each.",
+          "src": "Eurohoops Round 12 roundup"
+        },
+        {
+          "team": "away",
+          "text": "Panathinaikos reported a full squad. Nikos Rogkavopoulos is back from a hamstring injury (6 minutes in Round 12). Mantzoukas, Moraitis and Varvaritis have been left out on coach's decision. Kendrick Nunn (18 points) played in Round 12 despite only 6 EuroLeague games so far.",
+          "src": "Eurodevotion (official Round 13 report); Basketnews injury tracker; Eurohoops roundup"
+        }
+      ],
       "lineups": {
         "status": "expected"
       },
@@ -1070,12 +1383,48 @@
         {
           "title": "EuroLeague injury reports",
           "url": "https://www.euroleaguebasketball.net/euroleague/news/"
+        },
+        {
+          "title": "Eurodevotion: Round 13 di Euroleague, injury report del 19 novembre",
+          "url": "https://eurodevotion.com/news/446982163974/round-13-di-euroleague-injury-report-del-19-novembre"
+        },
+        {
+          "title": "Basketnews: EuroLeague injury report (updated daily)",
+          "url": "https://basketnews.com/news-212393-euroleague-injury-report-updated.html"
+        },
+        {
+          "title": "Eurohoops: Round 12 roundup",
+          "url": "https://www.eurohoops.net/en/euroleague/2036457/euroleague-roundup-kabengele-leads-dubai-past-efes/"
+        },
+        {
+          "title": "Basketball-Reference: EuroLeague 2026-27 standings (PPG/OPPG)",
+          "url": "https://www.basketball-reference.com/international/euroleague/"
+        },
+        {
+          "title": "Basketball-Reference: Zalgiris 2026-27",
+          "url": "https://www.basketball-reference.com/international/teams/zalgiris/2027.html"
+        },
+        {
+          "title": "Basketball-Reference: Panathinaikos 2026-27",
+          "url": "https://www.basketball-reference.com/international/teams/panathinaikos/2027.html"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "pf": 88.3,
+          "pa": 85.0,
+          "games": 12
+        },
+        "away": {
+          "pf": 85.8,
+          "pa": 78.9,
+          "games": 12
+        }
+      }
     },
     {
       "id": "bkn-bay",
-      "league": "EuroLeague, Round 12",
+      "league": "EuroLeague, Round 13",
       "start": "2026-11-19T19:00:00.000Z",
       "venue": "SAP Garden, Munich",
       "home": {
@@ -1088,7 +1437,7 @@
         "short": "Baskonia",
         "code": "BKN"
       },
-      "context": "EuroLeague Round 12. Pinnacle has Bayern favoured by 6.5 and the total at 178. Team news (the official Round 12 injury report) is added by the morning update.",
+      "context": "Bayern (3-9) are still looking for their first EuroLeague home win and lost 117-114 in overtime at Zalgiris in Round 12, despite 33 points from Johannes Thiemann. Baskonia (1-11) are last and lost 85-82 at home to Hapoel after leading 71-64 going into the fourth quarter. Bayern are without captain Vladimir Lucic; Baskonia are without Kenneth Faried, and Tadas Sedekerskis and Marcio Santos are doubtful.",
       "odds": {
         "ml": [
           1.333,
@@ -1173,10 +1522,160 @@
         }
       },
       "players": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Duane Washington Jr.",
+            "pos": "G",
+            "pts": 15.0,
+            "reb": 1.1,
+            "ast": 2.8,
+            "threes": 2.2,
+            "min": 19.9
+          },
+          {
+            "name": "Andreas Obst",
+            "pos": "G",
+            "pts": 11.0,
+            "reb": 1.4,
+            "ast": 2.6,
+            "threes": 2.5,
+            "min": 24.6
+          },
+          {
+            "name": "Johannes Thiemann",
+            "pos": "F",
+            "pts": 8.9,
+            "reb": 4.5,
+            "ast": 1.8,
+            "threes": 0.2,
+            "min": 19.9
+          },
+          {
+            "name": "Rokas Jokubaitis",
+            "pos": "G",
+            "pts": 8.7,
+            "reb": 0.7,
+            "ast": 3.6,
+            "threes": 1.1,
+            "min": 18.7
+          },
+          {
+            "name": "Austin Wiley",
+            "pos": "C",
+            "pts": 7.9,
+            "reb": 6.4,
+            "ast": 0.7,
+            "threes": 0.0,
+            "min": 15.8,
+            "status": "Questionable (undisclosed; missed Round 12)",
+            "start": 0.5
+          },
+          {
+            "name": "Vladimir Lucic",
+            "pos": "F",
+            "pts": 6.8,
+            "reb": 2.4,
+            "ast": 1.5,
+            "threes": 0.4,
+            "min": 18.5,
+            "status": "Out (undisclosed)",
+            "start": 0
+          }
+        ],
+        "away": [
+          {
+            "name": "A.J. Lawson",
+            "pos": "G",
+            "pts": 11.3,
+            "reb": 2.8,
+            "ast": 2.1,
+            "threes": 1.9,
+            "min": 23.3
+          },
+          {
+            "name": "Chris Duarte",
+            "pos": "F",
+            "pts": 10.2,
+            "reb": 3.7,
+            "ast": 2.0,
+            "threes": 1.8,
+            "min": 20.0
+          },
+          {
+            "name": "D.J. Stewart Jr.",
+            "pos": "G",
+            "pts": 9.0,
+            "reb": 2.2,
+            "ast": 1.2,
+            "threes": 0.5,
+            "min": 24.1
+          },
+          {
+            "name": "Kenan Kamenjas",
+            "pos": "C",
+            "pts": 12.0,
+            "reb": 12.0,
+            "ast": 1.0,
+            "threes": 0.0,
+            "min": 31.0
+          },
+          {
+            "name": "Tadas Sedekerskis",
+            "pos": "F",
+            "pts": 10.1,
+            "reb": 4.7,
+            "ast": 0.3,
+            "threes": 1.0,
+            "min": 18.4,
+            "status": "Doubtful (thigh/adductor)",
+            "start": 0.25
+          },
+          {
+            "name": "Kenneth Faried",
+            "pos": "F",
+            "pts": 8.7,
+            "reb": 6.9,
+            "ast": 1.0,
+            "threes": 0.1,
+            "min": 21.5,
+            "status": "Out (adductor/thigh)",
+            "start": 0
+          },
+          {
+            "name": "Marcio Santos",
+            "pos": "C",
+            "pts": 8.3,
+            "reb": 4.0,
+            "ast": 0.7,
+            "threes": 0.3,
+            "min": 16.4,
+            "status": "Doubtful (calf)",
+            "start": 0.25
+          }
+        ]
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "text": "Vladimir Lucic is out on the official Round 13 report, although Bayern said he trained again on Wednesday. He, Austin Wiley and Justus Hollatz all missed the Round 12 game in Kaunas (undisclosed). Wiley and Hollatz are not on the Round 13 report as Eurodevotion summarises it, but the club gave no update on them.",
+          "src": "Eurodevotion (official Round 13 report), 19 Nov; FC Bayern preview 18 Nov; Basketnews injury tracker"
+        },
+        {
+          "team": "home",
+          "text": "Round 12: lost 117-114 in overtime at Zalgiris; Thiemann 33 points, Duane Washington Jr. 27, Oscar da Silva 16 and 12 rebounds. Coach Anton Gavel: Baskonia have changed personnel and are playing significantly better in recent weeks.",
+          "src": "Eurohoops Round 12 roundup; FC Bayern preview"
+        },
+        {
+          "team": "away",
+          "text": "Kenneth Faried is out (adductor, injured in Round 11). Tadas Sedekerskis (adductor/thigh, last played Round 7) and Marcio Santos (calf tear, last played Round 9) are doubtful.",
+          "src": "Eurodevotion (official Round 13 report), 19 Nov; BasketballSphere injuries"
+        },
+        {
+          "team": "away",
+          "text": "New signings Kenan Kamenjas (12 points, 12 rebounds) and Rolands Smits (12 points) debuted in the 85-82 Round 12 home loss to Hapoel. Their averages come from one game.",
+          "src": "FC Bayern preview; Basketball-Reference"
+        }
+      ],
       "lineups": {
         "status": "expected"
       },
@@ -1184,12 +1683,56 @@
         {
           "title": "EuroLeague injury reports",
           "url": "https://www.euroleaguebasketball.net/euroleague/news/"
+        },
+        {
+          "title": "Eurodevotion: Round 13 di Euroleague, injury report del 19 novembre",
+          "url": "https://eurodevotion.com/news/446982163974/round-13-di-euroleague-injury-report-del-19-novembre"
+        },
+        {
+          "title": "FC Bayern: Bayern vs Baskonia game preview (18 Nov 2026)",
+          "url": "https://fcbayern.com/basketball/en/news/2026-27/11/fc-bayern-basketball---baskonia-gasteiz-game-preview"
+        },
+        {
+          "title": "Basketnews: EuroLeague injury report (updated daily)",
+          "url": "https://basketnews.com/news-212393-euroleague-injury-report-updated.html"
+        },
+        {
+          "title": "BasketballSphere: EuroLeague injury report 2026-27",
+          "url": "https://basketballsphere.com/en/injuries/euroleague/"
+        },
+        {
+          "title": "Eurohoops: Round 12 roundup",
+          "url": "https://www.eurohoops.net/en/euroleague/2036457/euroleague-roundup-kabengele-leads-dubai-past-efes/"
+        },
+        {
+          "title": "Basketball-Reference: EuroLeague 2026-27 standings (PPG/OPPG)",
+          "url": "https://www.basketball-reference.com/international/euroleague/"
+        },
+        {
+          "title": "Basketball-Reference: Bayern Munich 2026-27",
+          "url": "https://www.basketball-reference.com/international/teams/bayern-muenchen/2027.html"
+        },
+        {
+          "title": "Basketball-Reference: Baskonia 2026-27",
+          "url": "https://www.basketball-reference.com/international/teams/vitoria/2027.html"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "pf": 89.1,
+          "pa": 97.0,
+          "games": 12
+        },
+        "away": {
+          "pf": 80.1,
+          "pa": 91.3,
+          "games": 12
+        }
+      }
     },
     {
       "id": "fen-mil",
-      "league": "EuroLeague, Round 12",
+      "league": "EuroLeague, Round 13",
       "start": "2026-11-19T19:30:00.000Z",
       "venue": "Unipol Forum, Milan",
       "home": {
@@ -1202,7 +1745,7 @@
         "short": "Fenerbahce",
         "code": "FEN"
       },
-      "context": "EuroLeague Round 12. Pinnacle has Fenerbahce favoured by 5.5 and the total at 165.5. Team news (the official Round 12 injury report) is added by the morning update.",
+      "context": "Milan (2-10) beat Crvena Zvezda 91-77 in Round 12 for only their second win; Fenerbahce (8-4) beat ASVEL 115-81 with Shane Larkin scoring 25 points in 15 minutes. Milan are still without Devin Booker (thigh tendon, about three months). Fenerbahce are missing Nicolo Melli (meniscus surgery, about two months) and Braxton Key (finger).",
       "odds": {
         "ml": [
           2.66,
@@ -1287,10 +1830,147 @@
         }
       },
       "players": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Moses Wright",
+            "pos": "F",
+            "pts": 11.3,
+            "reb": 5.3,
+            "ast": 0.9,
+            "threes": 0.1,
+            "min": 22.4
+          },
+          {
+            "name": "Leandro Bolmaro",
+            "pos": "G",
+            "pts": 9.8,
+            "reb": 2.9,
+            "ast": 2.3,
+            "threes": 1.3,
+            "min": 23.2
+          },
+          {
+            "name": "Devon Hall",
+            "pos": "G",
+            "pts": 9.3,
+            "reb": 2.8,
+            "ast": 3.8,
+            "threes": 1.3,
+            "min": 24.8
+          },
+          {
+            "name": "Marko Guduric",
+            "pos": "G",
+            "pts": 9.1,
+            "reb": 2.1,
+            "ast": 1.9,
+            "threes": 1.5,
+            "min": 20.0
+          },
+          {
+            "name": "Devin Booker",
+            "pos": "C",
+            "pts": 6.1,
+            "reb": 3.8,
+            "ast": 1.1,
+            "threes": 0.3,
+            "min": 15.6,
+            "status": "Out (torn right thigh tendon)",
+            "start": 0
+          }
+        ],
+        "away": [
+          {
+            "name": "Talen Horton-Tucker",
+            "pos": "G",
+            "pts": 13.1,
+            "reb": 3.8,
+            "ast": 2.4,
+            "threes": 0.8,
+            "min": 20.3
+          },
+          {
+            "name": "Wade Baldwin",
+            "pos": "G",
+            "pts": 11.8,
+            "reb": 2.9,
+            "ast": 4.4,
+            "threes": 0.9,
+            "min": 23.1
+          },
+          {
+            "name": "Shavon Shields",
+            "pos": "F",
+            "pts": 11.3,
+            "reb": 4.4,
+            "ast": 1.8,
+            "threes": 1.4,
+            "min": 23.2
+          },
+          {
+            "name": "Will Clyburn",
+            "pos": "F",
+            "pts": 9.9,
+            "reb": 2.6,
+            "ast": 1.7,
+            "threes": 1.7,
+            "min": 21.5
+          },
+          {
+            "name": "Shane Larkin",
+            "pos": "G",
+            "pts": 8.5,
+            "reb": 1.1,
+            "ast": 2.1,
+            "threes": 1.6,
+            "min": 18.5
+          },
+          {
+            "name": "Braxton Key",
+            "pos": "F",
+            "pts": 7.8,
+            "reb": 4.7,
+            "ast": 1.3,
+            "threes": 0.3,
+            "min": 21.7,
+            "status": "Out (dislocated/broken finger)",
+            "start": 0
+          },
+          {
+            "name": "Nicolo Melli",
+            "pos": "F",
+            "pts": 4.8,
+            "reb": 4.4,
+            "ast": 1.1,
+            "threes": 0.9,
+            "min": 20.2,
+            "status": "Out (meniscus surgery)",
+            "start": 0
+          }
+        ]
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "text": "Devin Booker remains out (torn right thigh tendon, injured in Round 9; about three months). Basketnews lists Nicola Akele, Stefano Tonut and Diego Flaccadori as uncertain after coach's-decision absences.",
+          "src": "Eurodevotion (official Round 13 report), 19 Nov; Basketnews injury tracker"
+        },
+        {
+          "team": "home",
+          "text": "Round 12: Milan beat Crvena Zvezda 91-77; Leandro Bolmaro scored 15, Darius Thompson had 12 points and 8 assists.",
+          "src": "Eurohoops Round 12 roundup"
+        },
+        {
+          "team": "away",
+          "text": "Nicolo Melli is out after meniscus surgery (about two months) and Braxton Key is out with a finger injury he suffered on 15 Nov (dislocation and tear; Eurodevotion reports a fracture). Both also missed Round 12.",
+          "src": "Eurodevotion (official Round 13 report), 19 Nov; Eurohoops 16 Nov"
+        },
+        {
+          "team": "away",
+          "text": "Round 12: Fenerbahce beat ASVEL 115-81; Shane Larkin scored 25 in 15:30 (6 of 7 from three), Johnny Juzang 15 points and 11 rebounds.",
+          "src": "Eurohoops Round 12 roundup"
+        }
+      ],
       "lineups": {
         "status": "expected"
       },
@@ -1298,12 +1978,52 @@
         {
           "title": "EuroLeague injury reports",
           "url": "https://www.euroleaguebasketball.net/euroleague/news/"
+        },
+        {
+          "title": "Eurodevotion: Round 13 di Euroleague, injury report del 19 novembre",
+          "url": "https://eurodevotion.com/news/446982163974/round-13-di-euroleague-injury-report-del-19-novembre"
+        },
+        {
+          "title": "Eurohoops: Melli faces possible surgery, Key finger injury (16 Nov)",
+          "url": "https://eurohoops.net/en/euroleague/2035850/braxton-key-nicolo-melli-injury-updates-fenerbahce-euroleague"
+        },
+        {
+          "title": "Basketnews: EuroLeague injury report (updated daily)",
+          "url": "https://basketnews.com/news-212393-euroleague-injury-report-updated.html"
+        },
+        {
+          "title": "Eurohoops: Round 12 roundup",
+          "url": "https://www.eurohoops.net/en/euroleague/2036457/euroleague-roundup-kabengele-leads-dubai-past-efes/"
+        },
+        {
+          "title": "Basketball-Reference: EuroLeague 2026-27 standings (PPG/OPPG)",
+          "url": "https://www.basketball-reference.com/international/euroleague/"
+        },
+        {
+          "title": "Basketball-Reference: Olimpia Milano 2026-27",
+          "url": "https://www.basketball-reference.com/international/teams/milano/2027.html"
+        },
+        {
+          "title": "Basketball-Reference: Fenerbahce 2026-27",
+          "url": "https://www.basketball-reference.com/international/teams/ulker-fenerbahce/2027.html"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "pf": 82.1,
+          "pa": 88.3,
+          "games": 12
+        },
+        "away": {
+          "pf": 85.6,
+          "pa": 78.8,
+          "games": 12
+        }
+      }
     },
     {
       "id": "hta-par",
-      "league": "EuroLeague, Round 12",
+      "league": "EuroLeague, Round 13",
       "start": "2026-11-19T19:45:00.000Z",
       "venue": "Adidas Arena, Paris",
       "home": {
@@ -1316,7 +2036,7 @@
         "short": "Hapoel",
         "code": "HTA"
       },
-      "context": "EuroLeague Round 12. Pinnacle has Hapoel favoured by 2.5 and the total at 185. Team news (the official Round 12 injury report) is added by the morning update.",
+      "context": "Paris (6-6) won 89-86 at Barcelona in Round 12, with Nadir Hifi scoring 25 points including the decisive three. Hapoel (7-5) won 85-82 at Baskonia. Paris reported a full squad; Hapoel are without Tyler Ennis (Achilles) and Bruno Caboclo has missed two games with a calf strain.",
       "odds": {
         "ml": [
           2.03,
@@ -1401,10 +2121,145 @@
         }
       },
       "players": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "Nadir Hifi",
+            "pos": "G",
+            "pts": 21.2,
+            "reb": 2.4,
+            "ast": 4.1,
+            "threes": 2.3,
+            "min": 25.3
+          },
+          {
+            "name": "Tyson Etienne",
+            "pos": "G",
+            "pts": 13.9,
+            "reb": 1.1,
+            "ast": 2.2,
+            "threes": 3.2,
+            "min": 20.2
+          },
+          {
+            "name": "T.J. Warren",
+            "pos": "F",
+            "pts": 13.1,
+            "reb": 3.3,
+            "ast": 1.0,
+            "threes": 1.8,
+            "min": 19.8
+          },
+          {
+            "name": "Jared Rhoden",
+            "pos": "G",
+            "pts": 12.4,
+            "reb": 3.4,
+            "ast": 1.9,
+            "threes": 0.4,
+            "min": 21.2
+          },
+          {
+            "name": "Sebastian Herrera",
+            "pos": "F",
+            "pts": 9.7,
+            "reb": 1.6,
+            "ast": 2.3,
+            "threes": 2.8,
+            "min": 20.5
+          }
+        ],
+        "away": [
+          {
+            "name": "Elijah Bryant",
+            "pos": "G",
+            "pts": 14.6,
+            "reb": 5.4,
+            "ast": 3.8,
+            "threes": 0.9,
+            "min": 29.3
+          },
+          {
+            "name": "Vasilije Micic",
+            "pos": "G",
+            "pts": 14.5,
+            "reb": 2.8,
+            "ast": 4.6,
+            "threes": 2.0,
+            "min": 26.8
+          },
+          {
+            "name": "Antonio Blakeney",
+            "pos": "G",
+            "pts": 12.8,
+            "reb": 2.0,
+            "ast": 0.8,
+            "threes": 2.3,
+            "min": 21.3
+          },
+          {
+            "name": "Daniel Oturu",
+            "pos": "C",
+            "pts": 11.3,
+            "reb": 5.8,
+            "ast": 0.7,
+            "threes": 0.0,
+            "min": 21.3
+          },
+          {
+            "name": "Zach LeDay",
+            "pos": "F",
+            "pts": 10.3,
+            "reb": 4.4,
+            "ast": 0.7,
+            "threes": 1.0,
+            "min": 21.6
+          },
+          {
+            "name": "Tyler Ennis",
+            "pos": "G",
+            "status": "Out (Achilles)",
+            "start": 0
+          },
+          {
+            "name": "Bruno Caboclo",
+            "pos": "F",
+            "pts": 5.0,
+            "reb": 1.3,
+            "ast": 0.3,
+            "threes": 1.0,
+            "min": 7.0,
+            "status": "Doubtful (minor calf tear)",
+            "start": 0.25
+          }
+        ]
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "text": "Paris reported a full squad. Joel Ayayi and Daulton Hommes have been left out of the last two games on coach's decision.",
+          "src": "Eurodevotion (official Round 13 report), 19 Nov; Basketnews injury tracker"
+        },
+        {
+          "team": "home",
+          "text": "Round 12: Paris won 89-86 at Barcelona; Nadir Hifi had 25 points, five threes and 8 assists, including the go-ahead three with 14 seconds left.",
+          "src": "Eurohoops Round 12 roundup"
+        },
+        {
+          "team": "away",
+          "text": "Tyler Ennis is out (Achilles tear from January 2026); he is close to returning and was due to rejoin team practice on 19 Nov.",
+          "src": "Eurodevotion (official Round 13 report), 19 Nov; Basketnews injury tracker"
+        },
+        {
+          "team": "away",
+          "text": "Bruno Caboclo (minor calf tear) missed Rounds 11-12 and Basketnews lists him as doubtful. He is not on the Round 13 report as Eurodevotion summarises it, so his status is unclear. He is a bench player (7 minutes a game).",
+          "src": "Basketnews injury tracker (18 Nov); BasketballSphere"
+        },
+        {
+          "team": "away",
+          "text": "Round 12: Hapoel won 85-82 at Baskonia; Tai Odiase scored 16, Vasilije Micic had 14 points and 8 assists.",
+          "src": "Eurohoops Round 12 roundup"
+        }
+      ],
       "lineups": {
         "status": "expected"
       },
@@ -1412,12 +2267,52 @@
         {
           "title": "EuroLeague injury reports",
           "url": "https://www.euroleaguebasketball.net/euroleague/news/"
+        },
+        {
+          "title": "Eurodevotion: Round 13 di Euroleague, injury report del 19 novembre",
+          "url": "https://eurodevotion.com/news/446982163974/round-13-di-euroleague-injury-report-del-19-novembre"
+        },
+        {
+          "title": "Basketnews: EuroLeague injury report (updated daily)",
+          "url": "https://basketnews.com/news-212393-euroleague-injury-report-updated.html"
+        },
+        {
+          "title": "BasketballSphere: EuroLeague injury report 2026-27",
+          "url": "https://basketballsphere.com/en/injuries/euroleague/"
+        },
+        {
+          "title": "Eurohoops: Round 12 roundup",
+          "url": "https://www.eurohoops.net/en/euroleague/2036457/euroleague-roundup-kabengele-leads-dubai-past-efes/"
+        },
+        {
+          "title": "Basketball-Reference: EuroLeague 2026-27 standings (PPG/OPPG)",
+          "url": "https://www.basketball-reference.com/international/euroleague/"
+        },
+        {
+          "title": "Basketball-Reference: Paris Basketball 2026-27",
+          "url": "https://www.basketball-reference.com/international/teams/paris-basket/2027.html"
+        },
+        {
+          "title": "Basketball-Reference: Hapoel Tel Aviv 2026-27",
+          "url": "https://www.basketball-reference.com/international/teams/hapoel-tel-aviv/2027.html"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "pf": 90.8,
+          "pa": 93.4,
+          "games": 12
+        },
+        "away": {
+          "pf": 89.9,
+          "pa": 86.8,
+          "games": 12
+        }
+      }
     },
     {
       "id": "vir-val",
-      "league": "EuroLeague, Round 12",
+      "league": "EuroLeague, Round 13",
       "start": "2026-11-19T20:00:00.000Z",
       "venue": "Roig Arena, Valencia",
       "home": {
@@ -1430,7 +2325,7 @@
         "short": "Virtus",
         "code": "VIR"
       },
-      "context": "EuroLeague Round 12. Pinnacle has Valencia favoured by 10 and the total at 183.5. Team news (the official Round 12 injury report) is added by the morning update.",
+      "context": "Valencia (9-3) top the table with Olympiacos and won 76-64 at Partizan in Round 12, their sixth straight win in all competitions. Virtus (5-7) beat Panathinaikos 84-79 to end a five-game losing run but are 2-4 away from home. Valencia are without Nate Reuvers (foot), and Nikola Mirotic (adductor, out since Round 8) is a doubt; Virtus are missing only Davide Casarin.",
       "odds": {
         "ml": [
           1.177,
@@ -1515,10 +2410,133 @@
         }
       },
       "players": {
-        "home": [],
-        "away": []
+        "home": [
+          {
+            "name": "TJ Shorts",
+            "pos": "G",
+            "pts": 16.3,
+            "reb": 2.2,
+            "ast": 5.7,
+            "threes": 0.6,
+            "min": 23.2
+          },
+          {
+            "name": "Armoni Brooks",
+            "pos": "G",
+            "pts": 14.8,
+            "reb": 3.4,
+            "ast": 1.2,
+            "threes": 3.0,
+            "min": 21.4
+          },
+          {
+            "name": "Kameron Taylor",
+            "pos": "F",
+            "pts": 11.8,
+            "reb": 4.2,
+            "ast": 2.2,
+            "threes": 1.6,
+            "min": 23.5
+          },
+          {
+            "name": "Nikola Mirotic",
+            "pos": "F",
+            "pts": 13.0,
+            "reb": 3.1,
+            "ast": 0.9,
+            "threes": 1.4,
+            "min": 16.5,
+            "status": "Doubtful (adductor)",
+            "start": 0.3
+          },
+          {
+            "name": "Nate Reuvers",
+            "pos": "C",
+            "pts": 8.4,
+            "reb": 2.9,
+            "ast": 0.4,
+            "threes": 0.6,
+            "min": 16.1,
+            "status": "Out (foot)",
+            "start": 0
+          }
+        ],
+        "away": [
+          {
+            "name": "Aliou Diarra",
+            "pos": "C",
+            "pts": 12.3,
+            "reb": 7.1,
+            "ast": 0.6,
+            "threes": 0.0,
+            "min": 19.5
+          },
+          {
+            "name": "Derrick Alston Jr.",
+            "pos": "F",
+            "pts": 11.9,
+            "reb": 1.8,
+            "ast": 1.3,
+            "threes": 1.7,
+            "min": 21.3
+          },
+          {
+            "name": "Marcus Carr",
+            "pos": "G",
+            "pts": 11.8,
+            "reb": 1.9,
+            "ast": 5.2,
+            "threes": 1.4,
+            "min": 21.5
+          },
+          {
+            "name": "Wendell Moore Jr.",
+            "pos": "F",
+            "pts": 11.3,
+            "reb": 4.3,
+            "ast": 1.3,
+            "threes": 1.3,
+            "min": 23.0
+          },
+          {
+            "name": "Trent Frazier",
+            "pos": "G",
+            "pts": 9.2,
+            "reb": 1.5,
+            "ast": 3.0,
+            "threes": 2.0,
+            "min": 21.8
+          },
+          {
+            "name": "Davide Casarin",
+            "pos": "G",
+            "status": "Out (tibial plateau fracture / bone bruise)",
+            "start": 0
+          }
+        ]
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "text": "Mirotic's status conflicts between sources. Eurodevotion's summary of the official Round 13 report (06:00 UTC, before the odds) lists him out (groin/adductor). Valencia's own preview (18 Nov) has him back on the active roster and gradually returning to team practice, and Europa Press reports that he is back. He has missed Rounds 9-12 and averages 13.0 points in 16.5 minutes off the bench. If he plays, that is a plus for Valencia, not a reason for an adjust.",
+          "src": "Eurodevotion 19 Nov; Valencia Basket preview 18 Nov; Europa Press via Diario Siglo XXI 18 Nov"
+        },
+        {
+          "team": "home",
+          "text": "Nate Reuvers is out (foot bone injury; last played Round 7). Valencia are top with Olympiacos at 9-3 after winning 76-64 at Partizan (Brooks and Taylor 15 each, Shorts 12).",
+          "src": "Eurodevotion (official Round 13 report); Valencia Basket preview; Eurohoops Round 12 roundup"
+        },
+        {
+          "team": "away",
+          "text": "Davide Casarin is out (tibial plateau fracture/bone bruise, about eight weeks). Bobi Klintman has recovered from flu, and the rest of the squad is available.",
+          "src": "Eurodevotion (official Round 13 report), 19 Nov; Basketnews injury tracker"
+        },
+        {
+          "team": "away",
+          "text": "Round 12: Virtus beat Panathinaikos 84-79 at home; Aliou Diarra had 15 points and 9 rebounds, Mouhamet Diouf 15 and 7. Virtus have lost their last two road games, at Hapoel and Efes, and their last three EuroLeague visits to Valencia.",
+          "src": "Eurohoops Round 12 roundup; Europa Press via Diario Siglo XXI"
+        }
+      ],
       "lineups": {
         "status": "expected"
       },
@@ -1526,8 +2544,52 @@
         {
           "title": "EuroLeague injury reports",
           "url": "https://www.euroleaguebasketball.net/euroleague/news/"
+        },
+        {
+          "title": "Eurodevotion: Round 13 di Euroleague, injury report del 19 novembre",
+          "url": "https://eurodevotion.com/news/446982163974/round-13-di-euroleague-injury-report-del-19-novembre"
+        },
+        {
+          "title": "Valencia Basket: Three-game home stand begins with visit from Virtus Bologna (18 Nov)",
+          "url": "https://www.valenciabasket.com/en/three-game-home-stand-begins-at-roig-arena-with-visit-from-virtus-bologna"
+        },
+        {
+          "title": "Diario Siglo XXI (Europa Press): Previa del Valencia Basket - Virtus Bolonia",
+          "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20261118181344/previa-valencia-basket-virtus-bolonia"
+        },
+        {
+          "title": "Basketnews: EuroLeague injury report (updated daily)",
+          "url": "https://basketnews.com/news-212393-euroleague-injury-report-updated.html"
+        },
+        {
+          "title": "Eurohoops: Round 12 roundup",
+          "url": "https://www.eurohoops.net/en/euroleague/2036457/euroleague-roundup-kabengele-leads-dubai-past-efes/"
+        },
+        {
+          "title": "Basketball-Reference: EuroLeague 2026-27 standings (PPG/OPPG)",
+          "url": "https://www.basketball-reference.com/international/euroleague/"
+        },
+        {
+          "title": "Basketball-Reference: Valencia 2026-27",
+          "url": "https://www.basketball-reference.com/international/teams/valencia/2027.html"
+        },
+        {
+          "title": "Basketball-Reference: Virtus Bologna 2026-27",
+          "url": "https://www.basketball-reference.com/international/teams/virtus-bologna/2027.html"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "pf": 94.7,
+          "pa": 86.8,
+          "games": 12
+        },
+        "away": {
+          "pf": 85.9,
+          "pa": 89.8,
+          "games": 12
+        }
+      }
     }
   ]
 }
