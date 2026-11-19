@@ -11,14 +11,15 @@ fs.mkdirSync(DIR, { recursive: true }); fs.mkdirSync(CACHE, { recursive: true })
 const month = new Date().toISOString().slice(0, 7);
 const usageFile = DIR + "/usage.json";
 let usage = fs.existsSync(usageFile) ? JSON.parse(fs.readFileSync(usageFile, "utf8")) : {};
-if (usage.month !== month) usage = { month, used: 0, log: [] };
+if (usage.month !== month) usage = { month, used: 0, log: [], daily: {} };
 function save(name, data) { fs.writeFileSync(DIR + "/" + name, JSON.stringify(data, null, 1) + "\n"); }
 async function get(path, params = {}) {
   if (usage.used >= CAP) throw new Error("monthly cap reached (" + usage.used + ")");
   const u = new URL(BASE + path); Object.entries({ ...params, apiKey: KEY }).forEach(([k, v]) => u.searchParams.set(k, v));
   await new Promise(res => setTimeout(res, 1300)); // OddsPapi allows about one call a second per endpoint
-  let r = await fetch(u); usage.used++;
-  if (r.status === 429) { const j = await r.json().catch(() => ({})); await new Promise(res => setTimeout(res, ((j.error && j.error.retryMs) || 1500) + 300)); r = await fetch(u); usage.used++; }
+  const day = today(); usage.daily = usage.daily || {}; const bump = () => { usage.used++; usage.daily[day] = (usage.daily[day] || 0) + 1; };
+  let r = await fetch(u); bump();
+  if (r.status === 429) { const j = await r.json().catch(() => ({})); await new Promise(res => setTimeout(res, ((j.error && j.error.retryMs) || 1500) + 300)); r = await fetch(u); bump(); }
   const hdr = {}; r.headers.forEach((v, k) => { if (/limit|remain|quota|credit/i.test(k)) hdr[k] = v; });
   usage.log.push({ t: new Date().toISOString(), path, status: r.status, hdr });
   usage.log = usage.log.slice(-60); save("usage.json", usage);
@@ -27,6 +28,7 @@ async function get(path, params = {}) {
   return JSON.parse(text);
 }
 const mode = process.argv[2] || "fetch";
+const today = () => new Date().toISOString().slice(0, 10);
 if (mode === "discover") {
   const out = { at: new Date().toISOString() };
   const sports = await get("/sports"); out.sports = sports;
@@ -76,34 +78,31 @@ if (mode === "setup") {
   fs.writeFileSync(CACHE + "/participants.json", JSON.stringify(parts)); fs.writeFileSync(CACHE + "/setup.json", JSON.stringify(out, null, 1)); console.log("setup ok", usage.used);
 }
 
-// Tue-Fri European cups, Sat-Mon domestic leagues (Warsaw day)
-function watchIds(cfg) { const d = new Date(Date.now() + 3600e3).getUTCDay(); return ((cfg.watch || {})[d >= 2 && d <= 5 ? "weekday" : "weekend"] || []).map(String); }
-if (mode === "watch") {
-  const cfg = JSON.parse(fs.readFileSync("data/odds-config.json", "utf8"));
-  const MK = JSON.parse(fs.readFileSync(CACHE + "/markets.json", "utf8")), PT = JSON.parse(fs.readFileSync(CACHE + "/participants.json", "utf8"));
-  const ids = (process.argv[3] || watchIds(cfg).join(",")), now = Date.now();
-  const prev = fs.existsSync(DIR + "/latest.json") ? JSON.parse(fs.readFileSync(DIR + "/latest.json", "utf8")) : { fixtures: [] };
-  const byId = Object.fromEntries(prev.fixtures.filter(f => Date.parse(f.start) > now - 3 * 3600e3).map(f => [f.id, f]));
-  for (const slug of (process.argv[4] || cfg.books.main).split(",")) {
-    const list = await get("/odds-by-tournaments", { bookmaker: slug, tournamentIds: ids });
-    for (const fx of Array.isArray(list) ? list : []) {
-      if (fx.sportId !== 11 || Date.parse(fx.startTime) < now) continue;
-      const F = byId[fx.fixtureId] ||= { id: fx.fixtureId, sport: "basketball", tournamentId: fx.tournamentId, start: fx.startTime, home: PT[fx.participant1Id] || String(fx.participant1Id), away: PT[fx.participant2Id] || String(fx.participant2Id), odds: {} };
-      F.tournamentId = fx.tournamentId; const o = normalize(fx, slug, MK, "basketball"); if (o) F.odds[slug] = o;
-    }
+// ---------- fetching ----------
+const SP = { 10: "football", 11: "basketball", 15: "hockey" }, SID = { football: 10, basketball: 11, hockey: 15 };
+// Watch lists: leagues fetched each morning so the daily build can choose European games.
+// Basketball: Tue-Fri European cups, Sat-Mon domestic leagues. Hockey: the same top leagues daily.
+function watchLists(cfg) {
+  const d = new Date(Date.now() + 3600e3).getUTCDay(), out = [];
+  for (const [sport, v] of Object.entries(cfg.watch || {})) {
+    if (!SID[sport]) continue;
+    const ids = Array.isArray(v) ? v : v.daily || v[d >= 2 && d <= 5 ? "weekday" : "weekend"] || [];
+    if (ids.length) out.push([sport, ids.map(String)]);
   }
-  const all = Object.values(byId).sort((a, b) => a.start.localeCompare(b.start));
-  save("latest.json", { ...prev, updatedAt: new Date().toISOString(), fixtures: all });
-  console.log("watch ok:", all.filter(f => f.sport === "basketball").length, "basketball fixtures; requests", usage.used);
+  return out;
 }
-if (mode === "fetch" || mode === "fetch-late") {
-  const cfg = JSON.parse(fs.readFileSync("data/odds-config.json", "utf8"));
-  const MK = JSON.parse(fs.readFileSync(CACHE + "/markets.json", "utf8")), PT = JSON.parse(fs.readFileSync(CACHE + "/participants.json", "utf8"));
-  const SP = { 10: "football", 11: "basketball", 15: "hockey" }, now = Date.now(), at = new Date().toISOString();
-  // site files with games still to start: only those sports are fetched, so no request is wasted
+// Spread what is left of the monthly allowance evenly over the days left; each run takes its share.
+function runBudget(kind) {
+  const n = new Date(), dim = new Date(Date.UTC(n.getUTCFullYear(), n.getUTCMonth() + 1, 0)).getUTCDate();
+  const daysLeft = dim - n.getUTCDate() + 1, spent = (usage.daily || {})[today()] || 0;
+  const perDay = Math.max(2, Math.floor((CAP - usage.used + spent) / daysLeft));
+  const reserve = kind === "morning" ? 2 : kind === "evening" ? 1 : 0; // keep calls for the later runs
+  return Math.max(kind === "manual" ? 9 : 1, perDay - spent - reserve);
+}
+function loadSite(now, skipFootball) {
   const site = [];
   for (const [sport, dir] of [["football", "public/data/"], ["basketball", "public/data/basketball/"], ["hockey", "public/data/hockey/"]]) {
-    if (mode === "fetch-late" && sport === "football") continue;
+    if (skipFootball && sport === "football") continue;
     const idx = JSON.parse(fs.readFileSync(dir + "index.json", "utf8"));
     const dates = (idx.days || idx.dates || []).map(d => typeof d === "string" ? d : d.date).filter(Boolean).sort().slice(-3);
     for (const d of dates) {
@@ -112,44 +111,51 @@ if (mode === "fetch" || mode === "fetch-late") {
       if (games.some(g => !g.result && Date.parse(g.start || g.kickoff || 0) > now)) site.push({ sport, file: f, data, games });
     }
   }
-  if (!site.length) { console.log("no upcoming games on the site, nothing fetched"); process.exit(0); }
+  return site;
+}
+if (mode === "fetch" || mode === "fetch-late" || mode === "watch") {
+  const cfg = JSON.parse(fs.readFileSync("data/odds-config.json", "utf8"));
+  const MK = JSON.parse(fs.readFileSync(CACHE + "/markets.json", "utf8")), PT = JSON.parse(fs.readFileSync(CACHE + "/participants.json", "utf8"));
   const T = fs.existsSync(CACHE + "/tournaments.json") ? JSON.parse(fs.readFileSync(CACHE + "/tournaments.json", "utf8")) : {};
-  const SID = { football: 10, basketball: 11, hockey: 15 }, count = {}, noId = [];
+  const now = Date.now(), at = new Date().toISOString();
+  const kind = mode === "watch" ? "manual" : mode === "fetch-late" ? "late" : new Date().getUTCHours() < 12 ? "morning" : "evening";
+  const site = loadSite(now, kind === "late");
+  // tournaments with games on the site: NBA/NHL and European games first, then football by game count
+  const count = {}, noId = [];
   for (const s of site) for (const g of s.games) {
     if (g.result || Date.parse(g.start || g.kickoff || 0) <= now) continue;
     const id = tournamentFor(g.competition || g.league, SID[s.sport], cfg, T);
     if (id) count[id] = (count[id] || 0) + (s.sport === "football" ? 1 : 100); else noId.push(g.id);
   }
-  // NBA/NHL first, then the football competitions with the most games; 5 IDs a request
-  // the morning run also fetches the basketball watch list (European leagues) so the daily build can pick games
-  const morning = mode === "fetch" && new Date().getUTCHours() < 12 && usage.used < 160;
-  const watch = morning ? watchIds(cfg) : [];
-  const ids = Object.keys(count).filter(id => !watch.includes(id)).sort((a, b) => count[b] - count[a]), chunks = [];
+  const watch = kind === "morning" ? watchLists(cfg) : [], watchIds = new Set(watch.flatMap(w => w[1]));
+  const ids = Object.keys(count).filter(id => !watchIds.has(id)).sort((a, b) => count[b] - count[a]), chunks = [];
   for (let i = 0; i < ids.length; i += 5) chunks.push(ids.slice(i, i + 5).join(","));
-  const plan = [], lean = usage.used >= 160; // near the monthly cap: main book, first chunk only
-  if (watch.length) plan.push([cfg.books.main, watch.join(",")]);
-  if (chunks[0]) plan.push([cfg.books.main, chunks[0]]);
-  if (mode !== "fetch-late" && !lean && chunks[0]) plan.push([cfg.books.local, chunks[0]]);
-  if (lean) plan.splice(2);
-  if (mode !== "fetch-late" && !lean && chunks[1]) plan.push([cfg.books.main, chunks[1]]);
-  console.log("tournaments", ids.join(","), "no ID for", noId.join(" ") || "none");
-  const fixtures = {};
-  for (const [slug, tids] of plan) {
+  // requests in priority order; the run stops at its share of the budget
+  const plan = [];
+  if (kind === "manual") (process.argv[4] || cfg.books.main).split(",").forEach(b => plan.push([b, process.argv[3]]));
+  else {
+    if (chunks[0]) plan.push([cfg.books.main, chunks[0]]);
+    watch.forEach(([, w]) => plan.push([cfg.books.main, w.slice(0, 5).join(",")]));
+    if (kind !== "late" && chunks[1]) plan.push([cfg.books.main, chunks[1]]);
+    if (kind !== "late" && chunks[0]) plan.push([cfg.books.local, chunks[0]]);
+  }
+  const budget = runBudget(kind), todo = plan.filter(x => x[1]).slice(0, budget);
+  console.log(`${kind} run: budget ${budget}, plan ${plan.length}, doing ${todo.length}; site tournaments ${ids.join(",") || "-"}; no ID for ${noId.join(" ") || "none"}`);
+  // merge into the previous snapshot: fixtures not re-fetched stay while upcoming, and so do local prices
+  const prev = fs.existsSync(DIR + "/latest.json") ? JSON.parse(fs.readFileSync(DIR + "/latest.json", "utf8")) : { fixtures: [] };
+  const byId = Object.fromEntries(prev.fixtures.filter(f => Date.parse(f.start) > now - 3 * 3600e3).map(f => [f.id, f]));
+  for (const [slug, tids] of todo) {
     let list; try { list = await get("/odds-by-tournaments", { bookmaker: slug, tournamentIds: tids }); } catch (e) { console.error(slug, e.message); continue; }
     for (const fx of Array.isArray(list) ? list : []) {
       const sport = SP[fx.sportId]; if (!sport || Date.parse(fx.startTime) < now - 3 * 3600e3) continue;
-      const F = fixtures[fx.fixtureId] ||= { id: fx.fixtureId, sport, tournamentId: fx.tournamentId, start: fx.startTime, home: PT[fx.participant1Id] || String(fx.participant1Id), away: PT[fx.participant2Id] || String(fx.participant2Id), odds: {} };
-      const o = normalize(fx, slug, MK, sport); if (o) F.odds[slug] = o;
+      const F = byId[fx.fixtureId] ||= { id: fx.fixtureId, sport, odds: {} };
+      Object.assign(F, { sport, tournamentId: fx.tournamentId, start: fx.startTime, home: PT[fx.participant1Id] || String(fx.participant1Id), away: PT[fx.participant2Id] || String(fx.participant2Id) });
+      const o = normalize(fx, slug, MK, sport); if (o) { F.odds[slug] = o; F.fetched = F.fetched || {}; F.fetched[slug] = at; }
     }
   }
-  const all = Object.values(fixtures).sort((a, b) => a.start.localeCompare(b.start));
-  // keep the previous local prices when this run only fetched the main book
-  const prev = fs.existsSync(DIR + "/latest.json") ? JSON.parse(fs.readFileSync(DIR + "/latest.json", "utf8")) : null;
-  if (prev) for (const p of prev.fixtures) if (!fixtures[p.id] && p.sport === "basketball" && Date.parse(p.start) > now) all.push(p);
-  all.sort((a, b) => a.start.localeCompare(b.start));
-  if (mode === "fetch-late" && prev) for (const f of all) { const p = prev.fixtures.find(x => x.id === f.id); if (p && p.odds[cfg.books.local] && !f.odds[cfg.books.local]) f.odds[cfg.books.local] = p.odds[cfg.books.local]; }
+  const all = Object.values(byId).sort((a, b) => a.start.localeCompare(b.start));
   save("latest.json", { updatedAt: at, books: cfg.books, note: "Pinnacle is the sharp reference the model fits to; AdmiralBet BA is the closest local (Bosnian) book on OddsPapi.", fixtures: all });
-  let n = 0, miss = [];
+  let n = 0; const miss = [];
   for (const s of site) {
     let changed = false;
     for (const g of s.games) {
@@ -161,6 +167,6 @@ if (mode === "fetch" || mode === "fetch-late") {
     }
     if (changed) fs.writeFileSync(s.file, JSON.stringify(s.data, null, 2) + "\n");
   }
-  console.log(`fetch ok: ${all.length} fixtures, ${n} site games updated, unmatched: ${miss.join(" ") || "none"}; requests this month ${usage.used}`);
-  save("usage.json", { ...usage, lastFetch: { at, fixtures: all.length, updated: n, unmatched: miss, noTournament: noId } });
+  console.log(`odds ok: ${all.length} fixtures, ${n} site games updated, unmatched: ${miss.join(" ") || "none"}; requests this month ${usage.used}`);
+  save("usage.json", { ...usage, lastFetch: { at, kind, fixtures: all.length, updated: n, unmatched: miss, noTournament: noId } });
 }

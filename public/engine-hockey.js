@@ -11,7 +11,7 @@
   else root.HockeyEngine = factory();
 })(typeof self !== "undefined" ? self : this, function () {
   "use strict";
-  var AVG = 3.05, MAXG = 12;
+  var AVG = 3.05, MAXG = 12; // AVG: goals per team per game (set per league in setLeague)
   function clamp(x, a, b) { return Math.max(a, Math.min(b, x)); }
   function round(x, d) { var k = Math.pow(10, d || 0); return Math.round(x * k) / k; }
   function fair(p) { return p > 0 ? 1 / p : null; }
@@ -30,7 +30,13 @@
   // for those minutes, which the grid already has). 18 Nov: four of five best bets were underdog
   // +1.5 puck lines, and Capitals +1.5 lost 5-2 on exactly this. The extra goals are moved here,
   // so the fit to the bookmaker's lines and every puck line, total and team total see them.
-  var ENG = { lead1: 0.22, tie1: 0.10, lead2: 0.15, cut2: 0.07 };
+  var ENG_NHL = { lead1: 0.22, tie1: 0.10, lead2: 0.15, cut2: 0.07 };
+  // European leagues (19 Nov): coaches pull the goalie later and less often, and scoring is lower, so
+  // fewer late goals. These are estimates (about two-thirds of the NHL effect) until results calibrate them.
+  var ENG_EU = { lead1: 0.15, tie1: 0.07, lead2: 0.10, cut2: 0.05 };
+  var ENG = ENG_NHL;
+  function isNHL(g) { return /^\s*NHL/i.test(String((g && g.league) || "NHL")); }
+  function setLeague(g) { var nhl = isNHL(g); ENG = nhl ? ENG_NHL : ENG_EU; AVG = nhl ? 3.05 : 2.75; }
   function lateGame(M) {
     var N = M.map(function (r) { return r.slice(); });
     for (var i = 0; i <= MAXG; i++) for (var j = 0; j <= MAXG; j++) {
@@ -101,6 +107,7 @@
 
   // ---------- fit ----------
   function fit(g) {
+    setLeague(g);
     var o = g.odds || {}, f = g.form || {}, fh = f.home, fa = f.away;
     var formH = fh && fa && fh.gf != null ? (fh.gf + fa.ga) / 2 * (g.neutral ? 1 : 1.03) : AVG * 1.03;
     var formA = fh && fa && fa.gf != null ? (fa.gf + fh.ga) / 2 * (g.neutral ? 1 : 0.97) : AVG * 0.97;
@@ -112,6 +119,8 @@
     if (o.reg && o.reg[0]) { var r = devig(o.reg); targets.push({ w: 1.5, p: r[0], f: function (mk) { return mk.regHome; } }, { w: 1.5, p: r[1], f: function (mk) { return mk.regDraw; } }); }
     if (o.total && o.total.o && o.total.u) { var L = o.total.line, pt = devig([o.total.o, o.total.u])[0];
       targets.push({ w: 2, p: pt, f: function (mk) { var ov = mk.G.P(function (h, a) { return h + a > L; }), pu = mk.G.P(function (h, a) { return h + a === L; }); return ov / Math.max(1 - pu, 1e-6); } }); }
+    if (o.totalReg && o.totalReg.o && o.totalReg.u) { var LR = o.totalReg.line, pr = devig([o.totalReg.o, o.totalReg.u])[0];
+      targets.push({ w: 2, p: pr, f: function (mk) { var ov = sumIf(mk.G.M, function (h, a) { return h + a > LR; }), pu = sumIf(mk.G.M, function (h, a) { return h + a === LR; }); return ov / Math.max(1 - pu, 1e-6); } }); }
     if (o.puck && o.puck.h && o.puck.a) { var pp = devig([o.puck.h, o.puck.a])[0], ln = o.puck.line;
       targets.push({ w: 1, p: pp, f: function (mk) { return mk.G.P(function (h, a) { return h - a + ln > 0; }); } }); }
     var lh = formH, la = formA, mkt = null;
@@ -218,6 +227,12 @@
       add("Puck line", A + " " + (-ln > 0 ? "+" : "") + (-ln), o.puck.a, mk.G.P(function (h, a) { return a - h - ln > 0; }));
     }
     if (o.total) { var L = o.total.line, po = mk.G.P(function (h, a) { return h + a > L; }), pu = mk.G.P(function (h, a) { return h + a === L; }); add("Total", "Over " + L + " goals", o.total.o, po, pu); add("Total", "Under " + L + " goals", o.total.u, 1 - po - pu, pu); }
+    // 60-minute total and handicap (European settlement: overtime doesn't count)
+    if (o.totalReg) { var LR = o.totalReg.line, ro = sumIf(mk.G.M, function (h, a) { return h + a > LR; }), ru = sumIf(mk.G.M, function (h, a) { return h + a === LR; });
+      add("Total (60 min)", "Over " + LR + " goals in 60 min", o.totalReg.o, ro, ru); add("Total (60 min)", "Under " + LR + " goals in 60 min", o.totalReg.u, 1 - ro - ru, ru); }
+    if (o.hcpReg) { var hl = o.hcpReg.line;
+      add("Handicap (60 min)", H + " " + (hl > 0 ? "+" : "") + hl + " (60 min)", o.hcpReg.h, sumIf(mk.G.M, function (h, a) { return h - a + hl > 0; }));
+      add("Handicap (60 min)", A + " " + (-hl > 0 ? "+" : "") + (-hl) + " (60 min)", o.hcpReg.a, sumIf(mk.G.M, function (h, a) { return a - h - hl > 0; })); }
     if (o.btts) { add("BTTS", "Both teams to score", o.btts[0], mk.btts); add("BTTS", "Both teams to score: No", o.btts[1], 1 - mk.btts); }
     if (o.teamTotal) ["home", "away"].forEach(function (s) { var t = o.teamTotal[s]; if (!t) return; var p = mk.teamOver(s, t.line), nm = s === "home" ? H : A; add("Team total", nm + " over " + t.line, t.o, p); add("Team total", nm + " under " + t.line, t.u, 1 - p); });
     if (o.p1total) { var p1 = 1 - (function () { var s = 0, l = (lh + la) * 0.31; for (var k = 0; k <= Math.floor(o.p1total.line); k++) s += pois(k, l); return s; })(); add("1st period", "1st period over " + o.p1total.line, o.p1total.o, p1); add("1st period", "1st period under " + o.p1total.line, o.p1total.u, 1 - p1); }
@@ -234,6 +249,8 @@
     row("60-min result", bestOf("60-min result"), null);
     row("Puck line", bestOf("Puck line"), { label: (fav === "home" ? A : H) + " +1.5", p: fav === "home" ? 1 - mk.puckHome : 1 - mk.puckAway });
     row("Total", bestOf("Total"), { label: mk.over[5.5] >= 0.5 ? "Over 5.5 goals" : "Under 6.5 goals", p: mk.over[5.5] >= 0.5 ? mk.over[5.5] : 1 - mk.over[6.5] });
+    if (o.totalReg && !o.total) row("Total (60 min)", bestOf("Total (60 min)"), null);
+    if (o.hcpReg && !o.puck) row("Handicap (60 min)", bestOf("Handicap (60 min)"), null);
     row("BTTS", bestOf("BTTS"), null);
     row("Team total", bestOf("Team total"), null); row("1st period", bestOf("1st period"), null);
     var bp = best(props.filter(function (x) { return x.odds && x.p != null; }), function (x) { return x.ev; });

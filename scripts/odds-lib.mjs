@@ -49,6 +49,9 @@ export function normalize(fx, slug, MK, sport) {
       const favHome = out.ml ? out.ml[0] <= out.ml[1] : true;
       const pk = (g["spreads|result"] || []).find(t => t.hcp === (favHome ? -1.5 : 1.5)); if (pk) out.puck = line(pk, "1", "2", "h", "a");
       const p1 = pickMain(g["totals|p1"], "Over", "Under"); if (p1) out.p1total = line(p1, "Over", "Under", "o", "u");
+      // 60-minute markets: how European bookmakers usually settle hockey totals and handicaps
+      const tr = pickMain(g["totals|fulltime"], "Over", "Under"); if (tr) out.totalReg = line(tr, "Over", "Under", "o", "u");
+      const hr = (g["spreads|fulltime"] || []).find(t => t.hcp === (favHome ? -1.5 : 1.5)); if (hr) out.hcpReg = line(hr, "1", "2", "h", "a");
       const bt = g["bothteamsscore|fulltime"] && g["bothteamsscore|fulltime"][0]; if (bt) out.btts = two(bt, "Yes", "No");
     }
   }

@@ -73,23 +73,60 @@
    "bbl": 227,
    "easycredit bbl": 227,
    "bundesliga": 227
+  },
+  "15": {
+   "nhl": 234,
+   "khl": 268,
+   "kontinental hockey league": 268,
+   "shl": 261,
+   "swedish hockey league": 261,
+   "liiga": 134,
+   "national league": 128,
+   "swiss national league": 128,
+   "del": 225,
+   "penny del": 225,
+   "ice hockey league": 256,
+   "icehl": 256,
+   "win2day ice hockey league": 256,
+   "czech extraliga": 237,
+   "tipsport extraliga": 237,
+   "extraliga": 237,
+   "slovak extraliga": 236,
+   "tipos extraliga": 236,
+   "champions hockey league": 494,
+   "chl": 494,
+   "allsvenskan": 416,
+   "hockeyallsvenskan": 416,
+   "del2": 267,
+   "del 2": 267
   }
  },
  "watch": {
-  "note": "Basketball leagues fetched once each morning (main book) so the daily build can pick European games. Midweek = European cups, weekend = domestic leagues.",
-  "weekday": [
-   138,
-   141,
-   14051,
-   2388,
-   235
-  ],
-  "weekend": [
-   264,
-   262,
-   304,
-   519,
-   156
-  ]
+  "note": "Leagues fetched each morning (main book) so the daily build can pick European games. Basketball: midweek = European cups, weekend = domestic leagues. Hockey: top five European leagues every day (max 5 IDs per request).",
+  "basketball": {
+   "weekday": [
+    138,
+    141,
+    14051,
+    2388,
+    235
+   ],
+   "weekend": [
+    264,
+    262,
+    304,
+    519,
+    156
+   ]
+  },
+  "hockey": {
+   "daily": [
+    268,
+    261,
+    134,
+    128,
+    225
+   ]
+  }
  }
 }

@@ -67,3 +67,14 @@ test("basketball: assumed prices never make the best bet", () => {
   r.picks.slip.filter(s => s.assumed).forEach(s => assert.notEqual(s.grade, "Bet"));
   assert.ok(r.picks.all.some(x => x.assumed && x.confidence === "Price unconfirmed"));
 });
+
+test("hockey: European game priced on 60-minute markets", () => {
+  const g = { league: "KHL", home: { name: "CSKA" }, away: { name: "SKA" }, odds: { book: "Pinnacle via OddsPapi", reg: [2.35, 4.1, 2.75], totalReg: { line: 4.5, o: 1.95, u: 1.87 }, hcpReg: { line: 1.5, h: 1.42, a: 2.9 } } };
+  const r = K.analyse(g), mk = r.markets;
+  assert.ok(mk.regDraw > 0.2 && mk.regDraw < 0.3, "draw " + mk.regDraw);
+  const t = r.picks.all.filter(x => x.group === "Total (60 min)");
+  assert.equal(t.length, 2);
+  // anchored to the price: the fitted over stays close to the devigged 49%
+  assert.ok(Math.abs(t[0].p - 0.49) < 0.04, "over " + t[0].p);
+  assert.ok(r.picks.slip.some(s => s.market === "Total (60 min)"));
+});
