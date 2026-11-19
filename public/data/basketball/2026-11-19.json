@@ -900,7 +900,7 @@
             "u": 1.917
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 04:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -977,8 +977,8 @@
       "context": "EuroLeague Round 12. Pinnacle has Panathinaikos favoured by 1 and the total at 166.5. Team news (the official Round 12 injury report) is added by the morning update.",
       "odds": {
         "ml": [
-          1.847,
-          2.02
+          1.869,
+          1.99
         ],
         "total": {
           "line": 167.5,
@@ -999,14 +999,14 @@
         },
         "spread": {
           "line": -2,
-          "h": 2,
-          "a": 1.854
+          "h": 2.02,
+          "a": 1.84
         },
         "h1": {
           "spread": {
             "line": -0.5,
-            "h": 1.934,
-            "a": 1.917
+            "h": 1.943,
+            "a": 1.909
           },
           "total": {
             "line": 83.5,
@@ -1014,7 +1014,7 @@
             "u": 1.97
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 04:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -1119,8 +1119,8 @@
         "h1": {
           "spread": {
             "line": -3.5,
-            "h": 1.877,
-            "a": 1.98
+            "h": 1.892,
+            "a": 1.952
           },
           "total": {
             "line": 89.5,
@@ -1128,7 +1128,7 @@
             "u": 1.97
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 04:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -1242,7 +1242,7 @@
             "u": 1.934
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 04:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -1352,11 +1352,11 @@
           },
           "total": {
             "line": 92.5,
-            "o": 1.952,
-            "u": 1.9
+            "o": 1.934,
+            "u": 1.917
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 04:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -1470,7 +1470,7 @@
             "u": 1.862
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-18 23:23 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 04:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
