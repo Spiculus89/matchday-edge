@@ -22,3 +22,9 @@ test("odds: match and merge into a site game, dropping assumed prices", () => {
   assert.equal(g.odds.spread.line, -4.5); assert.equal(g.odds.assumed, undefined); assert.deepEqual(g.odds.ml, [1.5, 2.6]);
   assert.equal(g.odds.local.ml[0], 1.45); assert.match(g.odds.book, /Pinnacle/);
 });
+test("odds: a refresh retires team-news adjustments the new price already contains", () => {
+  const start = new Date(Date.now() + 5 * 3600e3).toISOString();
+  const g = { id: "x", start, home: { name: "A" }, away: { name: "B" }, odds: {}, adjust: { home: -3, away: 0 } };
+  applyToGame(g, { odds: { pinnacle: { ml: [1.5, 2.6] } } }, "basketball", new Date().toISOString());
+  assert.equal(g.adjust, undefined); assert.equal(g.adjustPriced.home, -3);
+});

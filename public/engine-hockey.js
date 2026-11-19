@@ -182,17 +182,34 @@
     var hit = /^(\d+)\/(\d+)$/.exec(pr.hit || ""); if (hit) p = (p * 10 + +hit[1]) / (10 + +hit[2]);
     var sub = "Player prop: " + LABEL[pp.stat];
     p = CAL[sub] && CAL[sub].n >= 8 ? calib(sub, p) : calib("Player prop", p);
+    if (pr.odds) p = anchor(p, pr.odds, null, 0, ANCHOR.props);
     var ev = pr.odds ? p * pr.odds - 1 : null;
     return { player: pr.player, market: pr.market, odds: pr.odds || null, hitRate: pr.hit || null, p: p, fair: fair(p), ev: ev, mean: mean, need: pr.odds ? 1 / pr.odds : null,
       basis: pp.stat === "saves" ? "opponent shots minus expected goals" : "per-game rate × projected team scoring",
       grade: ev == null ? (p >= 0.75 ? "Lean" : "Skip") : ev >= 0.03 ? "Bet" : ev >= 0 ? "Lean" : "Skip" };
   }
 
+  // Anchor to the price (19 Nov). Re-scoring every graded leg so far (127 priced legs, three sports):
+  // the bookmaker's own price, margin removed, predicted results better than the model (Brier 0.245 vs
+  // 0.267), and legs where the model claimed a 3%+ edge won 46% against 66% predicted (ROI -15%).
+  // So each probability keeps only a share of its disagreement with the price: 30% normally, 60% when
+  // there is team news the price may not have caught yet (an `adjust`). The rest is the price's view.
+  var ANCHOR = { k: 0.3, kNews: 0.6, sharp: 0.025, soft: 0.05, props: 0.08 }, CUR = { k: 0.3, m: 0.05 };
+  function setCur(odds, adjusted) { CUR = { k: adjusted ? ANCHOR.kNews : ANCHOR.k, m: /pinnacle/i.test(String((odds && odds.book) || "")) ? ANCHOR.sharp : ANCHOR.soft }; }
+  // q: the price's own fair probability (two-way devig when the other side is known, else margin estimate)
+  function anchor(p, odds, q, push, margin) {
+    if (!odds || p == null) return p;
+    push = push || 0;
+    if (q == null) q = Math.min(0.99, (1 - push) / odds / (1 + (margin == null ? CUR.m : margin)));
+    return q + CUR.k * (p - q);
+  }
+  function takeAt(p, push) { return p > 0 ? Math.round((1.01 - (push || 0)) / p * 100) / 100 : null; }
   function analyse(g) {
     var F = fit(g), lh = F.lh, la = F.la, mk = markets(lh, la), o = g.odds || {};
+    setCur(o, ((g.adjust || {}).home && g.adjust.home !== 1) || ((g.adjust || {}).away && g.adjust.away !== 1));
     var H = g.home.short || g.home.name, A = g.away.short || g.away.name;
     var c = [];
-    function add(group, label, odds, p, push) { if (!odds || p == null) return; push = push || 0; p = calib(group, p); var ev = p * odds + push - 1; c.push({ group: group, label: label, odds: odds, p: p, push: push, fair: (1 - push) / p, ev: ev, confidence: confidence(ev, p / Math.max(1 - push, 1e-6)) }); }
+    function add(group, label, odds, p, push) { if (!odds || p == null) return; push = push || 0; p = anchor(calib(group, p), odds, null, push); var ev = p * odds + push - 1; c.push({ group: group, label: label, odds: odds, p: p, push: push, fair: (1 - push) / p, ev: ev, takeAt: takeAt(p, push), confidence: confidence(ev, p / Math.max(1 - push, 1e-6)) }); }
     if (o.ml) { add("Moneyline", H + " to win (incl. OT)", o.ml[0], mk.home); add("Moneyline", A + " to win (incl. OT)", o.ml[1], mk.away); }
     if (o.reg) { add("60-min result", H + " in regulation", o.reg[0], mk.regHome); add("60-min result", "Draw after 60 min", o.reg[1], mk.regDraw); add("60-min result", A + " in regulation", o.reg[2], mk.regAway); }
     if (o.puck) {
@@ -207,11 +224,12 @@
     var props = (g.props || []).map(function (pr) { return propModel(g, pr, lh, la); }).filter(Boolean);
 
     function best(list, key) { var b = null; list.forEach(function (x) { if (!b || key(x) > key(b)) b = x; }); return b; }
-    var top = best(c.filter(function (x) { return x.odds >= 1.45 && x.odds <= 3.2 && x.p >= 0.5 && x.ev >= -0.02; }), function (x) { return x.ev + 0.1 * x.p; });
+    var top = best(c.filter(function (x) { return x.odds >= 1.45 && x.odds <= 3.2 && x.p >= 0.5 && x.ev >= 0.01; }), function (x) { return x.ev + 0.1 * x.p; });
+    var likely = best(c.filter(function (x) { return (x.group === "Moneyline" || x.group === "60-min result") && x.odds >= 1.1 && x.p >= 0.6; }), function (x) { return x.p; });
     var value = best(c.filter(function (x) { return x.ev > 0 && x.odds <= 6; }), function (x) { return x.ev; });
     var slip = [], fav = mk.home >= mk.away ? "home" : "away", favName = fav === "home" ? H : A;
     function bestOf(gr) { return best(c.filter(function (x) { return x.group === gr; }), function (x) { return x.ev + 0.02 * x.p; }); }
-    function row(market, x, fb) { if (x) slip.push({ market: market, pick: x.label, p: x.p, odds: x.odds, fair: x.fair, ev: x.ev }); else if (fb) { var fp = calib(market, modelOnly(fb.p)); slip.push({ market: market, pick: fb.label, p: fp, odds: null, fair: fair(fp), ev: null }); } }
+    function row(market, x, fb) { if (x) slip.push({ market: market, pick: x.label, p: x.p, odds: x.odds, fair: x.fair, ev: x.ev, takeAt: x.takeAt }); else if (fb) { var fp = calib(market, modelOnly(fb.p)); slip.push({ market: market, pick: fb.label, p: fp, odds: null, fair: fair(fp), ev: null }); } }
     row("Moneyline", bestOf("Moneyline"), { label: favName + " to win (incl. OT)", p: Math.max(mk.home, mk.away) });
     row("60-min result", bestOf("60-min result"), null);
     row("Puck line", bestOf("Puck line"), { label: (fav === "home" ? A : H) + " +1.5", p: fav === "home" ? 1 - mk.puckHome : 1 - mk.puckAway });
@@ -230,7 +248,7 @@
     var builder = best(builds, function (x) { return x.p - Math.abs(1 / x.p - 2.2) * 0.05; });
     if (builder) { builder.p = calib("Bet builder", builder.p); builder.fair = 1 / builder.p; }
     return { sport: "hockey", xg: { home: lh, away: la }, market: F.market, form: F.form, markets: mk, props: props, players: players(g, lh, la),
-      picks: { top: top, noBet: top ? null : "No bet: every price on offer is at or shorter than the model's fair odds.", value: value, builder: builder, slip: slip, all: c } };
+      picks: { top: top, noBet: top ? null : "No bet: no price beats the fair odds by 1% once the model is anchored to the bookmaker.", value: value, likely: likely, builder: builder, slip: slip, all: c } };
   }
 
   // ---------- live ----------

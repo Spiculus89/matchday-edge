@@ -182,14 +182,31 @@
     if (hit) p = (p * 10 + +hit[1]) / (10 + +hit[2]);
     var sub = "Player prop: " + STAT_LABEL[pp.stat];
     p = CAL[sub] && CAL[sub].n >= 8 ? calib(sub, p) : calib("Player prop", p);
+    if (pr.odds) p = anchor(p, pr.odds, null, 0, ANCHOR.props);
     var ev = pr.odds ? p * pr.odds - 1 : null;
     return { player: pr.player, market: pr.market, odds: pr.odds || null, hitRate: pr.hit || null, p: p, fair: fair(p), ev: ev, mean: base,
       need: pr.odds ? 1 / pr.odds : null, basis: "season average × projected game pace" + (av < 1 ? " × " + Math.round(av * 100) + "% chance he plays" : ""),
       grade: ev == null ? (p >= 0.75 ? "Lean" : "Skip") : ev >= 0.03 ? "Bet" : ev >= 0 ? "Lean" : "Skip" };
   }
 
+  // Anchor to the price (19 Nov). Re-scoring every graded leg so far (127 priced legs, three sports):
+  // the bookmaker's own price, margin removed, predicted results better than the model (Brier 0.245 vs
+  // 0.267), and legs where the model claimed a 3%+ edge won 46% against 66% predicted (ROI -15%).
+  // So each probability keeps only a share of its disagreement with the price: 30% normally, 60% when
+  // there is team news the price may not have caught yet (an `adjust`). The rest is the price's view.
+  var ANCHOR = { k: 0.3, kNews: 0.6, sharp: 0.025, soft: 0.05, props: 0.08 }, CUR = { k: 0.3, m: 0.05 };
+  function setCur(odds, adjusted) { CUR = { k: adjusted ? ANCHOR.kNews : ANCHOR.k, m: /pinnacle/i.test(String((odds && odds.book) || "")) ? ANCHOR.sharp : ANCHOR.soft }; }
+  // q: the price's own fair probability (two-way devig when the other side is known, else margin estimate)
+  function anchor(p, odds, q, push, margin) {
+    if (!odds || p == null) return p;
+    push = push || 0;
+    if (q == null) q = Math.min(0.99, (1 - push) / odds / (1 + (margin == null ? CUR.m : margin)));
+    return q + CUR.k * (p - q);
+  }
+  function takeAt(p, push) { return p > 0 ? Math.round((1.01 - (push || 0)) / p * 100) / 100 : null; }
   function analyse(g) {
     var m = means(g), L = m.L, o = g.odds || {};
+    setCur(o, (+(g.adjust || {}).home || 0) !== 0 || (+(g.adjust || {}).away || 0) !== 0);
     var H = g.home.short || g.home.name, A = g.away.short || g.away.name;
     var muH = (m.muT + m.muM) / 2, muA = (m.muT - m.muM) / 2, sigTeam = L.sigT * 0.62;
     var pHome = Phi(m.muM / L.sigM);
@@ -211,9 +228,9 @@
     var c = [], ASM = assumedMarkets(o);
     function add(group, label, odds, p, push) {
       if (!odds || p == null) return;
-      push = push || 0; p = calib(group, p);
+      push = push || 0; p = anchor(calib(group, p), odds, null, push);
       var ev = p * odds + push - 1, eff = p / Math.max(1 - push, 1e-6), asm = !!ASM[group.toLowerCase()];
-      c.push({ group: group, label: label, odds: odds, p: p, push: push, fair: (1 - push) / p, ev: ev, assumed: asm || undefined,
+      c.push({ group: group, label: label, odds: odds, p: p, push: push, fair: (1 - push) / p, ev: ev, takeAt: takeAt(p, push), assumed: asm || undefined,
         confidence: asm ? "Price unconfirmed" : confidence(ev, eff) });
     }
     if (o.ml) { add("Moneyline", H + " to win", o.ml[0], mk.home); add("Moneyline", A + " to win", o.ml[1], mk.away); }
@@ -242,16 +259,17 @@
 
     // ---- picks ----
     function best(list, key) { var b = null; list.forEach(function (x) { if (!b || key(x) > key(b)) b = x; }); return b; }
-    var top = best(c.filter(function (x) { return !x.assumed && x.odds >= 1.45 && x.odds <= 3.2 && x.p >= 0.5 && x.ev >= 0.005; }), function (x) { return x.ev + 0.1 * x.p; });
+    var top = best(c.filter(function (x) { return !x.assumed && x.odds >= 1.45 && x.odds <= 3.2 && x.p >= 0.5 && x.ev >= 0.01; }), function (x) { return x.ev + 0.1 * x.p; });
+    var likely = best(c.filter(function (x) { return x.group === "Moneyline" && !x.assumed && x.odds >= 1.1 && x.p >= 0.6; }), function (x) { return x.p; });
     var value = best(c.filter(function (x) { return !x.assumed && x.ev > 0 && x.odds <= 6; }), function (x) { return x.ev; });
     var noBet = top ? null : (c.some(function (x) { return x.assumed; })
       ? "No bet: the spread and total prices here were not published, so the 1.91 used is a guess. Check your bookmaker's line before backing anything."
-      : "No bet: every price on offer is at or shorter than the model's fair odds.");
+      : "No bet: no price beats the fair odds by 1% once the model is anchored to the bookmaker.");
     var slip = [];
     function bestOf(group) { return best(c.filter(function (x) { return x.group === group; }), function (x) { return x.ev + 0.02 * x.p; }); }
     var fav = mk.home >= 0.5 ? "home" : "away", favName = fav === "home" ? H : A, pFav = Math.max(mk.home, mk.away);
     function row(market, x, fallback) {
-      if (x) slip.push({ market: market, pick: x.label + (x.assumed ? " (price assumed)" : ""), p: x.p, odds: x.odds, fair: x.fair, ev: x.ev, push: x.push, assumed: x.assumed });
+      if (x) slip.push({ market: market, pick: x.label + (x.assumed ? " (price assumed)" : ""), p: x.p, odds: x.odds, fair: x.fair, ev: x.ev, push: x.push, takeAt: x.takeAt, assumed: x.assumed });
       else if (fallback) { var fp = calib(market, modelOnly(fallback.p)); slip.push({ market: market, pick: fallback.label, p: fp, odds: null, fair: fair(fp), ev: null }); }
     }
     row("Moneyline", bestOf("Moneyline"), { label: favName + " to win", p: pFav });
@@ -281,7 +299,7 @@
 
     return { sport: "basketball", league: L, xs: { home: muH, away: muA }, margin: m.muM, total: m.muT, basis: m.basis, market: m.market, form: m.form,
       markets: mk, h1: h1, props: props, players: players(g, { home: muH, away: muA }),
-      picks: { top: top, noBet: noBet, value: value, builder: builder, slip: slip, all: c } };
+      picks: { top: top, noBet: noBet, value: value, likely: likely, builder: builder, slip: slip, all: c } };
   }
 
   // ---------- live ----------

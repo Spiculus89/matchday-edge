@@ -31,24 +31,41 @@
   function f1(x) { return x == null ? "–" : x.toFixed(1); }
   function nm(g, s) { return g[s].short || g[s].name; }
 
+  // "Most likely" results across the day (19 Nov): the safest single outcomes at fair prices, for
+  // people who build accumulators from favourites. No edge is claimed; the min odds is what keeps it fair.
+  function likelySection(items) {
+    items = items.filter(function (x) { return x.l; }).sort(function (a, b) { return b.l.p - a.l.p; }).slice(0, 10);
+    if (!items.length) return "";
+    var rows = items.map(function (x) {
+      return '<tr><td><span class="market">' + esc(x.game) + '</span><br><span class="pickname">' + esc(x.l.label) + '</span></td><td class="r num">' + pct(x.l.p) + '</td><td class="r num">' + odd(x.l.odds) + '</td><td class="r num"><b>' + odd(1 / x.l.p) + "</b></td></tr>";
+    }).join("");
+    var p4 = items.slice(0, 4).reduce(function (a, x) { return a * x.l.p; }, 1);
+    return '<div class="section-title"><h2>Most likely results</h2><p>The safest single outcomes today, at fair prices. These are not value bets. Fair is the break-even price: below it you are paying the bookmaker\'s margin, which adds up fast in an accumulator.' +
+      (items.length >= 4 ? " The top four together land " + pct(p4) + " of the time." : "") + '</p></div><div class="tablewrap"><table><thead><tr><th>Pick</th><th class="r">Chance</th><th class="r">Pinnacle</th><th class="r">Fair</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+  }
   function tile(g, r) {
     var t = r.picks.top, st = status(g);
     var head = '<div class="ko"><span>' + esc(g.league) + '</span><span class="chip ' + st.cls + '">' + esc(st.label) + "</span></div><div class=\"teams\">" + esc(g.away.name) + " @ " + esc(g.home.name) + "</div>";
-    if (!t) return '<a class="tile" href="#' + esc(g.id) + '" style="border-top-color:var(--warn)">' + head + '<div class="pick nobet">No bet</div><div class="row"><span>Every price is at or shorter than fair. Try Live mode once it starts.</span></div></a>';
+    var lk = r.picks.likely;
+    if (!t) return '<a class="tile" href="#' + esc(g.id) + '" style="border-top-color:var(--warn)">' + head + '<div class="pick nobet">No value bet</div>' +
+      (lk ? '<div class="row"><span>Most likely: <b>' + esc(lk.label) + "</b> " + pct(lk.p) + '</span></div><div class="row"><span>Fair ' + odd(1 / lk.p) + "</span></div>" : '<div class="row"><span>No price beats fair. Try Live mode once it starts.</span></div>') + "</a>";
     return '<a class="tile" href="#' + esc(g.id) + '">' + head + '<div class="pick">' + esc(t.label) + "</div>" +
       '<div class="row"><span>Model ' + pct(t.p) + '</span><span class="price num">' + odd(t.odds) + "</span></div>" +
-      '<div class="row"><span>' + edgeTxt(t.ev).replace(/^e/, "E") + "</span>" + confChip(t.confidence) + "</div></a>";
+      '<div class="row"><span>' + edgeTxt(t.ev).replace(/^e/, "E") + "</span>" + confChip(t.confidence) + "</div>" +
+      '<div class="row"><span>Only at ' + odd(t.takeAt) + " or better</span></div></a>";
   }
   function topBet(r) {
     var t = r.picks.top;
-    if (!t) return '<div class="topbet" style="background:var(--warn-bg);border-color:var(--warn)"><div><div class="lab" style="color:var(--warn)">Best bet</div><div class="what">No bet</div></div><div class="nums" style="max-width:46ch">' + esc(r.picks.noBet) + "</div></div>";
-    return '<div class="topbet"><div><div class="lab">Best bet</div><div class="what">' + esc(t.label) + '</div></div><div class="nums num">@ ' + odd(t.odds) + " · chance " + pct(t.p) + " · fair " + odd(t.fair) + " · " + confChip(t.confidence) + "</div></div>";
+    var lk = r.picks.likely;
+    if (!t) return '<div class="topbet" style="background:var(--warn-bg);border-color:var(--warn)"><div><div class="lab" style="color:var(--warn)">Value bet</div><div class="what">None</div></div><div class="nums" style="max-width:52ch">' + esc(r.picks.noBet) +
+      (lk ? " Most likely: <b>" + esc(lk.label) + "</b>, " + pct(lk.p) + ", fair " + odd(1 / lk.p) + "." : "") + "</div></div>";
+    return '<div class="topbet"><div><div class="lab">Value bet</div><div class="what">' + esc(t.label) + '</div></div><div class="nums num">@ ' + odd(t.odds) + " · chance " + pct(t.p) + " · only at " + odd(t.takeAt) + "+ · " + confChip(t.confidence) + "</div></div>";
   }
   function slipTable(r) {
     var rows = r.picks.slip.map(function (s) {
-      return '<tr><td><span class="market">' + esc(s.market) + '</span><br><span class="pickname">' + esc(s.pick) + '</span></td><td class="r num">' + pct(s.p) + '</td><td class="r num">' + odd(s.odds) + '</td><td class="r num">' + odd(s.fair) + '</td><td class="r">' + gradeChip(s.grade, edgeTxt(s.ev)) + "</td></tr>";
+      return '<tr><td><span class="market">' + esc(s.market) + '</span><br><span class="pickname">' + esc(s.pick) + '</span></td><td class="r num">' + pct(s.p) + '</td><td class="r num">' + odd(s.odds) + '</td><td class="r num">' + odd(s.takeAt || s.fair) + '</td><td class="r">' + gradeChip(s.grade, edgeTxt(s.ev)) + "</td></tr>";
     }).join("");
-    return '<div class="tablewrap"><table><thead><tr><th>Pick</th><th class="r">Chance</th><th class="r">Odds</th><th class="r">Fair</th><th class="r">Verdict</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+    return '<div class="tablewrap"><table><thead><tr><th>Pick</th><th class="r">Chance</th><th class="r">Odds</th><th class="r">Min odds</th><th class="r">Verdict</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
   }
   function probBar(g, r) {
     var mk = r.markets;
@@ -218,7 +235,8 @@
       return '<button type="button" data-league="' + esc(k) + '" aria-pressed="' + (k === FILTER) + '">' + esc(k === "all" ? "All" : k) + " · " + n + "</button>"; }).join("") + "</div>" : "";
     metaEl.innerHTML = esc(dateLong(day.date)) + " · updated " + esc(stamp(day.updated)) + '<br><span class="num">Times shown in ' + esc(tz) + "</span>";
     app.innerHTML = chips + (list.length
-      ? '<div class="section-title"><h2>Best bets</h2><p>' + esc(day.updateNote || "") + '</p></div><div class="slipgrid">' + list.map(function (x) { return tile(x.g, x.r); }).join("") + "</div>" +
+      ? '<div class="section-title"><h2>Today at a glance</h2><p>' + esc(day.updateNote || "") + '</p></div><div class="slipgrid">' + list.map(function (x) { return tile(x.g, x.r); }).join("") + "</div>" +
+        likelySection(list.filter(function (x) { return !x.g.result && new Date(x.g.start).getTime() > Date.now() - 600e3; }).map(function (x) { return { game: (x.g.away.short || x.g.away.name) + " @ " + (x.g.home.short || x.g.home.name), l: x.r.picks.likely }; })) +
         '<div class="section-title"><h2>Games</h2><p>' + plural(list.length, "game") + "</p></div>" + list.map(function (x) { return card(x.g, x.r); }).join("")
       : '<p class="err" style="background:var(--warn-bg);color:var(--warn)">No ' + CFG.key + " games on this day yet. The morning update adds them.</p>") + trackRecord(RECORD);
     announce.textContent = "Showing " + plural(list.length, "game") + " for " + dateLong(day.date) + ".";

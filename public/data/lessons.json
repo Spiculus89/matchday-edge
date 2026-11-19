@@ -2,6 +2,20 @@
   "note": "Changes to the model or the data process, each tied to the graded result or data problem that prompted it. Newest first.",
   "lessons": [
     {
+      "date": "2026-11-19",
+      "area": "All sports",
+      "kind": "model",
+      "saw": "18 Nov best bets: NBA/NHL 2 of 5 (Heat under, Warriors +6, Avalanche lost), Copa del Rey 'fair price' best bets at -0.2% and -1.7%. Re-scoring all 127 priced legs graded so far: the bookmaker's own price, margin removed, predicted results better than the model (Brier 0.245 vs 0.267), and legs where the model claimed a 3%+ edge won 46% against 66% predicted.",
+      "change": "Every probability is now anchored to its price: the model keeps 30% of its disagreement (60% when late team news hasn't reached the price). The best bet needs a +1% edge after that, so it becomes a rare 'Value bet'. Each game now shows its most likely outcome with fair odds, and every pick shows the minimum odds worth taking."
+    },
+    {
+      "date": "2026-11-19",
+      "area": "Price",
+      "kind": "process",
+      "saw": "The user bets at Meridian. On 18 Nov its prices on the site's picks were far below Pinnacle's: Heat under 1.71 vs 1.94, Warriors +6.5 1.68 vs +6 at 1.95, Avalanche 1.88 vs 2.01. A small edge at Pinnacle is a 5-12% loss at those prices.",
+      "change": "'Min odds' replaces 'Fair' on every bet slip row and on the best bet: below it, skip the bet. Odds refreshes now retire team-news adjustments once the new price contains them, so injuries aren't counted twice."
+    },
+    {
       "date": "2026-11-18",
       "area": "NBA best bet",
       "kind": "model",

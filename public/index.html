@@ -44,7 +44,8 @@
     </div>
     <div>
       <h3>Reading the numbers</h3>
-      <p><b>Fair odds</b> are what the model thinks a bet is worth with no bookmaker margin. Only take a price above it.</p>
+      <p><b>Min odds</b> is the lowest price worth taking: the model's chance, anchored to Pinnacle's price (the sharpest bookmaker), plus 1%. If your bookmaker pays less, skip it. Local bookmakers often pay 5–10% less than Pinnacle.</p>
+      <p><b>Value bet</b> appears only when a price beats the min odds after that anchoring, which is rare and usually follows late team news. <b>Most likely</b> is the safest outcome of each game at a fair price: useful for accumulators, but not an edge.</p>
       <p><b>Edge</b> compares the model's chance with the odds on offer: Strong (clear edge), Lean (small edge), Fair price (about even) or Thin (the bookmaker's price is short).</p>
       <p><b>Verdict</b>: Bet (the price beats the model), Lean (about fair, 55%+ chance) or Skip (the price is too short, or the chance is too low to back). Build slips from Bet and Lean rows only.</p>
       <p><b>Live mode</b> opens on each match once it kicks off. It pulls the score from a free feed where it can, or takes what you type, and re-prices every market for the minutes left.</p>
@@ -100,13 +101,25 @@
   function edgeTxt(ev) { return ev == null ? "model only" : "edge " + (ev >= 0 ? "+" : "") + (ev * 100).toFixed(1) + "%"; }
   function pbar(p) { return '<span class="pbar" aria-hidden="true"><i style="width:' + Math.round(p * 100) + '%"></i></span>'; }
 
+  // "Most likely" results across the day (19 Nov): the safest single outcomes at fair prices, for
+  // people who build accumulators from favourites. No edge is claimed; the min odds is what keeps it fair.
+  function likelySection(items) {
+    items = items.filter(function (x) { return x.l; }).sort(function (a, b) { return b.l.p - a.l.p; }).slice(0, 10);
+    if (!items.length) return "";
+    var rows = items.map(function (x) {
+      return '<tr><td><span class="market">' + esc(x.game) + '</span><br><span class="pickname">' + esc(x.l.label) + '</span></td><td class="r num">' + pct(x.l.p) + '</td><td class="r num">' + odd(x.l.odds) + '</td><td class="r num"><b>' + odd(1 / x.l.p) + "</b></td></tr>";
+    }).join("");
+    var p4 = items.slice(0, 4).reduce(function (a, x) { return a * x.l.p; }, 1);
+    return '<div class="section-title"><h2>Most likely results</h2><p>The safest single outcomes today, at fair prices. These are not value bets. Fair is the break-even price: below it you are paying the bookmaker\'s margin, which adds up fast in an accumulator.' +
+      (items.length >= 4 ? " The top four together land " + pct(p4) + " of the time." : "") + '</p></div><div class="tablewrap"><table><thead><tr><th>Pick</th><th class="r">Chance</th><th class="r">Pinnacle</th><th class="r">Fair</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+  }
   function tile(m, r) {
     var t = r.picks.top;
     var st = status(m);
     if (!t) return '<a class="tile" href="#' + esc(m.id) + '" style="border-top-color:var(--warn)">' +
       '<div class="ko"><span>' + esc(m.competition.replace("UEFA ", "")) + '</span><span class="chip ' + st.cls + '">' + esc(st.label) + "</span></div>" +
       '<div class="teams">' + esc(m.home.name) + " v " + esc(m.away.name) + "</div>" +
-      '<div class="pick nobet">No bet</div><div class="row"><span>Every price is shorter than the model’s fair odds. Try Live mode after kick-off.</span></div></a>';
+      '<div class="pick nobet">No value bet</div>' + (r.picks.likely ? '<div class="row"><span>Most likely: <b>' + esc(r.picks.likely.label) + "</b> " + pct(r.picks.likely.p) + '</span></div><div class="row"><span>Fair ' + odd(1 / r.picks.likely.p) + "</span></div>" : '<div class="row"><span>No price beats fair. Try Live mode after kick-off.</span></div>') + "</a>";
     var price = t.odds ? odd(t.odds) : odd(t.fair);
     return '<a class="tile" href="#' + esc(m.id) + '">' +
       '<div class="ko"><span>' + esc(m.competition.replace("UEFA ", "")) + '</span><span class="chip ' + st.cls + '">' + esc(st.label) + "</span></div>" +
@@ -114,22 +127,24 @@
       '<div class="pick">' + esc(t.label || t.pick) + "</div>" +
       '<div class="row"><span>Model ' + pct(t.p) + (t.odds ? " · bookmaker " + pct(t.implied) : "") + '</span><span class="price num">' + price + "</span></div>" +
       '<div class="row"><span>' + (t.ev != null ? "Edge " + (t.ev >= 0 ? "+" : "") + (t.ev * 100).toFixed(1) + "%" : "Fair odds") + "</span>" + (t.confidence ? confChip(t.confidence) : "") + "</div>" +
-      "</a>";
+      (t.takeAt ? '<div class="row"><span>Only at ' + odd(t.takeAt) + " or better</span></div>" : "") + "</a>";
   }
 
   function slipTable(m, r) {
     var rows = r.picks.slip.map(function (s) {
       return "<tr><td class=\"market\">" + esc(s.market) + '</td><td class="pickname">' + esc(s.pick) + (s.push ? ' <span class="market">push ' + pct(s.push) + "</span>" : "") +
-        '</td><td class="r num">' + pbar(s.p) + pct(s.p) + '</td><td class="r num">' + odd(s.odds) + '</td><td class="r num">' + odd(s.fair) + '</td><td class="r">' + gradeChip(s.grade, edgeTxt(s.ev)) + "</td></tr>";
+        '</td><td class="r num">' + pbar(s.p) + pct(s.p) + '</td><td class="r num">' + odd(s.odds) + '</td><td class="r num">' + odd(s.takeAt || s.fair) + '</td><td class="r">' + gradeChip(s.grade, edgeTxt(s.ev)) + "</td></tr>";
     }).join("");
-    return '<div class="tablewrap"><table><thead><tr><th>Market</th><th>Pick</th><th class="r">Chance</th><th class="r">Odds</th><th class="r">Fair</th><th class="r">Verdict</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+    return '<div class="tablewrap"><table><thead><tr><th>Market</th><th>Pick</th><th class="r">Chance</th><th class="r">Odds</th><th class="r">Min odds</th><th class="r">Verdict</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
   }
 
   function topBet(r) {
     var t = r.picks.top;
-    if (!t) return '<div class="topbet" style="background:var(--warn-bg);border-color:var(--warn)"><div><div class="lab" style="color:var(--warn)">Best bet</div><div class="what">No bet</div></div><div class="nums" style="max-width:46ch">' + esc(r.picks.noBet) + "</div></div>";
-    return '<div class="topbet"><div><div class="lab">Best bet</div><div class="what">' + esc(t.label) + '</div></div>' +
-      '<div class="nums num"><div><b>' + odd(t.odds) + "</b>odds</div><div><b>" + pct(t.p) + "</b>model</div><div><b>" + pct(t.implied) + "</b>bookmaker</div><div><b>" + odd(1 / t.p) + "</b>fair</div></div>" + confChip(t.confidence) + "</div>";
+    var lk = r.picks.likely;
+    if (!t) return '<div class="topbet" style="background:var(--warn-bg);border-color:var(--warn)"><div><div class="lab" style="color:var(--warn)">Value bet</div><div class="what">None</div></div><div class="nums" style="max-width:52ch">' + esc(r.picks.noBet) +
+      (lk ? " Most likely: <b>" + esc(lk.label) + "</b>, " + pct(lk.p) + ", fair " + odd(1 / lk.p) + "." : "") + "</div></div>";
+    return '<div class="topbet"><div><div class="lab">Value bet</div><div class="what">' + esc(t.label) + '</div></div>' +
+      '<div class="nums num"><div><b>' + odd(t.odds) + "</b>odds</div><div><b>" + pct(t.p) + "</b>model</div><div><b>" + pct(t.implied) + "</b>bookmaker</div><div><b>" + odd(t.takeAt || 1 / t.p) + "</b>min odds</div></div>" + confChip(t.confidence) + "</div>";
   }
 
   function scoreGrid(r) {
@@ -402,8 +417,9 @@
     results.sort(function (a, b) { return new Date(a.m.kickoff) - new Date(b.m.kickoff); });
     metaEl.innerHTML = esc(dateLong(day.date)) + " · updated " + esc(stamp(day.updated)) + '<br><span class="num">Times shown in ' + esc(tz) + "</span>";
     var body = results.length
-      ? '<div class="section-title"><h2>Best bets</h2><p>' + esc(day.updateNote || "") + "</p></div>" +
+      ? '<div class="section-title"><h2>Today at a glance</h2><p>' + esc(day.updateNote || "") + "</p></div>" +
         '<div class="slipgrid">' + results.map(function (x) { return tile(x.m, x.r); }).join("") + "</div>" +
+        likelySection(results.filter(function (x) { return !x.m.result && new Date(x.m.kickoff).getTime() > Date.now() - 600e3; }).map(function (x) { return { game: (x.m.home.short || x.m.home.name) + " v " + (x.m.away.short || x.m.away.name), l: x.r.picks.likely }; })) +
         '<div class="section-title"><h2>' + esc(day.title || "Matches") + "</h2><p>" + plural(results.length, "match", "matches") + "</p></div>" +
         results.map(function (x) { return matchCard(x.m, x.r); }).join("")
       : '<p class="err" style="background:var(--warn-bg);color:var(--warn)">No matches on this day yet. The morning update adds them; pick another day above in the meantime.</p>';

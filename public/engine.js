@@ -372,6 +372,7 @@
     if (hit) p = (p * 10 + +hit[1]) / (10 + +hit[2]); // last-5 hit rates are noisy: worth 5 games against 10 of model
     var sub = "Player prop: " + PROP_LABEL[pp.stat];
     p = CAL[sub] && CAL[sub].n >= 8 ? calib(sub, p) : calib("Player prop", p);
+    if (prop.odds) p = anchor(p, prop.odds, null, 0, ANCHOR.props);
     var ev = prop.odds ? p * prop.odds - 1 : null;
     return { player: prop.player, market: prop.market, odds: prop.odds || null, hitRate: prop.hit || null, p: p, fair: fair(p), ev: ev,
       need: prop.odds ? 1 / prop.odds : null, basis: basis, mean: mu,
@@ -381,14 +382,29 @@
   // ---------- picks ----------
   function ahLabel(name, line) { return name + " " + (line > 0 ? "+" : "") + line + " (Asian handicap)"; }
 
+  // Anchor to the price (19 Nov). Re-scoring every graded leg so far (127 priced legs, three sports):
+  // the bookmaker's own price, margin removed, predicted results better than the model (Brier 0.245 vs
+  // 0.267), and legs where the model claimed a 3%+ edge won 46% against 66% predicted (ROI -15%).
+  // So each probability keeps only a share of its disagreement with the price: 30% normally, 60% when
+  // there is team news the price may not have caught yet (an `adjust`). The rest is the price's view.
+  var ANCHOR = { k: 0.3, kNews: 0.6, sharp: 0.025, soft: 0.05, props: 0.08 }, CUR = { k: 0.3, m: 0.05 };
+  function setCur(odds, adjusted) { CUR = { k: adjusted ? ANCHOR.kNews : ANCHOR.k, m: /pinnacle/i.test(String((odds && odds.book) || "")) ? ANCHOR.sharp : ANCHOR.soft }; }
+  // q: the price's own fair probability (two-way devig when the other side is known, else margin estimate)
+  function anchor(p, odds, q, push, margin) {
+    if (!odds || p == null) return p;
+    push = push || 0;
+    if (q == null) q = Math.min(0.99, (1 - push) / odds / (1 + (margin == null ? CUR.m : margin)));
+    return q + CUR.k * (p - q);
+  }
+  function takeAt(p, push) { return p > 0 ? Math.round((1.01 - (push || 0)) / p * 100) / 100 : null; }
   function candidates(m, o, names, ctx) {
     var c = [];
     function add(label, group, p, odds, pair, push) {
       if (!odds || p == null) return;
       push = push || 0;
-      p = calib(group, p);
+      p = anchor(calib(group, p), odds, pair, push);
       c.push({ label: label, group: group, p: p, push: push || null, odds: odds, implied: pair != null ? pair : 1 / odds,
-        ev: p * odds + push - 1 });
+        ev: p * odds + push - 1, takeAt: takeAt(p, push) });
     }
     if (o.h) { var dv = devig([o.h, o.d, o.a]).probs;
       add(names.home + " to win", "Result", m.home, o.h, dv[0]); add("Draw", "Result", m.draw, o.d, dv[1]); add(names.away + " to win", "Result", m.away, o.a, dv[2]); }
@@ -511,7 +527,9 @@
   function pickBets(m, o, names, M, ctx) {
     var c = candidates(m, o, names, ctx);
     c.forEach(function (x) { x.edge = x.p - x.implied; x.confidence = confidence(x); });
-    var top = best(c.filter(function (x) { return x.odds >= 1.35 && x.odds <= 3.5 && x.p >= 0.5 && x.ev >= -0.02 && x.group !== "Scorer"; }), function (x) { return 2 * x.ev + 0.25 * (x.p - 0.5); });
+    // best bet needs a real edge after anchoring (19 Nov: "fair price" best bets at -0.2% and -1.7% went into the Copa del Rey slip)
+    var top = best(c.filter(function (x) { return x.odds >= 1.35 && x.odds <= 3.5 && x.p >= 0.5 && x.ev >= 0.01 && x.group !== "Scorer"; }), function (x) { return 2 * x.ev + 0.25 * (x.p - 0.5); });
+    var likely = best(c.filter(function (x) { return (x.group === "Result" || x.group === "Double chance") && x.odds >= 1.1 && x.p >= 0.6; }), function (x) { return x.p; });
     var safe = best(c.filter(function (x) { return x.odds >= 1.2 && x.ev >= -0.07 && x !== top; }), function (x) { return x.p + 0.5 * x.ev; });
     var value = best(c.filter(function (x) { return x.odds >= 2.4 && x.p >= 0.18 && x !== top && x !== safe; }), function (x) { return x.ev; });
     // Bet builder: result leg x goals leg x BTTS leg, priced exactly from the score matrix
@@ -548,8 +566,9 @@
     var s = slip(m, o, names, c, ctx);
     c.sort(function (a, b) { return b.ev - a.ev; });
     s.forEach(function (row) { row.grade = grade(row); });
-    var noBet = !top ? "No bet: every price on offer is shorter than the model's fair odds." : null;
-    return { top: top, noBet: noBet, safe: safe, value: value, builder: builder, slip: s, props: props, all: c };
+    var noBet = !top ? "No bet: no price beats the fair odds by 1% once the model is anchored to the bookmaker." : null;
+    s.forEach(function (r) { if (r.odds && r.p) r.takeAt = takeAt(r.p); });
+    return { top: top, noBet: noBet, safe: safe, value: value, likely: likely, builder: builder, slip: s, props: props, all: c };
   }
 
   // ---------- main ----------
@@ -565,6 +584,7 @@
     else { lh = 1.35; la = 1.15; method = "prior"; }
     var adj = match.adjust || {};
     lh *= adj.home || 1; la *= adj.away || 1;
+    setCur(o, (adj.home && adj.home !== 1) || (adj.away && adj.away !== 1));
     var wx = weatherFactor(match.weather);
     lh *= wx.factor; la *= wx.factor;
     var M = scoreMatrix(lh, la, DC_RHO);

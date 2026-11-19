@@ -92,6 +92,10 @@ export function applyToGame(game, fx, sport, at) {
   o.book = `${main ? "Pinnacle" : "AdmiralBet BA"} via OddsPapi, ${at.slice(0, 10)} ${when}` + (main && local ? "; lines Pinnacle lacks are AdmiralBet BA" : "");
   if (local) o.local = { book: "AdmiralBet BA", ...local, text: fmt(local, sport) };
   game.odds = o;
+  // Team news already set as an `adjust` is in the new price by now: keep it for the record, stop applying it
+  // (otherwise the refreshed line and the adjustment would count the same injury twice).
+  const adj = game.adjust, live = adj && Object.values(adj).some(v => typeof v === "number" && v !== 0 && v !== 1);
+  if (live) { game.adjustPriced = { ...adj, retiredAt: at }; delete game.adjust; }
   return true;
 }
 
