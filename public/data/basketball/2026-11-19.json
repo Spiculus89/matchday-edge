@@ -879,85 +879,85 @@
       "context": "Dubai (8-4), one game behind leaders Valencia and Olympiacos (9-3), visit Maccabi (3-9), who play their EuroLeague home games in Limassol, Cyprus this season. Maccabi lost 97-95 in overtime to Olympiacos in Round 12; Dubai beat Anadolu Efes 80-75 behind Mfiondu Kabengele's 18 points and 18 rebounds. Maccabi are without Iffe Lundberg (quadriceps tendon), and Dubai's Mam Jaiteh (Achilles) is doubtful.",
       "odds": {
         "ml": [
-          2.33,
-          1.641
+          2.45,
+          1.588
         ],
         "total": {
-          "line": 176,
-          "o": 2.01,
-          "u": 1.854
+          "line": 174.5,
+          "o": 1.909,
+          "u": 1.943
         },
         "teamTotal": {
           "home": {
             "line": 86.5,
-            "o": 1.87,
-            "u": 1.94
+            "o": 1.97,
+            "u": 1.84
           },
           "away": {
-            "line": 89.5,
-            "o": 1.89,
-            "u": 1.92
+            "line": 88.5,
+            "o": 1.9,
+            "u": 1.91
           }
         },
         "spread": {
-          "line": 3,
+          "line": 3.5,
           "h": 1.952,
           "a": 1.9
         },
         "h1": {
           "spread": {
             "line": 2,
-            "h": 1.854,
-            "a": 2
+            "h": 1.917,
+            "a": 1.934
           },
           "total": {
             "line": 87.5,
-            "o": 1.934,
-            "u": 1.917
+            "o": 1.877,
+            "u": 1.98
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 16:45 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            2.39,
-            1.58
+            2.3,
+            1.63
           ],
           "total": {
-            "line": 176.5,
-            "o": 1.92,
-            "u": 1.89
+            "line": 174.5,
+            "o": 1.9,
+            "u": 1.91
           },
           "teamTotal": {
             "home": {
               "line": 86.5,
-              "o": 1.87,
-              "u": 1.94
+              "o": 1.97,
+              "u": 1.84
             },
             "away": {
-              "line": 89.5,
-              "o": 1.89,
-              "u": 1.92
+              "line": 88.5,
+              "o": 1.9,
+              "u": 1.91
             }
           },
           "spread": {
             "line": 3.5,
-            "h": 1.92,
-            "a": 1.89
+            "h": 1.87,
+            "a": 1.95
           },
           "h1": {
             "spread": {
               "line": 1.5,
-              "h": 1.91,
-              "a": 1.9
+              "h": 1.87,
+              "a": 1.94
             },
             "total": {
-              "line": 88.5,
-              "o": 1.96,
-              "u": 1.85
+              "line": 87.5,
+              "o": 1.93,
+              "u": 1.88
             }
           },
-          "text": "win 2.39/1.58, +3.5 1.92/1.89, total 176.5 1.92/1.89"
+          "text": "win 2.3/1.63, +3.5 1.87/1.95, total 174.5 1.9/1.91"
         }
       },
       "players": {
@@ -967,7 +967,7 @@
             "pos": "G",
             "pts": 13.6,
             "reb": 2.4,
-            "ast": 4.0,
+            "ast": 4,
             "threes": 1.7,
             "min": 22.3
           },
@@ -1003,7 +1003,7 @@
             "pos": "G",
             "pts": 7.7,
             "reb": 2.5,
-            "ast": 3.0,
+            "ast": 3,
             "status": "Out (partial quadriceps tendon tear)",
             "start": 0
           }
@@ -1013,7 +1013,7 @@
             "name": "Dwayne Bacon",
             "pos": "G",
             "pts": 16.3,
-            "reb": 4.0,
+            "reb": 4,
             "ast": 2.8,
             "threes": 1.2,
             "min": 27.5
@@ -1025,7 +1025,7 @@
             "reb": 8.5,
             "ast": 1.3,
             "threes": 1.2,
-            "min": 24.0
+            "min": 24
           },
           {
             "name": "Elie Okobo",
@@ -1041,7 +1041,7 @@
             "pos": "G",
             "pts": 9.5,
             "reb": 2.8,
-            "ast": 3.0,
+            "ast": 3,
             "threes": 0.9,
             "min": 24.7
           },
@@ -1049,7 +1049,7 @@
             "name": "Dzanan Musa",
             "pos": "F",
             "pts": 8.4,
-            "reb": 4.0,
+            "reb": 4,
             "ast": 3.8,
             "threes": 1.2,
             "min": 19.4
@@ -1156,7 +1156,7 @@
           "games": 12
         },
         "away": {
-          "pf": 86.0,
+          "pf": 86,
           "pa": 84.8,
           "games": 12
         }
@@ -1180,85 +1180,85 @@
       "context": "Zalgiris and Panathinaikos are both 8-4. Zalgiris beat Bayern 117-114 in overtime in Round 12 (Carsen Edwards 32 points), while Panathinaikos lost 84-79 at Virtus Bologna. Zalgiris are still without Nigel Williams-Goss (hamstring); Panathinaikos reported a full squad.",
       "odds": {
         "ml": [
-          1.869,
-          1.99
+          2.07,
+          1.8
         ],
         "total": {
-          "line": 167.5,
-          "o": 1.917,
-          "u": 1.934
+          "line": 168,
+          "o": 1.877,
+          "u": 1.98
         },
         "teamTotal": {
           "home": {
             "line": 83.5,
             "o": 1.85,
-            "u": 1.92
+            "u": 1.96
           },
           "away": {
             "line": 83.5,
-            "o": 1.9,
-            "u": 1.87
+            "o": 1.85,
+            "u": 1.96
           }
         },
         "spread": {
-          "line": -2,
-          "h": 2.02,
-          "a": 1.84
+          "line": 1.5,
+          "h": 1.934,
+          "a": 1.917
         },
         "h1": {
           "spread": {
-            "line": -0.5,
-            "h": 1.943,
-            "a": 1.909
+            "line": 0.5,
+            "h": 1.961,
+            "a": 1.892
           },
           "total": {
-            "line": 83.5,
-            "o": 1.877,
-            "u": 1.97
+            "line": 84.5,
+            "o": 1.952,
+            "u": 1.892
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 16:45 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.86,
-            1.95
+            1.9,
+            1.91
           ],
           "total": {
             "line": 167.5,
-            "o": 1.94,
-            "u": 1.87
+            "o": 1.89,
+            "u": 1.92
           },
           "teamTotal": {
             "home": {
               "line": 83.5,
               "o": 1.85,
-              "u": 1.92
+              "u": 1.96
             },
             "away": {
               "line": 83.5,
-              "o": 1.9,
-              "u": 1.87
+              "o": 1.85,
+              "u": 1.96
             }
           },
           "spread": {
             "line": -1.5,
-            "h": 1.96,
-            "a": 1.85
+            "h": 1.98,
+            "a": 1.783
           },
           "h1": {
             "spread": {
               "line": -0.5,
-              "h": 1.95,
-              "a": 1.86
+              "h": 1.98,
+              "a": 1.83
             },
             "total": {
-              "line": 83.5,
-              "o": 1.87,
-              "u": 1.94
+              "line": 84.5,
+              "o": 1.9,
+              "u": 1.91
             }
           },
-          "text": "win 1.86/1.95, -1.5 1.96/1.85, total 167.5 1.94/1.87"
+          "text": "win 1.9/1.91, -1.5 1.98/1.783, total 167.5 1.89/1.92"
         }
       },
       "players": {
@@ -1279,13 +1279,13 @@
             "reb": 9.1,
             "ast": 1.8,
             "threes": 0.1,
-            "min": 21.0
+            "min": 21
           },
           {
             "name": "Azuolas Tubelis",
             "pos": "F",
             "pts": 12.2,
-            "reb": 6.0,
+            "reb": 6,
             "ast": 1.5,
             "threes": 0.4,
             "min": 23.4
@@ -1302,7 +1302,7 @@
           {
             "name": "Nigel Williams-Goss",
             "pos": "G",
-            "pts": 7.0,
+            "pts": 7,
             "reb": 1.5,
             "ast": 4.5,
             "threes": 0.5,
@@ -1336,7 +1336,7 @@
             "pts": 11.7,
             "reb": 6.9,
             "ast": 1.6,
-            "threes": 0.0,
+            "threes": 0,
             "min": 23.4
           },
           {
@@ -1355,7 +1355,7 @@
             "reb": 4.8,
             "ast": 1.3,
             "threes": 1.3,
-            "min": 24.0
+            "min": 24
           }
         ]
       },
@@ -1412,7 +1412,7 @@
       "form": {
         "home": {
           "pf": 88.3,
-          "pa": 85.0,
+          "pa": 85,
           "games": 12
         },
         "away": {
@@ -1440,85 +1440,85 @@
       "context": "Bayern (3-9) are still looking for their first EuroLeague home win and lost 117-114 in overtime at Zalgiris in Round 12, despite 33 points from Johannes Thiemann. Baskonia (1-11) are last and lost 85-82 at home to Hapoel after leading 71-64 going into the fourth quarter. Bayern are without captain Vladimir Lucic; Baskonia are without Kenneth Faried, and Tadas Sedekerskis and Marcio Santos are doubtful.",
       "odds": {
         "ml": [
-          1.333,
-          3.46
+          1.332,
+          3.47
         ],
         "total": {
-          "line": 178,
-          "o": 1.862,
-          "u": 1.99
+          "line": 178.5,
+          "o": 1.892,
+          "u": 1.961
         },
         "teamTotal": {
           "home": {
             "line": 92.5,
-            "o": 1.94,
-            "u": 1.83
+            "o": 1.93,
+            "u": 1.88
           },
           "away": {
             "line": 85.5,
-            "o": 1.88,
-            "u": 1.9
+            "o": 1.94,
+            "u": 1.87
           }
         },
         "spread": {
-          "line": -6.5,
-          "h": 1.833,
-          "a": 2.03
+          "line": -7.5,
+          "h": 1.952,
+          "a": 1.9
         },
         "h1": {
           "spread": {
             "line": -3.5,
-            "h": 1.892,
-            "a": 1.952
+            "h": 1.934,
+            "a": 1.917
           },
           "total": {
-            "line": 89.5,
-            "o": 1.877,
-            "u": 1.97
+            "line": 90.5,
+            "o": 1.961,
+            "u": 1.892
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 16:45 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.33,
-            3.35
+            1.31,
+            3.45
           ],
           "total": {
             "line": 177.5,
-            "o": 1.89,
-            "u": 1.92
+            "o": 1.9,
+            "u": 1.91
           },
           "teamTotal": {
             "home": {
               "line": 92.5,
-              "o": 1.94,
-              "u": 1.83
+              "o": 1.93,
+              "u": 1.88
             },
             "away": {
               "line": 85.5,
-              "o": 1.88,
-              "u": 1.9
-            }
-          },
-          "spread": {
-            "line": -6.5,
-            "h": 1.85,
-            "a": 1.96
-          },
-          "h1": {
-            "spread": {
-              "line": -3.5,
-              "h": 1.91,
-              "a": 1.9
-            },
-            "total": {
-              "line": 89.5,
               "o": 1.94,
               "u": 1.87
             }
           },
-          "text": "win 1.33/3.35, -6.5 1.85/1.96, total 177.5 1.89/1.92"
+          "spread": {
+            "line": -7.5,
+            "h": 1.94,
+            "a": 1.87
+          },
+          "h1": {
+            "spread": {
+              "line": -3.5,
+              "h": 1.87,
+              "a": 1.94
+            },
+            "total": {
+              "line": 89.5,
+              "o": 1.88,
+              "u": 1.93
+            }
+          },
+          "text": "win 1.31/3.45, -7.5 1.94/1.87, total 177.5 1.9/1.91"
         }
       },
       "players": {
@@ -1526,7 +1526,7 @@
           {
             "name": "Duane Washington Jr.",
             "pos": "G",
-            "pts": 15.0,
+            "pts": 15,
             "reb": 1.1,
             "ast": 2.8,
             "threes": 2.2,
@@ -1535,7 +1535,7 @@
           {
             "name": "Andreas Obst",
             "pos": "G",
-            "pts": 11.0,
+            "pts": 11,
             "reb": 1.4,
             "ast": 2.6,
             "threes": 2.5,
@@ -1565,7 +1565,7 @@
             "pts": 7.9,
             "reb": 6.4,
             "ast": 0.7,
-            "threes": 0.0,
+            "threes": 0,
             "min": 15.8,
             "status": "Questionable (undisclosed; missed Round 12)",
             "start": 0.5
@@ -1597,14 +1597,14 @@
             "pos": "F",
             "pts": 10.2,
             "reb": 3.7,
-            "ast": 2.0,
+            "ast": 2,
             "threes": 1.8,
-            "min": 20.0
+            "min": 20
           },
           {
             "name": "D.J. Stewart Jr.",
             "pos": "G",
-            "pts": 9.0,
+            "pts": 9,
             "reb": 2.2,
             "ast": 1.2,
             "threes": 0.5,
@@ -1613,11 +1613,11 @@
           {
             "name": "Kenan Kamenjas",
             "pos": "C",
-            "pts": 12.0,
-            "reb": 12.0,
-            "ast": 1.0,
-            "threes": 0.0,
-            "min": 31.0
+            "pts": 12,
+            "reb": 12,
+            "ast": 1,
+            "threes": 0,
+            "min": 31
           },
           {
             "name": "Tadas Sedekerskis",
@@ -1625,7 +1625,7 @@
             "pts": 10.1,
             "reb": 4.7,
             "ast": 0.3,
-            "threes": 1.0,
+            "threes": 1,
             "min": 18.4,
             "status": "Doubtful (thigh/adductor)",
             "start": 0.25
@@ -1635,7 +1635,7 @@
             "pos": "F",
             "pts": 8.7,
             "reb": 6.9,
-            "ast": 1.0,
+            "ast": 1,
             "threes": 0.1,
             "min": 21.5,
             "status": "Out (adductor/thigh)",
@@ -1645,7 +1645,7 @@
             "name": "Marcio Santos",
             "pos": "C",
             "pts": 8.3,
-            "reb": 4.0,
+            "reb": 4,
             "ast": 0.7,
             "threes": 0.3,
             "min": 16.4,
@@ -1720,7 +1720,7 @@
       "form": {
         "home": {
           "pf": 89.1,
-          "pa": 97.0,
+          "pa": 97,
           "games": 12
         },
         "away": {
@@ -1748,49 +1748,49 @@
       "context": "Milan (2-10) beat Crvena Zvezda 91-77 in Round 12 for only their second win; Fenerbahce (8-4) beat ASVEL 115-81 with Shane Larkin scoring 25 points in 15 minutes. Milan are still without Devin Booker (thigh tendon, about three months). Fenerbahce are missing Nicolo Melli (meniscus surgery, about two months) and Braxton Key (finger).",
       "odds": {
         "ml": [
-          2.66,
-          1.507
+          2.62,
+          1.52
         ],
         "total": {
           "line": 165.5,
-          "o": 1.943,
-          "u": 1.909
+          "o": 1.833,
+          "u": 2.03
         },
         "teamTotal": {
           "home": {
             "line": 81.5,
-            "o": 1.93,
-            "u": 1.85
+            "o": 1.91,
+            "u": 1.9
           },
           "away": {
             "line": 84.5,
-            "o": 1.811,
+            "o": 1.86,
             "u": 1.95
           }
         },
         "spread": {
-          "line": 4.5,
-          "h": 1.847,
-          "a": 2.02
+          "line": 3.5,
+          "h": 1.961,
+          "a": 1.884
         },
         "h1": {
           "spread": {
-            "line": 2.5,
-            "h": 1.847,
-            "a": 2.01
+            "line": 2,
+            "h": 1.909,
+            "a": 1.943
           },
           "total": {
-            "line": 82.5,
-            "o": 1.917,
-            "u": 1.934
+            "line": 83.5,
+            "o": 1.952,
+            "u": 1.9
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 16:45 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            2.6,
-            1.5
+            2.5,
+            1.54
           ],
           "total": {
             "line": 166.5,
@@ -1800,33 +1800,33 @@
           "teamTotal": {
             "home": {
               "line": 81.5,
-              "o": 1.93,
-              "u": 1.85
+              "o": 1.91,
+              "u": 1.9
             },
             "away": {
               "line": 84.5,
-              "o": 1.811,
+              "o": 1.86,
               "u": 1.95
             }
           },
           "spread": {
             "line": 4.5,
-            "h": 1.9,
-            "a": 1.91
+            "h": 1.84,
+            "a": 1.97
           },
           "h1": {
             "spread": {
               "line": 1.5,
-              "h": 1.99,
-              "a": 1.83
+              "h": 1.95,
+              "a": 1.86
             },
             "total": {
-              "line": 83.5,
-              "o": 1.9,
-              "u": 1.91
+              "line": 82.5,
+              "o": 1.86,
+              "u": 1.95
             }
           },
-          "text": "win 2.6/1.5, +4.5 1.9/1.91, total 166.5 1.93/1.88"
+          "text": "win 2.5/1.54, +4.5 1.84/1.97, total 166.5 1.93/1.88"
         }
       },
       "players": {
@@ -1865,7 +1865,7 @@
             "reb": 2.1,
             "ast": 1.9,
             "threes": 1.5,
-            "min": 20.0
+            "min": 20
           },
           {
             "name": "Devin Booker",
@@ -2039,49 +2039,49 @@
       "context": "Paris (6-6) won 89-86 at Barcelona in Round 12, with Nadir Hifi scoring 25 points including the decisive three. Hapoel (7-5) won 85-82 at Baskonia. Paris reported a full squad; Hapoel are without Tyler Ennis (Achilles) and Bruno Caboclo has missed two games with a calf strain.",
       "odds": {
         "ml": [
-          2.03,
-          1.833
+          1.934,
+          1.917
         ],
         "total": {
           "line": 185,
-          "o": 1.925,
-          "u": 1.925
+          "o": 1.952,
+          "u": 1.9
         },
         "teamTotal": {
           "home": {
             "line": 92.5,
-            "o": 1.95,
-            "u": 1.83
+            "o": 1.94,
+            "u": 1.87
           },
           "away": {
             "line": 92.5,
-            "o": 1.89,
-            "u": 1.88
+            "o": 1.94,
+            "u": 1.87
           }
         },
         "spread": {
-          "line": 1.5,
-          "h": 1.943,
-          "a": 1.909
+          "line": 1,
+          "h": 1.877,
+          "a": 1.98
         },
         "h1": {
           "spread": {
-            "line": 1,
-            "h": 1.892,
-            "a": 1.961
+            "line": 0.5,
+            "h": 1.925,
+            "a": 1.925
           },
           "total": {
             "line": 92.5,
-            "o": 1.934,
-            "u": 1.917
+            "o": 1.98,
+            "u": 1.877
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 16:45 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.96,
-            1.86
+            1.9,
+            1.91
           ],
           "total": {
             "line": 184.5,
@@ -2091,25 +2091,25 @@
           "teamTotal": {
             "home": {
               "line": 92.5,
-              "o": 1.95,
-              "u": 1.83
+              "o": 1.94,
+              "u": 1.87
             },
             "away": {
               "line": 92.5,
-              "o": 1.89,
-              "u": 1.88
+              "o": 1.94,
+              "u": 1.87
             }
           },
           "spread": {
-            "line": 1.5,
-            "h": 1.85,
-            "a": 1.96
+            "line": -1.5,
+            "h": 1.98,
+            "a": 1.783
           },
           "h1": {
             "spread": {
-              "line": 0.5,
-              "h": 1.86,
-              "a": 1.95
+              "line": -0.5,
+              "h": 1.98,
+              "a": 1.83
             },
             "total": {
               "line": 92.5,
@@ -2117,7 +2117,7 @@
               "u": 1.91
             }
           },
-          "text": "win 1.96/1.86, +1.5 1.85/1.96, total 184.5 1.91/1.9"
+          "text": "win 1.9/1.91, -1.5 1.98/1.783, total 184.5 1.91/1.9"
         }
       },
       "players": {
@@ -2145,7 +2145,7 @@
             "pos": "F",
             "pts": 13.1,
             "reb": 3.3,
-            "ast": 1.0,
+            "ast": 1,
             "threes": 1.8,
             "min": 19.8
           },
@@ -2184,14 +2184,14 @@
             "pts": 14.5,
             "reb": 2.8,
             "ast": 4.6,
-            "threes": 2.0,
+            "threes": 2,
             "min": 26.8
           },
           {
             "name": "Antonio Blakeney",
             "pos": "G",
             "pts": 12.8,
-            "reb": 2.0,
+            "reb": 2,
             "ast": 0.8,
             "threes": 2.3,
             "min": 21.3
@@ -2202,7 +2202,7 @@
             "pts": 11.3,
             "reb": 5.8,
             "ast": 0.7,
-            "threes": 0.0,
+            "threes": 0,
             "min": 21.3
           },
           {
@@ -2211,7 +2211,7 @@
             "pts": 10.3,
             "reb": 4.4,
             "ast": 0.7,
-            "threes": 1.0,
+            "threes": 1,
             "min": 21.6
           },
           {
@@ -2223,11 +2223,11 @@
           {
             "name": "Bruno Caboclo",
             "pos": "F",
-            "pts": 5.0,
+            "pts": 5,
             "reb": 1.3,
             "ast": 0.3,
-            "threes": 1.0,
-            "min": 7.0,
+            "threes": 1,
+            "min": 7,
             "status": "Doubtful (minor calf tear)",
             "start": 0.25
           }
@@ -2328,85 +2328,85 @@
       "context": "Valencia (9-3) top the table with Olympiacos and won 76-64 at Partizan in Round 12, their sixth straight win in all competitions. Virtus (5-7) beat Panathinaikos 84-79 to end a five-game losing run but are 2-4 away from home. Valencia are without Nate Reuvers (foot), and Nikola Mirotic (adductor, out since Round 8) is a doubt; Virtus are missing only Davide Casarin.",
       "odds": {
         "ml": [
-          1.177,
-          5.29
+          1.201,
+          4.85
         ],
         "total": {
           "line": 186.5,
-          "o": 1.961,
-          "u": 1.892
+          "o": 1.99,
+          "u": 1.869
         },
         "teamTotal": {
           "home": {
             "line": 97.5,
-            "o": 1.82,
-            "u": 1.95
+            "o": 1.84,
+            "u": 1.98
           },
           "away": {
             "line": 87.5,
-            "o": 1.96,
-            "u": 1.82
+            "o": 1.89,
+            "u": 1.92
           }
         },
         "spread": {
           "line": -10.5,
-          "h": 1.892,
-          "a": 1.961
+          "h": 1.952,
+          "a": 1.9
         },
         "h1": {
           "spread": {
             "line": -5.5,
-            "h": 1.917,
-            "a": 1.934
+            "h": 1.952,
+            "a": 1.9
           },
           "total": {
-            "line": 94.5,
-            "o": 1.99,
-            "u": 1.862
+            "line": 93.5,
+            "o": 1.869,
+            "u": 1.98
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 16:45 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.18,
-            5
+            1.19,
+            4.8
           ],
           "total": {
-            "line": 184.5,
-            "o": 1.87,
-            "u": 1.95
+            "line": 185.5,
+            "o": 1.9,
+            "u": 1.91
           },
           "teamTotal": {
             "home": {
               "line": 97.5,
-              "o": 1.82,
-              "u": 1.95
+              "o": 1.84,
+              "u": 1.98
             },
             "away": {
               "line": 87.5,
-              "o": 1.96,
-              "u": 1.82
-            }
-          },
-          "spread": {
-            "line": -10.5,
-            "h": 1.9,
-            "a": 1.91
-          },
-          "h1": {
-            "spread": {
-              "line": -5.5,
-              "h": 1.85,
-              "a": 1.96
-            },
-            "total": {
-              "line": 93.5,
               "o": 1.89,
               "u": 1.92
             }
           },
-          "text": "win 1.18/5, -10.5 1.9/1.91, total 184.5 1.87/1.95"
+          "spread": {
+            "line": -10.5,
+            "h": 1.96,
+            "a": 1.85
+          },
+          "h1": {
+            "spread": {
+              "line": -5.5,
+              "h": 1.89,
+              "a": 1.92
+            },
+            "total": {
+              "line": 93.5,
+              "o": 1.88,
+              "u": 1.93
+            }
+          },
+          "text": "win 1.19/4.8, -10.5 1.96/1.85, total 185.5 1.9/1.91"
         }
       },
       "players": {
@@ -2426,7 +2426,7 @@
             "pts": 14.8,
             "reb": 3.4,
             "ast": 1.2,
-            "threes": 3.0,
+            "threes": 3,
             "min": 21.4
           },
           {
@@ -2441,7 +2441,7 @@
           {
             "name": "Nikola Mirotic",
             "pos": "F",
-            "pts": 13.0,
+            "pts": 13,
             "reb": 3.1,
             "ast": 0.9,
             "threes": 1.4,
@@ -2468,7 +2468,7 @@
             "pts": 12.3,
             "reb": 7.1,
             "ast": 0.6,
-            "threes": 0.0,
+            "threes": 0,
             "min": 19.5
           },
           {
@@ -2496,15 +2496,15 @@
             "reb": 4.3,
             "ast": 1.3,
             "threes": 1.3,
-            "min": 23.0
+            "min": 23
           },
           {
             "name": "Trent Frazier",
             "pos": "G",
             "pts": 9.2,
             "reb": 1.5,
-            "ast": 3.0,
-            "threes": 2.0,
+            "ast": 3,
+            "threes": 2,
             "min": 21.8
           },
           {

@@ -617,58 +617,58 @@
         "note": "AUF appointment reported by Montevideo Portal (18 Nov): Esteban Guerra, assistants Alberto Piriz and Federico Piccardo, fourth official Bruno Sacarelo. No per-game fouls/cards figures for him were found this run."
       },
       "odds": {
-        "h": 3.79,
-        "d": 3.6,
-        "a": 1.869,
+        "h": 3.59,
+        "d": 3.3,
+        "a": 2.05,
         "ou": {
           "1.5": [
-            1.249,
-            3.58
+            1.284,
+            3.37
           ],
           "2.5": [
-            1.833,
-            1.925
+            1.961,
+            1.813
           ],
           "3.5": [
-            3.02,
-            1.335
+            3.28,
+            1.298
           ],
           "4.5": [
-            5.51,
-            1.117
+            6.17,
+            1.1
           ]
         },
         "btts": [
-          1.704,
-          2.05
+          1.746,
+          2.01
         ],
         "ah": [
           {
-            "line": 0.5,
-            "home": 1.9,
-            "away": 1.869
+            "line": 0,
+            "home": 2.6,
+            "away": 1.467
           },
           {
-            "line": 1,
-            "home": 1.438,
-            "away": 2.67
+            "line": 0.5,
+            "home": 1.74,
+            "away": 2.04
           }
         ],
         "corners": {
           "7.5": [
-            1.452,
-            2.59
+            1.44,
+            2.63
           ],
           "8.5": [
-            1.813,
-            1.952
+            1.787,
+            1.98
           ],
           "9.5": [
-            2.28,
-            1.574
+            2.24,
+            1.591
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 16:45 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 3.88,
@@ -862,41 +862,41 @@
         "note": "AUF appointment reported by Montevideo Portal (18 Nov): Gustavo Tejera, assistants Horacio Ferreiro and Mauricio Hernández, fourth official Juan Cianni. No per-game fouls/cards figures for him were found this run, so the engine should use its prior."
       },
       "odds": {
-        "h": 1.423,
-        "d": 4.29,
-        "a": 6.97,
+        "h": 1.421,
+        "d": 4.22,
+        "a": 7.21,
         "ou": {
           "1.5": [
-            1.296,
-            3.29
+            1.347,
+            3.01
           ],
           "2.5": [
-            1.99,
-            1.793
+            2.11,
+            1.68
           ],
           "3.5": [
-            3.42,
-            1.277
+            3.75,
+            1.236
           ]
         },
         "btts": [
-          2.24,
-          1.602
+          2.38,
+          1.537
         ],
         "ah": [
           {
             "line": -1.5,
-            "home": 2.29,
-            "away": 1.588
+            "home": 2.36,
+            "away": 1.558
           },
           {
             "line": -1,
-            "home": 1.709,
-            "away": 2.08
+            "home": 1.724,
+            "away": 2.05
           },
           {
             "line": -0.5,
-            "home": 1.411,
+            "home": 1.409,
             "away": 2.77
           }
         ],
@@ -914,7 +914,7 @@
             1.574
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 16:45 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 1.43,
@@ -1190,63 +1190,63 @@
         "note": "AUF appointment reported by Montevideo Portal (18 Nov): Javier Feres, assistants Marcos Rosamen and Carlos Roca, fourth official Anahí Fernández. No per-game fouls/cards figures for him were found this run."
       },
       "odds": {
-        "h": 5.39,
-        "d": 4.24,
-        "a": 1.526,
+        "h": 5.24,
+        "d": 4.13,
+        "a": 1.552,
         "ou": {
           "1.5": [
-            1.184,
-            4.33
+            1.215,
+            3.97
           ],
           "2.5": [
-            1.602,
-            2.25
+            1.704,
+            2.07
           ],
           "3.5": [
-            2.5,
-            1.495
+            2.75,
+            1.408
           ],
           "4.5": [
-            4.37,
-            1.182
+            4.9,
+            1.149
           ]
         },
         "btts": [
-          1.729,
-          2.03
+          1.8,
+          1.943
         ],
         "ah": [
           {
             "line": 0.5,
-            "home": 2.46,
-            "away": 1.515
+            "home": 2.39,
+            "away": 1.543
           },
           {
             "line": 1,
-            "home": 1.925,
-            "away": 1.862
+            "home": 1.847,
+            "away": 1.943
           },
           {
             "line": 1.5,
-            "home": 1.546,
-            "away": 2.38
+            "home": 1.497,
+            "away": 2.51
           }
         ],
         "corners": {
           "8.5": [
-            1.543,
-            2.34
+            1.534,
+            2.37
           ],
           "9.5": [
-            1.909,
-            1.854
+            1.892,
+            1.877
           ],
           "10.5": [
-            2.4,
-            1.52
+            2.37,
+            1.531
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 16:45 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 5.35,
@@ -1448,73 +1448,73 @@
           "home": 1.53,
           "away": 2.63
         },
-        "h": 1.595,
-        "d": 4.36,
-        "a": 5.6,
+        "h": 1.546,
+        "d": 4.56,
+        "a": 6.14,
         "ou": {
           "1.5": [
-            1.227,
-            4.42
+            1.233,
+            4.43
           ],
           "2.5": [
-            1.719,
+            1.735,
             2.21
           ],
           "3.5": [
-            2.77,
+            2.81,
             1.469
           ],
           "4.5": [
-            5.17,
-            1.181
+            5.25,
+            1.183
           ]
         },
         "btts": [
-          1.775,
-          2.1
+          1.826,
+          2.06
         ],
         "ah": [
           {
             "line": -1.5,
-            "home": 2.65,
-            "away": 1.529
+            "home": 2.54,
+            "away": 1.578
           },
           {
             "line": -1,
-            "home": 2.02,
-            "away": 1.892
+            "home": 1.917,
+            "away": 2
           },
           {
             "line": -0.5,
-            "home": 1.588,
-            "away": 2.48
+            "home": 1.54,
+            "away": 2.65
           }
         ],
         "corners": {
           "9.5": [
-            1.74,
-            2.05
+            1.671,
+            2.14
           ],
           "10.5": [
-            2.14,
-            1.671
+            2.06,
+            1.729
           ]
         },
         "cards": {
           "3.5": [
-            1.35,
-            2.99
+            1.342,
+            3.03
           ],
           "4.5": [
-            1.909,
-            1.877
+            1.884,
+            1.9
           ],
           "5.5": [
-            2.74,
-            1.409
+            2.7,
+            1.42
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 16:45 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 1.6,
@@ -1959,56 +1959,60 @@
           "home": 1.95,
           "away": 1.91
         },
-        "h": 2.8,
+        "h": 2.69,
         "d": 3.5,
-        "a": 2.59,
+        "a": 2.72,
         "ou": {
           "1.5": [
-            1.25,
-            4.14
+            1.256,
+            4.16
           ],
           "2.5": [
-            1.819,
+            1.833,
             2.07
           ],
           "3.5": [
-            2.97,
-            1.418
+            3.01,
+            1.42
           ],
           "4.5": [
-            5.55,
-            1.163
+            5.68,
+            1.164
           ]
         },
         "btts": [
           1.636,
-          2.34
+          2.36
         ],
         "ah": [
           {
             "line": -0.5,
-            "home": 2.78,
-            "away": 1.487
+            "home": 2.67,
+            "away": 1.531
           },
           {
             "line": 0,
-            "home": 2.03,
-            "away": 1.877
+            "home": 1.952,
+            "away": 1.97
           },
           {
             "line": 0.5,
-            "home": 1.555,
-            "away": 2.57
+            "home": 1.52,
+            "away": 2.71
           }
         ],
         "corners": {
           "9.5": [
-            1.724,
-            2.06
+            1.588,
+            2.26
           ],
           "10.5": [
-            2.12,
-            1.684
+            1.952,
+            1.847
+          ],
+          "11.5": [
+            2.31,
+            1.564
           ]
         },
         "cards": {
@@ -2021,7 +2025,7 @@
             1.591
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-19 08:53 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-19 16:45 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 2.68,
