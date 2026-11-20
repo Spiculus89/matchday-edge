@@ -1,6 +1,11 @@
 {
   "days": [
     {
+      "date": "2026-11-20",
+      "file": "data/2026-11-20.json",
+      "title": "Bundesliga, LaLiga, Ligue 1, 2. Bundesliga, Ekstraklasa, Belgium, Uruguay, UAE"
+    },
+    {
       "date": "2026-11-19",
       "file": "data/2026-11-19.json",
       "title": "Brasileirão round 35, Uruguay's final Clausura round, UAE Pro League"
