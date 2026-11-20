@@ -259,10 +259,11 @@
 
     // ---- picks ----
     function best(list, key) { var b = null; list.forEach(function (x) { if (!b || key(x) > key(b)) b = x; }); return b; }
-    var top = best(c.filter(function (x) { return !x.assumed && x.odds >= 1.45 && x.odds <= 3.2 && x.p >= 0.5 && x.ev >= 0.01; }), function (x) { return x.ev + 0.1 * x.p; });
+    var info = !!(g.form && g.form.home && g.form.away) || CUR.k > ANCHOR.k;
+    var top = !info ? null : best(c.filter(function (x) { return !x.assumed && x.odds >= 1.45 && x.odds <= 3.2 && x.p >= 0.5 && x.ev >= 0.01; }), function (x) { return x.ev + 0.1 * x.p; });
     var likely = best(c.filter(function (x) { return x.group === "Moneyline" && !x.assumed && x.odds >= 1.1 && x.p >= 0.6; }), function (x) { return x.p; });
     var value = best(c.filter(function (x) { return !x.assumed && x.ev > 0 && x.odds <= 6; }), function (x) { return x.ev; });
-    var noBet = top ? null : (c.some(function (x) { return x.assumed; })
+    var noBet = top ? null : !info ? "No value bet: this game has no form data or team news, so the model knows nothing the price doesn't." : (c.some(function (x) { return x.assumed; })
       ? "No bet: the spread and total prices here were not published, so the 1.91 used is a guess. Check your bookmaker's line before backing anything."
       : "No bet: no price beats the fair odds by 1% once the model is anchored to the bookmaker.");
     var slip = [];

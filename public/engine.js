@@ -528,7 +528,7 @@
     var c = candidates(m, o, names, ctx);
     c.forEach(function (x) { x.edge = x.p - x.implied; x.confidence = confidence(x); });
     // best bet needs a real edge after anchoring (19 Nov: "fair price" best bets at -0.2% and -1.7% went into the Copa del Rey slip)
-    var top = best(c.filter(function (x) { return x.odds >= 1.35 && x.odds <= 3.5 && x.p >= 0.5 && x.ev >= 0.01 && x.group !== "Scorer"; }), function (x) { return 2 * x.ev + 0.25 * (x.p - 0.5); });
+    var top = !ctx.info ? null : best(c.filter(function (x) { return x.odds >= 1.35 && x.odds <= 3.5 && x.p >= 0.5 && x.ev >= 0.01 && x.group !== "Scorer"; }), function (x) { return 2 * x.ev + 0.25 * (x.p - 0.5); });
     var likely = best(c.filter(function (x) { return (x.group === "Result" || x.group === "Double chance") && x.odds >= 1.1 && x.p >= 0.6; }), function (x) { return x.p; });
     var safe = best(c.filter(function (x) { return x.odds >= 1.2 && x.ev >= -0.07 && x !== top; }), function (x) { return x.p + 0.5 * x.ev; });
     var value = best(c.filter(function (x) { return x.odds >= 2.4 && x.p >= 0.18 && x !== top && x !== safe; }), function (x) { return x.ev; });
@@ -566,7 +566,7 @@
     var s = slip(m, o, names, c, ctx);
     c.sort(function (a, b) { return b.ev - a.ev; });
     s.forEach(function (row) { row.grade = grade(row); });
-    var noBet = !top ? "No bet: no price beats the fair odds by 1% once the model is anchored to the bookmaker." : null;
+    var noBet = top ? null : !ctx.info ? "No value bet: this game has no form data or team news, so the model knows nothing the price doesn't." : "No bet: no price beats the fair odds by 1% once the model is anchored to the bookmaker.";
     s.forEach(function (r) { if (r.odds && r.p) r.takeAt = takeAt(r.p); });
     return { top: top, noBet: noBet, safe: safe, value: value, likely: likely, builder: builder, slip: s, props: props, all: c };
   }
@@ -591,6 +591,7 @@
     var m = markets(M, lh, la);
     var marketProbs = o.h ? devig([o.h, o.d, o.a]) : null;
     var ctx = {
+      info: !!st || CUR.k > ANCHOR.k, // form stats or fresh team news: something the price may not have
       corners: corners(match, lh, la),
       cards: cards(match, m.home, m.away),
       players: players(match, lh, la).sort(function (a, b) { return b.scorer - a.scorer; }),

@@ -613,7 +613,16 @@
           "title": "Scores24: Lietkabelis vs Bosna Royal, 30 Sep",
           "url": "https://scores24.live/en/basketball/m-30-09-2026-lietkabelis-panevezys-monaco-prediction"
         }
-      ]
+      ],
+      "result": {
+        "home": 91,
+        "away": 84,
+        "h1": [
+          48,
+          29
+        ],
+        "source": "final score by quarter from the user's bookmaker ticket"
+      }
     },
     {
       "id": "ven-sky",
@@ -721,7 +730,16 @@
           "title": "OA Sport: Venezia domina Francoforte all'esordio in EuroCup",
           "url": "https://www.oasport.it/2026/09/basket-venezia-domina-francoforte-allesordio-in-eurocup/"
         }
-      ]
+      ],
+      "result": {
+        "home": 97,
+        "away": 107,
+        "h1": [
+          47,
+          58
+        ],
+        "source": "final score by quarter from the user's bookmaker ticket"
+      }
     },
     {
       "id": "nap-bou",
@@ -823,7 +841,16 @@
           "title": "Napolike: Napoli Basket – Bourg-en-Bresse, debutto europeo",
           "url": "https://www.napolike.it/napoli-basket-bourg-en-bresse-debutto-europeo"
         }
-      ]
+      ],
+      "result": {
+        "home": 91,
+        "away": 79,
+        "h1": [
+          48,
+          42
+        ],
+        "source": "final score by quarter from the user's bookmaker ticket"
+      }
     },
     {
       "id": "nep-tre",
@@ -931,7 +958,16 @@
           "title": "Eurohoops: Trento grabs the win after drama",
           "url": "https://www.eurohoops.net/en/eurocup/2013794/eurocup-roundup-trento-grabs-the-win-after-drama/"
         }
-      ]
+      ],
+      "result": {
+        "home": 96,
+        "away": 83,
+        "h1": [
+          54,
+          41
+        ],
+        "source": "final score by quarter from the user's bookmaker ticket"
+      }
     },
     {
       "id": "str-cib",
@@ -1039,7 +1075,16 @@
           "title": "Eurohoops: BCL roundup, wins for Cibona and Cholet",
           "url": "https://www.eurohoops.net/en/fiba-champions-league/2017059/bcl-roundup-wins-for-cibona-and-cholet-tough-loss-for-galatasaray/"
         }
-      ]
+      ],
+      "result": {
+        "home": 101,
+        "away": 79,
+        "h1": [
+          46,
+          40
+        ],
+        "source": "final score by quarter from the user's bookmaker ticket"
+      }
     },
     {
       "id": "pao-man",
@@ -1147,10 +1192,16 @@
           "title": "SKAI: PAOK beat Manresa 93-78",
           "url": "https://www.skai.gr/news/sports/eurocup-o-paok-eykola-ti-manresa-93-78"
         }
-      ]
+      ],
+      "result": {
+        "home": 80,
+        "away": 88,
+        "h1": [
+          50,
+          43
+        ],
+        "source": "final score by quarter from the user's bookmaker ticket"
+      }
     }
-  ],
-  "gradingTodo": [
-    "lie-bos, ven-sky, nap-bou, nep-tre, str-cib, pao-man: results and picks (no final score could be opened on the 19 Nov morning run). Picks: builders Bosna Royal to win + Under 168.5 points (p 0.508), Reyer to win + Over 167.5 points (0.514), Napoli -1.5 + Over 167.5 points (0.356), Trento to win + Over 166 points (0.501), Strasbourg to win + Over 157 points (0.444), PAOK -1.5 + Under 182.5 points (0.336); 1st half 1H Neptunas +3 (Bet, p 0.49 @1.99)"
   ]
 }

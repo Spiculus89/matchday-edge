@@ -57,8 +57,8 @@ test("scorer odds attach by name despite accents", () => {
 test("a short-priced market is never the best bet", () => {
   const m = { ...base, odds: { h: 1.5, d: 4.2, a: 6.5, ou: { "2.5": [1.5, 2.5] }, btts: [1.6, 2.2] } };
   const r = E.analyse(m);
-  if (r.picks.top) assert.ok(r.picks.top.ev >= -0.02);
-  else assert.match(r.picks.noBet, /No bet/);
+  if (r.picks.top) assert.ok(r.picks.top.ev >= 0.01);
+  else assert.match(r.picks.noBet, /No (value )?bet/);
 });
 
 test("props the price can't justify are marked Skip", () => {
@@ -105,4 +105,14 @@ test("lessons.json entries have what the site needs", () => {
   const ls = JSON.parse(fs.readFileSync(new URL("../public/data/lessons.json", import.meta.url), "utf8")).lessons;
   assert.ok(ls.length > 0);
   ls.forEach((l) => { assert.match(l.date, /^\d{4}-\d{2}-\d{2}$/); assert.ok(l.area && l.saw && l.change); assert.ok(["model", "data"].includes(l.kind)); });
+});
+
+test("anchoring: probabilities stay close to the price, and a game with nothing but odds has no value bet", () => {
+  const m = { ...base, form20: undefined, season: undefined, odds: { h: 2.1, d: 3.4, a: 3.6, ou: { "2.5": [1.9, 1.95] } } };
+  delete m.form20; delete m.season;
+  const r = E.analyse(m);
+  const home = r.picks.all.find(x => x.group === "Result" && /to win/.test(x.label) && x.odds === 2.1);
+  assert.ok(Math.abs(home.p - home.implied) < 0.03, "home " + home.p + " vs " + home.implied);
+  assert.equal(r.picks.top, null);
+  assert.ok(home.takeAt > 1 / home.p);
 });

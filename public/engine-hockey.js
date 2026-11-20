@@ -121,6 +121,8 @@
       targets.push({ w: 2, p: pt, f: function (mk) { var ov = mk.G.P(function (h, a) { return h + a > L; }), pu = mk.G.P(function (h, a) { return h + a === L; }); return ov / Math.max(1 - pu, 1e-6); } }); }
     if (o.totalReg && o.totalReg.o && o.totalReg.u) { var LR = o.totalReg.line, pr = devig([o.totalReg.o, o.totalReg.u])[0];
       targets.push({ w: 2, p: pr, f: function (mk) { var ov = sumIf(mk.G.M, function (h, a) { return h + a > LR; }), pu = sumIf(mk.G.M, function (h, a) { return h + a === LR; }); return ov / Math.max(1 - pu, 1e-6); } }); }
+    if (o.hcpReg && o.hcpReg.h && o.hcpReg.a) { var ph = devig([o.hcpReg.h, o.hcpReg.a])[0], hl0 = o.hcpReg.line;
+      targets.push({ w: 1, p: ph, f: function (mk) { return sumIf(mk.G.M, function (h, a) { return h - a + hl0 > 0; }); } }); }
     if (o.puck && o.puck.h && o.puck.a) { var pp = devig([o.puck.h, o.puck.a])[0], ln = o.puck.line;
       targets.push({ w: 1, p: pp, f: function (mk) { return mk.G.P(function (h, a) { return h - a + ln > 0; }); } }); }
     var lh = formH, la = formA, mkt = null;
@@ -239,7 +241,9 @@
     var props = (g.props || []).map(function (pr) { return propModel(g, pr, lh, la); }).filter(Boolean);
 
     function best(list, key) { var b = null; list.forEach(function (x) { if (!b || key(x) > key(b)) b = x; }); return b; }
-    var top = best(c.filter(function (x) { return x.odds >= 1.45 && x.odds <= 3.2 && x.p >= 0.5 && x.ev >= 0.01; }), function (x) { return x.ev + 0.1 * x.p; });
+    // With no form and no news the model only re-expresses the price, so any "edge" is a fitting artefact (19 Nov: Sport +1.5 in Liiga).
+    var info = !!(g.form && g.form.home && g.form.away) || CUR.k > ANCHOR.k;
+    var top = info ? best(c.filter(function (x) { return x.odds >= 1.45 && x.odds <= 3.2 && x.p >= 0.5 && x.ev >= 0.01; }), function (x) { return x.ev + 0.1 * x.p; }) : null;
     var likely = best(c.filter(function (x) { return (x.group === "Moneyline" || x.group === "60-min result") && x.odds >= 1.1 && x.p >= 0.6; }), function (x) { return x.p; });
     var value = best(c.filter(function (x) { return x.ev > 0 && x.odds <= 6; }), function (x) { return x.ev; });
     var slip = [], fav = mk.home >= mk.away ? "home" : "away", favName = fav === "home" ? H : A;
@@ -265,7 +269,7 @@
     var builder = best(builds, function (x) { return x.p - Math.abs(1 / x.p - 2.2) * 0.05; });
     if (builder) { builder.p = calib("Bet builder", builder.p); builder.fair = 1 / builder.p; }
     return { sport: "hockey", xg: { home: lh, away: la }, market: F.market, form: F.form, markets: mk, props: props, players: players(g, lh, la),
-      picks: { top: top, noBet: top ? null : "No bet: no price beats the fair odds by 1% once the model is anchored to the bookmaker.", value: value, likely: likely, builder: builder, slip: slip, all: c } };
+      picks: { top: top, noBet: top ? null : info ? "No bet: no price beats the fair odds by 1% once the model is anchored to the bookmaker." : "No value bet: this game has no form data or team news, so the model knows nothing the price doesn't.", value: value, likely: likely, builder: builder, slip: slip, all: c } };
   }
 
   // ---------- live ----------
