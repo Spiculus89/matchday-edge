@@ -234,3 +234,25 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
 }
 
 .leaguefilter { margin: 4px 0 14px; }
+
+/* Tickets */
+.tk-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px 18px; align-items: end; padding: 16px 18px; margin: 4px 0 18px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
+.tk-field { display: flex; flex-direction: column; gap: 6px; min-width: 0; border: 0; padding: 0; margin: 0; }
+.tk-field > label, .tk-field legend { font: 600 12px var(--body); text-transform: uppercase; letter-spacing: .04em; color: var(--muted); padding: 0; }
+.tk-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.tk-field input[type=number], .tk-field select { font: 600 16px var(--body); color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; min-height: 44px; }
+.tk-field input[type=number] { width: 6.5em; }
+.tk-quick { margin: 0; }
+.tk-check { display: inline-flex; align-items: center; gap: 6px; font: 500 15px var(--body); min-height: 44px; padding-right: 8px; }
+.tk-check input { width: 20px; height: 20px; accent-color: var(--pitch); }
+.tk-build, .tk-clear, .tk-add, .tk-x { font: 700 15px var(--display); text-transform: uppercase; letter-spacing: .02em; border-radius: 8px; cursor: pointer; min-height: 44px; }
+.tk-build { background: var(--pitch); color: #fff; border: 0; padding: 0 18px; }
+.tk-clear { background: transparent; color: var(--muted); border: 1px solid var(--line); padding: 0 14px; margin-top: 6px; }
+.tk-add { background: var(--pitch-soft); color: var(--pitch); border: 0; padding: 0 12px; min-height: 36px; font-size: 13px; }
+.tk-x { background: transparent; border: 1px solid var(--line); color: var(--muted); width: 40px; min-height: 40px; font-size: 14px; }
+.tk-summary { margin: 10px 0 24px; max-width: 75ch; }
+.tk-summary p { margin: 6px 0; }
+.tk-summary .warn { color: var(--warn); font-weight: 600; }
+details.tk-game { border: 1px solid var(--line); border-radius: 10px; margin: 8px 0; background: var(--card); }
+details.tk-game summary { cursor: pointer; padding: 6px 0; min-height: 36px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+@media (max-width: 520px) { .tk-controls { grid-template-columns: 1fr; } .sports a { font-size: 13px; padding: 8px 4px; } }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matchday Edge · Tickets</title>
+<meta name="description" content="Build an accumulator from today’s football, basketball and ice hockey games at the total odds you want, with the real chance of it landing.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#app">Skip to the ticket</a>
+<div class="wrap">
+  <nav class="sports" aria-label="Sport">
+    <a href="./"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7l4 3-1.5 4.5h-5L8 10z" fill="currentColor"/></svg>Football</a>
+    <a href="basketball.html"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.6 5.6c3 3 3 9.8 0 12.8M18.4 5.6c-3 3-3 9.8 0 12.8"/></svg>Basketball</a>
+    <a href="hockey.html"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 3l6 13h6"/><path d="M20 3l-6 13"/><ellipse cx="12" cy="19.5" rx="4" ry="1.6" fill="currentColor"/></svg>Ice hockey</a>
+    <a aria-current="page" href="tickets.html"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7a2 2 0 0 0 2-2h12a2 2 0 0 0 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 0-2 2H6a2 2 0 0 0-2-2v-3a2 2 0 0 0 0-4z"/><path d="M9 9h6M9 12h6M9 15h4"/></svg>Tickets</a>
+  </nav>
+  <header class="top">
+    <div class="brand">
+      <h1 translate="no">Matchday <span>Edge</span></h1>
+      <p>Build a ticket from today’s football, basketball and ice hockey games. Choose the total odds; the builder finds the legs most likely to land together, and shows the real chance.</p>
+    </div>
+    <div>
+      <div class="meta" id="meta"></div>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <p class="meta" style="text-align:left;margin-top:20px">Loading today’s games…</p>
+  </main>
+
+  <footer>
+    <div>
+      <h3>How the builder works</h3>
+      <p>Every leg's chance comes from the same models as the sport pages, anchored to Pinnacle's price. A ticket's real chance is all its legs' chances multiplied together, one leg per game, because legs from the same game move together.</p>
+      <p>For the odds you choose, the builder picks the combination with the highest real chance. Usually that means fewer legs: each extra leg adds the bookmaker's margin again.</p>
+    </div>
+    <div>
+      <h3>Reading the ticket</h3>
+      <p><b>Fair</b> is each leg's break-even price. If your bookmaker pays less than fair on a leg, swap it for another or leave it out.</p>
+      <p><b>Real chance</b> is how often a ticket like this lands. A 5-leg ticket at 10.00 landing 9% of the time is about 1 in 11.</p>
+      <p><b>Legs you add</b> stay on the ticket when you build again, and the builder fills the rest around them.</p>
+    </div>
+    <div>
+      <h3>Before you bet</h3>
+      <p>Accumulators are the bookmaker's favourite bet: the margin compounds on every leg. Small stakes only, never more than you can afford to lose. 18+.</p>
+      <p>Odds are a snapshot and move quickly. Check every leg's live price before placing anything.</p>
+    </div>
+  </footer>
+</div>
+<script src="engine.js"></script>
+<script src="engine-basketball.js"></script>
+<script src="engine-hockey.js"></script>
+<script src="tickets-core.js"></script>
+<script src="tickets.js"></script>
+</body>
+</html>
