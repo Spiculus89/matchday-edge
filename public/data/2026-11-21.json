@@ -61,7 +61,7 @@
             "away": 2.48
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 2.24,
@@ -134,8 +134,8 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "h": 1.275,
-        "d": 7.05,
-        "a": 8.66,
+        "d": 7.04,
+        "a": 8.67,
         "ou": {
           "2.5": [
             1.333,
@@ -156,30 +156,30 @@
         ],
         "corners": {
           "9.5": [
-            1.598,
-            2.27
+            1.609,
+            2.24
           ],
           "10.5": [
-            2.01,
-            1.806
+            2.02,
+            1.793
           ],
           "11.5": [
-            2.55,
-            1.473
+            2.57,
+            1.467
           ]
         },
         "cards": {
           "2.5": [
-            1.367,
-            2.95
+            1.386,
+            2.87
           ],
           "3.5": [
-            1.9,
-            1.9
+            1.952,
+            1.847
           ],
           "4.5": [
-            2.9,
-            1.377
+            3.04,
+            1.347
           ]
         },
         "ah": [
@@ -190,7 +190,7 @@
           },
           {
             "line": -2,
-            "home": 2.21,
+            "home": 2.22,
             "away": 1.709
           },
           {
@@ -199,7 +199,7 @@
             "away": 2.17
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 1.28,
@@ -277,73 +277,73 @@
       },
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
-        "h": 2.42,
-        "d": 4.03,
-        "a": 2.71,
+        "h": 2.43,
+        "d": 4.06,
+        "a": 2.68,
         "ou": {
           "2.5": [
-            1.354,
-            3.23
+            1.35,
+            3.25
           ],
           "3.5": [
-            1.884,
-            2.01
+            1.877,
+            2.02
           ],
           "4.5": [
-            2.85,
-            1.434
+            2.83,
+            1.438
           ]
         },
         "btts": [
-          1.325,
-          3.52
+          1.324,
+          3.53
         ],
         "corners": {
           "9.5": [
-            1.578,
-            2.31
+            1.606,
+            2.26
           ],
           "10.5": [
-            1.943,
-            1.869
+            1.99,
+            1.819
           ],
           "11.5": [
-            2.43,
-            1.52
+            2.49,
+            1.497
           ]
         },
         "cards": {
           "2.5": [
-            1.331,
-            3.13
+            1.338,
+            3.09
           ],
           "3.5": [
-            1.854,
-            1.943
+            1.884,
+            1.917
           ],
           "4.5": [
-            2.7,
-            1.429
+            2.74,
+            1.418
           ]
         },
         "ah": [
           {
             "line": -0.5,
-            "home": 2.41,
-            "away": 1.621
+            "home": 2.42,
+            "away": 1.617
           },
           {
             "line": 0,
-            "home": 1.833,
+            "home": 1.854,
             "away": 2.06
           },
           {
             "line": 0.5,
-            "home": 1.507,
-            "away": 2.68
+            "home": 1.52,
+            "away": 2.67
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 2.37,
@@ -421,31 +421,31 @@
       },
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
-        "h": 6.22,
-        "d": 4.91,
-        "a": 1.492,
+        "h": 6.2,
+        "d": 4.85,
+        "a": 1.497,
         "ou": {
           "2.5": [
-            1.427,
-            2.88
+            1.448,
+            2.8
           ],
           "3.5": [
-            2.07,
-            1.8
+            2.12,
+            1.769
           ]
         },
         "btts": [
-          1.561,
-          2.51
+          1.578,
+          2.47
         ],
         "corners": {
           "9.5": [
-            1.746,
+            1.74,
             2.06
           ],
           "10.5": [
-            2.17,
-            1.666
+            2.16,
+            1.671
           ]
         },
         "cards": {
@@ -465,21 +465,21 @@
         "ah": [
           {
             "line": 0.5,
-            "home": 2.78,
-            "away": 1.478
+            "home": 2.75,
+            "away": 1.485
           },
           {
             "line": 1,
-            "home": 2.17,
-            "away": 1.751
+            "home": 2.15,
+            "away": 1.763
           },
           {
             "line": 1.5,
-            "home": 1.704,
-            "away": 2.25
+            "home": 1.689,
+            "away": 2.27
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 5.8,
@@ -557,7 +557,7 @@
       },
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
-        "h": 5.19,
+        "h": 5.2,
         "d": 4.56,
         "a": 1.606,
         "ou": {
@@ -589,17 +589,13 @@
           ]
         },
         "cards": {
-          "2.5": [
-            1.303,
-            3.3
-          ],
           "3.5": [
-            1.757,
-            2.07
+            1.694,
+            2.13
           ],
           "4.5": [
-            2.49,
-            1.495
+            2.39,
+            1.555
           ]
         },
         "ah": [
@@ -616,10 +612,10 @@
           {
             "line": 1.5,
             "home": 1.561,
-            "away": 2.56
+            "away": 2.55
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 4.75,
@@ -697,22 +693,22 @@
       },
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
-        "h": 3.78,
-        "d": 3.8,
-        "a": 1.98,
+        "h": 3.68,
+        "d": 3.77,
+        "a": 2.02,
         "ou": {
           "2.5": [
-            1.584,
-            2.47
+            1.578,
+            2.48
           ],
           "3.5": [
-            2.42,
-            1.606
+            2.41,
+            1.609
           ]
         },
         "btts": [
-          1.507,
-          2.66
+          1.497,
+          2.7
         ],
         "corners": {
           "8.5": [
@@ -731,31 +727,31 @@
         "cards": {
           "3.5": [
             1.5,
-            2.53
+            2.54
           ],
           "4.5": [
-            2.15,
-            1.68
+            2.14,
+            1.684
           ]
         },
         "ah": [
           {
             "line": 0,
-            "home": 2.82,
-            "away": 1.476
+            "home": 2.74,
+            "away": 1.5
           },
           {
             "line": 0.5,
-            "home": 1.917,
-            "away": 1.99
+            "home": 1.884,
+            "away": 2.03
           },
           {
             "line": 1,
-            "home": 1.492,
-            "away": 2.77
+            "home": 1.469,
+            "away": 2.85
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 3.5,
@@ -881,7 +877,7 @@
             "away": 3.07
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 1.95,
@@ -1019,7 +1015,7 @@
             "away": 2.22
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 5.75,
@@ -1145,7 +1141,7 @@
             "away": 2.42
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 2.99,
@@ -1221,22 +1217,22 @@
       },
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
-        "h": 4.08,
-        "d": 4.18,
+        "h": 4.1,
+        "d": 4.14,
         "a": 1.826,
         "ou": {
           "2.5": [
-            1.471,
-            2.71
+            1.49,
+            2.65
           ],
           "3.5": [
-            2.19,
-            1.719
+            2.23,
+            1.694
           ]
         },
         "btts": [
-          1.476,
-          2.77
+          1.49,
+          2.72
         ],
         "corners": {
           "8.5": [
@@ -1270,20 +1266,20 @@
           {
             "line": 0.5,
             "home": 2.08,
-            "away": 1.813
+            "away": 1.819
           },
           {
             "line": 1,
-            "home": 1.621,
-            "away": 2.41
+            "home": 1.617,
+            "away": 2.42
           },
           {
             "line": 1.5,
-            "home": 1.409,
-            "away": 3.06
+            "home": 1.406,
+            "away": 3.08
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 3.9,
@@ -1423,7 +1419,7 @@
             "away": 2.91
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 1.91,
@@ -1557,7 +1553,7 @@
             "away": 2.63
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 1.17,
