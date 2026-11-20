@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T08:50:32.533Z",
+ "updatedAt": "2026-11-20T08:51:55.055Z",
  "books": {
   "main": "pinnacle",
   "local": "admiralbet.ba"
@@ -805,39 +805,39 @@
    "odds": {
     "admiralbet.ba": {
      "ml": [
-      1.3,
-      3.55
+      1.28,
+      3.7
      ],
      "total": {
-      "line": 174.5,
-      "o": 1.89,
-      "u": 1.92
+      "line": 176.5,
+      "o": 1.88,
+      "u": 1.93
      },
      "teamTotal": {
       "home": {
-       "line": 91.5,
-       "o": 1.95,
-       "u": 1.811
+       "line": 92.5,
+       "o": 1.93,
+       "u": 1.88
       },
       "away": {
-       "line": 83.5,
-       "o": 1.86,
-       "u": 1.91
+       "line": 84.5,
+       "o": 1.91,
+       "u": 1.9
       }
      },
      "spread": {
       "line": -7.5,
-      "h": 1.9,
-      "a": 1.91
+      "h": 1.84,
+      "a": 1.98
      },
      "h1": {
       "spread": {
-       "line": -3.5,
-       "h": 1.85,
-       "a": 1.97
+       "line": -4.5,
+       "h": 1.96,
+       "a": 1.86
       },
       "total": {
-       "line": 87.5,
+       "line": 88.5,
        "o": 1.88,
        "u": 1.93
       }
@@ -845,36 +845,36 @@
     },
     "pinnacle": {
      "ml": [
-      1.287,
-      3.63
+      1.277,
+      3.9
      ],
      "total": {
-      "line": 176,
-      "o": 1.909,
-      "u": 1.892
+      "line": 177,
+      "o": 1.97,
+      "u": 1.884
      },
      "spread": {
-      "line": -7.5,
-      "h": 1.869,
-      "a": 1.934
+      "line": -8.5,
+      "h": 1.952,
+      "a": 1.9
      },
      "h1": {
       "spread": {
        "line": -4,
-       "h": 1.862,
-       "a": 1.943
+       "h": 1.99,
+       "a": 1.869
       },
       "total": {
        "line": 88.5,
-       "o": 1.943,
-       "u": 1.847
+       "o": 1.877,
+       "u": 1.97
       }
      }
     }
    },
    "fetched": {
-    "pinnacle": "2026-11-19T16:45:13.556Z",
-    "admiralbet.ba": "2026-11-19T16:45:13.556Z"
+    "pinnacle": "2026-11-20T08:51:55.055Z",
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
    }
   },
   {
@@ -1484,29 +1484,29 @@
    "odds": {
     "admiralbet.ba": {
      "ml": [
-      1.73,
+      1.74,
       2.11
      ],
      "total": {
       "line": 174.5,
-      "o": 1.94,
-      "u": 1.87
+      "o": 1.87,
+      "u": 1.94
      },
      "teamTotal": {
       "home": {
-       "line": 87.5,
-       "o": 1.85,
-       "u": 1.93
+       "line": 88.5,
+       "o": 1.95,
+       "u": 1.86
       },
       "away": {
        "line": 86.5,
-       "o": 1.9,
-       "u": 1.87
+       "o": 1.86,
+       "u": 1.95
       }
      },
      "spread": {
       "line": -2.5,
-      "h": 1.96,
+      "h": 1.97,
       "a": 1.85
      },
      "h1": {
@@ -1516,44 +1516,44 @@
        "a": 1.94
       },
       "total": {
-       "line": 86.5,
-       "o": 1.85,
-       "u": 1.96
+       "line": 87.5,
+       "o": 1.89,
+       "u": 1.92
       }
      }
     },
     "pinnacle": {
      "ml": [
-      1.657,
-      2.23
+      1.806,
+      2.06
      ],
      "total": {
       "line": 174.5,
-      "o": 1.854,
-      "u": 1.952
+      "o": 1.934,
+      "u": 1.917
      },
      "spread": {
       "line": -2,
-      "h": 1.806,
-      "a": 2
+      "h": 1.97,
+      "a": 1.884
      },
      "h1": {
       "spread": {
        "line": -0.5,
-       "h": 1.813,
-       "a": 2
+       "h": 1.9,
+       "a": 1.952
       },
       "total": {
        "line": 87.5,
-       "o": 1.877,
-       "u": 1.925
+       "o": 1.97,
+       "u": 1.884
       }
      }
     }
    },
    "fetched": {
-    "pinnacle": "2026-11-19T16:45:13.556Z",
-    "admiralbet.ba": "2026-11-19T16:45:13.556Z"
+    "pinnacle": "2026-11-20T08:51:55.055Z",
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
    }
   },
   {
@@ -1566,8 +1566,8 @@
    "odds": {
     "admiralbet.ba": {
      "ml": [
-      1.7,
-      2.17
+      1.66,
+      2.23
      ],
      "total": {
       "line": 172.5,
@@ -1577,25 +1577,25 @@
      "teamTotal": {
       "home": {
        "line": 87.5,
-       "o": 1.94,
-       "u": 1.84
+       "o": 1.93,
+       "u": 1.88
       },
       "away": {
        "line": 85.5,
-       "o": 1.9,
-       "u": 1.88
+       "o": 1.94,
+       "u": 1.87
       }
      },
      "spread": {
       "line": -2.5,
-      "h": 1.92,
-      "a": 1.89
+      "h": 1.87,
+      "a": 1.95
      },
      "h1": {
       "spread": {
-       "line": -0.5,
-       "h": 1.84,
-       "a": 1.97
+       "line": -1.5,
+       "h": 1.97,
+       "a": 1.84
       },
       "total": {
        "line": 86.5,
@@ -1606,36 +1606,36 @@
     },
     "pinnacle": {
      "ml": [
-      1.775,
-      2.05
+      1.662,
+      2.29
      ],
      "total": {
-      "line": 173,
-      "o": 1.869,
-      "u": 1.934
+      "line": 172,
+      "o": 1.934,
+      "u": 1.917
      },
      "spread": {
-      "line": -2,
-      "h": 1.909,
-      "a": 1.892
+      "line": -3,
+      "h": 1.934,
+      "a": 1.917
      },
      "h1": {
       "spread": {
-       "line": -0.5,
-       "h": 1.869,
-       "a": 1.934
+       "line": -1.5,
+       "h": 1.934,
+       "a": 1.917
       },
       "total": {
        "line": 86.5,
-       "o": 1.869,
-       "u": 1.925
+       "o": 2.03,
+       "u": 1.833
       }
      }
     }
    },
    "fetched": {
-    "pinnacle": "2026-11-19T16:45:13.556Z",
-    "admiralbet.ba": "2026-11-19T16:45:13.556Z"
+    "pinnacle": "2026-11-20T08:51:55.055Z",
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
    }
   },
   {
@@ -2112,76 +2112,76 @@
    "odds": {
     "admiralbet.ba": {
      "ml": [
-      1.43,
+      1.42,
       2.85
      ],
      "total": {
       "line": 166.5,
-      "o": 1.92,
-      "u": 1.89
+      "o": 1.94,
+      "u": 1.87
      },
      "teamTotal": {
       "home": {
        "line": 85.5,
-       "o": 1.88,
-       "u": 1.89
+       "o": 1.9,
+       "u": 1.91
       },
       "away": {
        "line": 80.5,
-       "o": 1.84,
+       "o": 1.87,
        "u": 1.94
       }
      },
      "spread": {
       "line": -5.5,
-      "h": 1.94,
-      "a": 1.87
+      "h": 1.93,
+      "a": 1.88
      },
      "h1": {
       "spread": {
        "line": -2.5,
-       "h": 1.91,
-       "a": 1.9
+       "h": 1.9,
+       "a": 1.91
       },
       "total": {
-       "line": 84.5,
-       "o": 1.93,
-       "u": 1.88
+       "line": 82.5,
+       "o": 1.88,
+       "u": 1.93
       }
      }
     },
     "pinnacle": {
      "ml": [
-      1.438,
-      2.8
+      1.45,
+      2.87
      ],
      "total": {
-      "line": 166.5,
-      "o": 1.9,
-      "u": 1.9
+      "line": 165,
+      "o": 1.943,
+      "u": 1.909
      },
      "spread": {
       "line": -5,
       "h": 1.9,
-      "a": 1.9
+      "a": 1.952
      },
      "h1": {
       "spread": {
        "line": -2.5,
-       "h": 1.884,
-       "a": 1.917
+       "h": 1.892,
+       "a": 1.961
       },
       "total": {
-       "line": 83.5,
-       "o": 1.943,
-       "u": 1.854
+       "line": 82.5,
+       "o": 1.97,
+       "u": 1.877
       }
      }
     }
    },
    "fetched": {
-    "pinnacle": "2026-11-19T16:45:13.556Z",
-    "admiralbet.ba": "2026-11-19T16:45:13.556Z"
+    "pinnacle": "2026-11-20T08:51:55.055Z",
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
    }
   },
   {
@@ -2422,13 +2422,622 @@
    }
   },
   {
+   "id": "id1100013273697002",
+   "sport": "basketball",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.469,
+      2.84
+     ],
+     "total": {
+      "line": 220,
+      "o": 1.925,
+      "u": 1.943
+     },
+     "teamTotal": {
+      "home": {
+       "line": 112.5,
+       "o": 1.847,
+       "u": 2.05
+      },
+      "away": {
+       "line": 106.5,
+       "o": 1.84,
+       "u": 2.06
+      }
+     },
+     "spread": {
+      "line": -5.5,
+      "h": 1.877,
+      "a": 2.01
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.42,
+      2.9
+     ],
+     "total": {
+      "line": 219.5,
+      "o": 1.92,
+      "u": 1.89
+     },
+     "teamTotal": {
+      "home": {
+       "line": 112.5,
+       "o": 1.87,
+       "u": 1.91
+      },
+      "away": {
+       "line": 106.5,
+       "o": 1.86,
+       "u": 1.92
+      }
+     },
+     "spread": {
+      "line": -6.5,
+      "h": 1.94,
+      "a": 1.87
+     }
+    }
+   },
+   "tournamentId": 132,
+   "start": "2026-11-21T00:00:00.000Z",
+   "home": "Atlanta Hawks",
+   "away": "Charlotte Hornets",
+   "fetched": {
+    "pinnacle": "2026-11-20T08:51:55.055Z",
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
+  },
+  {
+   "id": "id1100013273697020",
+   "sport": "basketball",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      2.92,
+      1.448
+     ],
+     "total": {
+      "line": 224,
+      "o": 1.98,
+      "u": 1.884
+     },
+     "teamTotal": {
+      "home": {
+       "line": 108.5,
+       "o": 1.917,
+       "u": 1.97
+      },
+      "away": {
+       "line": 113.5,
+       "o": 1.847,
+       "u": 2.05
+      }
+     },
+     "spread": {
+      "line": 5.5,
+      "h": 1.97,
+      "a": 1.909
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      2.8,
+      1.45
+     ],
+     "total": {
+      "line": 222.5,
+      "o": 1.89,
+      "u": 1.92
+     },
+     "teamTotal": {
+      "home": {
+       "line": 108.5,
+       "o": 1.86,
+       "u": 1.92
+      },
+      "away": {
+       "line": 114.5,
+       "o": 1.95,
+       "u": 1.83
+      }
+     },
+     "spread": {
+      "line": 5.5,
+      "h": 1.93,
+      "a": 1.88
+     }
+    }
+   },
+   "tournamentId": 132,
+   "start": "2026-11-21T00:30:00.000Z",
+   "home": "Brooklyn Nets",
+   "away": "Orlando Magic",
+   "fetched": {
+    "pinnacle": "2026-11-20T08:51:55.055Z",
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
+  },
+  {
+   "id": "id1100013273697022",
+   "sport": "basketball",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.354,
+      3.37
+     ],
+     "total": {
+      "line": 234.5,
+      "o": 1.943,
+      "u": 1.925
+     },
+     "teamTotal": {
+      "home": {
+       "line": 120.5,
+       "o": 1.9,
+       "u": 1.99
+      },
+      "away": {
+       "line": 113.5,
+       "o": 1.917,
+       "u": 1.97
+      }
+     },
+     "spread": {
+      "line": -7.5,
+      "h": 2,
+      "a": 1.892
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.35,
+      3.2
+     ],
+     "total": {
+      "line": 234.5,
+      "o": 1.91,
+      "u": 1.9
+     },
+     "teamTotal": {
+      "home": {
+       "line": 120.5,
+       "o": 1.84,
+       "u": 1.93
+      },
+      "away": {
+       "line": 113.5,
+       "o": 1.87,
+       "u": 1.91
+      }
+     },
+     "spread": {
+      "line": -7.5,
+      "h": 1.91,
+      "a": 1.9
+     }
+    }
+   },
+   "tournamentId": 132,
+   "start": "2026-11-21T00:30:00.000Z",
+   "home": "Cleveland Cavaliers",
+   "away": "Indiana Pacers",
+   "fetched": {
+    "pinnacle": "2026-11-20T08:51:55.055Z",
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
+  },
+  {
+   "id": "id1100013273697024",
+   "sport": "basketball",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.352,
+      3.39
+     ],
+     "total": {
+      "line": 216.5,
+      "o": 1.925,
+      "u": 1.943
+     },
+     "teamTotal": {
+      "home": {
+       "line": 112.5,
+       "o": 2.02,
+       "u": 1.877
+      },
+      "away": {
+       "line": 104.5,
+       "o": 1.917,
+       "u": 1.97
+      }
+     },
+     "spread": {
+      "line": -7.5,
+      "h": 1.97,
+      "a": 1.909
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.35,
+      3.25
+     ],
+     "total": {
+      "line": 217.5,
+      "o": 1.9,
+      "u": 1.91
+     },
+     "spread": {
+      "line": -7.5,
+      "h": 1.91,
+      "a": 1.9
+     }
+    }
+   },
+   "tournamentId": 132,
+   "start": "2026-11-21T00:30:00.000Z",
+   "home": "Detroit Pistons",
+   "away": "Toronto Raptors",
+   "fetched": {
+    "pinnacle": "2026-11-20T08:51:55.055Z",
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
+  },
+  {
+   "id": "id1100013273697004",
+   "sport": "basketball",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.735,
+      2.2
+     ],
+     "total": {
+      "line": 241,
+      "o": 1.98,
+      "u": 1.892
+     },
+     "teamTotal": {
+      "home": {
+       "line": 121.5,
+       "o": 1.952,
+       "u": 1.934
+      },
+      "away": {
+       "line": 119.5,
+       "o": 1.98,
+       "u": 1.9
+      }
+     },
+     "spread": {
+      "line": -3,
+      "h": 1.97,
+      "a": 1.917
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.67,
+      2.21
+     ],
+     "total": {
+      "line": 240.5,
+      "o": 1.94,
+      "u": 1.87
+     },
+     "teamTotal": {
+      "home": {
+       "line": 121.5,
+       "o": 1.9,
+       "u": 1.87
+      },
+      "away": {
+       "line": 118.5,
+       "o": 1.86,
+       "u": 1.92
+      }
+     },
+     "spread": {
+      "line": -2.5,
+      "h": 1.841,
+      "a": 1.95
+     }
+    }
+   },
+   "tournamentId": 132,
+   "start": "2026-11-21T01:00:00.000Z",
+   "home": "Chicago Bulls",
+   "away": "Washington Wizards",
+   "fetched": {
+    "pinnacle": "2026-11-20T08:51:55.055Z",
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
+  },
+  {
+   "id": "id1100013273697006",
+   "sport": "basketball",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.169,
+      5.45
+     ],
+     "total": {
+      "line": 228.5,
+      "o": 1.909,
+      "u": 1.961
+     },
+     "teamTotal": {
+      "home": {
+       "line": 120.5,
+       "o": 1.98,
+       "u": 1.909
+      },
+      "away": {
+       "line": 108.5,
+       "o": 1.925,
+       "u": 1.961
+      }
+     },
+     "spread": {
+      "line": -11,
+      "h": 1.884,
+      "a": 2
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.18,
+      5
+     ],
+     "total": {
+      "line": 229.5,
+      "o": 1.94,
+      "u": 1.87
+     },
+     "teamTotal": {
+      "home": {
+       "line": 120.5,
+       "o": 1.93,
+       "u": 1.85
+      },
+      "away": {
+       "line": 108.5,
+       "o": 1.83,
+       "u": 1.95
+      }
+     },
+     "spread": {
+      "line": -11.5,
+      "h": 1.96,
+      "a": 1.86
+     }
+    }
+   },
+   "tournamentId": 132,
+   "start": "2026-11-21T01:00:00.000Z",
+   "home": "Oklahoma City Thunder",
+   "away": "New Orleans Pelicans",
+   "fetched": {
+    "pinnacle": "2026-11-20T08:51:55.055Z",
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
+  },
+  {
+   "id": "id1100013273697008",
+   "sport": "basketball",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      2.57,
+      1.555
+     ],
+     "total": {
+      "line": 228,
+      "o": 1.9,
+      "u": 1.97
+     },
+     "teamTotal": {
+      "home": {
+       "line": 112.5,
+       "o": 1.98,
+       "u": 1.909
+      },
+      "away": {
+       "line": 115.5,
+       "o": 1.84,
+       "u": 2.05
+      }
+     },
+     "spread": {
+      "line": 4,
+      "h": 2.01,
+      "a": 1.884
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      2.55,
+      1.53
+     ],
+     "total": {
+      "line": 227.5,
+      "o": 1.89,
+      "u": 1.92
+     },
+     "teamTotal": {
+      "home": {
+       "line": 111.5,
+       "o": 1.86,
+       "u": 1.91
+      },
+      "away": {
+       "line": 116.5,
+       "o": 1.95,
+       "u": 1.83
+      }
+     },
+     "spread": {
+      "line": 4.5,
+      "h": 1.94,
+      "a": 1.87
+     }
+    }
+   },
+   "tournamentId": 132,
+   "start": "2026-11-21T02:30:00.000Z",
+   "home": "Utah Jazz",
+   "away": "Phoenix Suns",
+   "fetched": {
+    "pinnacle": "2026-11-20T08:51:55.055Z",
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
+  },
+  {
    "id": "id1100013273697012",
    "sport": "basketball",
-   "odds": {},
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.854,
+      2.04
+     ],
+     "total": {
+      "line": 225,
+      "o": 1.877,
+      "u": 1.99
+     },
+     "teamTotal": {
+      "home": {
+       "line": 112.5,
+       "o": 1.826,
+       "u": 2.02
+      },
+      "away": {
+       "line": 112.5,
+       "o": 1.917,
+       "u": 1.917
+      }
+     },
+     "spread": {
+      "line": -1.5,
+      "h": 1.925,
+      "a": 1.961
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.8,
+      2.02
+     ],
+     "total": {
+      "line": 225.5,
+      "o": 1.92,
+      "u": 1.89
+     },
+     "teamTotal": {
+      "home": {
+       "line": 113.5,
+       "o": 1.92,
+       "u": 1.85
+      },
+      "away": {
+       "line": 112.5,
+       "o": 1.93,
+       "u": 1.84
+      }
+     },
+     "spread": {
+      "line": -1.5,
+      "h": 1.89,
+      "a": 1.92
+     }
+    }
+   },
    "tournamentId": 132,
    "start": "2026-11-21T03:00:00.000Z",
    "home": "Denver Nuggets",
-   "away": "Houston Rockets"
+   "away": "Houston Rockets",
+   "fetched": {
+    "pinnacle": "2026-11-20T08:51:55.055Z",
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
+  },
+  {
+   "id": "id1100013273697010",
+   "sport": "basketball",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.116,
+      7.02
+     ],
+     "total": {
+      "line": 231,
+      "o": 1.917,
+      "u": 1.952
+     },
+     "teamTotal": {
+      "home": {
+       "line": 122.5,
+       "o": 1.877,
+       "u": 2.01
+      },
+      "away": {
+       "line": 108.5,
+       "o": 1.98,
+       "u": 1.909
+      }
+     },
+     "spread": {
+      "line": -14.5,
+      "h": 1.952,
+      "a": 1.934
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.11,
+      6.8
+     ],
+     "total": {
+      "line": 231.5,
+      "o": 1.94,
+      "u": 1.851
+     },
+     "teamTotal": {
+      "home": {
+       "line": 122.5,
+       "o": 1.83,
+       "u": 1.94
+      },
+      "away": {
+       "line": 108.5,
+       "o": 1.95,
+       "u": 1.83
+      }
+     },
+     "spread": {
+      "line": -14.5,
+      "h": 1.91,
+      "a": 1.9
+     }
+    }
+   },
+   "tournamentId": 132,
+   "start": "2026-11-21T03:00:00.000Z",
+   "home": "Los Angeles Lakers",
+   "away": "Sacramento Kings",
+   "fetched": {
+    "pinnacle": "2026-11-20T08:51:55.055Z",
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
   },
   {
    "id": "id1500013472116548",
@@ -4413,6 +5022,35 @@
    "fetched": {
     "pinnacle": "2026-11-20T08:50:32.533Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
+   }
+  },
+  {
+   "id": "id1500023472909580",
+   "sport": "hockey",
+   "odds": {
+    "admiralbet.ba": {
+     "ml": [
+      1.66,
+      2.19
+     ],
+     "reg": [
+      2.05,
+      4.1,
+      2.85
+     ],
+     "totalReg": {
+      "line": 6.5,
+      "o": 2.2,
+      "u": 1.6
+     }
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-21T18:00:00.000Z",
+   "home": "Carolina Hurricanes",
+   "away": "Edmonton Oilers",
+   "fetched": {
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
    }
   },
   {
@@ -7764,6 +8402,150 @@
    "away": "Gremio FB Porto Alegrense RS",
    "fetched": {
     "pinnacle": "2026-11-19T16:45:13.556Z"
+   }
+  },
+  {
+   "id": "id1100013873263198",
+   "sport": "basketball",
+   "odds": {
+    "admiralbet.ba": {
+     "ml": [
+      1.44,
+      2.6
+     ],
+     "spread": {
+      "line": -5.5,
+      "h": 1.91,
+      "a": 1.8
+     }
+    }
+   },
+   "tournamentId": 138,
+   "start": "2026-11-24T17:00:00.000Z",
+   "home": "Besiktas JK",
+   "away": "Paris Basketball",
+   "fetched": {
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
+  },
+  {
+   "id": "id1100013873263200",
+   "sport": "basketball",
+   "odds": {
+    "admiralbet.ba": {
+     "ml": [
+      1.29,
+      3.3
+     ],
+     "spread": {
+      "line": -7.5,
+      "h": 1.84,
+      "a": 1.87
+     }
+    }
+   },
+   "tournamentId": 138,
+   "start": "2026-11-24T18:00:00.000Z",
+   "home": "KK Crvena zvezda Belgrade",
+   "away": "Virtus Bologna",
+   "fetched": {
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
+  },
+  {
+   "id": "id1100013873263202",
+   "sport": "basketball",
+   "odds": {
+    "admiralbet.ba": {
+     "ml": [
+      1.72,
+      2.01
+     ],
+     "spread": {
+      "line": -1.5,
+      "h": 1.81,
+      "a": 1.9
+     }
+    }
+   },
+   "tournamentId": 138,
+   "start": "2026-11-24T19:00:00.000Z",
+   "home": "Bayern Munich",
+   "away": "Maccabi Tel-Aviv",
+   "fetched": {
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
+  },
+  {
+   "id": "id1100013873263204",
+   "sport": "basketball",
+   "odds": {
+    "admiralbet.ba": {
+     "ml": [
+      1.91,
+      1.79
+     ],
+     "spread": {
+      "line": 1.5,
+      "h": 1.81,
+      "a": 1.89
+     }
+    }
+   },
+   "tournamentId": 138,
+   "start": "2026-11-24T19:30:00.000Z",
+   "home": "Valencia Basket",
+   "away": "Panathinaikos BC",
+   "fetched": {
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
+  },
+  {
+   "id": "id1100013873263206",
+   "sport": "basketball",
+   "odds": {
+    "admiralbet.ba": {
+     "ml": [
+      1.88,
+      1.82
+     ],
+     "spread": {
+      "line": 1.5,
+      "h": 1.79,
+      "a": 1.92
+     }
+    }
+   },
+   "tournamentId": 138,
+   "start": "2026-11-24T19:45:00.000Z",
+   "home": "ASVEL Lyon-Villeurbanne",
+   "away": "Olimpia Milano",
+   "fetched": {
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+   }
+  },
+  {
+   "id": "id1100013873263208",
+   "sport": "basketball",
+   "odds": {
+    "admiralbet.ba": {
+     "ml": [
+      1.99,
+      1.73
+     ],
+     "spread": {
+      "line": 1.5,
+      "h": 1.88,
+      "a": 1.82
+     }
+    }
+   },
+   "tournamentId": 138,
+   "start": "2026-11-24T20:00:00.000Z",
+   "home": "FC Barcelona",
+   "away": "Fenerbahce Istanbul",
+   "fetched": {
+    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
    }
   },
   {
