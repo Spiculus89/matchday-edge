@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "used": 40,
+ "used": 42,
  "log": [
   {
    "t": "2026-11-18T10:28:33.159Z",
@@ -241,18 +241,30 @@
    "path": "/odds-by-tournaments",
    "status": 200,
    "hdr": {}
+  },
+  {
+   "t": "2026-11-20T08:52:31.588Z",
+   "path": "/odds-by-tournaments",
+   "status": 200,
+   "hdr": {}
+  },
+  {
+   "t": "2026-11-20T08:52:33.251Z",
+   "path": "/odds-by-tournaments",
+   "status": 200,
+   "hdr": {}
   }
  ],
  "lastFetch": {
-  "at": "2026-11-20T08:51:55.055Z",
+  "at": "2026-11-20T08:52:29.797Z",
   "kind": "manual",
-  "fixtures": 140,
+  "fixtures": 150,
   "updated": 0,
   "unmatched": [],
   "noTournament": []
  },
  "daily": {
   "2026-11-19": 9,
-  "2026-11-20": 4
+  "2026-11-20": 6
  }
 }
