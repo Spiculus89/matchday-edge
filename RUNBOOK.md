@@ -40,6 +40,11 @@ This is what each scheduled run does. Each match follows the schema of the exist
 - The best bet is now a **Value bet** and needs +1% after anchoring, so most days have few or none. Each game also shows its **most likely** outcome with fair odds (for accumulators), and every pick has **min odds** (skip below it; Meridian often pays 5–10% less than Pinnacle).
 - Odds refreshes retire an `adjust` (moved to `adjustPriced`), because the new price contains the news. Set a new `adjust` only for news after the latest refresh in `public/data/odds/latest.json` (`fetched` times per bookmaker).
 
+## Fallback day files
+
+- After every odds fetch, `scripts/build-skeleton.mjs` writes a day file for any sport and Warsaw date that has upcoming fixtures in `latest.json` but no file yet (Pinnacle prices only, `"skeleton": true`). It never touches an existing file.
+- **Morning run:** if today's file is a skeleton, enrich it in place (form, news, lineups, players, props, more games per the selection rules) and delete `"skeleton"`. Don't skip it because it exists.
+
 ## Odds feed (OddsPapi)
 
 - A GitHub Action (`.github/workflows/odds.yml`, key in the `ODDSPAPI_KEY` repository secret) fetches odds at about 08:40, 18:15 and 00:10 Warsaw. It writes `public/data/odds/latest.json` and merges prices into upcoming games on the site; games that have started are never touched.

@@ -1,0 +1,1619 @@
+{
+  "date": "2026-11-21",
+  "updated": "2026-11-20T08:52:59.126Z",
+  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, news and lineups.",
+  "skeleton": true,
+  "matches": [
+    {
+      "id": "dep-dep",
+      "competition": "LaLiga (Spain)",
+      "kickoff": "2026-11-21T13:00:00.000Z",
+      "home": {
+        "name": "Deportivo Alaves",
+        "short": "Deportivo Alaves"
+      },
+      "away": {
+        "name": "RC Deportivo de A Coruna",
+        "short": "Deportivo de"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 2.24,
+        "d": 3.39,
+        "a": 3.46,
+        "ou": {
+          "1.5": [
+            1.383,
+            3.15
+          ],
+          "2.5": [
+            2.22,
+            1.719
+          ]
+        },
+        "btts": [
+          1.909,
+          1.943
+        ],
+        "corners": {
+          "8.5": [
+            1.497,
+            2.52
+          ],
+          "9.5": [
+            1.854,
+            1.97
+          ],
+          "10.5": [
+            2.32,
+            1.584
+          ]
+        },
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.23,
+            "away": 1.719
+          },
+          {
+            "line": 0,
+            "home": 1.595,
+            "away": 2.48
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.24,
+          "d": 3.19,
+          "a": 3.46,
+          "ou": {
+            "0.5": [
+              1.06,
+              9.55
+            ],
+            "1.5": [
+              1.37,
+              3.13
+            ],
+            "2.5": [
+              2.14,
+              1.71
+            ],
+            "3.5": [
+              4,
+              1.25
+            ],
+            "4.5": [
+              8.65,
+              1.07
+            ]
+          },
+          "btts": [
+            1.94,
+            1.85
+          ],
+          "corners": {
+            "9.5": [
+              1.79,
+              1.85
+            ]
+          },
+          "text": "1X2 2.24/3.19/3.46, O/U 2.5 2.14/1.71"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "bay-pad",
+      "competition": "Bundesliga (Germany)",
+      "kickoff": "2026-11-21T14:30:00.000Z",
+      "home": {
+        "name": "Bayer Leverkusen",
+        "short": "Bayer Leverkusen"
+      },
+      "away": {
+        "name": "SC Paderborn 07",
+        "short": "Paderborn 07"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 1.275,
+        "d": 7.05,
+        "a": 8.66,
+        "ou": {
+          "2.5": [
+            1.333,
+            3.3
+          ],
+          "3.5": [
+            1.917,
+            1.952
+          ],
+          "4.5": [
+            3.03,
+            1.384
+          ]
+        },
+        "btts": [
+          1.714,
+          2.17
+        ],
+        "corners": {
+          "9.5": [
+            1.598,
+            2.27
+          ],
+          "10.5": [
+            2.01,
+            1.806
+          ],
+          "11.5": [
+            2.55,
+            1.473
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.367,
+            2.95
+          ],
+          "3.5": [
+            1.9,
+            1.9
+          ],
+          "4.5": [
+            2.9,
+            1.377
+          ]
+        },
+        "ah": [
+          {
+            "line": -2.5,
+            "home": 2.79,
+            "away": 1.465
+          },
+          {
+            "line": -2,
+            "home": 2.21,
+            "away": 1.709
+          },
+          {
+            "line": -1.5,
+            "home": 1.74,
+            "away": 2.17
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.28,
+          "d": 6.35,
+          "a": 8.85,
+          "ou": {
+            "1.5": [
+              1.09,
+              7.55
+            ],
+            "2.5": [
+              1.34,
+              3.32
+            ],
+            "3.5": [
+              1.86,
+              1.94
+            ],
+            "4.5": [
+              2.95,
+              1.4
+            ],
+            "5.5": [
+              5.25,
+              1.16
+            ]
+          },
+          "btts": [
+            1.64,
+            2.26
+          ],
+          "corners": {
+            "10.5": [
+              1.97,
+              1.69
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.76,
+              1.89
+            ]
+          },
+          "text": "1X2 1.28/6.35/8.85, O/U 2.5 1.34/3.32"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "ein-tsg",
+      "competition": "Bundesliga (Germany)",
+      "kickoff": "2026-11-21T14:30:00.000Z",
+      "home": {
+        "name": "Eintracht Frankfurt",
+        "short": "Eintracht Frankfurt"
+      },
+      "away": {
+        "name": "TSG Hoffenheim",
+        "short": "TSG Hoffenheim"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 2.42,
+        "d": 4.03,
+        "a": 2.71,
+        "ou": {
+          "2.5": [
+            1.354,
+            3.23
+          ],
+          "3.5": [
+            1.884,
+            2.01
+          ],
+          "4.5": [
+            2.85,
+            1.434
+          ]
+        },
+        "btts": [
+          1.325,
+          3.52
+        ],
+        "corners": {
+          "9.5": [
+            1.578,
+            2.31
+          ],
+          "10.5": [
+            1.943,
+            1.869
+          ],
+          "11.5": [
+            2.43,
+            1.52
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.331,
+            3.13
+          ],
+          "3.5": [
+            1.854,
+            1.943
+          ],
+          "4.5": [
+            2.7,
+            1.429
+          ]
+        },
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.41,
+            "away": 1.621
+          },
+          {
+            "line": 0,
+            "home": 1.833,
+            "away": 2.06
+          },
+          {
+            "line": 0.5,
+            "home": 1.507,
+            "away": 2.68
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.37,
+          "d": 4.2,
+          "a": 2.56,
+          "ou": {
+            "1.5": [
+              1.08,
+              7.95
+            ],
+            "2.5": [
+              1.31,
+              3.45
+            ],
+            "3.5": [
+              1.81,
+              2
+            ],
+            "4.5": [
+              2.84,
+              1.43
+            ],
+            "5.5": [
+              5,
+              1.18
+            ]
+          },
+          "btts": [
+            1.33,
+            3.41
+          ],
+          "corners": {
+            "10.5": [
+              1.98,
+              1.68
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.58,
+              2.15
+            ]
+          },
+          "text": "1X2 2.37/4.2/2.56, O/U 2.5 1.31/3.45"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "uni-rbl",
+      "competition": "Bundesliga (Germany)",
+      "kickoff": "2026-11-21T14:30:00.000Z",
+      "home": {
+        "name": "Union Berlin",
+        "short": "Union Berlin"
+      },
+      "away": {
+        "name": "RB Leipzig",
+        "short": "RB Leipzig"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 6.22,
+        "d": 4.91,
+        "a": 1.492,
+        "ou": {
+          "2.5": [
+            1.427,
+            2.88
+          ],
+          "3.5": [
+            2.07,
+            1.8
+          ]
+        },
+        "btts": [
+          1.561,
+          2.51
+        ],
+        "corners": {
+          "9.5": [
+            1.746,
+            2.06
+          ],
+          "10.5": [
+            2.17,
+            1.666
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.386,
+            2.87
+          ],
+          "3.5": [
+            1.97,
+            1.833
+          ],
+          "4.5": [
+            2.99,
+            1.358
+          ]
+        },
+        "ah": [
+          {
+            "line": 0.5,
+            "home": 2.78,
+            "away": 1.478
+          },
+          {
+            "line": 1,
+            "home": 2.17,
+            "away": 1.751
+          },
+          {
+            "line": 1.5,
+            "home": 1.704,
+            "away": 2.25
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 5.8,
+          "d": 4.85,
+          "a": 1.49,
+          "ou": {
+            "1.5": [
+              1.11,
+              6.7
+            ],
+            "2.5": [
+              1.39,
+              3
+            ],
+            "3.5": [
+              2.01,
+              1.81
+            ],
+            "4.5": [
+              3.3,
+              1.33
+            ],
+            "5.5": [
+              6.05,
+              1.13
+            ]
+          },
+          "btts": [
+            1.53,
+            2.51
+          ],
+          "corners": {
+            "10.5": [
+              1.94,
+              1.71
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.75,
+              1.89
+            ]
+          },
+          "text": "1X2 5.8/4.85/1.49, O/U 2.5 1.39/3"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "bor-bor",
+      "competition": "Bundesliga (Germany)",
+      "kickoff": "2026-11-21T14:30:00.000Z",
+      "home": {
+        "name": "Borussia Monchengladbach",
+        "short": "Borussia Monchengladbach"
+      },
+      "away": {
+        "name": "Borussia Dortmund",
+        "short": "Borussia Dortmund"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 5.19,
+        "d": 4.56,
+        "a": 1.606,
+        "ou": {
+          "2.5": [
+            1.49,
+            2.66
+          ],
+          "3.5": [
+            2.22,
+            1.699
+          ]
+        },
+        "btts": [
+          1.558,
+          2.52
+        ],
+        "corners": {
+          "8.5": [
+            1.543,
+            2.38
+          ],
+          "9.5": [
+            1.952,
+            1.854
+          ],
+          "10.5": [
+            2.38,
+            1.543
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.303,
+            3.3
+          ],
+          "3.5": [
+            1.757,
+            2.07
+          ],
+          "4.5": [
+            2.49,
+            1.495
+          ]
+        },
+        "ah": [
+          {
+            "line": 0.5,
+            "home": 2.46,
+            "away": 1.598
+          },
+          {
+            "line": 1,
+            "home": 1.917,
+            "away": 1.99
+          },
+          {
+            "line": 1.5,
+            "home": 1.561,
+            "away": 2.56
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 4.75,
+          "d": 4.5,
+          "a": 1.62,
+          "ou": {
+            "1.5": [
+              1.14,
+              5.8
+            ],
+            "2.5": [
+              1.47,
+              2.7
+            ],
+            "3.5": [
+              2.2,
+              1.68
+            ],
+            "4.5": [
+              3.76,
+              1.27
+            ],
+            "5.5": [
+              7.2,
+              1.1
+            ]
+          },
+          "btts": [
+            1.54,
+            2.5
+          ],
+          "corners": {
+            "9.5": [
+              1.91,
+              1.74
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.67,
+              1.99
+            ]
+          },
+          "text": "1X2 4.75/4.5/1.62, O/U 2.5 1.47/2.7"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "elv-fre",
+      "competition": "Bundesliga (Germany)",
+      "kickoff": "2026-11-21T14:30:00.000Z",
+      "home": {
+        "name": "SV 07 Elversberg",
+        "short": "07 Elversberg"
+      },
+      "away": {
+        "name": "SC Freiburg",
+        "short": "Freiburg"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 3.78,
+        "d": 3.8,
+        "a": 1.98,
+        "ou": {
+          "2.5": [
+            1.584,
+            2.47
+          ],
+          "3.5": [
+            2.42,
+            1.606
+          ]
+        },
+        "btts": [
+          1.507,
+          2.66
+        ],
+        "corners": {
+          "8.5": [
+            1.568,
+            2.33
+          ],
+          "9.5": [
+            1.97,
+            1.847
+          ],
+          "10.5": [
+            2.49,
+            1.497
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.5,
+            2.53
+          ],
+          "4.5": [
+            2.15,
+            1.68
+          ]
+        },
+        "ah": [
+          {
+            "line": 0,
+            "home": 2.82,
+            "away": 1.476
+          },
+          {
+            "line": 0.5,
+            "home": 1.917,
+            "away": 1.99
+          },
+          {
+            "line": 1,
+            "home": 1.492,
+            "away": 2.77
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 3.5,
+          "d": 3.8,
+          "a": 2,
+          "ou": {
+            "0.5": [
+              1.01,
+              17.9
+            ],
+            "1.5": [
+              1.16,
+              5.25
+            ],
+            "2.5": [
+              1.54,
+              2.5
+            ],
+            "3.5": [
+              2.38,
+              1.59
+            ],
+            "4.5": [
+              4.2,
+              1.23
+            ],
+            "5.5": [
+              8.25,
+              1.08
+            ]
+          },
+          "btts": [
+            1.52,
+            2.59
+          ],
+          "corners": {
+            "9.5": [
+              1.88,
+              1.76
+            ]
+          },
+          "cards": {
+            "4.5": [
+              1.98,
+              1.68
+            ]
+          },
+          "text": "1X2 3.5/3.8/2, O/U 2.5 1.54/2.5"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "ray-val",
+      "competition": "LaLiga (Spain)",
+      "kickoff": "2026-11-21T15:15:00.000Z",
+      "home": {
+        "name": "Rayo Vallecano",
+        "short": "Rayo Vallecano"
+      },
+      "away": {
+        "name": "Valencia CF",
+        "short": "Valencia CF"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 1.943,
+        "d": 3.6,
+        "a": 4.18,
+        "ou": {
+          "1.5": [
+            1.33,
+            3.46
+          ],
+          "2.5": [
+            2.04,
+            1.84
+          ]
+        },
+        "btts": [
+          1.884,
+          1.97
+        ],
+        "corners": {
+          "9.5": [
+            1.68,
+            2.17
+          ],
+          "10.5": [
+            2.09,
+            1.735
+          ]
+        },
+        "ah": [
+          {
+            "line": -1,
+            "home": 2.8,
+            "away": 1.483
+          },
+          {
+            "line": -0.5,
+            "home": 1.943,
+            "away": 1.961
+          },
+          {
+            "line": 0,
+            "home": 1.416,
+            "away": 3.07
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.95,
+          "d": 3.39,
+          "a": 4.15,
+          "ou": {
+            "0.5": [
+              1.05,
+              10.6
+            ],
+            "1.5": [
+              1.32,
+              3.42
+            ],
+            "2.5": [
+              1.99,
+              1.82
+            ],
+            "3.5": [
+              3.62,
+              1.29
+            ],
+            "4.5": [
+              7.45,
+              1.09
+            ],
+            "5.5": [
+              16.7,
+              1.01
+            ]
+          },
+          "btts": [
+            1.88,
+            1.95
+          ],
+          "corners": {
+            "9.5": [
+              1.67,
+              2
+            ]
+          },
+          "text": "1X2 1.95/3.39/4.15, O/U 2.5 1.99/1.82"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "ogc-par",
+      "competition": "Ligue 1 (France)",
+      "kickoff": "2026-11-21T16:15:00.000Z",
+      "home": {
+        "name": "OGC Nice",
+        "short": "OGC Nice"
+      },
+      "away": {
+        "name": "Paris Saint-Germain",
+        "short": "Paris Saint-Germain"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 6.05,
+        "d": 5.22,
+        "a": 1.473,
+        "ou": {
+          "2.5": [
+            1.406,
+            2.97
+          ],
+          "3.5": [
+            2.07,
+            1.833
+          ],
+          "4.5": [
+            3.35,
+            1.334
+          ]
+        },
+        "btts": [
+          1.574,
+          2.48
+        ],
+        "corners": {
+          "8.5": [
+            1.534,
+            2.4
+          ],
+          "9.5": [
+            1.909,
+            1.909
+          ],
+          "10.5": [
+            2.35,
+            1.555
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.529,
+            2.46
+          ],
+          "3.5": [
+            2.22,
+            1.636
+          ]
+        },
+        "ah": [
+          {
+            "line": 0.5,
+            "home": 2.84,
+            "away": 1.462
+          },
+          {
+            "line": 1,
+            "home": 2.22,
+            "away": 1.724
+          },
+          {
+            "line": 1.5,
+            "home": 1.719,
+            "away": 2.22
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 5.75,
+          "d": 4.85,
+          "a": 1.49,
+          "ou": {
+            "1.5": [
+              1.11,
+              6.7
+            ],
+            "2.5": [
+              1.39,
+              3
+            ],
+            "3.5": [
+              2,
+              1.81
+            ],
+            "4.5": [
+              3.29,
+              1.33
+            ],
+            "5.5": [
+              6.05,
+              1.13
+            ]
+          },
+          "btts": [
+            1.53,
+            2.52
+          ],
+          "corners": {
+            "9.5": [
+              1.8,
+              1.83
+            ]
+          },
+          "cards": {
+            "3.5": [
+              2.14,
+              1.58
+            ]
+          },
+          "text": "1X2 5.75/4.85/1.49, O/U 2.5 1.39/3"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "sev-rea",
+      "competition": "LaLiga (Spain)",
+      "kickoff": "2026-11-21T17:30:00.000Z",
+      "home": {
+        "name": "Sevilla FC",
+        "short": "Sevilla FC"
+      },
+      "away": {
+        "name": "Real Betis Seville",
+        "short": "Real Betis"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 3.02,
+        "d": 3.48,
+        "a": 2.43,
+        "ou": {
+          "2.5": [
+            1.884,
+            1.99
+          ],
+          "3.5": [
+            3.2,
+            1.373
+          ]
+        },
+        "btts": [
+          1.684,
+          2.25
+        ],
+        "corners": {
+          "8.5": [
+            1.602,
+            2.28
+          ],
+          "9.5": [
+            2.02,
+            1.806
+          ],
+          "10.5": [
+            2.55,
+            1.487
+          ]
+        },
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.99,
+            "away": 1.425
+          },
+          {
+            "line": 0,
+            "home": 2.18,
+            "away": 1.751
+          },
+          {
+            "line": 0.5,
+            "home": 1.621,
+            "away": 2.42
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.99,
+          "d": 3.37,
+          "a": 2.39,
+          "ou": {
+            "0.5": [
+              1.03,
+              12.3
+            ],
+            "1.5": [
+              1.27,
+              3.83
+            ],
+            "2.5": [
+              1.84,
+              1.97
+            ],
+            "3.5": [
+              3.19,
+              1.36
+            ],
+            "4.5": [
+              6.3,
+              1.12
+            ],
+            "5.5": [
+              13.7,
+              1.02
+            ]
+          },
+          "btts": [
+            1.71,
+            2.17
+          ],
+          "corners": {
+            "9.5": [
+              1.95,
+              1.7
+            ]
+          },
+          "text": "1X2 2.99/3.37/2.39, O/U 2.5 1.84/1.97"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "sch-vfb",
+      "competition": "Bundesliga (Germany)",
+      "kickoff": "2026-11-21T17:30:00.000Z",
+      "home": {
+        "name": "Schalke 04",
+        "short": "Schalke 04"
+      },
+      "away": {
+        "name": "VfB Stuttgart",
+        "short": "VfB Stuttgart"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 4.08,
+        "d": 4.18,
+        "a": 1.826,
+        "ou": {
+          "2.5": [
+            1.471,
+            2.71
+          ],
+          "3.5": [
+            2.19,
+            1.719
+          ]
+        },
+        "btts": [
+          1.476,
+          2.77
+        ],
+        "corners": {
+          "8.5": [
+            1.578,
+            2.3
+          ],
+          "9.5": [
+            1.961,
+            1.847
+          ],
+          "10.5": [
+            2.46,
+            1.51
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.386,
+            2.86
+          ],
+          "3.5": [
+            1.909,
+            1.892
+          ],
+          "4.5": [
+            3.01,
+            1.354
+          ]
+        },
+        "ah": [
+          {
+            "line": 0.5,
+            "home": 2.08,
+            "away": 1.813
+          },
+          {
+            "line": 1,
+            "home": 1.621,
+            "away": 2.41
+          },
+          {
+            "line": 1.5,
+            "home": 1.409,
+            "away": 3.06
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 3.9,
+          "d": 4,
+          "a": 1.84,
+          "ou": {
+            "1.5": [
+              1.13,
+              6
+            ],
+            "2.5": [
+              1.45,
+              2.76
+            ],
+            "3.5": [
+              2.16,
+              1.7
+            ],
+            "4.5": [
+              3.65,
+              1.28
+            ],
+            "5.5": [
+              6.95,
+              1.1
+            ]
+          },
+          "btts": [
+            1.48,
+            2.72
+          ],
+          "corners": {
+            "9.5": [
+              1.71,
+              1.94
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.87,
+              1.77
+            ]
+          },
+          "text": "1X2 3.9/4/1.84, O/U 2.5 1.45/2.76"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "rac-tou",
+      "competition": "Ligue 1 (France)",
+      "kickoff": "2026-11-21T19:45:00.000Z",
+      "home": {
+        "name": "Racing Club De Lens",
+        "short": "Racing Club"
+      },
+      "away": {
+        "name": "Toulouse FC",
+        "short": "Toulouse FC"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 1.909,
+        "d": 4.06,
+        "a": 3.82,
+        "ou": {
+          "2.5": [
+            1.684,
+            2.27
+          ],
+          "3.5": [
+            2.7,
+            1.49
+          ]
+        },
+        "btts": [
+          1.632,
+          2.34
+        ],
+        "corners": {
+          "8.5": [
+            1.531,
+            2.41
+          ],
+          "9.5": [
+            1.917,
+            1.892
+          ],
+          "10.5": [
+            2.41,
+            1.531
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.401,
+            2.8
+          ],
+          "4.5": [
+            2.03,
+            1.787
+          ],
+          "5.5": [
+            2.89,
+            1.38
+          ]
+        },
+        "ah": [
+          {
+            "line": -1,
+            "home": 2.69,
+            "away": 1.515
+          },
+          {
+            "line": -0.5,
+            "home": 1.917,
+            "away": 1.99
+          },
+          {
+            "line": 0,
+            "home": 1.452,
+            "away": 2.91
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.91,
+          "d": 3.81,
+          "a": 3.79,
+          "ou": {
+            "0.5": [
+              1.02,
+              15.2
+            ],
+            "1.5": [
+              1.2,
+              4.65
+            ],
+            "2.5": [
+              1.64,
+              2.27
+            ],
+            "3.5": [
+              2.64,
+              1.49
+            ],
+            "4.5": [
+              4.85,
+              1.18
+            ],
+            "5.5": [
+              9.95,
+              1.05
+            ]
+          },
+          "btts": [
+            1.61,
+            2.36
+          ],
+          "corners": {
+            "9.5": [
+              1.86,
+              1.78
+            ]
+          },
+          "cards": {
+            "4.5": [
+              1.77,
+              1.86
+            ]
+          },
+          "text": "1X2 1.91/3.81/3.79, O/U 2.5 1.64/2.27"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "rea-cel",
+      "competition": "LaLiga (Spain)",
+      "kickoff": "2026-11-21T20:00:00.000Z",
+      "home": {
+        "name": "Real Madrid",
+        "short": "Real Madrid"
+      },
+      "away": {
+        "name": "RC Celta de Vigo",
+        "short": "Celta de"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 1.169,
+        "d": 7.91,
+        "a": 17.67,
+        "ou": {
+          "2.5": [
+            1.35,
+            3.11
+          ],
+          "3.5": [
+            1.961,
+            1.909
+          ],
+          "4.5": [
+            3.11,
+            1.35
+          ]
+        },
+        "btts": [
+          2.06,
+          1.793
+        ],
+        "corners": {
+          "8.5": [
+            1.473,
+            2.59
+          ],
+          "9.5": [
+            1.826,
+            2
+          ],
+          "10.5": [
+            2.29,
+            1.602
+          ]
+        },
+        "ah": [
+          {
+            "line": -2.5,
+            "home": 2.26,
+            "away": 1.675
+          },
+          {
+            "line": -2,
+            "home": 1.775,
+            "away": 2.11
+          },
+          {
+            "line": -1.5,
+            "home": 1.478,
+            "away": 2.63
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.17,
+          "d": 7.75,
+          "a": 15.1,
+          "ou": {
+            "1.5": [
+              1.09,
+              7.15
+            ],
+            "2.5": [
+              1.35,
+              3.16
+            ],
+            "3.5": [
+              1.91,
+              1.88
+            ],
+            "4.5": [
+              3.08,
+              1.36
+            ],
+            "5.5": [
+              5.55,
+              1.14
+            ]
+          },
+          "btts": [
+            2.01,
+            1.76
+          ],
+          "corners": {
+            "9.5": [
+              1.78,
+              1.86
+            ]
+          },
+          "text": "1X2 1.17/7.75/15.1, O/U 2.5 1.35/3.16"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    }
+  ]
+}

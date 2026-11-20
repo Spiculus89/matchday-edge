@@ -1,6 +1,11 @@
 {
   "days": [
     {
+      "date": "2026-11-21",
+      "file": "data/2026-11-21.json",
+      "title": "LaLiga, Bundesliga, Ligue 1"
+    },
+    {
       "date": "2026-11-20",
       "file": "data/2026-11-20.json",
       "title": "Bundesliga, LaLiga, Ligue 1, 2. Bundesliga, Ekstraklasa, Belgium, Uruguay, UAE"
