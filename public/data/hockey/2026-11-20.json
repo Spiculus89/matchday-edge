@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
-  "updated": "2026-11-19T09:35:50.000Z",
-  "updateNote": "NHL, Thursday night in North America (after midnight here): six of the twelve games. Prices are Pinnacle via OddsPapi from this morning (AdmiralBet BA where Pinnacle had none yet: Carolina v Montreal, Colorado v Anaheim); the evening odds run refreshes them. Starting goalies are Daily Faceoff projections until the 00:45 run confirms them. Six NHL games on the night of 19 Nov US time (00:00-03:00 UTC on 20 Nov), with start times confirmed by Daily Faceoff; records and team stats are from theScore, player stats from ESPN and Stats Crew, injuries from CBS Sports and goalies from Daily Faceoff (only Dobes confirmed). No priced player props were found, so props are omitted.",
+  "updated": "2026-11-20T14:17:20.231Z",
+  "updateNote": "Tonight's games added from Pinnacle odds only (the morning research run hit a usage limit).",
   "games": [
     {
       "id": "buf-wsh",
@@ -1636,6 +1636,855 @@
           "text": "win 1.8/1.98"
         }
       }
+    },
+    {
+      "id": "kar-koo",
+      "league": "Liiga",
+      "start": "2026-11-20T16:00:00.000Z",
+      "home": {
+        "name": "KooKoo",
+        "short": "KooKoo",
+        "code": "KOO"
+      },
+      "away": {
+        "name": "Karpat Oulu",
+        "short": "Karpat",
+        "code": "KAR"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "reg": [
+          2.87,
+          3.7,
+          2.18
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.934,
+          "u": 1.869
+        },
+        "totalReg": {
+          "line": 5.5,
+          "o": 1.934,
+          "u": 1.862
+        },
+        "ml": [
+          2.15,
+          1.704
+        ],
+        "hcpReg": {
+          "line": 1.5,
+          "h": 1.398,
+          "a": 2.78
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "reg": [
+            2.65,
+            3.85,
+            2.08
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.87,
+            "u": 1.83
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.85,
+            "u": 1.85
+          },
+          "text": ""
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "lok-tor",
+      "league": "KHL",
+      "start": "2026-11-20T16:00:00.000Z",
+      "home": {
+        "name": "Torpedo N. Novgorod",
+        "short": "Torpedo",
+        "code": "TOR"
+      },
+      "away": {
+        "name": "Lokomotiv Yaroslavl",
+        "short": "Lokomotiv",
+        "code": "LOK"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "ml": [
+          2.27,
+          1.641
+        ],
+        "reg": [
+          3.13,
+          3.57,
+          2.12
+        ],
+        "p1total": {
+          "line": 1,
+          "o": 1.602,
+          "u": 2.35
+        },
+        "totalReg": {
+          "line": 4.5,
+          "o": 1.98,
+          "u": 1.84
+        },
+        "btts": [
+          1.18,
+          4.3
+        ],
+        "hcpReg": {
+          "line": 1.5,
+          "h": 1.383,
+          "a": 2.88
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            2.2,
+            1.65
+          ],
+          "reg": [
+            3.05,
+            3.85,
+            2.12
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 2.33,
+            "u": 1.54
+          },
+          "totalReg": {
+            "line": 4.5,
+            "o": 1.94,
+            "u": 1.8
+          },
+          "btts": [
+            1.18,
+            4.3
+          ],
+          "text": "win 2.2/1.65"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "amu-sev",
+      "league": "KHL",
+      "start": "2026-11-20T16:00:00.000Z",
+      "home": {
+        "name": "Severstal Cherepovets",
+        "short": "Severstal",
+        "code": "SEV"
+      },
+      "away": {
+        "name": "Amur Khabarovsk",
+        "short": "Amur",
+        "code": "AMU"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "ml": [
+          1.699,
+          2.17
+        ],
+        "reg": [
+          2.19,
+          3.62,
+          2.95
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 2.4,
+          "u": 1.581
+        },
+        "totalReg": {
+          "line": 4.5,
+          "o": 1.925,
+          "u": 1.892
+        },
+        "btts": [
+          1.18,
+          4.3
+        ],
+        "hcpReg": {
+          "line": -1.5,
+          "h": 2.96,
+          "a": 1.364
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.65,
+            2.2
+          ],
+          "reg": [
+            2.11,
+            3.95,
+            3
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 2.3,
+            "u": 1.55
+          },
+          "totalReg": {
+            "line": 4.5,
+            "o": 1.91,
+            "u": 1.83
+          },
+          "btts": [
+            1.18,
+            4.3
+          ],
+          "text": "win 1.65/2.2"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "jok-hpk",
+      "league": "Liiga",
+      "start": "2026-11-20T16:30:00.000Z",
+      "home": {
+        "name": "HPK Hameenlinna",
+        "short": "HPK",
+        "code": "HPK"
+      },
+      "away": {
+        "name": "Jokerit Helsinki",
+        "short": "Jokerit",
+        "code": "JOK"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "reg": [
+          2.55,
+          3.7,
+          2.41
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 2.05,
+          "u": 1.769
+        },
+        "totalReg": {
+          "line": 5,
+          "o": 1.854,
+          "u": 1.943
+        },
+        "ml": [
+          1.943,
+          1.854
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "reg": [
+            2.4,
+            3.7,
+            2.33
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 2.04,
+            "u": 1.69
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 2.18,
+            "u": 1.61
+          },
+          "text": ""
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "csk-sha",
+      "league": "KHL",
+      "start": "2026-11-20T16:30:00.000Z",
+      "home": {
+        "name": "Shanghai Dragons",
+        "short": "Shanghai",
+        "code": "SHA"
+      },
+      "away": {
+        "name": "CSKA Moscow",
+        "short": "CSKA",
+        "code": "CSK"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "ml": [
+          2.92,
+          1.406
+        ],
+        "reg": [
+          4.21,
+          3.86,
+          1.74
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 2.2,
+          "u": 1.68
+        },
+        "totalReg": {
+          "line": 4.5,
+          "o": 1.847,
+          "u": 1.98
+        },
+        "btts": [
+          1.17,
+          4.4
+        ],
+        "hcpReg": {
+          "line": 1.5,
+          "h": 1.602,
+          "a": 2.28
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            2.85,
+            1.41
+          ],
+          "reg": [
+            4.1,
+            4.3,
+            1.71
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 2.17,
+            "u": 1.62
+          },
+          "totalReg": {
+            "line": 4.5,
+            "o": 1.74,
+            "u": 2.02
+          },
+          "btts": [
+            1.17,
+            4.4
+          ],
+          "text": "win 2.85/1.41"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "ing-eis",
+      "league": "DEL",
+      "start": "2026-11-20T18:30:00.000Z",
+      "home": {
+        "name": "Eisbaren Berlin",
+        "short": "Eisbaren",
+        "code": "EIS"
+      },
+      "away": {
+        "name": "ERC Ingolstadt",
+        "short": "Ingolstadt",
+        "code": "ING"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "ml": [
+          1.367,
+          3.08
+        ],
+        "reg": [
+          1.649,
+          4.22,
+          4.37
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.826,
+          "u": 2
+        },
+        "totalReg": {
+          "line": 5.5,
+          "o": 1.763,
+          "u": 2.08
+        },
+        "hcpReg": {
+          "line": -1.5,
+          "h": 2.04,
+          "a": 1.787
+        },
+        "btts": [
+          1.09,
+          6
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.38,
+            3
+          ],
+          "reg": [
+            1.65,
+            4.6,
+            4.2
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.8,
+            "u": 1.9
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.74,
+            "u": 2.02
+          },
+          "hcpReg": {
+            "line": -1.5,
+            "h": 2.04,
+            "a": 1.72
+          },
+          "btts": [
+            1.09,
+            6
+          ],
+          "text": "win 1.38/3"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "sch-low",
+      "league": "DEL",
+      "start": "2026-11-20T18:30:00.000Z",
+      "home": {
+        "name": "Lowen Frankfurt",
+        "short": "Lowen",
+        "code": "LOW"
+      },
+      "away": {
+        "name": "Schwenninger Wild Wings",
+        "short": "Schwenninger",
+        "code": "SCH"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "ml": [
+          1.806,
+          2.02
+        ],
+        "reg": [
+          2.31,
+          3.88,
+          2.63
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.99,
+          "u": 1.833
+        },
+        "totalReg": {
+          "line": 5.5,
+          "o": 2.08,
+          "u": 1.757
+        },
+        "btts": [
+          1.1,
+          5.8
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.8,
+            1.99
+          ],
+          "reg": [
+            2.3,
+            4.1,
+            2.6
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.96,
+            "u": 1.76
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 2.02,
+            "u": 1.74
+          },
+          "btts": [
+            1.1,
+            5.8
+          ],
+          "text": "win 1.8/1.99"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "klo-ber",
+      "league": "National League",
+      "start": "2026-11-20T18:45:00.000Z",
+      "home": {
+        "name": "SC Bern",
+        "short": "Bern",
+        "code": "BER"
+      },
+      "away": {
+        "name": "EHC Kloten",
+        "short": "Kloten",
+        "code": "KLO"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "reg": [
+          1.595,
+          4.7,
+          4.3
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 2,
+          "u": 1.826
+        },
+        "totalReg": {
+          "line": 5.5,
+          "o": 1.917,
+          "u": 1.9
+        },
+        "hcpReg": {
+          "line": -1.5,
+          "h": 1.97,
+          "a": 1.854
+        },
+        "btts": [
+          1.12,
+          5.2
+        ],
+        "ml": [
+          1.35,
+          3.16
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "reg": [
+            1.53,
+            4.5,
+            4.4
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.9,
+            "u": 1.81
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.89,
+            "u": 1.82
+          },
+          "hcpReg": {
+            "line": -1.5,
+            "h": 1.93,
+            "a": 1.78
+          },
+          "btts": [
+            1.12,
+            5.2
+          ],
+          "text": ""
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "rap-fri",
+      "league": "National League",
+      "start": "2026-11-20T18:45:00.000Z",
+      "home": {
+        "name": "HC Fribourg-Gotteron",
+        "short": "Fribourg-Gotteron",
+        "code": "FRI"
+      },
+      "away": {
+        "name": "SC Rapperswil-Jona Lakers",
+        "short": "Rapperswil-Jona",
+        "code": "RAP"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "reg": [
+          1.862,
+          4.37,
+          3.27
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.9,
+          "u": 1.917
+        },
+        "totalReg": {
+          "line": 5.5,
+          "o": 1.775,
+          "u": 2.06
+        },
+        "btts": [
+          1.08,
+          6.4
+        ],
+        "ml": [
+          1.537,
+          2.5
+        ],
+        "hcpReg": {
+          "line": -1.5,
+          "h": 2.31,
+          "a": 1.621
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "reg": [
+            1.72,
+            4.4,
+            3.45
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.79,
+            "u": 1.92
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.71,
+            "u": 2.02
+          },
+          "btts": [
+            1.08,
+            6.4
+          ],
+          "text": ""
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "ajo-lug",
+      "league": "National League",
+      "start": "2026-11-20T18:45:00.000Z",
+      "home": {
+        "name": "HC Lugano",
+        "short": "Lugano",
+        "code": "LUG"
+      },
+      "away": {
+        "name": "HC Ajoie Porrentruy",
+        "short": "Ajoie",
+        "code": "AJO"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "reg": [
+          1.628,
+          4.94,
+          3.92
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.9,
+          "u": 1.917
+        },
+        "totalReg": {
+          "line": 6,
+          "o": 2.09,
+          "u": 1.757
+        },
+        "hcpReg": {
+          "line": -1.5,
+          "h": 2,
+          "a": 1.826
+        },
+        "btts": [
+          1.09,
+          6.4
+        ],
+        "ml": [
+          1.392,
+          2.97
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "reg": [
+            1.64,
+            4.5,
+            3.75
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.79,
+            "u": 1.92
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.7,
+            "u": 2.03
+          },
+          "hcpReg": {
+            "line": -1.5,
+            "h": 2.09,
+            "a": 1.66
+          },
+          "btts": [
+            1.09,
+            6.4
+          ],
+          "text": ""
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
-  "updated": "2026-11-19T09:35:58.000Z",
-  "updateNote": "NBA, Thursday night in the US (after midnight here): all four games, each tipping off at 02:00. Prices are Pinnacle via OddsPapi from this morning; injury news from ESPN, Rotowire and Covers (no official 19 Nov report was out yet). The 00:45 run adds confirmed starters and late scratches. Friday's European games are added by tomorrow's morning update.",
+  "updated": "2026-11-20T14:17:20.233Z",
+  "updateNote": "Tonight's games added from Pinnacle odds only (the morning research run hit a usage limit).",
   "games": [
     {
       "id": "gsw-mem",
@@ -1080,6 +1080,635 @@
           "text": "win 4.9/1.18, +11.5 1.89/1.92, total 230.5 1.92/1.89"
         }
       }
+    },
+    {
+      "id": "igo-fmp",
+      "league": "ABA League",
+      "start": "2026-11-20T17:00:00.000Z",
+      "home": {
+        "name": "KK FMP Belgrade",
+        "short": "FMP",
+        "code": "FMP"
+      },
+      "away": {
+        "name": "Igokea Aleksandrovac",
+        "short": "Igokea",
+        "code": "IGO"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "ml": [
+          1.602,
+          2.35
+        ],
+        "total": {
+          "line": 167.5,
+          "o": 1.925,
+          "u": 1.892
+        },
+        "spread": {
+          "line": -4,
+          "h": 1.952,
+          "a": 1.862
+        },
+        "h1": {
+          "spread": {
+            "line": -2,
+            "h": 1.934,
+            "a": 1.884
+          },
+          "total": {
+            "line": 83.5,
+            "o": 1.892,
+            "u": 1.925
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC"
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "asv-ana",
+      "league": "EuroLeague",
+      "start": "2026-11-20T17:30:00.000Z",
+      "home": {
+        "name": "Anadolu Efes SK",
+        "short": "Anadolu",
+        "code": "ANA"
+      },
+      "away": {
+        "name": "ASVEL Lyon-Villeurbanne",
+        "short": "ASVEL",
+        "code": "ASV"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "ml": [
+          1.277,
+          3.9
+        ],
+        "total": {
+          "line": 177,
+          "o": 1.97,
+          "u": 1.884
+        },
+        "teamTotal": {
+          "home": {
+            "line": 92.5,
+            "o": 1.93,
+            "u": 1.88
+          },
+          "away": {
+            "line": 84.5,
+            "o": 1.91,
+            "u": 1.9
+          }
+        },
+        "spread": {
+          "line": -8.5,
+          "h": 1.952,
+          "a": 1.9
+        },
+        "h1": {
+          "spread": {
+            "line": -4,
+            "h": 1.99,
+            "a": 1.869
+          },
+          "total": {
+            "line": 88.5,
+            "o": 1.877,
+            "u": 1.97
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.28,
+            3.7
+          ],
+          "total": {
+            "line": 176.5,
+            "o": 1.88,
+            "u": 1.93
+          },
+          "teamTotal": {
+            "home": {
+              "line": 92.5,
+              "o": 1.93,
+              "u": 1.88
+            },
+            "away": {
+              "line": 84.5,
+              "o": 1.91,
+              "u": 1.9
+            }
+          },
+          "spread": {
+            "line": -7.5,
+            "h": 1.84,
+            "a": 1.98
+          },
+          "h1": {
+            "spread": {
+              "line": -4.5,
+              "h": 1.96,
+              "a": 1.86
+            },
+            "total": {
+              "line": 88.5,
+              "o": 1.88,
+              "u": 1.93
+            }
+          },
+          "text": "win 1.28/3.7, -7.5 1.84/1.98, total 176.5 1.88/1.93"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "bor-krk",
+      "league": "ABA League",
+      "start": "2026-11-20T17:30:00.000Z",
+      "home": {
+        "name": "KK Krka Novo Mesto",
+        "short": "Krka",
+        "code": "KRK"
+      },
+      "away": {
+        "name": "KK Borac Cacak",
+        "short": "Borac",
+        "code": "BOR"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "ml": [
+          1.456,
+          2.73
+        ],
+        "total": {
+          "line": 165,
+          "o": 1.892,
+          "u": 1.925
+        },
+        "spread": {
+          "line": -5,
+          "h": 1.961,
+          "a": 1.862
+        },
+        "h1": {
+          "spread": {
+            "line": -2.5,
+            "h": 1.917,
+            "a": 1.9
+          },
+          "total": {
+            "line": 83.5,
+            "o": 1.98,
+            "u": 1.833
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC"
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "kd-bos",
+      "league": "ABA League",
+      "start": "2026-11-20T19:00:00.000Z",
+      "home": {
+        "name": "KK Bosna Royal Sarajevo",
+        "short": "Bosna",
+        "code": "BOS"
+      },
+      "away": {
+        "name": "KD Ilirija",
+        "short": "KD",
+        "code": "KD"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "ml": [
+          1.14,
+          5.33
+        ],
+        "total": {
+          "line": 165.5,
+          "o": 1.909,
+          "u": 1.909
+        },
+        "spread": {
+          "line": -10.5,
+          "h": 1.854,
+          "a": 1.97
+        },
+        "h1": {
+          "spread": {
+            "line": -6,
+            "h": 1.892,
+            "a": 1.925
+          },
+          "total": {
+            "line": 83.5,
+            "o": 1.917,
+            "u": 1.9
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC"
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "rea-oly",
+      "league": "EuroLeague",
+      "start": "2026-11-20T19:15:00.000Z",
+      "home": {
+        "name": "BC Olympiakos Piraeus",
+        "short": "Olympiakos",
+        "code": "OLY"
+      },
+      "away": {
+        "name": "Real Madrid",
+        "short": "Real",
+        "code": "REA"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "ml": [
+          1.806,
+          2.06
+        ],
+        "total": {
+          "line": 174.5,
+          "o": 1.934,
+          "u": 1.917
+        },
+        "teamTotal": {
+          "home": {
+            "line": 88.5,
+            "o": 1.95,
+            "u": 1.86
+          },
+          "away": {
+            "line": 86.5,
+            "o": 1.86,
+            "u": 1.95
+          }
+        },
+        "spread": {
+          "line": -2,
+          "h": 1.97,
+          "a": 1.884
+        },
+        "h1": {
+          "spread": {
+            "line": -0.5,
+            "h": 1.9,
+            "a": 1.952
+          },
+          "total": {
+            "line": 87.5,
+            "o": 1.97,
+            "u": 1.884
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.74,
+            2.11
+          ],
+          "total": {
+            "line": 174.5,
+            "o": 1.87,
+            "u": 1.94
+          },
+          "teamTotal": {
+            "home": {
+              "line": 88.5,
+              "o": 1.95,
+              "u": 1.86
+            },
+            "away": {
+              "line": 86.5,
+              "o": 1.86,
+              "u": 1.95
+            }
+          },
+          "spread": {
+            "line": -2.5,
+            "h": 1.97,
+            "a": 1.85
+          },
+          "h1": {
+            "spread": {
+              "line": -0.5,
+              "h": 1.87,
+              "a": 1.94
+            },
+            "total": {
+              "line": 87.5,
+              "o": 1.89,
+              "u": 1.92
+            }
+          },
+          "text": "win 1.74/2.11, -2.5 1.97/1.85, total 174.5 1.87/1.94"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "crv-fc",
+      "league": "EuroLeague",
+      "start": "2026-11-20T19:30:00.000Z",
+      "home": {
+        "name": "FC Barcelona",
+        "short": "FC",
+        "code": "FC"
+      },
+      "away": {
+        "name": "KK Crvena zvezda Belgrade",
+        "short": "Crvena",
+        "code": "CRV"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "ml": [
+          1.662,
+          2.29
+        ],
+        "total": {
+          "line": 172,
+          "o": 1.934,
+          "u": 1.917
+        },
+        "teamTotal": {
+          "home": {
+            "line": 87.5,
+            "o": 1.93,
+            "u": 1.88
+          },
+          "away": {
+            "line": 85.5,
+            "o": 1.94,
+            "u": 1.87
+          }
+        },
+        "spread": {
+          "line": -3,
+          "h": 1.934,
+          "a": 1.917
+        },
+        "h1": {
+          "spread": {
+            "line": -1.5,
+            "h": 1.934,
+            "a": 1.917
+          },
+          "total": {
+            "line": 86.5,
+            "o": 2.03,
+            "u": 1.833
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.66,
+            2.23
+          ],
+          "total": {
+            "line": 172.5,
+            "o": 1.91,
+            "u": 1.9
+          },
+          "teamTotal": {
+            "home": {
+              "line": 87.5,
+              "o": 1.93,
+              "u": 1.88
+            },
+            "away": {
+              "line": 85.5,
+              "o": 1.94,
+              "u": 1.87
+            }
+          },
+          "spread": {
+            "line": -2.5,
+            "h": 1.87,
+            "a": 1.95
+          },
+          "h1": {
+            "spread": {
+              "line": -1.5,
+              "h": 1.97,
+              "a": 1.84
+            },
+            "total": {
+              "line": 86.5,
+              "o": 1.9,
+              "u": 1.9
+            }
+          },
+          "text": "win 1.66/2.23, -2.5 1.87/1.95, total 172.5 1.91/1.9"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "bes-par",
+      "league": "EuroLeague",
+      "start": "2026-11-20T19:45:00.000Z",
+      "home": {
+        "name": "KK Partizan Belgrade",
+        "short": "Partizan",
+        "code": "PAR"
+      },
+      "away": {
+        "name": "Besiktas JK",
+        "short": "Besiktas",
+        "code": "BES"
+      },
+      "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
+      "odds": {
+        "ml": [
+          1.45,
+          2.87
+        ],
+        "total": {
+          "line": 165,
+          "o": 1.943,
+          "u": 1.909
+        },
+        "teamTotal": {
+          "home": {
+            "line": 85.5,
+            "o": 1.9,
+            "u": 1.91
+          },
+          "away": {
+            "line": 80.5,
+            "o": 1.87,
+            "u": 1.94
+          }
+        },
+        "spread": {
+          "line": -5,
+          "h": 1.9,
+          "a": 1.952
+        },
+        "h1": {
+          "spread": {
+            "line": -2.5,
+            "h": 1.892,
+            "a": 1.961
+          },
+          "total": {
+            "line": 82.5,
+            "o": 1.97,
+            "u": 1.877
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-20 08:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.42,
+            2.85
+          ],
+          "total": {
+            "line": 166.5,
+            "o": 1.94,
+            "u": 1.87
+          },
+          "teamTotal": {
+            "home": {
+              "line": 85.5,
+              "o": 1.9,
+              "u": 1.91
+            },
+            "away": {
+              "line": 80.5,
+              "o": 1.87,
+              "u": 1.94
+            }
+          },
+          "spread": {
+            "line": -5.5,
+            "h": 1.93,
+            "a": 1.88
+          },
+          "h1": {
+            "spread": {
+              "line": -2.5,
+              "h": 1.9,
+              "a": 1.91
+            },
+            "total": {
+              "line": 82.5,
+              "o": 1.88,
+              "u": 1.93
+            }
+          },
+          "text": "win 1.42/2.85, -5.5 1.93/1.88, total 166.5 1.94/1.87"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
     }
   ]
 }
