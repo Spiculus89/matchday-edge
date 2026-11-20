@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-22",
+  "updated": "2026-11-20T23:03:57.076Z",
+  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, news and lineups.",
+  "skeleton": true,
+  "matches": [
+    {
+      "id": "cha-cru",
+      "competition": "Brasileiro Serie A (Brazil)",
+      "kickoff": "2026-11-22T00:00:00.000Z",
+      "home": {
+        "name": "Chapecoense SC",
+        "short": "Chapecoense SC"
+      },
+      "away": {
+        "name": "Cruzeiro EC MG",
+        "short": "Cruzeiro EC"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 6.61,
+        "d": 4.82,
+        "a": 1.452,
+        "ou": {
+          "1.5": [
+            1.17,
+            5.13
+          ],
+          "2.5": [
+            1.546,
+            2.51
+          ],
+          "3.5": [
+            2.37,
+            1.602
+          ],
+          "4.5": [
+            4.1,
+            1.239
+          ]
+        },
+        "btts": [
+          1.684,
+          2.2
+        ],
+        "ah": [
+          {
+            "line": 0.5,
+            "home": 2.85,
+            "away": 1.44
+          },
+          {
+            "line": 1,
+            "home": 2.18,
+            "away": 1.724
+          },
+          {
+            "line": 1.5,
+            "home": 1.666,
+            "away": 2.28
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 5.55,
+          "d": 4.55,
+          "a": 1.49,
+          "ou": {
+            "1.5": [
+              1.13,
+              5.2
+            ],
+            "2.5": [
+              1.49,
+              2.45
+            ],
+            "3.5": [
+              2.3,
+              1.56
+            ],
+            "4.5": [
+              4.05,
+              1.2
+            ],
+            "5.5": [
+              8,
+              1.05
+            ]
+          },
+          "btts": [
+            1.64,
+            2.18
+          ],
+          "text": "1X2 5.55/4.55/1.49, O/U 2.5 1.49/2.45"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    }
+  ]
+}

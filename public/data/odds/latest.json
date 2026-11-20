@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T16:20:33.244Z",
+ "updatedAt": "2026-11-20T23:03:57.076Z",
  "books": {
   "main": "pinnacle",
   "local": "admiralbet.ba"
@@ -7,3032 +7,64 @@
  "note": "Pinnacle is the sharp reference the model fits to; AdmiralBet BA is the closest local (Bosnian) book on OddsPapi.",
  "fixtures": [
   {
-   "id": "id1500026872166666",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.448,
-      2.76
-     ],
-     "reg": [
-      1.781,
-      3.97,
-      3.86
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.13,
-      "u": 1.729
-     },
-     "totalReg": {
-      "line": 5,
-      "o": 1.847,
-      "u": 1.98
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2.28,
-      "a": 1.598
-     }
-    },
-    "admiralbet.ba": {
-     "ml": [
-      1.41,
-      2.85
-     ],
-     "reg": [
-      1.73,
-      4.2,
-      4.1
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.03,
-      "u": 1.7
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 2.2,
-      "u": 1.68
-     },
-     "btts": [
-      1.14,
-      5
-     ]
-    }
-   },
-   "tournamentId": 268,
-   "start": "2026-11-20T13:30:00.000Z",
-   "home": "HK Avangard Omsk",
-   "away": "HC Barys",
-   "fetched": {
-    "pinnacle": "2026-11-20T08:52:29.797Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1000097175174744",
-   "sport": "football",
-   "odds": {
-    "pinnacle": {
-     "h": 1.454,
-     "d": 4.87,
-     "a": 5.69,
-     "ou": {
-      "1.5": [
-       1.151,
-       5.15
-      ],
-      "2.5": [
-       1.497,
-       2.56
-      ],
-      "3.5": [
-       2.31,
-       1.598
-      ],
-      "4.5": [
-       4.02,
-       1.226
-      ]
-     },
-     "ah": [
-      {
-       "line": -1.5,
-       "home": 2.29,
-       "away": 1.621
-      },
-      {
-       "line": -1,
-       "home": 1.74,
-       "away": 2.09
-      },
-      {
-       "line": -0.5,
-       "home": 1.444,
-       "away": 2.72
-      }
-     ]
-    },
-    "admiralbet.ba": {
-     "h": 1.49,
-     "d": 4.5,
-     "a": 5.6,
-     "ou": {
-      "1.5": [
-       1.12,
-       5.55
-      ],
-      "2.5": [
-       1.46,
-       2.6
-      ],
-      "3.5": [
-       2.21,
-       1.62
-      ],
-      "4.5": [
-       3.79,
-       1.23
-      ],
-      "5.5": [
-       7.35,
-       1.07
-      ]
-     },
-     "btts": [
-      1.61,
-      2.26
-     ]
-    }
-   },
-   "tournamentId": 971,
-   "start": "2026-11-20T15:25:00.000Z",
-   "home": "Shabab Al Ahli Dubai",
-   "away": "Ajman Club",
-   "fetched": {
-    "pinnacle": "2026-11-19T08:53:34.794Z",
-    "admiralbet.ba": "2026-11-19T08:53:34.794Z"
-   }
-  },
-  {
-   "id": "id1500013472116536",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      2.15,
-      1.704
-     ],
-     "reg": [
-      2.87,
-      3.7,
-      2.18
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.934,
-      "u": 1.869
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.934,
-      "u": 1.862
-     },
-     "hcpReg": {
-      "line": 1.5,
-      "h": 1.398,
-      "a": 2.78
-     }
-    },
-    "admiralbet.ba": {
-     "reg": [
-      2.65,
-      3.85,
-      2.08
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.87,
-      "u": 1.83
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.85,
-      "u": 1.85
-     }
-    }
-   },
-   "tournamentId": 134,
-   "start": "2026-11-20T16:00:00.000Z",
-   "home": "KooKoo",
-   "away": "Karpat Oulu",
-   "fetched": {
-    "pinnacle": "2026-11-20T08:52:29.797Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1500026872166660",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      2.27,
-      1.641
-     ],
-     "reg": [
-      3.13,
-      3.57,
-      2.12
-     ],
-     "p1total": {
-      "line": 1,
-      "o": 1.602,
-      "u": 2.35
-     },
-     "totalReg": {
-      "line": 4.5,
-      "o": 1.98,
-      "u": 1.84
-     },
-     "hcpReg": {
-      "line": 1.5,
-      "h": 1.383,
-      "a": 2.88
-     }
-    },
-    "admiralbet.ba": {
-     "ml": [
-      2.2,
-      1.65
-     ],
-     "reg": [
-      3.05,
-      3.85,
-      2.12
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.33,
-      "u": 1.54
-     },
-     "totalReg": {
-      "line": 4.5,
-      "o": 1.94,
-      "u": 1.8
-     },
-     "btts": [
-      1.18,
-      4.3
-     ]
-    }
-   },
-   "tournamentId": 268,
-   "start": "2026-11-20T16:00:00.000Z",
-   "home": "Torpedo N. Novgorod",
-   "away": "Lokomotiv Yaroslavl",
-   "fetched": {
-    "pinnacle": "2026-11-20T08:52:29.797Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1500026872166664",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.699,
-      2.17
-     ],
-     "reg": [
-      2.19,
-      3.62,
-      2.95
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.4,
-      "u": 1.581
-     },
-     "totalReg": {
-      "line": 4.5,
-      "o": 1.925,
-      "u": 1.892
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2.96,
-      "a": 1.364
-     }
-    },
-    "admiralbet.ba": {
-     "ml": [
-      1.65,
-      2.2
-     ],
-     "reg": [
-      2.11,
-      3.95,
-      3
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.3,
-      "u": 1.55
-     },
-     "totalReg": {
-      "line": 4.5,
-      "o": 1.91,
-      "u": 1.83
-     },
-     "btts": [
-      1.18,
-      4.3
-     ]
-    }
-   },
-   "tournamentId": 268,
-   "start": "2026-11-20T16:00:00.000Z",
-   "home": "Severstal Cherepovets",
-   "away": "Amur Khabarovsk",
-   "fetched": {
-    "pinnacle": "2026-11-20T08:52:29.797Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1500013472116538",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.869,
-      1.943
-     ],
-     "reg": [
-      2.45,
-      3.7,
-      2.55
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.18,
-      "u": 1.699
-     },
-     "totalReg": {
-      "line": 4.5,
-      "o": 1.833,
-      "u": 1.99
-     }
-    },
-    "admiralbet.ba": {
-     "reg": [
-      2.4,
-      3.7,
-      2.33
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.04,
-      "u": 1.69
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 2.18,
-      "u": 1.61
-     }
-    }
-   },
-   "tournamentId": 134,
-   "start": "2026-11-20T16:30:00.000Z",
-   "home": "HPK Hameenlinna",
-   "away": "Jokerit Helsinki",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1500013472116540",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.578,
-      2.4
-     ],
-     "reg": [
-      1.97,
-      3.95,
-      3.21
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.943,
-      "u": 1.877
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.952,
-      "u": 1.869
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2.5,
-      "a": 1.502
-     }
-    },
-    "admiralbet.ba": {
-     "reg": [
-      1.86,
-      3.9,
-      3.15
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.88,
-      "u": 1.82
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.87,
-      "u": 1.83
-     }
-    }
-   },
-   "tournamentId": 134,
-   "start": "2026-11-20T16:30:00.000Z",
-   "home": "JYP Jyvaskyla",
-   "away": "HIFK Helsinki",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1500013472116542",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      2.41,
-      1.574
-     ],
-     "reg": [
-      3.24,
-      3.92,
-      1.97
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.08,
-      "u": 1.763
-     },
-     "totalReg": {
-      "line": 5,
-      "o": 1.847,
-      "u": 1.98
-     },
-     "hcpReg": {
-      "line": 1.5,
-      "h": 1.534,
-      "a": 2.42
-     }
-    },
-    "admiralbet.ba": {
-     "reg": [
-      2.75,
-      3.75,
-      2.06
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.04,
-      "u": 1.69
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 2.18,
-      "u": 1.61
-     }
-    }
-   },
-   "tournamentId": 134,
-   "start": "2026-11-20T16:30:00.000Z",
-   "home": "Pelicans Lahti",
-   "away": "Lukko Rauma",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1500013472116544",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.621,
-      2.31
-     ],
-     "reg": [
-      2.07,
-      3.69,
-      3.15
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.98,
-      "u": 1.84
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 2.01,
-      "u": 1.819
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2.65,
-      "a": 1.448
-     }
-    },
-    "admiralbet.ba": {
-     "reg": [
-      1.98,
-      3.75,
-      2.9
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.99,
-      "u": 1.73
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 2.08,
-      "u": 1.67
-     }
-    }
-   },
-   "tournamentId": 134,
-   "start": "2026-11-20T16:30:00.000Z",
-   "home": "SaiPa Lappeenranta",
-   "away": "TPS Turku",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1500026872166662",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      3.07,
-      1.37
-     ],
-     "reg": [
-      4.45,
-      4.02,
-      1.671
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.19,
-      "u": 1.689
-     },
-     "totalReg": {
-      "line": 4.5,
-      "o": 1.8,
-      "u": 2.03
-     },
-     "hcpReg": {
-      "line": 1.5,
-      "h": 1.657,
-      "a": 2.17
-     }
-    },
-    "admiralbet.ba": {
-     "ml": [
-      2.85,
-      1.41
-     ],
-     "reg": [
-      4.1,
-      4.3,
-      1.71
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.17,
-      "u": 1.62
-     },
-     "totalReg": {
-      "line": 4.5,
-      "o": 1.74,
-      "u": 2.02
-     },
-     "btts": [
-      1.17,
-      4.4
-     ]
-    }
-   },
-   "tournamentId": 268,
-   "start": "2026-11-20T16:30:00.000Z",
-   "home": "Shanghai Dragons",
-   "away": "CSKA Moscow",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1100023574131786",
-   "sport": "basketball",
-   "tournamentId": 235,
-   "start": "2026-11-20T17:00:00.000Z",
-   "home": "KK FMP Belgrade",
-   "away": "Igokea Aleksandrovac",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.543,
-      2.48
-     ],
-     "total": {
-      "line": 163.5,
-      "o": 1.917,
-      "u": 1.9
-     },
-     "spread": {
-      "line": -4,
-      "h": 1.877,
-      "a": 1.943
-     },
-     "h1": {
-      "spread": {
-       "line": -2,
-       "h": 1.877,
-       "a": 1.943
-      },
-      "total": {
-       "line": 81.5,
-       "o": 1.917,
-       "u": 1.9
-      }
-     }
-    },
-    "admiralbet.ba": {
-     "ml": [
-      1.55,
-      2.41
-     ],
-     "total": {
-      "line": 164.5,
-      "o": 1.92,
-      "u": 1.86
-     },
-     "teamTotal": {
-      "home": {
-       "line": 83.5,
-       "o": 1.87,
-       "u": 1.94
-      },
-      "away": {
-       "line": 80.5,
-       "o": 1.9,
-       "u": 1.91
-      }
-     },
-     "spread": {
-      "line": -3.5,
-      "h": 1.84,
-      "a": 1.94
-     },
-     "h1": {
-      "spread": {
-       "line": -1.5,
-       "h": 1.86,
-       "a": 1.91
-      },
-      "total": {
-       "line": 81.5,
-       "o": 1.86,
-       "u": 1.91
-      }
-     }
-    }
-   },
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
-   }
-  },
-  {
-   "id": "id1000020272043338",
-   "sport": "football",
-   "odds": {
-    "pinnacle": {
-     "h": 2.67,
-     "d": 3.7,
-     "a": 2.56,
-     "ou": {
-      "1.5": [
-       1.205,
-       4.64
-      ],
-      "2.5": [
-       1.689,
-       2.24
-      ],
-      "3.5": [
-       2.76,
-       1.462
-      ],
-      "4.5": [
-       5.13,
-       1.176
-      ]
-     },
-     "btts": [
-      1.558,
-      2.49
-     ],
-     "ah": [
-      {
-       "line": -0.5,
-       "home": 2.65,
-       "away": 1.515
-      },
-      {
-       "line": 0,
-       "home": 1.98,
-       "away": 1.9
-      },
-      {
-       "line": 0.5,
-       "home": 1.552,
-       "away": 2.55
-      }
-     ],
-     "corners": {
-      "9.5": [
-       1.54,
-       2.4
-      ],
-      "10.5": [
-       1.892,
-       1.9
-      ],
-      "11.5": [
-       2.33,
-       1.568
-      ]
-     }
-    },
-    "admiralbet.ba": {
-     "h": 2.59,
-     "d": 3.59,
-     "a": 2.53,
-     "ou": {
-      "0.5": [
-       1.01,
-       14.6
-      ],
-      "1.5": [
-       1.2,
-       4.45
-      ],
-      "2.5": [
-       1.66,
-       2.2
-      ],
-      "3.5": [
-       2.7,
-       1.45
-      ],
-      "4.5": [
-       5,
-       1.16
-      ],
-      "5.5": [
-       10.4,
-       1.04
-      ]
-     },
-     "btts": [
-      1.58,
-      2.38
-     ]
-    }
-   },
-   "tournamentId": 202,
-   "start": "2026-11-20T17:00:00.000Z",
-   "home": "GKS Piast Gliwice",
-   "away": "Korona Kielce",
-   "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
-    "admiralbet.ba": "2026-11-20T08:50:32.533Z"
-   }
-  },
-  {
-   "id": "id1100013873263190",
-   "sport": "basketball",
-   "tournamentId": 138,
-   "start": "2026-11-20T17:30:00.000Z",
-   "home": "Anadolu Efes SK",
-   "away": "ASVEL Lyon-Villeurbanne",
-   "odds": {
-    "admiralbet.ba": {
-     "ml": [
-      1.26,
-      3.9
-     ],
-     "total": {
-      "line": 176.5,
-      "o": 1.88,
-      "u": 1.93
-     },
-     "teamTotal": {
-      "home": {
-       "line": 92.5,
-       "o": 1.87,
-       "u": 1.94
-      },
-      "away": {
-       "line": 84.5,
-       "o": 1.98,
-       "u": 1.84
-      }
-     },
-     "spread": {
-      "line": -8.5,
-      "h": 1.89,
-      "a": 1.92
-     },
-     "h1": {
-      "spread": {
-       "line": -4.5,
-       "h": 1.89,
-       "a": 1.92
-      },
-      "total": {
-       "line": 89.5,
-       "o": 1.89,
-       "u": 1.92
-      }
-     }
-    },
-    "pinnacle": {
-     "ml": [
-      1.347,
-      3.37
-     ],
-     "total": {
-      "line": 177,
-      "o": 1.925,
-      "u": 1.925
-     },
-     "spread": {
-      "line": -8,
-      "h": 1.961,
-      "a": 1.892
-     },
-     "h1": {
-      "spread": {
-       "line": -4.5,
-       "h": 1.925,
-       "a": 1.925
-      },
-      "total": {
-       "line": 89.5,
-       "o": 1.97,
-       "u": 1.869
-      }
-     }
-    }
-   },
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
-   }
-  },
-  {
-   "id": "id1100023574131776",
-   "sport": "basketball",
-   "tournamentId": 235,
-   "start": "2026-11-20T17:30:00.000Z",
-   "home": "KK Krka Novo Mesto",
-   "away": "KK Borac Cacak",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.431,
-      2.82
-     ],
-     "total": {
-      "line": 166,
-      "o": 1.961,
-      "u": 1.862
-     },
-     "spread": {
-      "line": -5,
-      "h": 1.884,
-      "a": 1.934
-     },
-     "h1": {
-      "spread": {
-       "line": -2.5,
-       "h": 1.884,
-       "a": 1.934
-      },
-      "total": {
-       "line": 83.5,
-       "o": 1.934,
-       "u": 1.877
-      }
-     }
-    },
-    "admiralbet.ba": {
-     "ml": [
-      1.4,
-      2.9
-     ],
-     "total": {
-      "line": 165.5,
-      "o": 1.86,
-      "u": 1.92
-     },
-     "teamTotal": {
-      "home": {
-       "line": 85.5,
-       "o": 1.9,
-       "u": 1.91
-      },
-      "away": {
-       "line": 80.5,
-       "o": 1.93,
-       "u": 1.88
-      }
-     },
-     "spread": {
-      "line": -5.5,
-      "h": 1.87,
-      "a": 1.91
-     },
-     "h1": {
-      "spread": {
-       "line": -2.5,
-       "h": 1.85,
-       "a": 1.92
-      },
-      "total": {
-       "line": 83.5,
-       "o": 1.9,
-       "u": 1.88
-      }
-     }
-    }
-   },
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
-   }
-  },
-  {
-   "id": "id1500013472116546",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.492,
-      2.62
-     ],
-     "reg": [
-      1.847,
-      3.91,
-      3.64
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.11,
-      "u": 1.74
-     },
-     "totalReg": {
-      "line": 5,
-      "o": 1.925,
-      "u": 1.892
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2.33,
-      "a": 1.574
-     }
-    },
-    "admiralbet.ba": {
-     "reg": [
-      1.85,
-      3.75,
-      3.25
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.08,
-      "u": 1.67
-     },
-     "totalReg": {
-      "line": 4.5,
-      "o": 1.64,
-      "u": 2.13
-     }
-    }
-   },
-   "tournamentId": 134,
-   "start": "2026-11-20T17:30:00.000Z",
-   "home": "Ilves Tampere",
-   "away": "Tappara Tampere",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1000004472513984",
-   "sport": "football",
-   "odds": {
-    "pinnacle": {
-     "h": 3.47,
-     "d": 3.98,
-     "a": 2.06,
-     "ou": {
-      "1.5": [
-       1.168,
-       5.63
-      ],
-      "2.5": [
-       1.552,
-       2.6
-      ],
-      "3.5": [
-       2.35,
-       1.657
-      ],
-      "4.5": [
-       4.03,
-       1.272
-      ],
-      "5.5": [
-       7.85,
-       1.106
-      ]
-     },
-     "btts": [
-      1.49,
-      2.75
-     ],
-     "ah": [
-      {
-       "line": 0,
-       "home": 2.63,
-       "away": 1.552
-      },
-      {
-       "line": 0.5,
-       "home": 1.869,
-       "away": 2.06
-      },
-      {
-       "line": 1,
-       "home": 1.467,
-       "away": 2.91
-      }
-     ],
-     "corners": {
-      "9.5": [
-       1.487,
-       2.5
-      ],
-      "10.5": [
-       1.847,
-       1.961
-      ],
-      "11.5": [
-       2.22,
-       1.617
-      ]
-     }
-    }
-   },
-   "tournamentId": 44,
-   "start": "2026-11-20T17:30:00.000Z",
-   "home": "SV Darmstadt 98",
-   "away": "1. FC Heidenheim",
-   "fetched": {
-    "pinnacle": "2026-11-20T08:52:59.126Z"
-   }
-  },
-  {
-   "id": "id1000004472513992",
-   "sport": "football",
-   "odds": {
-    "pinnacle": {
-     "h": 2.25,
-     "d": 3.58,
-     "a": 3.31,
-     "ou": {
-      "1.5": [
-       1.247,
-       4.3
-      ],
-      "2.5": [
-       1.793,
-       2.12
-      ],
-      "3.5": [
-       2.86,
-       1.46
-      ],
-      "4.5": [
-       5.28,
-       1.184
-      ]
-     },
-     "btts": [
-      1.636,
-      2.36
-     ],
-     "ah": [
-      {
-       "line": -0.5,
-       "home": 2.25,
-       "away": 1.724
-      },
-      {
-       "line": 0,
-       "home": 1.636,
-       "away": 2.41
-      }
-     ],
-     "corners": {
-      "9.5": [
-       1.769,
-       2.03
-      ],
-      "10.5": [
-       2.22,
-       1.636
-      ]
-     }
-    }
-   },
-   "tournamentId": 44,
-   "start": "2026-11-20T17:30:00.000Z",
-   "home": "Arminia Bielefeld",
-   "away": "1. FC Magdeburg",
-   "fetched": {
-    "pinnacle": "2026-11-20T08:52:59.126Z"
-   }
-  },
-  {
-   "id": "id1500022572484112",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.436,
-      2.8
-     ],
-     "reg": [
-      1.74,
-      4.21,
-      3.85
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.854,
-      "u": 1.97
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.781,
-      "u": 2.05
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2.17,
-      "a": 1.699
-     }
-    },
-    "admiralbet.ba": {
-     "ml": [
-      1.38,
-      3
-     ],
-     "reg": [
-      1.65,
-      4.6,
-      4.2
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.8,
-      "u": 1.9
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.74,
-      "u": 2.02
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2.04,
-      "a": 1.72
-     },
-     "btts": [
-      1.09,
-      6
-     ]
-    }
-   },
-   "tournamentId": 225,
-   "start": "2026-11-20T18:30:00.000Z",
-   "home": "Eisbaren Berlin",
-   "away": "ERC Ingolstadt",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1500022572484114",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.806,
-      2.02
-     ],
-     "reg": [
-      2.34,
-      3.7,
-      2.67
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.99,
-      "u": 1.833
-     },
-     "totalReg": {
-      "line": 5,
-      "o": 1.763,
-      "u": 2.08
-     }
-    },
-    "admiralbet.ba": {
-     "ml": [
-      1.8,
-      1.99
-     ],
-     "reg": [
-      2.3,
-      4.1,
-      2.6
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.96,
-      "u": 1.76
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 2.02,
-      "u": 1.74
-     },
-     "btts": [
-      1.1,
-      5.8
-     ]
-    }
-   },
-   "tournamentId": 225,
-   "start": "2026-11-20T18:30:00.000Z",
-   "home": "Lowen Frankfurt",
-   "away": "Schwenninger Wild Wings",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1500022572484116",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.909,
-      1.909
-     ],
-     "reg": [
-      2.43,
-      3.93,
-      2.46
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.84,
-      "u": 1.98
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.8,
-      "u": 2.03
-     }
-    },
-    "admiralbet.ba": {
-     "ml": [
-      2,
-      1.79
-     ],
-     "reg": [
-      2.6,
-      4.2,
-      2.27
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.81,
-      "u": 1.89
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.76,
-      "u": 2
-     },
-     "btts": [
-      1.07,
-      6.8
-     ]
-    }
-   },
-   "tournamentId": 225,
-   "start": "2026-11-20T18:30:00.000Z",
-   "home": "Augsburger Panther",
-   "away": "Nuremberg Ice Tigers",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1500022572484118",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      2.24,
-      1.657
-     ],
-     "reg": [
-      2.95,
-      4.01,
-      2.07
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.862,
-      "u": 1.961
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.813,
-      "u": 2.02
-     },
-     "hcpReg": {
-      "line": 1.5,
-      "h": 1.476,
-      "a": 2.67
-     }
-    },
-    "admiralbet.ba": {
-     "ml": [
-      2.1,
-      1.71
-     ],
-     "reg": [
-      2.8,
-      4.2,
-      2.16
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.86,
-      "u": 1.84
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.84,
-      "u": 1.9
-     },
-     "btts": [
-      1.08,
-      6.4
-     ]
-    }
-   },
-   "tournamentId": 225,
-   "start": "2026-11-20T18:30:00.000Z",
-   "home": "Fischtown Pinguins",
-   "away": "Adler Mannheim",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1500022572484120",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.537,
-      2.5
-     ],
-     "reg": [
-      1.892,
-      4.15,
-      3.32
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.781,
-      "u": 2.05
-     },
-     "totalReg": {
-      "line": 6,
-      "o": 1.943,
-      "u": 1.877
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2.34,
-      "a": 1.609
-     }
-    },
-    "admiralbet.ba": {
-     "ml": [
-      1.51,
-      2.5
-     ],
-     "reg": [
-      1.85,
-      4.4,
-      3.4
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.74,
-      "u": 1.97
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.64,
-      "u": 2.17
-     },
-     "btts": [
-      1.07,
-      7
-     ]
-    }
-   },
-   "tournamentId": 225,
-   "start": "2026-11-20T18:30:00.000Z",
-   "home": "Red Bull Munich",
-   "away": "Kolner Haie",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1500022572484122",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.54,
-      2.49
-     ],
-     "reg": [
-      1.892,
-      4.12,
-      3.32
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2,
-      "u": 1.826
-     },
-     "totalReg": {
-      "line": 5,
-      "o": 1.8,
-      "u": 2.03
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2.41,
-      "a": 1.574
-     }
-    },
-    "admiralbet.ba": {
-     "ml": [
-      1.41,
-      2.85
-     ],
-     "reg": [
-      1.7,
-      4.4,
-      4.1
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.01,
-      "u": 1.72
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 2.12,
-      "u": 1.67
-     },
-     "btts": [
-      1.13,
-      5
-     ]
-    }
-   },
-   "tournamentId": 225,
-   "start": "2026-11-20T18:30:00.000Z",
-   "home": "Grizzlys Wolfsburg",
-   "away": "Iserlohn Roosters",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
-   }
-  },
-  {
-   "id": "id1500012872123554",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.34,
-      3.22
-     ],
-     "reg": [
-      1.574,
-      4.78,
-      4.41
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2,
-      "u": 1.826
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.892,
-      "u": 1.925
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 1.934,
-      "a": 1.884
-     }
-    },
-    "admiralbet.ba": {
-     "reg": [
-      1.53,
-      4.5,
-      4.4
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.89,
-      "u": 1.82
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.88,
-      "u": 1.83
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 1.92,
-      "a": 1.79
-     },
-     "btts": [
-      1.12,
-      5.4
-     ]
-    }
-   },
-   "tournamentId": 128,
-   "start": "2026-11-20T18:45:00.000Z",
-   "home": "SC Bern",
-   "away": "EHC Kloten",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
-   }
-  },
-  {
-   "id": "id1500012872123556",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.561,
-      2.44
-     ],
-     "reg": [
-      1.9,
-      4.36,
-      3.16
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.909,
-      "u": 1.909
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.781,
-      "u": 2.06
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2.36,
-      "a": 1.598
-     }
-    },
-    "admiralbet.ba": {
-     "reg": [
-      1.72,
-      4.4,
-      3.45
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.79,
-      "u": 1.92
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.71,
-      "u": 2.02
-     },
-     "btts": [
-      1.08,
-      6.4
-     ]
-    }
-   },
-   "tournamentId": 128,
-   "start": "2026-11-20T18:45:00.000Z",
-   "home": "HC Fribourg-Gotteron",
-   "away": "SC Rapperswil-Jona Lakers",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
-   }
-  },
-  {
-   "id": "id1500012872123558",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.392,
-      2.97
-     ],
-     "reg": [
-      1.628,
-      4.94,
-      3.92
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.9,
-      "u": 1.917
-     },
-     "totalReg": {
-      "line": 6,
-      "o": 2.09,
-      "u": 1.757
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2,
-      "a": 1.826
-     }
-    },
-    "admiralbet.ba": {
-     "reg": [
-      1.64,
-      4.5,
-      3.75
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.78,
-      "u": 1.93
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.69,
-      "u": 2.05
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2.09,
-      "a": 1.66
-     },
-     "btts": [
-      1.08,
-      6.4
-     ]
-    }
-   },
-   "tournamentId": 128,
-   "start": "2026-11-20T18:45:00.000Z",
-   "home": "HC Lugano",
-   "away": "HC Ajoie Porrentruy",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
-   }
-  },
-  {
-   "id": "id1500012872123560",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.694,
-      2.18
-     ],
-     "reg": [
-      2.1,
-      4.19,
-      2.8
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.892,
-      "u": 1.925
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.769,
-      "u": 2.07
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2.66,
-      "a": 1.48
-     }
-    },
-    "admiralbet.ba": {
-     "reg": [
-      2.02,
-      4.2,
-      2.75
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.82,
-      "u": 1.89
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.75,
-      "u": 1.96
-     },
-     "btts": [
-      1.08,
-      6.6
-     ]
-    }
-   },
-   "tournamentId": 128,
-   "start": "2026-11-20T18:45:00.000Z",
-   "home": "SCL Tigers Langnau",
-   "away": "HC Ambri-Piotta",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
-   }
-  },
-  {
-   "id": "id1500012872123562",
-   "sport": "hockey",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.487,
-      2.63
-     ],
-     "reg": [
-      1.787,
-      4.4,
-      3.5
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 2.01,
-      "u": 1.819
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 2.03,
-      "u": 1.8
-     },
-     "hcpReg": {
-      "line": -1.5,
-      "h": 2.31,
-      "a": 1.625
-     }
-    },
-    "admiralbet.ba": {
-     "reg": [
-      1.71,
-      4.3,
-      3.65
-     ],
-     "p1total": {
-      "line": 1.5,
-      "o": 1.9,
-      "u": 1.81
-     },
-     "totalReg": {
-      "line": 5.5,
-      "o": 1.89,
-      "u": 1.82
-     },
-     "btts": [
-      1.11,
-      5.8
-     ]
-    }
-   },
-   "tournamentId": 128,
-   "start": "2026-11-20T18:45:00.000Z",
-   "home": "EV Zug",
-   "away": "Geneve-Servette HC",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
-   }
-  },
-  {
-   "id": "id1100023574131972",
-   "sport": "basketball",
-   "tournamentId": 235,
-   "start": "2026-11-20T19:00:00.000Z",
-   "home": "KK Bosna Royal Sarajevo",
-   "away": "KD Ilirija",
-   "odds": {
-    "pinnacle": {
-     "ml": [
-      1.302,
-      3.44
-     ],
-     "total": {
-      "line": 167.5,
-      "o": 1.934,
-      "u": 1.877
-     },
-     "spread": {
-      "line": -8.5,
-      "h": 1.862,
-      "a": 1.952
-     },
-     "h1": {
-      "spread": {
-       "line": -5,
-       "h": 1.917,
-       "a": 1.9
-      },
-      "total": {
-       "line": 84.5,
-       "o": 1.99,
-       "u": 1.833
-      }
-     }
-    },
-    "admiralbet.ba": {
-     "ml": [
-      1.26,
-      3.75
-     ],
-     "total": {
-      "line": 167.5,
-      "o": 1.92,
-      "u": 1.85
-     },
-     "teamTotal": {
-      "home": {
-       "line": 88.5,
-       "o": 1.98,
-       "u": 1.84
-      },
-      "away": {
-       "line": 79.5,
-       "o": 1.97,
-       "u": 1.84
-      }
-     },
-     "spread": {
-      "line": -8.5,
-      "h": 1.85,
-      "a": 1.93
-     },
-     "h1": {
-      "spread": {
-       "line": -4.5,
-       "h": 1.86,
-       "a": 1.92
-      },
-      "total": {
-       "line": 84.5,
-       "o": 1.92,
-       "u": 1.85
-      }
-     }
-    }
-   },
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
-   }
-  },
-  {
-   "id": "id1100013873263192",
-   "sport": "basketball",
-   "tournamentId": 138,
-   "start": "2026-11-20T19:15:00.000Z",
-   "home": "BC Olympiakos Piraeus",
-   "away": "Real Madrid",
-   "odds": {
-    "admiralbet.ba": {
-     "ml": [
-      1.78,
-      2.05
-     ],
-     "total": {
-      "line": 174.5,
-      "o": 1.87,
-      "u": 1.94
-     },
-     "teamTotal": {
-      "home": {
-       "line": 88.5,
-       "o": 1.97,
-       "u": 1.821
-      },
-      "away": {
-       "line": 87.5,
-       "o": 1.97,
-       "u": 1.821
-      }
-     },
-     "spread": {
-      "line": -1.5,
-      "h": 1.88,
-      "a": 1.93
-     },
-     "h1": {
-      "spread": {
-       "line": -0.5,
-       "h": 1.9,
-       "a": 1.91
-      },
-      "total": {
-       "line": 88.5,
-       "o": 1.88,
-       "u": 1.93
-      }
-     }
-    },
-    "pinnacle": {
-     "ml": [
-      1.84,
-      2.02
-     ],
-     "total": {
-      "line": 176,
-      "o": 1.943,
-      "u": 1.9
-     },
-     "spread": {
-      "line": -2,
-      "h": 2.02,
-      "a": 1.84
-     },
-     "h1": {
-      "spread": {
-       "line": -0.5,
-       "h": 1.934,
-       "a": 1.917
-      },
-      "total": {
-       "line": 87.5,
-       "o": 1.84,
-       "u": 2.02
-      }
-     }
-    }
-   },
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
-   }
-  },
-  {
-   "id": "id1100013873263194",
-   "sport": "basketball",
-   "tournamentId": 138,
-   "start": "2026-11-20T19:30:00.000Z",
-   "home": "FC Barcelona",
-   "away": "KK Crvena zvezda Belgrade",
-   "odds": {
-    "admiralbet.ba": {
-     "ml": [
-      1.66,
-      2.23
-     ],
-     "total": {
-      "line": 172.5,
-      "o": 1.91,
-      "u": 1.9
-     },
-     "teamTotal": {
-      "home": {
-       "line": 87.5,
-       "o": 1.93,
-       "u": 1.88
-      },
-      "away": {
-       "line": 85.5,
-       "o": 1.94,
-       "u": 1.87
-      }
-     },
-     "spread": {
-      "line": -2.5,
-      "h": 1.87,
-      "a": 1.95
-     },
-     "h1": {
-      "spread": {
-       "line": -1.5,
-       "h": 1.97,
-       "a": 1.84
-      },
-      "total": {
-       "line": 86.5,
-       "o": 1.9,
-       "u": 1.9
-      }
-     }
-    },
-    "pinnacle": {
-     "ml": [
-      1.666,
-      2.28
-     ],
-     "total": {
-      "line": 173,
-      "o": 1.99,
-      "u": 1.862
-     },
-     "spread": {
-      "line": -3,
-      "h": 1.934,
-      "a": 1.917
-     },
-     "h1": {
-      "spread": {
-       "line": -1.5,
-       "h": 1.934,
-       "a": 1.917
-      },
-      "total": {
-       "line": 86.5,
-       "o": 1.961,
-       "u": 1.892
-      }
-     }
-    }
-   },
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
-   }
-  },
-  {
-   "id": "id1000027876883188",
-   "sport": "football",
-   "odds": {
-    "pinnacle": {
-     "h": 2,
-     "d": 3.27,
-     "a": 3.7,
-     "ou": {
-      "1.5": [
-       1.294,
-       3.26
-      ],
-      "2.5": [
-       1.98,
-       1.781
-      ],
-      "3.5": [
-       3.35,
-       1.279
-      ]
-     },
-     "btts": [
-      1.751,
-      1.99
-     ],
-     "ah": [
-      {
-       "line": -0.5,
-       "home": 2,
-       "away": 1.775
-      },
-      {
-       "line": 0,
-       "home": 1.432,
-       "away": 2.68
-      }
-     ]
-    },
-    "admiralbet.ba": {
-     "h": 2.04,
-     "d": 3.28,
-     "a": 3.55,
-     "ou": {
-      "0.5": [
-       1.02,
-       10.1
-      ],
-      "1.5": [
-       1.29,
-       3.26
-      ],
-      "2.5": [
-       1.97,
-       1.75
-      ],
-      "3.5": [
-       3.58,
-       1.25
-      ],
-      "4.5": [
-       7.5,
-       1.05
-      ]
-     },
-     "btts": [
-      1.83,
-      1.9
-     ]
-    }
-   },
-   "tournamentId": 278,
-   "start": "2026-11-20T19:30:00.000Z",
-   "home": "Liverpool Montevideo",
-   "away": "Montevideo Wanderers",
-   "fetched": {
-    "pinnacle": "2026-11-19T16:45:13.556Z",
-    "admiralbet.ba": "2026-11-19T08:53:34.794Z"
-   }
-  },
-  {
-   "id": "id1000027876883190",
-   "sport": "football",
-   "odds": {
-    "pinnacle": {
-     "h": 2.04,
-     "d": 3.13,
-     "a": 3.57,
-     "ou": {
-      "1.5": [
-       1.321,
-       2.98
-      ],
-      "2.5": [
-       2.07,
-       1.657
-      ],
-      "3.5": [
-       3.52,
-       1.235
-      ]
-     },
-     "btts": [
-      1.854,
-      1.826
-     ],
-     "ah": [
-      {
-       "line": -0.5,
-       "home": 2.02,
-       "away": 1.699
-      },
-      {
-       "line": 0,
-       "home": 1.44,
-       "away": 2.57
-      }
-     ]
-    },
-    "admiralbet.ba": {
-     "h": 2.14,
-     "d": 3.16,
-     "a": 3.39,
-     "ou": {
-      "0.5": [
-       1.03,
-       9.45
-      ],
-      "1.5": [
-       1.32,
-       3.08
-      ],
-      "2.5": [
-       2.06,
-       1.68
-      ],
-      "3.5": [
-       3.84,
-       1.22
-      ],
-      "4.5": [
-       8.25,
-       1.04
-      ]
-     },
-     "btts": [
-      1.88,
-      1.81
-     ]
-    }
-   },
-   "tournamentId": 278,
-   "start": "2026-11-20T19:30:00.000Z",
-   "home": "Racing Club Montevideo",
-   "away": "Central Espanol FC",
-   "fetched": {
-    "pinnacle": "2026-11-19T16:45:13.556Z",
-    "admiralbet.ba": "2026-11-19T08:53:34.794Z"
-   }
-  },
-  {
-   "id": "id1000027876883192",
-   "sport": "football",
-   "odds": {
-    "pinnacle": {
-     "h": 4.54,
-     "d": 3.74,
-     "a": 1.704,
-     "ou": {
-      "1.5": [
-       1.273,
-       3.45
-      ],
-      "2.5": [
-       1.909,
-       1.862
-      ],
-      "3.5": [
-       3.19,
-       1.312
-      ],
-      "4.5": [
-       6.13,
-       1.101
-      ]
-     },
-     "ah": [
-      {
-       "line": 0.5,
-       "home": 2.1,
-       "away": 1.694
-      },
-      {
-       "line": 1,
-       "home": 1.602,
-       "away": 2.27
-      }
-     ]
-    },
-    "admiralbet.ba": {
-     "h": 4.75,
-     "d": 3.54,
-     "a": 1.72,
-     "ou": {
-      "0.5": [
-       1.01,
-       11.1
-      ],
-      "1.5": [
-       1.26,
-       3.52
-      ],
-      "2.5": [
-       1.87,
-       1.84
-      ],
-      "3.5": [
-       3.31,
-       1.29
-      ],
-      "4.5": [
-       6.7,
-       1.07
-      ]
-     },
-     "btts": [
-      1.86,
-      1.83
-     ]
-    }
-   },
-   "tournamentId": 278,
-   "start": "2026-11-20T19:30:00.000Z",
-   "home": "CA Cerro",
-   "away": "Club Nacional de Football",
-   "fetched": {
-    "pinnacle": "2026-11-19T16:45:13.556Z",
-    "admiralbet.ba": "2026-11-19T08:53:34.794Z"
-   }
-  },
-  {
-   "id": "id1000003572513310",
-   "sport": "football",
-   "odds": {
-    "pinnacle": {
-     "h": 1.088,
-     "d": 13.19,
-     "a": 22.9,
-     "ou": {
-      "3.5": [
-       1.341,
-       3.17
-      ],
-      "4.5": [
-       1.9,
-       1.97
-      ],
-      "5.5": [
-       2.78,
-       1.423
-      ]
-     },
-     "btts": [
-      1.729,
-      2.15
-     ],
-     "ah": [
-      {
-       "line": -3.5,
-       "home": 2.4,
-       "away": 1.558
-      },
-      {
-       "line": -3,
-       "home": 1.98,
-       "away": 1.877
-      },
-      {
-       "line": -2.5,
-       "home": 1.645,
-       "away": 2.32
-      }
-     ],
-     "corners": {
-      "10.5": [
-       1.724,
-       2.03
-      ],
-      "11.5": [
-       2.17,
-       1.628
-      ]
-     },
-     "cards": {
-      "1.5": [
-       1.243,
-       3.81
-      ],
-      "2.5": [
-       1.84,
-       1.98
-      ],
-      "3.5": [
-       2.9,
-       1.387
-      ]
-     }
-    },
-    "admiralbet.ba": {
-     "h": 1.08,
-     "d": 13.5,
-     "a": 25,
-     "ou": {
-      "1.5": [
-       1.01,
-       14.7
-      ],
-      "2.5": [
-       1.13,
-       5.95
-      ],
-      "3.5": [
-       1.38,
-       3.03
-      ],
-      "4.5": [
-       1.86,
-       1.92
-      ],
-      "5.5": [
-       2.81,
-       1.43
-      ]
-     },
-     "btts": [
-      1.79,
-      2.07
-     ],
-     "corners": {
-      "10.5": [
-       1.67,
-       1.99
-      ]
-     },
-     "cards": {
-      "2.5": [
-       1.66,
-       2.01
-      ]
-     }
-    }
-   },
-   "tournamentId": 35,
-   "start": "2026-11-20T19:30:00.000Z",
-   "home": "Bayern Munich",
-   "away": "1. FC Cologne",
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:50:32.533Z"
-   }
-  },
-  {
-   "id": "id1000020272043332",
-   "sport": "football",
-   "odds": {
-    "pinnacle": {
-     "h": 1.757,
-     "d": 4.06,
-     "a": 4.48,
-     "ou": {
-      "1.5": [
-       1.207,
-       4.61
-      ],
-      "2.5": [
-       1.666,
-       2.28
-      ],
-      "3.5": [
-       2.61,
-       1.51
-      ],
-      "4.5": [
-       4.72,
-       1.2
-      ]
-     },
-     "btts": [
-      1.653,
-      2.28
-     ],
-     "ah": [
-      {
-       "line": -1.5,
-       "home": 2.98,
-       "away": 1.418
-      },
-      {
-       "line": -1,
-       "home": 2.31,
-       "away": 1.662
-      },
-      {
-       "line": -0.5,
-       "home": 1.751,
-       "away": 2.16
-      }
-     ],
-     "corners": {
-      "9.5": [
-       1.671,
-       2.16
-      ],
-      "10.5": [
-       2.08,
-       1.719
-      ]
-     }
-    },
-    "admiralbet.ba": {
-     "h": 1.75,
-     "d": 3.86,
-     "a": 4.4,
-     "ou": {
-      "0.5": [
-       1.01,
-       15.4
-      ],
-      "1.5": [
-       1.18,
-       4.7
-      ],
-      "2.5": [
-       1.61,
-       2.28
-      ],
-      "3.5": [
-       2.58,
-       1.49
-      ],
-      "4.5": [
-       4.7,
-       1.18
-      ],
-      "5.5": [
-       9.6,
-       1.05
-      ]
-     },
-     "btts": [
-      1.63,
-      2.28
-     ]
-    }
-   },
-   "tournamentId": 202,
-   "start": "2026-11-20T19:30:00.000Z",
-   "home": "Pogon Szczecin",
-   "away": "WKS Slask Wroclaw",
-   "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
-    "admiralbet.ba": "2026-11-20T08:50:32.533Z"
-   }
-  },
-  {
-   "id": "id1100013873263196",
-   "sport": "basketball",
-   "tournamentId": 138,
-   "start": "2026-11-20T19:45:00.000Z",
-   "home": "KK Partizan Belgrade",
-   "away": "Besiktas JK",
-   "odds": {
-    "admiralbet.ba": {
-     "ml": [
-      1.5,
-      2.6
-     ],
-     "total": {
-      "line": 165.5,
-      "o": 1.93,
-      "u": 1.88
-     },
-     "teamTotal": {
-      "home": {
-       "line": 84.5,
-       "o": 1.9,
-       "u": 1.91
-      },
-      "away": {
-       "line": 80.5,
-       "o": 1.87,
-       "u": 1.94
-      }
-     },
-     "spread": {
-      "line": -4.5,
-      "h": 1.91,
-      "a": 1.9
-     },
-     "h1": {
-      "spread": {
-       "line": -1.5,
-       "h": 1.83,
-       "a": 1.99
-      },
-      "total": {
-       "line": 82.5,
-       "o": 1.87,
-       "u": 1.94
-      }
-     }
-    },
-    "pinnacle": {
-     "ml": [
-      1.492,
-      2.71
-     ],
-     "total": {
-      "line": 165,
-      "o": 1.99,
-      "u": 1.869
-     },
-     "spread": {
-      "line": -5,
-      "h": 2.02,
-      "a": 1.84
-     },
-     "h1": {
-      "spread": {
-       "line": -2.5,
-       "h": 1.952,
-       "a": 1.9
-      },
-      "total": {
-       "line": 81.5,
-       "o": 1.862,
-       "u": 1.99
-      }
-     }
-    }
-   },
-   "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
-   }
-  },
-  {
-   "id": "id1000003472036308",
-   "sport": "football",
-   "odds": {
-    "pinnacle": {
-     "h": 2.24,
-     "d": 3.46,
-     "a": 3.38,
-     "ou": {
-      "1.5": [
-       1.284,
-       3.8
-      ],
-      "2.5": [
-       1.925,
-       1.961
-      ],
-      "3.5": [
-       3.24,
-       1.364
-      ]
-     },
-     "btts": [
-      1.724,
-      2.18
-     ],
-     "ah": [
-      {
-       "line": -0.5,
-       "home": 2.24,
-       "away": 1.719
-      },
-      {
-       "line": 0,
-       "home": 1.613,
-       "away": 2.44
-      }
-     ],
-     "corners": {
-      "8.5": [
-       1.632,
-       2.23
-      ],
-      "9.5": [
-       2.05,
-       1.746
-      ]
-     },
-     "cards": {
-      "2.5": [
-       1.315,
-       3.27
-      ],
-      "3.5": [
-       1.763,
-       2.08
-      ],
-      "4.5": [
-       2.66,
-       1.45
-      ]
-     }
-    },
-    "admiralbet.ba": {
-     "h": 2.26,
-     "d": 3.42,
-     "a": 3.28,
-     "ou": {
-      "0.5": [
-       1.04,
-       11.5
-      ],
-      "1.5": [
-       1.29,
-       3.66
-      ],
-      "2.5": [
-       1.9,
-       1.91
-      ],
-      "3.5": [
-       3.35,
-       1.33
-      ],
-      "4.5": [
-       6.7,
-       1.11
-      ],
-      "5.5": [
-       14.8,
-       1.02
-      ]
-     },
-     "btts": [
-      1.76,
-      2.09
-     ],
-     "corners": {
-      "8.5": [
-       1.67,
-       2.04
-      ]
-     },
-     "cards": {
-      "3.5": [
-       1.65,
-       2.03
-      ]
-     }
-    }
-   },
-   "tournamentId": 34,
-   "start": "2026-11-20T19:45:00.000Z",
-   "home": "ESTAC Troyes",
-   "away": "Le Havre AC",
-   "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
-    "admiralbet.ba": "2026-11-20T08:50:32.533Z"
-   }
-  },
-  {
-   "id": "id1000003872366452",
-   "sport": "football",
-   "odds": {
-    "pinnacle": {
-     "h": 2.02,
-     "d": 3.97,
-     "a": 3.5,
-     "ou": {
-      "1.5": [
-       1.187,
-       5.04
-      ],
-      "2.5": [
-       1.628,
-       2.37
-      ],
-      "3.5": [
-       2.6,
-       1.537
-      ],
-      "4.5": [
-       4.38,
-       1.23
-      ]
-     },
-     "btts": [
-      1.558,
-      2.52
-     ],
-     "ah": [
-      {
-       "line": -1,
-       "home": 2.87,
-       "away": 1.465
-      },
-      {
-       "line": -0.5,
-       "home": 2.03,
-       "away": 1.884
-      },
-      {
-       "line": 0,
-       "home": 1.526,
-       "away": 2.65
-      }
-     ],
-     "corners": {
-      "9.5": [
-       1.636,
-       2.22
-      ],
-      "10.5": [
-       2.03,
-       1.769
-      ]
-     }
-    }
-   },
-   "tournamentId": 38,
-   "start": "2026-11-20T19:45:00.000Z",
-   "home": "Cercle Brugge",
-   "away": "KVC Westerlo",
-   "fetched": {
-    "pinnacle": "2026-11-20T08:52:59.126Z"
-   }
-  },
-  {
-   "id": "id1000000872478708",
-   "sport": "football",
-   "odds": {
-    "pinnacle": {
-     "h": 1.51,
-     "d": 4.62,
-     "a": 6.42,
-     "ou": {
-      "2.5": [
-       1.719,
-       2.2
-      ],
-      "3.5": [
-       2.79,
-       1.465
-      ]
-     },
-     "btts": [
-      1.877,
-      1.98
-     ],
-     "ah": [
-      {
-       "line": -1.5,
-       "home": 2.41,
-       "away": 1.621
-      },
-      {
-       "line": -1,
-       "home": 1.833,
-       "away": 2.09
-      },
-      {
-       "line": -0.5,
-       "home": 1.502,
-       "away": 2.73
-      }
-     ],
-     "corners": {
-      "9.5": [
-       1.675,
-       2.18
-      ],
-      "10.5": [
-       2.08,
-       1.74
-      ]
-     },
-     "cards": {
-      "4.5": [
-       1.709,
-       2.12
-      ],
-      "5.5": [
-       2.36,
-       1.578
-      ]
-     }
-    },
-    "admiralbet.ba": {
-     "h": 1.52,
-     "d": 4.5,
-     "a": 6.25,
-     "ou": {
-      "0.5": [
-       1.02,
-       13.9
-      ],
-      "1.5": [
-       1.22,
-       4.3
-      ],
-      "2.5": [
-       1.72,
-       2.14
-      ],
-      "3.5": [
-       2.84,
-       1.43
-      ],
-      "4.5": [
-       5.35,
-       1.15
-      ],
-      "5.5": [
-       11.3,
-       1.04
-      ]
-     },
-     "btts": [
-      1.86,
-      1.95
-     ],
-     "corners": {
-      "9.5": [
-       1.69,
-       1.97
-      ]
-     },
-     "cards": {
-      "4.5": [
-       1.57,
-       2.15
-      ]
-     }
-    }
-   },
-   "tournamentId": 8,
-   "start": "2026-11-20T20:00:00.000Z",
-   "home": "Athletic Bilbao",
-   "away": "Espanyol Barcelona",
-   "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
-    "admiralbet.ba": "2026-11-20T08:50:32.533Z"
-   }
-  },
-  {
    "id": "id1100013273697002",
    "sport": "basketball",
    "odds": {
     "pinnacle": {
      "ml": [
-      1.434,
-      3.02
+      1.409,
+      3.19
      ],
      "total": {
       "line": 219,
-      "o": 1.99,
-      "u": 1.9
+      "o": 1.943,
+      "u": 1.943
      },
      "teamTotal": {
       "home": {
-       "line": 112.5,
-       "o": 1.869,
-       "u": 1.99
+       "line": 113.5,
+       "o": 1.934,
+       "u": 1.917
       },
       "away": {
        "line": 106.5,
-       "o": 2,
-       "u": 1.854
+       "o": 2.04,
+       "u": 1.826
       }
      },
      "spread": {
-      "line": -6.5,
-      "h": 1.877,
-      "a": 2.04
+      "line": -7.5,
+      "h": 1.943,
+      "a": 1.961
      },
      "h1": {
       "spread": {
        "line": -3.5,
-       "h": 1.97,
-       "a": 1.917
+       "h": 1.925,
+       "a": 1.961
       },
       "total": {
        "line": 112.5,
-       "o": 1.97,
-       "u": 1.9
+       "o": 1.952,
+       "u": 1.917
       }
      }
     },
     "admiralbet.ba": {
      "ml": [
-      1.41,
-      2.9
+      1.39,
+      3
      ],
      "total": {
       "line": 218.5,
-      "o": 1.92,
-      "u": 1.89
+      "o": 1.88,
+      "u": 1.93
      },
      "teamTotal": {
       "home": {
        "line": 112.5,
-       "o": 1.9,
-       "u": 1.88
+       "o": 1.83,
+       "u": 1.95
       },
       "away": {
        "line": 105.5,
@@ -3041,15 +73,15 @@
       }
      },
      "spread": {
-      "line": -6.5,
-      "h": 1.88,
-      "a": 1.93
+      "line": -7.5,
+      "h": 1.92,
+      "a": 1.89
      },
      "h1": {
       "spread": {
        "line": -3.5,
-       "h": 1.87,
-       "a": 1.9
+       "h": 1.84,
+       "a": 1.94
       },
       "total": {
        "line": 112.5,
@@ -3064,8 +96,8 @@
    "home": "Atlanta Hawks",
    "away": "Charlotte Hornets",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -3074,76 +106,76 @@
    "odds": {
     "pinnacle": {
      "ml": [
-      3.18,
-      1.401
+      3.22,
+      1.404
      ],
      "total": {
-      "line": 222.5,
-      "o": 1.97,
-      "u": 1.917
+      "line": 223.5,
+      "o": 1.909,
+      "u": 1.98
      },
      "teamTotal": {
       "home": {
        "line": 108.5,
-       "o": 2,
-       "u": 1.854
+       "o": 1.892,
+       "u": 1.961
       },
       "away": {
-       "line": 113.5,
-       "o": 1.847,
-       "u": 2.01
+       "line": 115.5,
+       "o": 1.925,
+       "u": 1.925
       }
      },
      "spread": {
       "line": 6.5,
-      "h": 1.97,
-      "a": 1.934
+      "h": 1.98,
+      "a": 1.925
      },
      "h1": {
       "spread": {
-       "line": 3,
-       "h": 2.02,
-       "a": 1.869
+       "line": 3.5,
+       "h": 1.925,
+       "a": 1.961
       },
       "total": {
        "line": 114.5,
-       "o": 1.99,
-       "u": 1.862
+       "o": 1.892,
+       "u": 1.98
       }
      }
     },
     "admiralbet.ba": {
      "ml": [
-      2.9,
-      1.42
+      3.2,
+      1.35
      ],
      "total": {
-      "line": 222.5,
-      "o": 1.94,
-      "u": 1.88
+      "line": 223.5,
+      "o": 1.9,
+      "u": 1.91
      },
      "teamTotal": {
       "home": {
        "line": 108.5,
-       "o": 1.94,
-       "u": 1.84
+       "o": 1.9,
+       "u": 1.87
       },
       "away": {
-       "line": 114.5,
-       "o": 1.95,
-       "u": 1.83
+       "line": 115.5,
+       "o": 1.93,
+       "u": 1.84
       }
      },
      "spread": {
       "line": 6.5,
-      "h": 1.87,
-      "a": 1.94
+      "h": 1.97,
+      "a": 1.85
      },
      "h1": {
       "spread": {
        "line": 3.5,
-       "h": 1.86,
-       "a": 1.91
+       "h": 1.92,
+       "a": 1.85
       },
       "total": {
        "line": 114.5,
@@ -3158,8 +190,8 @@
    "home": "Brooklyn Nets",
    "away": "Orlando Magic",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -3168,41 +200,41 @@
    "odds": {
     "pinnacle": {
      "ml": [
-      1.462,
-      2.91
+      1.46,
+      2.96
      ],
      "total": {
       "line": 234.5,
-      "o": 1.98,
-      "u": 1.9
+      "o": 1.934,
+      "u": 1.952
      },
      "teamTotal": {
       "home": {
        "line": 119.5,
-       "o": 1.9,
-       "u": 1.943
+       "o": 1.854,
+       "u": 2
       },
       "away": {
        "line": 114.5,
-       "o": 1.97,
-       "u": 1.884
+       "o": 1.934,
+       "u": 1.917
       }
      },
      "spread": {
-      "line": -5.5,
-      "h": 1.9,
-      "a": 2
+      "line": -6,
+      "h": 1.961,
+      "a": 1.943
      },
      "h1": {
       "spread": {
        "line": -3.5,
-       "h": 1.98,
-       "a": 1.909
+       "h": 1.99,
+       "a": 1.9
       },
       "total": {
        "line": 114.5,
-       "o": 1.943,
-       "u": 1.925
+       "o": 1.98,
+       "u": 1.884
       }
      }
     },
@@ -3212,37 +244,37 @@
       2.8
      ],
      "total": {
-      "line": 233.5,
-      "o": 1.88,
-      "u": 1.93
+      "line": 234.5,
+      "o": 1.9,
+      "u": 1.91
      },
      "teamTotal": {
       "home": {
-       "line": 119.5,
-       "o": 1.87,
-       "u": 1.9
+       "line": 120.5,
+       "o": 1.95,
+       "u": 1.83
       },
       "away": {
        "line": 114.5,
-       "o": 1.92,
-       "u": 1.85
+       "o": 1.89,
+       "u": 1.89
       }
      },
      "spread": {
       "line": -5.5,
-      "h": 1.86,
-      "a": 1.95
+      "h": 1.85,
+      "a": 1.96
      },
      "h1": {
       "spread": {
        "line": -3.5,
-       "h": 1.95,
-       "a": 1.83
+       "h": 1.94,
+       "a": 1.84
       },
       "total": {
        "line": 114.5,
-       "o": 1.92,
-       "u": 1.86
+       "o": 1.86,
+       "u": 1.92
       }
      }
     }
@@ -3252,8 +284,8 @@
    "home": "Cleveland Cavaliers",
    "away": "Indiana Pacers",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -3262,76 +294,76 @@
    "odds": {
     "pinnacle": {
      "ml": [
-      1.378,
-      3.3
+      1.386,
+      3.26
      ],
      "total": {
-      "line": 216.5,
-      "o": 1.98,
-      "u": 1.9
+      "line": 215.5,
+      "o": 1.869,
+      "u": 2.02
      },
      "teamTotal": {
       "home": {
        "line": 111.5,
-       "o": 1.892,
-       "u": 1.961
+       "o": 1.952,
+       "u": 1.9
       },
       "away": {
        "line": 104.5,
-       "o": 1.925,
-       "u": 1.925
+       "o": 1.909,
+       "u": 1.943
       }
      },
      "spread": {
       "line": -7,
-      "h": 1.952,
-      "a": 1.952
+      "h": 1.97,
+      "a": 1.925
      },
      "h1": {
       "spread": {
        "line": -4,
-       "h": 1.934,
-       "a": 1.952
+       "h": 1.952,
+       "a": 1.934
       },
       "total": {
        "line": 104.5,
-       "o": 1.961,
-       "u": 1.909
+       "o": 1.862,
+       "u": 2.01
       }
      }
     },
     "admiralbet.ba": {
      "ml": [
-      1.39,
-      3.05
+      1.37,
+      3.1
      ],
      "total": {
       "line": 216.5,
-      "o": 1.9,
-      "u": 1.91
+      "o": 1.92,
+      "u": 1.89
      },
      "teamTotal": {
       "home": {
        "line": 111.5,
-       "o": 1.9,
-       "u": 1.87
+       "o": 1.89,
+       "u": 1.88
       },
       "away": {
-       "line": 105.5,
-       "o": 1.94,
-       "u": 1.84
+       "line": 104.5,
+       "o": 1.85,
+       "u": 1.93
       }
      },
      "spread": {
       "line": -6.5,
-      "h": 1.9,
-      "a": 1.91
+      "h": 1.86,
+      "a": 1.96
      },
      "h1": {
       "spread": {
        "line": -3.5,
-       "h": 1.88,
-       "a": 1.89
+       "h": 1.86,
+       "a": 1.92
       },
       "total": {
        "line": 104.5,
@@ -3346,8 +378,8 @@
    "home": "Detroit Pistons",
    "away": "Toronto Raptors",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -3356,81 +388,81 @@
    "odds": {
     "pinnacle": {
      "ml": [
-      1.735,
-      2.23
+      1.769,
+      2.2
      ],
      "total": {
       "line": 238.5,
-      "o": 1.952,
-      "u": 1.934
+      "o": 1.961,
+      "u": 1.925
      },
      "teamTotal": {
       "home": {
        "line": 120.5,
-       "o": 1.917,
-       "u": 1.934
+       "o": 1.952,
+       "u": 1.9
       },
       "away": {
        "line": 118.5,
-       "o": 2.01,
-       "u": 1.847
+       "o": 1.99,
+       "u": 1.869
       }
      },
      "spread": {
-      "line": -2.5,
-      "h": 1.934,
-      "a": 1.97
+      "line": -2,
+      "h": 1.917,
+      "a": 1.99
      },
      "h1": {
       "spread": {
        "line": -1.5,
-       "h": 1.961,
-       "a": 1.925
+       "h": 1.99,
+       "a": 1.9
       },
       "total": {
        "line": 122.5,
-       "o": 1.909,
-       "u": 1.961
+       "o": 1.943,
+       "u": 1.925
       }
      }
     },
     "admiralbet.ba": {
      "ml": [
-      1.71,
-      2.14
+      1.73,
+      2.12
      ],
      "total": {
       "line": 238.5,
-      "o": 1.91,
-      "u": 1.9
+      "o": 1.94,
+      "u": 1.87
      },
      "teamTotal": {
       "home": {
-       "line": 120.5,
-       "o": 1.92,
-       "u": 1.86
+       "line": 119.5,
+       "o": 1.83,
+       "u": 1.94
       },
       "away": {
        "line": 118.5,
-       "o": 1.93,
-       "u": 1.85
+       "o": 1.94,
+       "u": 1.84
       }
      },
      "spread": {
       "line": -2.5,
-      "h": 1.9,
-      "a": 1.91
+      "h": 1.93,
+      "a": 1.88
      },
      "h1": {
       "spread": {
        "line": -1.5,
-       "h": 1.93,
-       "a": 1.85
+       "h": 1.95,
+       "a": 1.83
       },
       "total": {
-       "line": 123.5,
-       "o": 1.86,
-       "u": 1.92
+       "line": 122.5,
+       "o": 1.91,
+       "u": 1.87
       }
      }
     }
@@ -3440,8 +472,8 @@
    "home": "Chicago Bulls",
    "away": "Washington Wizards",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -3451,75 +483,75 @@
     "pinnacle": {
      "ml": [
       1.175,
-      5.53
+      5.52
      ],
      "total": {
-      "line": 228.5,
+      "line": 227.5,
       "o": 1.917,
       "u": 1.97
      },
      "teamTotal": {
       "home": {
-       "line": 120.5,
-       "o": 1.961,
-       "u": 1.884
+       "line": 119.5,
+       "o": 1.892,
+       "u": 1.961
       },
       "away": {
        "line": 108.5,
-       "o": 1.909,
-       "u": 1.943
+       "o": 2,
+       "u": 1.862
       }
      },
      "spread": {
       "line": -12,
-      "h": 2.03,
-      "a": 1.877
+      "h": 1.99,
+      "a": 1.917
      },
      "h1": {
       "spread": {
        "line": -7,
-       "h": 1.934,
-       "a": 1.952
+       "h": 1.943,
+       "a": 1.943
       },
       "total": {
-       "line": 117.5,
-       "o": 1.9,
-       "u": 1.952
+       "line": 116.5,
+       "o": 1.877,
+       "u": 1.98
       }
      }
     },
     "admiralbet.ba": {
      "ml": [
-      1.18,
-      5
+      1.17,
+      5.2
      ],
      "total": {
-      "line": 228.5,
-      "o": 1.87,
-      "u": 1.94
+      "line": 227.5,
+      "o": 1.9,
+      "u": 1.91
      },
      "teamTotal": {
       "home": {
-       "line": 120.5,
-       "o": 1.92,
-       "u": 1.85
+       "line": 119.5,
+       "o": 1.87,
+       "u": 1.9
       },
       "away": {
-       "line": 108.5,
-       "o": 1.87,
-       "u": 1.91
+       "line": 107.5,
+       "o": 1.83,
+       "u": 1.94
       }
      },
      "spread": {
       "line": -11.5,
-      "h": 1.92,
-      "a": 1.89
+      "h": 1.9,
+      "a": 1.91
      },
      "h1": {
       "spread": {
        "line": -6.5,
-       "h": 1.9,
-       "a": 1.87
+       "h": 1.89,
+       "a": 1.88
       },
       "total": {
        "line": 117.5,
@@ -3534,8 +566,8 @@
    "home": "Oklahoma City Thunder",
    "away": "New Orleans Pelicans",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -3544,76 +576,76 @@
    "odds": {
     "pinnacle": {
      "ml": [
-      2.55,
-      1.578
+      2.6,
+      1.555
      ],
      "total": {
-      "line": 225,
-      "o": 1.943,
-      "u": 1.943
+      "line": 226,
+      "o": 1.952,
+      "u": 1.934
      },
      "teamTotal": {
       "home": {
        "line": 110.5,
-       "o": 1.909,
-       "u": 1.943
+       "o": 1.9,
+       "u": 1.952
       },
       "away": {
        "line": 114.5,
-       "o": 1.892,
-       "u": 1.961
+       "o": 1.819,
+       "u": 2.05
       }
      },
      "spread": {
       "line": 4.5,
-      "h": 1.925,
-      "a": 1.98
+      "h": 1.961,
+      "a": 1.943
      },
      "h1": {
       "spread": {
        "line": 2,
-       "h": 1.917,
-       "a": 1.97
+       "h": 1.934,
+       "a": 1.952
       },
       "total": {
-       "line": 115.5,
-       "o": 1.892,
-       "u": 1.98
+       "line": 116.5,
+       "o": 1.961,
+       "u": 1.892
       }
      }
     },
     "admiralbet.ba": {
      "ml": [
-      2.47,
-      1.55
+      2.5,
+      1.54
      ],
      "total": {
       "line": 225.5,
-      "o": 1.94,
-      "u": 1.87
+      "o": 1.9,
+      "u": 1.91
      },
      "teamTotal": {
       "home": {
        "line": 110.5,
-       "o": 1.89,
-       "u": 1.89
+       "o": 1.85,
+       "u": 1.93
       },
       "away": {
        "line": 114.5,
-       "o": 1.88,
-       "u": 1.9
+       "o": 1.85,
+       "u": 1.93
       }
      },
      "spread": {
       "line": 4.5,
-      "h": 1.91,
-      "a": 1.9
+      "h": 1.9,
+      "a": 1.91
      },
      "h1": {
       "spread": {
        "line": 2.5,
        "h": 1.86,
-       "a": 1.91
+       "a": 1.92
       },
       "total": {
        "line": 116.5,
@@ -3628,8 +660,8 @@
    "home": "Utah Jazz",
    "away": "Phoenix Suns",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -3638,64 +670,64 @@
    "odds": {
     "pinnacle": {
      "ml": [
-      1.854,
-      2.04
+      1.826,
+      2.07
      ],
      "total": {
-      "line": 226.5,
-      "o": 1.934,
-      "u": 1.934
+      "line": 227.5,
+      "o": 1.869,
+      "u": 2
      },
      "teamTotal": {
       "home": {
-       "line": 113.5,
-       "o": 1.892,
-       "u": 1.943
-      },
-      "away": {
-       "line": 112.5,
+       "line": 114.5,
        "o": 1.9,
        "u": 1.934
+      },
+      "away": {
+       "line": 113.5,
+       "o": 1.925,
+       "u": 1.909
       }
      },
      "spread": {
       "line": -1.5,
-      "h": 1.925,
-      "a": 1.961
+      "h": 1.917,
+      "a": 1.97
      },
      "h1": {
       "spread": {
        "line": -1,
        "h": 1.97,
-       "a": 1.909
+       "a": 1.917
       },
       "total": {
        "line": 110.5,
-       "o": 1.99,
-       "u": 1.884
+       "o": 1.909,
+       "u": 1.961
       }
      }
     },
     "admiralbet.ba": {
      "ml": [
-      1.8,
-      2.02
+      1.79,
+      2.03
      ],
      "total": {
-      "line": 226.5,
-      "o": 1.9,
-      "u": 1.91
+      "line": 227.5,
+      "o": 1.93,
+      "u": 1.88
      },
      "teamTotal": {
       "home": {
-       "line": 113.5,
-       "o": 1.84,
-       "u": 1.93
+       "line": 114.5,
+       "o": 1.93,
+       "u": 1.84
       },
       "away": {
-       "line": 112.5,
-       "o": 1.86,
-       "u": 1.92
+       "line": 113.5,
+       "o": 1.95,
+       "u": 1.83
       }
      },
      "spread": {
@@ -3722,8 +754,8 @@
    "home": "Denver Nuggets",
    "away": "Houston Rockets",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -3732,41 +764,41 @@
    "odds": {
     "pinnacle": {
      "ml": [
-      1.121,
-      7.13
+      1.126,
+      6.94
      ],
      "total": {
       "line": 229.5,
-      "o": 1.943,
-      "u": 1.943
+      "o": 1.952,
+      "u": 1.934
      },
      "teamTotal": {
       "home": {
        "line": 122.5,
-       "o": 2.01,
-       "u": 1.847
+       "o": 2.06,
+       "u": 1.806
       },
       "away": {
        "line": 107.5,
-       "o": 1.9,
-       "u": 1.952
+       "o": 1.884,
+       "u": 1.97
       }
      },
      "spread": {
       "line": -14.5,
-      "h": 1.97,
-      "a": 1.934
+      "h": 2.02,
+      "a": 1.892
      },
      "h1": {
       "spread": {
        "line": -8.5,
-       "h": 1.934,
-       "a": 1.952
+       "h": 1.952,
+       "a": 1.934
       },
       "total": {
        "line": 118.5,
-       "o": 1.97,
-       "u": 1.884
+       "o": 1.943,
+       "u": 1.909
       }
      }
     },
@@ -3783,25 +815,25 @@
      "teamTotal": {
       "home": {
        "line": 122.5,
-       "o": 1.93,
-       "u": 1.85
+       "o": 1.95,
+       "u": 1.83
       },
       "away": {
        "line": 107.5,
-       "o": 1.93,
-       "u": 1.85
+       "o": 1.91,
+       "u": 1.86
       }
      },
      "spread": {
       "line": -14.5,
-      "h": 1.91,
-      "a": 1.9
+      "h": 1.93,
+      "a": 1.88
      },
      "h1": {
       "spread": {
        "line": -8.5,
-       "h": 1.91,
-       "a": 1.87
+       "h": 1.89,
+       "a": 1.88
       },
       "total": {
        "line": 118.5,
@@ -3816,8 +848,8 @@
    "home": "Los Angeles Lakers",
    "away": "Sacramento Kings",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -3897,13 +929,13 @@
    "odds": {
     "pinnacle": {
      "ml": [
-      2.36,
-      1.595
+      2.32,
+      1.617
      ],
      "reg": [
-      3.19,
-      3.89,
-      2
+      3.08,
+      3.92,
+      2.04
      ],
      "p1total": {
       "line": 1.5,
@@ -3917,25 +949,34 @@
      },
      "hcpReg": {
       "line": 1.5,
-      "h": 1.448,
-      "a": 2.65
+      "h": 1.432,
+      "a": 2.7
      }
     },
     "admiralbet.ba": {
      "ml": [
-      2.09,
-      1.72
+      2.18,
+      1.66
      ],
      "reg": [
-      2.7,
-      4,
-      2.16
+      2.9,
+      4.1,
+      2.1
      ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.02,
+      "u": 1.71
+     },
      "totalReg": {
       "line": 5.5,
-      "o": 2.11,
-      "u": 1.65
-     }
+      "o": 2.15,
+      "u": 1.66
+     },
+     "btts": [
+      1.12,
+      5.4
+     ]
     }
    },
    "tournamentId": 268,
@@ -3943,8 +984,8 @@
    "home": "Neftekhimik Nizhnekamsk",
    "away": "Spartak Moscow",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -3953,12 +994,12 @@
    "odds": {
     "pinnacle": {
      "ml": [
-      1.598,
-      2.31
+      1.602,
+      2.3
      ],
      "reg": [
-      2.07,
-      3.49,
+      2.05,
+      3.56,
       3.16
      ],
      "p1total": {
@@ -3968,13 +1009,30 @@
      },
      "totalReg": {
       "line": 5,
-      "o": 1.925,
-      "u": 1.862
+      "o": 1.917,
+      "u": 1.869
      },
      "hcpReg": {
       "line": -1.5,
-      "h": 2.7,
-      "a": 1.413
+      "h": 2.69,
+      "a": 1.416
+     }
+    },
+    "admiralbet.ba": {
+     "reg": [
+      1.99,
+      3.75,
+      2.9
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.07,
+      "u": 1.68
+     },
+     "totalReg": {
+      "line": 4.5,
+      "o": 1.63,
+      "u": 2.14
      }
     }
    },
@@ -3983,7 +1041,8 @@
    "home": "Kiekko-Espoo",
    "away": "Assat Pori",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -4624,33 +1683,33 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 2.24,
-     "d": 3.39,
-     "a": 3.46,
+     "h": 2.33,
+     "d": 3.5,
+     "a": 3.17,
      "ou": {
       "1.5": [
-       1.383,
-       3.15
+       1.375,
+       3.18
       ],
       "2.5": [
-       2.22,
-       1.719
+       2.19,
+       1.729
       ]
      },
      "btts": [
-      1.909,
-      1.943
+      1.952,
+      1.9
      ],
      "ah": [
       {
        "line": -0.5,
-       "home": 2.23,
-       "away": 1.719
+       "home": 2.32,
+       "away": 1.671
       },
       {
        "line": 0,
-       "home": 1.595,
-       "away": 2.48
+       "home": 1.684,
+       "away": 2.3
       }
      ],
      "corners": {
@@ -4665,6 +1724,16 @@
       "10.5": [
        2.32,
        1.584
+      ]
+     },
+     "cards": {
+      "3.5": [
+       1.492,
+       2.59
+      ],
+      "4.5": [
+       2.18,
+       1.675
       ]
      }
     },
@@ -4711,7 +1780,7 @@
    "home": "Deportivo Alaves",
    "away": "RC Deportivo de A Coruna",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -4962,28 +2031,28 @@
    "odds": {
     "pinnacle": {
      "ml": [
-      3.08,
-      1.369
+      3.13,
+      1.357
      ],
      "reg": [
-      4.37,
-      4.08,
-      1.671
+      4.48,
+      4.07,
+      1.657
      ],
      "p1total": {
       "line": 1.5,
-      "o": 2.14,
-      "u": 1.719
+      "o": 2.18,
+      "u": 1.694
      },
      "totalReg": {
       "line": 5,
-      "o": 1.884,
-      "u": 1.934
+      "o": 2,
+      "u": 1.826
      },
      "hcpReg": {
       "line": 1.5,
-      "h": 1.671,
-      "a": 2.15
+      "h": 1.68,
+      "a": 2.14
      }
     },
     "admiralbet.ba": {
@@ -4992,20 +2061,29 @@
       1.36
      ],
      "reg": [
-      4.4,
-      4.4,
-      1.6
+      4.5,
+      4.6,
+      1.62
      ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.03,
+      "u": 1.7
+     },
      "totalReg": {
       "line": 5.5,
-      "o": 2.04,
-      "u": 1.7
+      "o": 2.16,
+      "u": 1.65
      },
      "hcpReg": {
       "line": 1.5,
       "h": 1.71,
-      "a": 2.02
-     }
+      "a": 2.06
+     },
+     "btts": [
+      1.15,
+      4.8
+     ]
     }
    },
    "tournamentId": 268,
@@ -5013,8 +2091,8 @@
    "home": "HC Sochi",
    "away": "SKA Saint Petersburg",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T08:52:29.797Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -5048,9 +2126,9 @@
       2.01
      ],
      "reg": [
-      2.25,
-      3.9,
-      2.65
+      2.29,
+      4,
+      2.7
      ],
      "p1total": {
       "line": 1.5,
@@ -5059,8 +2137,8 @@
      },
      "totalReg": {
       "line": 5.5,
-      "o": 1.99,
-      "u": 1.73
+      "o": 2.01,
+      "u": 1.74
      },
      "btts": [
       1.11,
@@ -5073,8 +2151,8 @@
    "home": "Frolunda HC",
    "away": "Brynas IF",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -5113,9 +2191,9 @@
       2.48
      ],
      "reg": [
-      1.85,
-      4,
-      3.45
+      1.88,
+      4.1,
+      3.55
      ],
      "p1total": {
       "line": 1.5,
@@ -5124,8 +2202,8 @@
      },
      "totalReg": {
       "line": 4.5,
-      "o": 1.66,
-      "u": 2.09
+      "o": 1.68,
+      "u": 2.11
      },
      "btts": [
       1.15,
@@ -5138,8 +2216,8 @@
    "home": "Rogle BK",
    "away": "Timraa IK",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -5173,18 +2251,18 @@
       1.88
      ],
      "reg": [
-      2.46,
-      3.8,
-      2.43
+      2.5,
+      3.9,
+      2.48
      ],
      "p1total": {
       "line": 1.5,
-      "o": 2.12,
+      "o": 2.13,
       "u": 1.64
      },
      "totalReg": {
       "line": 4.5,
-      "o": 1.69,
+      "o": 1.72,
       "u": 2.05
      },
      "btts": [
@@ -5198,8 +2276,8 @@
    "home": "Djurgardens IF",
    "away": "Lulea Hockey",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -5207,70 +2285,70 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 1.275,
-     "d": 7.04,
-     "a": 8.67,
+     "h": 1.261,
+     "d": 7.21,
+     "a": 9.16,
      "ou": {
       "2.5": [
-       1.333,
-       3.3
+       1.324,
+       3.36
       ],
       "3.5": [
-       1.917,
-       1.952
+       1.892,
+       1.98
       ],
       "4.5": [
-       3.03,
-       1.384
+       2.98,
+       1.395
       ]
      },
      "btts": [
-      1.714,
-      2.17
+      1.735,
+      2.15
      ],
      "ah": [
       {
        "line": -2.5,
-       "home": 2.79,
-       "away": 1.465
+       "home": 2.69,
+       "away": 1.495
       },
       {
        "line": -2,
-       "home": 2.22,
-       "away": 1.709
+       "home": 2.13,
+       "away": 1.763
       },
       {
        "line": -1.5,
-       "home": 1.74,
-       "away": 2.17
+       "home": 1.699,
+       "away": 2.24
       }
      ],
      "corners": {
       "9.5": [
        1.609,
-       2.24
+       2.25
       ],
       "10.5": [
        2.02,
-       1.793
+       1.8
       ],
       "11.5": [
        2.57,
-       1.467
+       1.469
       ]
      },
      "cards": {
       "2.5": [
-       1.386,
-       2.87
+       1.389,
+       2.89
       ],
       "3.5": [
-       1.952,
-       1.847
+       1.961,
+       1.854
       ],
       "4.5": [
-       3.04,
-       1.347
+       3.06,
+       1.352
       ]
      }
     },
@@ -5323,7 +2401,7 @@
    "home": "Bayer Leverkusen",
    "away": "SC Paderborn 07",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -5332,9 +2410,9 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 2.43,
+     "h": 2.48,
      "d": 4.06,
-     "a": 2.68,
+     "a": 2.63,
      "ou": {
       "2.5": [
        1.35,
@@ -5345,7 +2423,7 @@
        2.02
       ],
       "4.5": [
-       2.83,
+       2.84,
        1.438
       ]
      },
@@ -5356,18 +2434,18 @@
      "ah": [
       {
        "line": -0.5,
-       "home": 2.42,
-       "away": 1.617
+       "home": 2.46,
+       "away": 1.598
       },
       {
        "line": 0,
-       "home": 1.854,
-       "away": 2.06
+       "home": 1.892,
+       "away": 2.01
       },
       {
        "line": 0.5,
-       "home": 1.52,
-       "away": 2.67
+       "home": 1.54,
+       "away": 2.61
       }
      ],
      "corners": {
@@ -5386,16 +2464,16 @@
      },
      "cards": {
       "2.5": [
-       1.338,
-       3.09
+       1.341,
+       3.12
       ],
       "3.5": [
        1.884,
-       1.917
+       1.934
       ],
       "4.5": [
-       2.74,
-       1.418
+       2.75,
+       1.425
       ]
      }
     },
@@ -5448,7 +2526,7 @@
    "home": "Eintracht Frankfurt",
    "away": "TSG Hoffenheim",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -5457,13 +2535,13 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 6.2,
+     "h": 6.23,
      "d": 4.85,
      "a": 1.497,
      "ou": {
       "2.5": [
-       1.448,
-       2.8
+       1.446,
+       2.81
       ],
       "3.5": [
        2.12,
@@ -5477,17 +2555,17 @@
      "ah": [
       {
        "line": 0.5,
-       "home": 2.75,
-       "away": 1.485
+       "home": 2.76,
+       "away": 1.483
       },
       {
        "line": 1,
-       "home": 2.15,
-       "away": 1.763
+       "home": 2.16,
+       "away": 1.757
       },
       {
        "line": 1.5,
-       "home": 1.689,
+       "home": 1.694,
        "away": 2.27
       }
      ],
@@ -5503,16 +2581,16 @@
      },
      "cards": {
       "2.5": [
-       1.386,
-       2.87
+       1.387,
+       2.9
       ],
       "3.5": [
        1.97,
-       1.833
+       1.854
       ],
       "4.5": [
        2.99,
-       1.358
+       1.366
       ]
      }
     },
@@ -5565,7 +2643,7 @@
    "home": "Union Berlin",
    "away": "RB Leipzig",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -5574,38 +2652,38 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 5.2,
-     "d": 4.56,
-     "a": 1.606,
+     "h": 5.11,
+     "d": 4.54,
+     "a": 1.617,
      "ou": {
       "2.5": [
-       1.49,
-       2.66
+       1.492,
+       2.65
       ],
       "3.5": [
-       2.22,
-       1.699
+       2.23,
+       1.694
       ]
      },
      "btts": [
-      1.558,
-      2.52
+      1.555,
+      2.53
      ],
      "ah": [
       {
        "line": 0.5,
-       "home": 2.46,
-       "away": 1.598
+       "home": 2.43,
+       "away": 1.609
       },
       {
        "line": 1,
-       "home": 1.917,
-       "away": 1.99
+       "home": 1.892,
+       "away": 2.02
       },
       {
        "line": 1.5,
-       "home": 1.561,
-       "away": 2.55
+       "home": 1.549,
+       "away": 2.59
       }
      ],
      "corners": {
@@ -5624,12 +2702,12 @@
      },
      "cards": {
       "3.5": [
-       1.694,
-       2.13
+       1.714,
+       2.11
       ],
       "4.5": [
-       2.39,
-       1.555
+       2.44,
+       1.546
       ]
      }
     },
@@ -5682,7 +2760,7 @@
    "home": "Borussia Monchengladbach",
    "away": "Borussia Dortmund",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -5692,7 +2770,7 @@
    "odds": {
     "pinnacle": {
      "h": 3.68,
-     "d": 3.77,
+     "d": 3.76,
      "a": 2.02,
      "ou": {
       "2.5": [
@@ -5727,26 +2805,26 @@
      ],
      "corners": {
       "8.5": [
-       1.568,
-       2.33
+       1.552,
+       2.36
       ],
       "9.5": [
-       1.97,
-       1.847
+       1.952,
+       1.862
       ],
       "10.5": [
-       2.49,
-       1.497
+       2.47,
+       1.507
       ]
      },
      "cards": {
       "3.5": [
-       1.5,
-       2.54
+       1.526,
+       2.49
       ],
       "4.5": [
-       2.14,
-       1.684
+       2.18,
+       1.671
       ]
      }
     },
@@ -5803,7 +2881,7 @@
    "home": "SV 07 Elversberg",
    "away": "SC Freiburg",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -6507,42 +3585,322 @@
    }
   },
   {
+   "id": "id1500013472116550",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.609,
+      2.28
+     ],
+     "reg": [
+      2.03,
+      3.82,
+      3.03
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.18,
+      "u": 1.666
+     },
+     "totalReg": {
+      "line": 5,
+      "o": 2.06,
+      "u": 1.746
+     },
+     "hcpReg": {
+      "line": -1.5,
+      "h": 2.67,
+      "a": 1.42
+     }
+    },
+    "admiralbet.ba": {
+     "reg": [
+      2.02,
+      3.7,
+      2.85
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.15,
+      "u": 1.62
+     },
+     "totalReg": {
+      "line": 4.5,
+      "o": 1.73,
+      "u": 2
+     }
+    }
+   },
+   "tournamentId": 134,
+   "start": "2026-11-21T15:00:00.000Z",
+   "home": "Jukurit Mikkeli",
+   "away": "TPS Turku",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500013472116552",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.757,
+      2.05
+     ],
+     "reg": [
+      2.26,
+      3.71,
+      2.68
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.07,
+      "u": 1.74
+     },
+     "totalReg": {
+      "line": 5,
+      "o": 1.884,
+      "u": 1.9
+     }
+    },
+    "admiralbet.ba": {
+     "reg": [
+      2.2,
+      3.65,
+      2.55
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.04,
+      "u": 1.69
+     },
+     "totalReg": {
+      "line": 5.5,
+      "o": 2.18,
+      "u": 1.61
+     }
+    }
+   },
+   "tournamentId": 134,
+   "start": "2026-11-21T15:00:00.000Z",
+   "home": "KalPa Hockey",
+   "away": "HIFK Helsinki",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500013472116554",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.526,
+      2.46
+     ],
+     "reg": [
+      1.917,
+      3.63,
+      3.47
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 1.925,
+      "u": 1.862
+     },
+     "totalReg": {
+      "line": 5.5,
+      "o": 1.97,
+      "u": 1.819
+     },
+     "hcpReg": {
+      "line": -1.5,
+      "h": 2.51,
+      "a": 1.476
+     }
+    },
+    "admiralbet.ba": {
+     "reg": [
+      1.91,
+      3.75,
+      3.05
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 1.91,
+      "u": 1.79
+     },
+     "totalReg": {
+      "line": 5.5,
+      "o": 1.92,
+      "u": 1.78
+     }
+    }
+   },
+   "tournamentId": 134,
+   "start": "2026-11-21T15:00:00.000Z",
+   "home": "Karpat Oulu",
+   "away": "Jokerit Helsinki",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500013472116556",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.236,
+      3.79
+     ],
+     "reg": [
+      1.462,
+      4.38,
+      5.78
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.14,
+      "u": 1.694
+     },
+     "totalReg": {
+      "line": 5,
+      "o": 1.952,
+      "u": 1.833
+     },
+     "hcpReg": {
+      "line": -1.5,
+      "h": 1.84,
+      "a": 1.952
+     }
+    },
+    "admiralbet.ba": {
+     "reg": [
+      1.44,
+      4.4,
+      5
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.1,
+      "u": 1.66
+     },
+     "totalReg": {
+      "line": 4.5,
+      "o": 1.66,
+      "u": 2.1
+     },
+     "hcpReg": {
+      "line": -1.5,
+      "h": 1.81,
+      "a": 1.9
+     }
+    }
+   },
+   "tournamentId": 134,
+   "start": "2026-11-21T15:00:00.000Z",
+   "home": "Lukko Rauma",
+   "away": "HPK Hameenlinna",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500013472116558",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.621,
+      2.26
+     ],
+     "reg": [
+      2.07,
+      3.6,
+      3.08
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.13,
+      "u": 1.699
+     },
+     "totalReg": {
+      "line": 5,
+      "o": 2,
+      "u": 1.8
+     },
+     "hcpReg": {
+      "line": -1.5,
+      "h": 2.69,
+      "a": 1.414
+     }
+    },
+    "admiralbet.ba": {
+     "reg": [
+      2.02,
+      3.65,
+      2.9
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.11,
+      "u": 1.65
+     },
+     "totalReg": {
+      "line": 4.5,
+      "o": 1.67,
+      "u": 2.07
+     }
+    }
+   },
+   "tournamentId": 134,
+   "start": "2026-11-21T15:00:00.000Z",
+   "home": "Vaasan Sport",
+   "away": "Pelicans Lahti",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
    "id": "id1000000872478720",
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 1.943,
-     "d": 3.6,
-     "a": 4.18,
+     "h": 1.892,
+     "d": 3.65,
+     "a": 4.36,
      "ou": {
       "1.5": [
-       1.33,
-       3.46
+       1.325,
+       3.49
       ],
       "2.5": [
-       2.04,
-       1.84
+       2.03,
+       1.854
       ]
      },
      "btts": [
-      1.884,
-      1.97
+      1.892,
+      1.961
      ],
      "ah": [
       {
        "line": -1,
-       "home": 2.8,
-       "away": 1.483
+       "home": 2.68,
+       "away": 1.518
       },
       {
        "line": -0.5,
-       "home": 1.943,
-       "away": 1.961
-      },
-      {
-       "line": 0,
-       "home": 1.416,
-       "away": 3.07
+       "home": 1.892,
+       "away": 2.01
       }
      ],
      "corners": {
@@ -6553,6 +3911,16 @@
       "10.5": [
        2.09,
        1.735
+      ]
+     },
+     "cards": {
+      "4.5": [
+       1.675,
+       2.16
+      ],
+      "5.5": [
+       2.31,
+       1.595
       ]
      }
     },
@@ -6603,7 +3971,7 @@
    "home": "Rayo Vallecano",
    "away": "Valencia CF",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -6866,66 +4234,66 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 6.05,
+     "h": 5.85,
      "d": 5.22,
-     "a": 1.473,
+     "a": 1.487,
      "ou": {
       "2.5": [
-       1.406,
-       2.97
+       1.378,
+       3.1
       ],
       "3.5": [
-       2.07,
-       1.833
+       1.99,
+       1.9
       ],
       "4.5": [
-       3.35,
-       1.334
+       3.19,
+       1.361
       ]
      },
      "btts": [
-      1.574,
-      2.48
+      1.543,
+      2.56
      ],
      "ah": [
       {
        "line": 0.5,
-       "home": 2.84,
-       "away": 1.462
+       "home": 2.79,
+       "away": 1.473
       },
       {
        "line": 1,
-       "home": 2.22,
-       "away": 1.724
+       "home": 2.2,
+       "away": 1.735
       },
       {
        "line": 1.5,
        "home": 1.719,
-       "away": 2.22
+       "away": 2.23
       }
      ],
      "corners": {
       "8.5": [
-       1.534,
-       2.4
+       1.523,
+       2.43
       ],
       "9.5": [
-       1.909,
-       1.909
+       1.884,
+       1.925
       ],
       "10.5": [
-       2.35,
-       1.555
+       2.33,
+       1.568
       ]
      },
      "cards": {
       "2.5": [
-       1.529,
-       2.46
+       1.558,
+       2.38
       ],
       "3.5": [
-       2.22,
-       1.636
+       2.34,
+       1.578
       ]
      }
     },
@@ -6978,7 +4346,7 @@
    "home": "OGC Nice",
    "away": "Paris Saint-Germain",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -7194,11 +4562,20 @@
       4.2,
       1.73
      ],
+     "p1total": {
+      "line": 1.5,
+      "o": 1.91,
+      "u": 1.79
+     },
      "totalReg": {
       "line": 5.5,
       "o": 1.93,
       "u": 1.78
-     }
+     },
+     "btts": [
+      1.12,
+      5.4
+     ]
     }
    },
    "tournamentId": 261,
@@ -7206,8 +4583,8 @@
    "home": "HC Orebro",
    "away": "Skelleftea AIK",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -7245,11 +4622,20 @@
       3.9,
       2.39
      ],
+     "p1total": {
+      "line": 1.5,
+      "o": 1.98,
+      "u": 1.74
+     },
      "totalReg": {
       "line": 5.5,
       "o": 2.05,
       "u": 1.69
-     }
+     },
+     "btts": [
+      1.11,
+      5.6
+     ]
     }
    },
    "tournamentId": 261,
@@ -7257,8 +4643,8 @@
    "home": "HV71",
    "away": "Vaxjo Lakers",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -7267,13 +4653,13 @@
    "odds": {
     "pinnacle": {
      "ml": [
-      2.16,
-      1.68
+      2.14,
+      1.699
      ],
      "reg": [
-      2.9,
-      3.61,
-      2.16
+      2.87,
+      3.58,
+      2.19
      ],
      "p1total": {
       "line": 1.5,
@@ -7281,14 +4667,14 @@
       "u": 1.813
      },
      "totalReg": {
-      "line": 5.5,
-      "o": 2.05,
-      "u": 1.757
+      "line": 5,
+      "o": 1.751,
+      "u": 2.06
      },
      "hcpReg": {
       "line": 1.5,
-      "h": 1.395,
-      "a": 2.87
+      "h": 1.387,
+      "a": 2.9
      }
     },
     "admiralbet.ba": {
@@ -7301,11 +4687,20 @@
       3.9,
       2.14
      ],
+     "p1total": {
+      "line": 1.5,
+      "o": 1.95,
+      "u": 1.76
+     },
      "totalReg": {
       "line": 5.5,
       "o": 2,
       "u": 1.72
-     }
+     },
+     "btts": [
+      1.11,
+      5.6
+     ]
     }
    },
    "tournamentId": 261,
@@ -7313,8 +4708,8 @@
    "home": "IF Bjorkloven",
    "away": "Linkopings HC",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -7323,13 +4718,13 @@
    "odds": {
     "pinnacle": {
      "ml": [
-      1.254,
-      3.64
+      1.242,
+      3.74
      ],
      "reg": [
-      1.483,
-      4.31,
-      5.6
+      1.471,
+      4.35,
+      5.69
      ],
      "p1total": {
       "line": 1.5,
@@ -7338,13 +4733,13 @@
      },
      "totalReg": {
       "line": 5,
-      "o": 1.793,
-      "u": 2
+      "o": 1.787,
+      "u": 2.01
      },
      "hcpReg": {
       "line": -1.5,
-      "h": 1.854,
-      "a": 1.925
+      "h": 1.84,
+      "a": 1.952
      }
     },
     "admiralbet.ba": {
@@ -7357,6 +4752,11 @@
       4.7,
       4.9
      ],
+     "p1total": {
+      "line": 1.5,
+      "o": 1.97,
+      "u": 1.74
+     },
      "totalReg": {
       "line": 5.5,
       "o": 2.07,
@@ -7366,7 +4766,11 @@
       "line": -1.5,
       "h": 1.85,
       "a": 1.86
-     }
+     },
+     "btts": [
+      1.16,
+      4.6
+     ]
     }
    },
    "tournamentId": 261,
@@ -7374,8 +4778,8 @@
    "home": "Farjestads BK",
    "away": "Malmo IF",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
-    "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -7450,52 +4854,66 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 3.02,
-     "d": 3.48,
-     "a": 2.43,
+     "h": 3.12,
+     "d": 3.31,
+     "a": 2.45,
      "ou": {
+      "1.5": [
+       1.28,
+       3.84
+      ],
       "2.5": [
-       1.884,
-       1.99
+       1.943,
+       1.943
       ],
       "3.5": [
-       3.2,
-       1.373
+       3.29,
+       1.357
       ]
      },
      "btts": [
-      1.684,
-      2.25
+      1.694,
+      2.23
      ],
      "ah": [
       {
        "line": -0.5,
-       "home": 2.99,
-       "away": 1.425
+       "home": 3.09,
+       "away": 1.403
       },
       {
        "line": 0,
-       "home": 2.18,
-       "away": 1.751
+       "home": 2.21,
+       "away": 1.729
       },
       {
        "line": 0.5,
-       "home": 1.621,
-       "away": 2.42
+       "home": 1.613,
+       "away": 2.44
       }
      ],
      "corners": {
       "8.5": [
-       1.602,
-       2.28
+       1.645,
+       2.23
       ],
       "9.5": [
-       2.02,
-       1.806
+       2.08,
+       1.74
+      ]
+     },
+     "cards": {
+      "5.5": [
+       1.432,
+       2.69
       ],
-      "10.5": [
-       2.55,
-       1.487
+      "6.5": [
+       1.869,
+       1.934
+      ],
+      "7.5": [
+       2.44,
+       1.515
       ]
      }
     },
@@ -7546,7 +4964,7 @@
    "home": "Sevilla FC",
    "away": "Real Betis Seville",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -7555,28 +4973,28 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 4.1,
-     "d": 4.14,
+     "h": 4.14,
+     "d": 4.12,
      "a": 1.826,
      "ou": {
       "2.5": [
-       1.49,
-       2.65
+       1.502,
+       2.62
       ],
       "3.5": [
-       2.23,
-       1.694
+       2.26,
+       1.68
       ]
      },
      "btts": [
-      1.49,
-      2.72
+      1.52,
+      2.63
      ],
      "ah": [
       {
        "line": 0.5,
        "home": 2.08,
-       "away": 1.819
+       "away": 1.813
       },
       {
        "line": 1,
@@ -7605,16 +5023,16 @@
      },
      "cards": {
       "2.5": [
-       1.386,
-       2.86
+       1.392,
+       2.84
       ],
       "3.5": [
-       1.909,
-       1.892
+       1.925,
+       1.877
       ],
       "4.5": [
-       3.01,
-       1.354
+       3.03,
+       1.349
       ]
      }
     },
@@ -7667,7 +5085,7 @@
    "home": "Schalke 04",
    "away": "VfB Stuttgart",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -7887,18 +5305,70 @@
    "odds": {
     "admiralbet.ba": {
      "ml": [
-      1.66,
-      2.19
+      1.55,
+      2.42
      ],
      "reg": [
-      2.05,
-      4.1,
-      2.85
+      1.87,
+      4.3,
+      3.2
      ],
+     "p1total": {
+      "line": 1.5,
+      "o": 1.73,
+      "u": 1.99
+     },
      "totalReg": {
-      "line": 6.5,
-      "o": 2.2,
-      "u": 1.6
+      "line": 5.5,
+      "o": 1.62,
+      "u": 2.17
+     },
+     "btts": [
+      1.07,
+      6.8
+     ]
+    },
+    "pinnacle": {
+     "ml": [
+      1.549,
+      2.59
+     ],
+     "total": {
+      "line": 6,
+      "o": 1.862,
+      "u": 2.02
+     },
+     "teamTotal": {
+      "home": {
+       "line": 3.5,
+       "o": 1.934,
+       "u": 1.884
+      },
+      "away": {
+       "line": 2.5,
+       "o": 1.847,
+       "u": 1.98
+      }
+     },
+     "reg": [
+      1.892,
+      4.43,
+      3.31
+     ],
+     "puck": {
+      "line": -1.5,
+      "h": 2.36,
+      "a": 1.636
+     },
+     "p1total": {
+      "line": 1.5,
+      "o": 1.763,
+      "u": 2.1
+     },
+     "totalReg": {
+      "line": 6,
+      "o": 1.99,
+      "u": 1.869
      }
     }
    },
@@ -7907,7 +5377,8 @@
    "home": "Carolina Hurricanes",
    "away": "Edmonton Oilers",
    "fetched": {
-    "admiralbet.ba": "2026-11-20T08:51:55.055Z"
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -8241,66 +5712,66 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 1.909,
-     "d": 4.06,
-     "a": 3.82,
+     "h": 2.08,
+     "d": 3.9,
+     "a": 3.4,
      "ou": {
       "2.5": [
-       1.684,
-       2.27
+       1.68,
+       2.28
       ],
       "3.5": [
-       2.7,
-       1.49
+       2.68,
+       1.497
       ]
      },
      "btts": [
-      1.632,
-      2.34
+      1.595,
+      2.43
      ],
      "ah": [
       {
        "line": -1,
-       "home": 2.69,
-       "away": 1.515
+       "home": 3.08,
+       "away": 1.413
       },
       {
        "line": -0.5,
-       "home": 1.917,
-       "away": 1.99
+       "home": 2.08,
+       "away": 1.833
       },
       {
        "line": 0,
-       "home": 1.452,
-       "away": 2.91
+       "home": 1.558,
+       "away": 2.56
       }
      ],
      "corners": {
       "8.5": [
-       1.531,
-       2.41
+       1.52,
+       2.43
       ],
       "9.5": [
-       1.917,
-       1.892
+       1.9,
+       1.917
       ],
       "10.5": [
-       2.41,
-       1.531
+       2.38,
+       1.543
       ]
      },
      "cards": {
       "3.5": [
-       1.401,
-       2.8
+       1.404,
+       2.79
       ],
       "4.5": [
-       2.03,
-       1.787
+       2.04,
+       1.775
       ],
       "5.5": [
-       2.89,
-       1.38
+       2.91,
+       1.377
       ]
      }
     },
@@ -8357,7 +5828,7 @@
    "home": "Racing Club De Lens",
    "away": "Toulouse FC",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -8367,7 +5838,7 @@
    "odds": {
     "pinnacle": {
      "h": 2.31,
-     "d": 3.33,
+     "d": 3.32,
      "a": 3.37,
      "ou": {
       "1.5": [
@@ -8384,7 +5855,7 @@
       ]
      },
      "btts": [
-      1.819,
+      1.826,
       2.04
      ],
      "ah": [
@@ -8401,30 +5872,30 @@
      ],
      "corners": {
       "8.5": [
-       1.558,
-       2.35
+       1.546,
+       2.37
       ],
       "9.5": [
-       1.952,
-       1.862
+       1.934,
+       1.884
       ],
       "10.5": [
-       2.46,
-       1.51
+       2.43,
+       1.52
       ]
      },
      "cards": {
       "3.5": [
-       1.377,
-       2.9
+       1.373,
+       2.92
       ],
       "4.5": [
-       1.961,
-       1.847
+       1.97,
+       1.833
       ],
       "5.5": [
-       2.74,
-       1.416
+       2.75,
+       1.414
       ]
      }
     },
@@ -8477,7 +5948,7 @@
    "home": "Lille OSC",
    "away": "Olympique Lyon",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -8486,67 +5957,63 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 1.414,
-     "d": 5.25,
-     "a": 7.24,
+     "h": 1.425,
+     "d": 5.21,
+     "a": 7.07,
      "ou": {
       "2.5": [
-       1.526,
-       2.63
+       1.52,
+       2.65
       ],
       "3.5": [
-       2.31,
-       1.657
+       2.3,
+       1.666
       ]
      },
      "btts": [
-      1.746,
-      2.15
+      1.724,
+      2.18
      ],
      "ah": [
       {
        "line": -2,
-       "home": 3.01,
-       "away": 1.42
+       "home": 3.05,
+       "away": 1.411
       },
       {
        "line": -1.5,
-       "home": 2.11,
-       "away": 1.793
+       "home": 2.13,
+       "away": 1.781
       },
       {
        "line": -1,
-       "home": 1.625,
-       "away": 2.4
+       "home": 1.641,
+       "away": 2.37
       },
       {
        "line": -0.5,
-       "home": 1.403,
-       "away": 3.09
+       "home": 1.413,
+       "away": 3.04
       }
      ],
      "corners": {
-      "8.5": [
-       1.458,
-       2.6
-      ],
       "9.5": [
-       1.8,
-       2.01
+       1.751,
+       2.05
       ],
       "10.5": [
-       2.25,
-       1.606
+       2.22,
+       1.636
       ]
      },
      "cards": {
       "3.5": [
-       1.51,
-       2.51
+       1.606,
+       2.28
       ],
       "4.5": [
-       2.24,
-       1.628
+       2.54,
+       1.5
       ]
      }
     },
@@ -8599,7 +6066,7 @@
    "home": "AS Monaco",
    "away": "AJ Auxerre",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -8608,9 +6075,9 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 2.26,
-     "d": 3.78,
-     "a": 3.1,
+     "h": 2.27,
+     "d": 3.77,
+     "a": 3.07,
      "ou": {
       "2.5": [
        1.689,
@@ -8622,48 +6089,48 @@
       ]
      },
      "btts": [
-      1.595,
+      1.591,
       2.43
      ],
      "ah": [
       {
        "line": -0.5,
-       "home": 2.25,
-       "away": 1.709
+       "home": 2.27,
+       "away": 1.699
       },
       {
        "line": 0,
-       "home": 1.675,
-       "away": 2.31
+       "home": 1.689,
+       "away": 2.29
       },
       {
        "line": 0.5,
-       "home": 1.408,
-       "away": 3.06
+       "home": 1.414,
+       "away": 3.04
       }
      ],
      "corners": {
       "8.5": [
-       1.641,
-       2.21
+       1.657,
+       2.19
       ],
       "9.5": [
-       2.03,
-       1.763
+       2.06,
+       1.74
       ]
      },
      "cards": {
       "2.5": [
-       1.366,
-       2.95
+       1.386,
+       2.87
       ],
       "3.5": [
-       1.925,
-       1.877
+       1.99,
+       1.819
       ],
       "4.5": [
-       2.89,
-       1.38
+       3.05,
+       1.347
       ]
      }
     },
@@ -8720,7 +6187,7 @@
    "home": "Strasbourg Alsace",
    "away": "Stade Brest 29",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -8862,56 +6329,70 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 1.169,
-     "d": 7.91,
-     "a": 17.67,
+     "h": 1.172,
+     "d": 7.79,
+     "a": 17.52,
      "ou": {
       "2.5": [
-       1.35,
-       3.11
+       1.37,
+       3.01
       ],
       "3.5": [
-       1.961,
-       1.909
+       2.02,
+       1.854
       ],
       "4.5": [
-       3.11,
-       1.35
+       3.23,
+       1.33
       ]
      },
      "btts": [
-      2.06,
-      1.793
+      2.07,
+      1.787
      ],
      "ah": [
       {
        "line": -2.5,
-       "home": 2.26,
-       "away": 1.675
+       "home": 2.32,
+       "away": 1.645
       },
       {
        "line": -2,
-       "home": 1.775,
-       "away": 2.11
+       "home": 1.819,
+       "away": 2.05
       },
       {
        "line": -1.5,
-       "home": 1.478,
-       "away": 2.63
+       "home": 1.5,
+       "away": 2.56
       }
      ],
      "corners": {
       "8.5": [
-       1.473,
-       2.59
+       1.495,
+       2.53
       ],
       "9.5": [
-       1.826,
-       2
+       1.869,
+       1.961
       ],
       "10.5": [
-       2.29,
-       1.602
+       2.34,
+       1.571
+      ]
+     },
+     "cards": {
+      "2.5": [
+       1.314,
+       3.23
+      ],
+      "3.5": [
+       1.854,
+       1.952
+      ],
+      "4.5": [
+       2.81,
+       1.398
       ]
      }
     },
@@ -8958,7 +6439,7 @@
    "home": "Real Madrid",
    "away": "RC Celta de Vigo",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -9262,6 +6743,252 @@
    }
   },
   {
+   "id": "id1500023472909582",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.68,
+      2.3
+     ],
+     "total": {
+      "line": 6,
+      "o": 1.99,
+      "u": 1.877
+     },
+     "teamTotal": {
+      "home": {
+       "line": 3.5,
+       "o": 2.2,
+       "u": 1.689
+      },
+      "away": {
+       "line": 2.5,
+       "o": 1.793,
+       "u": 2.04
+      }
+     },
+     "reg": [
+      2.09,
+      4.19,
+      2.94
+     ],
+     "puck": {
+      "line": -1.5,
+      "h": 2.73,
+      "a": 1.492
+     },
+     "p1total": {
+      "line": 1.5,
+      "o": 1.833,
+      "u": 2.01
+     },
+     "totalReg": {
+      "line": 6,
+      "o": 2.16,
+      "u": 1.74
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.63,
+      2.23
+     ],
+     "reg": [
+      2.01,
+      4.1,
+      2.95
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 1.79,
+      "u": 1.92
+     },
+     "totalReg": {
+      "line": 5.5,
+      "o": 1.72,
+      "u": 2.01
+     },
+     "btts": [
+      1.08,
+      6.4
+     ]
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-21T20:30:00.000Z",
+   "home": "Calgary Flames",
+   "away": "Chicago Blackhawks",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500023472909584",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.699,
+      2.26
+     ],
+     "total": {
+      "line": 6,
+      "o": 1.847,
+      "u": 2.03
+     },
+     "teamTotal": {
+      "home": {
+       "line": 3.5,
+       "o": 2.12,
+       "u": 1.735
+      },
+      "away": {
+       "line": 2.5,
+       "o": 1.714,
+       "u": 2.16
+      }
+     },
+     "reg": [
+      2.11,
+      4.21,
+      2.89
+     ],
+     "puck": {
+      "line": -1.5,
+      "h": 2.74,
+      "a": 1.49
+     },
+     "p1total": {
+      "line": 1.5,
+      "o": 1.781,
+      "u": 2.08
+     },
+     "totalReg": {
+      "line": 6,
+      "o": 1.98,
+      "u": 1.877
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.66,
+      2.19
+     ],
+     "reg": [
+      2.04,
+      4.2,
+      2.85
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 1.73,
+      "u": 1.99
+     },
+     "totalReg": {
+      "line": 5.5,
+      "o": 1.62,
+      "u": 2.17
+     },
+     "btts": [
+      1.07,
+      6.8
+     ]
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-21T23:00:00.000Z",
+   "home": "Florida Panthers",
+   "away": "Buffalo Sabres",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500023472909586",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.769,
+      2.15
+     ],
+     "total": {
+      "line": 6.5,
+      "o": 1.934,
+      "u": 1.934
+     },
+     "teamTotal": {
+      "home": {
+       "line": 3.5,
+       "o": 2.09,
+       "u": 1.757
+      },
+      "away": {
+       "line": 2.5,
+       "o": 1.617,
+       "u": 2.33
+      }
+     },
+     "reg": [
+      2.19,
+      4.22,
+      2.74
+     ],
+     "puck": {
+      "line": -1.5,
+      "h": 2.85,
+      "a": 1.456
+     },
+     "p1total": {
+      "line": 1.5,
+      "o": 1.735,
+      "u": 2.14
+     },
+     "totalReg": {
+      "line": 6,
+      "o": 1.847,
+      "u": 2.01
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.72,
+      2.09
+     ],
+     "reg": [
+      2.13,
+      4.1,
+      2.7
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 1.69,
+      "u": 2.04
+     },
+     "totalReg": {
+      "line": 6.5,
+      "o": 2.16,
+      "u": 1.62
+     },
+     "btts": [
+      1.06,
+      7.2
+     ]
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-21T23:00:00.000Z",
+   "home": "Nashville Predators",
+   "away": "Pittsburgh Penguins",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
    "id": "id1000032566887196",
    "sport": "football",
    "odds": {
@@ -9348,6 +7075,741 @@
    "fetched": {
     "pinnacle": "2026-11-19T16:45:13.556Z",
     "admiralbet.ba": "2026-11-19T08:53:34.794Z"
+   }
+  },
+  {
+   "id": "id1500023472909560",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.833,
+      2.07
+     ],
+     "total": {
+      "line": 6.5,
+      "o": 1.892,
+      "u": 1.98
+     },
+     "teamTotal": {
+      "home": {
+       "line": 3.5,
+       "o": 2.11,
+       "u": 1.74
+      },
+      "away": {
+       "line": 3.5,
+       "o": 2.33,
+       "u": 1.617
+      }
+     },
+     "reg": [
+      2.28,
+      4.24,
+      2.61
+     ],
+     "puck": {
+      "line": -1.5,
+      "h": 2.99,
+      "a": 1.423
+     },
+     "p1total": {
+      "line": 1.5,
+      "o": 1.699,
+      "u": 2.2
+     },
+     "totalReg": {
+      "line": 6,
+      "o": 1.793,
+      "u": 2.08
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.8,
+      1.98
+     ],
+     "reg": [
+      2.27,
+      4.1,
+      2.55
+     ],
+     "totalReg": {
+      "line": 6.5,
+      "o": 2.09,
+      "u": 1.66
+     }
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-22T00:00:00.000Z",
+   "home": "Boston Bruins",
+   "away": "Washington Capitals",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500023472909562",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.847,
+      2.05
+     ],
+     "total": {
+      "line": 6,
+      "o": 1.877,
+      "u": 1.99
+     },
+     "teamTotal": {
+      "home": {
+       "line": 3.5,
+       "o": 2.3,
+       "u": 1.632
+      },
+      "away": {
+       "line": 2.5,
+       "o": 1.625,
+       "u": 2.32
+      }
+     },
+     "reg": [
+      2.31,
+      4.16,
+      2.6
+     ],
+     "puck": {
+      "line": -1.5,
+      "h": 3.11,
+      "a": 1.396
+     },
+     "p1total": {
+      "line": 1.5,
+      "o": 1.787,
+      "u": 2.07
+     },
+     "totalReg": {
+      "line": 6,
+      "o": 2.02,
+      "u": 1.84
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.8,
+      1.98
+     ],
+     "reg": [
+      2.28,
+      4,
+      2.55
+     ],
+     "totalReg": {
+      "line": 5.5,
+      "o": 1.61,
+      "u": 2.18
+     }
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-22T00:00:00.000Z",
+   "home": "Toronto Maple Leafs",
+   "away": "Columbus Blue Jackets",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500023472909564",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.636,
+      2.38
+     ],
+     "total": {
+      "line": 6,
+      "o": 2.03,
+      "u": 1.847
+     },
+     "teamTotal": {
+      "home": {
+       "line": 3.5,
+       "o": 2.17,
+       "u": 1.704
+      },
+      "away": {
+       "line": 2.5,
+       "o": 1.854,
+       "u": 1.961
+      }
+     },
+     "reg": [
+      2.03,
+      4.2,
+      3.06
+     ],
+     "puck": {
+      "line": -1.5,
+      "h": 2.62,
+      "a": 1.529
+     },
+     "p1total": {
+      "line": 1.5,
+      "o": 1.847,
+      "u": 1.99
+     },
+     "totalReg": {
+      "line": 6,
+      "o": 2.21,
+      "u": 1.709
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.61,
+      2.28
+     ],
+     "reg": [
+      1.98,
+      4.1,
+      3
+     ],
+     "totalReg": {
+      "line": 5.5,
+      "o": 1.73,
+      "u": 1.99
+     }
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-22T00:00:00.000Z",
+   "home": "Montreal Canadiens",
+   "away": "Philadelphia Flyers",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500023472909566",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.578,
+      2.52
+     ],
+     "total": {
+      "line": 6,
+      "o": 2.04,
+      "u": 1.84
+     },
+     "teamTotal": {
+      "home": {
+       "line": 3.5,
+       "o": 2.1,
+       "u": 1.746
+      },
+      "away": {
+       "line": 2.5,
+       "o": 1.909,
+       "u": 1.909
+      }
+     },
+     "reg": [
+      1.943,
+      4.26,
+      3.24
+     ],
+     "puck": {
+      "line": -1.5,
+      "h": 2.5,
+      "a": 1.574
+     },
+     "p1total": {
+      "line": 1.5,
+      "o": 1.847,
+      "u": 1.99
+     },
+     "totalReg": {
+      "line": 6,
+      "o": 2.22,
+      "u": 1.704
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.56,
+      2.39
+     ],
+     "reg": [
+      1.9,
+      4.2,
+      3.2
+     ],
+     "totalReg": {
+      "line": 5.5,
+      "o": 1.77,
+      "u": 1.94
+     }
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-22T00:00:00.000Z",
+   "home": "Ottawa Senators",
+   "away": "Los Angeles Kings",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500023472909568",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      2.01,
+      1.877
+     ],
+     "total": {
+      "line": 6,
+      "o": 1.952,
+      "u": 1.917
+     },
+     "teamTotal": {
+      "home": {
+       "line": 2.5,
+       "o": 1.649,
+       "u": 2.27
+      },
+      "away": {
+       "line": 2.5,
+       "o": 1.584,
+       "u": 2.4
+      }
+     },
+     "reg": [
+      2.56,
+      4.1,
+      2.37
+     ],
+     "puck": {
+      "line": 1.5,
+      "h": 1.381,
+      "a": 3.19
+     },
+     "p1total": {
+      "line": 1.5,
+      "o": 1.833,
+      "u": 2.01
+     },
+     "totalReg": {
+      "line": 6,
+      "o": 2.12,
+      "u": 1.763
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.93,
+      1.85
+     ],
+     "reg": [
+      2.47,
+      4,
+      2.34
+     ],
+     "totalReg": {
+      "line": 5.5,
+      "o": 1.74,
+      "u": 1.98
+     }
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-22T00:00:00.000Z",
+   "home": "Detroit Red Wings",
+   "away": "New York Islanders",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500023472909570",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      2.09,
+      1.819
+     ],
+     "total": {
+      "line": 6,
+      "o": 1.909,
+      "u": 1.952
+     },
+     "teamTotal": {
+      "home": {
+       "line": 2.5,
+       "o": 1.671,
+       "u": 2.23
+      },
+      "away": {
+       "line": 3.5,
+       "o": 2.29,
+       "u": 1.641
+      }
+     },
+     "reg": [
+      2.65,
+      4.15,
+      2.28
+     ],
+     "puck": {
+      "line": 1.5,
+      "h": 1.418,
+      "a": 3.01
+     },
+     "p1total": {
+      "line": 1.5,
+      "o": 1.813,
+      "u": 2.04
+     },
+     "totalReg": {
+      "line": 6,
+      "o": 2.07,
+      "u": 1.806
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      2.02,
+      1.77
+     ],
+     "reg": [
+      2.6,
+      4.1,
+      2.22
+     ],
+     "totalReg": {
+      "line": 5.5,
+      "o": 1.69,
+      "u": 2.05
+     }
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-22T00:00:00.000Z",
+   "home": "St. Louis Blues",
+   "away": "New Jersey Devils",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500023472909572",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      2.2,
+      1.735
+     ],
+     "total": {
+      "line": 6.5,
+      "o": 1.99,
+      "u": 1.877
+     },
+     "teamTotal": {
+      "home": {
+       "line": 2.5,
+       "o": 1.653,
+       "u": 2.26
+      },
+      "away": {
+       "line": 3.5,
+       "o": 2.11,
+       "u": 1.746
+      }
+     },
+     "reg": [
+      2.79,
+      4.23,
+      2.17
+     ],
+     "puck": {
+      "line": 1.5,
+      "h": 1.465,
+      "a": 2.83
+     },
+     "p1total": {
+      "line": 1.5,
+      "o": 1.746,
+      "u": 2.13
+     },
+     "totalReg": {
+      "line": 6,
+      "o": 1.9,
+      "u": 1.952
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      2.08,
+      1.72
+     ],
+     "reg": [
+      2.7,
+      4.1,
+      2.14
+     ],
+     "totalReg": {
+      "line": 6.5,
+      "o": 2.19,
+      "u": 1.6
+     }
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-22T00:00:00.000Z",
+   "home": "Winnipeg Jets",
+   "away": "Vegas Golden Knights",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500023472909574",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.636,
+      2.38
+     ],
+     "total": {
+      "line": 6.5,
+      "o": 1.793,
+      "u": 2.1
+     },
+     "teamTotal": {
+      "home": {
+       "line": 3.5,
+       "o": 1.854,
+       "u": 1.97
+      },
+      "away": {
+       "line": 2.5,
+       "o": 1.632,
+       "u": 2.3
+      }
+     },
+     "reg": [
+      2.01,
+      4.36,
+      3.03
+     ],
+     "puck": {
+      "line": -1.5,
+      "h": 2.54,
+      "a": 1.558
+     },
+     "p1total": {
+      "line": 2,
+      "o": 2.26,
+      "u": 1.666
+     },
+     "totalReg": {
+      "line": 6.5,
+      "o": 2.03,
+      "u": 1.833
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.61,
+      2.28
+     ],
+     "reg": [
+      1.96,
+      4.3,
+      2.95
+     ],
+     "totalReg": {
+      "line": 6.5,
+      "o": 1.92,
+      "u": 1.79
+     }
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-22T02:00:00.000Z",
+   "home": "Utah Mammoth",
+   "away": "Anaheim Ducks",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500023472909576",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      3.38,
+      1.355
+     ],
+     "total": {
+      "line": 6.5,
+      "o": 1.952,
+      "u": 1.917
+     },
+     "teamTotal": {
+      "home": {
+       "line": 2.5,
+       "o": 2.06,
+       "u": 1.781
+      },
+      "away": {
+       "line": 3.5,
+       "o": 1.662,
+       "u": 2.24
+      }
+     },
+     "reg": [
+      4.39,
+      4.82,
+      1.606
+     ],
+     "puck": {
+      "line": 1.5,
+      "h": 1.943,
+      "a": 1.925
+     },
+     "p1total": {
+      "line": 1.5,
+      "o": 1.714,
+      "u": 2.18
+     },
+     "totalReg": {
+      "line": 6,
+      "o": 1.833,
+      "u": 2.03
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      3.3,
+      1.32
+     ],
+     "reg": [
+      4.7,
+      4.6,
+      1.54
+     ],
+     "totalReg": {
+      "line": 6.5,
+      "o": 2.1,
+      "u": 1.66
+     },
+     "hcpReg": {
+      "line": 1.5,
+      "h": 1.98,
+      "a": 1.74
+     }
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-22T03:00:00.000Z",
+   "home": "Vancouver Canucks",
+   "away": "Minnesota Wild",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500023472909578",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.877,
+      2.01
+     ],
+     "total": {
+      "line": 6.5,
+      "o": 1.952,
+      "u": 1.909
+     },
+     "teamTotal": {
+      "home": {
+       "line": 3.5,
+       "o": 2.22,
+       "u": 1.675
+      },
+      "away": {
+       "line": 3.5,
+       "o": 2.34,
+       "u": 1.613
+      }
+     },
+     "reg": [
+      2.35,
+      4.2,
+      2.54
+     ],
+     "puck": {
+      "line": -1.5,
+      "h": 3.12,
+      "a": 1.395
+     },
+     "p1total": {
+      "line": 1.5,
+      "o": 1.729,
+      "u": 2.15
+     },
+     "totalReg": {
+      "line": 6,
+      "o": 1.869,
+      "u": 1.99
+     }
+    },
+    "admiralbet.ba": {
+     "ml": [
+      1.86,
+      1.92
+     ],
+     "reg": [
+      2.35,
+      4.1,
+      2.44
+     ],
+     "totalReg": {
+      "line": 6.5,
+      "o": 2.16,
+      "u": 1.62
+     }
+    }
+   },
+   "tournamentId": 234,
+   "start": "2026-11-22T03:00:00.000Z",
+   "home": "San Jose Sharks",
+   "away": "Seattle Kraken",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z",
+    "admiralbet.ba": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -9497,6 +7959,45 @@
    "fetched": {
     "pinnacle": "2026-11-20T16:20:33.244Z",
     "admiralbet.ba": "2026-11-20T16:20:33.244Z"
+   }
+  },
+  {
+   "id": "id1500026872166676",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.483,
+      2.65
+     ],
+     "reg": [
+      1.862,
+      3.79,
+      3.71
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.3,
+      "u": 1.628
+     },
+     "totalReg": {
+      "line": 4.5,
+      "o": 1.769,
+      "u": 2.07
+     },
+     "hcpReg": {
+      "line": -1.5,
+      "h": 2.44,
+      "a": 1.523
+     }
+    }
+   },
+   "tournamentId": 268,
+   "start": "2026-11-22T11:00:00.000Z",
+   "home": "HK Avangard Omsk",
+   "away": "Ak Bars Kazan",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -9690,6 +8191,40 @@
    "fetched": {
     "pinnacle": "2026-11-20T08:50:32.533Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
+   }
+  },
+  {
+   "id": "id1500026872166680",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.97,
+      1.854
+     ],
+     "reg": [
+      2.6,
+      3.65,
+      2.42
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.12,
+      "u": 1.735
+     },
+     "totalReg": {
+      "line": 5,
+      "o": 1.854,
+      "u": 1.961
+     }
+    }
+   },
+   "tournamentId": 268,
+   "start": "2026-11-22T11:30:00.000Z",
+   "home": "HC Barys",
+   "away": "HC Dinamo Minsk",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -10131,48 +8666,48 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 1.213,
-     "d": 7.08,
-     "a": 13.4,
+     "h": 1.211,
+     "d": 7.15,
+     "a": 13.44,
      "ou": {
       "3.5": [
-       1.454,
-       2.67
+       1.434,
+       2.75
       ],
       "4.5": [
-       2.13,
-       1.746
+       2.08,
+       1.781
       ]
      },
      "btts": [
-      1.478,
-      2.73
+      1.469,
+      2.75
      ],
      "ah": [
       {
        "line": -2.5,
-       "home": 2.24,
-       "away": 1.662
+       "home": 2.22,
+       "away": 1.675
       },
       {
        "line": -2,
-       "home": 1.826,
-       "away": 2.08
+       "home": 1.813,
+       "away": 2.1
       },
       {
        "line": -1.5,
-       "home": 1.526,
-       "away": 2.54
+       "home": 1.52,
+       "away": 2.56
       }
      ],
      "corners": {
       "10.5": [
-       1.657,
-       2.21
+       1.675,
+       2.18
       ],
       "11.5": [
-       2.08,
-       1.74
+       2.1,
+       1.724
       ]
      }
     },
@@ -10213,7 +8748,7 @@
    "home": "FC Barcelona",
    "away": "Villarreal CF",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -10669,58 +9204,58 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 1.328,
-     "d": 5.59,
-     "a": 9.67,
+     "h": 1.323,
+     "d": 5.66,
+     "a": 9.73,
      "ou": {
       "2.5": [
-       1.617,
-       2.4
+       1.591,
+       2.45
       ],
       "3.5": [
-       2.54,
-       1.558
+       2.48,
+       1.581
       ]
      },
      "btts": [
-      1.98,
-      1.869
+      1.961,
+      1.892
      ],
      "ah": [
       {
        "line": -2,
-       "home": 2.71,
-       "away": 1.507
+       "home": 2.66,
+       "away": 1.523
       },
       {
        "line": -1.5,
-       "home": 1.952,
-       "away": 1.952
+       "home": 1.934,
+       "away": 1.97
       },
       {
        "line": -1,
-       "home": 1.483,
-       "away": 2.79
+       "home": 1.473,
+       "away": 2.83
       }
      ],
      "corners": {
       "8.5": [
        1.617,
-       2.26
+       2.25
       ],
       "9.5": [
-       2.05,
+       2.06,
        1.746
       ]
      },
      "cards": {
       "2.5": [
-       1.512,
-       2.5
+       1.507,
+       2.52
       ],
       "3.5": [
-       2.21,
-       1.645
+       2.22,
+       1.641
       ]
      }
     },
@@ -10765,8 +9300,81 @@
    "home": "Paris FC",
    "away": "Angers SCO",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
+   }
+  },
+  {
+   "id": "id1500026872166672",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.819,
+      2
+     ],
+     "reg": [
+      2.39,
+      3.58,
+      2.68
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.26,
+      "u": 1.645
+     },
+     "totalReg": {
+      "line": 4.5,
+      "o": 1.793,
+      "u": 2.04
+     }
+    }
+   },
+   "tournamentId": 268,
+   "start": "2026-11-22T14:00:00.000Z",
+   "home": "Torpedo N. Novgorod",
+   "away": "Avtomobilist Yekaterinburg",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
+   "id": "id1500026872166678",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.371,
+      3.06
+     ],
+     "reg": [
+      1.671,
+      4.03,
+      4.43
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.18,
+      "u": 1.699
+     },
+     "totalReg": {
+      "line": 5,
+      "o": 1.925,
+      "u": 1.892
+     },
+     "hcpReg": {
+      "line": -1.5,
+      "h": 2.14,
+      "a": 1.684
+     }
+    }
+   },
+   "tournamentId": 268,
+   "start": "2026-11-22T14:00:00.000Z",
+   "home": "Shanghai Dragons",
+   "away": "HC Lada Togliatti",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -10774,12 +9382,12 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 2.66,
-     "d": 4,
-     "a": 2.48,
+     "h": 2.71,
+     "d": 4.04,
+     "a": 2.42,
      "ou": {
       "2.5": [
-       1.409,
+       1.408,
        2.96
       ],
       "3.5": [
@@ -10788,24 +9396,24 @@
       ]
      },
      "btts": [
-      1.377,
-      3.2
+      1.378,
+      3.19
      ],
      "ah": [
       {
        "line": -0.5,
-       "home": 2.64,
-       "away": 1.531
+       "home": 2.69,
+       "away": 1.515
       },
       {
        "line": 0,
-       "home": 2.02,
-       "away": 1.884
+       "home": 2.07,
+       "away": 1.847
       },
       {
        "line": 0.5,
-       "home": 1.598,
-       "away": 2.46
+       "home": 1.625,
+       "away": 2.41
       }
      ],
      "corners": {
@@ -10866,7 +9474,7 @@
    "home": "FC Augsburg",
    "away": "FSV Mainz",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -10942,42 +9550,42 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 3.29,
-     "d": 4.3,
-     "a": 2.02,
+     "h": 3.36,
+     "d": 4.26,
+     "a": 2,
      "ou": {
       "2.5": [
-       1.334,
-       3.35
+       1.344,
+       3.29
       ],
       "3.5": [
-       1.884,
-       2
+       1.917,
+       1.961
       ],
       "4.5": [
-       2.98,
-       1.403
+       3.03,
+       1.392
       ]
      },
      "btts": [
-      1.335,
-      3.45
+      1.342,
+      3.41
      ],
      "ah": [
       {
        "line": 0,
-       "home": 2.55,
-       "away": 1.561
+       "home": 2.6,
+       "away": 1.546
       },
       {
        "line": 0.5,
-       "home": 1.869,
+       "home": 1.9,
        "away": 2.01
       },
       {
        "line": 1,
-       "home": 1.476,
-       "away": 2.79
+       "home": 1.49,
+       "away": 2.77
       }
      ],
      "corners": {
@@ -10991,7 +9599,7 @@
       ],
       "11.5": [
        2.33,
-       1.578
+       1.581
       ]
      }
     },
@@ -11032,7 +9640,7 @@
    "home": "Racing Santander",
    "away": "Real Sociedad San Sebastian",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -11343,12 +9951,12 @@
      },
      "cards": {
       "3.5": [
-       1.632,
-       2.23
+       1.636,
+       2.22
       ],
       "4.5": [
-       2.5,
-       1.512
+       2.51,
+       1.51
       ]
      }
     },
@@ -11393,7 +10001,7 @@
    "home": "FC Lorient",
    "away": "Stade Rennais FC",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -11402,38 +10010,38 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 1.666,
-     "d": 4.5,
+     "h": 1.68,
+     "d": 4.44,
      "a": 4.7,
      "ou": {
       "2.5": [
-       1.543,
-       2.57
+       1.578,
+       2.49
       ],
       "3.5": [
-       2.36,
-       1.632
+       2.44,
+       1.598
       ]
      },
      "btts": [
-      1.581,
-      2.46
+      1.609,
+      2.4
      ],
      "ah": [
       {
        "line": -1.5,
-       "home": 2.72,
-       "away": 1.495
+       "home": 2.76,
+       "away": 1.483
       },
       {
        "line": -1,
-       "home": 2.11,
-       "away": 1.793
+       "home": 2.14,
+       "away": 1.775
       },
       {
        "line": -0.5,
-       "home": 1.662,
-       "away": 2.33
+       "home": 1.671,
+       "away": 2.31
       }
      ],
      "corners": {
@@ -11447,13 +10055,17 @@
       ]
      },
      "cards": {
+      "2.5": [
+       1.282,
+       3.43
+      ],
       "3.5": [
-       1.666,
-       2.17
+       1.719,
+       2.13
       ],
       "4.5": [
-       2.52,
-       1.507
+       2.58,
+       1.467
       ]
      }
     },
@@ -11494,7 +10106,7 @@
    "home": "Werder Bremen",
    "away": "Hamburger SV",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -11589,13 +10201,52 @@
    }
   },
   {
+   "id": "id1500026872166674",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      2.25,
+      1.657
+     ],
+     "reg": [
+      3.05,
+      3.66,
+      2.13
+     ],
+     "p1total": {
+      "line": 1,
+      "o": 1.581,
+      "u": 2.39
+     },
+     "totalReg": {
+      "line": 4.5,
+      "o": 1.909,
+      "u": 1.909
+     },
+     "hcpReg": {
+      "line": 1.5,
+      "h": 1.383,
+      "a": 2.88
+     }
+    }
+   },
+   "tournamentId": 268,
+   "start": "2026-11-22T16:46:00.000Z",
+   "home": "HC Dynamo Moscow",
+   "away": "CSKA Moscow",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z"
+   }
+  },
+  {
    "id": "id1000000872478716",
    "sport": "football",
    "odds": {
     "pinnacle": {
      "h": 1.854,
-     "d": 3.66,
-     "a": 4.54,
+     "d": 3.65,
+     "a": 4.55,
      "ou": {
       "1.5": [
        1.338,
@@ -11628,16 +10279,16 @@
      ],
      "corners": {
       "8.5": [
-       1.526,
-       2.45
+       1.549,
+       2.39
       ],
       "9.5": [
-       1.9,
-       1.934
+       1.952,
+       1.877
       ],
       "10.5": [
-       2.38,
-       1.555
+       2.45,
+       1.523
       ]
      }
     },
@@ -11678,7 +10329,7 @@
    "home": "CA Osasuna",
    "away": "Malaga CF",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -11918,17 +10569,17 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 1.495,
-     "d": 4.9,
-     "a": 6.2,
+     "h": 1.48,
+     "d": 4.94,
+     "a": 6.36,
      "ou": {
       "2.5": [
        1.529,
        2.62
       ],
       "3.5": [
-       2.32,
-       1.653
+       2.31,
+       1.657
       ]
      },
      "btts": [
@@ -11938,18 +10589,18 @@
      "ah": [
       {
        "line": -1.5,
-       "home": 2.3,
-       "away": 1.675
+       "home": 2.26,
+       "away": 1.694
       },
       {
        "line": -1,
-       "home": 1.769,
-       "away": 2.15
+       "home": 1.74,
+       "away": 2.18
       },
       {
        "line": -0.5,
-       "home": 1.48,
-       "away": 2.77
+       "home": 1.469,
+       "away": 2.81
       }
      ],
      "corners": {
@@ -12014,7 +10665,7 @@
    "home": "Olympique Marseille",
    "away": "Le Mans FC",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -12023,56 +10674,56 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 6.25,
-     "d": 4.13,
-     "a": 1.581,
+     "h": 6.51,
+     "d": 4.15,
+     "a": 1.561,
      "ou": {
       "1.5": [
-       1.331,
-       3.45
+       1.34,
+       3.4
       ],
       "2.5": [
-       2.03,
-       1.862
+       2.06,
+       1.84
       ],
       "3.5": [
-       3.56,
-       1.315
+       3.62,
+       1.306
       ]
      },
      "btts": [
-      2.07,
-      1.8
+      2.11,
+      1.769
      ],
      "ah": [
       {
        "line": 0.5,
-       "home": 2.52,
-       "away": 1.574
+       "home": 2.57,
+       "away": 1.555
       },
       {
        "line": 1,
-       "home": 1.869,
-       "away": 2.04
+       "home": 1.9,
+       "away": 2.01
       },
       {
        "line": 1.5,
-       "home": 1.5,
-       "away": 2.74
+       "home": 1.507,
+       "away": 2.71
       }
      ],
      "corners": {
       "8.5": [
-       1.581,
-       2.32
+       1.591,
+       2.31
       ],
       "9.5": [
-       1.97,
-       1.854
+       1.99,
+       1.84
       ],
       "10.5": [
-       2.46,
-       1.52
+       2.48,
+       1.512
       ]
      }
     },
@@ -12113,8 +10764,42 @@
    "home": "Getafe CF",
    "away": "Atletico Madrid",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
+   }
+  },
+  {
+   "id": "id1500026872166682",
+   "sport": "hockey",
+   "odds": {
+    "pinnacle": {
+     "ml": [
+      1.943,
+      1.877
+     ],
+     "reg": [
+      2.59,
+      3.56,
+      2.48
+     ],
+     "p1total": {
+      "line": 1.5,
+      "o": 2.35,
+      "u": 1.602
+     },
+     "totalReg": {
+      "line": 4.5,
+      "o": 1.847,
+      "u": 1.97
+     }
+    }
+   },
+   "tournamentId": 268,
+   "start": "2026-11-23T12:30:00.000Z",
+   "home": "Sibir Novosibirsk",
+   "away": "Severstal Cherepovets",
+   "fetched": {
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -12340,9 +11025,9 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 2.2,
+     "h": 2.21,
      "d": 3.62,
-     "a": 3.33,
+     "a": 3.32,
      "ou": {
       "2.5": [
        1.724,
@@ -12425,7 +11110,7 @@
    "home": "Levante UD",
    "away": "Elche CF",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z",
+    "pinnacle": "2026-11-20T23:03:57.076Z",
     "admiralbet.ba": "2026-11-20T08:50:32.533Z"
    }
   },
@@ -12765,7 +11450,7 @@
    "home": "Werder Bremen",
    "away": "Borussia Monchengladbach",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -12773,9 +11458,9 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 3.21,
+     "h": 3.17,
      "d": 3.35,
-     "a": 2.29,
+     "a": 2.3,
      "ou": {
       "2.5": [
        1.8,
@@ -12786,16 +11471,20 @@
        1.408
       ]
      },
+     "btts": [
+      1.613,
+      2.31
+     ],
      "ah": [
       {
        "line": 0,
-       "home": 2.31,
-       "away": 1.641
+       "home": 2.29,
+       "away": 1.649
       },
       {
        "line": 0.5,
-       "home": 1.649,
-       "away": 2.29
+       "home": 1.645,
+       "away": 2.3
       }
      ]
     }
@@ -12805,7 +11494,7 @@
    "home": "Stade Brest 29",
    "away": "Paris FC",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -12850,7 +11539,7 @@
    "home": "Levante UD",
    "away": "Racing Santander",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -12902,34 +11591,34 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 1.51,
-     "d": 4.61,
-     "a": 5.73,
+     "h": 1.526,
+     "d": 4.56,
+     "a": 5.59,
      "ou": {
       "2.5": [
-       1.52,
-       2.45
+       1.526,
+       2.44
       ],
       "3.5": [
-       2.32,
-       1.578
+       2.33,
+       1.571
       ]
      },
      "ah": [
       {
        "line": -1.5,
-       "home": 2.29,
-       "away": 1.602
+       "home": 2.33,
+       "away": 1.581
       },
       {
        "line": -1,
-       "home": 1.813,
-       "away": 2.05
+       "home": 1.847,
+       "away": 2.01
       },
       {
        "line": -0.5,
-       "home": 1.483,
-       "away": 2.58
+       "home": 1.497,
+       "away": 2.54
       }
      ]
     }
@@ -12939,7 +11628,7 @@
    "home": "Real Betis Seville",
    "away": "Rayo Vallecano",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -12984,7 +11673,7 @@
    "home": "FSV Mainz",
    "away": "Union Berlin",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -12992,34 +11681,34 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 14.45,
-     "d": 10.62,
-     "a": 1.123,
+     "h": 9.92,
+     "d": 7.48,
+     "a": 1.212,
      "ou": {
       "3.5": [
-       1.46,
-       2.67
+       1.613,
+       2.3
       ],
       "4.5": [
-       2.1,
-       1.735
+       2.41,
+       1.561
       ]
      },
      "ah": [
       {
-       "line": 2,
-       "home": 2.55,
-       "away": 1.518
+       "line": 1.5,
+       "home": 2.4,
+       "away": 1.578
       },
       {
-       "line": 2.5,
+       "line": 2,
        "home": 1.925,
        "away": 1.909
       },
       {
-       "line": 3,
-       "home": 1.546,
-       "away": 2.48
+       "line": 2.5,
+       "home": 1.584,
+       "away": 2.39
       }
      ]
     }
@@ -13029,7 +11718,7 @@
    "home": "Hamburger SV",
    "away": "Bayern Munich",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13074,7 +11763,7 @@
    "home": "1. FC Cologne",
    "away": "SV 07 Elversberg",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13119,7 +11808,7 @@
    "home": "SC Paderborn 07",
    "away": "Schalke 04",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13163,7 +11852,7 @@
    "home": "Malaga CF",
    "away": "Athletic Bilbao",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13304,7 +11993,7 @@
    "home": "Angers SCO",
    "away": "Racing Club De Lens",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13349,7 +12038,7 @@
    "home": "Elche CF",
    "away": "Atletico Madrid",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13394,7 +12083,7 @@
    "home": "VfB Stuttgart",
    "away": "Eintracht Frankfurt",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13487,7 +12176,7 @@
    "home": "Le Havre AC",
    "away": "Strasbourg Alsace",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13531,7 +12220,7 @@
    "home": "Le Mans FC",
    "away": "Lille OSC",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13576,7 +12265,7 @@
    "home": "OGC Nice",
    "away": "ESTAC Troyes",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13621,7 +12310,7 @@
    "home": "Paris Saint-Germain",
    "away": "FC Lorient",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13629,38 +12318,38 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 1.145,
-     "d": 8.85,
-     "a": 14.35,
+     "h": 1.147,
+     "d": 8.78,
+     "a": 14.15,
      "ou": {
       "2.5": [
-       1.325,
-       3.28
+       1.327,
+       3.26
       ],
       "3.5": [
-       1.862,
-       1.961
+       1.869,
+       1.952
       ],
       "4.5": [
-       2.95,
-       1.387
+       2.97,
+       1.384
       ]
      },
      "ah": [
       {
        "line": -2.5,
-       "home": 2.22,
-       "away": 1.675
+       "home": 2.23,
+       "away": 1.666
       },
       {
        "line": -2,
-       "home": 1.719,
-       "away": 2.15
+       "home": 1.729,
+       "away": 2.13
       },
       {
        "line": -1.5,
-       "home": 1.45,
-       "away": 2.74
+       "home": 1.456,
+       "away": 2.71
       }
      ]
     }
@@ -13670,7 +12359,7 @@
    "home": "Real Madrid",
    "away": "Deportivo Alaves",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13758,7 +12447,7 @@
    "home": "Valencia CF",
    "away": "CA Osasuna",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13798,7 +12487,7 @@
    "home": "AJ Auxerre",
    "away": "Olympique Marseille",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13843,7 +12532,7 @@
    "home": "SC Freiburg",
    "away": "RB Leipzig",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13851,9 +12540,9 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 7.86,
-     "d": 5.26,
-     "a": 1.302,
+     "h": 7.94,
+     "d": 5.28,
+     "a": 1.298,
      "ou": {
       "3.5": [
        1.636,
@@ -13861,24 +12550,19 @@
       ],
       "4.5": [
        2.48,
-       1.46
+       1.462
       ]
      },
      "ah": [
       {
-       "line": 1,
-       "home": 2.71,
-       "away": 1.401
-      },
-      {
        "line": 1.5,
-       "home": 2.02,
-       "away": 1.769
+       "home": 2.03,
+       "away": 1.763
       },
       {
        "line": 2,
-       "home": 1.584,
-       "away": 2.21
+       "home": 1.591,
+       "away": 2.2
       }
      ]
     }
@@ -13888,7 +12572,7 @@
    "home": "RC Deportivo de A Coruna",
    "away": "FC Barcelona",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13937,7 +12621,7 @@
    "home": "TSG Hoffenheim",
    "away": "FC Augsburg",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -13986,7 +12670,7 @@
    "home": "RC Celta de Vigo",
    "away": "Villarreal CF",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -14079,7 +12763,7 @@
    "home": "Borussia Dortmund",
    "away": "Bayer Leverkusen",
    "fetched": {
-    "pinnacle": "2026-11-20T16:20:33.244Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -14119,7 +12803,7 @@
    "home": "Olympique Lyon",
    "away": "AS Monaco",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -14163,7 +12847,7 @@
    "home": "Real Sociedad San Sebastian",
    "away": "Sevilla FC",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {
@@ -14219,24 +12903,24 @@
    "sport": "football",
    "odds": {
     "pinnacle": {
-     "h": 2.11,
-     "d": 3.2,
-     "a": 3.82,
+     "h": 2.13,
+     "d": 3.13,
+     "a": 3.85,
      "ou": {
       "1.5": [
-       1.469,
-       2.71
+       1.471,
+       2.7
       ],
       "2.5": [
-       2.46,
-       1.555
+       2.48,
+       1.549
       ]
      },
      "ah": [
       {
        "line": -0.5,
-       "home": 2.12,
-       "away": 1.763
+       "home": 2.14,
+       "away": 1.751
       },
       {
        "line": 0,
@@ -14251,7 +12935,7 @@
    "home": "Espanyol Barcelona",
    "away": "Getafe CF",
    "fetched": {
-    "pinnacle": "2026-11-20T08:50:32.533Z"
+    "pinnacle": "2026-11-20T23:03:57.076Z"
    }
   },
   {

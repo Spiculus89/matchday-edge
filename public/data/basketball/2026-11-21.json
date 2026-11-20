@@ -18,60 +18,60 @@
       "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
       "odds": {
         "ml": [
-          1.434,
-          3.02
+          1.409,
+          3.19
         ],
         "total": {
           "line": 219,
-          "o": 1.99,
-          "u": 1.9
+          "o": 1.943,
+          "u": 1.943
         },
         "teamTotal": {
           "home": {
-            "line": 112.5,
-            "o": 1.869,
-            "u": 1.99
+            "line": 113.5,
+            "o": 1.934,
+            "u": 1.917
           },
           "away": {
             "line": 106.5,
-            "o": 2,
-            "u": 1.854
+            "o": 2.04,
+            "u": 1.826
           }
         },
         "spread": {
-          "line": -6.5,
-          "h": 1.877,
-          "a": 2.04
+          "line": -7.5,
+          "h": 1.943,
+          "a": 1.961
         },
         "h1": {
           "spread": {
             "line": -3.5,
-            "h": 1.97,
-            "a": 1.917
+            "h": 1.925,
+            "a": 1.961
           },
           "total": {
             "line": 112.5,
-            "o": 1.97,
-            "u": 1.9
+            "o": 1.952,
+            "u": 1.917
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.41,
-            2.9
+            1.39,
+            3
           ],
           "total": {
             "line": 218.5,
-            "o": 1.92,
-            "u": 1.89
+            "o": 1.88,
+            "u": 1.93
           },
           "teamTotal": {
             "home": {
               "line": 112.5,
-              "o": 1.9,
-              "u": 1.88
+              "o": 1.83,
+              "u": 1.95
             },
             "away": {
               "line": 105.5,
@@ -80,15 +80,15 @@
             }
           },
           "spread": {
-            "line": -6.5,
-            "h": 1.88,
-            "a": 1.93
+            "line": -7.5,
+            "h": 1.92,
+            "a": 1.89
           },
           "h1": {
             "spread": {
               "line": -3.5,
-              "h": 1.87,
-              "a": 1.9
+              "h": 1.84,
+              "a": 1.94
             },
             "total": {
               "line": 112.5,
@@ -96,7 +96,7 @@
               "u": 1.87
             }
           },
-          "text": "win 1.41/2.9, -6.5 1.88/1.93, total 218.5 1.92/1.89"
+          "text": "win 1.39/3, -7.5 1.92/1.89, total 218.5 1.88/1.93"
         }
       },
       "players": {
@@ -131,77 +131,77 @@
       "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
       "odds": {
         "ml": [
-          3.18,
-          1.401
+          3.22,
+          1.404
         ],
         "total": {
-          "line": 222.5,
-          "o": 1.97,
-          "u": 1.917
+          "line": 223.5,
+          "o": 1.909,
+          "u": 1.98
         },
         "teamTotal": {
           "home": {
             "line": 108.5,
-            "o": 2,
-            "u": 1.854
+            "o": 1.892,
+            "u": 1.961
           },
           "away": {
-            "line": 113.5,
-            "o": 1.847,
-            "u": 2.01
+            "line": 115.5,
+            "o": 1.925,
+            "u": 1.925
           }
         },
         "spread": {
           "line": 6.5,
-          "h": 1.97,
-          "a": 1.934
+          "h": 1.98,
+          "a": 1.925
         },
         "h1": {
           "spread": {
-            "line": 3,
-            "h": 2.02,
-            "a": 1.869
+            "line": 3.5,
+            "h": 1.925,
+            "a": 1.961
           },
           "total": {
             "line": 114.5,
-            "o": 1.99,
-            "u": 1.862
+            "o": 1.892,
+            "u": 1.98
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            2.9,
-            1.42
+            3.2,
+            1.35
           ],
           "total": {
-            "line": 222.5,
-            "o": 1.94,
-            "u": 1.88
+            "line": 223.5,
+            "o": 1.9,
+            "u": 1.91
           },
           "teamTotal": {
             "home": {
               "line": 108.5,
-              "o": 1.94,
-              "u": 1.84
+              "o": 1.9,
+              "u": 1.87
             },
             "away": {
-              "line": 114.5,
-              "o": 1.95,
-              "u": 1.83
+              "line": 115.5,
+              "o": 1.93,
+              "u": 1.84
             }
           },
           "spread": {
             "line": 6.5,
-            "h": 1.87,
-            "a": 1.94
+            "h": 1.97,
+            "a": 1.85
           },
           "h1": {
             "spread": {
               "line": 3.5,
-              "h": 1.86,
-              "a": 1.91
+              "h": 1.92,
+              "a": 1.85
             },
             "total": {
               "line": 114.5,
@@ -209,7 +209,7 @@
               "u": 1.89
             }
           },
-          "text": "win 2.9/1.42, +6.5 1.87/1.94, total 222.5 1.94/1.88"
+          "text": "win 3.2/1.35, +6.5 1.97/1.85, total 223.5 1.9/1.91"
         }
       },
       "players": {
@@ -244,44 +244,44 @@
       "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
       "odds": {
         "ml": [
-          1.462,
-          2.91
+          1.46,
+          2.96
         ],
         "total": {
           "line": 234.5,
-          "o": 1.98,
-          "u": 1.9
+          "o": 1.934,
+          "u": 1.952
         },
         "teamTotal": {
           "home": {
             "line": 119.5,
-            "o": 1.9,
-            "u": 1.943
+            "o": 1.854,
+            "u": 2
           },
           "away": {
             "line": 114.5,
-            "o": 1.97,
-            "u": 1.884
+            "o": 1.934,
+            "u": 1.917
           }
         },
         "spread": {
-          "line": -5.5,
-          "h": 1.9,
-          "a": 2
+          "line": -6,
+          "h": 1.961,
+          "a": 1.943
         },
         "h1": {
           "spread": {
             "line": -3.5,
-            "h": 1.98,
-            "a": 1.909
+            "h": 1.99,
+            "a": 1.9
           },
           "total": {
             "line": 114.5,
-            "o": 1.943,
-            "u": 1.925
+            "o": 1.98,
+            "u": 1.884
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -289,40 +289,40 @@
             2.8
           ],
           "total": {
-            "line": 233.5,
-            "o": 1.88,
-            "u": 1.93
+            "line": 234.5,
+            "o": 1.9,
+            "u": 1.91
           },
           "teamTotal": {
             "home": {
-              "line": 119.5,
-              "o": 1.87,
-              "u": 1.9
+              "line": 120.5,
+              "o": 1.95,
+              "u": 1.83
             },
             "away": {
               "line": 114.5,
-              "o": 1.92,
-              "u": 1.85
+              "o": 1.89,
+              "u": 1.89
             }
           },
           "spread": {
             "line": -5.5,
-            "h": 1.86,
-            "a": 1.95
+            "h": 1.85,
+            "a": 1.96
           },
           "h1": {
             "spread": {
               "line": -3.5,
-              "h": 1.95,
-              "a": 1.83
+              "h": 1.94,
+              "a": 1.84
             },
             "total": {
               "line": 114.5,
-              "o": 1.92,
-              "u": 1.86
+              "o": 1.86,
+              "u": 1.92
             }
           },
-          "text": "win 1.44/2.8, -5.5 1.86/1.95, total 233.5 1.88/1.93"
+          "text": "win 1.44/2.8, -5.5 1.85/1.96, total 234.5 1.9/1.91"
         }
       },
       "players": {
@@ -357,77 +357,77 @@
       "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
       "odds": {
         "ml": [
-          1.378,
-          3.3
+          1.386,
+          3.26
         ],
         "total": {
-          "line": 216.5,
-          "o": 1.98,
-          "u": 1.9
+          "line": 215.5,
+          "o": 1.869,
+          "u": 2.02
         },
         "teamTotal": {
           "home": {
             "line": 111.5,
-            "o": 1.892,
-            "u": 1.961
+            "o": 1.952,
+            "u": 1.9
           },
           "away": {
             "line": 104.5,
-            "o": 1.925,
-            "u": 1.925
+            "o": 1.909,
+            "u": 1.943
           }
         },
         "spread": {
           "line": -7,
-          "h": 1.952,
-          "a": 1.952
+          "h": 1.97,
+          "a": 1.925
         },
         "h1": {
           "spread": {
             "line": -4,
-            "h": 1.934,
-            "a": 1.952
+            "h": 1.952,
+            "a": 1.934
           },
           "total": {
             "line": 104.5,
-            "o": 1.961,
-            "u": 1.909
+            "o": 1.862,
+            "u": 2.01
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.39,
-            3.05
+            1.37,
+            3.1
           ],
           "total": {
             "line": 216.5,
-            "o": 1.9,
-            "u": 1.91
+            "o": 1.92,
+            "u": 1.89
           },
           "teamTotal": {
             "home": {
               "line": 111.5,
-              "o": 1.9,
-              "u": 1.87
+              "o": 1.89,
+              "u": 1.88
             },
             "away": {
-              "line": 105.5,
-              "o": 1.94,
-              "u": 1.84
+              "line": 104.5,
+              "o": 1.85,
+              "u": 1.93
             }
           },
           "spread": {
             "line": -6.5,
-            "h": 1.9,
-            "a": 1.91
+            "h": 1.86,
+            "a": 1.96
           },
           "h1": {
             "spread": {
               "line": -3.5,
-              "h": 1.88,
-              "a": 1.89
+              "h": 1.86,
+              "a": 1.92
             },
             "total": {
               "line": 104.5,
@@ -435,7 +435,7 @@
               "u": 1.9
             }
           },
-          "text": "win 1.39/3.05, -6.5 1.9/1.91, total 216.5 1.9/1.91"
+          "text": "win 1.37/3.1, -6.5 1.86/1.96, total 216.5 1.92/1.89"
         }
       },
       "players": {
@@ -470,85 +470,85 @@
       "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
       "odds": {
         "ml": [
-          1.735,
-          2.23
+          1.769,
+          2.2
         ],
         "total": {
           "line": 238.5,
-          "o": 1.952,
-          "u": 1.934
+          "o": 1.961,
+          "u": 1.925
         },
         "teamTotal": {
           "home": {
             "line": 120.5,
-            "o": 1.917,
-            "u": 1.934
+            "o": 1.952,
+            "u": 1.9
           },
           "away": {
             "line": 118.5,
-            "o": 2.01,
-            "u": 1.847
+            "o": 1.99,
+            "u": 1.869
           }
         },
         "spread": {
-          "line": -2.5,
-          "h": 1.934,
-          "a": 1.97
+          "line": -2,
+          "h": 1.917,
+          "a": 1.99
         },
         "h1": {
           "spread": {
             "line": -1.5,
-            "h": 1.961,
-            "a": 1.925
+            "h": 1.99,
+            "a": 1.9
           },
           "total": {
             "line": 122.5,
-            "o": 1.909,
-            "u": 1.961
+            "o": 1.943,
+            "u": 1.925
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.71,
-            2.14
+            1.73,
+            2.12
           ],
           "total": {
             "line": 238.5,
-            "o": 1.91,
-            "u": 1.9
+            "o": 1.94,
+            "u": 1.87
           },
           "teamTotal": {
             "home": {
-              "line": 120.5,
-              "o": 1.92,
-              "u": 1.86
+              "line": 119.5,
+              "o": 1.83,
+              "u": 1.94
             },
             "away": {
               "line": 118.5,
-              "o": 1.93,
-              "u": 1.85
+              "o": 1.94,
+              "u": 1.84
             }
           },
           "spread": {
             "line": -2.5,
-            "h": 1.9,
-            "a": 1.91
+            "h": 1.93,
+            "a": 1.88
           },
           "h1": {
             "spread": {
               "line": -1.5,
-              "h": 1.93,
-              "a": 1.85
+              "h": 1.95,
+              "a": 1.83
             },
             "total": {
-              "line": 123.5,
-              "o": 1.86,
-              "u": 1.92
+              "line": 122.5,
+              "o": 1.91,
+              "u": 1.87
             }
           },
-          "text": "win 1.71/2.14, -2.5 1.9/1.91, total 238.5 1.91/1.9"
+          "text": "win 1.73/2.12, -2.5 1.93/1.88, total 238.5 1.94/1.87"
         }
       },
       "players": {
@@ -584,76 +584,76 @@
       "odds": {
         "ml": [
           1.175,
-          5.53
+          5.52
         ],
         "total": {
-          "line": 228.5,
+          "line": 227.5,
           "o": 1.917,
           "u": 1.97
         },
         "teamTotal": {
           "home": {
-            "line": 120.5,
-            "o": 1.961,
-            "u": 1.884
+            "line": 119.5,
+            "o": 1.892,
+            "u": 1.961
           },
           "away": {
             "line": 108.5,
-            "o": 1.909,
-            "u": 1.943
+            "o": 2,
+            "u": 1.862
           }
         },
         "spread": {
           "line": -12,
-          "h": 2.03,
-          "a": 1.877
+          "h": 1.99,
+          "a": 1.917
         },
         "h1": {
           "spread": {
             "line": -7,
-            "h": 1.934,
-            "a": 1.952
+            "h": 1.943,
+            "a": 1.943
           },
           "total": {
-            "line": 117.5,
-            "o": 1.9,
-            "u": 1.952
+            "line": 116.5,
+            "o": 1.877,
+            "u": 1.98
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.18,
-            5
+            1.17,
+            5.2
           ],
           "total": {
-            "line": 228.5,
-            "o": 1.87,
-            "u": 1.94
+            "line": 227.5,
+            "o": 1.9,
+            "u": 1.91
           },
           "teamTotal": {
             "home": {
-              "line": 120.5,
-              "o": 1.92,
-              "u": 1.85
+              "line": 119.5,
+              "o": 1.87,
+              "u": 1.9
             },
             "away": {
-              "line": 108.5,
-              "o": 1.87,
-              "u": 1.91
+              "line": 107.5,
+              "o": 1.83,
+              "u": 1.94
             }
           },
           "spread": {
             "line": -11.5,
-            "h": 1.92,
-            "a": 1.89
+            "h": 1.9,
+            "a": 1.91
           },
           "h1": {
             "spread": {
               "line": -6.5,
-              "h": 1.9,
-              "a": 1.87
+              "h": 1.89,
+              "a": 1.88
             },
             "total": {
               "line": 117.5,
@@ -661,7 +661,7 @@
               "u": 1.83
             }
           },
-          "text": "win 1.18/5, -11.5 1.92/1.89, total 228.5 1.87/1.94"
+          "text": "win 1.17/5.2, -11.5 1.9/1.91, total 227.5 1.9/1.91"
         }
       },
       "players": {
@@ -696,77 +696,77 @@
       "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
       "odds": {
         "ml": [
-          2.55,
-          1.578
+          2.6,
+          1.555
         ],
         "total": {
-          "line": 225,
-          "o": 1.943,
-          "u": 1.943
+          "line": 226,
+          "o": 1.952,
+          "u": 1.934
         },
         "teamTotal": {
           "home": {
             "line": 110.5,
-            "o": 1.909,
-            "u": 1.943
+            "o": 1.9,
+            "u": 1.952
           },
           "away": {
             "line": 114.5,
-            "o": 1.892,
-            "u": 1.961
+            "o": 1.819,
+            "u": 2.05
           }
         },
         "spread": {
           "line": 4.5,
-          "h": 1.925,
-          "a": 1.98
+          "h": 1.961,
+          "a": 1.943
         },
         "h1": {
           "spread": {
             "line": 2,
-            "h": 1.917,
-            "a": 1.97
+            "h": 1.934,
+            "a": 1.952
           },
           "total": {
-            "line": 115.5,
-            "o": 1.892,
-            "u": 1.98
+            "line": 116.5,
+            "o": 1.961,
+            "u": 1.892
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            2.47,
-            1.55
+            2.5,
+            1.54
           ],
           "total": {
             "line": 225.5,
-            "o": 1.94,
-            "u": 1.87
+            "o": 1.9,
+            "u": 1.91
           },
           "teamTotal": {
             "home": {
               "line": 110.5,
-              "o": 1.89,
-              "u": 1.89
+              "o": 1.85,
+              "u": 1.93
             },
             "away": {
               "line": 114.5,
-              "o": 1.88,
-              "u": 1.9
+              "o": 1.85,
+              "u": 1.93
             }
           },
           "spread": {
             "line": 4.5,
-            "h": 1.91,
-            "a": 1.9
+            "h": 1.9,
+            "a": 1.91
           },
           "h1": {
             "spread": {
               "line": 2.5,
               "h": 1.86,
-              "a": 1.91
+              "a": 1.92
             },
             "total": {
               "line": 116.5,
@@ -774,7 +774,7 @@
               "u": 1.83
             }
           },
-          "text": "win 2.47/1.55, +4.5 1.91/1.9, total 225.5 1.94/1.87"
+          "text": "win 2.5/1.54, +4.5 1.9/1.91, total 225.5 1.9/1.91"
         }
       },
       "players": {
@@ -809,65 +809,65 @@
       "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
       "odds": {
         "ml": [
-          1.854,
-          2.04
+          1.826,
+          2.07
         ],
         "total": {
-          "line": 226.5,
-          "o": 1.934,
-          "u": 1.934
+          "line": 227.5,
+          "o": 1.869,
+          "u": 2
         },
         "teamTotal": {
           "home": {
-            "line": 113.5,
-            "o": 1.892,
-            "u": 1.943
-          },
-          "away": {
-            "line": 112.5,
+            "line": 114.5,
             "o": 1.9,
             "u": 1.934
+          },
+          "away": {
+            "line": 113.5,
+            "o": 1.925,
+            "u": 1.909
           }
         },
         "spread": {
           "line": -1.5,
-          "h": 1.925,
-          "a": 1.961
+          "h": 1.917,
+          "a": 1.97
         },
         "h1": {
           "spread": {
             "line": -1,
             "h": 1.97,
-            "a": 1.909
+            "a": 1.917
           },
           "total": {
             "line": 110.5,
-            "o": 1.99,
-            "u": 1.884
+            "o": 1.909,
+            "u": 1.961
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.8,
-            2.02
+            1.79,
+            2.03
           ],
           "total": {
-            "line": 226.5,
-            "o": 1.9,
-            "u": 1.91
+            "line": 227.5,
+            "o": 1.93,
+            "u": 1.88
           },
           "teamTotal": {
             "home": {
-              "line": 113.5,
-              "o": 1.84,
-              "u": 1.93
+              "line": 114.5,
+              "o": 1.93,
+              "u": 1.84
             },
             "away": {
-              "line": 112.5,
-              "o": 1.86,
-              "u": 1.92
+              "line": 113.5,
+              "o": 1.95,
+              "u": 1.83
             }
           },
           "spread": {
@@ -887,7 +887,7 @@
               "u": 1.94
             }
           },
-          "text": "win 1.8/2.02, -1.5 1.89/1.92, total 226.5 1.9/1.91"
+          "text": "win 1.79/2.03, -1.5 1.89/1.92, total 227.5 1.93/1.88"
         }
       },
       "players": {
@@ -922,44 +922,44 @@
       "context": "Priced from Pinnacle's odds (via OddsPapi) only: today's full research run failed, so form, injuries and players are missing. The site shows fair prices and the most likely outcome, but no value bet without them.",
       "odds": {
         "ml": [
-          1.121,
-          7.13
+          1.126,
+          6.94
         ],
         "total": {
           "line": 229.5,
-          "o": 1.943,
-          "u": 1.943
+          "o": 1.952,
+          "u": 1.934
         },
         "teamTotal": {
           "home": {
             "line": 122.5,
-            "o": 2.01,
-            "u": 1.847
+            "o": 2.06,
+            "u": 1.806
           },
           "away": {
             "line": 107.5,
-            "o": 1.9,
-            "u": 1.952
+            "o": 1.884,
+            "u": 1.97
           }
         },
         "spread": {
           "line": -14.5,
-          "h": 1.97,
-          "a": 1.934
+          "h": 2.02,
+          "a": 1.892
         },
         "h1": {
           "spread": {
             "line": -8.5,
-            "h": 1.934,
-            "a": 1.952
+            "h": 1.952,
+            "a": 1.934
           },
           "total": {
             "line": 118.5,
-            "o": 1.97,
-            "u": 1.884
+            "o": 1.943,
+            "u": 1.909
           }
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-20 16:20 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -974,25 +974,25 @@
           "teamTotal": {
             "home": {
               "line": 122.5,
-              "o": 1.93,
-              "u": 1.85
+              "o": 1.95,
+              "u": 1.83
             },
             "away": {
               "line": 107.5,
-              "o": 1.93,
-              "u": 1.85
+              "o": 1.91,
+              "u": 1.86
             }
           },
           "spread": {
             "line": -14.5,
-            "h": 1.91,
-            "a": 1.9
+            "h": 1.93,
+            "a": 1.88
           },
           "h1": {
             "spread": {
               "line": -8.5,
-              "h": 1.91,
-              "a": 1.87
+              "h": 1.89,
+              "a": 1.88
             },
             "total": {
               "line": 118.5,
@@ -1000,7 +1000,7 @@
               "u": 1.89
             }
           },
-          "text": "win 1.11/6.8, -14.5 1.91/1.9, total 229.5 1.91/1.9"
+          "text": "win 1.11/6.8, -14.5 1.93/1.88, total 229.5 1.91/1.9"
         }
       },
       "players": {
