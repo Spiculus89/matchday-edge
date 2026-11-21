@@ -17,7 +17,69 @@
       },
       "context": "Added from Rotowire's Premier League lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
       "odds": {
-        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+        "h": 1.387,
+        "d": 5.45,
+        "a": 8.06,
+        "ou": {
+          "2.5": [
+            1.418,
+            2.96
+          ],
+          "3.5": [
+            2.1,
+            1.826
+          ],
+          "4.5": [
+            3.42,
+            1.331
+          ]
+        },
+        "btts": [
+          1.636,
+          2.36
+        ],
+        "ah": [
+          {
+            "line": -2,
+            "home": 2.88,
+            "away": 1.471
+          },
+          {
+            "line": -1.5,
+            "home": 2.07,
+            "away": 1.862
+          },
+          {
+            "line": -1,
+            "home": 1.578,
+            "away": 2.55
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.568,
+            2.38
+          ],
+          "10.5": [
+            1.943,
+            1.9
+          ],
+          "11.5": [
+            2.44,
+            1.54
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.526,
+            2.49
+          ],
+          "3.5": [
+            2.32,
+            1.598
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
       },
       "referee": {
         "note": "Not on the Rotowire page."
@@ -158,7 +220,7 @@
             1.675
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 2.24,
@@ -277,7 +339,69 @@
       },
       "context": "Added from Rotowire's Serie A lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
       "odds": {
-        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+        "h": 1.502,
+        "d": 4.63,
+        "a": 6.8,
+        "ou": {
+          "2.5": [
+            1.662,
+            2.32
+          ],
+          "3.5": [
+            2.66,
+            1.526
+          ]
+        },
+        "btts": [
+          1.769,
+          2.14
+        ],
+        "ah": [
+          {
+            "line": -1.5,
+            "home": 2.42,
+            "away": 1.628
+          },
+          {
+            "line": -1,
+            "home": 1.819,
+            "away": 2.1
+          },
+          {
+            "line": -0.5,
+            "home": 1.49,
+            "away": 2.77
+          }
+        ],
+        "corners": {
+          "8.5": [
+            1.546,
+            2.43
+          ],
+          "9.5": [
+            1.952,
+            1.892
+          ],
+          "10.5": [
+            2.46,
+            1.534
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.296,
+            3.39
+          ],
+          "3.5": [
+            1.746,
+            2.11
+          ],
+          "4.5": [
+            2.59,
+            1.471
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
       },
       "referee": {
         "note": "Not on the Rotowire page."
@@ -365,7 +489,66 @@
       },
       "context": "Added from Rotowire's Serie A lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
       "odds": {
-        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+        "h": 1.289,
+        "d": 6.29,
+        "a": 10.65,
+        "ou": {
+          "2.5": [
+            1.473,
+            2.75
+          ],
+          "3.5": [
+            2.22,
+            1.714
+          ]
+        },
+        "btts": [
+          1.909,
+          1.961
+        ],
+        "ah": [
+          {
+            "line": -2.5,
+            "home": 3,
+            "away": 1.432
+          },
+          {
+            "line": -2,
+            "home": 2.36,
+            "away": 1.657
+          },
+          {
+            "line": -1.5,
+            "home": 1.813,
+            "away": 2.14
+          },
+          {
+            "line": -1,
+            "home": 1.406,
+            "away": 3.17
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.763,
+            2.07
+          ],
+          "10.5": [
+            2.26,
+            1.641
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.584,
+            2.35
+          ],
+          "3.5": [
+            2.52,
+            1.518
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
       },
       "referee": {
         "note": "Not on the Rotowire page."
@@ -519,7 +702,7 @@
             "away": 2.24
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 1.28,
@@ -720,7 +903,7 @@
             "away": 2.61
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 2.37,
@@ -873,7 +1056,7 @@
             "away": 2.27
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 5.8,
@@ -1026,7 +1209,7 @@
             "away": 2.59
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 4.75,
@@ -1179,7 +1362,7 @@
             "away": 2.85
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 3.5,
@@ -1278,7 +1461,61 @@
       },
       "context": "Added from Rotowire's Premier League lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
       "odds": {
-        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+        "h": 1.505,
+        "d": 4.81,
+        "a": 6.39,
+        "ou": {
+          "2.5": [
+            1.543,
+            2.61
+          ],
+          "3.5": [
+            2.35,
+            1.653
+          ]
+        },
+        "btts": [
+          1.68,
+          2.27
+        ],
+        "ah": [
+          {
+            "line": -1.5,
+            "home": 2.32,
+            "away": 1.675
+          },
+          {
+            "line": -1,
+            "home": 1.8,
+            "away": 2.16
+          },
+          {
+            "line": -0.5,
+            "home": 1.5,
+            "away": 2.78
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.636,
+            2.27
+          ],
+          "10.5": [
+            2.04,
+            1.793
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.564,
+            2.39
+          ],
+          "4.5": [
+            2.33,
+            1.595
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
       },
       "referee": {
         "note": "Not on the Rotowire page."
@@ -1354,7 +1591,65 @@
       },
       "context": "Added from Rotowire's Premier League lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
       "odds": {
-        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+        "h": 2.55,
+        "d": 3.46,
+        "a": 2.91,
+        "ou": {
+          "2.5": [
+            1.806,
+            2.11
+          ],
+          "3.5": [
+            2.92,
+            1.44
+          ]
+        },
+        "btts": [
+          1.617,
+          2.41
+        ],
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.54,
+            "away": 1.578
+          },
+          {
+            "line": 0,
+            "home": 1.84,
+            "away": 2.1
+          },
+          {
+            "line": 0.5,
+            "home": 1.469,
+            "away": 2.89
+          }
+        ],
+        "corners": {
+          "8.5": [
+            1.555,
+            2.41
+          ],
+          "9.5": [
+            1.961,
+            1.884
+          ],
+          "10.5": [
+            2.44,
+            1.543
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.636,
+            2.24
+          ],
+          "4.5": [
+            2.38,
+            1.571
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
       },
       "referee": {
         "note": "Not on the Rotowire page."
@@ -1448,7 +1743,69 @@
       },
       "context": "Added from Rotowire's Premier League lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
       "odds": {
-        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+        "h": 2.06,
+        "d": 3.52,
+        "a": 3.92,
+        "ou": {
+          "1.5": [
+            1.316,
+            3.62
+          ],
+          "2.5": [
+            2.02,
+            1.892
+          ],
+          "3.5": [
+            3.47,
+            1.336
+          ]
+        },
+        "btts": [
+          1.819,
+          2.06
+        ],
+        "ah": [
+          {
+            "line": -1,
+            "home": 3.04,
+            "away": 1.432
+          },
+          {
+            "line": -0.5,
+            "home": 2.06,
+            "away": 1.869
+          },
+          {
+            "line": 0,
+            "home": 1.483,
+            "away": 2.84
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.781,
+            2.05
+          ],
+          "10.5": [
+            2.21,
+            1.671
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.4,
+            2.85
+          ],
+          "4.5": [
+            2.03,
+            1.8
+          ],
+          "5.5": [
+            2.89,
+            1.39
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
       },
       "referee": {
         "note": "Not on the Rotowire page."
@@ -1536,7 +1893,65 @@
       },
       "context": "Added from Rotowire's Premier League lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
       "odds": {
-        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+        "h": 1.781,
+        "d": 3.87,
+        "a": 4.83,
+        "ou": {
+          "2.5": [
+            1.819,
+            2.07
+          ],
+          "3.5": [
+            3.01,
+            1.42
+          ]
+        },
+        "btts": [
+          1.775,
+          2.13
+        ],
+        "ah": [
+          {
+            "line": -1.5,
+            "home": 3.11,
+            "away": 1.408
+          },
+          {
+            "line": -1,
+            "home": 2.39,
+            "away": 1.645
+          },
+          {
+            "line": -0.5,
+            "home": 1.775,
+            "away": 2.16
+          }
+        ],
+        "corners": {
+          "8.5": [
+            1.558,
+            2.4
+          ],
+          "9.5": [
+            1.961,
+            1.877
+          ],
+          "10.5": [
+            2.46,
+            1.534
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.492,
+            2.58
+          ],
+          "4.5": [
+            2.15,
+            1.689
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
       },
       "referee": {
         "note": "Not on the Rotowire page."
@@ -1618,7 +2033,69 @@
       },
       "context": "Added from Rotowire's Premier League lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
       "odds": {
-        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+        "h": 1.961,
+        "d": 3.57,
+        "a": 4.26,
+        "ou": {
+          "1.5": [
+            1.34,
+            3.45
+          ],
+          "2.5": [
+            2.08,
+            1.84
+          ],
+          "3.5": [
+            3.66,
+            1.31
+          ]
+        },
+        "btts": [
+          1.854,
+          2.02
+        ],
+        "ah": [
+          {
+            "line": -1,
+            "home": 2.84,
+            "away": 1.483
+          },
+          {
+            "line": -0.5,
+            "home": 1.961,
+            "away": 1.961
+          },
+          {
+            "line": 0,
+            "home": 1.42,
+            "away": 3.1
+          }
+        ],
+        "corners": {
+          "8.5": [
+            1.507,
+            2.53
+          ],
+          "9.5": [
+            1.869,
+            1.97
+          ],
+          "10.5": [
+            2.34,
+            1.588
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.564,
+            2.39
+          ],
+          "4.5": [
+            2.26,
+            1.628
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
       },
       "referee": {
         "note": "Not on the Rotowire page."
@@ -1713,7 +2190,7 @@
             1.595
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 1.95,
@@ -1898,7 +2375,7 @@
             "away": 2.23
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 5.75,
@@ -2050,7 +2527,65 @@
       },
       "context": "Added from Rotowire's Serie A lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
       "odds": {
-        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+        "h": 12.18,
+        "d": 6.82,
+        "a": 1.241,
+        "ou": {
+          "2.5": [
+            1.452,
+            2.84
+          ],
+          "3.5": [
+            2.15,
+            1.751
+          ]
+        },
+        "btts": [
+          1.99,
+          1.869
+        ],
+        "ah": [
+          {
+            "line": 1.5,
+            "home": 2.28,
+            "away": 1.684
+          },
+          {
+            "line": 2,
+            "home": 1.781,
+            "away": 2.13
+          },
+          {
+            "line": 2.5,
+            "home": 1.495,
+            "away": 2.72
+          }
+        ],
+        "corners": {
+          "8.5": [
+            1.552,
+            2.42
+          ],
+          "9.5": [
+            1.952,
+            1.892
+          ],
+          "10.5": [
+            2.41,
+            1.555
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.675,
+            2.17
+          ],
+          "3.5": [
+            2.78,
+            1.434
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
       },
       "referee": {
         "note": "Not on the Rotowire page."
@@ -2206,7 +2741,7 @@
             1.515
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 2.99,
@@ -2418,7 +2953,7 @@
             "away": 3.08
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 3.9,
@@ -2575,7 +3110,7 @@
             "away": 2.56
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 1.91,
@@ -2716,7 +3251,69 @@
       },
       "context": "Added from Rotowire's Serie A lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only; the 18:15 odds refresh may price it.",
       "odds": {
-        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+        "h": 1.531,
+        "d": 4.47,
+        "a": 6.57,
+        "ou": {
+          "2.5": [
+            1.735,
+            2.19
+          ],
+          "3.5": [
+            2.81,
+            1.469
+          ]
+        },
+        "btts": [
+          1.862,
+          2.01
+        ],
+        "ah": [
+          {
+            "line": -1.5,
+            "home": 2.47,
+            "away": 1.609
+          },
+          {
+            "line": -1,
+            "home": 1.877,
+            "away": 2.05
+          },
+          {
+            "line": -0.5,
+            "home": 1.526,
+            "away": 2.69
+          }
+        ],
+        "corners": {
+          "8.5": [
+            1.467,
+            2.61
+          ],
+          "9.5": [
+            1.813,
+            2.02
+          ],
+          "10.5": [
+            2.27,
+            1.609
+          ]
+        },
+        "cards": {
+          "1.5": [
+            1.259,
+            3.68
+          ],
+          "2.5": [
+            1.9,
+            1.917
+          ],
+          "3.5": [
+            2.85,
+            1.398
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
       },
       "referee": {
         "note": "Not on the Rotowire page."
@@ -2870,7 +3467,7 @@
             1.398
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-20 23:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 1.17,

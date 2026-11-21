@@ -1,0 +1,293 @@
+{
+  "date": "2026-11-22",
+  "updated": "2026-11-21T09:57:25.446Z",
+  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, injuries and players.",
+  "skeleton": true,
+  "games": [
+    {
+      "id": "stu-meg",
+      "league": "ABA League",
+      "start": "2026-11-22T11:00:00.000Z",
+      "home": {
+        "name": "KK Mega Basket Belgrade",
+        "short": "Mega Basket",
+        "code": "MEG"
+      },
+      "away": {
+        "name": "KK Studentski centar Podgorica",
+        "short": "Studentski centar",
+        "code": "STU"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.546,
+          2.47
+        ],
+        "total": {
+          "line": 174,
+          "o": 1.909,
+          "u": 1.909
+        },
+        "teamTotal": {
+          "home": {
+            "line": 88.5,
+            "o": 1.86,
+            "u": 1.88
+          },
+          "away": {
+            "line": 85.5,
+            "o": 1.91,
+            "u": 1.83
+          }
+        },
+        "spread": {
+          "line": -3.5,
+          "h": 1.826,
+          "a": 2
+        },
+        "h1": {
+          "spread": {
+            "line": -2,
+            "h": 1.892,
+            "a": 1.925
+          },
+          "total": {
+            "line": 87.5,
+            "o": 1.877,
+            "u": 1.943
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.53,
+            2.4
+          ],
+          "total": {
+            "line": 173.5,
+            "o": 1.85,
+            "u": 1.89
+          },
+          "teamTotal": {
+            "home": {
+              "line": 88.5,
+              "o": 1.86,
+              "u": 1.88
+            },
+            "away": {
+              "line": 85.5,
+              "o": 1.91,
+              "u": 1.83
+            }
+          },
+          "spread": {
+            "line": -4.5,
+            "h": 1.93,
+            "a": 1.81
+          },
+          "h1": {
+            "spread": {
+              "line": -1.5,
+              "h": 1.81,
+              "a": 1.89
+            },
+            "total": {
+              "line": 87.5,
+              "o": 1.82,
+              "u": 1.88
+            }
+          },
+          "text": "win 1.53/2.4, -4.5 1.93/1.81, total 173.5 1.85/1.89"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 09:57 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "cib-crv",
+      "league": "ABA League",
+      "start": "2026-11-22T12:00:00.000Z",
+      "home": {
+        "name": "KK Crvena zvezda Belgrade",
+        "short": "Crvena zvezda",
+        "code": "CRV"
+      },
+      "away": {
+        "name": "KK Cibona",
+        "short": "Cibona",
+        "code": "CIB"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.063,
+          8.21
+        ],
+        "total": {
+          "line": 176.5,
+          "o": 1.847,
+          "u": 1.97
+        },
+        "teamTotal": {
+          "home": {
+            "line": 95.5,
+            "o": 1.83,
+            "u": 1.91
+          },
+          "away": {
+            "line": 80.5,
+            "o": 1.81,
+            "u": 1.93
+          }
+        },
+        "spread": {
+          "line": -14.5,
+          "h": 1.869,
+          "a": 1.952
+        },
+        "h1": {
+          "spread": {
+            "line": -8.5,
+            "h": 1.909,
+            "a": 1.909
+          },
+          "total": {
+            "line": 89.5,
+            "o": 1.917,
+            "u": 1.892
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.06,
+            7.8
+          ],
+          "total": {
+            "line": 176.5,
+            "o": 1.85,
+            "u": 1.89
+          },
+          "teamTotal": {
+            "home": {
+              "line": 95.5,
+              "o": 1.83,
+              "u": 1.91
+            },
+            "away": {
+              "line": 80.5,
+              "o": 1.81,
+              "u": 1.93
+            }
+          },
+          "spread": {
+            "line": -14.5,
+            "h": 1.86,
+            "a": 1.88
+          },
+          "h1": {
+            "spread": {
+              "line": -8.5,
+              "h": 1.92,
+              "a": 1.79
+            },
+            "total": {
+              "line": 89.5,
+              "o": 1.88,
+              "u": 1.83
+            }
+          },
+          "text": "win 1.06/7.8, -14.5 1.86/1.88, total 176.5 1.85/1.89"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 09:57 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "zad-uni",
+      "league": "ABA League",
+      "start": "2026-11-22T15:30:00.000Z",
+      "home": {
+        "name": "FC Universitatea Cluj",
+        "short": "Universitatea Cluj",
+        "code": "UNI"
+      },
+      "away": {
+        "name": "KK Zadar",
+        "short": "Zadar",
+        "code": "ZAD"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.342,
+          3.21
+        ],
+        "total": {
+          "line": 167.5,
+          "o": 1.943,
+          "u": 1.869
+        },
+        "spread": {
+          "line": -6,
+          "h": 1.884,
+          "a": 1.925
+        },
+        "h1": {
+          "spread": {
+            "line": -3,
+            "h": 1.862,
+            "a": 1.952
+          },
+          "total": {
+            "line": 84.5,
+            "o": 1.98,
+            "u": 1.833
+          }
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 09:57 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    }
+  ]
+}
