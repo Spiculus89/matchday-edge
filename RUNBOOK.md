@@ -56,6 +56,8 @@ This is what each scheduled run does. Each match follows the schema of the exist
 
 ## Basketball and ice hockey
 
+**Paused since 21 Nov 2026 (user request): football only.** Don't build, enrich or grade basketball or hockey; the pages show a paused notice and the menu links are removed. The steps below are kept for when they return.
+
 The menu at the top switches between `index.html` (football), `basketball.html` and `hockey.html`. Each sport has its own folder: `public/data/basketball/` and `public/data/hockey/`, each with `index.json`, `<date>.json` and `results.json`. Use the newest day file as the template; the engines are `engine-basketball.js` (`HoopsEngine`) and `engine-hockey.js` (`HockeyEngine`).
 
 1. **Grade yesterday** exactly as for football: add `result: {home, away, ot}` (`ot` = "OT" or "SO" when it went past regulation) and append graded picks to that sport's `results.json`. Groups: basketball `Moneyline`, `Spread`, `Total`, `Team total`, `1st half`, `Player prop`, `Bet builder`; hockey `Moneyline`, `60-min result`, `Puck line`, `Total`, `BTTS`, `Team total`, `1st period`, `Player prop`, `Bet builder`. NHL moneyline, puck line and totals include OT and the shootout (a shootout adds one goal to the winner); 60-minute markets settle after regulation. Pushes on whole-number lines are `void: true`.
