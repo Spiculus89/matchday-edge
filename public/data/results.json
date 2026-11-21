@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T09:34:53.000Z",
+  "updated": "2026-11-21T09:02:32.571Z",
   "note": "Every graded pick shown on the site. p = the chance shown at the time (bookmaker-implied for player props, which had no model then).",
   "legs": [
     {
@@ -1745,6 +1745,33 @@
       "group": "Bet builder",
       "pick": "Over 2.5 goals + Both teams to score",
       "p": 0.459,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-20",
+      "match": "dar-hei",
+      "group": "Bet builder",
+      "pick": "Under 3.5 goals + BTTS: No",
+      "p": 0.325,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-20",
+      "match": "bie-mag",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.455,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-20",
+      "match": "bay-kol",
+      "group": "Bet builder",
+      "pick": "Bayern to win + Over 1.5 goals + Both teams to score",
+      "p": 0.461,
       "odds": null,
       "won": false
     }

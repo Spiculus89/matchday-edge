@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T09:35:50.000Z",
+  "updated": "2026-11-21T09:02:32.571Z",
   "note": "Graded picks for hockey, same format as football's results.json.",
   "legs": [
     {
@@ -224,6 +224,60 @@
       "group": "Bet builder",
       "pick": "Mammoth +1.5 + Over 4.5 goals",
       "p": 0.561,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-20",
+      "match": "mtl-car",
+      "group": "Moneyline",
+      "pick": "Hurricanes to win (incl. OT)",
+      "p": 0.733,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-20",
+      "match": "mtl-car",
+      "group": "Bet builder",
+      "pick": "Hurricanes to win (incl. OT) + Over 4.5 goals",
+      "p": 0.579,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-20",
+      "match": "ana-col",
+      "group": "1st period",
+      "pick": "1st period under 2 (best bet)",
+      "p": 0.608,
+      "odds": 1.671,
+      "won": true
+    },
+    {
+      "date": "2026-11-20",
+      "match": "ana-col",
+      "group": "Total",
+      "pick": "Over 6.5 goals",
+      "p": 0.55,
+      "odds": 1.793,
+      "won": false
+    },
+    {
+      "date": "2026-11-20",
+      "match": "ana-col",
+      "group": "Bet builder",
+      "pick": "Ducks +1.5 + Over 4.5 goals",
+      "p": 0.559,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-20",
+      "match": "dal-vgk",
+      "group": "Bet builder",
+      "pick": "Stars +1.5 + Over 4.5 goals",
+      "p": 0.516,
       "odds": null,
       "won": true
     }

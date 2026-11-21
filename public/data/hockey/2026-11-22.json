@@ -1,8 +1,7 @@
 {
   "date": "2026-11-22",
-  "updated": "2026-11-20T23:03:57.076Z",
-  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, injuries and players.",
-  "skeleton": true,
+  "updated": "2026-11-21T09:02:32.571Z",
+  "updateNote": "Morning run: NHL season form from ESPN standings added; European games keep Pinnacle fallback prices (no form or team news found within the run's budget).",
   "games": [
     {
       "id": "sab-pan",
@@ -18,7 +17,7 @@
         "short": "Sabres",
         "code": "SAB"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
           1.699,
@@ -107,7 +106,20 @@
           "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "gf": 3.13,
+          "ga": 2.96,
+          "games": 23
+        },
+        "away": {
+          "gf": 2.76,
+          "ga": 3.52,
+          "games": 21
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
     },
     {
       "id": "pen-pre",
@@ -123,7 +135,7 @@
         "short": "Penguins",
         "code": "PEN"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
           1.751,
@@ -212,7 +224,20 @@
           "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "gf": 3.05,
+          "ga": 3,
+          "games": 22
+        },
+        "away": {
+          "gf": 3.1,
+          "ga": 3.55,
+          "games": 20
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
     },
     {
       "id": "cap-bru",
@@ -228,7 +253,7 @@
         "short": "Capitals",
         "code": "CAP"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
           1.833,
@@ -304,7 +329,20 @@
           "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "gf": 3.45,
+          "ga": 2.55,
+          "games": 22
+        },
+        "away": {
+          "gf": 3.37,
+          "ga": 3.68,
+          "games": 19
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
     },
     {
       "id": "jac-lea",
@@ -320,7 +358,7 @@
         "short": "Jackets",
         "code": "JAC"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
           1.833,
@@ -396,7 +434,20 @@
           "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "gf": 3.13,
+          "ga": 3.57,
+          "games": 23
+        },
+        "away": {
+          "gf": 2.42,
+          "ga": 3.32,
+          "games": 19
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
     },
     {
       "id": "fly-can",
@@ -412,7 +463,7 @@
         "short": "Flyers",
         "code": "FLY"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
           1.632,
@@ -488,7 +539,20 @@
           "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "gf": 3.27,
+          "ga": 3,
+          "games": 22
+        },
+        "away": {
+          "gf": 2.38,
+          "ga": 3.33,
+          "games": 24
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
     },
     {
       "id": "kin-sen",
@@ -504,7 +568,7 @@
         "short": "Kings",
         "code": "KIN"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
           1.578,
@@ -580,7 +644,20 @@
           "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "gf": 3.18,
+          "ga": 2.82,
+          "games": 22
+        },
+        "away": {
+          "gf": 2.74,
+          "ga": 3.32,
+          "games": 19
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
     },
     {
       "id": "isl-win",
@@ -596,7 +673,7 @@
         "short": "Islanders",
         "code": "ISL"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
           2.01,
@@ -672,7 +749,20 @@
           "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "gf": 2.64,
+          "ga": 3.09,
+          "games": 22
+        },
+        "away": {
+          "gf": 3.25,
+          "ga": 2.85,
+          "games": 20
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
     },
     {
       "id": "dev-blu",
@@ -688,7 +778,7 @@
         "short": "Devils",
         "code": "DEV"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
           2.12,
@@ -764,7 +854,20 @@
           "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "gf": 3,
+          "ga": 3.1,
+          "games": 21
+        },
+        "away": {
+          "gf": 3.73,
+          "ga": 2.91,
+          "games": 22
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
     },
     {
       "id": "kni-jet",
@@ -780,7 +883,7 @@
         "short": "Knights",
         "code": "KNI"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
           2.2,
@@ -856,7 +959,20 @@
           "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "gf": 3.05,
+          "ga": 3.36,
+          "games": 22
+        },
+        "away": {
+          "gf": 3.35,
+          "ga": 2.91,
+          "games": 23
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
     },
     {
       "id": "duc-mam",
@@ -872,7 +988,7 @@
         "short": "Ducks",
         "code": "DUC"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
           1.636,
@@ -948,7 +1064,20 @@
           "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "gf": 3.35,
+          "ga": 3.43,
+          "games": 23
+        },
+        "away": {
+          "gf": 3.86,
+          "ga": 3.86,
+          "games": 22
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
     },
     {
       "id": "wil-can",
@@ -964,7 +1093,7 @@
         "short": "Wild",
         "code": "WIL"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
           3.41,
@@ -1050,7 +1179,20 @@
           "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "gf": 2.87,
+          "ga": 4.35,
+          "games": 23
+        },
+        "away": {
+          "gf": 3.61,
+          "ga": 2.22,
+          "games": 23
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
     },
     {
       "id": "kra-sha",
@@ -1066,7 +1208,7 @@
         "short": "Kraken",
         "code": "KRA"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
           1.877,
@@ -1142,7 +1284,20 @@
           "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "gf": 2.71,
+          "ga": 3.58,
+          "games": 24
+        },
+        "away": {
+          "gf": 3.28,
+          "ga": 3.67,
+          "games": 18
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
     }
   ]
 }

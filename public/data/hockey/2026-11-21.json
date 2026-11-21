@@ -1,8 +1,7 @@
 {
   "date": "2026-11-21",
-  "updated": "2026-11-20T08:52:59.126Z",
-  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, injuries and players.",
-  "skeleton": true,
+  "updated": "2026-11-21T09:02:32.571Z",
+  "updateNote": "Morning run: NHL season form from ESPN standings added; European games keep Pinnacle fallback prices (no form or team news found within the run's budget).",
   "games": [
     {
       "id": "spa-nef",
@@ -516,6 +515,153 @@
       ]
     },
     {
+      "id": "tps-juk",
+      "league": "Liiga",
+      "start": "2026-11-21T15:00:00.000Z",
+      "home": {
+        "name": "Jukurit Mikkeli",
+        "short": "Jukurit Mikkeli",
+        "code": "JUK"
+      },
+      "away": {
+        "name": "TPS Turku",
+        "short": "TPS Turku",
+        "code": "TPS"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "reg": [
+          2.04,
+          3.85,
+          3.05
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 2.2,
+          "u": 1.671
+        },
+        "totalReg": {
+          "line": 5,
+          "o": 2.07,
+          "u": 1.751
+        },
+        "ml": [
+          1.617,
+          2.3
+        ],
+        "hcpReg": {
+          "line": -1.5,
+          "h": 2.69,
+          "a": 1.425
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 03:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "reg": [
+            2.02,
+            3.7,
+            2.85
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 2.15,
+            "u": 1.62
+          },
+          "totalReg": {
+            "line": 4.5,
+            "o": 1.73,
+            "u": 2
+          },
+          "text": ""
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 03:57 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "hif-kal",
+      "league": "Liiga",
+      "start": "2026-11-21T15:00:00.000Z",
+      "home": {
+        "name": "KalPa Hockey",
+        "short": "KalPa Hockey",
+        "code": "KAL"
+      },
+      "away": {
+        "name": "HIFK Helsinki",
+        "short": "HIFK Helsinki",
+        "code": "HIF"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "reg": [
+          2.29,
+          3.69,
+          2.69
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 2.08,
+          "u": 1.746
+        },
+        "totalReg": {
+          "line": 5,
+          "o": 1.892,
+          "u": 1.909
+        },
+        "ml": [
+          1.775,
+          2.04
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-21 03:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "reg": [
+            2.2,
+            3.65,
+            2.55
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 2.04,
+            "u": 1.69
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 2.18,
+            "u": 1.61
+          },
+          "text": ""
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 03:57 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
       "id": "oil-hur",
       "league": "NHL",
       "start": "2026-11-21T18:00:00.000Z",
@@ -529,7 +675,7 @@
         "short": "Oilers",
         "code": "OIL"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
           1.549,
@@ -618,7 +764,138 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "form": {
+        "home": {
+          "gf": 4.14,
+          "ga": 2.24,
+          "games": 21
+        },
+        "away": {
+          "gf": 4,
+          "ga": 2.7,
+          "games": 23
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
+    },
+    {
+      "id": "bla-fla",
+      "league": "NHL",
+      "start": "2026-11-21T20:30:00.000Z",
+      "home": {
+        "name": "Calgary Flames",
+        "short": "Flames",
+        "code": "FLA"
+      },
+      "away": {
+        "name": "Chicago Blackhawks",
+        "short": "Blackhawks",
+        "code": "BLA"
+      },
+      "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
+      "odds": {
+        "ml": [
+          1.675,
+          2.31
+        ],
+        "reg": [
+          2.08,
+          4.2,
+          2.95
+        ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.84,
+          "u": 2
+        },
+        "totalReg": {
+          "line": 6,
+          "o": 2.21,
+          "u": 1.709
+        },
+        "btts": [
+          1.08,
+          6.4
+        ],
+        "total": {
+          "line": 6,
+          "o": 2.04,
+          "u": 1.84
+        },
+        "teamTotal": {
+          "home": {
+            "line": 3.5,
+            "o": 2.22,
+            "u": 1.68
+          },
+          "away": {
+            "line": 2.5,
+            "o": 1.813,
+            "u": 2.02
+          }
+        },
+        "puck": {
+          "line": -1.5,
+          "h": 2.72,
+          "a": 1.495
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 03:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.63,
+            2.23
+          ],
+          "reg": [
+            2.01,
+            4.1,
+            2.95
+          ],
+          "p1total": {
+            "line": 1.5,
+            "o": 1.79,
+            "u": 1.92
+          },
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.72,
+            "u": 2.01
+          },
+          "btts": [
+            1.08,
+            6.4
+          ],
+          "text": "win 1.63/2.23"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 03:57 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form": {
+        "home": {
+          "gf": 2.55,
+          "ga": 3.45,
+          "games": 22
+        },
+        "away": {
+          "gf": 2.48,
+          "ga": 4.1,
+          "games": 21
+        },
+        "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      }
     }
   ]
 }

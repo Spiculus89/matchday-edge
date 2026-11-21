@@ -276,6 +276,11 @@
           },
           "text": "win 1.47/2.7, -5.5 1.88/1.93, total 224.5 1.9/1.91"
         }
+      },
+      "result": {
+        "home": 126,
+        "away": 98,
+        "ot": null
       }
     },
     {
@@ -543,6 +548,11 @@
           },
           "text": "win 1.09/7.6, -16.5 1.92/1.89, total 224.5 1.91/1.9"
         }
+      },
+      "result": {
+        "home": 124,
+        "away": 112,
+        "ot": null
       }
     },
     {
@@ -801,6 +811,11 @@
           },
           "text": "win 1.94/1.87, +1.5 1.85/1.97, total 216.5 1.94/1.87"
         }
+      },
+      "result": {
+        "home": 99,
+        "away": 102,
+        "ot": null
       }
     },
     {
@@ -1079,6 +1094,11 @@
           },
           "text": "win 4.9/1.18, +11.5 1.89/1.92, total 230.5 1.92/1.89"
         }
+      },
+      "result": {
+        "home": 114,
+        "away": 124,
+        "ot": null
       }
     },
     {
@@ -1644,7 +1664,12 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 92,
+        "away": 76,
+        "ot": null
+      }
     },
     {
       "id": "crv-fc",
@@ -1872,5 +1897,13 @@
         }
       ]
     }
+  ],
+  "gradingTodo": [
+    "igo-fmp: result and picks (no final score opened on the 21 Nov morning run). Picks: Moneyline: FMP to win (p 0.633); Bet builder: FMP to win + Under 171.5 points (p 0.442)",
+    "asv-ana: result and picks (no final score opened on the 21 Nov morning run). Picks: Moneyline: Anadolu to win (p 0.728); Bet builder: Anadolu to win + Over 169 points (p 0.511)",
+    "bor-krk: result and picks (no final score opened on the 21 Nov morning run). Picks: Moneyline: Krka to win (p 0.679); Bet builder: Krka to win + Under 174 points (p 0.47)",
+    "kd-bos: result and picks (no final score opened on the 21 Nov morning run). Picks: Moneyline: Bosna to win (p 0.752); Bet builder: Bosna to win + Under 175.5 points (p 0.542)",
+    "crv-fc: result and picks (no final score opened on the 21 Nov morning run). Picks: Bet builder: FC to win + Under 181 points (p 0.41)",
+    "bes-par: result and picks (no final score opened on the 21 Nov morning run). Picks: Moneyline: Partizan to win (p 0.653); Bet builder: Partizan to win + Under 173 points (p 0.454)"
   ]
 }

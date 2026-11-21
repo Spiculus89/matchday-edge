@@ -328,7 +328,11 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 3,
+        "away": 1
+      }
     },
     {
       "id": "bie-mag",
@@ -408,7 +412,11 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 2
+      }
     },
     {
       "id": "liv-wan",
@@ -849,7 +857,11 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 1
+      }
     },
     {
       "id": "pog-sla",
@@ -1333,5 +1345,17 @@
         }
       ]
     }
+  ],
+  "gradingTodo": [
+    "sha-ajm: result and picks (no final score opened on the 21 Nov morning run). Picks: Result: Shabab Al Ahli to win (p 0.643); Bet builder: Shabab Al Ahli to win + Over 2.5 goals (p 0.467)",
+    "pia-kor: result and picks (no final score opened on the 21 Nov morning run). Picks: Bet builder: Over 2.5 goals + Both teams to score (p 0.487)",
+    "liv-wan: result and picks (no final score opened on the 21 Nov morning run). Picks: Result: Liverpool draw no bet (Lean) (p 0.644); Bet builder: Over 1.5 goals + Both teams to score (p 0.517)",
+    "rac-cen: result and picks (no final score opened on the 21 Nov morning run). Picks: Bet builder: Racing or draw + Over 1.5 goals (p 0.526)",
+    "cer-nac: result and picks (no final score opened on the 21 Nov morning run). Picks: Bet builder: Over 1.5 goals + Both teams to score (p 0.505)",
+    "bay-kol: Most corners: Bayern (Lean) (p 0.68) — corners not found on the 21 Nov morning run",
+    "pog-sla: result and picks (no final score opened on the 21 Nov morning run). Picks: Bet builder: Pogoń or draw + Under 3.5 goals (p 0.495)",
+    "tro-hav: result and picks (no final score opened on the 21 Nov morning run). Picks: Bet builder: Under 3.5 goals + BTTS: No (p 0.425)",
+    "cer-wes: result and picks (no final score opened on the 21 Nov morning run). Picks: Bet builder: Over 2.5 goals + Both teams to score (p 0.501)",
+    "ath-esp: result and picks (no final score opened on the 21 Nov morning run). Picks: Result: Athletic to win (p 0.64); Bet builder: Athletic to win + Over 2.5 goals (p 0.423)"
   ]
 }

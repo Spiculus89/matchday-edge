@@ -815,6 +815,11 @@
           ],
           "text": "win 1.33/3.25"
         }
+      },
+      "result": {
+        "home": 1,
+        "away": 2,
+        "ot": "OT"
       }
     },
     {
@@ -1366,6 +1371,11 @@
           ],
           "text": "win 1.76/2.03"
         }
+      },
+      "result": {
+        "home": 4,
+        "away": 0,
+        "ot": null
       }
     },
     {
@@ -1635,6 +1645,11 @@
           ],
           "text": "win 1.8/1.98"
         }
+      },
+      "result": {
+        "home": 3,
+        "away": 4,
+        "ot": "SO"
       }
     },
     {
@@ -2486,5 +2501,20 @@
         }
       ]
     }
+  ],
+  "gradingTodo": [
+    "buf-wsh: result and picks (no final score opened on the 21 Nov morning run). Picks: 1st period: 1st period under 2 (best bet) (p 0.61 @1.680); Bet builder: Sabres +1.5 + Over 4.5 goals (p 0.545)",
+    "lak-tor: result and picks (no final score opened on the 21 Nov morning run). Picks: Team total: Kings over 2.5 (Lean) (p 0.589 @1.666); Bet builder: Kings +1.5 + Over 4.5 goals (p 0.539)",
+    "edm-tbl: result and picks (no final score opened on the 21 Nov morning run). Picks: Puck line: Oilers +1.5 (Lean) (p 0.659 @1.492); Team total: Lightning under 3.5 (Lean) (p 0.55 @1.781); Bet builder: Oilers +1.5 + Over 4.5 goals (p 0.533)",
+    "kar-koo: result and picks (no final score opened on the 21 Nov morning run). Picks: Puck line: KooKoo +1.5 (Lean) (p 0.654); Bet builder: KooKoo +1.5 + Over 4.5 goals (p 0.496)",
+    "lok-tor: result and picks (no final score opened on the 21 Nov morning run). Picks: Puck line: Torpedo +1.5 (Lean) (p 0.659); Total: Under 6.5 goals (Lean) (p 0.692); 1st period: 1st period under 1 (Bet) (p 0.461 @2.350); Bet builder: Torpedo +1.5 + Under 6.5 goals (p 0.516)",
+    "amu-sev: result and picks (no final score opened on the 21 Nov morning run). Picks: Puck line: Amur +1.5 (Lean) (p 0.663); Total: Under 6.5 goals (Lean) (p 0.685); Bet builder: Amur +1.5 + Under 6.5 goals (p 0.513)",
+    "jok-hpk: result and picks (no final score opened on the 21 Nov morning run). Picks: Puck line: Jokerit +1.5 (Lean) (p 0.687); Total: Under 6.5 goals (Lean) (p 0.673); Bet builder: Jokerit +1.5 + Under 6.5 goals (p 0.523)",
+    "csk-sha: result and picks (no final score opened on the 21 Nov morning run). Picks: Moneyline: CSKA to win (incl. OT) (p 0.692); Total: Under 6.5 goals (Lean) (p 0.671); Puck line: Shanghai +1.5 (60 min) (Lean) (p 0.598 @1.657); Bet builder: CSKA to win (incl. OT) + Under 6.5 goals (p 0.456)",
+    "ing-eis: result and picks (no final score opened on the 21 Nov morning run). Picks: Moneyline: Eisbaren to win (incl. OT) (p 0.664); Puck line: Ingolstadt +1.5 (60 min) (Lean) (p 0.587 @1.699); Bet builder: Eisbaren to win (incl. OT) + Over 4.5 goals (p 0.469)",
+    "sch-low: result and picks (no final score opened on the 21 Nov morning run). Picks: Puck line: Schwenninger +1.5 (Lean) (p 0.673); Bet builder: Schwenninger +1.5 + Over 4.5 goals (p 0.498)",
+    "klo-ber: result and picks (no final score opened on the 21 Nov morning run). Picks: Moneyline: Bern to win (incl. OT) (p 0.711); Bet builder: Bern to win (incl. OT) + Over 4.5 goals (p 0.491)",
+    "rap-fri: result and picks (no final score opened on the 21 Nov morning run). Picks: Moneyline: Fribourg-Gotteron to win (incl. OT) (p 0.615); Puck line: Rapperswil-Jona +1.5 (60 min) (Lean) (p 0.622 @1.598); Bet builder: Rapperswil-Jona +1.5 + Over 4.5 goals (p 0.482)",
+    "ajo-lug: result and picks (no final score opened on the 21 Nov morning run). Picks: Moneyline: Lugano to win (incl. OT) (p 0.686); Puck line: Ajoie +1.5 (60 min) (Lean) (p 0.552 @1.826); Bet builder: Lugano to win (incl. OT) + Over 4.5 goals (p 0.495)"
   ]
 }
