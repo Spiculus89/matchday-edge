@@ -1,8 +1,96 @@
 {
   "date": "2026-11-21",
-  "updated": "2026-11-21T09:02:32.571Z",
-  "updateNote": "Morning run: predicted XIs, team news and recent form added to the Pinnacle fallback file (no props or referees found).",
+  "updated": "2026-11-21T09:52:45.740Z",
+  "updateNote": "Morning run: predicted XIs, team news and recent form added to the Pinnacle fallback file (no props or referees found). Premier League and Serie A games added with Rotowire predicted XIs.",
   "matches": [
+    {
+      "id": "mci-ful",
+      "competition": "Premier League (England)",
+      "kickoff": "2026-11-21T12:30:00.000Z",
+      "home": {
+        "name": "Manchester City",
+        "short": "Man City"
+      },
+      "away": {
+        "name": "Fulham",
+        "short": "Fulham"
+      },
+      "context": "Added from Rotowire's Premier League lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
+      "odds": {
+        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: A. Semenyo.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: Marc Guehi, A. Khusanov, M. Nunes.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: B. Lecomte, E. Smith Rowe.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: Tom Cairney.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 21 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "G. Donnarumma",
+            "N. O'Reilly",
+            "Ruben Dias",
+            "J. Gvardiol",
+            "A. Khusanov",
+            "E. Anderson",
+            "E. Fernandez",
+            "Jeremy Doku",
+            "Rayan Cherki",
+            "I. Ndiaye",
+            "E. Haaland"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "Bernd Leno",
+            "A. Robinson",
+            "C. Bassey",
+            "D. Affengruber",
+            "T. Castagne",
+            "Shea Charles",
+            "Sander Berge",
+            "Alex Iwobi",
+            "Josh King",
+            "Oscar Bobb",
+            "Gonzalo Garcia"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Premier League lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php"
+        }
+      ]
+    },
     {
       "id": "dep-dep",
       "competition": "LaLiga (Spain)",
@@ -174,6 +262,182 @@
       "referee": {
         "note": "No referee was named in the preview sources read this morning."
       }
+    },
+    {
+      "id": "laz-lec",
+      "competition": "Serie A (Italy)",
+      "kickoff": "2026-11-21T14:00:00.000Z",
+      "home": {
+        "name": "Lazio",
+        "short": "Lazio"
+      },
+      "away": {
+        "name": "Lecce",
+        "short": "Lecce"
+      },
+      "context": "Added from Rotowire's Serie A lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
+      "odds": {
+        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: A. Furlanetto, Adam Marusic, Josip Sutalo, Nuno Tavares, M. Zaccagni.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: D. Cataldi, D. Frattesi.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: Ivan Ilic, S. Pierotti.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: M. Berisha, J. Monteiro.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 21 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "C. Mandas",
+            "A. Pedraza",
+            "Diogo Leite",
+            "O. Provstgaard",
+            "R. Floriani Mussolini",
+            "R. Belahyane",
+            "Kenneth Taylor",
+            "D. Frattesi",
+            "T. Noslin",
+            "G. Isaksen",
+            "A. Pinamonti"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "W. Falcone",
+            "A. Gallo",
+            "Tiago Gabriel",
+            "J. Siebert",
+            "Danilo Veiga",
+            "Y. Maleh",
+            "L. Coulibaly",
+            "Oumar Ngom",
+            "Amar Ahmed Fatah",
+            "Konan N'Dri",
+            "W. Geubbels"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Serie A lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=SERI&week=10"
+        }
+      ]
+    },
+    {
+      "id": "com-cag",
+      "competition": "Serie A (Italy)",
+      "kickoff": "2026-11-21T14:00:00.000Z",
+      "home": {
+        "name": "Como",
+        "short": "Como"
+      },
+      "away": {
+        "name": "Cagliari",
+        "short": "Cagliari"
+      },
+      "context": "Added from Rotowire's Serie A lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
+      "odds": {
+        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Jayden Addai, J. Caraballo, Assane Diao, Moise Kean.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: T. Chalobah.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: M. Felici, Yerry Mina, Harry Winks.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: G. Aurelio, Alieu Fadera, R. Idrissi, M'Bala Nzola, Yael Trepy.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 21 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "Jean Butez",
+            "Kaiki",
+            "Jacobo Ramon",
+            "M. Kempf",
+            "Yan Couto",
+            "Luis Milla",
+            "S. Ricci",
+            "M. Baturina",
+            "Nico Paz",
+            "L. Da Cunha",
+            "Tasos Douvikas"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "Elia Caprile",
+            "Juan Rodriguez",
+            "R. Kofler",
+            "Ze Pedro",
+            "Adam Obert",
+            "Michel Adopo",
+            "A. Deiola",
+            "A. Romano",
+            "N. Grandu",
+            "Paul Mendy",
+            "D. Maldini"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Serie A lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=SERI&week=10"
+        }
+      ]
     },
     {
       "id": "bay-pad",
@@ -1001,6 +1265,392 @@
       }
     },
     {
+      "id": "tot-ips",
+      "competition": "Premier League (England)",
+      "kickoff": "2026-11-21T15:00:00.000Z",
+      "home": {
+        "name": "Tottenham Hotspur",
+        "short": "Spurs"
+      },
+      "away": {
+        "name": "Ipswich Town",
+        "short": "Ipswich"
+      },
+      "context": "Added from Rotowire's Premier League lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
+      "odds": {
+        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: T. Adarabioyo, M. Mudryk, W. Odobert, Xavi Simons, Mathys Tel.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: L. Bergvall, M. Dubravka, Savio.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 21 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "A. Kinsky",
+            "A. Robertson",
+            "M. van de Ven",
+            "J. van Hecke",
+            "Pedro Porro",
+            "S. Tonali",
+            "Archie Gray",
+            "Mateus Fernandes",
+            "O. Marmoush",
+            "M. Kudus",
+            "D. Solanke"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "C. Walton",
+            "Issa Diop",
+            "Dara O'Shea",
+            "J. Greaves",
+            "Leif Davis",
+            "E. Palacios",
+            "Sasa Lukic",
+            "A. Ouattara",
+            "Julio Enciso",
+            "Daizen Maeda",
+            "Z. Flemming"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Premier League lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php"
+        }
+      ]
+    },
+    {
+      "id": "cov-cry",
+      "competition": "Premier League (England)",
+      "kickoff": "2026-11-21T15:00:00.000Z",
+      "home": {
+        "name": "Coventry City",
+        "short": "Coventry"
+      },
+      "away": {
+        "name": "Crystal Palace",
+        "short": "Palace"
+      },
+      "context": "Added from Rotowire's Premier League lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
+      "odds": {
+        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: A. Amenda, Josh Eccles, E. Mason-Clark, L. Woolfenden, Haji Wright.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: Frank Onyeka, Bobby Thomas, C. Yirenkyi.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: Chadi Riad, Ismaila Sarr, T. Tomiyasu.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Suspended: J. Mateta.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: A. Khalaili, J. Strand Larsen.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 21 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "C. Rushworth",
+            "Jay Dasilva",
+            "E. Pinnock",
+            "Bobby Thomas",
+            "M. van Ewijk",
+            "Victor Torp",
+            "Matt Grimes",
+            "Yann Gboho",
+            "Jack Rudoni",
+            "T. Sakamoto",
+            "T. Awoniyi"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "D. Henderson",
+            "Axel Disasi",
+            "C. Richards",
+            "J. Canvot",
+            "T. Mitchell",
+            "Will Hughes",
+            "Adam Wharton",
+            "A. Khalaili",
+            "Yeremy Pino",
+            "D. Kamada",
+            "J. Strand Larsen"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Premier League lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php"
+        }
+      ]
+    },
+    {
+      "id": "che-lee",
+      "competition": "Premier League (England)",
+      "kickoff": "2026-11-21T15:00:00.000Z",
+      "home": {
+        "name": "Chelsea",
+        "short": "Chelsea"
+      },
+      "away": {
+        "name": "Leeds United",
+        "short": "Leeds"
+      },
+      "context": "Added from Rotowire's Premier League lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
+      "odds": {
+        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: J. Gittens, Jorrel Hato, Reece James, Joao Pedro, M. Lacroix.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: J. Acheampong, M. Caicedo.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: Mateo Joseph.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: Anton Stach.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 21 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "E. Martinez",
+            "Pep Chavarria",
+            "Levi Colwill",
+            "W. Fofana",
+            "J. Acheampong",
+            "M. Caicedo",
+            "J. Henderson",
+            "M. Rogers",
+            "Cole Palmer",
+            "Estevao",
+            "Pedro Neto"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "J. Trafford",
+            "James Justin",
+            "T. Muharemovic",
+            "Nico Elvedi",
+            "G. Gudmundsson",
+            "Ao Tanaka",
+            "Ethan Ampadu",
+            "Jayden Bogle",
+            "Noah Okafor",
+            "Anton Stach",
+            "D. Calvert-Lewin"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Premier League lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php"
+        }
+      ]
+    },
+    {
+      "id": "avl-sun",
+      "competition": "Premier League (England)",
+      "kickoff": "2026-11-21T15:00:00.000Z",
+      "home": {
+        "name": "Aston Villa",
+        "short": "Villa"
+      },
+      "away": {
+        "name": "Sunderland",
+        "short": "Sunderland"
+      },
+      "context": "Added from Rotowire's Premier League lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
+      "odds": {
+        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Matty Cash, Amadou Onana, M. Ruggeri.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: J. Manzambi, A. Wan-Bissaka.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: D. Ballard, B. Brobbey, Habib Diarra, R. Mundle, Granit Xhaka.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 21 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "Zion Suzuki",
+            "Ian Maatsen",
+            "V. Lindelof",
+            "Pau Torres",
+            "A. Wan-Bissaka",
+            "B. Kamara",
+            "L. Goretzka",
+            "J. Manzambi",
+            "John McGinn",
+            "Alysson",
+            "N. Jackson"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "Robin Roefs",
+            "Reinildo",
+            "Luke O'Nien",
+            "N. Mukiele",
+            "T. Meunier",
+            "Noah Sadiki",
+            "Jules Ahoka",
+            "C. Talbi",
+            "Enzo Le Fee",
+            "Trai Hume",
+            "W. Isidor"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Premier League lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php"
+        }
+      ]
+    },
+    {
+      "id": "bou-nfo",
+      "competition": "Premier League (England)",
+      "kickoff": "2026-11-21T15:00:00.000Z",
+      "home": {
+        "name": "AFC Bournemouth",
+        "short": "Bournemouth"
+      },
+      "away": {
+        "name": "Nottingham Forest",
+        "short": "Forest"
+      },
+      "context": "Added from Rotowire's Premier League lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
+      "odds": {
+        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: J. Araujo, Juanlu, Alex Toth.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "pending",
+        "source": "Rotowire predicted XI for Bournemouth only (Forest's block didn't load in full). Bournemouth: D. Petrovic, A. Truffert, Antonio Silva, James Hill, Adam Smith, Tyler Adams, Alex Scott, M. Tavernier, J. Kluivert, Rayan, Evanilson.",
+        "home": {
+          "formation": "",
+          "xi": []
+        },
+        "away": {
+          "formation": "",
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Premier League lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php"
+        }
+      ]
+    },
+    {
       "id": "ray-val",
       "competition": "LaLiga (Spain)",
       "kickoff": "2026-11-21T15:15:00.000Z",
@@ -1385,6 +2035,100 @@
           "ga": 0.67
         }
       }
+    },
+    {
+      "id": "par-rom",
+      "competition": "Serie A (Italy)",
+      "kickoff": "2026-11-21T17:00:00.000Z",
+      "home": {
+        "name": "Parma",
+        "short": "Parma"
+      },
+      "away": {
+        "name": "Roma",
+        "short": "Roma"
+      },
+      "context": "Added from Rotowire's Serie A lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only.",
+      "odds": {
+        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: D. Drobnic, J. Romero, L. Valenti.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Suspended: A. Ndiaye.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: A. Bernabe.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: Muhammed Bah, L. Pellegrini, D. Rensch, D. Vasquez.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: Paulo Dybala, P. Gollini, G. Mancini, Mile Svilar.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 21 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "G. Daffara",
+            "Franco Carboni",
+            "M. Troilo",
+            "E. Delprato",
+            "E. Valeri",
+            "G. Fabbian",
+            "M. Keita",
+            "V. Sierro",
+            "S. Britschgi",
+            "N. Elphege",
+            "S. Lontani"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "Mile Svilar",
+            "Evan N'Dicka",
+            "M. Hermoso",
+            "G. Mancini",
+            "Wesley",
+            "Manu Kone",
+            "B. Cristante",
+            "N. Molina",
+            "Paulo Dybala",
+            "Rodrigo Mora",
+            "D. Malen"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Serie A lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=SERI&week=10"
+        }
+      ]
     },
     {
       "id": "sev-rea",
@@ -1957,6 +2701,94 @@
       "referee": {
         "note": "No referee was named in the preview sources read this morning."
       }
+    },
+    {
+      "id": "nap-tor",
+      "competition": "Serie A (Italy)",
+      "kickoff": "2026-11-21T19:45:00.000Z",
+      "home": {
+        "name": "Napoli",
+        "short": "Napoli"
+      },
+      "away": {
+        "name": "Torino",
+        "short": "Torino"
+      },
+      "context": "Added from Rotowire's Serie A lineups page. This league is not in today's odds snapshot, so there are no prices yet and the site shows lineups and team news only; the 18:15 odds refresh may price it.",
+      "odds": {
+        "book": "No prices: league not in the OddsPapi snapshot (21 Nov 03:57 UTC)."
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: B. Badiashile, A. Buongiorno, Alisson Santos, G. Di Lorenzo, S. Lobotka, Alex Meret, David Neres.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: C. Favasuli, L. Spinazzola.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: Franco Israel.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: R. Belghali, N. Fortini, N. Vlasic.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 21 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "V. Milinkovic-Savic",
+            "A. Rrahmani",
+            "Rafa Marin",
+            "Sam Beukema",
+            "M. Olivera",
+            "B. Gilmour",
+            "Frank Anguissa",
+            "M. Politano",
+            "S. McTominay",
+            "A. Vergara",
+            "R. Hojlund"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "Lucas Perri",
+            "A. Ismajli",
+            "Saul Coco",
+            "P. Comuzzo",
+            "A. Cacciamani",
+            "Daniel Braganca",
+            "C. Casadei",
+            "R. Mandragora",
+            "R. Belghali",
+            "Che Adams",
+            "G. Simeone"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Serie A lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=SERI&week=10"
+        }
+      ]
     },
     {
       "id": "rea-cel",
