@@ -678,77 +678,77 @@
       "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
-          1.549,
-          2.59
+          1.48,
+          2.85
         ],
         "reg": [
-          1.892,
-          4.43,
-          3.31
+          1.793,
+          4.54,
+          3.68
         ],
         "p1total": {
           "line": 1.5,
-          "o": 1.763,
-          "u": 2.1
+          "o": 1.714,
+          "u": 2.2
         },
         "totalReg": {
           "line": 6,
-          "o": 1.99,
-          "u": 1.869
+          "o": 1.952,
+          "u": 1.917
         },
         "btts": [
-          1.07,
-          6.8
+          1.08,
+          6.6
         ],
         "total": {
-          "line": 6,
-          "o": 1.862,
-          "u": 2.02
+          "line": 6.5,
+          "o": 2.07,
+          "u": 1.833
         },
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 1.934,
-            "u": 1.884
+            "o": 1.854,
+            "u": 1.98
           },
           "away": {
             "line": 2.5,
-            "o": 1.847,
-            "u": 1.98
+            "o": 1.909,
+            "u": 1.925
           }
         },
         "puck": {
           "line": -1.5,
-          "h": 2.36,
-          "a": 1.636
+          "h": 2.24,
+          "a": 1.714
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.55,
-            2.42
+            1.49,
+            2.6
           ],
           "reg": [
-            1.87,
-            4.3,
-            3.2
+            1.81,
+            4.4,
+            3.55
           ],
           "p1total": {
             "line": 1.5,
             "o": 1.73,
-            "u": 1.99
+            "u": 2
           },
           "totalReg": {
             "line": 5.5,
-            "o": 1.62,
-            "u": 2.17
+            "o": 1.65,
+            "u": 2.25
           },
           "btts": [
-            1.07,
-            6.8
+            1.08,
+            6.6
           ],
-          "text": "win 1.55/2.42"
+          "text": "win 1.49/2.6"
         }
       },
       "players": {
@@ -796,77 +796,77 @@
       "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
-          1.675,
-          2.31
+          1.653,
+          2.38
         ],
         "reg": [
-          2.08,
-          4.2,
-          2.95
+          2.05,
+          4.24,
+          3.07
         ],
         "p1total": {
           "line": 1.5,
-          "o": 1.84,
-          "u": 2
+          "o": 1.781,
+          "u": 2.1
         },
         "totalReg": {
           "line": 6,
-          "o": 2.21,
-          "u": 1.709
+          "o": 2.2,
+          "u": 1.724
         },
         "btts": [
-          1.08,
-          6.4
+          1.09,
+          6.2
         ],
         "total": {
           "line": 6,
-          "o": 2.04,
-          "u": 1.84
+          "o": 2.03,
+          "u": 1.862
         },
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 2.22,
-            "u": 1.68
+            "o": 2.19,
+            "u": 1.709
           },
           "away": {
             "line": 2.5,
-            "o": 1.813,
-            "u": 2.02
+            "o": 1.833,
+            "u": 2.01
           }
         },
         "puck": {
           "line": -1.5,
-          "h": 2.72,
-          "a": 1.495
+          "h": 2.68,
+          "a": 1.518
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
             1.63,
-            2.23
+            2.24
           ],
           "reg": [
-            2.01,
-            4.1,
-            2.95
+            2.04,
+            4.2,
+            3
           ],
           "p1total": {
             "line": 1.5,
-            "o": 1.79,
-            "u": 1.92
+            "o": 1.81,
+            "u": 1.9
           },
           "totalReg": {
             "line": 5.5,
-            "o": 1.72,
-            "u": 2.01
+            "o": 1.8,
+            "u": 2.02
           },
           "btts": [
-            1.08,
-            6.4
+            1.09,
+            6.2
           ],
-          "text": "win 1.63/2.23"
+          "text": "win 1.63/2.24"
         }
       },
       "players": {
