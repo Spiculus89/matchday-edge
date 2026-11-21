@@ -18,109 +18,109 @@
       },
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
-        "h": 6.72,
-        "d": 4.75,
-        "a": 1.495,
+        "h": 6.57,
+        "d": 4.7,
+        "a": 1.507,
         "ou": {
           "1.5": [
-            1.2,
-            4.87
+            1.204,
+            4.81
           ],
           "2.5": [
-            1.613,
-            2.41
+            1.625,
+            2.39
           ],
           "3.5": [
-            2.55,
-            1.561
+            2.57,
+            1.549
           ],
           "4.5": [
-            4.51,
-            1.224
+            4.57,
+            1.22
           ]
         },
         "btts": [
-          1.729,
-          2.19
+          1.74,
+          2.18
         ],
         "ah": [
           {
             "line": 0.5,
-            "home": 2.81,
-            "away": 1.485
+            "home": 2.77,
+            "away": 1.497
           },
           {
             "line": 1,
-            "home": 2.13,
-            "away": 1.819
+            "home": 2.08,
+            "away": 1.854
           },
           {
             "line": 1.5,
-            "home": 1.628,
-            "away": 2.41
+            "home": 1.606,
+            "away": 2.46
           }
         ],
         "corners": {
           "9.5": [
-            1.568,
-            2.3
+            1.574,
+            2.32
           ],
           "10.5": [
-            1.934,
-            1.862
+            1.943,
+            1.869
           ],
           "11.5": [
-            2.37,
-            1.537
+            2.38,
+            1.543
           ]
         },
         "cards": {
           "2.5": [
-            1.318,
-            3.16
+            1.332,
+            3.08
           ],
           "3.5": [
-            1.787,
-            2.01
+            1.833,
+            1.952
           ],
           "4.5": [
-            2.67,
-            1.427
+            2.71,
+            1.416
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 22:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
-          "h": 5.55,
+          "h": 5.9,
           "d": 4.55,
-          "a": 1.49,
+          "a": 1.51,
           "ou": {
             "1.5": [
-              1.13,
-              5.2
+              1.16,
+              4.8
             ],
             "2.5": [
-              1.49,
-              2.45
+              1.56,
+              2.31
             ],
             "3.5": [
-              2.3,
-              1.56
+              2.48,
+              1.5
             ],
             "4.5": [
-              4.05,
-              1.2
+              4.5,
+              1.17
             ],
             "5.5": [
-              8,
-              1.05
+              9.05,
+              1.04
             ]
           },
           "btts": [
-            1.64,
-            2.18
+            1.71,
+            2.07
           ],
-          "text": "1X2 5.55/4.55/1.49, O/U 2.5 1.49/2.45"
+          "text": "1X2 5.9/4.55/1.51, O/U 2.5 1.56/2.31"
         }
       },
       "news": [],

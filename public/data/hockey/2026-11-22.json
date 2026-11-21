@@ -20,77 +20,77 @@
       "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
-          1.719,
+          1.714,
           2.26
         ],
         "reg": [
           2.13,
-          4.3,
-          2.87
+          4.31,
+          2.86
         ],
         "p1total": {
           "line": 1.5,
-          "o": 1.729,
-          "u": 2.17
+          "o": 1.719,
+          "u": 2.19
         },
         "totalReg": {
           "line": 6,
-          "o": 1.98,
-          "u": 1.892
+          "o": 1.952,
+          "u": 1.917
         },
         "btts": [
           1.07,
-          6.8
+          7
         ],
         "total": {
-          "line": 6,
-          "o": 1.847,
-          "u": 2.05
+          "line": 6.5,
+          "o": 2.05,
+          "u": 1.847
         },
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 2.13,
-            "u": 1.746
+            "o": 2.11,
+            "u": 1.757
           },
           "away": {
             "line": 2.5,
-            "o": 1.714,
-            "u": 2.17
+            "o": 1.709,
+            "u": 2.18
           }
         },
         "puck": {
           "line": -1.5,
-          "h": 2.73,
-          "a": 1.502
+          "h": 2.71,
+          "a": 1.507
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 22:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
             1.67,
-            2.17
+            2.16
           ],
           "reg": [
             2.09,
             4.3,
-            2.9
+            2.85
           ],
           "p1total": {
             "line": 1.5,
-            "o": 1.73,
-            "u": 1.99
+            "o": 1.72,
+            "u": 2
           },
           "totalReg": {
             "line": 5.5,
-            "o": 1.63,
-            "u": 2.19
+            "o": 1.65,
+            "u": 2.25
           },
           "btts": [
             1.07,
-            6.8
+            7
           ],
-          "text": "win 1.67/2.17"
+          "text": "win 1.67/2.16"
         }
       },
       "players": {
@@ -138,32 +138,32 @@
       "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
-          1.746,
-          2.21
+          1.769,
+          2.17
         ],
         "reg": [
-          2.18,
-          4.26,
-          2.81
+          2.21,
+          4.22,
+          2.77
         ],
         "p1total": {
           "line": 1.5,
-          "o": 1.694,
-          "u": 2.23
+          "o": 1.662,
+          "u": 2.29
         },
         "totalReg": {
           "line": 6,
-          "o": 1.869,
-          "u": 2
+          "o": 1.854,
+          "u": 2.02
         },
         "btts": [
           1.06,
-          7.2
+          7.4
         ],
         "total": {
           "line": 6.5,
-          "o": 1.961,
-          "u": 1.925
+          "o": 1.934,
+          "u": 1.952
         },
         "teamTotal": {
           "home": {
@@ -173,42 +173,42 @@
           },
           "away": {
             "line": 2.5,
-            "o": 1.645,
-            "u": 2.3
+            "o": 1.625,
+            "u": 2.34
           }
         },
         "puck": {
           "line": -1.5,
-          "h": 2.82,
-          "a": 1.478
+          "h": 2.87,
+          "a": 1.465
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 22:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.71,
-            2.11
+            1.72,
+            2.08
           ],
           "reg": [
-            2.15,
-            4.3,
-            2.8
+            2.18,
+            4.2,
+            2.75
           ],
           "p1total": {
             "line": 1.5,
-            "o": 1.69,
-            "u": 2.04
+            "o": 1.68,
+            "u": 2.06
           },
           "totalReg": {
             "line": 6.5,
-            "o": 2.18,
-            "u": 1.63
+            "o": 2.2,
+            "u": 1.68
           },
           "btts": [
             1.06,
-            7.2
+            7.4
           ],
-          "text": "win 1.71/2.11"
+          "text": "win 1.72/2.08"
         }
       },
       "players": {
@@ -256,77 +256,77 @@
       "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
-          1.819,
-          2.11
+          1.757,
+          2.2
         ],
         "reg": [
-          2.27,
+          2.18,
           4.29,
-          2.66
+          2.79
         ],
         "p1total": {
           "line": 1.5,
-          "o": 1.68,
-          "u": 2.26
+          "o": 1.671,
+          "u": 2.27
         },
         "totalReg": {
           "line": 6,
-          "o": 1.806,
-          "u": 2.08
+          "o": 1.793,
+          "u": 2.1
         },
         "btts": [
-          1.06,
+          1.05,
           7.6
         ],
         "total": {
           "line": 6.5,
-          "o": 1.9,
-          "u": 1.99
+          "o": 1.884,
+          "u": 2
         },
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 2.1,
-            "u": 1.763
+            "o": 2.04,
+            "u": 1.806
           },
           "away": {
-            "line": 3.5,
-            "o": 2.37,
-            "u": 1.613
+            "line": 2.5,
+            "o": 1.591,
+            "u": 2.41
           }
         },
         "puck": {
           "line": -1.5,
-          "h": 2.97,
-          "a": 1.438
+          "h": 2.87,
+          "a": 1.462
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 22:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.78,
-            2.01
+            1.73,
+            2.07
           ],
           "reg": [
-            2.25,
+            2.19,
             4.3,
-            2.6
+            2.7
           ],
           "p1total": {
             "line": 1.5,
-            "o": 1.66,
-            "u": 2.09
+            "o": 1.64,
+            "u": 2.12
           },
           "totalReg": {
             "line": 6.5,
-            "o": 2.09,
-            "u": 1.69
+            "o": 2.08,
+            "u": 1.76
           },
           "btts": [
-            1.06,
+            1.05,
             7.6
           ],
-          "text": "win 1.78/2.01"
+          "text": "win 1.73/2.07"
         }
       },
       "players": {
@@ -374,77 +374,77 @@
       "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
-          1.892,
-          2.02
+          1.854,
+          2.06
         ],
         "reg": [
-          2.38,
-          4.2,
-          2.56
+          2.32,
+          4.24,
+          2.6
         ],
         "p1total": {
           "line": 1.5,
-          "o": 1.735,
-          "u": 2.17
+          "o": 1.74,
+          "u": 2.16
         },
         "totalReg": {
           "line": 6,
-          "o": 2.02,
-          "u": 1.854
+          "o": 2.05,
+          "u": 1.833
         },
         "btts": [
           1.07,
-          7
+          6.8
         ],
         "total": {
           "line": 6,
-          "o": 1.877,
-          "u": 2.01
+          "o": 1.9,
+          "u": 1.98
         },
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 2.26,
-            "u": 1.666
+            "o": 2.24,
+            "u": 1.68
           },
           "away": {
             "line": 2.5,
-            "o": 1.613,
+            "o": 1.609,
             "u": 2.37
           }
         },
         "puck": {
           "line": -1.5,
-          "h": 3.18,
-          "a": 1.392
+          "h": 3.1,
+          "a": 1.409
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 22:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.85,
-            1.93
+            1.81,
+            1.97
           ],
           "reg": [
-            2.37,
+            2.32,
             4.2,
-            2.5
+            2.55
           ],
           "p1total": {
             "line": 1.5,
-            "o": 1.73,
-            "u": 1.99
+            "o": 1.74,
+            "u": 1.98
           },
           "totalReg": {
             "line": 5.5,
-            "o": 1.63,
-            "u": 2.19
+            "o": 1.68,
+            "u": 2.21
           },
           "btts": [
             1.07,
-            7
+            6.8
           ],
-          "text": "win 1.85/1.93"
+          "text": "win 1.81/1.97"
         }
       },
       "players": {
@@ -492,23 +492,23 @@
       "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
-          1.657,
-          2.37
+          1.649,
+          2.38
         ],
         "reg": [
-          2.06,
-          4.23,
-          3.04
+          2.05,
+          4.21,
+          3.07
         ],
         "p1total": {
           "line": 1.5,
-          "o": 1.787,
-          "u": 2.09
+          "o": 1.806,
+          "u": 2.06
         },
         "totalReg": {
           "line": 6,
-          "o": 2.2,
-          "u": 1.729
+          "o": 2.17,
+          "u": 1.746
         },
         "btts": [
           1.08,
@@ -516,53 +516,53 @@
         ],
         "total": {
           "line": 6,
-          "o": 2.02,
-          "u": 1.869
+          "o": 2,
+          "u": 1.892
         },
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 2.18,
-            "u": 1.709
+            "o": 2.16,
+            "u": 1.724
           },
           "away": {
             "line": 2.5,
-            "o": 1.847,
-            "u": 2
+            "o": 1.9,
+            "u": 1.934
           }
         },
         "puck": {
           "line": -1.5,
-          "h": 2.66,
+          "h": 2.65,
           "a": 1.529
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 22:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.62,
-            2.25
+            1.64,
+            2.23
           ],
           "reg": [
-            2.03,
+            2.05,
             4.2,
-            3.05
+            3
           ],
           "p1total": {
             "line": 1.5,
             "o": 1.8,
-            "u": 1.9
+            "u": 1.91
           },
           "totalReg": {
             "line": 5.5,
-            "o": 1.75,
-            "u": 2
+            "o": 1.78,
+            "u": 2.05
           },
           "btts": [
             1.08,
             6.4
           ],
-          "text": "win 1.62/2.25"
+          "text": "win 1.64/2.23"
         }
       },
       "players": {
@@ -610,32 +610,32 @@
       "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
-          1.581,
-          2.54
+          1.552,
+          2.62
         ],
         "reg": [
-          1.952,
-          4.3,
-          3.26
+          1.909,
+          4.32,
+          3.39
         ],
         "p1total": {
           "line": 1.5,
-          "o": 1.813,
-          "u": 2.06
+          "o": 1.847,
+          "u": 2.01
         },
         "totalReg": {
           "line": 6,
-          "o": 2.34,
-          "u": 1.649
+          "o": 2.4,
+          "u": 1.621
         },
         "btts": [
-          1.09,
+          1.1,
           6
         ],
         "total": {
           "line": 5.5,
-          "o": 1.909,
-          "u": 1.98
+          "o": 1.952,
+          "u": 1.934
         },
         "teamTotal": {
           "home": {
@@ -645,42 +645,42 @@
           },
           "away": {
             "line": 2.5,
-            "o": 1.961,
-            "u": 1.869
+            "o": 2.01,
+            "u": 1.833
           }
         },
         "puck": {
           "line": -1.5,
-          "h": 2.52,
-          "a": 1.578
+          "h": 2.48,
+          "a": 1.595
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 22:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.56,
-            2.39
+            1.55,
+            2.4
           ],
           "reg": [
-            1.93,
+            1.92,
             4.3,
             3.25
           ],
           "p1total": {
             "line": 1.5,
-            "o": 1.84,
-            "u": 1.87
+            "o": 1.86,
+            "u": 1.85
           },
           "totalReg": {
             "line": 5.5,
-            "o": 1.81,
+            "o": 1.88,
             "u": 1.93
           },
           "btts": [
-            1.09,
+            1.1,
             6
           ],
-          "text": "win 1.56/2.39"
+          "text": "win 1.55/2.4"
         }
       },
       "players": {
@@ -728,23 +728,23 @@
       "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
-          2.13,
-          1.8
+          2.15,
+          1.787
         ],
         "reg": [
-          2.72,
-          4.14,
-          2.26
+          2.75,
+          4.15,
+          2.24
         ],
         "p1total": {
           "line": 1.5,
-          "o": 1.781,
-          "u": 2.09
+          "o": 1.8,
+          "u": 2.07
         },
         "totalReg": {
           "line": 6,
-          "o": 2.16,
-          "u": 1.751
+          "o": 2.18,
+          "u": 1.74
         },
         "btts": [
           1.08,
@@ -752,14 +752,14 @@
         ],
         "total": {
           "line": 6,
-          "o": 1.99,
-          "u": 1.9
+          "o": 2,
+          "u": 1.892
         },
         "teamTotal": {
           "home": {
             "line": 2.5,
-            "o": 1.699,
-            "u": 2.2
+            "o": 1.714,
+            "u": 2.18
           },
           "away": {
             "line": 3.5,
@@ -769,20 +769,20 @@
         },
         "puck": {
           "line": 1.5,
-          "h": 1.416,
-          "a": 3.07
+          "h": 1.421,
+          "a": 3.04
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 22:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            2.02,
-            1.77
+            2.05,
+            1.75
           ],
           "reg": [
-            2.65,
+            2.7,
             4.1,
-            2.27
+            2.23
           ],
           "p1total": {
             "line": 1.5,
@@ -791,14 +791,14 @@
           },
           "totalReg": {
             "line": 5.5,
-            "o": 1.72,
-            "u": 2.04
+            "o": 1.75,
+            "u": 2.09
           },
           "btts": [
             1.08,
             6.6
           ],
-          "text": "win 2.02/1.77"
+          "text": "win 2.05/1.75"
         }
       },
       "players": {
@@ -846,77 +846,77 @@
       "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
-          2.14,
-          1.793
+          2.15,
+          1.781
         ],
         "reg": [
-          2.74,
+          2.75,
           4.2,
-          2.24
+          2.23
         ],
         "p1total": {
           "line": 1.5,
-          "o": 1.763,
-          "u": 2.12
+          "o": 1.769,
+          "u": 2.11
         },
         "totalReg": {
           "line": 6,
-          "o": 2.08,
-          "u": 1.806
+          "o": 2.12,
+          "u": 1.781
         },
         "btts": [
-          1.07,
+          1.08,
           6.6
         ],
         "total": {
           "line": 6,
-          "o": 1.925,
-          "u": 1.961
+          "o": 1.961,
+          "u": 1.925
         },
         "teamTotal": {
           "home": {
             "line": 2.5,
-            "o": 1.694,
-            "u": 2.21
+            "o": 1.709,
+            "u": 2.18
           },
           "away": {
             "line": 3.5,
-            "o": 2.27,
-            "u": 1.657
+            "o": 2.28,
+            "u": 1.653
           }
         },
         "puck": {
           "line": 1.5,
-          "h": 1.436,
-          "a": 2.98
+          "h": 1.44,
+          "a": 2.96
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 22:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            2.05,
+            2.04,
             1.75
           ],
           "reg": [
             2.7,
-            4.2,
-            2.22
+            4.1,
+            2.23
           ],
           "p1total": {
             "line": 1.5,
             "o": 1.77,
-            "u": 1.95
+            "u": 1.94
           },
           "totalReg": {
             "line": 5.5,
-            "o": 1.69,
-            "u": 2.09
+            "o": 1.73,
+            "u": 2.12
           },
           "btts": [
-            1.07,
+            1.08,
             6.6
           ],
-          "text": "win 2.05/1.75"
+          "text": "win 2.04/1.75"
         }
       },
       "players": {
@@ -965,12 +965,12 @@
       "odds": {
         "ml": [
           2.18,
-          1.763
+          1.769
         ],
         "reg": [
-          2.77,
+          2.76,
           4.28,
-          2.19
+          2.2
         ],
         "p1total": {
           "line": 1.5,
@@ -979,8 +979,8 @@
         },
         "totalReg": {
           "line": 6,
-          "o": 1.925,
-          "u": 1.943
+          "o": 1.934,
+          "u": 1.934
         },
         "btts": [
           1.06,
@@ -999,42 +999,42 @@
           },
           "away": {
             "line": 3.5,
-            "o": 2.14,
+            "o": 2.15,
             "u": 1.735
           }
         },
         "puck": {
           "line": 1.5,
-          "h": 1.465,
-          "a": 2.86
+          "h": 1.462,
+          "a": 2.87
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 22:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            2.08,
-            1.73
+            2.09,
+            1.72
           ],
           "reg": [
             2.75,
             4.2,
-            2.18
+            2.17
           ],
           "p1total": {
             "line": 1.5,
-            "o": 1.7,
-            "u": 2.03
+            "o": 1.71,
+            "u": 2.02
           },
           "totalReg": {
             "line": 6.5,
-            "o": 2.22,
-            "u": 1.61
+            "o": 2.28,
+            "u": 1.63
           },
           "btts": [
             1.06,
             7.2
           ],
-          "text": "win 2.08/1.73"
+          "text": "win 2.09/1.72"
         }
       },
       "players": {
@@ -1082,38 +1082,38 @@
       "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
-          1.653,
-          2.38
+          1.636,
+          2.41
         ],
         "reg": [
-          2.03,
-          4.38,
-          3.03
+          2,
+          4.46,
+          3.06
         ],
         "p1total": {
           "line": 2,
-          "o": 2.15,
-          "u": 1.746
+          "o": 2.09,
+          "u": 1.781
         },
         "totalReg": {
           "line": 6.5,
-          "o": 1.97,
-          "u": 1.9
+          "o": 1.909,
+          "u": 1.961
         },
         "btts": [
           1.05,
           8
         ],
         "total": {
-          "line": 6.5,
-          "o": 1.74,
-          "u": 2.2
+          "line": 7,
+          "o": 2.11,
+          "u": 1.8
         },
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 1.793,
-            "u": 2.06
+            "o": 1.751,
+            "u": 2.12
           },
           "away": {
             "line": 3.5,
@@ -1123,36 +1123,36 @@
         },
         "puck": {
           "line": -1.5,
-          "h": 2.56,
-          "a": 1.561
+          "h": 2.48,
+          "a": 1.591
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 22:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.61,
-            2.28
+            1.59,
+            2.32
           ],
           "reg": [
-            1.99,
-            4.4,
-            3.05
+            1.96,
+            4.5,
+            3.1
           ],
           "p1total": {
             "line": 1.5,
-            "o": 1.6,
-            "u": 2.2
+            "o": 1.58,
+            "u": 2.23
           },
           "totalReg": {
             "line": 6.5,
             "o": 1.91,
-            "u": 1.83
+            "u": 1.9
           },
           "btts": [
             1.05,
             8
           ],
-          "text": "win 1.61/2.28"
+          "text": "win 1.59/2.32"
         }
       },
       "players": {
@@ -1200,28 +1200,28 @@
       "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
-          3.59,
-          1.334
+          3.63,
+          1.328
         ],
         "reg": [
-          4.64,
-          5.02,
-          1.574
+          4.65,
+          5.17,
+          1.558
         ],
         "p1total": {
           "line": 1.5,
-          "o": 1.671,
-          "u": 2.28
+          "o": 1.684,
+          "u": 2.25
         },
         "totalReg": {
           "line": 6,
-          "o": 1.826,
-          "u": 2.05
+          "o": 1.892,
+          "u": 1.98
         },
         "hcpReg": {
           "line": 1.5,
-          "h": 2,
-          "a": 1.76
+          "h": 2.04,
+          "a": 1.79
         },
         "btts": [
           1.08,
@@ -1229,27 +1229,27 @@
         ],
         "total": {
           "line": 6.5,
-          "o": 1.961,
-          "u": 1.925
+          "o": 2.04,
+          "u": 1.854
         },
         "teamTotal": {
           "home": {
             "line": 2.5,
-            "o": 2.12,
-            "u": 1.751
+            "o": 2.19,
+            "u": 1.704
           },
           "away": {
             "line": 3.5,
-            "o": 1.632,
-            "u": 2.33
+            "o": 1.641,
+            "u": 2.31
           }
         },
         "puck": {
           "line": 1.5,
-          "h": 2.04,
-          "a": 1.854
+          "h": 2.08,
+          "a": 1.819
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 22:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -1268,13 +1268,13 @@
           },
           "totalReg": {
             "line": 6.5,
-            "o": 2.12,
-            "u": 1.67
+            "o": 2.17,
+            "u": 1.7
           },
           "hcpReg": {
             "line": 1.5,
-            "h": 2,
-            "a": 1.76
+            "h": 2.04,
+            "a": 1.79
           },
           "btts": [
             1.08,
@@ -1328,18 +1328,18 @@
       "context": "Pinnacle prices with season goals for and against from ESPN's standings. Injury news and starting goalies were not checked this morning.",
       "odds": {
         "ml": [
-          1.892,
-          2.02
+          1.909,
+          1.99
         ],
         "reg": [
-          2.37,
+          2.4,
           4.24,
-          2.55
+          2.51
         ],
         "p1total": {
           "line": 1.5,
-          "o": 1.684,
-          "u": 2.25
+          "o": 1.675,
+          "u": 2.26
         },
         "totalReg": {
           "line": 6,
@@ -1358,31 +1358,31 @@
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 2.22,
-            "u": 1.689
+            "o": 2.24,
+            "u": 1.675
           },
           "away": {
             "line": 3.5,
-            "o": 2.34,
-            "u": 1.625
+            "o": 2.32,
+            "u": 1.636
           }
         },
         "puck": {
           "line": -1.5,
-          "h": 3.14,
-          "a": 1.4
+          "h": 3.18,
+          "a": 1.392
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-21 22:10 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.84,
-            1.93
+            1.86,
+            1.92
           ],
           "reg": [
-            2.37,
+            2.39,
             4.2,
-            2.5
+            2.48
           ],
           "p1total": {
             "line": 1.5,
@@ -1391,14 +1391,14 @@
           },
           "totalReg": {
             "line": 6.5,
-            "o": 2.16,
-            "u": 1.65
+            "o": 2.2,
+            "u": 1.68
           },
           "btts": [
             1.06,
             7.4
           ],
-          "text": "win 1.84/1.93"
+          "text": "win 1.86/1.92"
         }
       },
       "players": {
