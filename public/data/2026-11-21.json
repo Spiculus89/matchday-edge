@@ -473,7 +473,11 @@
           "title": "Rotowire Serie A lineups",
           "url": "https://www.rotowire.com/soccer/lineups.php?league=SERI&week=10"
         }
-      ]
+      ],
+      "result": {
+        "home": 3,
+        "away": 0
+      }
     },
     {
       "id": "com-cag",
@@ -1575,7 +1579,11 @@
           "title": "Rotowire Premier League lineups",
           "url": "https://www.rotowire.com/soccer/lineups.php"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 0
+      }
     },
     {
       "id": "cov-cry",
@@ -2511,6 +2519,10 @@
           "gf": 2.67,
           "ga": 0.67
         }
+      },
+      "result": {
+        "home": 2,
+        "away": 3
       }
     },
     {
@@ -2930,6 +2942,10 @@
           "gf": 2,
           "ga": 1.5
         }
+      },
+      "result": {
+        "home": 1,
+        "away": 1
       }
     },
     {
@@ -3679,5 +3695,24 @@
         "note": "No referee was named in the preview sources read this morning."
       }
     }
+  ],
+  "gradingTodo": [
+    "mci-ful: result and picks (no verified final score on the 22 Nov morning run). Picks: Result: Man City to win (most likely) (p 0.701 @1.387); Bet builder: Man City to win + Over 1.5 goals + Both teams to score (p 0.363)",
+    "dep-dep: result and picks (no verified final score on the 22 Nov morning run). Picks: Bet builder: Over 1.5 goals + Both teams to score (p 0.503)",
+    "com-cag: result and picks (no verified final score on the 22 Nov morning run). Picks: Result: Como to win (most likely) (p 0.754 @1.289); Bet builder: Como to win + Under 3.5 goals (p 0.389)",
+    "bay-pad: result and picks (no verified final score on the 22 Nov morning run). Picks: Result: Leverkusen to win (most likely) (p 0.762 @1.261); Bet builder: Leverkusen to win + Over 1.5 goals + Both teams to score (p 0.388)",
+    "uni-rbl: result and picks (no verified final score on the 22 Nov morning run). Picks: Result: Leipzig to win (most likely) (p 0.646 @1.497); Bet builder: Leipzig to win + Over 2.5 goals (p 0.485)",
+    "bor-bor: result and picks (no verified final score on the 22 Nov morning run). Picks: Bet builder: Dortmund to win + Over 1.5 goals (p 0.524)",
+    "elv-fre: result and picks (no verified final score on the 22 Nov morning run). Picks: Bet builder: Over 2.5 goals + Both teams to score (p 0.514)",
+    "cov-cry: result and picks (no verified final score on the 22 Nov morning run). Picks: Bet builder: Over 2.5 goals + Both teams to score (p 0.457)",
+    "che-lee: result and picks (no verified final score on the 22 Nov morning run). Picks: Bet builder: Over 1.5 goals + Both teams to score (p 0.521)",
+    "avl-sun: result and picks (no verified final score on the 22 Nov morning run). Picks: Bet builder: Villa or draw + Over 1.5 goals + Both teams to score (p 0.432)",
+    "bou-nfo: result and picks (no verified final score on the 22 Nov morning run). Picks: Bet builder: Over 1.5 goals + Both teams to score (p 0.508)",
+    "ray-val: result and picks (no verified final score on the 22 Nov morning run). Picks: Bet builder: Over 1.5 goals + Both teams to score (p 0.507)",
+    "par-rom: result and picks (no verified final score on the 22 Nov morning run). Picks: Result: Roma to win (most likely) (p 0.781 @1.239); Bet builder: Roma to win + Under 3.5 goals (p 0.384)",
+    "sch-vfb: result and picks (no verified final score on the 22 Nov morning run). Picks: Bet builder: Over 2.5 goals + Both teams to score (p 0.526)",
+    "rac-tou: result and picks (no verified final score on the 22 Nov morning run). Picks: Bet builder: Over 2.5 goals + Both teams to score (p 0.448)",
+    "nap-tor: result and picks (no verified final score on the 22 Nov morning run). Picks: Result: Napoli to win (most likely) (p 0.633 @1.537); Bet builder: Napoli to win + Over 2.5 goals (p 0.413)",
+    "rea-cel: result and picks (no verified final score on the 22 Nov morning run). Picks: Result: Real Madrid to win (most likely) (p 0.833 @1.161); Bet builder: Real Madrid to win + Over 1.5 goals + BTTS: No (p 0.404)"
   ]
 }

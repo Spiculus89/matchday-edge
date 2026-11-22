@@ -1,8 +1,7 @@
 {
   "date": "2026-11-22",
-  "updated": "2026-11-20T23:03:57.076Z",
-  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, news and lineups.",
-  "skeleton": true,
+  "updated": "2026-11-22T09:02:45.000Z",
+  "updateNote": "Morning run: 16 top-five-league games added from the odds feed with Rotowire predicted XIs and absences (LaLiga, Serie A, Bundesliga), a preview XI for Liverpool v Man Utd, and season goals-per-game form from the league tables. Premier League and Ligue 1 Rotowire pages showed an old week, so Hull v Brighton and the Ligue 1 games have lineups pending. No props or referees beyond Liverpool v Man Utd.",
   "matches": [
     {
       "id": "cha-cru",
@@ -139,6 +138,2990 @@
           "url": "https://oddspapi.io/"
         }
       ]
+    },
+    {
+      "id": "juv-ven",
+      "competition": "Serie A (Italy)",
+      "kickoff": "2026-11-22T11:30:00.000Z",
+      "home": {
+        "name": "Juventus Turin",
+        "short": "Juventus"
+      },
+      "away": {
+        "name": "Venezia FC",
+        "short": "Venezia"
+      },
+      "context": "Rotowire predicted XIs and absences (22 Nov morning); Juventus are without Yildiz, Locatelli and Thuram. Form is season league goals per game. Prices are Pinnacle's from 21 Nov 15:34 UTC; nothing newer to adjust for.",
+      "odds": {
+        "h": 1.367,
+        "d": 5.43,
+        "a": 8.35,
+        "ou": {
+          "2.5": [
+            1.675,
+            2.28
+          ],
+          "3.5": [
+            2.71,
+            1.497
+          ]
+        },
+        "btts": [
+          2.01,
+          1.847
+        ],
+        "corners": {
+          "9.5": [
+            1.684,
+            2.16
+          ],
+          "10.5": [
+            2.11,
+            1.724
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.68,
+            2.15
+          ],
+          "3.5": [
+            2.52,
+            1.507
+          ]
+        },
+        "ah": [
+          {
+            "line": -2,
+            "home": 3.01,
+            "away": 1.431
+          },
+          {
+            "line": -1.5,
+            "home": 2.09,
+            "away": 1.833
+          },
+          {
+            "line": -1,
+            "home": 1.564,
+            "away": 2.55
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.38,
+          "d": 5,
+          "a": 7.95,
+          "ou": {
+            "0.5": [
+              1.02,
+              15.3
+            ],
+            "1.5": [
+              1.2,
+              4.7
+            ],
+            "2.5": [
+              1.63,
+              2.28
+            ],
+            "3.5": [
+              2.62,
+              1.49
+            ],
+            "4.5": [
+              4.8,
+              1.18
+            ],
+            "5.5": [
+              9.85,
+              1.05
+            ]
+          },
+          "btts": [
+            1.95,
+            1.83
+          ],
+          "corners": {
+            "9.5": [
+              1.68,
+              1.98
+            ]
+          },
+          "cards": {
+            "2.5": [
+              1.64,
+              2.04
+            ]
+          },
+          "text": "1X2 1.38/5/7.95, O/U 2.5 1.63/2.28"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: N. Gonzalez, K. Grabara, P. Kalulu, M. Locatelli, A. Milik, K. Thuram, Kenan Yildiz.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: A. Cambiaso, F. Conceicao.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: A. Adorante, Toma Basic, T. Correia, B. Franjic, P. Mazzocchi, Marin Sverko.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 22 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "G. Vicario",
+            "F. Gatti",
+            "G. Bremer",
+            "Jhon Lucumi",
+            "Juan Cabal",
+            "T. Koopmeiners",
+            "Douglas Luiz",
+            "W. McKennie",
+            "K. Alajbegovic",
+            "N. Woltemade",
+            "R. Kolo Muani"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "F. Stankovic",
+            "R. Halhal",
+            "Juan Jesus",
+            "M. Moreno",
+            "R. Haps",
+            "G. Busio",
+            "Kike Perez",
+            "Simon Sohm",
+            "A. Hainaut",
+            "Akor Adams",
+            "John Yeboah"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Serie A lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?XMnoRq9J=7Dl3WoIftU3cuWE&league=SERI"
+        },
+        {
+          "title": "sportschau.de Serie A table",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/italien-serie-a/tabelle"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (11 games) from the sportschau.de Serie A table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 1.36,
+          "ga": 1.09
+        },
+        "away": {
+          "gf": 0.73,
+          "ga": 1.91
+        }
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      }
+    },
+    {
+      "id": "bar-vil",
+      "competition": "LaLiga (Spain)",
+      "kickoff": "2026-11-22T13:00:00.000Z",
+      "home": {
+        "name": "FC Barcelona",
+        "short": "Barcelona"
+      },
+      "away": {
+        "name": "Villarreal CF",
+        "short": "Villarreal"
+      },
+      "context": "Rotowire predicted XIs and absences (22 Nov morning); Barcelona have four questionable regulars (De Jong, Kounde, Olmo, Cubarsi). Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
+      "odds": {
+        "h": 1.202,
+        "d": 7.46,
+        "a": 13.58,
+        "ou": {
+          "3.5": [
+            1.401,
+            2.87
+          ],
+          "4.5": [
+            2,
+            1.84
+          ]
+        },
+        "btts": [
+          1.452,
+          2.81
+        ],
+        "corners": {
+          "10.5": [
+            1.632,
+            2.25
+          ],
+          "11.5": [
+            2.04,
+            1.775
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.3,
+            3.31
+          ],
+          "3.5": [
+            1.763,
+            2.06
+          ],
+          "4.5": [
+            2.62,
+            1.452
+          ]
+        },
+        "ah": [
+          {
+            "line": -3,
+            "home": 2.85,
+            "away": 1.416
+          },
+          {
+            "line": -2.5,
+            "home": 2.15,
+            "away": 1.74
+          },
+          {
+            "line": -2,
+            "home": 1.735,
+            "away": 2.16
+          },
+          {
+            "line": -1.5,
+            "home": 1.48,
+            "away": 2.62
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.21,
+          "d": 7.6,
+          "a": 11.2,
+          "ou": {
+            "1.5": [
+              1.02,
+              13.4
+            ],
+            "2.5": [
+              1.15,
+              5.5
+            ],
+            "3.5": [
+              1.42,
+              2.84
+            ],
+            "4.5": [
+              1.96,
+              1.82
+            ],
+            "5.5": [
+              3.02,
+              1.38
+            ]
+          },
+          "btts": [
+            1.47,
+            2.74
+          ],
+          "corners": {
+            "10.5": [
+              1.66,
+              2.01
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.74,
+              1.9
+            ]
+          },
+          "text": "1X2 1.21/7.6/11.2, O/U 2.5 1.15/5.5"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: R. Bardghji, A. Christensen, Xavi Espart, Rodri.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: F. de Jong, Jules Kounde, Dani Olmo, Pau Cubarsi.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: I. Akhomach, A. Diatta, Juan Foyth, G. Moreno.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 22 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "Joan Garcia",
+            "Joao Cancelo",
+            "Eric Garcia",
+            "G. Martin",
+            "Brian Farinas",
+            "Pedri",
+            "Marc Bernal",
+            "K. Adeyemi",
+            "Fermin",
+            "Lamine Yamal",
+            "Raphinha"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "P. Gulacsi",
+            "Carlos Romero",
+            "Renato Veiga",
+            "Logan Costa",
+            "Santiago Mourino",
+            "Pape Gueye",
+            "S. Comesana",
+            "Carlos Macia",
+            "Alberto Moleiro",
+            "T. Buchanan",
+            "G. Mikautadze"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire La Liga lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=LIGA"
+        },
+        {
+          "title": "ESPN LaLiga table",
+          "url": "https://africa.espn.com/football/table/_/league/ESP.1/sort/ties/posiciones"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (12 games) from the ESPN LaLiga table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 4,
+          "ga": 1.08
+        },
+        "away": {
+          "gf": 1.42,
+          "ga": 1.25
+        }
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      }
+    },
+    {
+      "id": "par-ang",
+      "competition": "Ligue 1 (France)",
+      "kickoff": "2026-11-22T14:00:00.000Z",
+      "home": {
+        "name": "Paris FC",
+        "short": "Paris FC"
+      },
+      "away": {
+        "name": "Angers SCO",
+        "short": "Angers"
+      },
+      "context": "Rotowire's Ligue 1 page and ligue1.com's probable XIs still showed the previous matchday, so lineups are pending. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
+      "odds": {
+        "h": 1.328,
+        "d": 5.63,
+        "a": 9.51,
+        "ou": {
+          "2.5": [
+            1.588,
+            2.46
+          ],
+          "3.5": [
+            2.47,
+            1.584
+          ]
+        },
+        "btts": [
+          1.943,
+          1.909
+        ],
+        "corners": {
+          "8.5": [
+            1.613,
+            2.26
+          ],
+          "9.5": [
+            2.05,
+            1.746
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.507,
+            2.52
+          ],
+          "3.5": [
+            2.22,
+            1.641
+          ]
+        },
+        "ah": [
+          {
+            "line": -2,
+            "home": 2.7,
+            "away": 1.512
+          },
+          {
+            "line": -1.5,
+            "home": 1.952,
+            "away": 1.952
+          },
+          {
+            "line": -1,
+            "home": 1.485,
+            "away": 2.79
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.35,
+          "d": 5.2,
+          "a": 8.8,
+          "ou": {
+            "0.5": [
+              1.01,
+              17.5
+            ],
+            "1.5": [
+              1.17,
+              5.15
+            ],
+            "2.5": [
+              1.55,
+              2.46
+            ],
+            "3.5": [
+              2.41,
+              1.57
+            ],
+            "4.5": [
+              4.3,
+              1.22
+            ],
+            "5.5": [
+              8.5,
+              1.07
+            ]
+          },
+          "btts": [
+            1.92,
+            1.86
+          ],
+          "corners": {
+            "9.5": [
+              1.99,
+              1.68
+            ]
+          },
+          "cards": {
+            "3.5": [
+              2.02,
+              1.65
+            ]
+          },
+          "text": "1X2 1.35/5.2/8.8, O/U 2.5 1.55/2.46"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "sportschau.de Ligue 1 table",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/frankreich-ligue-1/tabelle"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (10 games) from the sportschau.de Ligue 1 table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 1.7,
+          "ga": 1
+        },
+        "away": {
+          "gf": 0.9,
+          "ga": 1.9
+        }
+      },
+      "referee": {
+        "note": "Not found this morning."
+      }
+    },
+    {
+      "id": "hul-bri",
+      "competition": "Premier League (England)",
+      "kickoff": "2026-11-22T14:00:00.000Z",
+      "home": {
+        "name": "Hull City",
+        "short": "Hull"
+      },
+      "away": {
+        "name": "Brighton & Hove Albion",
+        "short": "Brighton"
+      },
+      "context": "Rotowire's Premier League page still showed an old week, so lineups and team news are pending. Form is season league goals per game. Pinnacle prices from 21 Nov 09:57 UTC.",
+      "odds": {
+        "h": 6.26,
+        "d": 4.41,
+        "a": 1.543,
+        "ou": {
+          "2.5": [
+            1.757,
+            2.14
+          ],
+          "3.5": [
+            2.85,
+            1.45
+          ]
+        },
+        "btts": [
+          1.862,
+          1.99
+        ],
+        "ah": [
+          {
+            "line": 0.5,
+            "home": 2.62,
+            "away": 1.537
+          },
+          {
+            "line": 1,
+            "home": 2,
+            "away": 1.909
+          },
+          {
+            "line": 1.5,
+            "home": 1.581,
+            "away": 2.51
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.657,
+            2.21
+          ],
+          "10.5": [
+            2.03,
+            1.781
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.561,
+            2.37
+          ],
+          "4.5": [
+            2.26,
+            1.617
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "sportschau.de Premier League table",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/england-premier-league/tabelle"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 09:57 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (10 games) from the sportschau.de Premier League table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 1.1,
+          "ga": 1.1
+        },
+        "away": {
+          "gf": 2.6,
+          "ga": 0.7
+        }
+      },
+      "referee": {
+        "note": "Not found this morning."
+      }
+    },
+    {
+      "id": "bol-udi",
+      "competition": "Serie A (Italy)",
+      "kickoff": "2026-11-22T14:00:00.000Z",
+      "home": {
+        "name": "Bologna FC",
+        "short": "Bologna"
+      },
+      "away": {
+        "name": "Udinese Calcio",
+        "short": "Udinese"
+      },
+      "context": "Rotowire predicted XIs and absences (22 Nov morning). Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
+      "odds": {
+        "h": 1.746,
+        "d": 3.87,
+        "a": 4.95,
+        "ou": {
+          "1.5": [
+            1.291,
+            3.75
+          ],
+          "2.5": [
+            1.917,
+            1.97
+          ],
+          "3.5": [
+            3.28,
+            1.358
+          ]
+        },
+        "btts": [
+          1.854,
+          2.01
+        ],
+        "corners": {
+          "8.5": [
+            1.606,
+            2.28
+          ],
+          "9.5": [
+            2.03,
+            1.806
+          ],
+          "10.5": [
+            2.58,
+            1.476
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.39,
+            2.85
+          ],
+          "3.5": [
+            2.01,
+            1.806
+          ],
+          "4.5": [
+            3.01,
+            1.354
+          ]
+        },
+        "ah": [
+          {
+            "line": -1,
+            "home": 2.36,
+            "away": 1.645
+          },
+          {
+            "line": -0.5,
+            "home": 1.735,
+            "away": 2.19
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.75,
+          "d": 3.64,
+          "a": 4.95,
+          "ou": {
+            "0.5": [
+              1.03,
+              11.9
+            ],
+            "1.5": [
+              1.28,
+              3.74
+            ],
+            "2.5": [
+              1.87,
+              1.94
+            ],
+            "3.5": [
+              3.27,
+              1.34
+            ],
+            "4.5": [
+              6.5,
+              1.11
+            ],
+            "5.5": [
+              14.3,
+              1.02
+            ]
+          },
+          "btts": [
+            1.86,
+            1.97
+          ],
+          "corners": {
+            "9.5": [
+              1.95,
+              1.71
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.86,
+              1.78
+            ]
+          },
+          "text": "1X2 1.75/3.64/4.95, O/U 2.5 1.87/1.94"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: O. El Azzouzi, Jay Enem, T. Heggem, Emil Holm, Juan Miranda.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: N. Cambiaghi, L. De Silvestri.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: N. Bertola, I. Gueye.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: David Alaba, Keinan Davis, A. Zanoli.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 22 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "L. Skorupski",
+            "M. Darmian",
+            "A. Theate",
+            "N. Casale",
+            "F. Bernardeschi",
+            "T. Pobega",
+            "L. Ferguson",
+            "Nadir Zortea",
+            "N. Cambiaghi",
+            "R. Orsolini",
+            "Jens Odgaard"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "Maduka Okoye",
+            "Matteo Palma",
+            "J. Abankwah",
+            "Oumar Solet",
+            "H. Kamara",
+            "J. Ekkelenkamp",
+            "J. Karlstrom",
+            "J. Piotrowski",
+            "M. Vojvoda",
+            "Vakoun Bayo",
+            "N. Zaniolo"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Serie A lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?XMnoRq9J=7Dl3WoIftU3cuWE&league=SERI"
+        },
+        {
+          "title": "sportschau.de Serie A table",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/italien-serie-a/tabelle"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (11 games) from the sportschau.de Serie A table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 1.45,
+          "ga": 1.27
+        },
+        "away": {
+          "gf": 1.09,
+          "ga": 2.27
+        }
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      }
+    },
+    {
+      "id": "sas-gen",
+      "competition": "Serie A (Italy)",
+      "kickoff": "2026-11-22T14:00:00.000Z",
+      "home": {
+        "name": "Sassuolo Calcio",
+        "short": "Sassuolo"
+      },
+      "away": {
+        "name": "Genoa CFC",
+        "short": "Genoa"
+      },
+      "context": "Rotowire predicted XIs and absences (22 Nov morning); Berardi is questionable but in their XI. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
+      "odds": {
+        "h": 2.71,
+        "d": 3.39,
+        "a": 2.73,
+        "ou": {
+          "1.5": [
+            1.305,
+            3.63
+          ],
+          "2.5": [
+            2,
+            1.892
+          ],
+          "3.5": [
+            3.42,
+            1.335
+          ]
+        },
+        "btts": [
+          1.751,
+          2.14
+        ],
+        "corners": {
+          "8.5": [
+            1.662,
+            2.2
+          ],
+          "9.5": [
+            2.08,
+            1.74
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.684,
+            2.14
+          ],
+          "4.5": [
+            2.51,
+            1.507
+          ]
+        },
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.7,
+            "away": 1.512
+          },
+          {
+            "line": 0,
+            "home": 1.943,
+            "away": 1.961
+          },
+          {
+            "line": 0.5,
+            "home": 1.507,
+            "away": 2.71
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.66,
+          "d": 3.34,
+          "a": 2.67,
+          "ou": {
+            "0.5": [
+              1.04,
+              11.1
+            ],
+            "1.5": [
+              1.3,
+              3.53
+            ],
+            "2.5": [
+              1.95,
+              1.86
+            ],
+            "3.5": [
+              3.48,
+              1.31
+            ],
+            "4.5": [
+              7.1,
+              1.1
+            ],
+            "5.5": [
+              15.7,
+              1.01
+            ]
+          },
+          "btts": [
+            1.78,
+            2.07
+          ],
+          "corners": {
+            "9.5": [
+              2.03,
+              1.64
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.62,
+              2.07
+            ]
+          },
+          "text": "1X2 2.66/3.34/2.67, O/U 2.5 1.95/1.86"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: V. Adzic, D. Boloca, Ismael Kone, Fedde Leysen, C. Volpato.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: D. Berardi.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: M. Frendrup.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 22 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "A. Muric",
+            "Josh Doig",
+            "Jay Idzes",
+            "D. Caleta-Car",
+            "S. Walukiewicz",
+            "N. Matic",
+            "I. Sulemana",
+            "K. Thorstvedt",
+            "A. Lauriente",
+            "D. Berardi",
+            "S. Esposito"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "J. Bijlow",
+            "J. Vasquez",
+            "Leo Ostigard",
+            "A. Marcandalli",
+            "M. Ellertsson",
+            "Samuel Wiafe",
+            "Hamed Traore",
+            "K. Ehizibue",
+            "S. El Shaarawy",
+            "J. Messias",
+            "M. Osmajic"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Serie A lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?XMnoRq9J=7Dl3WoIftU3cuWE&league=SERI"
+        },
+        {
+          "title": "sportschau.de Serie A table",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/italien-serie-a/tabelle"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (11 games) from the sportschau.de Serie A table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 1.45,
+          "ga": 2.64
+        },
+        "away": {
+          "gf": 1,
+          "ga": 1.45
+        }
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      }
+    },
+    {
+      "id": "aug-mai",
+      "competition": "Bundesliga (Germany)",
+      "kickoff": "2026-11-22T14:30:00.000Z",
+      "home": {
+        "name": "FC Augsburg",
+        "short": "Augsburg"
+      },
+      "away": {
+        "name": "FSV Mainz",
+        "short": "Mainz"
+      },
+      "context": "Rotowire predicted XIs and absences (22 Nov morning). Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
+      "odds": {
+        "h": 2.62,
+        "d": 4.04,
+        "a": 2.49,
+        "ou": {
+          "2.5": [
+            1.408,
+            2.96
+          ],
+          "3.5": [
+            2.04,
+            1.819
+          ]
+        },
+        "btts": [
+          1.378,
+          3.19
+        ],
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.61,
+            "away": 1.54
+          },
+          {
+            "line": 0,
+            "home": 2.01,
+            "away": 1.9
+          },
+          {
+            "line": 0.5,
+            "home": 1.595,
+            "away": 2.47
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.675,
+            2.16
+          ],
+          "10.5": [
+            2.07,
+            1.735
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.628,
+            2.24
+          ],
+          "4.5": [
+            2.39,
+            1.558
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.59,
+          "d": 3.97,
+          "a": 2.37,
+          "ou": {
+            "1.5": [
+              1.1,
+              6.65
+            ],
+            "2.5": [
+              1.38,
+              2.97
+            ],
+            "3.5": [
+              1.99,
+              1.79
+            ],
+            "4.5": [
+              3.27,
+              1.32
+            ],
+            "5.5": [
+              6.05,
+              1.12
+            ]
+          },
+          "btts": [
+            1.38,
+            3.03
+          ],
+          "text": "1X2 2.59/3.97/2.37, O/U 2.5 1.38/2.97"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: N. Banks, C. Brackelmann, H. Massengo, C. Matsima, Steve Mounie.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: Silas, Dominik Kohr.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 22 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "Finn Dahmen",
+            "Y. Keitel",
+            "J. Gouweleeuw",
+            "A. Juma Bah",
+            "H. Behrens",
+            "R. Fellhauer",
+            "F. Rieder",
+            "Marius Wolf",
+            "A. Claude-Maurice",
+            "Anton Kade",
+            "M. Gregoritsch"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "R. Zentner",
+            "D. da Costa",
+            "Stefan Posch",
+            "K. Potulski",
+            "P. Mwene",
+            "Kaishu Sano",
+            "Paul Nebel",
+            "Nadiem Amiri",
+            "Anthony Caci",
+            "P. Tietz",
+            "S. Becker"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Bundesliga lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=BUND"
+        },
+        {
+          "title": "sportschau.de Bundesliga table",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga/tabelle"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (9 games) from the sportschau.de Bundesliga table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 2.22,
+          "ga": 2.22
+        },
+        "away": {
+          "gf": 2,
+          "ga": 2.11
+        }
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      }
+    },
+    {
+      "id": "rac-rea",
+      "competition": "LaLiga (Spain)",
+      "kickoff": "2026-11-22T15:15:00.000Z",
+      "home": {
+        "name": "Racing Santander",
+        "short": "Racing"
+      },
+      "away": {
+        "name": "Real Sociedad San Sebastian",
+        "short": "Real Sociedad"
+      },
+      "context": "Rotowire predicted XIs and absences (22 Nov morning). Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
+      "odds": {
+        "h": 3.31,
+        "d": 4.25,
+        "a": 2.02,
+        "ou": {
+          "2.5": [
+            1.335,
+            3.34
+          ],
+          "3.5": [
+            1.892,
+            2
+          ],
+          "4.5": [
+            2.99,
+            1.401
+          ]
+        },
+        "btts": [
+          1.337,
+          3.44
+        ],
+        "corners": {
+          "9.5": [
+            1.543,
+            2.41
+          ],
+          "10.5": [
+            1.892,
+            1.934
+          ],
+          "11.5": [
+            2.33,
+            1.581
+          ]
+        },
+        "cards": {
+          "4.5": [
+            1.62,
+            2.07
+          ]
+        },
+        "ah": [
+          {
+            "line": 0,
+            "home": 2.56,
+            "away": 1.558
+          },
+          {
+            "line": 0.5,
+            "home": 1.884,
+            "away": 2.03
+          },
+          {
+            "line": 1,
+            "home": 1.48,
+            "away": 2.81
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 3.14,
+          "d": 4.3,
+          "a": 2,
+          "ou": {
+            "1.5": [
+              1.08,
+              7.9
+            ],
+            "2.5": [
+              1.32,
+              3.44
+            ],
+            "3.5": [
+              1.82,
+              2
+            ],
+            "4.5": [
+              2.85,
+              1.42
+            ],
+            "5.5": [
+              5,
+              1.18
+            ]
+          },
+          "btts": [
+            1.35,
+            3.32
+          ],
+          "corners": {
+            "10.5": [
+              1.79,
+              1.85
+            ]
+          },
+          "cards": {
+            "4.5": [
+              1.62,
+              2.07
+            ]
+          },
+          "text": "1X2 3.14/4.3/2, O/U 2.5 1.32/3.44"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: M. Gueye, A. Mantilla, A. Martin Garcia.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: A. Barrenetxea, Y. Herrera, A. Odriozola.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 22 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "J. Agirrezabala",
+            "J. Salinas",
+            "Pedro Felipe",
+            "J. Belocian",
+            "Pablo Ramon",
+            "Ivan Martin",
+            "Matteo Prati",
+            "Inigo Vicente",
+            "S. Canales",
+            "Iker Luque",
+            "Y. Zabiri"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "A. Remiro",
+            "Sergio Gomez",
+            "I. Zubeldia",
+            "Jon Martin",
+            "Hector Fort",
+            "G. Guedes",
+            "Carlos Soler",
+            "Jon Gorrotxategi",
+            "Luka Sucic",
+            "O. Oskarsson",
+            "M. Oyarzabal"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire La Liga lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=LIGA"
+        },
+        {
+          "title": "ESPN LaLiga table",
+          "url": "https://africa.espn.com/football/table/_/league/ESP.1/sort/ties/posiciones"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (12 games) from the ESPN LaLiga table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 1.42,
+          "ga": 2.5
+        },
+        "away": {
+          "gf": 1.75,
+          "ga": 1.67
+        }
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      }
+    },
+    {
+      "id": "lor-ren",
+      "competition": "Ligue 1 (France)",
+      "kickoff": "2026-11-22T16:15:00.000Z",
+      "home": {
+        "name": "FC Lorient",
+        "short": "Lorient"
+      },
+      "away": {
+        "name": "Stade Rennais FC",
+        "short": "Rennes"
+      },
+      "context": "Rotowire's Ligue 1 page and ligue1.com's probable XIs still showed the previous matchday, so lineups are pending. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
+      "odds": {
+        "h": 2.97,
+        "d": 3.47,
+        "a": 2.46,
+        "ou": {
+          "2.5": [
+            1.892,
+            1.97
+          ],
+          "3.5": [
+            3.15,
+            1.381
+          ]
+        },
+        "btts": [
+          1.694,
+          2.23
+        ],
+        "corners": {
+          "8.5": [
+            1.492,
+            2.5
+          ],
+          "9.5": [
+            1.84,
+            1.97
+          ],
+          "10.5": [
+            2.28,
+            1.591
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.636,
+            2.22
+          ],
+          "4.5": [
+            2.51,
+            1.51
+          ]
+        },
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.94,
+            "away": 1.436
+          },
+          {
+            "line": 0,
+            "home": 2.14,
+            "away": 1.775
+          },
+          {
+            "line": 0.5,
+            "home": 1.606,
+            "away": 2.46
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.96,
+          "d": 3.34,
+          "a": 2.42,
+          "ou": {
+            "0.5": [
+              1.03,
+              12.1
+            ],
+            "1.5": [
+              1.27,
+              3.78
+            ],
+            "2.5": [
+              1.86,
+              1.96
+            ],
+            "3.5": [
+              3.23,
+              1.35
+            ],
+            "4.5": [
+              6.4,
+              1.11
+            ],
+            "5.5": [
+              14,
+              1.02
+            ]
+          },
+          "btts": [
+            1.72,
+            2.15
+          ],
+          "corners": {
+            "9.5": [
+              1.84,
+              1.8
+            ]
+          },
+          "cards": {
+            "4.5": [
+              2.17,
+              1.57
+            ]
+          },
+          "text": "1X2 2.96/3.34/2.42, O/U 2.5 1.86/1.96"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "sportschau.de Ligue 1 table",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/frankreich-ligue-1/tabelle"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (10 games) from the sportschau.de Ligue 1 table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 0.9,
+          "ga": 0.8
+        },
+        "away": {
+          "gf": 2.1,
+          "ga": 2.1
+        }
+      },
+      "referee": {
+        "note": "Not found this morning."
+      }
+    },
+    {
+      "id": "wer-ham",
+      "competition": "Bundesliga (Germany)",
+      "kickoff": "2026-11-22T16:30:00.000Z",
+      "home": {
+        "name": "Werder Bremen",
+        "short": "Werder"
+      },
+      "away": {
+        "name": "Hamburger SV",
+        "short": "Hamburg"
+      },
+      "context": "Nordderby. Rotowire predicted XIs and absences (22 Nov morning); Werder are without Stage and Grull. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
+      "odds": {
+        "h": 1.621,
+        "d": 4.55,
+        "a": 5.07,
+        "ou": {
+          "2.5": [
+            1.561,
+            2.53
+          ],
+          "3.5": [
+            2.4,
+            1.617
+          ]
+        },
+        "btts": [
+          1.625,
+          2.36
+        ],
+        "ah": [
+          {
+            "line": -1.5,
+            "home": 2.61,
+            "away": 1.543
+          },
+          {
+            "line": -1,
+            "home": 2.03,
+            "away": 1.884
+          },
+          {
+            "line": -0.5,
+            "home": 1.613,
+            "away": 2.43
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.769,
+            2.03
+          ],
+          "10.5": [
+            2.22,
+            1.641
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.306,
+            3.27
+          ],
+          "3.5": [
+            1.793,
+            2.02
+          ],
+          "4.5": [
+            2.68,
+            1.434
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.69,
+          "d": 4.3,
+          "a": 4.3,
+          "ou": {
+            "1.5": [
+              1.14,
+              5.5
+            ],
+            "2.5": [
+              1.49,
+              2.59
+            ],
+            "3.5": [
+              2.26,
+              1.62
+            ],
+            "4.5": [
+              3.9,
+              1.24
+            ],
+            "5.5": [
+              7.6,
+              1.08
+            ]
+          },
+          "btts": [
+            1.54,
+            2.48
+          ],
+          "text": "1X2 1.69/4.3/4.3, O/U 2.5 1.49/2.59"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Felix Agu, S. Alvero, Marco Grull, Salim Musah, M. N'Diaye, Jens Stage, K. Topp.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: Senne Lynen, M. Weiser.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: A. Lokonga, Bilal Nadir, Y. Poulsen, N. Remberg, J. Torunarigha.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: M. Vuskovic.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 22 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "K. Hein",
+            "O. Deman",
+            "Amos Pieper",
+            "Marco Friedl",
+            "Arthur",
+            "Ludovit Reis",
+            "Youri Regeer",
+            "J. Njinmah",
+            "Chuki",
+            "Eren Dinkci",
+            "N. Fullkrug"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "D. Heuer Fernandes",
+            "S. Bornauw",
+            "Warmed Omari",
+            "Nicolas Capaldo",
+            "D. Moller Wolfe",
+            "Miro Muheim",
+            "M. Adeline",
+            "Z. El Ouahdi",
+            "A. Gronbaek",
+            "Patson Daka",
+            "Terem Moffi"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Bundesliga lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=BUND"
+        },
+        {
+          "title": "sportschau.de Bundesliga table",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga/tabelle"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (9 games) from the sportschau.de Bundesliga table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 1.89,
+          "ga": 1.67
+        },
+        "away": {
+          "gf": 1.11,
+          "ga": 2.22
+        }
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      }
+    },
+    {
+      "id": "liv-man",
+      "competition": "Premier League (England)",
+      "kickoff": "2026-11-22T16:30:00.000Z",
+      "home": {
+        "name": "Liverpool FC",
+        "short": "Liverpool"
+      },
+      "away": {
+        "name": "Manchester United",
+        "short": "Man Utd"
+      },
+      "context": "Man Utd are 18th and winless in eight league games; Liverpool 4th. Expected XIs and absences from a 17 Nov preview (Rotowire's Premier League page showed an old week), so check the confirmed sheets. Pinnacle prices from 21 Nov 09:57 UTC.",
+      "odds": {
+        "h": 1.714,
+        "d": 4.35,
+        "a": 4.55,
+        "ou": {
+          "2.5": [
+            1.497,
+            2.68
+          ],
+          "3.5": [
+            2.25,
+            1.689
+          ]
+        },
+        "btts": [
+          1.523,
+          2.61
+        ],
+        "ah": [
+          {
+            "line": -1.5,
+            "home": 2.8,
+            "away": 1.471
+          },
+          {
+            "line": -1,
+            "home": 2.19,
+            "away": 1.74
+          },
+          {
+            "line": -0.5,
+            "home": 1.704,
+            "away": 2.25
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.628,
+            2.26
+          ],
+          "10.5": [
+            2.03,
+            1.781
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.473,
+            2.55
+          ],
+          "4.5": [
+            2.1,
+            1.735
+          ],
+          "5.5": [
+            3.12,
+            1.332
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: C. Bradley, H. Ekitike, G. Leoni, A. Nallo.",
+          "src": "footballpredictions.com"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: C. Baleba, B. Sesko, M. Ugarte.",
+          "src": "footballpredictions.com"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Doubtful: K. Darlow, A. Heaven, S. Lacey, M. Rashford, L. Shaw.",
+          "src": "footballpredictions.com"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "footballpredictions.com expected XIs (preview dated 17 Nov); Rotowire's Premier League page showed an old week.",
+        "home": {
+          "formation": "4-2-3-1",
+          "xi": [
+            "Alisson Becker",
+            "V. van Dijk",
+            "J. Jacquet",
+            "R. Araujo",
+            "M. Kerkez",
+            "A. Mac Allister",
+            "B. Barcola",
+            "C. Gakpo",
+            "F. Wirtz",
+            "T. Nyoni",
+            "A. Isak"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "xi": [
+            "S. Lammens",
+            "H. Maguire",
+            "Diogo Dalot",
+            "L. Yoro",
+            "A. Heaven",
+            "A. Diallo",
+            "Matheus Cunha",
+            "Bruno Fernandes",
+            "Y. Tielemans",
+            "K. Mainoo",
+            "B. Mbeumo"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "footballpredictions.com Liverpool v Man Utd preview",
+          "url": "https://footballpredictions.com/footballpredictions/premierleaguepredictions/liverpool-vs-manchester-united-prediction-22-11-2026/"
+        },
+        {
+          "title": "sportschau.de Premier League table",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/england-premier-league/tabelle"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 09:57 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (10 games) from the sportschau.de Premier League table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 1.4,
+          "ga": 1
+        },
+        "away": {
+          "gf": 1.4,
+          "ga": 1.9
+        }
+      },
+      "referee": {
+        "name": "Samuel Barrott",
+        "note": "Named in the footballpredictions.com preview; no per-game card numbers found."
+      }
+    },
+    {
+      "id": "mil-fro",
+      "competition": "Serie A (Italy)",
+      "kickoff": "2026-11-22T17:00:00.000Z",
+      "home": {
+        "name": "AC Milan",
+        "short": "Milan"
+      },
+      "away": {
+        "name": "Frosinone Calcio",
+        "short": "Frosinone"
+      },
+      "context": "Rotowire predicted XIs and absences (22 Nov morning); Milan miss Tomori, Gabbia and Saelemaekers, Maignan questionable. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
+      "odds": {
+        "h": 1.584,
+        "d": 4.62,
+        "a": 5.35,
+        "ou": {
+          "2.5": [
+            1.357,
+            3.21
+          ],
+          "3.5": [
+            1.934,
+            1.952
+          ],
+          "4.5": [
+            3.1,
+            1.378
+          ]
+        },
+        "btts": [
+          1.452,
+          2.85
+        ],
+        "corners": {
+          "8.5": [
+            1.446,
+            2.67
+          ],
+          "9.5": [
+            1.793,
+            2.03
+          ],
+          "10.5": [
+            2.28,
+            1.606
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.671,
+            2.16
+          ],
+          "4.5": [
+            2.56,
+            1.492
+          ]
+        },
+        "ah": [
+          {
+            "line": -1.5,
+            "home": 2.41,
+            "away": 1.621
+          },
+          {
+            "line": -1,
+            "home": 1.909,
+            "away": 1.99
+          },
+          {
+            "line": -0.5,
+            "home": 1.578,
+            "away": 2.51
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.57,
+          "d": 4.85,
+          "a": 4.8,
+          "ou": {
+            "1.5": [
+              1.09,
+              7.5
+            ],
+            "2.5": [
+              1.34,
+              3.29
+            ],
+            "3.5": [
+              1.87,
+              1.93
+            ],
+            "4.5": [
+              2.98,
+              1.39
+            ],
+            "5.5": [
+              5.3,
+              1.16
+            ]
+          },
+          "btts": [
+            1.43,
+            2.87
+          ],
+          "corners": {
+            "9.5": [
+              1.74,
+              1.91
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.65,
+              2.02
+            ]
+          },
+          "text": "1X2 1.57/4.85/4.8, O/U 2.5 1.34/3.29"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: S. Chukwueze, M. Gabbia, R. Loftus-Cheek, A. Saelemaekers, F. Tomori.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: Mike Maignan, S. Pavlovic.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: F. Grillitsch, A. Raimondo.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Suspended: G. Bracaglia.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: A. Terzic.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 22 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "Mike Maignan",
+            "D. Bartesaghi",
+            "K. De Winter",
+            "S. Diawara",
+            "Mario Gila",
+            "Luka Modric",
+            "Yunus Musah",
+            "A. Rabiot",
+            "C. Pulisic",
+            "Diego Moreira",
+            "Goncalo Ramos"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "L. Palmisani",
+            "A. Terzic",
+            "G. Calvani",
+            "I. Monterisi",
+            "A. Oyono",
+            "P. Masini",
+            "Giacomo Calo",
+            "G. Kvernadze",
+            "R. Schmid",
+            "F. Ghedjemis",
+            "D. Birligea"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Serie A lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?XMnoRq9J=7Dl3WoIftU3cuWE&league=SERI"
+        },
+        {
+          "title": "sportschau.de Serie A table",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/italien-serie-a/tabelle"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (11 games) from the sportschau.de Serie A table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 2.09,
+          "ga": 1.18
+        },
+        "away": {
+          "gf": 2.18,
+          "ga": 1.36
+        }
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      }
+    },
+    {
+      "id": "osa-mal",
+      "competition": "LaLiga (Spain)",
+      "kickoff": "2026-11-22T17:30:00.000Z",
+      "home": {
+        "name": "CA Osasuna",
+        "short": "Osasuna"
+      },
+      "away": {
+        "name": "Malaga CF",
+        "short": "Malaga"
+      },
+      "context": "Rotowire predicted XIs and absences (22 Nov morning). Two of the league's lowest-scoring sides. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
+      "odds": {
+        "h": 1.854,
+        "d": 3.65,
+        "a": 4.55,
+        "ou": {
+          "1.5": [
+            1.338,
+            3.4
+          ],
+          "2.5": [
+            2.07,
+            1.833
+          ],
+          "3.5": [
+            3.65,
+            1.303
+          ]
+        },
+        "btts": [
+          1.934,
+          1.917
+        ],
+        "corners": {
+          "8.5": [
+            1.549,
+            2.39
+          ],
+          "9.5": [
+            1.952,
+            1.877
+          ],
+          "10.5": [
+            2.45,
+            1.523
+          ]
+        },
+        "cards": {
+          "4.5": [
+            1.75,
+            1.9
+          ]
+        },
+        "ah": [
+          {
+            "line": -1,
+            "home": 2.62,
+            "away": 1.537
+          },
+          {
+            "line": -0.5,
+            "home": 1.862,
+            "away": 2.05
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.86,
+          "d": 3.49,
+          "a": 4.4,
+          "ou": {
+            "0.5": [
+              1.05,
+              10.5
+            ],
+            "1.5": [
+              1.33,
+              3.38
+            ],
+            "2.5": [
+              2.01,
+              1.81
+            ],
+            "3.5": [
+              3.67,
+              1.29
+            ],
+            "4.5": [
+              7.6,
+              1.08
+            ]
+          },
+          "btts": [
+            1.94,
+            1.86
+          ],
+          "corners": {
+            "9.5": [
+              1.83,
+              1.81
+            ]
+          },
+          "cards": {
+            "4.5": [
+              1.75,
+              1.9
+            ]
+          },
+          "text": "1X2 1.86/3.49/4.4, O/U 2.5 2.01/1.81"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: A. Bretones, A. Fernandez, R. Yeboah.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: Calero, R. Garrido Hierro, Julen Lobete, Aaron Ochoa.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Suspended: Adam Aznou.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 22 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "S. Herrera",
+            "Diego Rico",
+            "Enzo Boyomo",
+            "A. Catena",
+            "V. Rosier",
+            "Jon Moncayola",
+            "Lucas Torro",
+            "Moi Gomez",
+            "Raul Moro",
+            "Ruben Garcia",
+            "Ante Budimir"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "A. Herrero",
+            "Jose Salinas",
+            "Angel Recio",
+            "E. Galilea",
+            "Carlos Puga",
+            "R. Enriquez",
+            "Pablo Martinez",
+            "Dani Lorenzo",
+            "Carlos Dotor",
+            "D. Larrubia",
+            "Adrian Nino"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire La Liga lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=LIGA"
+        },
+        {
+          "title": "ESPN LaLiga table",
+          "url": "https://africa.espn.com/football/table/_/league/ESP.1/sort/ties/posiciones"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (12 games) from the ESPN LaLiga table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 1,
+          "ga": 1.92
+        },
+        "away": {
+          "gf": 0.75,
+          "ga": 1.92
+        }
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      }
+    },
+    {
+      "id": "mar-lem",
+      "competition": "Ligue 1 (France)",
+      "kickoff": "2026-11-22T19:45:00.000Z",
+      "home": {
+        "name": "Olympique Marseille",
+        "short": "Marseille"
+      },
+      "away": {
+        "name": "Le Mans FC",
+        "short": "Le Mans"
+      },
+      "context": "Rotowire's Ligue 1 page and ligue1.com's probable XIs still showed the previous matchday, so lineups are pending. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
+      "odds": {
+        "h": 1.485,
+        "d": 4.9,
+        "a": 6.34,
+        "ou": {
+          "2.5": [
+            1.543,
+            2.58
+          ],
+          "3.5": [
+            2.35,
+            1.636
+          ]
+        },
+        "btts": [
+          1.709,
+          2.21
+        ],
+        "corners": {
+          "8.5": [
+            1.625,
+            2.24
+          ],
+          "9.5": [
+            2.02,
+            1.775
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.316,
+            3.21
+          ],
+          "3.5": [
+            1.847,
+            1.952
+          ],
+          "4.5": [
+            2.83,
+            1.393
+          ]
+        },
+        "ah": [
+          {
+            "line": -1.5,
+            "home": 2.28,
+            "away": 1.684
+          },
+          {
+            "line": -1,
+            "home": 1.751,
+            "away": 2.17
+          },
+          {
+            "line": -0.5,
+            "home": 1.471,
+            "away": 2.8
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.49,
+          "d": 4.65,
+          "a": 6.1,
+          "ou": {
+            "1.5": [
+              1.15,
+              5.6
+            ],
+            "2.5": [
+              1.49,
+              2.63
+            ],
+            "3.5": [
+              2.26,
+              1.65
+            ],
+            "4.5": [
+              3.9,
+              1.25
+            ],
+            "5.5": [
+              7.55,
+              1.09
+            ]
+          },
+          "btts": [
+            1.65,
+            2.26
+          ],
+          "corners": {
+            "9.5": [
+              1.97,
+              1.69
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.78,
+              1.86
+            ]
+          },
+          "text": "1X2 1.49/4.65/6.1, O/U 2.5 1.49/2.63"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "sportschau.de Ligue 1 table",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/frankreich-ligue-1/tabelle"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (10 games) from the sportschau.de Ligue 1 table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 2.2,
+          "ga": 1.4
+        },
+        "away": {
+          "gf": 1.2,
+          "ga": 1.9
+        }
+      },
+      "referee": {
+        "note": "Not found this morning."
+      }
+    },
+    {
+      "id": "ata-int",
+      "competition": "Serie A (Italy)",
+      "kickoff": "2026-11-22T19:45:00.000Z",
+      "home": {
+        "name": "Atalanta BC",
+        "short": "Atalanta"
+      },
+      "away": {
+        "name": "Inter Milano",
+        "short": "Inter"
+      },
+      "context": "Rotowire predicted XIs and absences (22 Nov morning); Inter list Lautaro Martinez and Thuram as questionable. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
+      "odds": {
+        "h": 5.28,
+        "d": 4.79,
+        "a": 1.571,
+        "ou": {
+          "2.5": [
+            1.389,
+            3.05
+          ],
+          "3.5": [
+            1.98,
+            1.869
+          ]
+        },
+        "btts": [
+          1.473,
+          2.77
+        ],
+        "corners": {
+          "8.5": [
+            1.561,
+            2.37
+          ],
+          "9.5": [
+            1.97,
+            1.862
+          ],
+          "10.5": [
+            2.47,
+            1.518
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.396,
+            2.82
+          ],
+          "3.5": [
+            1.97,
+            1.84
+          ],
+          "4.5": [
+            3.05,
+            1.347
+          ]
+        },
+        "ah": [
+          {
+            "line": 0.5,
+            "home": 2.55,
+            "away": 1.564
+          },
+          {
+            "line": 1,
+            "home": 2,
+            "away": 1.909
+          },
+          {
+            "line": 1.5,
+            "home": 1.613,
+            "away": 2.43
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 4.95,
+          "d": 4.8,
+          "a": 1.57,
+          "ou": {
+            "1.5": [
+              1.1,
+              6.95
+            ],
+            "2.5": [
+              1.37,
+              3.1
+            ],
+            "3.5": [
+              1.95,
+              1.85
+            ],
+            "4.5": [
+              3.17,
+              1.35
+            ],
+            "5.5": [
+              5.8,
+              1.14
+            ]
+          },
+          "btts": [
+            1.46,
+            2.72
+          ],
+          "corners": {
+            "9.5": [
+              1.93,
+              1.72
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.88,
+              1.76
+            ]
+          },
+          "text": "1X2 4.95/4.8/1.57, O/U 2.5 1.37/3.1"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Isak Hien, O. Kossounou.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: R. Bellanova, G. Gaetano, T. Kristensen, G. Raspadori.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: A. Bonny.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: M. Akanji, L. Martinez, A. Stankovic, M. Thuram, L. Tomaz de Lima, P. Zielinski.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 22 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "M. Carnesecchi",
+            "D. Zappacosta",
+            "S. Kolasinac",
+            "G. Scalvini",
+            "R. Bellanova",
+            "Ederson",
+            "F. Kessie",
+            "J. Rowe",
+            "C. De Ketelaere",
+            "Eljif Elmas",
+            "N. Krstovic"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "Josep Martinez",
+            "A. Bastoni",
+            "Y. Bisseck",
+            "B. Pavard",
+            "F. Dimarco",
+            "N. Barella",
+            "Curtis Jones",
+            "H. Calhanoglu",
+            "Djed Spence",
+            "M. Thuram",
+            "F. Esposito"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire Serie A lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?XMnoRq9J=7Dl3WoIftU3cuWE&league=SERI"
+        },
+        {
+          "title": "sportschau.de Serie A table",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/italien-serie-a/tabelle"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (11 games) from the sportschau.de Serie A table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 1.55,
+          "ga": 1.82
+        },
+        "away": {
+          "gf": 2.55,
+          "ga": 1.18
+        }
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      }
+    },
+    {
+      "id": "get-atl",
+      "competition": "LaLiga (Spain)",
+      "kickoff": "2026-11-22T20:00:00.000Z",
+      "home": {
+        "name": "Getafe CF",
+        "short": "Getafe"
+      },
+      "away": {
+        "name": "Atletico Madrid",
+        "short": "Atletico"
+      },
+      "context": "Rotowire predicted XIs and absences (22 Nov morning). Getafe have scored 8 in 12 league games. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
+      "odds": {
+        "h": 6.51,
+        "d": 4.1,
+        "a": 1.571,
+        "ou": {
+          "1.5": [
+            1.355,
+            3.3
+          ],
+          "2.5": [
+            2.11,
+            1.8
+          ],
+          "3.5": [
+            3.75,
+            1.29
+          ]
+        },
+        "btts": [
+          2.15,
+          1.74
+        ],
+        "corners": {
+          "8.5": [
+            1.591,
+            2.31
+          ],
+          "9.5": [
+            1.99,
+            1.84
+          ],
+          "10.5": [
+            2.48,
+            1.512
+          ]
+        },
+        "cards": {
+          "4.5": [
+            1.58,
+            2.15
+          ]
+        },
+        "ah": [
+          {
+            "line": 0.5,
+            "home": 2.55,
+            "away": 1.564
+          },
+          {
+            "line": 1,
+            "home": 1.877,
+            "away": 2.03
+          },
+          {
+            "line": 1.5,
+            "home": 1.497,
+            "away": 2.75
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 6.05,
+          "d": 4.2,
+          "a": 1.55,
+          "ou": {
+            "0.5": [
+              1.05,
+              10.2
+            ],
+            "1.5": [
+              1.34,
+              3.3
+            ],
+            "2.5": [
+              2.05,
+              1.78
+            ],
+            "3.5": [
+              3.74,
+              1.28
+            ],
+            "4.5": [
+              7.9,
+              1.08
+            ]
+          },
+          "btts": [
+            2.18,
+            1.68
+          ],
+          "corners": {
+            "9.5": [
+              1.87,
+              1.77
+            ]
+          },
+          "cards": {
+            "4.5": [
+              1.58,
+              2.15
+            ]
+          },
+          "text": "1X2 6.05/4.2/1.55, O/U 2.5 2.05/1.78"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Juanmi, C. Uche.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Suspended: N. Gudelj.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: A. Lookman, Marc Pubill, C. Romero.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 22 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "David Soria",
+            "Johan Mojica",
+            "D. Dakonam",
+            "Zaid Romero",
+            "Sebastian Boselli",
+            "D. Carvajal",
+            "M. Satriano",
+            "R. Terrats",
+            "Orel Mangala",
+            "Andres Garcia",
+            "Enes Unal"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "Jan Oblak",
+            "A. Grimaldo",
+            "David Hancko",
+            "R. Le Normand",
+            "M. Llorente",
+            "Koke",
+            "Johnny Cardoso",
+            "Pablo Barrios",
+            "Alex Baena",
+            "G. Simeone",
+            "J. Alvarez"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "Rotowire La Liga lineups",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=LIGA"
+        },
+        {
+          "title": "ESPN LaLiga table",
+          "url": "https://africa.espn.com/football/table/_/league/ESP.1/sort/ties/posiciones"
+        },
+        {
+          "title": "OddsPapi odds snapshot 2026-11-21 15:34 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ],
+      "form20": {
+        "note": "Season league goals per game (12 games) from the ESPN LaLiga table read 22 Nov morning; not a 20-game window, no xG.",
+        "home": {
+          "gf": 0.67,
+          "ga": 1.5
+        },
+        "away": {
+          "gf": 1.92,
+          "ga": 0.83
+        }
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      }
     }
   ]
 }

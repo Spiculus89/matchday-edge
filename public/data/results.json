@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T09:02:32.571Z",
+  "updated": "2026-11-22T09:01:04.835Z",
   "note": "Every graded pick shown on the site. p = the chance shown at the time (bookmaker-implied for player props, which had no model then).",
   "legs": [
     {
@@ -1774,6 +1774,87 @@
       "p": 0.461,
       "odds": null,
       "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "laz-lec",
+      "group": "Result",
+      "pick": "Lazio to win (most likely)",
+      "p": 0.647,
+      "odds": 1.502,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "laz-lec",
+      "group": "Bet builder",
+      "pick": "Lazio to win + Over 2.5 goals",
+      "p": 0.443,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "tot-ips",
+      "group": "Result",
+      "pick": "Spurs to win (most likely)",
+      "p": 0.646,
+      "odds": 1.505,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "tot-ips",
+      "group": "Bet builder",
+      "pick": "Spurs to win + Over 2.5 goals",
+      "p": 0.467,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "ogc-par",
+      "group": "Result",
+      "pick": "PSG to win (most likely)",
+      "p": 0.636,
+      "odds": 1.507,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "ogc-par",
+      "group": "Bet builder",
+      "pick": "PSG to win + Over 2.5 goals",
+      "p": 0.478,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "sev-rea",
+      "group": "Goals",
+      "pick": "Over 2.5 goals (best bet)",
+      "p": 0.535,
+      "odds": 1.892,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "sev-rea",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.5,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "sev-rea",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.593,
+      "odds": 1.666,
+      "won": true
     }
   ]
 }
