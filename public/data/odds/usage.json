@@ -1,25 +1,7 @@
 {
  "month": "2026-11",
- "used": 60,
+ "used": 63,
  "log": [
-  {
-   "t": "2026-11-18T10:28:33.159Z",
-   "path": "/sports",
-   "status": 200,
-   "hdr": {}
-  },
-  {
-   "t": "2026-11-18T10:28:33.288Z",
-   "path": "/bookmakers",
-   "status": 200,
-   "hdr": {}
-  },
-  {
-   "t": "2026-11-18T10:28:33.426Z",
-   "path": "/tournaments",
-   "status": 200,
-   "hdr": {}
-  },
   {
    "t": "2026-11-18T10:28:33.737Z",
    "path": "/tournaments",
@@ -361,13 +343,31 @@
    "path": "/odds-by-tournaments",
    "status": 200,
    "hdr": {}
+  },
+  {
+   "t": "2026-11-22T22:27:03.781Z",
+   "path": "/odds-by-tournaments",
+   "status": 200,
+   "hdr": {}
+  },
+  {
+   "t": "2026-11-22T22:27:05.945Z",
+   "path": "/odds-by-tournaments",
+   "status": 200,
+   "hdr": {}
+  },
+  {
+   "t": "2026-11-22T22:27:07.554Z",
+   "path": "/odds-by-tournaments",
+   "status": 200,
+   "hdr": {}
   }
  ],
  "lastFetch": {
-  "at": "2026-11-22T15:37:51.087Z",
+  "at": "2026-11-22T22:27:01.994Z",
   "kind": "evening",
-  "fixtures": 115,
-  "updated": 11,
+  "fixtures": 127,
+  "updated": 9,
   "unmatched": [],
   "noTournament": []
  },
@@ -375,6 +375,6 @@
   "2026-11-19": 9,
   "2026-11-20": 13,
   "2026-11-21": 7,
-  "2026-11-22": 4
+  "2026-11-22": 7
  }
 }

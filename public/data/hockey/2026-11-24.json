@@ -1,0 +1,463 @@
+{
+  "date": "2026-11-24",
+  "updated": "2026-11-22T22:27:01.994Z",
+  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, injuries and players.",
+  "skeleton": true,
+  "games": [
+    {
+      "id": "jac-dev",
+      "league": "NHL",
+      "start": "2026-11-24T00:00:00.000Z",
+      "home": {
+        "name": "New Jersey Devils",
+        "short": "Devils",
+        "code": "DEV"
+      },
+      "away": {
+        "name": "Columbus Blue Jackets",
+        "short": "Jackets",
+        "code": "JAC"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.46,
+          2.65
+        ],
+        "reg": [
+          1.74,
+          4.4,
+          3.6
+        ],
+        "totalReg": {
+          "line": 5.5,
+          "o": 1.67,
+          "u": 2.08
+        },
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.46,
+            2.65
+          ],
+          "reg": [
+            1.74,
+            4.4,
+            3.6
+          ],
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.67,
+            "u": 2.08
+          },
+          "text": "win 1.46/2.65"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-22 22:27 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "kin-can",
+      "league": "NHL",
+      "start": "2026-11-24T00:30:00.000Z",
+      "home": {
+        "name": "Montreal Canadiens",
+        "short": "Canadiens",
+        "code": "CAN"
+      },
+      "away": {
+        "name": "Los Angeles Kings",
+        "short": "Kings",
+        "code": "KIN"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.67,
+          2.16
+        ],
+        "reg": [
+          2.06,
+          4.2,
+          2.8
+        ],
+        "totalReg": {
+          "line": 5.5,
+          "o": 1.64,
+          "u": 2.12
+        },
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.67,
+            2.16
+          ],
+          "reg": [
+            2.06,
+            4.2,
+            2.8
+          ],
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.64,
+            "u": 2.12
+          },
+          "text": "win 1.67/2.16"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-22 22:27 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "fla-sen",
+      "league": "NHL",
+      "start": "2026-11-24T00:30:00.000Z",
+      "home": {
+        "name": "Ottawa Senators",
+        "short": "Senators",
+        "code": "SEN"
+      },
+      "away": {
+        "name": "Calgary Flames",
+        "short": "Flames",
+        "code": "FLA"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.45,
+          2.7
+        ],
+        "reg": [
+          1.75,
+          4.3,
+          3.65
+        ],
+        "totalReg": {
+          "line": 5.5,
+          "o": 1.76,
+          "u": 1.96
+        },
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.45,
+            2.7
+          ],
+          "reg": [
+            1.75,
+            4.3,
+            3.65
+          ],
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.76,
+            "u": 1.96
+          },
+          "text": "win 1.45/2.7"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-22 22:27 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "lea-isl",
+      "league": "NHL",
+      "start": "2026-11-24T00:30:00.000Z",
+      "home": {
+        "name": "New York Islanders",
+        "short": "Islanders",
+        "code": "ISL"
+      },
+      "away": {
+        "name": "Toronto Maple Leafs",
+        "short": "Leafs",
+        "code": "LEA"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.65,
+          2.2
+        ],
+        "reg": [
+          2.03,
+          4.2,
+          2.85
+        ],
+        "totalReg": {
+          "line": 6.5,
+          "o": 2.17,
+          "u": 1.62
+        },
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.65,
+            2.2
+          ],
+          "reg": [
+            2.03,
+            4.2,
+            2.85
+          ],
+          "totalReg": {
+            "line": 6.5,
+            "o": 2.17,
+            "u": 1.62
+          },
+          "text": "win 1.65/2.2"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-22 22:27 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "mam-jet",
+      "league": "NHL",
+      "start": "2026-11-24T00:30:00.000Z",
+      "home": {
+        "name": "Winnipeg Jets",
+        "short": "Jets",
+        "code": "JET"
+      },
+      "away": {
+        "name": "Utah Mammoth",
+        "short": "Mammoth",
+        "code": "MAM"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.93,
+          1.84
+        ],
+        "reg": [
+          2.47,
+          4,
+          2.34
+        ],
+        "totalReg": {
+          "line": 6.5,
+          "o": 2.11,
+          "u": 1.65
+        },
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.93,
+            1.84
+          ],
+          "reg": [
+            2.47,
+            4,
+            2.34
+          ],
+          "totalReg": {
+            "line": 6.5,
+            "o": 2.11,
+            "u": 1.65
+          },
+          "text": "win 1.93/1.84"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-22 22:27 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "duc-kra",
+      "league": "NHL",
+      "start": "2026-11-24T02:40:00.000Z",
+      "home": {
+        "name": "Seattle Kraken",
+        "short": "Kraken",
+        "code": "KRA"
+      },
+      "away": {
+        "name": "Anaheim Ducks",
+        "short": "Ducks",
+        "code": "DUC"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.83,
+          1.94
+        ],
+        "reg": [
+          2.3,
+          4.1,
+          2.47
+        ],
+        "totalReg": {
+          "line": 6.5,
+          "o": 2.03,
+          "u": 1.71
+        },
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.83,
+            1.94
+          ],
+          "reg": [
+            2.3,
+            4.1,
+            2.47
+          ],
+          "totalReg": {
+            "line": 6.5,
+            "o": 2.03,
+            "u": 1.71
+          },
+          "text": "win 1.83/1.94"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-22 22:27 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "wil-sha",
+      "league": "NHL",
+      "start": "2026-11-24T03:00:00.000Z",
+      "home": {
+        "name": "San Jose Sharks",
+        "short": "Sharks",
+        "code": "SHA"
+      },
+      "away": {
+        "name": "Minnesota Wild",
+        "short": "Wild",
+        "code": "WIL"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          2.65,
+          1.47
+        ],
+        "reg": [
+          3.55,
+          4.4,
+          1.75
+        ],
+        "totalReg": {
+          "line": 5.5,
+          "o": 1.62,
+          "u": 2.17
+        },
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            2.65,
+            1.47
+          ],
+          "reg": [
+            3.55,
+            4.4,
+            1.75
+          ],
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.62,
+            "u": 2.17
+          },
+          "text": "win 2.65/1.47"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-22 22:27 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    }
+  ]
+}
