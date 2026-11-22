@@ -1,6 +1,11 @@
 {
   "days": [
     {
+      "date": "2026-11-23",
+      "file": "data/2026-11-23.json",
+      "title": "Super Lig, Ekstraklasa, Primera Division, Serie A, Premier League"
+    },
+    {
       "date": "2026-11-22",
       "file": "data/2026-11-22.json",
       "title": "Premier League, LaLiga, Serie A, Bundesliga, Ligue 1"

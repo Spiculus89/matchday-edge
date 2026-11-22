@@ -1630,113 +1630,100 @@
       },
       "context": "Rotowire's Ligue 1 page and ligue1.com's probable XIs still showed the previous matchday, so lineups are pending. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
       "odds": {
-        "h": 2.97,
-        "d": 3.47,
-        "a": 2.46,
+        "h": 3.85,
+        "d": 3.23,
+        "a": 2.19,
         "ou": {
-          "2.5": [
-            1.892,
-            1.97
+          "1.5": [
+            1.369,
+            3.27
           ],
-          "3.5": [
-            3.15,
-            1.381
+          "2.5": [
+            2.19,
+            1.746
           ]
         },
         "btts": [
-          1.694,
-          2.23
+          1.854,
+          2.02
         ],
         "corners": {
           "8.5": [
-            1.492,
-            2.5
+            1.724,
+            2.1
           ],
           "9.5": [
-            1.84,
-            1.97
-          ],
-          "10.5": [
-            2.28,
-            1.591
+            2.22,
+            1.653
           ]
         },
         "cards": {
           "3.5": [
-            1.636,
-            2.22
+            1.632,
+            2.25
           ],
           "4.5": [
-            2.51,
-            1.51
+            2.47,
+            1.534
           ]
         },
         "ah": [
           {
-            "line": -0.5,
-            "home": 2.94,
-            "away": 1.436
-          },
-          {
             "line": 0,
-            "home": 2.14,
-            "away": 1.775
+            "home": 2.7,
+            "away": 1.529
           },
           {
             "line": 0.5,
-            "home": 1.606,
-            "away": 2.46
+            "home": 1.763,
+            "away": 2.19
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
-          "h": 2.96,
-          "d": 3.34,
-          "a": 2.42,
+          "h": 3.53,
+          "d": 3.17,
+          "a": 2.27,
           "ou": {
             "0.5": [
-              1.03,
-              12.1
+              1.06,
+              9.45
             ],
             "1.5": [
-              1.27,
-              3.78
+              1.37,
+              3.11
             ],
             "2.5": [
-              1.86,
-              1.96
+              2.15,
+              1.71
             ],
             "3.5": [
-              3.23,
-              1.35
+              4.05,
+              1.24
             ],
             "4.5": [
-              6.4,
-              1.11
-            ],
-            "5.5": [
-              14,
-              1.02
+              8.7,
+              1.06
             ]
           },
           "btts": [
-            1.72,
-            2.15
+            1.95,
+            1.85
           ],
           "corners": {
             "9.5": [
-              1.84,
-              1.8
+              1.94,
+              1.71
             ]
           },
           "cards": {
-            "4.5": [
-              2.17,
-              1.57
+            "3.5": [
+              1.6,
+              2.11
             ]
           },
-          "text": "1X2 2.96/3.34/2.42, O/U 2.5 1.86/1.96"
+          "text": "1X2 3.53/3.17/2.27, O/U 2.5 2.15/1.71"
         }
       },
       "news": [],
@@ -1788,65 +1775,69 @@
       },
       "context": "Nordderby. Rotowire predicted XIs and absences (22 Nov morning); Werder are without Stage and Grull. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
       "odds": {
-        "h": 1.621,
-        "d": 4.55,
-        "a": 5.07,
+        "h": 1.606,
+        "d": 4.39,
+        "a": 5.62,
         "ou": {
           "2.5": [
-            1.561,
-            2.53
+            1.684,
+            2.28
           ],
           "3.5": [
-            2.4,
-            1.617
+            2.69,
+            1.505
           ]
         },
         "btts": [
-          1.625,
-          2.36
+          1.751,
+          2.16
         ],
         "ah": [
           {
             "line": -1.5,
-            "home": 2.61,
-            "away": 1.543
+            "home": 2.62,
+            "away": 1.549
           },
           {
             "line": -1,
-            "home": 2.03,
-            "away": 1.884
+            "home": 2.01,
+            "away": 1.909
           },
           {
             "line": -0.5,
-            "home": 1.613,
-            "away": 2.43
+            "home": 1.598,
+            "away": 2.49
           }
         ],
         "corners": {
+          "8.5": [
+            1.49,
+            2.54
+          ],
           "9.5": [
-            1.769,
-            2.03
+            1.869,
+            1.952
           ],
           "10.5": [
-            2.22,
-            1.641
+            2.35,
+            1.571
           ]
         },
         "cards": {
           "2.5": [
-            1.306,
-            3.27
+            1.295,
+            3.39
           ],
           "3.5": [
-            1.793,
-            2.02
+            1.751,
+            2.09
           ],
           "4.5": [
-            2.68,
-            1.434
+            2.52,
+            1.495
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 1.69,
@@ -1986,65 +1977,114 @@
       },
       "context": "Man Utd are 18th and winless in eight league games; Liverpool 4th. Expected XIs and absences from a 17 Nov preview (Rotowire's Premier League page showed an old week), so check the confirmed sheets. Pinnacle prices from 21 Nov 09:57 UTC.",
       "odds": {
-        "h": 1.714,
-        "d": 4.35,
-        "a": 4.55,
+        "h": 1.787,
+        "d": 4.15,
+        "a": 4.36,
         "ou": {
           "2.5": [
-            1.497,
-            2.68
+            1.534,
+            2.6
           ],
           "3.5": [
-            2.25,
-            1.689
+            2.32,
+            1.662
           ]
         },
         "btts": [
-          1.523,
-          2.61
-        ],
-        "ah": [
-          {
-            "line": -1.5,
-            "home": 2.8,
-            "away": 1.471
-          },
-          {
-            "line": -1,
-            "home": 2.19,
-            "away": 1.74
-          },
-          {
-            "line": -0.5,
-            "home": 1.704,
-            "away": 2.25
-          }
+          1.54,
+          2.6
         ],
         "corners": {
           "9.5": [
-            1.628,
-            2.26
+            1.578,
+            2.36
           ],
           "10.5": [
-            2.03,
-            1.781
+            1.99,
+            1.862
+          ],
+          "11.5": [
+            2.48,
+            1.526
           ]
         },
         "cards": {
           "3.5": [
-            1.473,
-            2.55
+            1.4,
+            2.85
           ],
           "4.5": [
-            2.1,
-            1.735
+            1.952,
+            1.869
           ],
           "5.5": [
-            3.12,
-            1.332
+            2.95,
+            1.374
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-21 09:57 UTC"
+        "ah": [
+          {
+            "line": -1.5,
+            "home": 2.98,
+            "away": 1.436
+          },
+          {
+            "line": -1,
+            "home": 2.34,
+            "away": 1.666
+          },
+          {
+            "line": -0.5,
+            "home": 1.781,
+            "away": 2.15
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.8,
+          "d": 4.05,
+          "a": 4.2,
+          "ou": {
+            "1.5": [
+              1.15,
+              5.55
+            ],
+            "2.5": [
+              1.5,
+              2.61
+            ],
+            "3.5": [
+              2.26,
+              1.64
+            ],
+            "4.5": [
+              3.94,
+              1.25
+            ],
+            "5.5": [
+              7.65,
+              1.09
+            ]
+          },
+          "btts": [
+            1.53,
+            2.57
+          ],
+          "corners": {
+            "10.5": [
+              1.93,
+              1.72
+            ]
+          },
+          "cards": {
+            "4.5": [
+              1.8,
+              1.84
+            ]
+          },
+          "text": "1X2 1.8/4.05/4.2, O/U 2.5 1.5/2.61"
+        }
       },
       "news": [
         {
@@ -2146,113 +2186,105 @@
       },
       "context": "Rotowire predicted XIs and absences (22 Nov morning); Milan miss Tomori, Gabbia and Saelemaekers, Maignan questionable. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
       "odds": {
-        "h": 1.584,
-        "d": 4.62,
-        "a": 5.35,
+        "h": 1.628,
+        "d": 4.54,
+        "a": 5.1,
         "ou": {
           "2.5": [
-            1.357,
-            3.21
+            1.42,
+            2.95
           ],
           "3.5": [
-            1.934,
-            1.952
-          ],
-          "4.5": [
-            3.1,
-            1.378
+            2.06,
+            1.826
           ]
         },
         "btts": [
-          1.452,
-          2.85
+          1.492,
+          2.75
         ],
         "corners": {
-          "8.5": [
-            1.446,
-            2.67
-          ],
           "9.5": [
-            1.793,
-            2.03
+            1.719,
+            2.13
           ],
           "10.5": [
-            2.28,
-            1.606
+            2.2,
+            1.675
           ]
         },
         "cards": {
           "3.5": [
-            1.671,
+            1.684,
             2.16
           ],
           "4.5": [
-            2.56,
-            1.492
+            2.57,
+            1.497
           ]
         },
         "ah": [
           {
             "line": -1.5,
-            "home": 2.41,
-            "away": 1.621
+            "home": 2.58,
+            "away": 1.564
           },
           {
             "line": -1,
-            "home": 1.909,
-            "away": 1.99
+            "home": 2.02,
+            "away": 1.909
           },
           {
             "line": -0.5,
-            "home": 1.578,
-            "away": 2.51
+            "home": 1.625,
+            "away": 2.43
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
-          "h": 1.57,
-          "d": 4.85,
-          "a": 4.8,
+          "h": 1.65,
+          "d": 4.5,
+          "a": 4.7,
           "ou": {
             "1.5": [
-              1.09,
-              7.5
+              1.11,
+              6.6
             ],
             "2.5": [
-              1.34,
-              3.29
+              1.4,
+              2.96
             ],
             "3.5": [
-              1.87,
-              1.93
+              2.03,
+              1.79
             ],
             "4.5": [
-              2.98,
-              1.39
+              3.34,
+              1.32
             ],
             "5.5": [
-              5.3,
-              1.16
+              6.2,
+              1.13
             ]
           },
           "btts": [
-            1.43,
-            2.87
+            1.47,
+            2.7
           ],
           "corners": {
             "9.5": [
-              1.74,
-              1.91
+              1.71,
+              1.94
             ]
           },
           "cards": {
             "3.5": [
-              1.65,
-              2.02
+              1.69,
+              1.97
             ]
           },
-          "text": "1X2 1.57/4.85/4.8, O/U 2.5 1.34/3.29"
+          "text": "1X2 1.65/4.5/4.7, O/U 2.5 1.4/2.96"
         }
       },
       "news": [
@@ -2367,103 +2399,111 @@
       "context": "Rotowire predicted XIs and absences (22 Nov morning). Two of the league's lowest-scoring sides. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
       "odds": {
         "h": 1.854,
-        "d": 3.65,
-        "a": 4.55,
+        "d": 3.66,
+        "a": 4.66,
         "ou": {
           "1.5": [
-            1.338,
-            3.4
+            1.332,
+            3.5
           ],
           "2.5": [
-            2.07,
-            1.833
+            2.06,
+            1.854
           ],
           "3.5": [
-            3.65,
-            1.303
+            3.6,
+            1.318
           ]
         },
         "btts": [
-          1.934,
-          1.917
+          1.925,
+          1.943
         ],
         "corners": {
           "8.5": [
-            1.549,
-            2.39
+            1.625,
+            2.29
           ],
           "9.5": [
-            1.952,
-            1.877
-          ],
-          "10.5": [
-            2.45,
-            1.523
+            2.06,
+            1.775
           ]
         },
         "cards": {
+          "3.5": [
+            1.429,
+            2.73
+          ],
           "4.5": [
-            1.75,
-            1.9
+            2.12,
+            1.735
+          ],
+          "5.5": [
+            2.99,
+            1.367
           ]
         },
         "ah": [
           {
             "line": -1,
-            "home": 2.62,
-            "away": 1.537
+            "home": 2.6,
+            "away": 1.558
           },
           {
             "line": -0.5,
             "home": 1.862,
-            "away": 2.05
+            "away": 2.07
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
-          "h": 1.86,
-          "d": 3.49,
-          "a": 4.4,
+          "h": 1.88,
+          "d": 3.54,
+          "a": 4.45,
           "ou": {
             "0.5": [
               1.05,
-              10.5
+              10.6
             ],
             "1.5": [
-              1.33,
-              3.38
+              1.32,
+              3.42
             ],
             "2.5": [
-              2.01,
-              1.81
+              2,
+              1.82
             ],
             "3.5": [
-              3.67,
+              3.62,
               1.29
             ],
             "4.5": [
-              7.6,
-              1.08
+              7.45,
+              1.09
+            ],
+            "5.5": [
+              16.7,
+              1.01
             ]
           },
           "btts": [
-            1.94,
+            1.93,
             1.86
           ],
           "corners": {
             "9.5": [
-              1.83,
-              1.81
+              1.88,
+              1.76
             ]
           },
           "cards": {
             "4.5": [
-              1.75,
-              1.9
+              1.89,
+              1.75
             ]
           },
-          "text": "1X2 1.86/3.49/4.4, O/U 2.5 2.01/1.81"
+          "text": "1X2 1.88/3.54/4.45, O/U 2.5 2/1.82"
         }
       },
       "news": [
@@ -2565,109 +2605,113 @@
       },
       "context": "Rotowire's Ligue 1 page and ligue1.com's probable XIs still showed the previous matchday, so lineups are pending. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
       "odds": {
-        "h": 1.485,
-        "d": 4.9,
-        "a": 6.34,
+        "h": 1.458,
+        "d": 5.05,
+        "a": 6.9,
         "ou": {
           "2.5": [
-            1.543,
-            2.58
+            1.574,
+            2.52
           ],
           "3.5": [
-            2.35,
-            1.636
+            2.44,
+            1.609
           ]
         },
         "btts": [
-          1.709,
-          2.21
+          1.769,
+          2.13
         ],
         "corners": {
           "8.5": [
-            1.625,
-            2.24
+            1.653,
+            2.21
           ],
           "9.5": [
-            2.02,
-            1.775
+            2.08,
+            1.74
           ]
         },
         "cards": {
           "2.5": [
-            1.316,
-            3.21
+            1.361,
+            3.02
           ],
           "3.5": [
-            1.847,
-            1.952
+            2.01,
+            1.819
           ],
           "4.5": [
-            2.83,
-            1.393
+            3.24,
+            1.32
           ]
         },
         "ah": [
           {
             "line": -1.5,
-            "home": 2.28,
-            "away": 1.684
+            "home": 2.23,
+            "away": 1.729
           },
           {
             "line": -1,
-            "home": 1.751,
-            "away": 2.17
+            "home": 1.704,
+            "away": 2.27
           },
           {
             "line": -0.5,
-            "home": 1.471,
-            "away": 2.8
+            "home": 1.446,
+            "away": 2.94
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
-          "h": 1.49,
-          "d": 4.65,
-          "a": 6.1,
+          "h": 1.48,
+          "d": 4.75,
+          "a": 6.5,
           "ou": {
+            "0.5": [
+              1.01,
+              17.7
+            ],
             "1.5": [
-              1.15,
-              5.6
+              1.17,
+              5.2
             ],
             "2.5": [
-              1.49,
-              2.63
+              1.55,
+              2.47
             ],
             "3.5": [
-              2.26,
-              1.65
+              2.36,
+              1.61
             ],
             "4.5": [
-              3.9,
-              1.25
+              4.05,
+              1.24
             ],
             "5.5": [
-              7.55,
+              7.95,
               1.09
             ]
           },
           "btts": [
-            1.65,
-            2.26
+            1.72,
+            2.13
           ],
           "corners": {
             "9.5": [
-              1.97,
+              1.96,
               1.69
             ]
           },
           "cards": {
             "3.5": [
-              1.78,
-              1.86
+              1.91,
+              1.74
             ]
           },
-          "text": "1X2 1.49/4.65/6.1, O/U 2.5 1.49/2.63"
+          "text": "1X2 1.48/4.75/6.5, O/U 2.5 1.55/2.47"
         }
       },
       "news": [],
@@ -2719,113 +2763,109 @@
       },
       "context": "Rotowire predicted XIs and absences (22 Nov morning); Inter list Lautaro Martinez and Thuram as questionable. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
       "odds": {
-        "h": 5.28,
-        "d": 4.79,
-        "a": 1.571,
+        "h": 5.66,
+        "d": 4.76,
+        "a": 1.549,
         "ou": {
           "2.5": [
-            1.389,
-            3.05
+            1.409,
+            2.99
           ],
           "3.5": [
-            1.98,
-            1.869
+            2.03,
+            1.847
           ]
         },
         "btts": [
-          1.473,
-          2.77
+          1.52,
+          2.66
         ],
         "corners": {
           "8.5": [
-            1.561,
-            2.37
+            1.507,
+            2.53
           ],
           "9.5": [
-            1.97,
-            1.862
+            1.847,
+            2
           ],
           "10.5": [
-            2.47,
-            1.518
+            2.33,
+            1.591
           ]
         },
         "cards": {
           "2.5": [
-            1.396,
-            2.82
+            1.473,
+            2.64
           ],
           "3.5": [
-            1.97,
-            1.84
-          ],
-          "4.5": [
-            3.05,
-            1.347
+            2.25,
+            1.632
           ]
         },
         "ah": [
           {
             "line": 0.5,
-            "home": 2.55,
-            "away": 1.564
+            "home": 2.63,
+            "away": 1.546
           },
           {
             "line": 1,
-            "home": 2,
-            "away": 1.909
+            "home": 2.06,
+            "away": 1.869
           },
           {
             "line": 1.5,
-            "home": 1.613,
-            "away": 2.43
+            "home": 1.649,
+            "away": 2.38
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
-          "h": 4.95,
-          "d": 4.8,
+          "h": 5.3,
+          "d": 4.7,
           "a": 1.57,
           "ou": {
             "1.5": [
-              1.1,
-              6.95
+              1.11,
+              6.65
             ],
             "2.5": [
-              1.37,
-              3.1
+              1.4,
+              2.99
             ],
             "3.5": [
-              1.95,
-              1.85
+              2.01,
+              1.81
             ],
             "4.5": [
-              3.17,
-              1.35
+              3.3,
+              1.33
             ],
             "5.5": [
-              5.8,
-              1.14
+              6.1,
+              1.13
             ]
           },
           "btts": [
-            1.46,
-            2.72
+            1.5,
+            2.61
           ],
           "corners": {
             "9.5": [
-              1.93,
-              1.72
-            ]
-          },
-          "cards": {
-            "3.5": [
               1.88,
               1.76
             ]
           },
-          "text": "1X2 4.95/4.8/1.57, O/U 2.5 1.37/3.1"
+          "cards": {
+            "3.5": [
+              2.07,
+              1.62
+            ]
+          },
+          "text": "1X2 5.3/4.7/1.57, O/U 2.5 1.4/2.99"
         }
       },
       "news": [
@@ -2933,109 +2973,109 @@
       },
       "context": "Rotowire predicted XIs and absences (22 Nov morning). Getafe have scored 8 in 12 league games. Form is season league goals per game. Pinnacle prices from 21 Nov 15:34 UTC.",
       "odds": {
-        "h": 6.51,
-        "d": 4.1,
-        "a": 1.571,
+        "h": 7.19,
+        "d": 4.06,
+        "a": 1.555,
         "ou": {
           "1.5": [
-            1.355,
-            3.3
+            1.386,
+            3.18
           ],
           "2.5": [
-            2.11,
-            1.8
-          ],
-          "3.5": [
-            3.75,
-            1.29
+            2.16,
+            1.757
           ]
         },
         "btts": [
-          2.15,
-          1.74
+          2.23,
+          1.709
         ],
         "corners": {
           "8.5": [
-            1.591,
-            2.31
+            1.714,
+            2.14
           ],
           "9.5": [
-            1.99,
-            1.84
-          ],
-          "10.5": [
-            2.48,
-            1.512
+            2.19,
+            1.684
           ]
         },
         "cards": {
           "4.5": [
-            1.58,
-            2.15
+            1.518,
+            2.46
+          ],
+          "5.5": [
+            2.04,
+            1.793
+          ],
+          "6.5": [
+            2.99,
+            1.366
           ]
         },
         "ah": [
           {
             "line": 0.5,
-            "home": 2.55,
-            "away": 1.564
+            "home": 2.62,
+            "away": 1.549
           },
           {
             "line": 1,
-            "home": 1.877,
-            "away": 2.03
+            "home": 1.9,
+            "away": 2.02
           },
           {
             "line": 1.5,
             "home": 1.497,
-            "away": 2.75
+            "away": 2.78
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-21 15:34 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
-          "h": 6.05,
-          "d": 4.2,
+          "h": 6.8,
+          "d": 4,
           "a": 1.55,
           "ou": {
             "0.5": [
-              1.05,
-              10.2
+              1.06,
+              9.6
             ],
             "1.5": [
-              1.34,
-              3.3
+              1.36,
+              3.15
             ],
             "2.5": [
-              2.05,
-              1.78
+              2.13,
+              1.72
             ],
             "3.5": [
-              3.74,
-              1.28
+              3.97,
+              1.25
             ],
             "4.5": [
-              7.9,
-              1.08
+              8.5,
+              1.07
             ]
           },
           "btts": [
-            2.18,
-            1.68
+            2.31,
+            1.61
           ],
           "corners": {
             "9.5": [
-              1.87,
-              1.77
+              1.98,
+              1.68
             ]
           },
           "cards": {
-            "4.5": [
-              1.58,
-              2.15
+            "5.5": [
+              1.9,
+              1.74
             ]
           },
-          "text": "1X2 6.05/4.2/1.55, O/U 2.5 2.05/1.78"
+          "text": "1X2 6.8/4/1.55, O/U 2.5 2.13/1.72"
         }
       },
       "news": [

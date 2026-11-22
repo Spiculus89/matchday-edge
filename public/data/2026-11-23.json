@@ -1,0 +1,679 @@
+{
+  "date": "2026-11-23",
+  "updated": "2026-11-22T15:37:51.087Z",
+  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, news and lineups.",
+  "skeleton": true,
+  "matches": [
+    {
+      "id": "ist-cor",
+      "competition": "Super Lig (Turkiye)",
+      "kickoff": "2026-11-23T17:00:00.000Z",
+      "home": {
+        "name": "Istanbul Basaksehir",
+        "short": "Istanbul Basaksehir"
+      },
+      "away": {
+        "name": "Corum FK",
+        "short": "Corum FK"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 1.934,
+        "d": 3.77,
+        "a": 3.76,
+        "ou": {
+          "1.5": [
+            1.182,
+            4.8
+          ],
+          "2.5": [
+            1.606,
+            2.34
+          ],
+          "3.5": [
+            2.48,
+            1.546
+          ],
+          "4.5": [
+            4.3,
+            1.216
+          ]
+        },
+        "btts": [
+          1.531,
+          2.5
+        ],
+        "ah": [
+          {
+            "line": -1,
+            "home": 2.69,
+            "away": 1.483
+          },
+          {
+            "line": -0.5,
+            "home": 1.934,
+            "away": 1.917
+          },
+          {
+            "line": 0,
+            "home": 1.444,
+            "away": 2.83
+          }
+        ],
+        "corners": {
+          "8.5": [
+            1.609,
+            2.25
+          ],
+          "9.5": [
+            2.01,
+            1.775
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC"
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-22 15:37 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "wie-lkp",
+      "competition": "Ekstraklasa (Poland)",
+      "kickoff": "2026-11-23T18:00:00.000Z",
+      "home": {
+        "name": "Wieczysta Krakow",
+        "short": "Wieczysta Krakow"
+      },
+      "away": {
+        "name": "LKP Motor Lublin",
+        "short": "LKP Motor"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 2.34,
+        "d": 4.01,
+        "a": 2.65,
+        "ou": {
+          "1.5": [
+            1.118,
+            6.17
+          ],
+          "2.5": [
+            1.42,
+            2.82
+          ],
+          "3.5": [
+            2.08,
+            1.751
+          ],
+          "4.5": [
+            3.4,
+            1.306
+          ],
+          "5.5": [
+            6.11,
+            1.12
+          ]
+        },
+        "btts": [
+          1.37,
+          2.93
+        ],
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.33,
+            "away": 1.609
+          },
+          {
+            "line": 0,
+            "home": 1.8,
+            "away": 2.05
+          },
+          {
+            "line": 0.5,
+            "home": 1.487,
+            "away": 2.64
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.613,
+            2.24
+          ],
+          "10.5": [
+            2.01,
+            1.787
+          ],
+          "11.5": [
+            2.53,
+            1.49
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.34,
+          "d": 3.9,
+          "a": 2.58,
+          "ou": {
+            "1.5": [
+              1.09,
+              6.35
+            ],
+            "2.5": [
+              1.38,
+              2.86
+            ],
+            "3.5": [
+              1.99,
+              1.74
+            ],
+            "4.5": [
+              3.3,
+              1.29
+            ],
+            "5.5": [
+              6.15,
+              1.09
+            ]
+          },
+          "btts": [
+            1.37,
+            2.93
+          ],
+          "text": "1X2 2.34/3.9/2.58, O/U 2.5 1.38/2.86"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-22 15:37 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "caj-def",
+      "competition": "Primera Division (Uruguay)",
+      "kickoff": "2026-11-23T19:30:00.000Z",
+      "home": {
+        "name": "CA Juventud de Las Piedras",
+        "short": "CA Juventud"
+      },
+      "away": {
+        "name": "Defensor Sporting",
+        "short": "Defensor Sporting"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 2.23,
+        "d": 3.31,
+        "a": 3.13,
+        "ou": {
+          "1.5": [
+            1.275,
+            3.43
+          ],
+          "2.5": [
+            1.925,
+            1.847
+          ],
+          "3.5": [
+            3.26,
+            1.301
+          ],
+          "4.5": [
+            6.14,
+            1.101
+          ]
+        },
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.22,
+            "away": 1.625
+          },
+          {
+            "line": 0,
+            "home": 1.602,
+            "away": 2.27
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC"
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-22 15:37 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "mon-acf",
+      "competition": "Serie A (Italy)",
+      "kickoff": "2026-11-23T19:45:00.000Z",
+      "home": {
+        "name": "AC Monza",
+        "short": "Monza"
+      },
+      "away": {
+        "name": "ACF Fiorentina",
+        "short": "ACF Fiorentina"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 3.82,
+        "d": 3.94,
+        "a": 1.934,
+        "ou": {
+          "2.5": [
+            1.591,
+            2.46
+          ],
+          "3.5": [
+            2.48,
+            1.581
+          ]
+        },
+        "btts": [
+          1.534,
+          2.58
+        ],
+        "corners": {
+          "8.5": [
+            1.598,
+            2.29
+          ],
+          "9.5": [
+            2,
+            1.826
+          ],
+          "10.5": [
+            2.53,
+            1.492
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.303,
+            3.29
+          ],
+          "3.5": [
+            1.826,
+            1.99
+          ],
+          "4.5": [
+            2.82,
+            1.396
+          ]
+        },
+        "ah": [
+          {
+            "line": 0,
+            "home": 2.89,
+            "away": 1.458
+          },
+          {
+            "line": 0.5,
+            "home": 1.961,
+            "away": 1.943
+          },
+          {
+            "line": 1,
+            "home": 1.51,
+            "away": 2.71
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 3.84,
+          "d": 3.65,
+          "a": 1.94,
+          "ou": {
+            "0.5": [
+              1.01,
+              17.3
+            ],
+            "1.5": [
+              1.17,
+              5.1
+            ],
+            "2.5": [
+              1.56,
+              2.44
+            ],
+            "3.5": [
+              2.43,
+              1.56
+            ],
+            "4.5": [
+              4.35,
+              1.21
+            ],
+            "5.5": [
+              8.65,
+              1.07
+            ]
+          },
+          "btts": [
+            1.54,
+            2.52
+          ],
+          "corners": {
+            "9.5": [
+              1.95,
+              1.7
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.82,
+              1.82
+            ]
+          },
+          "text": "1X2 3.84/3.65/1.94, O/U 2.5 1.56/2.44"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-22 15:37 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "bre-eve",
+      "competition": "Premier League (England)",
+      "kickoff": "2026-11-23T20:00:00.000Z",
+      "home": {
+        "name": "Brentford FC",
+        "short": "Brentford FC"
+      },
+      "away": {
+        "name": "Everton FC",
+        "short": "Everton FC"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 2.32,
+        "d": 3.56,
+        "a": 3.14,
+        "ou": {
+          "2.5": [
+            1.847,
+            2.03
+          ],
+          "3.5": [
+            3.06,
+            1.4
+          ]
+        },
+        "btts": [
+          1.694,
+          2.23
+        ],
+        "corners": {
+          "9.5": [
+            1.649,
+            2.22
+          ],
+          "10.5": [
+            2.04,
+            1.769
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.689,
+            2.13
+          ],
+          "4.5": [
+            2.66,
+            1.46
+          ]
+        },
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.31,
+            "away": 1.675
+          },
+          {
+            "line": 0,
+            "home": 1.684,
+            "away": 2.29
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.27,
+          "d": 3.35,
+          "a": 3.21,
+          "ou": {
+            "0.5": [
+              1.03,
+              12.6
+            ],
+            "1.5": [
+              1.26,
+              3.93
+            ],
+            "2.5": [
+              1.81,
+              2.01
+            ],
+            "3.5": [
+              3.1,
+              1.37
+            ],
+            "4.5": [
+              6.05,
+              1.13
+            ],
+            "5.5": [
+              13.1,
+              1.03
+            ]
+          },
+          "btts": [
+            1.7,
+            2.19
+          ],
+          "corners": {
+            "10.5": [
+              1.96,
+              1.7
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.69,
+              1.97
+            ]
+          },
+          "text": "1X2 2.27/3.35/3.21, O/U 2.5 1.81/2.01"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-22 15:37 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "lev-elc",
+      "competition": "LaLiga (Spain)",
+      "kickoff": "2026-11-23T20:00:00.000Z",
+      "home": {
+        "name": "Levante UD",
+        "short": "Levante UD"
+      },
+      "away": {
+        "name": "Elche CF",
+        "short": "Elche CF"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "h": 2.19,
+        "d": 3.67,
+        "a": 3.31,
+        "ou": {
+          "2.5": [
+            1.68,
+            2.28
+          ],
+          "3.5": [
+            2.67,
+            1.502
+          ]
+        },
+        "btts": [
+          1.564,
+          2.5
+        ],
+        "corners": {
+          "8.5": [
+            1.588,
+            2.31
+          ],
+          "9.5": [
+            1.99,
+            1.833
+          ],
+          "10.5": [
+            2.52,
+            1.497
+          ]
+        },
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.19,
+            "away": 1.746
+          },
+          {
+            "line": 0,
+            "home": 1.613,
+            "away": 2.44
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-22 15:37 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.16,
+          "d": 3.71,
+          "a": 3.16,
+          "ou": {
+            "0.5": [
+              1.02,
+              15.3
+            ],
+            "1.5": [
+              1.2,
+              4.7
+            ],
+            "2.5": [
+              1.63,
+              2.28
+            ],
+            "3.5": [
+              2.62,
+              1.49
+            ],
+            "4.5": [
+              4.8,
+              1.18
+            ],
+            "5.5": [
+              9.85,
+              1.05
+            ]
+          },
+          "btts": [
+            1.58,
+            2.43
+          ],
+          "corners": {
+            "9.5": [
+              2.01,
+              1.66
+            ]
+          },
+          "text": "1X2 2.16/3.71/3.16, O/U 2.5 1.63/2.28"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-22 15:37 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    }
+  ]
+}
