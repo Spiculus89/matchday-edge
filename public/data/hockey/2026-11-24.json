@@ -21,20 +21,47 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          1.46,
-          2.65
+          1.507,
+          2.72
         ],
         "reg": [
-          1.74,
-          4.4,
-          3.6
+          1.84,
+          4.37,
+          3.5
         ],
         "totalReg": {
-          "line": 5.5,
-          "o": 1.67,
-          "u": 2.08
+          "line": 6,
+          "o": 2.06,
+          "u": 1.813
         },
-        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "total": {
+          "line": 6,
+          "o": 1.917,
+          "u": 1.952
+        },
+        "teamTotal": {
+          "home": {
+            "line": 3.5,
+            "o": 1.943,
+            "u": 1.877
+          },
+          "away": {
+            "line": 2.5,
+            "o": 1.943,
+            "u": 1.877
+          }
+        },
+        "puck": {
+          "line": -1.5,
+          "h": 2.32,
+          "a": 1.657
+        },
+        "p1total": {
+          "line": 1.5,
+          "o": 1.806,
+          "u": 2.05
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-23 03:42 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -86,20 +113,47 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          1.67,
-          2.16
+          1.675,
+          2.31
         ],
         "reg": [
-          2.06,
-          4.2,
-          2.8
+          2.07,
+          4.25,
+          2.94
         ],
         "totalReg": {
-          "line": 5.5,
-          "o": 1.64,
-          "u": 2.12
+          "line": 6,
+          "o": 2.06,
+          "u": 1.813
         },
-        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "total": {
+          "line": 6,
+          "o": 1.917,
+          "u": 1.952
+        },
+        "teamTotal": {
+          "home": {
+            "line": 3.5,
+            "o": 2.12,
+            "u": 1.735
+          },
+          "away": {
+            "line": 2.5,
+            "o": 1.757,
+            "u": 2.09
+          }
+        },
+        "puck": {
+          "line": -1.5,
+          "h": 2.68,
+          "a": 1.507
+        },
+        "p1total": {
+          "line": 1.5,
+          "o": 1.793,
+          "u": 2.06
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-23 03:42 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -151,20 +205,47 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          1.45,
-          2.7
+          1.465,
+          2.87
         ],
         "reg": [
-          1.75,
-          4.3,
-          3.65
+          1.781,
+          4.39,
+          3.72
         ],
         "totalReg": {
-          "line": 5.5,
-          "o": 1.76,
-          "u": 1.96
+          "line": 6,
+          "o": 2.17,
+          "u": 1.729
         },
-        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "total": {
+          "line": 6,
+          "o": 2.01,
+          "u": 1.862
+        },
+        "teamTotal": {
+          "home": {
+            "line": 3.5,
+            "o": 1.961,
+            "u": 1.877
+          },
+          "away": {
+            "line": 2.5,
+            "o": 2.05,
+            "u": 1.787
+          }
+        },
+        "puck": {
+          "line": -1.5,
+          "h": 2.24,
+          "a": 1.699
+        },
+        "p1total": {
+          "line": 1.5,
+          "o": 1.833,
+          "u": 2.01
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-23 03:42 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -216,20 +297,47 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          1.65,
-          2.2
+          1.621,
+          2.41
         ],
         "reg": [
-          2.03,
-          4.2,
-          2.85
+          2,
+          4.29,
+          3.08
         ],
         "totalReg": {
-          "line": 6.5,
-          "o": 2.17,
-          "u": 1.62
+          "line": 6,
+          "o": 1.869,
+          "u": 1.99
         },
-        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "total": {
+          "line": 6.5,
+          "o": 1.952,
+          "u": 1.909
+        },
+        "teamTotal": {
+          "home": {
+            "line": 3.5,
+            "o": 1.961,
+            "u": 1.877
+          },
+          "away": {
+            "line": 2.5,
+            "o": 1.724,
+            "u": 2.14
+          }
+        },
+        "puck": {
+          "line": -1.5,
+          "h": 2.52,
+          "a": 1.564
+        },
+        "p1total": {
+          "line": 1.5,
+          "o": 1.729,
+          "u": 2.15
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-23 03:42 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -281,20 +389,47 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          1.93,
-          1.84
+          1.98,
+          1.909
         ],
         "reg": [
-          2.47,
-          4,
-          2.34
+          2.49,
+          4.21,
+          2.39
         ],
         "totalReg": {
-          "line": 6.5,
-          "o": 2.11,
-          "u": 1.65
+          "line": 6,
+          "o": 1.84,
+          "u": 2.02
         },
-        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "total": {
+          "line": 6.5,
+          "o": 1.934,
+          "u": 1.934
+        },
+        "teamTotal": {
+          "home": {
+            "line": 3.5,
+            "o": 2.3,
+            "u": 1.645
+          },
+          "away": {
+            "line": 3.5,
+            "o": 2.22,
+            "u": 1.675
+          }
+        },
+        "puck": {
+          "line": 1.5,
+          "h": 1.383,
+          "a": 3.18
+        },
+        "p1total": {
+          "line": 1.5,
+          "o": 1.719,
+          "u": 2.17
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-23 03:42 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -346,20 +481,47 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          1.83,
-          1.94
+          1.943,
+          1.943
         ],
         "reg": [
-          2.3,
-          4.1,
-          2.47
+          2.43,
+          4.25,
+          2.43
         ],
         "totalReg": {
           "line": 6.5,
-          "o": 2.03,
-          "u": 1.71
+          "o": 2.07,
+          "u": 1.8
         },
-        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "total": {
+          "line": 6.5,
+          "o": 1.819,
+          "u": 2.06
+        },
+        "teamTotal": {
+          "home": {
+            "line": 3.5,
+            "o": 2.16,
+            "u": 1.724
+          },
+          "away": {
+            "line": 3.5,
+            "o": 2.16,
+            "u": 1.714
+          }
+        },
+        "puck": {
+          "line": -1.5,
+          "h": 3.17,
+          "a": 1.363
+        },
+        "p1total": {
+          "line": 1.5,
+          "o": 1.675,
+          "u": 2.24
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-23 03:42 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
@@ -411,20 +573,47 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          2.65,
-          1.47
+          2.82,
+          1.478
         ],
         "reg": [
-          3.55,
-          4.4,
-          1.75
+          3.63,
+          4.42,
+          1.8
         ],
         "totalReg": {
-          "line": 5.5,
-          "o": 1.62,
-          "u": 2.17
+          "line": 6,
+          "o": 1.961,
+          "u": 1.892
         },
-        "book": "AdmiralBet BA via OddsPapi, 2026-11-22 22:27 UTC",
+        "total": {
+          "line": 6,
+          "o": 1.833,
+          "u": 2.04
+        },
+        "teamTotal": {
+          "home": {
+            "line": 2.5,
+            "o": 1.934,
+            "u": 1.9
+          },
+          "away": {
+            "line": 3.5,
+            "o": 1.854,
+            "u": 1.961
+          }
+        },
+        "puck": {
+          "line": 1.5,
+          "h": 1.699,
+          "a": 2.24
+        },
+        "p1total": {
+          "line": 1.5,
+          "o": 1.763,
+          "u": 2.1
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-23 03:42 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
