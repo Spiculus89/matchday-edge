@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T09:01:04.835Z",
+  "updated": "2026-11-23T09:01:36.598Z",
   "note": "Every graded pick shown on the site. p = the chance shown at the time (bookmaker-implied for player props, which had no model then).",
   "legs": [
     {
@@ -1854,6 +1854,402 @@
       "pick": "Both teams to score (Lean)",
       "p": 0.593,
       "odds": 1.666,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "mci-ful",
+      "group": "Result",
+      "pick": "Man City to win (most likely)",
+      "p": 0.701,
+      "odds": 1.387,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "mci-ful",
+      "group": "Bet builder",
+      "pick": "Man City to win + Over 1.5 goals + Both teams to score",
+      "p": 0.363,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "dep-dep",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.503,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "com-cag",
+      "group": "Result",
+      "pick": "Como to win (most likely)",
+      "p": 0.754,
+      "odds": 1.289,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "com-cag",
+      "group": "Bet builder",
+      "pick": "Como to win + Under 3.5 goals",
+      "p": 0.389,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "bay-pad",
+      "group": "Result",
+      "pick": "Leverkusen to win (most likely)",
+      "p": 0.762,
+      "odds": 1.261,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "bay-pad",
+      "group": "Bet builder",
+      "pick": "Leverkusen to win + Over 1.5 goals + Both teams to score",
+      "p": 0.388,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "uni-rbl",
+      "group": "Result",
+      "pick": "Leipzig to win (most likely)",
+      "p": 0.646,
+      "odds": 1.497,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "uni-rbl",
+      "group": "Bet builder",
+      "pick": "Leipzig to win + Over 2.5 goals",
+      "p": 0.485,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "bor-bor",
+      "group": "Bet builder",
+      "pick": "Dortmund to win + Over 1.5 goals",
+      "p": 0.524,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "elv-fre",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.514,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "cov-cry",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.457,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "che-lee",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.521,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "avl-sun",
+      "group": "Bet builder",
+      "pick": "Villa or draw + Over 1.5 goals + Both teams to score",
+      "p": 0.432,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "bou-nfo",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.508,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "ray-val",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.507,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "par-rom",
+      "group": "Result",
+      "pick": "Roma to win (most likely)",
+      "p": 0.781,
+      "odds": 1.239,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "par-rom",
+      "group": "Bet builder",
+      "pick": "Roma to win + Under 3.5 goals",
+      "p": 0.384,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "sch-vfb",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.526,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "rac-tou",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.448,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "nap-tor",
+      "group": "Result",
+      "pick": "Napoli to win (most likely)",
+      "p": 0.633,
+      "odds": 1.537,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "nap-tor",
+      "group": "Bet builder",
+      "pick": "Napoli to win + Over 2.5 goals",
+      "p": 0.413,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-21",
+      "match": "rea-cel",
+      "group": "Result",
+      "pick": "Real Madrid to win (most likely)",
+      "p": 0.833,
+      "odds": 1.161,
+      "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "rea-cel",
+      "group": "Bet builder",
+      "pick": "Real Madrid to win + Over 1.5 goals + BTTS: No",
+      "p": 0.404,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-22",
+      "match": "juv-ven",
+      "group": "Result",
+      "pick": "Juventus to win (most likely)",
+      "p": 0.704,
+      "odds": 1.367,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "juv-ven",
+      "group": "Bet builder",
+      "pick": "Juventus to win + Over 2.5 goals",
+      "p": 0.456,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "bar-vil",
+      "group": "Result",
+      "pick": "Barcelona to win (most likely)",
+      "p": 0.799,
+      "odds": 1.202,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "bar-vil",
+      "group": "Bet builder",
+      "pick": "Barcelona to win + Over 1.5 goals + Both teams to score",
+      "p": 0.482,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "par-ang",
+      "group": "Result",
+      "pick": "Paris FC to win (most likely)",
+      "p": 0.727,
+      "odds": 1.328,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "par-ang",
+      "group": "Bet builder",
+      "pick": "Paris FC to win + Over 2.5 goals",
+      "p": 0.504,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "hul-bri",
+      "group": "Result",
+      "pick": "Brighton to win (most likely)",
+      "p": 0.626,
+      "odds": 1.543,
+      "won": false
+    },
+    {
+      "date": "2026-11-22",
+      "match": "hul-bri",
+      "group": "Bet builder",
+      "pick": "Brighton to win + Over 1.5 goals",
+      "p": 0.513,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-22",
+      "match": "bol-udi",
+      "group": "Bet builder",
+      "pick": "Bologna to win + Over 1.5 goals",
+      "p": 0.483,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-22",
+      "match": "bol-udi",
+      "group": "Result",
+      "pick": "Bologna to win (Lean)",
+      "p": 0.563,
+      "odds": 1.746,
+      "won": false
+    },
+    {
+      "date": "2026-11-22",
+      "match": "sas-gen",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.448,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-22",
+      "match": "aug-mai",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.722,
+      "odds": 1.378,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "lor-ren",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.515,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "mil-fro",
+      "group": "Bet builder",
+      "pick": "Milan to win + Over 1.5 goals",
+      "p": 0.507,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "mar-lem",
+      "group": "Result",
+      "pick": "Marseille to win (most likely)",
+      "p": 0.671,
+      "odds": 1.458,
+      "won": false
+    },
+    {
+      "date": "2026-11-22",
+      "match": "mar-lem",
+      "group": "Bet builder",
+      "pick": "Marseille to win + Over 2.5 goals",
+      "p": 0.506,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-22",
+      "match": "mar-lem",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.557,
+      "odds": 1.769,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "ata-int",
+      "group": "Result",
+      "pick": "Inter to win (most likely)",
+      "p": 0.625,
+      "odds": 1.549,
+      "won": false
+    },
+    {
+      "date": "2026-11-22",
+      "match": "ata-int",
+      "group": "Bet builder",
+      "pick": "Inter to win + Over 2.5 goals",
+      "p": 0.493,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-22",
+      "match": "ata-int",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.645,
+      "odds": 1.52,
       "won": true
     }
   ]

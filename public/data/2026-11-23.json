@@ -1,8 +1,7 @@
 {
   "date": "2026-11-23",
-  "updated": "2026-11-22T15:37:51.087Z",
-  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, news and lineups.",
-  "skeleton": true,
+  "updated": "2026-11-23T09:02:23.559Z",
+  "updateNote": "Morning run: Rotowire XIs and absences for Monza v Fiorentina; Brentford v Everton XIs, absences, referee and form from previews (Rotowire's EPL page showed an old week); form for Levante v Elche. Other games are Pinnacle-only.",
   "matches": [
     {
       "id": "ist-cor",
@@ -16,7 +15,7 @@
         "name": "Corum FK",
         "short": "Corum FK"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices only: no form or team news was found on the 23 Nov morning run, so fair prices and the most likely outcome but no value bet. Lineups wait for the kick-off run.",
       "odds": {
         "h": 1.909,
         "d": 3.87,
@@ -134,7 +133,7 @@
         "name": "LKP Motor Lublin",
         "short": "LKP Motor"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices only: no form or team news was found on the 23 Nov morning run, so fair prices and the most likely outcome but no value bet. Lineups wait for the kick-off run.",
       "odds": {
         "h": 2.36,
         "d": 4.04,
@@ -260,7 +259,7 @@
         "name": "Defensor Sporting",
         "short": "Defensor Sporting"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Pinnacle prices only: no form or team news was found on the 23 Nov morning run, so fair prices and the most likely outcome but no value bet. Lineups wait for the kick-off run.",
       "odds": {
         "h": 2.22,
         "d": 3.35,
@@ -344,7 +343,7 @@
         "name": "ACF Fiorentina",
         "short": "ACF Fiorentina"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Rotowire predicted XIs and absences (23 Nov morning). Monza (7 pts) and Fiorentina (9 pts) are both in the bottom half after 11 games; no reliable goals-for/against table was readable, so no form and no value bet. Pinnacle prices from 22 Nov 22:27 UTC.",
       "odds": {
         "h": 3.74,
         "d": 3.91,
@@ -455,22 +454,81 @@
           "text": "1X2 3.78/3.62/1.96, O/U 2.5 1.56/2.43"
         }
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: P. Ciurria, M. Folorunsho, Yvan Maye.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: S. Birindelli, Jay Robinson (Robinson is in the predicted XI).",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: F. Parisi, M. Pongracic.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: Arthur Atta, Alieu Njie.",
+          "src": "Rotowire"
+        }
+      ],
       "lineups": {
-        "status": "pending",
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 23 Nov morning.",
         "home": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "N. Tornqvist",
+            "S. Goglichidze",
+            "L. Lucchesi",
+            "Eddy Kouadio",
+            "R. Mangas",
+            "M. Pessina",
+            "L. Colombo",
+            "E. Akinsanmiro",
+            "I. Toure",
+            "Jay Robinson",
+            "Gustavo Varela"
+          ]
         },
         "away": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "David de Gea",
+            "Joao Mario",
+            "R. Dragusin",
+            "Luca Ranieri",
+            "Alex Jimenez",
+            "Cher Ndour",
+            "C. Inao Oulai",
+            "W. Gnonto",
+            "Pedro Goncalves",
+            "F. Mastantuono",
+            "M. Pellegrino"
+          ]
         }
       },
       "sources": [
         {
           "title": "OddsPapi odds snapshot 2026-11-22 15:37 UTC",
           "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "Rotowire Serie A lineups (23-28 Nov week)",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=SERI&week=18"
         }
-      ]
+      ],
+      "referee": {
+        "note": "Not on the Rotowire page."
+      }
     },
     {
       "id": "bre-eve",
@@ -484,7 +542,7 @@
         "name": "Everton FC",
         "short": "Everton FC"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Rotowire's Premier League page still showed the 31 Oct-5 Nov week, so XIs and absences are from the footballpredictions.com and starting11.com previews (23 Nov morning). Brentford are without the suspended Igor Thiago and six injured players; Everton report no absentees. Form is season league goals per game. Pinnacle prices from 22 Nov 22:27 UTC.",
       "odds": {
         "h": 2.33,
         "d": 3.55,
@@ -591,22 +649,91 @@
           "text": "1X2 2.29/3.35/3.18, O/U 2.5 1.81/2.01"
         }
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Suspended: I. Thiago (red card).",
+          "src": "footballpredictions.com, starting11.com"
+        },
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: N. Collins (knee), K. Furo (surgery), R. Henry (hip), A. Hickey (hamstring), J. Dasilva (muscle), F. Carvalho (muscle), A. Milambo (knee).",
+          "src": "footballpredictions.com, starting11.com"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "No absentees reported; Moyes said no one is ruled out.",
+          "src": "starting11.com"
+        }
+      ],
       "lineups": {
-        "status": "pending",
+        "status": "predicted",
+        "source": "footballpredictions.com predicted XI (4-2-3-1); Everton's matches the starting11.com XI. Read 23 Nov morning.",
         "home": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "C. Kelleher",
+            "M. Kayode",
+            "K. Ajer",
+            "S. van den Berg",
+            "E. Diouf",
+            "M. Sangare",
+            "V. Janelt",
+            "D. Ouattara",
+            "K. Lewis-Potter",
+            "K. Schade",
+            "J. Anthony"
+          ]
         },
         "away": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "J. Pickford",
+            "M. Rohl",
+            "J. Branthwaite",
+            "J. Tarkowski",
+            "V. Mykolenko",
+            "J. Garner",
+            "H. Armstrong",
+            "K. Dewsbury-Hall",
+            "Tyrique George",
+            "T. Dibling",
+            "T. Barry"
+          ]
         }
       },
       "sources": [
         {
           "title": "OddsPapi odds snapshot 2026-11-22 15:37 UTC",
           "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "footballpredictions.com Brentford v Everton preview",
+          "url": "https://footballpredictions.com/footballpredictions/premierleaguepredictions/brentford-vs-everton-prediction-23-11-2026/"
+        },
+        {
+          "title": "starting11.com Brentford v Everton predicted XIs",
+          "url": "https://starting11.com/fixtures/brentford-vs-everton-20261123"
         }
-      ]
+      ],
+      "form20": {
+        "note": "Season league goals per game (10 games) from the footballpredictions.com table, same figures on sportschau.de; not a 20-game window, no xG.",
+        "home": {
+          "gf": 1.6,
+          "ga": 1.1
+        },
+        "away": {
+          "gf": 1.2,
+          "ga": 1
+        }
+      },
+      "referee": {
+        "name": "Craig Pawson",
+        "note": "Named in the starting11.com preview; no per-game card numbers found."
+      }
     },
     {
       "id": "lev-elc",
@@ -620,7 +747,7 @@
         "name": "Elche CF",
         "short": "Elche CF"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Form is season league goals per game from the sportschau.de La Liga table. Rotowire's La Liga lineup page couldn't be opened and no current preview was found, so lineups wait for the kick-off run. Pinnacle prices from 22 Nov 22:27 UTC.",
       "odds": {
         "h": 2.16,
         "d": 3.66,
@@ -740,8 +867,23 @@
         {
           "title": "OddsPapi odds snapshot 2026-11-22 15:37 UTC",
           "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "sportschau.de La Liga table",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/spanien-primera-division/ma12188173/rayo-vallecano_valencia-cf/blitztabelle"
         }
-      ]
+      ],
+      "form20": {
+        "note": "Season league goals per game (12 games) from the sportschau.de La Liga table read 23 Nov morning (one source); not a 20-game window, no xG.",
+        "home": {
+          "gf": 1.33,
+          "ga": 1.75
+        },
+        "away": {
+          "gf": 1.17,
+          "ga": 1.67
+        }
+      }
     }
   ]
 }

@@ -341,6 +341,10 @@
       },
       "referee": {
         "note": "Not on the Rotowire page."
+      },
+      "result": {
+        "home": 4,
+        "away": 0
       }
     },
     {
@@ -550,6 +554,10 @@
       },
       "referee": {
         "note": "Not on the Rotowire page."
+      },
+      "result": {
+        "home": 3,
+        "away": 2
       }
     },
     {
@@ -704,6 +712,10 @@
       },
       "referee": {
         "note": "Not found this morning."
+      },
+      "result": {
+        "home": 4,
+        "away": 0
       }
     },
     {
@@ -809,6 +821,10 @@
       },
       "referee": {
         "note": "Not found this morning."
+      },
+      "result": {
+        "home": 2,
+        "away": 0
       }
     },
     {
@@ -1026,6 +1042,10 @@
       },
       "referee": {
         "note": "Not on the Rotowire page."
+      },
+      "result": {
+        "home": 1,
+        "away": 1
       }
     },
     {
@@ -1234,6 +1254,10 @@
       },
       "referee": {
         "note": "Not on the Rotowire page."
+      },
+      "result": {
+        "home": 0,
+        "away": 2
       }
     },
     {
@@ -1416,6 +1440,10 @@
       },
       "referee": {
         "note": "Not on the Rotowire page."
+      },
+      "result": {
+        "home": 3,
+        "away": 1
       }
     },
     {
@@ -1759,6 +1787,10 @@
       },
       "referee": {
         "note": "Not found this morning."
+      },
+      "result": {
+        "home": 1,
+        "away": 1
       }
     },
     {
@@ -2382,6 +2414,10 @@
       },
       "referee": {
         "note": "Not on the Rotowire page."
+      },
+      "result": {
+        "home": 5,
+        "away": 1
       }
     },
     {
@@ -2747,6 +2783,10 @@
       },
       "referee": {
         "note": "Not found this morning."
+      },
+      "result": {
+        "home": 2,
+        "away": 3
       }
     },
     {
@@ -2957,6 +2997,10 @@
       },
       "referee": {
         "note": "Not on the Rotowire page."
+      },
+      "result": {
+        "home": 4,
+        "away": 4
       }
     },
     {
@@ -3163,5 +3207,13 @@
         "note": "Not on the Rotowire page."
       }
     }
+  ],
+  "gradingTodo": [
+    "cha-cru: result and picks (no verified final score on the 23 Nov morning run). Picks: Result: Cruzeiro EC to win (most likely) (p 0.644 @1.507); Bet builder: Cruzeiro EC to win + Over 2.5 goals (p 0.447)",
+    "rac-rea: result and picks (no verified final score on the 23 Nov morning run). No picks shown, result only.",
+    "wer-ham: result and picks (no verified final score on the 23 Nov morning run). Picks: Result: Werder to win (most likely) (p 0.613 @1.606); Bet builder: Werder to win + Over 2.5 goals (p 0.459); Result: Werder to win (Lean) (p 0.613 @1.606); Goals: Over 2.5 goals (Lean) (p 0.585 @1.684); BTTS: Yes (Lean) (p 0.565 @1.751)",
+    "liv-man: result and picks (no verified final score on the 23 Nov morning run). Picks: Bet builder: Liverpool to win + Over 1.5 goals (p 0.478)",
+    "osa-mal: result and picks (no verified final score on the 23 Nov morning run). Picks: Bet builder: Over 1.5 goals + Both teams to score (p 0.501)",
+    "get-atl: result and picks (no verified final score on the 23 Nov morning run). Picks: Result: Atletico to win (most likely) (p 0.628 @1.555); Bet builder: Atletico to win + Over 1.5 goals (p 0.489); BTTS: No (Lean) (p 0.574 @1.709)"
   ]
 }

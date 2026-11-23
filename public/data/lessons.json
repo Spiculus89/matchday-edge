@@ -2,6 +2,13 @@
   "note": "Changes to the model or the data process, each tied to the graded result or data problem that prompted it. Newest first.",
   "lessons": [
     {
+      "date": "2026-11-23",
+      "area": "Grading",
+      "kind": "data",
+      "saw": "On 23 Nov footballwebpages.co.uk refused every fetch and Rotowire lineup links taken from the Rotowire hub were refused, so the morning run graded 29 of the 35 games from 21-22 Nov; Liverpool v Man Utd, Werder v Hamburg, Racing v Real Sociedad, Osasuna v Malaga, Getafe v Atletico and Chapecoense v Cruzeiro still had no verified score.",
+      "change": "Results come from round pages that open (sport1.de, hessenschau.de, fantacalcio.it, vavel.com, t-online.de and sportschau.de), checking each page snapshot time so a live score is not graded as final. Rotowire lineup links are found with a search limited to rotowire.com."
+    },
+    {
       "date": "2026-11-19",
       "area": "Grading",
       "kind": "data",
