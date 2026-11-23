@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-24",
+  "updated": "2026-11-23T19:27:13.417Z",
+  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, injuries and players.",
+  "skeleton": true,
+  "games": [
+    {
+      "id": "par-bes",
+      "league": "EuroLeague",
+      "start": "2026-11-24T17:00:00.000Z",
+      "home": {
+        "name": "Besiktas JK",
+        "short": "Besiktas JK",
+        "code": "BES"
+      },
+      "away": {
+        "name": "Paris Basketball",
+        "short": "Paris Basketball",
+        "code": "PAR"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.44,
+          2.6
+        ],
+        "spread": {
+          "line": -5.5,
+          "h": 1.91,
+          "a": 1.8
+        },
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-23 19:27 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.44,
+            2.6
+          ],
+          "spread": {
+            "line": -5.5,
+            "h": 1.91,
+            "a": 1.8
+          },
+          "text": "win 1.44/2.6, -5.5 1.91/1.8"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-23 19:27 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "vir-crv",
+      "league": "EuroLeague",
+      "start": "2026-11-24T18:00:00.000Z",
+      "home": {
+        "name": "KK Crvena zvezda Belgrade",
+        "short": "Crvena zvezda",
+        "code": "CRV"
+      },
+      "away": {
+        "name": "Virtus Bologna",
+        "short": "Virtus Bologna",
+        "code": "VIR"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.29,
+          3.3
+        ],
+        "spread": {
+          "line": -7.5,
+          "h": 1.84,
+          "a": 1.87
+        },
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-23 19:27 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.29,
+            3.3
+          ],
+          "spread": {
+            "line": -7.5,
+            "h": 1.84,
+            "a": 1.87
+          },
+          "text": "win 1.29/3.3, -7.5 1.84/1.87"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-23 19:27 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "mac-bay",
+      "league": "EuroLeague",
+      "start": "2026-11-24T19:00:00.000Z",
+      "home": {
+        "name": "Bayern Munich",
+        "short": "Bayern Munich",
+        "code": "BAY"
+      },
+      "away": {
+        "name": "Maccabi Tel-Aviv",
+        "short": "Maccabi Tel-Aviv",
+        "code": "MAC"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.72,
+          2.01
+        ],
+        "spread": {
+          "line": -1.5,
+          "h": 1.81,
+          "a": 1.9
+        },
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-23 19:27 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.72,
+            2.01
+          ],
+          "spread": {
+            "line": -1.5,
+            "h": 1.81,
+            "a": 1.9
+          },
+          "text": "win 1.72/2.01, -1.5 1.81/1.9"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-23 19:27 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "pan-val",
+      "league": "EuroLeague",
+      "start": "2026-11-24T19:30:00.000Z",
+      "home": {
+        "name": "Valencia Basket",
+        "short": "Valencia Basket",
+        "code": "VAL"
+      },
+      "away": {
+        "name": "Panathinaikos BC",
+        "short": "Panathinaikos BC",
+        "code": "PAN"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.91,
+          1.79
+        ],
+        "spread": {
+          "line": 1.5,
+          "h": 1.81,
+          "a": 1.89
+        },
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-23 19:27 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.91,
+            1.79
+          ],
+          "spread": {
+            "line": 1.5,
+            "h": 1.81,
+            "a": 1.89
+          },
+          "text": "win 1.91/1.79, +1.5 1.81/1.89"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-23 19:27 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    }
+  ]
+}

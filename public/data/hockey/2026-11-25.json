@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-25",
+  "updated": "2026-11-23T19:27:13.417Z",
+  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, injuries and players.",
+  "skeleton": true,
+  "games": [
+    {
+      "id": "kni-oil",
+      "league": "NHL",
+      "start": "2026-11-25T01:00:00.000Z",
+      "home": {
+        "name": "Edmonton Oilers",
+        "short": "Oilers",
+        "code": "OIL"
+      },
+      "away": {
+        "name": "Vegas Golden Knights",
+        "short": "Knights",
+        "code": "KNI"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          2.03,
+          1.862
+        ],
+        "reg": [
+          2.57,
+          4.16,
+          2.34
+        ],
+        "totalReg": {
+          "line": 6,
+          "o": 1.961,
+          "u": 1.892
+        },
+        "total": {
+          "line": 6.5,
+          "o": 2.05,
+          "u": 1.833
+        },
+        "teamTotal": {
+          "home": {
+            "line": 2.5,
+            "o": 1.595,
+            "u": 2.37
+          },
+          "away": {
+            "line": 3.5,
+            "o": 2.27,
+            "u": 1.649
+          }
+        },
+        "puck": {
+          "line": 1.5,
+          "h": 1.392,
+          "a": 3.13
+        },
+        "p1total": {
+          "line": 1.5,
+          "o": 1.763,
+          "u": 2.1
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-23 19:27 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.92,
+            1.86
+          ],
+          "reg": [
+            2.46,
+            4,
+            2.36
+          ],
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.6,
+            "u": 2.19
+          },
+          "text": "win 1.92/1.86"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-23 19:27 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    }
+  ]
+}
