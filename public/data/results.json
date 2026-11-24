@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T09:01:36.598Z",
+  "updated": "2026-11-24T08:55:52.000Z",
   "note": "Every graded pick shown on the site. p = the chance shown at the time (bookmaker-implied for player props, which had no model then).",
   "legs": [
     {
@@ -2251,6 +2251,78 @@
       "p": 0.645,
       "odds": 1.52,
       "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "liv-man",
+      "group": "Bet builder",
+      "pick": "Liverpool to win + Over 1.5 goals",
+      "p": 0.478,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "wer-ham",
+      "group": "Result",
+      "pick": "Werder to win (most likely)",
+      "p": 0.613,
+      "odds": 1.606,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "wer-ham",
+      "group": "Bet builder",
+      "pick": "Werder to win + Over 2.5 goals",
+      "p": 0.459,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "wer-ham",
+      "group": "Result",
+      "pick": "Werder to win (Lean)",
+      "p": 0.613,
+      "odds": 1.606,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "wer-ham",
+      "group": "Goals",
+      "pick": "Over 2.5 goals (Lean)",
+      "p": 0.585,
+      "odds": 1.684,
+      "won": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "wer-ham",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.565,
+      "odds": 1.751,
+      "won": false
+    },
+    {
+      "date": "2026-11-23",
+      "match": "ist-cor",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.497,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-23",
+      "match": "mon-acf",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.48,
+      "odds": null,
+      "won": false
     }
   ]
 }

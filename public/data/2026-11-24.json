@@ -1,8 +1,7 @@
 {
   "date": "2026-11-24",
-  "updated": "2026-11-22T22:27:01.994Z",
-  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, news and lineups.",
-  "skeleton": true,
+  "updated": "2026-11-24T08:56:09.000Z",
+  "updateNote": "Morning run: added the 9 Champions League matchday 5 games (prices arrive with the 18:15 odds run; lineups at the kick-off run) and Chapecoense v Palmeiras from Pinnacle. No top-five league games today. Botafogo v Sao Paulo and Santos v Gremio were played overnight (Warsaw date 24 Nov).",
   "matches": [
     {
       "id": "bot-sao",
@@ -259,6 +258,430 @@
       "sources": [
         {
           "title": "OddsPapi odds snapshot 2026-11-22 22:27 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    },
+    {
+      "id": "bod-las",
+      "competition": "UEFA Champions League, league phase matchday 5",
+      "kickoff": "2026-11-24T17:45:00.000Z",
+      "home": {
+        "name": "Bodoe/Glimt",
+        "short": "Bodø/Glimt"
+      },
+      "away": {
+        "name": "LASK",
+        "short": "LASK"
+      },
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Bodø/Glimt are unbeaten in their last 5 Champions League home games (W4 D1) with 3 straight clean sheets; LASK have won 1 of their last 12 European away games.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: matchday 5 key stats (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2219497a67d6-4ad6623df0a1-1000--champions-league-matchday-5-key-stats-and-what-to-look-o/"
+        },
+        {
+          "title": "Bundesliga.com: Champions League matchday 5 fixtures",
+          "url": "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5"
+        }
+      ]
+    },
+    {
+      "id": "gal-ast",
+      "competition": "UEFA Champions League, league phase matchday 5",
+      "kickoff": "2026-11-24T17:45:00.000Z",
+      "home": {
+        "name": "Galatasaray",
+        "short": "Galatasaray"
+      },
+      "away": {
+        "name": "Aston Villa",
+        "short": "Aston Villa"
+      },
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Galatasaray have won their last 3 home games against English clubs.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: matchday 5 key stats (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2219497a67d6-4ad6623df0a1-1000--champions-league-matchday-5-key-stats-and-what-to-look-o/"
+        },
+        {
+          "title": "Bundesliga.com: Champions League matchday 5 fixtures",
+          "url": "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5"
+        }
+      ]
+    },
+    {
+      "id": "slo-bet",
+      "competition": "UEFA Champions League, league phase matchday 5",
+      "kickoff": "2026-11-24T20:00:00.000Z",
+      "home": {
+        "name": "Slovan Bratislava",
+        "short": "Slovan"
+      },
+      "away": {
+        "name": "Real Betis",
+        "short": "Betis"
+      },
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Slovan have lost all 12 of their Champions League games.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: matchday 5 key stats (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2219497a67d6-4ad6623df0a1-1000--champions-league-matchday-5-key-stats-and-what-to-look-o/"
+        },
+        {
+          "title": "Bundesliga.com: Champions League matchday 5 fixtures",
+          "url": "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5"
+        }
+      ]
+    },
+    {
+      "id": "rma-psv",
+      "competition": "UEFA Champions League, league phase matchday 5",
+      "kickoff": "2026-11-24T20:00:00.000Z",
+      "home": {
+        "name": "Real Madrid",
+        "short": "Real Madrid"
+      },
+      "away": {
+        "name": "PSV Eindhoven",
+        "short": "PSV"
+      },
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Mbappé is one goal short of 75 in the Champions League.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: matchday 5 key stats (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2219497a67d6-4ad6623df0a1-1000--champions-league-matchday-5-key-stats-and-what-to-look-o/"
+        },
+        {
+          "title": "Bundesliga.com: Champions League matchday 5 fixtures",
+          "url": "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5"
+        }
+      ]
+    },
+    {
+      "id": "rbl-len",
+      "competition": "UEFA Champions League, league phase matchday 5",
+      "kickoff": "2026-11-24T20:00:00.000Z",
+      "home": {
+        "name": "RB Leipzig",
+        "short": "Leipzig"
+      },
+      "away": {
+        "name": "RC Lens",
+        "short": "Lens"
+      },
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Lens have conceded in their last 17 Champions League games and won 1 of their last 18 European away games.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: matchday 5 key stats (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2219497a67d6-4ad6623df0a1-1000--champions-league-matchday-5-key-stats-and-what-to-look-o/"
+        },
+        {
+          "title": "Bundesliga.com: Champions League matchday 5 fixtures",
+          "url": "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5"
+        }
+      ]
+    },
+    {
+      "id": "mci-nap",
+      "competition": "UEFA Champions League, league phase matchday 5",
+      "kickoff": "2026-11-24T20:00:00.000Z",
+      "home": {
+        "name": "Manchester City",
+        "short": "Man City"
+      },
+      "away": {
+        "name": "SSC Napoli",
+        "short": "Napoli"
+      },
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). City have scored 2+ in 20 of their last 22 league-phase home games; Napoli have no win in their last 8 Champions League away games.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: matchday 5 key stats (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2219497a67d6-4ad6623df0a1-1000--champions-league-matchday-5-key-stats-and-what-to-look-o/"
+        },
+        {
+          "title": "Bundesliga.com: Champions League matchday 5 fixtures",
+          "url": "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5"
+        }
+      ]
+    },
+    {
+      "id": "fey-por",
+      "competition": "UEFA Champions League, league phase matchday 5",
+      "kickoff": "2026-11-24T20:00:00.000Z",
+      "home": {
+        "name": "Feyenoord",
+        "short": "Feyenoord"
+      },
+      "away": {
+        "name": "FC Porto",
+        "short": "Porto"
+      },
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Each of Feyenoord's last 8 league-phase home games and Porto's last 7 league-phase away games had 3+ goals.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: matchday 5 key stats (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2219497a67d6-4ad6623df0a1-1000--champions-league-matchday-5-key-stats-and-what-to-look-o/"
+        },
+        {
+          "title": "Bundesliga.com: Champions League matchday 5 fixtures",
+          "url": "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5"
+        }
+      ]
+    },
+    {
+      "id": "com-aek",
+      "competition": "UEFA Champions League, league phase matchday 5",
+      "kickoff": "2026-11-24T20:00:00.000Z",
+      "home": {
+        "name": "Como 1907",
+        "short": "Como"
+      },
+      "away": {
+        "name": "AEK Athens",
+        "short": "AEK"
+      },
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Como have scored 19 goals in their first 4 Champions League games; AEK have never won a Champions League away game.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: matchday 5 key stats (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2219497a67d6-4ad6623df0a1-1000--champions-league-matchday-5-key-stats-and-what-to-look-o/"
+        },
+        {
+          "title": "Bundesliga.com: Champions League matchday 5 fixtures",
+          "url": "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5"
+        }
+      ]
+    },
+    {
+      "id": "ars-bvb",
+      "competition": "UEFA Champions League, league phase matchday 5",
+      "kickoff": "2026-11-24T20:00:00.000Z",
+      "home": {
+        "name": "Arsenal FC",
+        "short": "Arsenal"
+      },
+      "away": {
+        "name": "Borussia Dortmund",
+        "short": "Dortmund"
+      },
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Arsenal are unbeaten in 16 league-phase games and have won their last 12 at home at this stage.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: matchday 5 key stats (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2219497a67d6-4ad6623df0a1-1000--champions-league-matchday-5-key-stats-and-what-to-look-o/"
+        },
+        {
+          "title": "Bundesliga.com: Champions League matchday 5 fixtures",
+          "url": "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5"
+        }
+      ]
+    },
+    {
+      "id": "cha-sep",
+      "competition": "Brasileiro Serie A (Brazil)",
+      "kickoff": "2026-11-24T21:00:00.000Z",
+      "home": {
+        "name": "Chapecoense SC",
+        "short": "Chapecoense SC"
+      },
+      "away": {
+        "name": "SE Palmeiras SP",
+        "short": "SE Palmeiras"
+      },
+      "context": "Pinnacle prices only (fetched 24 Nov 06:57 UTC): no form or team news was gathered for Brazil on this run, so fair prices and the most likely outcome only, no value bet.",
+      "odds": {
+        "h": 3.46,
+        "d": 3.84,
+        "a": 2.03,
+        "ou": {
+          "1.5": [
+            1.225,
+            4.31
+          ],
+          "2.5": [
+            1.719,
+            2.17
+          ],
+          "3.5": [
+            2.77,
+            1.456
+          ],
+          "4.5": [
+            5.16,
+            1.172
+          ]
+        },
+        "btts": [
+          1.649,
+          2.29
+        ],
+        "ah": [
+          {
+            "line": 0,
+            "home": 2.62,
+            "away": 1.523
+          },
+          {
+            "line": 0.5,
+            "home": 1.854,
+            "away": 2.04
+          },
+          {
+            "line": 1,
+            "home": 1.425,
+            "away": 2.96
+          }
+        ],
+        "corners": {
+          "10.5": [
+            1.699,
+            2.1
+          ],
+          "11.5": [
+            2.06,
+            1.729
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-24 06:57 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 3.47,
+          "d": 3.67,
+          "a": 2.04,
+          "ou": {
+            "1.5": [
+              1.2,
+              4.25
+            ],
+            "2.5": [
+              1.67,
+              2.12
+            ],
+            "3.5": [
+              2.75,
+              1.41
+            ],
+            "4.5": [
+              5.15,
+              1.14
+            ],
+            "5.5": [
+              10.8,
+              1.02
+            ]
+          },
+          "btts": [
+            1.61,
+            2.25
+          ],
+          "text": "1X2 3.47/3.67/2.04, O/U 2.5 1.67/2.12"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-24 06:57 UTC",
           "url": "https://oddspapi.io/"
         }
       ]
