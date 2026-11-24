@@ -1,0 +1,864 @@
+{
+ "updated": "2026-11-24T17:02:16.623Z",
+ "source": "https://www.football-data.co.uk/",
+ "files": [
+  "E0/2627:110",
+  "E0/2526:380",
+  "E1/2627:192",
+  "E1/2526:552",
+  "E2/2627:175",
+  "E2/2526:552",
+  "E3/2627:186",
+  "E3/2526:552",
+  "SC0/2627:81",
+  "SC0/2526:228",
+  "D1/2627:90",
+  "D1/2526:306",
+  "D2/2627:108",
+  "D2/2526:306",
+  "I1/2627:120",
+  "I1/2526:380",
+  "I2/2627:120",
+  "I2/2526:380",
+  "SP1/2627:129",
+  "SP1/2526:380",
+  "SP2/2627:162",
+  "SP2/2526:462",
+  "F1/2627:99",
+  "F1/2526:306",
+  "F2/2627:117",
+  "F2/2526:305",
+  "N1/2627:117",
+  "N1/2526:306",
+  "B1/2627:108",
+  "B1/2526:311",
+  "P1/2627:98",
+  "P1/2526:306",
+  "T1/2627:108",
+  "T1/2526:306",
+  "G1/2627:76",
+  "G1/2526:236",
+  "BRA:538",
+  "POL:386",
+  "ARG:661",
+  "AUT:244",
+  "DNK:245",
+  "NOR:305",
+  "SWE:301",
+  "SWZ:287",
+  "USA:651",
+  "MEX:433"
+ ],
+ "referees": {
+  "T Bramall": {
+   "games": 33,
+   "yellowsPg": 3.79,
+   "redsPg": 0.09,
+   "foulsPg": 21.76
+  },
+  "D England": {
+   "games": 30,
+   "yellowsPg": 4.13,
+   "redsPg": 0.1,
+   "foulsPg": 22.03
+  },
+  "P Tierney": {
+   "games": 29,
+   "yellowsPg": 3.55,
+   "redsPg": 0.1,
+   "foulsPg": 22.9
+  },
+  "F Hallam": {
+   "games": 35,
+   "yellowsPg": 3.6,
+   "redsPg": 0,
+   "foulsPg": 21.14
+  },
+  "R Jones": {
+   "games": 31,
+   "yellowsPg": 3.77,
+   "redsPg": 0,
+   "foulsPg": 22.77
+  },
+  "M Oliver": {
+   "games": 38,
+   "yellowsPg": 3.16,
+   "redsPg": 0.13,
+   "foulsPg": 22.47
+  },
+  "P Bankes": {
+   "games": 29,
+   "yellowsPg": 4.14,
+   "redsPg": 0.24,
+   "foulsPg": 22.97
+  },
+  "J Gillett": {
+   "games": 30,
+   "yellowsPg": 4.07,
+   "redsPg": 0.03,
+   "foulsPg": 21.03
+  },
+  "S Attwell": {
+   "games": 31,
+   "yellowsPg": 4.65,
+   "redsPg": 0.13,
+   "foulsPg": 22.26
+  },
+  "J Brooks": {
+   "games": 24,
+   "yellowsPg": 4.42,
+   "redsPg": 0.33,
+   "foulsPg": 22.46
+  },
+  "A Madley": {
+   "games": 32,
+   "yellowsPg": 3.34,
+   "redsPg": 0.16,
+   "foulsPg": 23.03
+  },
+  "S Barrott": {
+   "games": 32,
+   "yellowsPg": 3.47,
+   "redsPg": 0.06,
+   "foulsPg": 19.59
+  },
+  "C Kavanagh": {
+   "games": 38,
+   "yellowsPg": 4.18,
+   "redsPg": 0.18,
+   "foulsPg": 23.39
+  },
+  "J Smith": {
+   "games": 38,
+   "yellowsPg": 3.79,
+   "redsPg": 0.21,
+   "foulsPg": 21.53
+  },
+  "T Harrington": {
+   "games": 21,
+   "yellowsPg": 3.29,
+   "redsPg": 0.19,
+   "foulsPg": 21.24
+  },
+  "M Salisbury": {
+   "games": 25,
+   "yellowsPg": 3.96,
+   "redsPg": 0.04,
+   "foulsPg": 22.44
+  },
+  "C Pawson": {
+   "games": 28,
+   "yellowsPg": 3.04,
+   "redsPg": 0.14,
+   "foulsPg": 22.5
+  },
+  "A Herczeg": {
+   "games": 35,
+   "yellowsPg": 3.71,
+   "redsPg": 0.11,
+   "foulsPg": 22.46
+  },
+  "L Smith": {
+   "games": 36,
+   "yellowsPg": 4,
+   "redsPg": 0.06,
+   "foulsPg": 20.03
+  },
+  "S Hooper": {
+   "games": 22,
+   "yellowsPg": 3.86,
+   "redsPg": 0.18,
+   "foulsPg": 23.14
+  },
+  "T Kirk": {
+   "games": 39,
+   "yellowsPg": 4.13,
+   "redsPg": 0.15,
+   "foulsPg": 22.28
+  },
+  "A Taylor": {
+   "games": 31,
+   "yellowsPg": 3.94,
+   "redsPg": 0.06,
+   "foulsPg": 20.48
+  },
+  "A Kitchen": {
+   "games": 38,
+   "yellowsPg": 3.18,
+   "redsPg": 0.08,
+   "foulsPg": 21.61
+  },
+  "T Robinson": {
+   "games": 28,
+   "yellowsPg": 4.64,
+   "redsPg": 0.11,
+   "foulsPg": 23.86
+  },
+  "M Donohue": {
+   "games": 37,
+   "yellowsPg": 4.03,
+   "redsPg": 0.08,
+   "foulsPg": 22.7
+  },
+  "B Speedie": {
+   "games": 45,
+   "yellowsPg": 3.07,
+   "redsPg": 0.11,
+   "foulsPg": 23.22
+  },
+  "R Madley": {
+   "games": 27,
+   "yellowsPg": 3.7,
+   "redsPg": 0.3,
+   "foulsPg": 20.74
+  },
+  "W Finnie": {
+   "games": 36,
+   "yellowsPg": 3.56,
+   "redsPg": 0.11,
+   "foulsPg": 22.75
+  },
+  "O Langford": {
+   "games": 34,
+   "yellowsPg": 3.44,
+   "redsPg": 0.12,
+   "foulsPg": 20.03
+  },
+  "G Ward": {
+   "games": 34,
+   "yellowsPg": 3.24,
+   "redsPg": 0.12,
+   "foulsPg": 20.56
+  },
+  "S Allison": {
+   "games": 33,
+   "yellowsPg": 3.48,
+   "redsPg": 0.12,
+   "foulsPg": 23.61
+  },
+  "T Reeves": {
+   "games": 40,
+   "yellowsPg": 3.3,
+   "redsPg": 0.05,
+   "foulsPg": 22.03
+  },
+  "R Ricardo": {
+   "games": 35,
+   "yellowsPg": 4.54,
+   "redsPg": 0.2,
+   "foulsPg": 21.8
+  },
+  "E Bell": {
+   "games": 42,
+   "yellowsPg": 3.81,
+   "redsPg": 0.12,
+   "foulsPg": 22.52
+  },
+  "E Duckworth": {
+   "games": 51,
+   "yellowsPg": 3.78,
+   "redsPg": 0.16,
+   "foulsPg": 21.43
+  },
+  "S Martin": {
+   "games": 36,
+   "yellowsPg": 4.53,
+   "redsPg": 0.11,
+   "foulsPg": 22.97
+  },
+  "T Nield": {
+   "games": 34,
+   "yellowsPg": 3.32,
+   "redsPg": 0.06,
+   "foulsPg": 22.29
+  },
+  "J Busby": {
+   "games": 31,
+   "yellowsPg": 3.94,
+   "redsPg": 0.13,
+   "foulsPg": 21.65
+  },
+  "A Backhouse": {
+   "games": 33,
+   "yellowsPg": 4.55,
+   "redsPg": 0,
+   "foulsPg": 21.12
+  },
+  "D Webb": {
+   "games": 35,
+   "yellowsPg": 2.51,
+   "redsPg": 0.03,
+   "foulsPg": 20.14
+  },
+  "J Bell": {
+   "games": 23,
+   "yellowsPg": 3.74,
+   "redsPg": 0.04,
+   "foulsPg": 21.52
+  },
+  "T Parsons": {
+   "games": 42,
+   "yellowsPg": 3.55,
+   "redsPg": 0.19,
+   "foulsPg": 23.14
+  },
+  "M Corlett": {
+   "games": 40,
+   "yellowsPg": 4.33,
+   "redsPg": 0.15,
+   "foulsPg": 23.58
+  },
+  "M Madley": {
+   "games": 1,
+   "yellowsPg": 5,
+   "redsPg": 0,
+   "foulsPg": 22
+  },
+  "D Whitestone": {
+   "games": 33,
+   "yellowsPg": 3.36,
+   "redsPg": 0.09,
+   "foulsPg": 22.73
+  },
+  "L Doughty": {
+   "games": 33,
+   "yellowsPg": 4.82,
+   "redsPg": 0.12,
+   "foulsPg": 23.03
+  },
+  "B Toner": {
+   "games": 38,
+   "yellowsPg": 4.03,
+   "redsPg": 0.24,
+   "foulsPg": 25.39
+  },
+  "J Linington": {
+   "games": 21,
+   "yellowsPg": 3.29,
+   "redsPg": 0.1,
+   "foulsPg": 20.24
+  },
+  "J Miles": {
+   "games": 21,
+   "yellowsPg": 4.29,
+   "redsPg": 0.33,
+   "foulsPg": 20.86
+  },
+  "O Yates": {
+   "games": 36,
+   "yellowsPg": 4.36,
+   "redsPg": 0.08,
+   "foulsPg": 22.53
+  },
+  "R Martin": {
+   "games": 29,
+   "yellowsPg": 3.24,
+   "redsPg": 0.14,
+   "foulsPg": 22.76
+  },
+  "S Stockbridge": {
+   "games": 43,
+   "yellowsPg": 4.4,
+   "redsPg": 0.12,
+   "foulsPg": 25.6
+  },
+  "M Coy": {
+   "games": 32,
+   "yellowsPg": 2.97,
+   "redsPg": 0.19,
+   "foulsPg": 24.03
+  },
+  "A Chilowicz": {
+   "games": 29,
+   "yellowsPg": 3.24,
+   "redsPg": 0.07,
+   "foulsPg": 22.45
+  },
+  "D Rock": {
+   "games": 41,
+   "yellowsPg": 4.29,
+   "redsPg": 0.15,
+   "foulsPg": 23.07
+  },
+  "M Barlow": {
+   "games": 15,
+   "yellowsPg": 4.07,
+   "redsPg": 0.13,
+   "foulsPg": 24.67
+  },
+  "K Dowle": {
+   "games": 17,
+   "yellowsPg": 3.18,
+   "redsPg": 0.12,
+   "foulsPg": 21.35
+  },
+  "A Byrne": {
+   "games": 22,
+   "yellowsPg": 3.59,
+   "redsPg": 0.14,
+   "foulsPg": 22.05
+  },
+  "M Woods": {
+   "games": 33,
+   "yellowsPg": 3.58,
+   "redsPg": 0.09,
+   "foulsPg": 22.48
+  },
+  "J Oldham": {
+   "games": 17,
+   "yellowsPg": 3.82,
+   "redsPg": 0.18,
+   "foulsPg": 26.88
+  },
+  "C Brook": {
+   "games": 38,
+   "yellowsPg": 3.92,
+   "redsPg": 0.18,
+   "foulsPg": 22.84
+  },
+  "N Hair": {
+   "games": 31,
+   "yellowsPg": 3.35,
+   "redsPg": 0.1,
+   "foulsPg": 24.13
+  },
+  "H Blair": {
+   "games": 12,
+   "yellowsPg": 3.33,
+   "redsPg": 0.08,
+   "foulsPg": 22.33
+  },
+  "S Jackson": {
+   "games": 21,
+   "yellowsPg": 4.05,
+   "redsPg": 0.14,
+   "foulsPg": 23.48
+  },
+  "A Humphries": {
+   "games": 33,
+   "yellowsPg": 3.42,
+   "redsPg": 0.27,
+   "foulsPg": 22.52
+  },
+  "R Eley": {
+   "games": 23,
+   "yellowsPg": 3.52,
+   "redsPg": 0.13,
+   "foulsPg": 26.26
+  },
+  "S Oldham": {
+   "games": 42,
+   "yellowsPg": 3.57,
+   "redsPg": 0.07,
+   "foulsPg": 21.93
+  },
+  "S Parkinson": {
+   "games": 36,
+   "yellowsPg": 3.31,
+   "redsPg": 0.06,
+   "foulsPg": 25.94
+  },
+  "Z Kennard-Kettle": {
+   "games": 14,
+   "yellowsPg": 5.57,
+   "redsPg": 0.21,
+   "foulsPg": 25.21
+  },
+  "H Wager": {
+   "games": 12,
+   "yellowsPg": 4.17,
+   "redsPg": 0,
+   "foulsPg": 22.5
+  },
+  "D Drysdale": {
+   "games": 31,
+   "yellowsPg": 3.74,
+   "redsPg": 0.19,
+   "foulsPg": 23.1
+  },
+  "J O'Connor": {
+   "games": 21,
+   "yellowsPg": 3.76,
+   "redsPg": 0.14,
+   "foulsPg": 20
+  },
+  "D Brown": {
+   "games": 11,
+   "yellowsPg": 3.64,
+   "redsPg": 0.27,
+   "foulsPg": 21.55
+  },
+  "C Hicks": {
+   "games": 29,
+   "yellowsPg": 2.72,
+   "redsPg": 0,
+   "foulsPg": 23.31
+  },
+  "P Howard": {
+   "games": 22,
+   "yellowsPg": 3.68,
+   "redsPg": 0.09,
+   "foulsPg": 22.5
+  },
+  "E Swallow": {
+   "games": 13,
+   "yellowsPg": 4.15,
+   "redsPg": 0.08,
+   "foulsPg": 25.92
+  },
+  "L Sandoe": {
+   "games": 12,
+   "yellowsPg": 2.92,
+   "redsPg": 0.08,
+   "foulsPg": 22.25
+  },
+  "S Mather": {
+   "games": 41,
+   "yellowsPg": 3.73,
+   "redsPg": 0.05,
+   "foulsPg": 22.27
+  },
+  "W Davis": {
+   "games": 11,
+   "yellowsPg": 3,
+   "redsPg": 0,
+   "foulsPg": 23.55
+  },
+  "O Mackey": {
+   "games": 22,
+   "yellowsPg": 3.91,
+   "redsPg": 0.23,
+   "foulsPg": 24.41
+  },
+  "E Heaslip": {
+   "games": 11,
+   "yellowsPg": 4.09,
+   "redsPg": 0.09,
+   "foulsPg": 25
+  },
+  "J Robinson": {
+   "games": 6,
+   "yellowsPg": 4.33,
+   "redsPg": 0.33,
+   "foulsPg": 27.67
+  },
+  "S Gill": {
+   "games": 6,
+   "yellowsPg": 3.67,
+   "redsPg": 0,
+   "foulsPg": 21.67
+  },
+  "A Young": {
+   "games": 18,
+   "yellowsPg": 4.11,
+   "redsPg": 0.28,
+   "foulsPg": 20.78
+  },
+  "M Russell": {
+   "games": 23,
+   "yellowsPg": 3,
+   "redsPg": 0.09,
+   "foulsPg": 25.13
+  },
+  "G Laflin": {
+   "games": 5,
+   "yellowsPg": 4.2,
+   "redsPg": 0.4,
+   "foulsPg": 22.8
+  },
+  "I Searle": {
+   "games": 14,
+   "yellowsPg": 3.5,
+   "redsPg": 0.29,
+   "foulsPg": 21.29
+  },
+  "R Joyce": {
+   "games": 28,
+   "yellowsPg": 3.57,
+   "redsPg": 0,
+   "foulsPg": 22.86
+  },
+  "D Bourne": {
+   "games": 16,
+   "yellowsPg": 4.19,
+   "redsPg": 0.19,
+   "foulsPg": 23.56
+  },
+  "J Durkin": {
+   "games": 18,
+   "yellowsPg": 4.33,
+   "redsPg": 0.22,
+   "foulsPg": 24.94
+  },
+  "B Bell": {
+   "games": 2,
+   "yellowsPg": 1.5,
+   "redsPg": 0.5,
+   "foulsPg": 23
+  },
+  "B Atkinson": {
+   "games": 20,
+   "yellowsPg": 4.65,
+   "redsPg": 0.15,
+   "foulsPg": 22.6
+  },
+  "M Drysdale": {
+   "games": 1,
+   "yellowsPg": 3,
+   "redsPg": 0,
+   "foulsPg": 21
+  },
+  "P Wright": {
+   "games": 16,
+   "yellowsPg": 4,
+   "redsPg": 0.06,
+   "foulsPg": 21.06
+  },
+  "A Bannister": {
+   "games": 9,
+   "yellowsPg": 3.78,
+   "redsPg": 0.33,
+   "foulsPg": 26.89
+  },
+  "L Swabey": {
+   "games": 22,
+   "yellowsPg": 3.41,
+   "redsPg": 0.09,
+   "foulsPg": 22.5
+  },
+  "S Mulhall": {
+   "games": 14,
+   "yellowsPg": 4.79,
+   "redsPg": 0.21,
+   "foulsPg": 23.29
+  },
+  "D Baines": {
+   "games": 9,
+   "yellowsPg": 3.33,
+   "redsPg": 0,
+   "foulsPg": 23.89
+  },
+  "P Marsden": {
+   "games": 4,
+   "yellowsPg": 3.75,
+   "redsPg": 0.25,
+   "foulsPg": 22.5
+  },
+  "R Watkins": {
+   "games": 6,
+   "yellowsPg": 2.83,
+   "redsPg": 0.17,
+   "foulsPg": 21
+  },
+  "C Breakspear": {
+   "games": 20,
+   "yellowsPg": 3.8,
+   "redsPg": 0.2,
+   "foulsPg": 24.6
+  },
+  "A Dale": {
+   "games": 11,
+   "yellowsPg": 3,
+   "redsPg": 0.27,
+   "foulsPg": 21.27
+  },
+  "S Copeland": {
+   "games": 12,
+   "yellowsPg": 2.58,
+   "redsPg": 0,
+   "foulsPg": 21
+  },
+  "R Massey-Ellis": {
+   "games": 4,
+   "yellowsPg": 3.75,
+   "redsPg": 0,
+   "foulsPg": 27.5
+  },
+  "B Blair": {
+   "games": 1,
+   "yellowsPg": 1,
+   "redsPg": 0,
+   "foulsPg": 36
+  },
+  "A Jackson": {
+   "games": 3,
+   "yellowsPg": 1,
+   "redsPg": 0,
+   "foulsPg": 18
+  },
+  "C Jones": {
+   "games": 2,
+   "yellowsPg": 5,
+   "redsPg": 0,
+   "foulsPg": 26
+  },
+  "N Smith": {
+   "games": 1,
+   "yellowsPg": 3,
+   "redsPg": 0,
+   "foulsPg": 28
+  },
+  "G Rollason": {
+   "games": 4,
+   "yellowsPg": 5.25,
+   "redsPg": 0,
+   "foulsPg": 28.75
+  },
+  "S Morland": {
+   "games": 1,
+   "yellowsPg": 3,
+   "redsPg": 0,
+   "foulsPg": 25
+  },
+  "G Rhodes": {
+   "games": 2,
+   "yellowsPg": 3,
+   "redsPg": 0.5,
+   "foulsPg": 27.5
+  },
+  "A Farmer": {
+   "games": 6,
+   "yellowsPg": 3.67,
+   "redsPg": 0.17,
+   "foulsPg": 22.33
+  },
+  "A Miller": {
+   "games": 3,
+   "yellowsPg": 4.67,
+   "redsPg": 0.33,
+   "foulsPg": 19.33
+  },
+  "A Swallow": {
+   "games": 1,
+   "yellowsPg": 2,
+   "redsPg": 0,
+   "foulsPg": 31
+  },
+  "W Cartmel": {
+   "games": 3,
+   "yellowsPg": 3.67,
+   "redsPg": 0,
+   "foulsPg": 27
+  },
+  "N Walsh": {
+   "games": 32,
+   "yellowsPg": 4.13,
+   "redsPg": 0.09,
+   "foulsPg": 26.66
+  },
+  "D Nicolson": {
+   "games": 24,
+   "yellowsPg": 4.17,
+   "redsPg": 0.08,
+   "foulsPg": 24.92
+  },
+  "D Dickinson": {
+   "games": 29,
+   "yellowsPg": 4.24,
+   "redsPg": 0.14,
+   "foulsPg": 23.24
+  },
+  "J Beaton": {
+   "games": 29,
+   "yellowsPg": 4.21,
+   "redsPg": 0.14,
+   "foulsPg": 23.66
+  },
+  "S McLean": {
+   "games": 30,
+   "yellowsPg": 3.57,
+   "redsPg": 0.17,
+   "foulsPg": 23.2
+  },
+  "M MacDermid": {
+   "games": 26,
+   "yellowsPg": 3.92,
+   "redsPg": 0.12,
+   "foulsPg": 24.04
+  },
+  "C Scott": {
+   "games": 19,
+   "yellowsPg": 3.42,
+   "redsPg": 0.32,
+   "foulsPg": 23.37
+  },
+  "R Hardie": {
+   "games": 18,
+   "yellowsPg": 4.72,
+   "redsPg": 0.17,
+   "foulsPg": 24.56
+  },
+  "R Lee": {
+   "games": 22,
+   "yellowsPg": 3.05,
+   "redsPg": 0.23,
+   "foulsPg": 24.77
+  },
+  "K Clancy": {
+   "games": 15,
+   "yellowsPg": 3.2,
+   "redsPg": 0.13,
+   "foulsPg": 22.4
+  },
+  "C Graham": {
+   "games": 10,
+   "yellowsPg": 3.1,
+   "redsPg": 0.2,
+   "foulsPg": 25.6
+  },
+  "D Robertson": {
+   "games": 29,
+   "yellowsPg": 3.83,
+   "redsPg": 0.21,
+   "foulsPg": 24.14
+  },
+  "D McFarlane": {
+   "games": 9,
+   "yellowsPg": 5.11,
+   "redsPg": 0.22,
+   "foulsPg": 29.44
+  },
+  "C Stirling": {
+   "games": 1,
+   "yellowsPg": 4,
+   "redsPg": 0,
+   "foulsPg": 29
+  },
+  "C Spence": {
+   "games": 1,
+   "yellowsPg": 2,
+   "redsPg": 0,
+   "foulsPg": 19
+  },
+  "L Wilson": {
+   "games": 5,
+   "yellowsPg": 4,
+   "redsPg": 0.2,
+   "foulsPg": 21.8
+  },
+  "G Irvine": {
+   "games": 5,
+   "yellowsPg": 4.4,
+   "redsPg": 0,
+   "foulsPg": 26.2
+  },
+  "S Steven": {
+   "games": 1,
+   "yellowsPg": 3,
+   "redsPg": 0,
+   "foulsPg": 26
+  },
+  "R Macleod": {
+   "games": 1,
+   "yellowsPg": 5,
+   "redsPg": 0,
+   "foulsPg": 18
+  },
+  "C Steven": {
+   "games": 3,
+   "yellowsPg": 3,
+   "redsPg": 0,
+   "foulsPg": 17
+  }
+ }
+}

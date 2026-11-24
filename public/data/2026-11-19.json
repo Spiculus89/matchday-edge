@@ -837,7 +837,11 @@
           "title": "EFE via Infobae (18 Nov): last Clausura round decides the Anual and the third relegation",
           "url": "https://www.infobae.com/espana/agencias/2026/11/18/ultima-jornada-del-clausura-uruguayo-decide-al-campeon-de-la-anual-y-al-ultimo-descendido/"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 0
+      }
     },
     {
       "id": "pen-cer",
@@ -1165,7 +1169,11 @@
           "title": "EFE via Infobae (18 Nov): last Clausura round decides the Anual and the third relegation",
           "url": "https://www.infobae.com/espana/agencias/2026/11/18/ultima-jornada-del-clausura-uruguayo-decide-al-campeon-de-la-anual-y-al-ultimo-descendido/"
         }
-      ]
+      ],
+      "result": {
+        "home": 3,
+        "away": 0
+      }
     },
     {
       "id": "pro-mct",
@@ -1402,7 +1410,11 @@
           "title": "EFE via Infobae (18 Nov): last Clausura round decides the Anual and the third relegation",
           "url": "https://www.infobae.com/espana/agencias/2026/11/18/ultima-jornada-del-clausura-uruguayo-decide-al-campeon-de-la-anual-y-al-ultimo-descendido/"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 1
+      }
     },
     {
       "id": "vas-int",
@@ -1914,7 +1926,11 @@
           "title": "FotMob: Vasco da Gama minutes played, Série A 2026",
           "url": "https://www.fotmob.com/en-GB/leagues/268/stats/season/1000000388/players/mins_played/team/10276/vasco-da-gamaplayersplayersteamsplayers-players"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 1
+      }
     },
     {
       "id": "vit-bra",
@@ -2438,7 +2454,17 @@
           "title": "FotMob: Red Bull Bragantino player stats (Série A 2026 per-90s)",
           "url": "https://www.fotmob.com/teams/109705/stats/red-bull-bragantino/players"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 1
+      }
     }
+  ],
+  "gradingTodo": [
+    "wsl-hat: result and picks (not found on ESPN uae.1 on the 2026-11-24 ESPN grading run)",
+    "ain-dha: result and picks (not found on ESPN uae.1 on the 2026-11-24 ESPN grading run)",
+    "vas-int: not settled from ESPN (missing stats or player lines): Alan Lescano 1+ tackles; Bruno Gomes 2+ tackles",
+    "vit-bra: not settled from ESPN (missing stats or player lines): Juninho Capixaba 1+ tackles; Wallace Yan 1+ tackles; Ryan Augusto 1+ shots"
   ]
 }
