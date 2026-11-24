@@ -30,6 +30,8 @@ jobs:
           node scripts/fetch-odds.mjs "${MODE:-fetch}" $ARGS || echo "::warning::odds fetch failed"
       - name: Fallback day files
         run: node scripts/build-skeleton.mjs || echo "::warning::fallback build failed"
+      - name: Form, corners and cards from football-data.co.uk
+        run: node scripts/football-data.mjs attach || echo "::warning::stats attach failed"
       - name: Commit
         run: |
           git config user.name "odds-bot"; git config user.email "odds-bot@users.noreply.github.com"

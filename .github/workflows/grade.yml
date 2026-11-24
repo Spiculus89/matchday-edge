@@ -17,6 +17,8 @@ jobs:
         with: { fetch-depth: 0 }   # games are priced from the commit before kick-off
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
+      - name: Team and referee stats from football-data.co.uk
+        run: node scripts/football-data.mjs fetch && node scripts/football-data.mjs attach || echo "::warning::football-data step failed"
       - name: Grade from ESPN
         run: node scripts/grade-espn.mjs ${{ github.event.inputs.dates }} ${{ github.event.inputs.dry == 'true' && '--dry' || '' }}
       - name: Check
@@ -25,7 +27,7 @@ jobs:
         if: ${{ github.event.inputs.dry != 'true' }}
         run: |
           git config user.name "grade-bot"; git config user.email "grade-bot@users.noreply.github.com"
-          git add public/data
+          git add public/data data/football-data
           git diff --cached --quiet && exit 0
-          git commit -m "Data: ESPN grading $(date -u +%F)"
+          git commit -m "Data: grading and stats $(date -u +%F)"
           for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
