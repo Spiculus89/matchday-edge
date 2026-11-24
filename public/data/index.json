@@ -1,6 +1,16 @@
 {
   "days": [
     {
+      "date": "2026-11-26",
+      "file": "data/2026-11-26.json",
+      "title": "Brasileiro Serie A"
+    },
+    {
+      "date": "2026-11-25",
+      "file": "data/2026-11-25.json",
+      "title": "UEFA Champions League, Championship"
+    },
+    {
       "date": "2026-11-24",
       "file": "data/2026-11-24.json",
       "title": "Champions League, Championship, Brasileiro Serie A"
