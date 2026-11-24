@@ -3,6 +3,13 @@
   "lessons": [
     {
       "date": "2026-11-24",
+      "area": "Team stats",
+      "kind": "data",
+      "saw": "On 24 Nov the morning run added 9 Champions League games with no form at all and spent a search plus a page read on the Championship table; corners and cards ran on the 5.0-corner and 4.1-card priors for most games. football-data.co.uk's free CSVs cover 574 teams in 28 leagues (8,800+ games this season and last), with corners, fouls and cards for the 18 European divisions and referees for England.",
+      "change": "The Grade Action downloads them each morning, and an offline attach step fills form, corners, fouls, cards and referee rates on every upcoming game that lacks them (run after each odds refresh and by the morning run). Research data is never overwritten; searches for form are only needed where the files have no team."
+    },
+    {
+      "date": "2026-11-24",
       "area": "Grading",
       "kind": "data",
       "saw": "The 24 Nov morning run spent about 15 web searches and two page-reading agents on six 23 Nov games and still left three ungraded; a live sportschau snapshot showed Brentford 3-0 Everton, while ESPN's final was 4-0. A test run of the ESPN grader settled 23 open legs from 18-24 Nov in 13 seconds.",

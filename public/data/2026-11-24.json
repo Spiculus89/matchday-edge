@@ -282,7 +282,7 @@
         "name": "LASK",
         "short": "LASK"
       },
-      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Bodø/Glimt are unbeaten in their last 5 Champions League home games (W4 D1) with 3 straight clean sheets; LASK have won 1 of their last 12 European away games.",
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues); no team news yet (Rotowire's Champions League page still shows October). Bodø/Glimt are unbeaten in their last 5 Champions League home games (W4 D1) with 3 straight clean sheets; LASK have won 1 of their last 12 European away games.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -336,7 +336,7 @@
         "name": "Aston Villa",
         "short": "Aston Villa"
       },
-      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Galatasaray have won their last 3 home games against English clubs.",
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners and cards from football-data.co.uk (each side's last 20 league games); no team news yet (Rotowire's Champions League page still shows October). Galatasaray have won their last 3 home games against English clubs.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -410,7 +410,7 @@
         "name": "Queens Park Rangers",
         "short": "QPR"
       },
-      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Norwich 34-25, QPR 25-18 goals for-against. No team news gathered; lineups pending.",
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Norwich 34-25, QPR 25-18 goals for-against. Corners, fouls and cards per game from football-data.co.uk (last 20 league games). No team news gathered; lineups pending.",
       "form20": {
         "home": {
           "gf": 2.12,
@@ -488,7 +488,7 @@
         "name": "Swansea City",
         "short": "Swansea"
       },
-      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Middlesbrough 32-19, Swansea 24-20 goals for-against. No team news gathered; lineups pending.",
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Middlesbrough 32-19, Swansea 24-20 goals for-against. Corners, fouls and cards per game from football-data.co.uk (last 20 league games). No team news gathered; lineups pending.",
       "form20": {
         "home": {
           "gf": 2,
@@ -566,7 +566,7 @@
         "name": "Lincoln City",
         "short": "Lincoln"
       },
-      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Charlton 14-25, Lincoln 15-27 goals for-against. No team news gathered; lineups pending.",
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Charlton 14-25, Lincoln 15-27 goals for-against. Corners, fouls and cards per game from football-data.co.uk (last 20 league games). No team news gathered; lineups pending.",
       "form20": {
         "home": {
           "gf": 0.88,
@@ -644,7 +644,7 @@
         "name": "Preston North End",
         "short": "Preston"
       },
-      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Cardiff 28-29, Preston 14-31 goals for-against. No team news gathered; lineups pending.",
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Cardiff 28-29, Preston 14-31 goals for-against. Corners, fouls and cards per game from football-data.co.uk (last 20 league games). No team news gathered; lineups pending.",
       "form20": {
         "home": {
           "gf": 1.75,
@@ -722,7 +722,7 @@
         "name": "Wrexham AFC",
         "short": "Wrexham"
       },
-      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Bristol City 16-26, Wrexham 19-20 goals for-against. No team news gathered; lineups pending.",
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Bristol City 16-26, Wrexham 19-20 goals for-against. Corners, fouls and cards per game from football-data.co.uk (last 20 league games). No team news gathered; lineups pending.",
       "form20": {
         "home": {
           "gf": 1,
@@ -800,7 +800,7 @@
         "name": "West Ham United",
         "short": "West Ham"
       },
-      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Portsmouth 21-19, West Ham 38-24 goals for-against. No team news gathered; lineups pending.",
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Portsmouth 21-19, West Ham 38-24 goals for-against. Corners, fouls and cards per game from football-data.co.uk (last 20 league games). No team news gathered; lineups pending.",
       "form20": {
         "home": {
           "gf": 1.31,
@@ -878,7 +878,7 @@
         "name": "Southampton FC",
         "short": "Southampton"
       },
-      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Sheffield United 25-19, Southampton 31-15 goals for-against. No team news gathered; lineups pending.",
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Sheffield United 25-19, Southampton 31-15 goals for-against. Corners, fouls and cards per game from football-data.co.uk (last 20 league games). No team news gathered; lineups pending.",
       "form20": {
         "home": {
           "gf": 1.56,
@@ -956,7 +956,7 @@
         "name": "Real Betis",
         "short": "Betis"
       },
-      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Slovan have lost all 12 of their Champions League games.",
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form (football-data.co.uk has no Slovak league) and no team news yet (Rotowire's Champions League page still shows October). Slovan have lost all 12 of their Champions League games.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -990,7 +990,7 @@
         "name": "PSV Eindhoven",
         "short": "PSV"
       },
-      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Mbappé is one goal short of 75 in the Champions League.",
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners and cards from football-data.co.uk (each side's last 20 league games); no team news yet (Rotowire's Champions League page still shows October). Mbappé is one goal short of 75 in the Champions League.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -1064,7 +1064,7 @@
         "name": "RC Lens",
         "short": "Lens"
       },
-      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Lens have conceded in their last 17 Champions League games and won 1 of their last 18 European away games.",
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners and cards from football-data.co.uk (each side's last 20 league games); no team news yet (Rotowire's Champions League page still shows October). Lens have conceded in their last 17 Champions League games and won 1 of their last 18 European away games.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -1138,7 +1138,7 @@
         "name": "SSC Napoli",
         "short": "Napoli"
       },
-      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). City have scored 2+ in 20 of their last 22 league-phase home games; Napoli have no win in their last 8 Champions League away games.",
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners and cards from football-data.co.uk (each side's last 20 league games); no team news yet (Rotowire's Champions League page still shows October). City have scored 2+ in 20 of their last 22 league-phase home games; Napoli have no win in their last 8 Champions League away games.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -1212,7 +1212,7 @@
         "name": "FC Porto",
         "short": "Porto"
       },
-      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Each of Feyenoord's last 8 league-phase home games and Porto's last 7 league-phase away games had 3+ goals.",
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners and cards from football-data.co.uk (each side's last 20 league games); no team news yet (Rotowire's Champions League page still shows October). Each of Feyenoord's last 8 league-phase home games and Porto's last 7 league-phase away games had 3+ goals.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -1286,7 +1286,7 @@
         "name": "AEK Athens",
         "short": "AEK"
       },
-      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Como have scored 19 goals in their first 4 Champions League games; AEK have never won a Champions League away game.",
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners and cards from football-data.co.uk (each side's last 20 league games); no team news yet (Rotowire's Champions League page still shows October). Como have scored 19 goals in their first 4 Champions League games; AEK have never won a Champions League away game.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -1360,7 +1360,7 @@
         "name": "Borussia Dortmund",
         "short": "Dortmund"
       },
-      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form or team news yet (Rotowire's Champions League page still shows October). Arsenal are unbeaten in 16 league-phase games and have won their last 12 at home at this stage.",
+      "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners and cards from football-data.co.uk (each side's last 20 league games); no team news yet (Rotowire's Champions League page still shows October). Arsenal are unbeaten in 16 league-phase games and have won their last 12 at home at this stage.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -1434,7 +1434,7 @@
         "name": "Derby County",
         "short": "Derby"
       },
-      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Wolves 28-19, Derby 14-32 goals for-against. No team news gathered; lineups pending.",
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Wolves 28-19, Derby 14-32 goals for-against. Corners, fouls and cards per game from football-data.co.uk (last 20 league games). No team news gathered; lineups pending.",
       "form20": {
         "home": {
           "gf": 1.75,
