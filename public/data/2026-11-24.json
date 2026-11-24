@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
-  "updated": "2026-11-24T08:56:09.000Z",
-  "updateNote": "Morning run: added the 9 Champions League matchday 5 games (prices arrive with the 18:15 odds run; lineups at the kick-off run) and Chapecoense v Palmeiras from Pinnacle. No top-five league games today. Botafogo v Sao Paulo and Santos v Gremio were played overnight (Warsaw date 24 Nov).",
+  "updated": "2026-11-24T11:20:36.000Z",
+  "updateNote": "Morning run: added the 9 Champions League matchday 5 games (lineups at the kick-off run), Chapecoense v Palmeiras from Pinnacle, and (user request) the 8 Championship games with season form from ESPN's table; Champions League and Championship prices arrive with the 18:15 odds run. No top-five league games today. Botafogo v Sao Paulo and Santos v Gremio were played overnight (Warsaw date 24 Nov).",
   "matches": [
     {
       "id": "bot-sao",
@@ -331,6 +331,328 @@
       ]
     },
     {
+      "id": "nor-qpr",
+      "competition": "Championship (England)",
+      "kickoff": "2026-11-24T19:45:00.000Z",
+      "home": {
+        "name": "Norwich City",
+        "short": "Norwich"
+      },
+      "away": {
+        "name": "Queens Park Rangers",
+        "short": "QPR"
+      },
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Norwich 34-25, QPR 25-18 goals for-against. No team news gathered; lineups pending.",
+      "form20": {
+        "home": {
+          "gf": 2.12,
+          "ga": 1.56,
+          "games": 16
+        },
+        "away": {
+          "gf": 1.56,
+          "ga": 1.12,
+          "games": 16
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "Sport Flash: Championship fixtures 24 Nov 2026",
+          "url": "https://www.sport-flash.com/sports/football/uk/calendar/2026-11-24/efl-championship-2026-2027"
+        },
+        {
+          "title": "ESPN: Championship table 2026-27",
+          "url": "https://espn.com/soccer/standings/_/league/eng.2"
+        }
+      ]
+    },
+    {
+      "id": "mid-swa",
+      "competition": "Championship (England)",
+      "kickoff": "2026-11-24T19:45:00.000Z",
+      "home": {
+        "name": "Middlesbrough FC",
+        "short": "Middlesbrough"
+      },
+      "away": {
+        "name": "Swansea City",
+        "short": "Swansea"
+      },
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Middlesbrough 32-19, Swansea 24-20 goals for-against. No team news gathered; lineups pending.",
+      "form20": {
+        "home": {
+          "gf": 2.0,
+          "ga": 1.19,
+          "games": 16
+        },
+        "away": {
+          "gf": 1.5,
+          "ga": 1.25,
+          "games": 16
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "Sport Flash: Championship fixtures 24 Nov 2026",
+          "url": "https://www.sport-flash.com/sports/football/uk/calendar/2026-11-24/efl-championship-2026-2027"
+        },
+        {
+          "title": "ESPN: Championship table 2026-27",
+          "url": "https://espn.com/soccer/standings/_/league/eng.2"
+        }
+      ]
+    },
+    {
+      "id": "cha-lin",
+      "competition": "Championship (England)",
+      "kickoff": "2026-11-24T19:45:00.000Z",
+      "home": {
+        "name": "Charlton Athletic",
+        "short": "Charlton"
+      },
+      "away": {
+        "name": "Lincoln City",
+        "short": "Lincoln"
+      },
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Charlton 14-25, Lincoln 15-27 goals for-against. No team news gathered; lineups pending.",
+      "form20": {
+        "home": {
+          "gf": 0.88,
+          "ga": 1.56,
+          "games": 16
+        },
+        "away": {
+          "gf": 0.94,
+          "ga": 1.69,
+          "games": 16
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "Sport Flash: Championship fixtures 24 Nov 2026",
+          "url": "https://www.sport-flash.com/sports/football/uk/calendar/2026-11-24/efl-championship-2026-2027"
+        },
+        {
+          "title": "ESPN: Championship table 2026-27",
+          "url": "https://espn.com/soccer/standings/_/league/eng.2"
+        }
+      ]
+    },
+    {
+      "id": "car-pre",
+      "competition": "Championship (England)",
+      "kickoff": "2026-11-24T19:45:00.000Z",
+      "home": {
+        "name": "Cardiff City",
+        "short": "Cardiff"
+      },
+      "away": {
+        "name": "Preston North End",
+        "short": "Preston"
+      },
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Cardiff 28-29, Preston 14-31 goals for-against. No team news gathered; lineups pending.",
+      "form20": {
+        "home": {
+          "gf": 1.75,
+          "ga": 1.81,
+          "games": 16
+        },
+        "away": {
+          "gf": 0.88,
+          "ga": 1.94,
+          "games": 16
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "Sport Flash: Championship fixtures 24 Nov 2026",
+          "url": "https://www.sport-flash.com/sports/football/uk/calendar/2026-11-24/efl-championship-2026-2027"
+        },
+        {
+          "title": "ESPN: Championship table 2026-27",
+          "url": "https://espn.com/soccer/standings/_/league/eng.2"
+        }
+      ]
+    },
+    {
+      "id": "bri-wre",
+      "competition": "Championship (England)",
+      "kickoff": "2026-11-24T19:45:00.000Z",
+      "home": {
+        "name": "Bristol City",
+        "short": "Bristol City"
+      },
+      "away": {
+        "name": "Wrexham AFC",
+        "short": "Wrexham"
+      },
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Bristol City 16-26, Wrexham 19-20 goals for-against. No team news gathered; lineups pending.",
+      "form20": {
+        "home": {
+          "gf": 1.0,
+          "ga": 1.62,
+          "games": 16
+        },
+        "away": {
+          "gf": 1.19,
+          "ga": 1.25,
+          "games": 16
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "Sport Flash: Championship fixtures 24 Nov 2026",
+          "url": "https://www.sport-flash.com/sports/football/uk/calendar/2026-11-24/efl-championship-2026-2027"
+        },
+        {
+          "title": "ESPN: Championship table 2026-27",
+          "url": "https://espn.com/soccer/standings/_/league/eng.2"
+        }
+      ]
+    },
+    {
+      "id": "por-whu",
+      "competition": "Championship (England)",
+      "kickoff": "2026-11-24T19:45:00.000Z",
+      "home": {
+        "name": "Portsmouth FC",
+        "short": "Portsmouth"
+      },
+      "away": {
+        "name": "West Ham United",
+        "short": "West Ham"
+      },
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Portsmouth 21-19, West Ham 38-24 goals for-against. No team news gathered; lineups pending.",
+      "form20": {
+        "home": {
+          "gf": 1.31,
+          "ga": 1.19,
+          "games": 16
+        },
+        "away": {
+          "gf": 2.38,
+          "ga": 1.5,
+          "games": 16
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "Sport Flash: Championship fixtures 24 Nov 2026",
+          "url": "https://www.sport-flash.com/sports/football/uk/calendar/2026-11-24/efl-championship-2026-2027"
+        },
+        {
+          "title": "ESPN: Championship table 2026-27",
+          "url": "https://espn.com/soccer/standings/_/league/eng.2"
+        }
+      ]
+    },
+    {
+      "id": "she-sou",
+      "competition": "Championship (England)",
+      "kickoff": "2026-11-24T19:45:00.000Z",
+      "home": {
+        "name": "Sheffield United",
+        "short": "Sheffield United"
+      },
+      "away": {
+        "name": "Southampton FC",
+        "short": "Southampton"
+      },
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Sheffield United 25-19, Southampton 31-15 goals for-against. No team news gathered; lineups pending.",
+      "form20": {
+        "home": {
+          "gf": 1.56,
+          "ga": 1.19,
+          "games": 16
+        },
+        "away": {
+          "gf": 1.94,
+          "ga": 0.94,
+          "games": 16
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "Sport Flash: Championship fixtures 24 Nov 2026",
+          "url": "https://www.sport-flash.com/sports/football/uk/calendar/2026-11-24/efl-championship-2026-2027"
+        },
+        {
+          "title": "ESPN: Championship table 2026-27",
+          "url": "https://espn.com/soccer/standings/_/league/eng.2"
+        }
+      ]
+    },
+    {
       "id": "slo-bet",
       "competition": "UEFA Champions League, league phase matchday 5",
       "kickoff": "2026-11-24T20:00:00.000Z",
@@ -565,6 +887,52 @@
         {
           "title": "Bundesliga.com: Champions League matchday 5 fixtures",
           "url": "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5"
+        }
+      ]
+    },
+    {
+      "id": "wol-der",
+      "competition": "Championship (England)",
+      "kickoff": "2026-11-24T20:00:00.000Z",
+      "home": {
+        "name": "Wolverhampton Wanderers",
+        "short": "Wolves"
+      },
+      "away": {
+        "name": "Derby County",
+        "short": "Derby"
+      },
+      "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Wolves 28-19, Derby 14-32 goals for-against. No team news gathered; lineups pending.",
+      "form20": {
+        "home": {
+          "gf": 1.75,
+          "ga": 1.19,
+          "games": 16
+        },
+        "away": {
+          "gf": 0.88,
+          "ga": 2.0,
+          "games": 16
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "Sport Flash: Championship fixtures 24 Nov 2026",
+          "url": "https://www.sport-flash.com/sports/football/uk/calendar/2026-11-24/efl-championship-2026-2027"
+        },
+        {
+          "title": "ESPN: Championship table 2026-27",
+          "url": "https://espn.com/soccer/standings/_/league/eng.2"
         }
       ]
     },
