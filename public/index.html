@@ -211,9 +211,9 @@
     var f1 = function (x) { return x.toFixed(1); };
     var rows = ps.slice(0, 12).map(function (p) {
       return '<tr><td><span class="pickname">' + esc(p.name) + '</span> <span class="market">' + esc((m[p.team] && m[p.team].code) || "") + '</span></td><td class="r num">' + f1(p.exp.shots) + '</td><td class="r num">' + f1(p.exp.sot) +
-        '</td><td class="r num">' + pct(p.p1sot) + '</td><td class="r num hide-sm">' + pct(p.p2shots) + '</td><td class="r num hide-sm">' + f1(p.exp.fouls) + '</td><td class="r num">' + f1(p.exp.tackles) + "</td></tr>";
+        '</td><td class="r num">' + f1(p.exp.tackles) + '</td><td class="r num hide-sm">' + pct(p.p1sot) + '</td><td class="r num hide-sm">' + pct(p.p2shots) + '</td><td class="r num hide-sm">' + f1(p.exp.fouls) + "</td></tr>";
     }).join("");
-    return '<h3 style="margin-top:16px">Shots, on target and tackles <small>expected this game, likely starters</small></h3><div class="tablewrap"><table><thead><tr><th>Player</th><th class="r">Shots</th><th class="r">On target</th><th class="r">1+ on target</th><th class="r hide-sm">2+ shots</th><th class="r hide-sm">Fouls</th><th class="r">Tackles</th></tr></thead><tbody>' + rows +
+    return '<h3 style="margin-top:16px">Shots, on target and tackles <small>expected this game, likely starters</small></h3><div class="tablewrap"><table><thead><tr><th>Player</th><th class="r">Shots</th><th class="r">On target</th><th class="r">Tackles</th><th class="r hide-sm">1+ on target</th><th class="r hide-sm">2+ shots</th><th class="r hide-sm">Fouls</th></tr></thead><tbody>' + rows +
       '</tbody></table></div><p class="refnote">Season per-90 rates (ESPN) blended with position averages, scaled by the chance he starts and how many goals his side is expected to score. A guide for props, not a price.</p>';
   }
 
