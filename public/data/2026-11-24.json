@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updated": "2026-11-24T11:20:36.000Z",
+  "updated": "2026-11-24T17:09:24.000Z",
   "updateNote": "Morning run: added the 9 Champions League matchday 5 games (lineups at the kick-off run), Chapecoense v Palmeiras from Pinnacle, and (user request) the 8 Championship games with season form from ESPN's table; Champions League and Championship prices arrive with the 18:15 odds run. No top-five league games today. Botafogo v Sao Paulo and Santos v Gremio were played overnight (Warsaw date 24 Nov).",
   "matches": [
     {
@@ -285,13 +285,43 @@
       "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues); no team news yet (Rotowire's Champions League page still shows October). Bodø/Glimt are unbeaten in their last 5 Champions League home games (W4 D1) with 3 straight clean sheets; LASK have won 1 of their last 12 European away games.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
+        "source": "Laola1 team sheet (16:32 UTC) and YSScores line-ups, both with benches; TV 2 'Starter med Brynhildsen på topp'",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Nikita Haikin",
+            "Fredrik Sjøvold",
+            "Odin Bjørtuft",
+            "Jostein Gundersen",
+            "Fredrik Bjørkan",
+            "Auklend",
+            "Patrick Berg",
+            "Sondre Brunstad Fet",
+            "Ole Didrik Blomberg",
+            "Brynhildsen",
+            "Jens Petter Hauge"
+          ],
+          "confirmed": true
         },
         "away": {
-          "xi": []
-        }
+          "formation": "5-3-2",
+          "xi": [
+            "Jungwirth",
+            "Dibango",
+            "Miguel Freckleton",
+            "Tornich",
+            "Mbuyamba",
+            "Kasper Jørgensen",
+            "Alessandro Schöpf",
+            "Ljubicic",
+            "Danek",
+            "Christoph Lang",
+            "Samuel Adeniran"
+          ],
+          "confirmed": true
+        },
+        "alt": "Bodø/Glimt: Brynhildsen leads the line, Helmersen on the bench; Evjen and Mikkelsen out. LASK: Schöpf starts with captain Sascha Horvath on the bench; Freckleton in for the injured Andres Andrade; Usor and Kalajdzic on the bench."
       },
       "sources": [
         {
@@ -339,13 +369,43 @@
       "context": "Not priced yet: the Champions League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners and cards from football-data.co.uk (each side's last 20 league games); no team news yet (Rotowire's Champions League page still shows October). Galatasaray have won their last 3 home games against English clubs.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
+        "source": "Sports Mole (16:33 UTC) and 101 Great Goals from the clubs' posts (16:33 UTC)",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Uğurcan Çakır",
+            "Wilfried Singo",
+            "Davinson Sánchez",
+            "Abdülkerim Bardakçı",
+            "Ismail Jakobs",
+            "Lucas Torreira",
+            "Mario Lemina",
+            "Eren Elmalı",
+            "Yunus Akgün",
+            "Batrakov",
+            "Barış Alper Yılmaz"
+          ],
+          "confirmed": true
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-2-3-1",
+          "xi": [
+            "Suzuki",
+            "Taylor Harwood-Bellis",
+            "Victor Lindelöf",
+            "Tyrone Mings",
+            "Ian Maatsen",
+            "Boubacar Kamara",
+            "Gomes",
+            "Alysson",
+            "John McGinn",
+            "Manzambi",
+            "Jackson"
+          ],
+          "confirmed": true
+        },
+        "alt": "Galatasaray: Osimhen still injured, Sané on the bench. Aston Villa: Abraham and Buendía on the bench, Garnacho left out of the squad; Cash (concussion), Onana and Ruggeri out."
       },
       "sources": [
         {
