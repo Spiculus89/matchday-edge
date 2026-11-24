@@ -203,11 +203,25 @@
     return '<div class="tablewrap"><table><thead><tr><th>Player</th><th class="r hide-sm">Starts</th><th class="r">Scores</th><th class="r">Fair</th><th class="r">Assists</th><th class="r">Fair</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
   }
 
+  // Shots, shots on target and tackles each likely starter should get in this game (24 Nov)
+  function statTable(m, r) {
+    var ps = r.players.filter(function (p) { return p.exp && p.start >= 0.5 && p.pos !== "GK"; });
+    if (!ps.length || !ps.some(function (p) { return p.perNinety; })) return "";
+    ps.sort(function (a, b) { return b.exp.shots - a.exp.shots; });
+    var f1 = function (x) { return x.toFixed(1); };
+    var rows = ps.slice(0, 12).map(function (p) {
+      return '<tr><td><span class="pickname">' + esc(p.name) + '</span> <span class="market">' + esc((m[p.team] && m[p.team].code) || "") + '</span></td><td class="r num">' + f1(p.exp.shots) + '</td><td class="r num">' + f1(p.exp.sot) +
+        '</td><td class="r num">' + pct(p.p1sot) + '</td><td class="r num hide-sm">' + pct(p.p2shots) + '</td><td class="r num hide-sm">' + f1(p.exp.fouls) + '</td><td class="r num">' + f1(p.exp.tackles) + "</td></tr>";
+    }).join("");
+    return '<h3 style="margin-top:16px">Shots, on target and tackles <small>expected this game, likely starters</small></h3><div class="tablewrap"><table><thead><tr><th>Player</th><th class="r">Shots</th><th class="r">On target</th><th class="r">1+ on target</th><th class="r hide-sm">2+ shots</th><th class="r hide-sm">Fouls</th><th class="r">Tackles</th></tr></thead><tbody>' + rows +
+      '</tbody></table></div><p class="refnote">Season per-90 rates (ESPN) blended with position averages, scaled by the chance he starts and how many goals his side is expected to score. A guide for props, not a price.</p>';
+  }
+
   function cornersCards(m, r) {
     var c = r.corners, k = r.cards, ref = m.referee || {};
     var cRows = [7.5, 8.5, 9.5, 10.5, 11.5].map(function (L) { return "<tr><td>" + L + ' corners</td><td class="r num">' + pct(c.over[L]) + '</td><td class="r num">' + odd(1 / c.over[L]) + '</td><td class="r num">' + odd(1 / (1 - c.over[L])) + "</td></tr>"; }).join("");
     var kRows = [2.5, 3.5, 4.5, 5.5].map(function (L) { return "<tr><td>" + L + ' cards</td><td class="r num">' + pct(k.over[L]) + '</td><td class="r num">' + odd(1 / k.over[L]) + '</td><td class="r num">' + odd(1 / (1 - k.over[L])) + "</td></tr>"; }).join("");
-    var refLine = ref.games ? esc(ref.name) + " (" + esc(ref.country) + "): " + ref.yellowsPg + " yellows and " + ref.foulsPg + " fouls a game over " + ref.games + " Nations League games." : esc(ref.name || "Referee TBC") + (ref.country ? " (" + esc(ref.country) + ")" : "") + ". " + esc(ref.note || "");
+    var refLine = ref.games ? esc(ref.name) + (ref.country ? " (" + esc(ref.country) + ")" : "") + ": " + ref.yellowsPg + " yellows" + (ref.foulsPg != null ? " and " + ref.foulsPg + " fouls" : "") + " a game over " + ref.games + " games." + (ref.note ? " " + esc(ref.note) : "") : esc(ref.name || "Referee TBC") + (ref.country ? " (" + esc(ref.country) + ")" : "") + ". " + esc(ref.note || "");
     return '<div class="kv"><div><span>Corners</span><b class="num">' + c.total.toFixed(1) + '</b><div class="market">' + esc(m.home.code) + " " + c.home.toFixed(1) + " · " + esc(m.away.code) + " " + c.away.toFixed(1) + '</div></div>' +
       '<div><span><i class="yc"></i>Yellow cards</span><b class="num">' + k.total.toFixed(1) + '</b><div class="market">' + esc(m.home.code) + " " + k.home.toFixed(1) + " · " + esc(m.away.code) + " " + k.away.toFixed(1) + "</div></div>" +
       '<div><span>Red card</span><b class="num">' + pct(k.redCard) + '</b><div class="market">any player</div></div></div>' +
@@ -243,7 +257,7 @@
           (b ? '<div class="builder"><b>Bet builder:</b> ' + b.legs.map(esc).join(" + ") + ' <span class="num">· chance ' + pct(b.p) + " · fair odds " + odd(b.fair) + "</span></div>" : "") + "</div>" +
         '<div class="panel"><h3>Most likely scores <small>chance · fair odds</small></h3>' + scoreGrid(r) + goalLadder(m, r) + ahLadder(m, r) + "</div>" +
         '<div class="panel full">' + lineups(m) + "</div>" +
-        '<div class="panel"><h3>Scorers and assists <small>chance in 90 minutes</small></h3>' + playerTable(m, r) + props(m, r) + "</div>" +
+        '<div class="panel"><h3>Scorers and assists <small>chance in 90 minutes</small></h3>' + playerTable(m, r) + statTable(m, r) + props(m, r) + "</div>" +
         '<div class="panel"><h3>Corners and cards</h3>' + cornersCards(m, r) + "</div>" +
       "</div>" +
       '<div class="sources"><b>Sources</b>' + (m.sources || []).map(function (s) { return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + "</a>"; }).join("") + (m.odds && m.odds.book ? "<span>Odds: " + esc(m.odds.book) + "</span>" : "") + (m.odds && m.odds.local && m.odds.local.text ? "<span>Local prices (AdmiralBet BA, close to Meridian): " + esc(m.odds.local.text) + "</span>" : "") + "</div>" +

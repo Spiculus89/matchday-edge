@@ -269,8 +269,16 @@
         var pa = 1 - Math.exp(-lam * 0.72 * aw * k);
         var pga = 1 - (1 - pg) * (1 - pa) * 0.97;
         var bo = bookOddsFor(p.name, match.odds && match.odds.scorers);
+        // Expected shots, shots on target, fouls and tackles in this game (24 Nov): the player's per-90
+        // rates (ESPN season lines) blended with position averages, the same way props are priced
+        var pos = PROP_PRIOR.shots[p.pos] != null ? p.pos : "MF", m90 = start * 0.85 + (1 - start) * 0.12, att = Math.pow(lam / BASE_GOALS, 0.5), ex = {};
+        ["shots", "sot", "fouls", "tackles"].forEach(function (st) {
+          var own = p[st + "90"], pr = PROP_PRIOR[st][pos];
+          ex[st] = (own != null ? 0.75 * own + 0.25 * pr : pr) * (st === "shots" || st === "sot" ? att : 1) * m90;
+        });
         out.push({ name: p.name, team: side, pos: p.pos, start: start, scorer: pg, assist: pa, scoreOrAssist: pga,
-          scorerFair: fair(pg), assistFair: fair(pa), scorerOdds: bo, scorerEv: bo ? pg * bo - 1 : null, note: p.note || null });
+          scorerFair: fair(pg), assistFair: fair(pa), scorerOdds: bo, scorerEv: bo ? pg * bo - 1 : null, note: p.note || null,
+          exp: ex, perNinety: p.shots90 != null || p.tackles90 != null, p1sot: nbAtLeast(1, ex.sot, 4), p2shots: nbAtLeast(2, ex.shots, 4), p1tackle: nbAtLeast(1, ex.tackles, 6) });
       });
     });
     return out;

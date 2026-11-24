@@ -32,6 +32,8 @@ jobs:
         run: node scripts/build-skeleton.mjs || echo "::warning::fallback build failed"
       - name: Form, corners and cards from football-data.co.uk
         run: node scripts/football-data.mjs attach || echo "::warning::stats attach failed"
+      - name: Player lists from cached ESPN squads
+        run: node scripts/players.mjs attach || echo "::warning::players attach failed"
       - name: Commit
         run: |
           git config user.name "odds-bot"; git config user.email "odds-bot@users.noreply.github.com"

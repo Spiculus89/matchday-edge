@@ -1,0 +1,27 @@
+name: Players
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "25 8 * * *"    # 09:25 Warsaw (winter): after the 08:40 odds run builds the day, before the 09:47 morning build
+    - cron: "30 15 * * *"   # 16:30 Warsaw: picks up games the morning run added, before the evening odds and lineup runs
+permissions:
+  contents: write
+concurrency: { group: players, cancel-in-progress: false }
+jobs:
+  players:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Squads and season player stats from ESPN
+        run: node scripts/players.mjs fetch && node scripts/players.mjs attach || echo "::warning::players step failed"
+      - name: Check
+        run: npm test
+      - name: Commit
+        run: |
+          git config user.name "players-bot"; git config user.email "players-bot@users.noreply.github.com"
+          git add public/data data/players
+          git diff --cached --quiet && exit 0
+          git commit -m "Data: player stats $(date -u +%FT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
