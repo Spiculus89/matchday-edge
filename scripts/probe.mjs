@@ -3,9 +3,13 @@ const get = async (u, text) => { try { const r = await fetch(u, { headers: { "us
 const keys = (o) => (o && typeof o === "object" ? Object.keys(o).join(",") : String(o));
 const S = "https://site.api.espn.com/apis/site/v2/sports/soccer/";
 (async () => {
-  let r = await get(S + "eng.1/scoreboard?dates=20260801-20261124&limit=500");
-  const evs = (r.j && r.j.events) || [];
-  console.log("1 range scoreboard", r.status, "events", evs.length, evs[0] && evs[0].date, evs[evs.length - 1] && evs[evs.length - 1].date);
+  let r, evs = [];
+  for (const q of ["dates=20261101-20261124", "dates=20261101-20261124&limit=100", "dates=202611", "dates=20261122"]) {
+    r = await get(S + "eng.1/scoreboard?" + q);
+    const e = (r.j && r.j.events) || [];
+    console.log("1 scoreboard", q, r.status, "events", e.length, e[0] && e[0].date, e[e.length - 1] && e[e.length - 1].date, r.status !== 200 ? (r.t || "").slice(0, 200) : "");
+    if (e.length > evs.length) evs = e;
+  }
   const fin = evs.filter((e) => e.status && e.status.type && e.status.type.completed);
   const ev = fin[fin.length - 1];
   if (ev) {
@@ -35,6 +39,10 @@ const S = "https://site.api.espn.com/apis/site/v2/sports/soccer/";
       console.log("4", u.slice(8, 70), r.status, keys(r.j), cats ? cats.map((c) => c.name + ":" + (c.stats || []).map((s) => s.name).join("/")).join(" ").slice(0, 1500) : (r.t || "").slice(0, 400));
     }
   }
+  r = await get(S + "eng.1/teams");
+  const tm = r.j && r.j.sports && r.j.sports[0].leagues[0].teams;
+  console.log("7 teams", r.status, tm && tm.length, tm && JSON.stringify(tm[0].team).slice(0, 300));
+  return;
   r = await get("https://fantasy.premierleague.com/api/bootstrap-static/");
   const el = r.j && r.j.elements;
   console.log("5 fpl", r.status, el && el.length, el && keys(el[0]));
