@@ -100,6 +100,8 @@ test("league slugs for the site's competitions", () => {
   assert.equal(leagueSlug("Super Lig (Turkiye)"), "tur.1");
   assert.equal(leagueSlug("Uruguayan Primera División (Uruguay)"), "uru.1");
   assert.equal(leagueSlug("LaLiga (Spain)"), "esp.1");
+  assert.equal(leagueSlug("UAE Pro League (United Arab Emirates)"), "uae.1");
+  assert.equal(leagueSlug("Belgian Pro League (Belgium)"), "bel.1");
 });
 
 test("the picks the page showed come out in the track-record format", () => {

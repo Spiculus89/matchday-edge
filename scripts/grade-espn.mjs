@@ -1,6 +1,6 @@
 // Grades finished site games from ESPN's public JSON and appends the legs to results.json.
 // Usage: node scripts/grade-espn.mjs [YYYY-MM-DD ...] [--dry]
-// Without dates it looks at the last 7 day files: games with no result yet, and games named in
+// Without dates it looks at the last 7 day files and today's (games that kicked off 2.5+ hours ago): games with no result yet, and games named in
 // gradingTodo. Each game is priced the way the page showed it at kick-off: engine.js, the day
 // file and results.json (the calibration) as they were in the last commit before kick-off.
 import fs from "node:fs"; import vm from "node:vm"; import { execFileSync } from "node:child_process";
@@ -12,7 +12,7 @@ const BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer/";
 const warsawDate = (t) => new Date(t).toLocaleDateString("en-CA", { timeZone: "Europe/Warsaw" });
 const idx = JSON.parse(fs.readFileSync(DIR + "/index.json", "utf8"));
 const dates = args.filter((a) => /^\d{4}-\d{2}-\d{2}$/.test(a));
-if (!dates.length) for (const d of idx.days.map((x) => x.date)) if (d < warsawDate(now) && Date.parse(d) > now - 8 * 864e5) dates.push(d);
+if (!dates.length) for (const d of idx.days.map((x) => x.date)) if (d <= warsawDate(now) && Date.parse(d) > now - 8 * 864e5) dates.push(d);
 
 async function getJSON(url) {
   for (let i = 0; i < 2; i++) {

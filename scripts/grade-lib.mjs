@@ -42,7 +42,7 @@ export function matchEvent(match, events) {
 
 // ESPN league slug for a site competition name
 const SLUGS = [
-  [/brasil|brazil/i, "bra.1"], [/uruguay/i, "uru.1"], [/argentin/i, "arg.1"], [/liga mx|mexico/i, "mex.1"], [/\bmls\b/i, "usa.1"],
+  [/emirates|uae/i, "uae.1"], [/saudi/i, "ksa.1"], [/brasil|brazil/i, "bra.1"], [/uruguay/i, "uru.1"], [/argentin/i, "arg.1"], [/liga mx|mexico/i, "mex.1"], [/\bmls\b/i, "usa.1"],
   [/champions league/i, "uefa.champions"], [/conference league/i, "uefa.europa.conf"], [/europa league/i, "uefa.europa"],
   [/nations league/i, "uefa.nations"], [/world cup qual/i, "fifa.worldq.uefa"], [/friendl/i, "fifa.friendly"],
   [/championship/i, "eng.2"], [/league one/i, "eng.3"], [/league two/i, "eng.4"], [/fa cup/i, "eng.fa"], [/efl cup|carabao|league cup/i, "eng.league_cup"],
@@ -53,7 +53,7 @@ const SLUGS = [
   [/coupe de france/i, "fra.coupe_de_france"], [/ligue 2/i, "fra.2"], [/ligue 1|france/i, "fra.1"],
   [/eredivisie|netherlands/i, "ned.1"], [/portugal|primeira/i, "por.1"], [/belgi|pro league/i, "bel.1"], [/s[uü]per lig|turk/i, "tur.1"],
   [/ekstraklasa|poland/i, "pol.1"], [/greece|greek/i, "gre.1"], [/austria/i, "aut.1"], [/swiss|switzerland/i, "sui.1"], [/denmark|danish/i, "den.1"],
-  [/norway|eliteserien/i, "nor.1"], [/sweden|allsvenskan/i, "swe.1"], [/saudi/i, "ksa.1"], [/emirates|uae/i, "uae.1"]
+  [/norway|eliteserien/i, "nor.1"], [/sweden|allsvenskan/i, "swe.1"]
 ];
 export function leagueSlug(competition) { for (const [re, s] of SLUGS) if (re.test(competition || "")) return s; return null; }
 
