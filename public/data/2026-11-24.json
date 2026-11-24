@@ -128,7 +128,11 @@
           "title": "OddsPapi odds snapshot 2026-11-22 22:27 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 1
+      }
     },
     {
       "id": "san-gre",
@@ -260,7 +264,11 @@
           "title": "OddsPapi odds snapshot 2026-11-22 22:27 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 0,
+        "away": 2
+      }
     },
     {
       "id": "bod-las",
@@ -391,7 +399,7 @@
       "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Middlesbrough 32-19, Swansea 24-20 goals for-against. No team news gathered; lineups pending.",
       "form20": {
         "home": {
-          "gf": 2.0,
+          "gf": 2,
           "ga": 1.19,
           "games": 16
         },
@@ -529,7 +537,7 @@
       "context": "Not priced yet: the Championship isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages come from form alone, so don't bet from them. Form is this season's league record from ESPN's table (16 games): Bristol City 16-26, Wrexham 19-20 goals for-against. No team news gathered; lineups pending.",
       "form20": {
         "home": {
-          "gf": 1.0,
+          "gf": 1,
           "ga": 1.62,
           "games": 16
         },
@@ -911,7 +919,7 @@
         },
         "away": {
           "gf": 0.88,
-          "ga": 2.0,
+          "ga": 2,
           "games": 16
         }
       },

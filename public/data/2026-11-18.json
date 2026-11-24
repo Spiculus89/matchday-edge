@@ -2250,11 +2250,6 @@
   ],
   "gradingTodo": [
     "dmi-car: result (90-minute score; Cartagena won 2-1 after extra time, so it was level at 90) and the Bet builder Under 3.5 goals + BTTS: No (p 0.513); the best bet Minera or draw is graded",
-    "cfc-san: Corners Over 10.5 corners (best bet, p 0.544 @1.813)",
-    "cfc-san: prop Josué 2+ shots",
-    "cfc-san: prop Gabriel Barbosa 2+ shots on target",
-    "cfc-san: prop Nicolás Fonseca 2+ fouls",
-    "cfc-san: prop Jacy 2+ tackles",
-    "cfc-san: prop Gustavo Henrique 2+ tackles"
+    "cfc-san: not settled from ESPN (missing stats or player lines): Josué 2+ shots; Jacy 2+ tackles; Gustavo Henrique 2+ tackles"
   ]
 }

@@ -137,7 +137,11 @@
           "title": "OddsPapi odds snapshot 2026-11-20 23:03 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 2
+      }
     },
     {
       "id": "juv-ven",
@@ -1642,6 +1646,10 @@
       },
       "referee": {
         "note": "Not on the Rotowire page."
+      },
+      "result": {
+        "home": 3,
+        "away": 2
       }
     },
     {
@@ -2633,6 +2641,10 @@
       },
       "referee": {
         "note": "Not on the Rotowire page."
+      },
+      "result": {
+        "home": 1,
+        "away": 0
       }
     },
     {
@@ -3213,13 +3225,11 @@
       },
       "referee": {
         "note": "Not on the Rotowire page."
+      },
+      "result": {
+        "home": 0,
+        "away": 3
       }
     }
-  ],
-  "gradingTodo": [
-    "cha-cru: result and picks (no verified final score on the 23 Nov morning run). Picks: Result: Cruzeiro EC to win (most likely) (p 0.644 @1.507); Bet builder: Cruzeiro EC to win + Over 2.5 goals (p 0.447)",
-    "rac-rea: result and picks (no verified final score on the 23 Nov morning run). No picks shown, result only.",
-    "osa-mal: result and picks (no verified final score on the 23 Nov morning run). Picks: Bet builder: Over 1.5 goals + Both teams to score (p 0.501)",
-    "get-atl: result and picks (no verified final score on the 23 Nov morning run). Picks: Result: Atletico to win (most likely) (p 0.628 @1.555); Bet builder: Atletico to win + Over 1.5 goals (p 0.489); BTTS: No (Lean) (p 0.574 @1.709)"
   ]
 }
