@@ -254,19 +254,33 @@
       var team = (match.teamTotals && match.teamTotals[side]) || {};
       var S = team.shots || Math.max(sumS * 1.7, 1), G = team.goals || Math.max(sumG * 1.6, 1);
       var A = team.assists || Math.max(sumA * 1.8, 0.7 * G, 1);
-      list.forEach(function (p) {
-        // additive smoothing: a few games of data should not hand one player half a team's goals
-        var sShare = (p.shots || 0) / (S + 40), gShare = (p.goals || 0) / (G + 6);
+      // Each player's share of the side's goals: his share of its shots and goals, shrunk toward a position
+      // average (small samples overstate a hot streak). 24 Nov backtest (scripts/backtest-scorers.mjs, 740
+      // games this season, each priced only from earlier games and pre-match odds): the old shrink (+40 team
+      // shots, +6 team goals, 20% position average) left a side's players only 50-70% of its expected goals,
+      // so starters were given 325 goals for 531 scored. A full squad list now carries all of the side's goals
+      // and 70% of them get an assist; a short hand-typed list gets the backtest's average scaling.
+      var rows = list.map(function (p) {
+        var sShare = (p.shots || 0) / S, gShare = (p.goals || 0) / (G + 6);
         var posDefault = p.pos === "FW" ? 0.06 : p.pos === "AM" ? 0.045 : p.pos === "MF" ? 0.03 : 0.015;
-        // shrink toward a positional default: small samples overstate a hot streak
-        var w0 = (p.shots || p.goals) ? 0.8 * (0.5 * sShare + 0.5 * gShare) + 0.2 * posDefault : posDefault;
-        var w = clamp(w0 + (p.pens ? 0.06 : 0), 0.01, 0.45);
-        var aw = p.assists != null ? 0.6 * (p.assists / A) + 0.4 * w0 : 0.45 * w0;
+        var w0 = (p.shots || p.goals) ? 0.7 * (0.7 * sShare + 0.3 * gShare) + 0.3 * posDefault : posDefault;
+        var aw0 = p.assists != null ? 0.6 * (p.assists / A) + 0.4 * w0 : 0.45 * w0;
         var start = p.start != null ? p.start : 0.5;
         var mins = start * 0.86 + (1 - start) * 0.15;
-        var k = mins / 0.86; // shares were measured on mostly full games
+        return { p: p, w0: w0, aw0: aw0, start: start, k: mins / 0.86 }; // shares were measured on mostly full games
+      });
+      var full = rows.reduce(function (s, r) { return s + r.start; }, 0) >= 9.5;
+      var cg = 1.6, ca = 1.5;
+      if (full) {
+        var sw = rows.reduce(function (s, r) { return s + r.w0 * r.k; }, 0), sa = rows.reduce(function (s, r) { return s + 0.72 * r.aw0 * r.k; }, 0);
+        cg = sw > 0 ? 1 / sw : 1; ca = sa > 0 ? 0.7 / sa : 1;
+      }
+      rows.forEach(function (r) {
+        var p = r.p, start = r.start, k = r.k;
+        // a penalty taker's spot kicks are already in a full list's goal shares
+        var w = clamp(r.w0 * cg + (!full && p.pens ? 0.06 : 0), 0.005, 0.6);
         var pg = 1 - Math.exp(-lam * w * k);
-        var pa = 1 - Math.exp(-lam * 0.72 * aw * k);
+        var pa = 1 - Math.exp(-lam * 0.72 * r.aw0 * ca * k);
         var pga = 1 - (1 - pg) * (1 - pa) * 0.97;
         var bo = bookOddsFor(p.name, match.odds && match.odds.scorers);
         // Expected shots, shots on target, fouls and tackles in this game (24 Nov): the player's per-90

@@ -3,6 +3,13 @@
   "lessons": [
     {
       "date": "2026-11-24",
+      "area": "Scorers and assists",
+      "kind": "model",
+      "saw": "Re-scoring the anytime-scorer model on 740 games this season (Premier League, Championship, LaLiga, Serie A, Bundesliga, Ligue 1; every game priced only from earlier games and DraftKings' pre-match odds): from 24 Oct to 24 Nov it gave the 5,483 starters 325 goals when 531 scored, and players it put at 11% and 18% scored 18% and 27% of the time. Its shrinkage handed a side's players only 50-70% of the side's expected goals (Haaland 27% against Napoli).",
+      "change": "A full squad list now carries all of its side's expected goals (each player's share: 70% his share of team shots and goals, mostly shots, and 30% a position average), and 70% of the goals get an assist; a short hand-typed list gets the average scaling. On the same games: 554 goals predicted against 531, log loss 0.296 to 0.281 (assists 0.250 to 0.241), and 11%, 18%, 26% and 33% chances landed 9%, 20%, 26% and 33%."
+    },
+    {
+      "date": "2026-11-24",
       "area": "Players",
       "kind": "data",
       "saw": "None of the 20 games in the 24 Nov file had a player list, so the scorer table and every shot, foul and tackle prop ran on position averages; lists had only ever been typed in by hand for a few big games. The first ESPN run built lists for 17 of the 20 games from 35 squads (Slovan Bratislava and the two games already played overnight had none).",

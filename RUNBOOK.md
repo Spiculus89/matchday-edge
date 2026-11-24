@@ -42,6 +42,8 @@ This is what each scheduled run does. Each match follows the schema of the exist
 
 ## How picks are made (since 19 Nov)
 
+- **Scorers and assists (24 Nov):** a full squad list carries all of its side's expected goals (70% of them assisted); `node scripts/backtest-scorers.mjs` re-scores the model on this season's games (data from the `Backtest data` Action, `scripts/backtest-fetch.mjs`) and `--grid` refits it. Re-run it when the scorer track record drifts.
+
 - Every probability is anchored to its own price: the model keeps 30% of its disagreement with the bookmaker (60% when an `adjust` carries team news the price hasn't caught). Re-scoring all graded legs showed the price alone predicted better than the unanchored model.
 - The best bet is now a **Value bet** and needs +1% after anchoring, so most days have few or none. Each game also shows its **most likely** outcome with fair odds (for accumulators), and every pick has **min odds** (skip below it; Meridian often pays 5–10% less than Pinnacle).
 - Odds refreshes retire an `adjust` (moved to `adjustPriced`), because the new price contains the news. Set a new `adjust` only for news after the latest refresh in `public/data/odds/latest.json` (`fetched` times per bookmaker).
