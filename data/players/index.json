@@ -244,6 +244,167 @@
    "espn": "Palmeiras",
    "file": "bra.1-2029.json",
    "fetched": "2026-11-24T17:44:05.918Z"
+  },
+  "FC Barcelona": {
+   "slug": "esp.1",
+   "id": "83",
+   "espn": "Barcelona",
+   "file": "esp.1-83.json",
+   "fetched": "2026-11-25T15:56:18.899Z"
+  },
+  "Villarreal CF": {
+   "slug": "esp.1",
+   "id": "102",
+   "espn": "Villarreal",
+   "file": "esp.1-102.json",
+   "fetched": "2026-11-25T15:56:19.063Z"
+  },
+  "Bolton Wanderers": {
+   "slug": "eng.2",
+   "id": "358",
+   "espn": "Bolton Wanderers",
+   "file": "eng.2-358.json",
+   "fetched": "2026-11-25T15:56:19.270Z"
+  },
+  "West Bromwich Albion": {
+   "slug": "eng.2",
+   "id": "383",
+   "espn": "West Bromwich Albion",
+   "file": "eng.2-383.json",
+   "fetched": "2026-11-25T15:56:19.516Z"
+  },
+  "Burnley FC": {
+   "slug": "eng.2",
+   "id": "379",
+   "espn": "Burnley",
+   "file": "eng.2-379.json",
+   "fetched": "2026-11-25T15:56:19.801Z"
+  },
+  "Birmingham City": {
+   "slug": "eng.2",
+   "id": "392",
+   "espn": "Birmingham City",
+   "file": "eng.2-392.json",
+   "fetched": "2026-11-25T15:56:19.990Z"
+  },
+  "Watford FC": {
+   "slug": "eng.2",
+   "id": "395",
+   "espn": "Watford",
+   "file": "eng.2-395.json",
+   "fetched": "2026-11-25T15:56:20.207Z"
+  },
+  "Blackburn Rovers": {
+   "slug": "eng.2",
+   "id": "365",
+   "espn": "Blackburn Rovers",
+   "file": "eng.2-365.json",
+   "fetched": "2026-11-25T15:56:20.393Z"
+  },
+  "Atletico Madrid": {
+   "slug": "esp.1",
+   "id": "1068",
+   "espn": "Atlético Madrid",
+   "file": "esp.1-1068.json",
+   "fetched": "2026-11-25T15:56:20.553Z"
+  },
+  "Viking FK": {
+   "slug": "nor.1",
+   "id": "510",
+   "espn": "Viking FK",
+   "file": "nor.1-510.json",
+   "fetched": "2026-11-25T15:56:20.819Z"
+  },
+  "Club Brugge": {
+   "slug": "bel.1",
+   "id": "570",
+   "espn": "Club Brugge",
+   "file": "bel.1-570.json",
+   "fetched": "2026-11-25T15:56:21.006Z"
+  },
+  "Inter Milano": {
+   "slug": "ita.1",
+   "id": "110",
+   "espn": "Internazionale",
+   "file": "ita.1-110.json",
+   "fetched": "2026-11-25T15:56:21.208Z"
+  },
+  "VfB Stuttgart": {
+   "slug": "ger.1",
+   "id": "134",
+   "espn": "VfB Stuttgart",
+   "file": "ger.1-134.json",
+   "fetched": "2026-11-25T15:56:21.444Z"
+  },
+  "Fenerbahce Istanbul": {
+   "slug": "tur.1",
+   "id": "436",
+   "espn": "Fenerbahce",
+   "file": "tur.1-436.json",
+   "fetched": "2026-11-25T15:56:21.604Z"
+  },
+  "Bayern Munich": {
+   "slug": "ger.1",
+   "id": "132",
+   "espn": "Bayern Munich",
+   "file": "ger.1-132.json",
+   "fetched": "2026-11-25T15:56:21.765Z"
+  },
+  "Paris Saint-Germain": {
+   "slug": "fra.1",
+   "id": "160",
+   "espn": "Paris Saint-Germain",
+   "file": "fra.1-160.json",
+   "fetched": "2026-11-25T15:56:21.929Z"
+  },
+  "AS Roma": {
+   "slug": "ita.1",
+   "id": "104",
+   "espn": "AS Roma",
+   "file": "ita.1-104.json",
+   "fetched": "2026-11-25T15:56:22.120Z"
+  },
+  "Sporting CP": {
+   "slug": "por.1",
+   "id": "2250",
+   "espn": "Sporting CP",
+   "file": "por.1-2250.json",
+   "fetched": "2026-11-25T15:56:22.309Z"
+  },
+  "Manchester United": {
+   "slug": "eng.1",
+   "id": "360",
+   "espn": "Manchester United",
+   "file": "eng.1-360.json",
+   "fetched": "2026-11-25T15:56:22.491Z"
+  },
+  "Stoke City": {
+   "slug": "eng.2",
+   "id": "336",
+   "espn": "Stoke City",
+   "file": "eng.2-336.json",
+   "fetched": "2026-11-25T15:56:22.663Z"
+  },
+  "Millwall FC": {
+   "slug": "eng.2",
+   "id": "391",
+   "espn": "Millwall",
+   "file": "eng.2-391.json",
+   "fetched": "2026-11-25T15:56:22.944Z"
+  },
+  "Atletico Mineiro MG": {
+   "slug": "bra.1",
+   "id": "7632",
+   "espn": "Atlético-MG",
+   "file": "bra.1-7632.json",
+   "fetched": "2026-11-25T15:56:23.328Z"
+  },
+  "SC Corinthians SP": {
+   "slug": "bra.1",
+   "id": "874",
+   "espn": "Corinthians",
+   "file": "bra.1-874.json",
+   "fetched": "2026-11-25T15:56:23.632Z"
   }
  }
 }
