@@ -255,4 +255,18 @@ footer p { margin: 0 0 8px; max-width: 65ch; }
 .tk-summary .warn { color: var(--warn); font-weight: 600; }
 details.tk-game { border: 1px solid var(--line); border-radius: 10px; margin: 8px 0; background: var(--card); }
 details.tk-game summary { cursor: pointer; padding: 6px 0; min-height: 36px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+details.tk-game summary .market { white-space: normal; min-width: 0; overflow-wrap: anywhere; }
+.tk-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; margin: 4px 0 22px; }
+.tk-card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.tk-card .lab { font: 600 11px var(--body); text-transform: uppercase; letter-spacing: .06em; color: var(--pitch); }
+.tk-card .what { font: 700 22px/1.1 var(--display); }
+.tk-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.tk-chance { text-align: right; font-size: 12px; color: var(--muted); }
+.tk-chance b { display: block; font: 700 20px var(--display); color: var(--ink); }
+.tk-legs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.tk-legs li { border-top: 1px solid var(--line); padding-top: 6px; display: flex; flex-direction: column; gap: 2px; }
+.tk-leg { display: flex; justify-content: space-between; gap: 8px; }
+.tk-leg .num { color: var(--muted); white-space: nowrap; }
+.tk-foot { font-size: 12px; color: var(--muted); margin: 2px 0 4px; }
+.tk-card .tk-add { align-self: flex-start; }
 @media (max-width: 520px) { .tk-controls { grid-template-columns: 1fr; } .sports a { font-size: 13px; padding: 8px 4px; } }

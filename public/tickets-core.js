@@ -80,5 +80,29 @@
     return stats(out);
   }
 
-  root.TicketCore = { build: build, stats: stats };
+  // Ready-made tickets for the day (user request, 25 Nov): odds band, leg-odds limits and leg count per ticket.
+  // The first four don't share a game when today's games allow it, so one upset can't sink them all.
+  var PRESETS = [
+    { key: "t2", title: "About 2.00", note: "The surest legs of the day", target: 1.9, tolerance: 1.22, minOdds: 1.1, maxOdds: 1.6, minLegs: 2, maxLegs: 4 },
+    { key: "t3", title: "About 3.00", note: "Short legs", target: 2.8, tolerance: 1.25, minOdds: 1.15, maxOdds: 1.9, minLegs: 2, maxLegs: 4 },
+    { key: "t5", title: "5 to 6", note: "Medium ticket", target: 5, tolerance: 1.25, minOdds: 1.2, maxOdds: 2.3, minLegs: 2, maxLegs: 5 },
+    { key: "t10", title: "10 to 20", note: "Long shot", target: 10, tolerance: 2, minOdds: 1.25, maxOdds: 2.6, minLegs: 3, maxLegs: 7 },
+    { key: "fun", title: "Big acca", note: "Just for fun: tiny stake", target: 100, tolerance: 10, minOdds: 1.15, maxOdds: 2.6, minLegs: 8, maxLegs: 14, shared: true }
+  ];
+  function presets(legs, list) {
+    var used = {}, out = [];
+    (list || PRESETS).forEach(function (ps) {
+      var opts = { target: ps.target, tolerance: ps.tolerance, minOdds: ps.minOdds, maxOdds: ps.maxOdds, minLegs: ps.minLegs, maxLegs: ps.maxLegs };
+      var r = null, shares = false;
+      if (!ps.shared) r = build(legs.filter(function (l) { return !used[l.game]; }), opts);
+      if (!r) { r = build(legs, opts); shares = !ps.shared && !!r; }
+      // a big acca needs many games: settle for fewer legs on a quiet day
+      if (!r && ps.shared) { opts.minLegs = 5; r = build(legs, opts); }
+      if (r && !ps.shared) r.legs.forEach(function (l) { used[l.game] = true; });
+      out.push({ preset: ps, ticket: r, sharesGames: shares });
+    });
+    return out;
+  }
+
+  root.TicketCore = { build: build, stats: stats, presets: presets, PRESETS: PRESETS };
 })(typeof self !== "undefined" ? self : this);

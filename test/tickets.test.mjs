@@ -30,3 +30,17 @@ test("tickets: exact leg count and kept legs are respected", () => {
 test("tickets: impossible target returns null", () => {
   assert.equal(T.build(legs, { target: 500, maxLegs: 3, minOdds: 1.2, maxOdds: 2.2 }), null);
 });
+test("tickets: ready-made tickets hit their bands and the first four don't share a game", () => {
+  const many = [];
+  for (let g = 0; g < 14; g++) [[0.78, 1.22], [0.68, 1.4], [0.58, 1.66], [0.48, 2.0], [0.38, 2.5]].forEach(([p, o], i) => many.push(leg(g + "-" + i, "G" + g, p, o)));
+  const out = T.presets(many);
+  assert.equal(out.length, 5);
+  out.forEach(({ preset: ps, ticket: t }) => {
+    assert.ok(t, ps.title + " built");
+    assert.ok(t.odds >= ps.target - 1e-9 && t.odds <= ps.target * ps.tolerance + 1e-9, ps.title + " odds " + t.odds);
+    assert.ok(t.legs.length >= 2 && t.legs.every(l => l.odds >= ps.minOdds && l.odds <= ps.maxOdds), ps.title + " legs");
+  });
+  const games = out.slice(0, 4).flatMap(x => x.ticket.legs.map(l => l.game));
+  assert.equal(new Set(games).size, games.length, "no shared game");
+  assert.ok(out[4].ticket.legs.length >= 8, "big acca has 8+ legs");
+});
