@@ -249,7 +249,11 @@
           "title": "OddsPapi odds snapshot 2026-11-22 15:37 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 1
+      }
     },
     {
       "id": "caj-def",
@@ -913,8 +917,5 @@
         "away": 1
       }
     }
-  ],
-  "gradingTodo": [
-    "wie-lkp: result only (no score found on the 24 Nov morning run). Picks: none with odds (Wieczysta or draw was a Lean without a price)."
   ]
 }

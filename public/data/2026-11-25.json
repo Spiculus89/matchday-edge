@@ -1,12 +1,11 @@
 {
   "date": "2026-11-25",
-  "updated": "2026-11-24T19:03:40.038Z",
-  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, news and lineups.",
-  "skeleton": true,
+  "updated": "2026-11-25T08:53:43.527Z",
+  "updateNote": "Morning update: Rotowire predicted XIs and absences, UEFA referees for the nine Champions League games; Stoke v Millwall added to complete the Championship round.",
   "matches": [
     {
       "id": "sab-bar",
-      "competition": "UEFA Champions League (International Clubs)",
+      "competition": "UEFA Champions League, league phase matchday 5",
       "kickoff": "2026-11-25T17:45:00.000Z",
       "home": {
         "name": "Sabah Masazir",
@@ -16,7 +15,7 @@
         "name": "FC Barcelona",
         "short": "Barcelona"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Rotowire predicted XIs and absences (25 Nov morning). Barcelona are without Lamine Yamal. Sabah's league form wasn't found, so the game leans on Pinnacle's price. Referee Nicholas Walsh (SCO). Pinnacle prices from 25 Nov 01:25 UTC; nothing newer to adjust for.",
       "odds": {
         "h": 23.8,
         "d": 13.69,
@@ -119,26 +118,81 @@
           "text": "1X2 21.5/12.8/1.08, O/U 2.5 1.09/7.2"
         }
       },
-      "news": [],
+      "news": [
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: R. Bardghji, A. Christensen, Xavi Espart, Rodri, Lamine Yamal.",
+          "src": "Rotowire"
+        }
+      ],
       "lineups": {
-        "status": "pending",
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 25 Nov morning.",
         "home": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "S. Pokatilov",
+            "T. Puchacz",
+            "Steve Solvet",
+            "R. Dasdamirov",
+            "Akim Zedadka",
+            "I. Lepinjica",
+            "U. Rahmonaliyev",
+            "J. Mickels",
+            "Du Queiroz",
+            "C. Nwachukwu",
+            "Orphe Mbina"
+          ]
         },
         "away": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "Joan Garcia",
+            "Joao Cancelo",
+            "Pau Cubarsi",
+            "G. Martin",
+            "Eric Garcia",
+            "Pedri",
+            "Marc Bernal",
+            "A. Gordon",
+            "Fermin",
+            "K. Adeyemi",
+            "Raphinha"
+          ]
         }
       },
       "sources": [
         {
           "title": "OddsPapi odds snapshot 2026-11-24 19:03 UTC",
           "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "Rotowire: Champions League predicted lineups (25 Nov)",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=UCL"
+        },
+        {
+          "title": "UEFA: Champions League matchday 5 referees (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-218880e7a2aa-96adf63aa534-1000--who-is-the-referee-which-officials-are-in-charge-of-the-uefa/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (?, Barcelona: last 0 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
         }
-      ]
+      ],
+      "referee": {
+        "name": "Nicholas Walsh",
+        "country": "SCO",
+        "note": "football-data.co.uk: 32 league games as N Walsh, last two seasons",
+        "games": 32,
+        "yellowsPg": 4.13,
+        "redsPg": 0.09,
+        "foulsPg": 26.66
+      }
     },
     {
       "id": "sla-vil",
-      "competition": "UEFA Champions League (International Clubs)",
+      "competition": "UEFA Champions League, league phase matchday 5",
       "kickoff": "2026-11-25T17:45:00.000Z",
       "home": {
         "name": "Slavia Prague",
@@ -148,7 +202,7 @@
         "name": "Villarreal CF",
         "short": "Villarreal CF"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Rotowire predicted XIs and absences (25 Nov morning). Slavia are missing eight, Provod and Chory among them. Slavia's league form wasn't found, so the game leans on Pinnacle's price. Referee Rade Obrenovic (SVN). Pinnacle prices from 25 Nov 01:25 UTC; nothing newer to adjust for.",
       "odds": {
         "h": 3.05,
         "d": 4.06,
@@ -251,22 +305,81 @@
           "text": "1X2 2.97/3.96/2.17, O/U 2.5 1.45/2.77"
         }
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: S. Chaloupek, Tomas Chory, David Moses, Igoh Ogbu, A. Ouanda, Elias Pitak, Lukas Provod, D. Sturm.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: A. Diatta, N. Saliba.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: I. Akhomach, Juan Foyth, G. Moreno.",
+          "src": "Rotowire"
+        }
+      ],
       "lineups": {
-        "status": "pending",
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 25 Nov morning.",
         "home": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "J. Markovic",
+            "Tomas Holes",
+            "David Zima",
+            "A. N'Guessan",
+            "D. Jurasek",
+            "M. Sadilek",
+            "Wiktor Nowak",
+            "Tomas Vlcek",
+            "E. Ayaosi",
+            "M. Suleiman",
+            "M. Chytil"
+          ]
         },
         "away": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "Peter Gulacsi",
+            "Sergi Cardona",
+            "Pau Navarro",
+            "Renato Veiga",
+            "Santiago Mourino",
+            "Carlos Macia",
+            "Pape Gueye",
+            "T. Buchanan",
+            "Alberto Moleiro",
+            "Nicolas Pepe",
+            "Ayoze Perez"
+          ]
         }
       },
       "sources": [
         {
           "title": "OddsPapi odds snapshot 2026-11-24 19:03 UTC",
           "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "Rotowire: Champions League predicted lineups (25 Nov)",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=UCL"
+        },
+        {
+          "title": "UEFA: Champions League matchday 5 referees (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-218880e7a2aa-96adf63aa534-1000--who-is-the-referee-which-officials-are-in-charge-of-the-uefa/"
         }
-      ]
+      ],
+      "referee": {
+        "name": "Rade Obrenovic",
+        "country": "SVN",
+        "note": "UEFA appointment (23 Nov). No per-game card figures gathered, so the engine uses its prior."
+      }
     },
     {
       "id": "bol-wes",
@@ -280,7 +393,7 @@
         "name": "West Bromwich Albion",
         "short": "West Bromwich"
       },
-      "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Rotowire doesn't cover the Championship and no team news was gathered; lineups pending (the evening lineups runs fill confirmed XIs).",
       "odds": {
         "h": 3.75,
         "d": 3.76,
@@ -470,7 +583,7 @@
         "name": "Birmingham City",
         "short": "Birmingham City"
       },
-      "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Rotowire doesn't cover the Championship and no team news was gathered; lineups pending (the evening lineups runs fill confirmed XIs).",
       "odds": {
         "h": 2.81,
         "d": 3.57,
@@ -656,7 +769,7 @@
         "name": "Blackburn Rovers",
         "short": "Blackburn Rovers"
       },
-      "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Rotowire doesn't cover the Championship and no team news was gathered; lineups pending (the evening lineups runs fill confirmed XIs).",
       "odds": {
         "h": 2.53,
         "d": 3.6,
@@ -836,7 +949,7 @@
     },
     {
       "id": "atl-vik",
-      "competition": "UEFA Champions League (International Clubs)",
+      "competition": "UEFA Champions League, league phase matchday 5",
       "kickoff": "2026-11-25T20:00:00.000Z",
       "home": {
         "name": "Atletico Madrid",
@@ -846,7 +959,7 @@
         "name": "Viking FK",
         "short": "Viking FK"
       },
-      "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
+      "context": "Rotowire predicted XIs and absences (25 Nov morning). Atletico are without Lookman and Romero; Viking list no absences. Form, corners and cards from football-data.co.uk (each side's last 20 league games). Referee Erik Lambrechts (BEL). Pinnacle prices from 25 Nov 01:25 UTC; nothing newer to adjust for.",
       "odds": {
         "h": 1.11,
         "d": 10.93,
@@ -958,14 +1071,54 @@
           "text": "1X2 1.11/10.3/20, O/U 2.5 1.23/4.15"
         }
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Ademola Lookman, Cristian Romero.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: Marc Pubill.",
+          "src": "Rotowire"
+        }
+      ],
       "lineups": {
-        "status": "pending",
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 25 Nov morning.",
         "home": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "Jan Oblak",
+            "Alejandro Grimaldo",
+            "David Hancko",
+            "Robin Le Normand",
+            "Marcos Llorente",
+            "Alex Baena",
+            "Johnny Cardoso",
+            "Pablo Barrios",
+            "Giuliano Simeone",
+            "Julian Alvarez",
+            "Lee Kang-in"
+          ]
         },
         "away": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "Arild Ostbo",
+            "Vetle Auklend",
+            "Henrik Falchener",
+            "Gianni Stensness",
+            "Henrik Heggheim",
+            "Tobias Moi",
+            "Joe Bell",
+            "Kristoffer Askildsen",
+            "Zlatko Tripic",
+            "Henrik Bjordal",
+            "Erik Botheim"
+          ]
         }
       },
       "sources": [
@@ -976,6 +1129,14 @@
         {
           "title": "football-data.co.uk results and match stats (Ath Madrid, Viking: last 20 and 20 league games)",
           "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "Rotowire: Champions League predicted lineups (25 Nov)",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=UCL"
+        },
+        {
+          "title": "UEFA: Champions League matchday 5 referees (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-218880e7a2aa-96adf63aa534-1000--who-is-the-referee-which-officials-are-in-charge-of-the-uefa/"
         }
       ],
       "form20": {
@@ -997,11 +1158,16 @@
           "sot": 5.45
         },
         "away": {}
+      },
+      "referee": {
+        "name": "Erik Lambrechts",
+        "country": "BEL",
+        "note": "UEFA appointment (23 Nov). No per-game card figures gathered, so the engine uses its prior."
       }
     },
     {
       "id": "clu-liv",
-      "competition": "UEFA Champions League (International Clubs)",
+      "competition": "UEFA Champions League, league phase matchday 5",
       "kickoff": "2026-11-25T20:00:00.000Z",
       "home": {
         "name": "Club Brugge",
@@ -1011,7 +1177,7 @@
         "name": "Liverpool FC",
         "short": "Liverpool FC"
       },
-      "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
+      "context": "Rotowire predicted XIs and absences (25 Nov morning). Liverpool are without Ekitike, Gakpo and Gravenberch. Form, corners and cards from football-data.co.uk (each side's last 20 league games). Referee Alejandro Hernandez (ESP). Pinnacle prices from 25 Nov 01:25 UTC; nothing newer to adjust for.",
       "odds": {
         "h": 4.52,
         "d": 4.83,
@@ -1118,14 +1284,60 @@
           "text": "1X2 4.3/4.65/1.66, O/U 2.5 1.28/3.74"
         }
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Joel Ordonez.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: Jan Virgili.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: C. Bradley, Hugo Ekitike, Cody Gakpo, R. Gravenberch, G. Leoni, Amara Nallo.",
+          "src": "Rotowire"
+        }
+      ],
       "lineups": {
-        "status": "pending",
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 25 Nov morning.",
         "home": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "Yann Sommer",
+            "Joaquin Seys",
+            "J. Spileers",
+            "B. Mechele",
+            "K. Sabbe",
+            "F. Potts",
+            "Hans Vanaken",
+            "F. Lemarechal",
+            "H. Vetlesen",
+            "Carlos Forbs",
+            "N. Tresoldi"
+          ]
         },
         "away": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "Alisson",
+            "K. Tsimikas",
+            "J. Jacquet",
+            "Joe Gomez",
+            "J. Frimpong",
+            "A. Mac Allister",
+            "Trey Nyoni",
+            "Rio Ngumoha",
+            "F. Wirtz",
+            "Victor Munoz",
+            "B. Barcola"
+          ]
         }
       },
       "sources": [
@@ -1136,6 +1348,14 @@
         {
           "title": "football-data.co.uk results and match stats (Club Brugge, Liverpool: last 20 and 20 league games)",
           "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "Rotowire: Champions League predicted lineups (25 Nov)",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=UCL"
+        },
+        {
+          "title": "UEFA: Champions League matchday 5 referees (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-218880e7a2aa-96adf63aa534-1000--who-is-the-referee-which-officials-are-in-charge-of-the-uefa/"
         }
       ],
       "form20": {
@@ -1173,11 +1393,16 @@
           "yellowsPg": 2.05,
           "redsPg": 0.05
         }
+      },
+      "referee": {
+        "name": "Alejandro Hernandez",
+        "country": "ESP",
+        "note": "UEFA appointment (23 Nov). No per-game card figures gathered, so the engine uses its prior."
       }
     },
     {
       "id": "int-vfb",
-      "competition": "UEFA Champions League (International Clubs)",
+      "competition": "UEFA Champions League, league phase matchday 5",
       "kickoff": "2026-11-25T20:00:00.000Z",
       "home": {
         "name": "Inter Milano",
@@ -1187,7 +1412,7 @@
         "name": "VfB Stuttgart",
         "short": "VfB Stuttgart"
       },
-      "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
+      "context": "Rotowire predicted XIs and absences (25 Nov morning). Inter are without Calhanoglu and Zielinski; Stiller is a doubt for Stuttgart. Form, corners and cards from football-data.co.uk (each side's last 20 league games). Referee Francois Letexier (FRA). Pinnacle prices from 25 Nov 01:25 UTC; nothing newer to adjust for.",
       "odds": {
         "h": 1.42,
         "d": 5.76,
@@ -1298,14 +1523,54 @@
           "text": "1X2 1.42/5.6/6, O/U 2.5 1.24/4.1"
         }
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Ange-Yoan Bonny, Hakan Calhanoglu, Piotr Zielinski.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: Luca Jaquez, Leo Sauer, Angelo Stiller.",
+          "src": "Rotowire"
+        }
+      ],
       "lineups": {
-        "status": "pending",
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 25 Nov morning.",
         "home": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "Josep Martinez",
+            "M. Akanji",
+            "Alessandro Bastoni",
+            "Yann Aurel Bisseck",
+            "Federico Dimarco",
+            "Henrikh Mkhitaryan",
+            "Nicolo Barella",
+            "Petar Sucic",
+            "Djed Spence",
+            "Francesco Pio Esposito",
+            "Marcus Thuram"
+          ]
         },
         "away": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "Dennis Seimen",
+            "Ramon Hendriks",
+            "Jeff Chabot",
+            "Maximilian Mittelstadt",
+            "Chris Fuhrich",
+            "Grischa Promel",
+            "Atakan Karazor",
+            "Jamie Leweling",
+            "Deniz Undav",
+            "Bilal El Khannouss",
+            "Ermedin Demirovic"
+          ]
         }
       },
       "sources": [
@@ -1316,6 +1581,14 @@
         {
           "title": "football-data.co.uk results and match stats (Inter, Stuttgart: last 20 and 20 league games)",
           "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "Rotowire: Champions League predicted lineups (25 Nov)",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=UCL"
+        },
+        {
+          "title": "UEFA: Champions League matchday 5 referees (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-218880e7a2aa-96adf63aa534-1000--who-is-the-referee-which-officials-are-in-charge-of-the-uefa/"
         }
       ],
       "form20": {
@@ -1353,11 +1626,16 @@
           "yellowsPg": 1.5,
           "redsPg": 0.05
         }
+      },
+      "referee": {
+        "name": "Francois Letexier",
+        "country": "FRA",
+        "note": "UEFA appointment (23 Nov). No per-game card figures gathered, so the engine uses its prior."
       }
     },
     {
       "id": "sha-fen",
-      "competition": "UEFA Champions League (International Clubs)",
+      "competition": "UEFA Champions League, league phase matchday 5",
       "kickoff": "2026-11-25T20:00:00.000Z",
       "home": {
         "name": "FC Shakhtar Donetsk",
@@ -1367,7 +1645,7 @@
         "name": "Fenerbahce Istanbul",
         "short": "Fenerbahce Istanbul"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Rotowire predicted XIs and absences (25 Nov morning). Form is this season's league record: Shakhtar 23-6 in 13 games (Terrikon), Fenerbahce 31-12 in 12 (football-data.co.uk). Fenerbahce are without Asensio and Oosterwolde. Referee Michael Oliver (ENG). Pinnacle prices from 25 Nov 01:25 UTC; nothing newer to adjust for.",
       "odds": {
         "h": 3.05,
         "d": 3.61,
@@ -1474,26 +1752,103 @@
           "text": "1X2 3.09/3.46/2.28, O/U 2.5 1.78/2.05"
         }
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Marlon, Eguinaldo, Pedrinho, Kiril Fesiun, G. Mendoza, Kaua Elias.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: Nathan Ake, M. Asensio, J. Oosterwolde.",
+          "src": "Rotowire"
+        }
+      ],
       "lineups": {
-        "status": "pending",
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 25 Nov morning.",
         "home": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "D. Riznyk",
+            "Pedro Henrique",
+            "M. Matviyenko",
+            "V. Bondar",
+            "Vinicius Tobias",
+            "O. Ocheretko",
+            "Y. Nazaryna",
+            "Newerton",
+            "Marlon Gomes",
+            "Alisson Santana",
+            "L. Traore"
+          ]
         },
         "away": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "Ederson",
+            "Archie Brown",
+            "K. Peprah Oppong",
+            "M. Skriniar",
+            "N. Semedo",
+            "M. Guendouzi",
+            "N'Golo Kante",
+            "Oguz Aydin",
+            "I. Kahveci",
+            "M. Greenwood",
+            "R. Lukaku"
+          ]
         }
       },
       "sources": [
         {
           "title": "OddsPapi odds snapshot 2026-11-24 19:03 UTC",
           "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "Rotowire: Champions League predicted lineups (25 Nov)",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=UCL"
+        },
+        {
+          "title": "UEFA: Champions League matchday 5 referees (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-218880e7a2aa-96adf63aa534-1000--who-is-the-referee-which-officials-are-in-charge-of-the-uefa/"
+        },
+        {
+          "title": "Terrikon: Ukrainian Premier League table 2026-27",
+          "url": "https://terrikon.com/en/football/ukraine/championship/table"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (?, Fenerbahce: last 0 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
         }
-      ]
+      ],
+      "referee": {
+        "name": "Michael Oliver",
+        "country": "ENG",
+        "note": "football-data.co.uk: 38 league games as M Oliver, last two seasons",
+        "games": 38,
+        "yellowsPg": 3.16,
+        "redsPg": 0.13,
+        "foulsPg": 22.47
+      },
+      "form20": {
+        "home": {
+          "gf": 1.77,
+          "ga": 0.46,
+          "games": 13
+        },
+        "away": {
+          "gf": 2.58,
+          "ga": 1,
+          "games": 12
+        }
+      }
     },
     {
       "id": "lil-bay",
-      "competition": "UEFA Champions League (International Clubs)",
+      "competition": "UEFA Champions League, league phase matchday 5",
       "kickoff": "2026-11-25T20:00:00.000Z",
       "home": {
         "name": "Lille OSC",
@@ -1503,7 +1858,7 @@
         "name": "Bayern Munich",
         "short": "Bayern Munich"
       },
-      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "context": "Rotowire predicted XIs and absences (25 Nov morning). Rotowire has Bayern without Kane, Olise, Gnabry and Neuer, with Luis Diaz a doubt (read from a cut-off page; check the confirmed XI). Form, corners and cards from football-data.co.uk (each side's last 20 league games). Referee Marco Guida (ITA). Pinnacle prices from 25 Nov 01:25 UTC; nothing newer to adjust for.",
       "odds": {
         "h": 4.91,
         "d": 4.27,
@@ -1614,26 +1969,125 @@
           "text": "1X2 4.8/4.15/1.67, O/U 2.5 1.61/2.33"
         }
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Tiago Santos, Hamza Igamane, Tanguy Nianzou.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: Tarek Buchmann, Alphonso Davies, Serge Gnabry, Harry Kane, Manuel Neuer, Michael Olise, Ismael Saibari, Bara Sapoko Ndiaye.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: Luis Diaz.",
+          "src": "Rotowire"
+        }
+      ],
       "lineups": {
-        "status": "pending",
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 25 Nov morning.",
         "home": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "Berke Ozer",
+            "Romain Perraud",
+            "Nathan Ngoy",
+            "Alexsandro",
+            "Maxima Goffi",
+            "Ngal'ayel Mukau",
+            "Nabil Bentaleb",
+            "Benjamin Andre",
+            "Soriba Diaoune",
+            "Ethan Mbappe",
+            "Hakon Haraldsson"
+          ]
         },
         "away": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "Jonas Urbig",
+            "Josip Stanisic",
+            "Dayot Upamecano",
+            "Jonathan Tah",
+            "Konrad Laimer",
+            "Joshua Kimmich",
+            "Aleksandar Pavlovic",
+            "Nathaniel Brown",
+            "Tom Bischof",
+            "Tim Binder",
+            "Lennart Karl"
+          ]
         }
       },
       "sources": [
         {
           "title": "OddsPapi odds snapshot 2026-11-24 19:03 UTC",
           "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Lille, Bayern Munich: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "Rotowire: Champions League predicted lineups (25 Nov)",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=UCL"
+        },
+        {
+          "title": "UEFA: Champions League matchday 5 referees (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-218880e7a2aa-96adf63aa534-1000--who-is-the-referee-which-officials-are-in-charge-of-the-uefa/"
         }
-      ]
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.4,
+          "ga": 0.65,
+          "games": 20
+        },
+        "away": {
+          "gf": 3.2,
+          "ga": 1.15,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 4.8,
+          "fouls": 10.55,
+          "shots": 11.75,
+          "sot": 4.95
+        },
+        "away": {
+          "corners": 5.1,
+          "fouls": 8.85,
+          "shots": 21.35,
+          "sot": 8.2
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 2.05,
+          "redsPg": 0.05
+        },
+        "away": {
+          "yellowsPg": 1.35,
+          "redsPg": 0.1
+        }
+      },
+      "referee": {
+        "name": "Marco Guida",
+        "country": "ITA",
+        "note": "UEFA appointment (23 Nov). No per-game card figures gathered, so the engine uses its prior."
+      }
     },
     {
       "id": "par-rom",
-      "competition": "UEFA Champions League (International Clubs)",
+      "competition": "UEFA Champions League, league phase matchday 5",
       "kickoff": "2026-11-25T20:00:00.000Z",
       "home": {
         "name": "Paris Saint-Germain",
@@ -1643,7 +2097,7 @@
         "name": "AS Roma",
         "short": "Roma"
       },
-      "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
+      "context": "Rotowire predicted XIs and absences (25 Nov morning). PSG are without Doue and Kvaratskhelia; Roma without Pellegrini. Form, corners and cards from football-data.co.uk (each side's last 20 league games). Referee Glenn Nyberg (SWE). Pinnacle prices from 25 Nov 01:25 UTC; nothing newer to adjust for.",
       "odds": {
         "h": 1.45,
         "d": 5.08,
@@ -1755,14 +2209,66 @@
           "text": "1X2 1.46/5.35/5.6, O/U 2.5 1.3/3.59"
         }
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Desire Doue, K. Kvaratskhelia.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: A. Longoni.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: Muhammed Bah, L. Pellegrini, D. Rensch, D. Vasquez.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: L. Balerdi.",
+          "src": "Rotowire"
+        }
+      ],
       "lineups": {
-        "status": "pending",
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 25 Nov morning.",
         "home": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "M. Safonov",
+            "L. Hernandez",
+            "Marquinhos",
+            "Willian Pacho",
+            "A. Hakimi",
+            "Fabian Ruiz",
+            "Joao Neves",
+            "Vitinha",
+            "Senny Mayulu",
+            "M. Akliouche",
+            "O. Dembele"
+          ]
         },
         "away": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "Mile Svilar",
+            "Evan N'Dicka",
+            "M. Hermoso",
+            "G. Mancini",
+            "Wesley",
+            "B. Cristante",
+            "Manu Kone",
+            "N. Molina",
+            "Matias Soule",
+            "Paulo Dybala",
+            "D. Malen"
+          ]
         }
       },
       "sources": [
@@ -1773,6 +2279,14 @@
         {
           "title": "football-data.co.uk results and match stats (Paris SG, Roma: last 20 and 20 league games)",
           "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "Rotowire: Champions League predicted lineups (25 Nov)",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=UCL"
+        },
+        {
+          "title": "UEFA: Champions League matchday 5 referees (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-218880e7a2aa-96adf63aa534-1000--who-is-the-referee-which-officials-are-in-charge-of-the-uefa/"
         }
       ],
       "form20": {
@@ -1810,11 +2324,16 @@
           "yellowsPg": 1.65,
           "redsPg": 0.15
         }
+      },
+      "referee": {
+        "name": "Glenn Nyberg",
+        "country": "SWE",
+        "note": "UEFA appointment (23 Nov). No per-game card figures gathered, so the engine uses its prior."
       }
     },
     {
       "id": "spo-man",
-      "competition": "UEFA Champions League (International Clubs)",
+      "competition": "UEFA Champions League, league phase matchday 5",
       "kickoff": "2026-11-25T20:00:00.000Z",
       "home": {
         "name": "Sporting CP",
@@ -1824,7 +2343,7 @@
         "name": "Manchester United",
         "short": "Manchester United"
       },
-      "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
+      "context": "Rotowire predicted XIs and absences (25 Nov morning). Man United are without Sesko and the suspended Cunha, so Zirkzee leads the line. Form, corners and cards from football-data.co.uk (each side's last 20 league games). Referee Szymon Marciniak (POL). Pinnacle prices from 25 Nov 01:25 UTC; nothing newer to adjust for.",
       "odds": {
         "h": 2.59,
         "d": 3.87,
@@ -1931,14 +2450,66 @@
           "text": "1X2 2.54/3.85/2.53, O/U 2.5 1.49/2.64"
         }
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Z. Debast, Nuno Santos.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: C. Baleba, M. Rashford, B. Sesko, M. Ugarte.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Suspended: Matheus Cunha.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: Karl Darlow, Luke Shaw.",
+          "src": "Rotowire"
+        }
+      ],
       "lineups": {
-        "status": "pending",
+        "status": "predicted",
+        "source": "Rotowire predicted XI (no formation shown), read 25 Nov morning.",
         "home": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "Kaique",
+            "Maxi Araujo",
+            "Goncalo Inacio",
+            "E. Quaresma",
+            "Ivan Fresneda",
+            "S. Altimira",
+            "Issa Doumbia",
+            "R. Zalazar",
+            "N. Irankunda",
+            "Geny",
+            "Luis Suarez"
+          ]
         },
         "away": {
-          "xi": []
+          "formation": "",
+          "xi": [
+            "S. Lammens",
+            "N. Mazraoui",
+            "H. Maguire",
+            "Leny Yoro",
+            "Diogo Dalot",
+            "Mason Mount",
+            "K. Mainoo",
+            "Bryan Mbeumo",
+            "Bruno Fernandes",
+            "Amad Diallo",
+            "J. Zirkzee"
+          ]
         }
       },
       "sources": [
@@ -1949,6 +2520,14 @@
         {
           "title": "football-data.co.uk results and match stats (Sp Lisbon, Man United: last 20 and 20 league games)",
           "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "Rotowire: Champions League predicted lineups (25 Nov)",
+          "url": "https://www.rotowire.com/soccer/lineups.php?league=UCL"
+        },
+        {
+          "title": "UEFA: Champions League matchday 5 referees (23 Nov 2026)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a9-218880e7a2aa-96adf63aa534-1000--who-is-the-referee-which-officials-are-in-charge-of-the-uefa/"
         }
       ],
       "form20": {
@@ -1985,6 +2564,192 @@
         "away": {
           "yellowsPg": 2.2,
           "redsPg": 0.2
+        }
+      },
+      "referee": {
+        "name": "Szymon Marciniak",
+        "country": "POL",
+        "note": "UEFA appointment (23 Nov). No per-game card figures gathered, so the engine uses its prior."
+      }
+    },
+    {
+      "id": "sto-mil",
+      "competition": "Championship (England)",
+      "kickoff": "2026-11-25T20:00:00.000Z",
+      "home": {
+        "name": "Stoke City",
+        "short": "Stoke"
+      },
+      "away": {
+        "name": "Millwall FC",
+        "short": "Millwall"
+      },
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Rotowire doesn't cover the Championship and no team news was gathered; lineups pending (the evening lineups runs fill confirmed XIs).",
+      "odds": {
+        "h": 2.32,
+        "d": 3.33,
+        "a": 3.29,
+        "ou": {
+          "1.5": [
+            1.328,
+            3.41
+          ],
+          "2.5": [
+            2.06,
+            1.819
+          ],
+          "3.5": [
+            3.58,
+            1.304
+          ],
+          "4.5": [
+            7.13,
+            1.108
+          ]
+        },
+        "btts": [
+          1.8,
+          2.05
+        ],
+        "corners": {
+          "9.5": [
+            1.571,
+            2.36
+          ],
+          "10.5": [
+            1.943,
+            1.854
+          ],
+          "11.5": [
+            2.37,
+            1.564
+          ]
+        },
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.31,
+            "away": 1.662
+          },
+          {
+            "line": 0,
+            "home": 1.645,
+            "away": 2.35
+          }
+        ],
+        "cards": {
+          "3.5": [
+            1.404,
+            2.73
+          ],
+          "4.5": [
+            1.99,
+            1.793
+          ],
+          "5.5": [
+            2.8,
+            1.384
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-25 05:26 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.3,
+          "d": 3.21,
+          "a": 3.28,
+          "ou": {
+            "0.5": [
+              1.04,
+              10.3
+            ],
+            "1.5": [
+              1.32,
+              3.33
+            ],
+            "2.5": [
+              2,
+              1.78
+            ],
+            "3.5": [
+              3.63,
+              1.27
+            ],
+            "4.5": [
+              7.6,
+              1.07
+            ]
+          },
+          "btts": [
+            1.82,
+            1.98
+          ],
+          "corners": {
+            "10.5": [
+              1.78,
+              1.86
+            ]
+          },
+          "text": "1X2 2.3/3.21/3.28, O/U 2.5 2/1.78"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-25 05:26 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Stoke, Millwall: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.35,
+          "ga": 1.4,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.55,
+          "ga": 1.5,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 1.56,
+          "ga": 1.13,
+          "corners": 6.65,
+          "fouls": 12.5,
+          "shots": 11.55,
+          "sot": 3.4
+        },
+        "away": {
+          "gf": 1.44,
+          "ga": 1.75,
+          "corners": 4.2,
+          "fouls": 11.65,
+          "shots": 14.15,
+          "sot": 4.1
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.9,
+          "redsPg": 0.15
+        },
+        "away": {
+          "yellowsPg": 2.15,
+          "redsPg": 0.1
         }
       }
     }

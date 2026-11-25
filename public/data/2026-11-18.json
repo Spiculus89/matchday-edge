@@ -1229,7 +1229,11 @@
           "title": "BetExplorer: Copa del Rey fixtures (kick-off times)",
           "url": "https://www.betexplorer.com/football/spain/copa-del-rey/"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 1
+      }
     },
     {
       "id": "reu-bar",
@@ -2249,7 +2253,6 @@
     }
   ],
   "gradingTodo": [
-    "dmi-car: result (90-minute score; Cartagena won 2-1 after extra time, so it was level at 90) and the Bet builder Under 3.5 goals + BTTS: No (p 0.513); the best bet Minera or draw is graded",
     "cfc-san: not settled from ESPN (missing stats or player lines): Josué 2+ shots; Jacy 2+ tackles; Gustavo Henrique 2+ tackles"
   ]
 }

@@ -47,7 +47,7 @@ const ALIAS = {
   "Betis": "Real Betis", "La Coruna": "Deportivo La Coruna", "M'gladbach": "Borussia Monchengladbach", "Ein Frankfurt": "Eintracht Frankfurt",
   "FC Koln": "Cologne", "Leverkusen": "Bayer Leverkusen", "Dortmund": "Borussia Dortmund", "Paris SG": "Paris Saint-Germain", "St Etienne": "Saint-Etienne",
   "Sp Lisbon": "Sporting CP", "Sp Braga": "Braga", "Inter": "Inter Milan Internazionale", "Milan": "AC Milan", "Verona": "Hellas Verona", "Hamburg": "Hamburger SV",
-  "St Truiden": "Sint-Truiden", "Nijmegen": "NEC Nijmegen", "For Sittard": "Fortuna Sittard", "Go Ahead Eagles": "Go Ahead Eagles", "Bodo/Glimt": "Bodoe/Glimt"
+  "St Truiden": "Sint-Truiden", "Nijmegen": "NEC Nijmegen", "For Sittard": "Fortuna Sittard", "Go Ahead Eagles": "Go Ahead Eagles", "Bodo/Glimt": "Bodoe/Glimt", "Lille": "Lille OSC"
 };
 
 export function parseCsv(text) {

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T08:49:28.112Z",
+  "updated": "2026-11-25T08:52:41.501Z",
   "note": "Every graded pick shown on the site. p = the chance shown at the time (bookmaker-implied for player props, which had no model then).",
   "legs": [
     {
@@ -2980,6 +2980,24 @@
       "p": 0.473,
       "odds": 2.18,
       "won": false
+    },
+    {
+      "date": "2026-11-18",
+      "match": "dmi-car",
+      "group": "Bet builder",
+      "pick": "Under 3.5 goals + BTTS: No",
+      "p": 0.513,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-23",
+      "match": "wie-lkp",
+      "group": "Result",
+      "pick": "Wieczysta Krakow or draw (Lean)",
+      "p": 0.644,
+      "odds": null,
+      "won": true
     }
   ]
 }
