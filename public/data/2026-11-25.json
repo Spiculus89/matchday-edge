@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updated": "2026-11-25T08:53:43.527Z",
+  "updated": "2026-11-25T16:58:43.790Z",
   "updateNote": "Morning update: Rotowire predicted XIs and absences, UEFA referees for the nine Champions League games; Stoke v Millwall added to complete the Championship round.",
   "matches": [
     {
@@ -136,38 +136,38 @@
         }
       ],
       "lineups": {
-        "status": "predicted",
-        "source": "Rotowire predicted XI (no formation shown), read 25 Nov morning.",
+        "status": "confirmed",
+        "source": "ESPN confirmed lineups, read 16:58 UTC",
         "home": {
-          "formation": "",
+          "formation": "4-2-3-1",
           "xi": [
-            "S. Pokatilov",
-            "T. Puchacz",
-            "Steve Solvet",
-            "R. Dasdamirov",
+            "Stas Pokatilov",
             "Akim Zedadka",
-            "I. Lepinjica",
-            "U. Rahmonaliyev",
-            "J. Mickels",
+            "Tymoteusz Puchacz",
+            "Ivan Lepinjica",
+            "Steve Solvet",
+            "Júnior Almeida",
+            "Xander Severina",
+            "Umarali Rakhmonaliev",
+            "Khayal Aliyev",
             "Du Queiroz",
-            "C. Nwachukwu",
-            "Orphe Mbina"
+            "Christian Nwachukwu"
           ]
         },
         "away": {
-          "formation": "",
+          "formation": "4-3-3",
           "xi": [
-            "Joan Garcia",
-            "Joao Cancelo",
-            "Pau Cubarsi",
-            "G. Martin",
-            "Eric Garcia",
+            "Joan García",
+            "Jules Koundé",
+            "Alejandro Balde",
+            "Gavi",
+            "Frenkie de Jong",
+            "Gerard Martín",
+            "Fermín López",
             "Pedri",
-            "Marc Bernal",
-            "A. Gordon",
-            "Fermin",
-            "K. Adeyemi",
-            "Raphinha"
+            "Gabriel Jesus",
+            "Karim Adeyemi",
+            "Anthony Gordon"
           ]
         }
       },
@@ -187,6 +187,10 @@
         {
           "title": "football-data.co.uk results and match stats (?, Barcelona: last 0 and 20 league games)",
           "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915378"
         }
       ],
       "referee": {
@@ -339,38 +343,38 @@
         }
       ],
       "lineups": {
-        "status": "predicted",
-        "source": "Rotowire predicted XI (no formation shown), read 25 Nov morning.",
+        "status": "confirmed",
+        "source": "ESPN confirmed lineups, read 16:58 UTC",
         "home": {
-          "formation": "",
+          "formation": "4-4-2",
           "xi": [
-            "J. Markovic",
-            "Tomas Holes",
-            "David Zima",
-            "A. N'Guessan",
-            "D. Jurasek",
-            "M. Sadilek",
+            "Jakub Markovic",
+            "Tomás Vlcek",
+            "Ange N'Guessan",
             "Wiktor Nowak",
-            "Tomas Vlcek",
-            "E. Ayaosi",
-            "M. Suleiman",
-            "M. Chytil"
+            "Tomás Holes",
+            "David Zima",
+            "Mubarak Suleiman",
+            "Michal Sadílek",
+            "Emmanuel Dennis Ayaosi",
+            "Mojmír Chytil",
+            "David Jurásek"
           ]
         },
         "away": {
-          "formation": "",
+          "formation": "4-4-2",
           "xi": [
-            "Peter Gulacsi",
+            "Luiz Júnior",
+            "Santiago Mouriño",
             "Sergi Cardona",
-            "Pau Navarro",
+            "Carlos Macià",
+            "Logan Costa",
             "Renato Veiga",
-            "Santiago Mourino",
-            "Carlos Macia",
+            "Tajon Buchanan",
             "Pape Gueye",
-            "T. Buchanan",
-            "Alberto Moleiro",
-            "Nicolas Pepe",
-            "Ayoze Perez"
+            "Tani Oluwaseyi",
+            "Ayoze Pérez",
+            "Alberto Moleiro"
           ]
         }
       },
@@ -386,6 +390,10 @@
         {
           "title": "UEFA: Champions League matchday 5 referees (23 Nov 2026)",
           "url": "https://www.uefa.com/uefachampionsleague/news/02a9-218880e7a2aa-96adf63aa534-1000--who-is-the-referee-which-officials-are-in-charge-of-the-uefa/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915293"
         }
       ],
       "referee": {
