@@ -19,45 +19,45 @@
       "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
       "odds": {
         "h": 2.41,
-        "d": 3.48,
-        "a": 2.94,
+        "d": 3.53,
+        "a": 3,
         "ou": {
           "1.5": [
-            1.327,
-            3.42
+            1.331,
+            3.45
           ],
           "2.5": [
-            2.06,
-            1.826
+            2.07,
+            1.833
           ],
           "3.5": [
-            3.61,
-            1.301
+            3.63,
+            1.305
           ],
           "4.5": [
-            7.15,
-            1.108
+            7.26,
+            1.111
           ]
         },
         "btts": [
-          1.826,
-          2.02
+          1.833,
+          2.03
         ],
         "ah": [
           {
             "line": -0.5,
-            "home": 2.42,
-            "away": 1.609
+            "home": 2.41,
+            "away": 1.628
           },
           {
             "line": 0,
-            "home": 1.757,
-            "away": 2.15
+            "home": 1.751,
+            "away": 2.18
           },
           {
             "line": 0.5,
             "home": 1.429,
-            "away": 2.93
+            "away": 2.97
           }
         ],
         "corners": {
@@ -70,12 +70,22 @@
             1.751
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-24 19:03 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "cards": {
+          "4.5": [
+            1.653,
+            2.15
+          ],
+          "5.5": [
+            2.3,
+            1.574
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-25 01:25 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
-          "h": 2.4,
+          "h": 2.36,
           "d": 3.26,
-          "a": 3.06,
+          "a": 3.12,
           "ou": {
             "0.5": [
               1.03,
@@ -102,7 +112,7 @@
             1.79,
             1.97
           ],
-          "text": "1X2 2.4/3.26/3.06, O/U 2.5 1.97/1.78"
+          "text": "1X2 2.36/3.26/3.12, O/U 2.5 1.97/1.78"
         }
       },
       "news": [],
