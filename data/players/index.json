@@ -405,6 +405,20 @@
    "espn": "Corinthians",
    "file": "bra.1-874.json",
    "fetched": "2026-11-25T15:56:23.632Z"
+  },
+  "Sao Paulo FC SP": {
+   "slug": "bra.1",
+   "id": "2026",
+   "espn": "São Paulo",
+   "file": "bra.1-2026.json",
+   "fetched": "2026-11-25T23:44:21.576Z"
+  },
+  "Clube do Remo PA": {
+   "slug": "bra.1",
+   "id": "4936",
+   "espn": "Remo",
+   "file": "bra.1-4936.json",
+   "fetched": "2026-11-25T23:44:21.742Z"
   }
  }
 }
