@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-27",
+  "updated": "2026-11-25T18:09:40.728Z",
+  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, news and lineups.",
+  "skeleton": true,
+  "matches": [
+    {
+      "id": "sao-clu",
+      "competition": "Brasileiro Serie A (Brazil)",
+      "kickoff": "2026-11-26T23:00:00.000Z",
+      "home": {
+        "name": "Sao Paulo FC SP",
+        "short": "Sao Paulo"
+      },
+      "away": {
+        "name": "Clube do Remo PA",
+        "short": "Clube do"
+      },
+      "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
+      "odds": {
+        "h": 1.348,
+        "d": 5.18,
+        "a": 8.83,
+        "ou": {
+          "1.5": [
+            1.214,
+            4.51
+          ],
+          "2.5": [
+            1.689,
+            2.24
+          ],
+          "3.5": [
+            2.7,
+            1.48
+          ],
+          "4.5": [
+            4.98,
+            1.184
+          ]
+        },
+        "btts": [
+          1.961,
+          1.869
+        ],
+        "ah": [
+          {
+            "line": -2,
+            "home": 3.06,
+            "away": 1.409
+          },
+          {
+            "line": -1.5,
+            "home": 2.07,
+            "away": 1.826
+          },
+          {
+            "line": -1,
+            "home": 1.546,
+            "away": 2.56
+          }
+        ],
+        "corners": {
+          "10.5": [
+            1.751,
+            2.03
+          ],
+          "11.5": [
+            2.21,
+            1.628
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-25 18:09 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.38,
+          "d": 4.95,
+          "a": 8.05,
+          "ou": {
+            "1.5": [
+              1.18,
+              4.45
+            ],
+            "2.5": [
+              1.63,
+              2.19
+            ],
+            "3.5": [
+              2.64,
+              1.44
+            ],
+            "4.5": [
+              4.9,
+              1.15
+            ],
+            "5.5": [
+              10.1,
+              1.03
+            ]
+          },
+          "btts": [
+            1.95,
+            1.76
+          ],
+          "text": "1X2 1.38/4.95/8.05, O/U 2.5 1.63/2.19"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-25 18:09 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Sao Paulo, Remo: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 0.9,
+          "ga": 1.15,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.1,
+          "ga": 1.7,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 0.94,
+          "ga": 1.17
+        },
+        "away": {
+          "gf": 1.11,
+          "ga": 1.78
+        }
+      }
+    }
+  ]
+}

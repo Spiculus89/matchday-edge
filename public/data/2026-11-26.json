@@ -18,24 +18,24 @@
       },
       "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
       "odds": {
-        "h": 2.67,
-        "d": 3.41,
-        "a": 2.81,
+        "h": 2.65,
+        "d": 3.4,
+        "a": 2.84,
         "ou": {
           "1.5": [
-            1.352,
-            3.37
+            1.353,
+            3.36
           ],
           "2.5": [
             2.12,
             1.793
           ],
           "3.5": [
-            3.76,
-            1.297
+            3.77,
+            1.296
           ],
           "4.5": [
-            7.67,
+            7.68,
             1.107
           ]
         },
@@ -46,18 +46,18 @@
         "ah": [
           {
             "line": -0.5,
-            "home": 2.66,
-            "away": 1.537
+            "home": 2.63,
+            "away": 1.546
           },
           {
             "line": 0,
-            "home": 1.917,
-            "away": 2.01
+            "home": 1.892,
+            "away": 2.03
           },
           {
             "line": 0.5,
-            "home": 1.495,
-            "away": 2.79
+            "home": 1.487,
+            "away": 2.82
           }
         ],
         "corners": {
@@ -80,7 +80,7 @@
             1.653
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-25 15:56 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-25 18:09 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 2.61,
