@@ -102,7 +102,7 @@
     }
   },
   "watch": {
-    "note": "Leagues fetched each morning (main book) so the daily build can pick games. Basketball and hockey paused 21 Nov (user request); football top five daily so Rotowire games are priced (max 5 IDs per request).",
+    "note": "Leagues fetched each morning (main book) so the daily build can pick games. Basketball and hockey pages paused 21 Nov (user request), but the NBA and NHL are watched again from 26 Nov so their skeleton files keep coming and the Grade Action can grade them (user request: more data). Football top five daily so Rotowire games are priced (max 5 IDs per request).",
     "football": {
       "daily": [
         17,
@@ -110,6 +110,16 @@
         8,
         35,
         34
+      ]
+    },
+    "basketball": {
+      "daily": [
+        132
+      ]
+    },
+    "hockey": {
+      "daily": [
+        234
       ]
     }
   }

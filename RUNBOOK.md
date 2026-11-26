@@ -64,7 +64,7 @@ This is what each scheduled run does. Each match follows the schema of the exist
 
 ## Basketball and ice hockey
 
-**Paused since 21 Nov 2026 (user request): football only.** Don't build, enrich or grade basketball or hockey; the pages show a paused notice and the menu links are removed. The steps below are kept for when they return.
+**Pages paused since 21 Nov 2026 (user request); data collection resumed 26 Nov (user request: more data for the model).** The pages show a paused notice and the menu links are removed, and research runs don't build or enrich these sports. Data is collected automatically: the morning odds run watches the NBA (132) and NHL (234) in `data/odds-config.json`, `build-skeleton.mjs` writes the Pinnacle-priced day files, and the `Grade` Action runs `scripts/grade-sports.mjs`, which settles NBA and NHL games from ESPN's scoreboard and appends the picks the engine showed (priced as at the start) to that sport's `results.json` with `shadow: true`, so the calibration keeps learning. European games (EuroLeague, ABA, KHL, SHL, Liiga) have no ESPN source and stay ungraded. The steps below are kept for when the pages return.
 
 The menu at the top switches between `index.html` (football), `basketball.html` and `hockey.html`. Each sport has its own folder: `public/data/basketball/` and `public/data/hockey/`, each with `index.json`, `<date>.json` and `results.json`. Use the newest day file as the template; the engines are `engine-basketball.js` (`HoopsEngine`) and `engine-hockey.js` (`HockeyEngine`).
 

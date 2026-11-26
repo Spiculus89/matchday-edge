@@ -21,6 +21,8 @@ jobs:
         run: node scripts/football-data.mjs fetch && node scripts/football-data.mjs attach || echo "::warning::football-data step failed"
       - name: Grade from ESPN
         run: node scripts/grade-espn.mjs ${{ github.event.inputs.dates }} ${{ github.event.inputs.dry == 'true' && '--dry' || '' }}
+      - name: Grade NBA and NHL from ESPN (pages paused, data still collected)
+        run: node scripts/grade-sports.mjs ${{ github.event.inputs.dates }} ${{ github.event.inputs.dry == 'true' && '--dry' || '' }} || echo "::warning::sports grading failed"
       - name: Check
         run: npm test
       - name: Commit
