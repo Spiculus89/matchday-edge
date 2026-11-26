@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updated": "2026-11-26T17:02:51.052Z",
+  "updated": "2026-11-26T19:45:33.284Z",
   "updateNote": "Morning update: all 18 Europa League (matchday 5) and 18 Conference League (matchday 4) games added unpriced; the 18:15 Warsaw odds run prices them.",
   "matches": [
     {
@@ -3898,13 +3898,40 @@
       "context": "Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "3-4-3",
+          "xi": [
+            "Andreas Hansen",
+            "Markus Walker",
+            "Juho Lähteenmäki",
+            "Noah Markmann",
+            "Victor Nelsson",
+            "Peter Ankersen",
+            "Justin Janssen",
+            "Nicklas Rojkjaer",
+            "Alexander Lind",
+            "Mamadou Sadio",
+            "Ibrahim Adel"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-2-3-1",
+          "xi": [
+            "Iñaki Peña",
+            "Triantafyllos Tsapras",
+            "Davide Calabria",
+            "Kings Kangwa",
+            "Georgios Katris",
+            "Rick Van Drongelen",
+            "Andrews Tetteh",
+            "Etienne Camara",
+            "Elmin Rastoder",
+            "Adriano Jagusic",
+            "Facundo Pellistri"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
@@ -3918,6 +3945,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915807"
         }
       ],
       "form20": {
@@ -4064,7 +4095,7 @@
           {
             "name": "Andreas Hansen",
             "pos": "GK",
-            "start": 0.9,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -4075,74 +4106,9 @@
             "mins": 1350
           },
           {
-            "name": "Runar Norheim",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 17,
-            "goals": 2,
-            "assists": 4,
-            "shots90": 1.26,
-            "sot90": 0.59,
-            "fouls90": 0.45,
-            "tackles90": 1.19,
-            "mins": 1211
-          },
-          {
-            "name": "Juho Lähteenmäki",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 10,
-            "goals": 1,
-            "assists": 2,
-            "shots90": 0.79,
-            "sot90": 0.16,
-            "fouls90": 0.63,
-            "tackles90": 1.1,
-            "mins": 1143
-          },
-          {
-            "name": "Justin Janssen",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 16,
-            "goals": 3,
-            "assists": 1,
-            "shots90": 1.22,
-            "sot90": 0.53,
-            "fouls90": 1.22,
-            "tackles90": 2.89,
-            "mins": 1183
-          },
-          {
-            "name": "Noah Markmann",
-            "pos": "DF",
-            "start": 0.85,
-            "shots": 10,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.87,
-            "sot90": 0,
-            "fouls90": 1.48,
-            "tackles90": 2.78,
-            "mins": 1035
-          },
-          {
-            "name": "Alexander Lind",
-            "pos": "FW",
-            "start": 0.78,
-            "shots": 25,
-            "goals": 8,
-            "assists": 5,
-            "shots90": 2.63,
-            "sot90": 1.16,
-            "fouls90": 1.48,
-            "tackles90": 0.53,
-            "mins": 854
-          },
-          {
             "name": "Peter Ankersen",
             "pos": "DF",
-            "start": 0.72,
+            "start": 1,
             "shots": 11,
             "goals": 1,
             "assists": 1,
@@ -4153,61 +4119,9 @@
             "mins": 865
           },
           {
-            "name": "Tobias Salquist",
-            "pos": "DF",
-            "start": 0.72,
-            "shots": 5,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.56,
-            "sot90": 0.11,
-            "fouls90": 0.45,
-            "tackles90": 1.56,
-            "mins": 806
-          },
-          {
-            "name": "Ibrahim Adel",
-            "pos": "FW",
-            "start": 0.72,
-            "shots": 38,
-            "goals": 5,
-            "assists": 4,
-            "shots90": 3.78,
-            "sot90": 1.59,
-            "fouls90": 1.49,
-            "tackles90": 1.79,
-            "mins": 905
-          },
-          {
-            "name": "Mark Brink Christensen",
-            "pos": "MF",
-            "start": 0.65,
-            "shots": 7,
-            "goals": 1,
-            "assists": 3,
-            "shots90": 0.84,
-            "sot90": 0.36,
-            "fouls90": 1.2,
-            "tackles90": 2.04,
-            "mins": 750
-          },
-          {
-            "name": "Nicklas Rojkjaer",
-            "pos": "MF",
-            "start": 0.58,
-            "shots": 15,
-            "goals": 2,
-            "assists": 4,
-            "shots90": 1.84,
-            "sot90": 0.86,
-            "fouls90": 0.74,
-            "tackles90": 2.09,
-            "mins": 732
-          },
-          {
             "name": "Victor Nelsson",
             "pos": "DF",
-            "start": 0.52,
+            "start": 1,
             "shots": 2,
             "goals": 0,
             "assists": 0,
@@ -4218,22 +4132,152 @@
             "mins": 630
           },
           {
-            "name": "Prince Amoako",
-            "pos": "FW",
-            "start": 0.52,
-            "shots": 33,
+            "name": "Juho Lähteenmäki",
+            "pos": "DF",
+            "start": 1,
+            "shots": 10,
+            "goals": 1,
+            "assists": 2,
+            "shots90": 0.79,
+            "sot90": 0.16,
+            "fouls90": 0.63,
+            "tackles90": 1.1,
+            "mins": 1143
+          },
+          {
+            "name": "Noah Markmann",
+            "pos": "DF",
+            "start": 1,
+            "shots": 10,
             "goals": 0,
             "assists": 0,
-            "shots90": 4.97,
-            "sot90": 1.06,
-            "fouls90": 1.06,
-            "tackles90": 0.9,
-            "mins": 597
+            "shots90": 0.87,
+            "sot90": 0,
+            "fouls90": 1.48,
+            "tackles90": 2.78,
+            "mins": 1035
+          },
+          {
+            "name": "Markus Walker",
+            "pos": "DF",
+            "start": 1,
+            "shots": 3,
+            "goals": 2,
+            "assists": 1,
+            "shots90": 1.1,
+            "sot90": 0.73,
+            "fouls90": 0.37,
+            "tackles90": 0.73,
+            "mins": 246
+          },
+          {
+            "name": "Nicklas Rojkjaer",
+            "pos": "MF",
+            "start": 1,
+            "shots": 15,
+            "goals": 2,
+            "assists": 4,
+            "shots90": 1.84,
+            "sot90": 0.86,
+            "fouls90": 0.74,
+            "tackles90": 2.09,
+            "mins": 732
+          },
+          {
+            "name": "Mamadou Sadio",
+            "pos": "MF",
+            "start": 1,
+            "shots": 9,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 2.21,
+            "sot90": 0.74,
+            "fouls90": 1.72,
+            "tackles90": 1.96,
+            "mins": 367
+          },
+          {
+            "name": "Justin Janssen",
+            "pos": "MF",
+            "start": 1,
+            "shots": 16,
+            "goals": 3,
+            "assists": 1,
+            "shots90": 1.22,
+            "sot90": 0.53,
+            "fouls90": 1.22,
+            "tackles90": 2.89,
+            "mins": 1183
+          },
+          {
+            "name": "Alexander Lind",
+            "pos": "FW",
+            "start": 1,
+            "shots": 25,
+            "goals": 8,
+            "assists": 5,
+            "shots90": 2.63,
+            "sot90": 1.16,
+            "fouls90": 1.48,
+            "tackles90": 0.53,
+            "mins": 854
+          },
+          {
+            "name": "Ibrahim Adel",
+            "pos": "FW",
+            "start": 1,
+            "shots": 38,
+            "goals": 5,
+            "assists": 4,
+            "shots90": 3.78,
+            "sot90": 1.59,
+            "fouls90": 1.49,
+            "tackles90": 1.79,
+            "mins": 905
+          },
+          {
+            "name": "Tobias Salquist",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 5,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 0.56,
+            "sot90": 0.11,
+            "fouls90": 0.45,
+            "tackles90": 1.56,
+            "mins": 806
+          },
+          {
+            "name": "Runar Norheim",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 17,
+            "goals": 2,
+            "assists": 4,
+            "shots90": 1.26,
+            "sot90": 0.59,
+            "fouls90": 0.45,
+            "tackles90": 1.19,
+            "mins": 1211
+          },
+          {
+            "name": "Mark Brink Christensen",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 7,
+            "goals": 1,
+            "assists": 3,
+            "shots90": 0.84,
+            "sot90": 0.36,
+            "fouls90": 1.2,
+            "tackles90": 2.04,
+            "mins": 750
           },
           {
             "name": "Villum Berthelsen",
             "pos": "MF",
-            "start": 0.45,
+            "start": 0.12,
             "shots": 17,
             "goals": 1,
             "assists": 0,
@@ -4246,7 +4290,7 @@
           {
             "name": "Hjalte Boe Rasmussen",
             "pos": "MF",
-            "start": 0.45,
+            "start": 0.12,
             "shots": 21,
             "goals": 4,
             "assists": 2,
@@ -4257,50 +4301,20 @@
             "mins": 661
           },
           {
-            "name": "Stephen Acquah",
-            "pos": "DF",
-            "start": 0.38,
-            "shots": 7,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 1.13,
-            "sot90": 0.32,
-            "fouls90": 0.64,
-            "tackles90": 0.64,
-            "mins": 560
-          },
-          {
-            "name": "Mamadou Sadio",
+            "name": "Malte Heyde",
             "pos": "MF",
-            "start": 0.32,
-            "shots": 9,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 2.21,
-            "sot90": 0.74,
-            "fouls90": 1.72,
-            "tackles90": 1.96,
-            "mins": 367
-          },
-          {
-            "name": "Markus Walker",
-            "pos": "DF",
-            "start": 0.25,
-            "shots": 3,
-            "goals": 2,
-            "assists": 1,
-            "shots90": 1.1,
-            "sot90": 0.73,
-            "fouls90": 0.37,
-            "tackles90": 0.73,
-            "mins": 246
+            "start": 0.12,
+            "shots": 4,
+            "goals": 1,
+            "assists": 0,
+            "mins": 130
           }
         ],
         "away": [
           {
             "name": "Iñaki Peña",
             "pos": "GK",
-            "start": 0.9,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -4311,22 +4325,9 @@
             "mins": 990
           },
           {
-            "name": "Stefan de Vrij",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 5,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 0.45,
-            "sot90": 0.27,
-            "fouls90": 0.45,
-            "tackles90": 1,
-            "mins": 990
-          },
-          {
             "name": "Davide Calabria",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 9,
             "goals": 3,
             "assists": 0,
@@ -4339,7 +4340,7 @@
           {
             "name": "Rick Van Drongelen",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 4,
             "goals": 0,
             "assists": 0,
@@ -4350,48 +4351,18 @@
             "mins": 990
           },
           {
-            "name": "Santino Andino",
-            "pos": "FW",
-            "start": 0.9,
-            "shots": 12,
-            "goals": 1,
-            "assists": 1,
-            "shots90": 1.32,
-            "sot90": 0.44,
-            "fouls90": 2.75,
-            "tackles90": 1.87,
-            "mins": 817
-          },
-          {
-            "name": "Etienne Camara",
-            "pos": "MF",
-            "start": 0.87,
-            "shots": 6,
+            "name": "Georgios Katris",
+            "pos": "DF",
+            "start": 1,
+            "shots": 0,
             "goals": 0,
             "assists": 0,
-            "shots90": 0.77,
-            "sot90": 0,
-            "fouls90": 1.8,
-            "tackles90": 3.09,
-            "mins": 700
-          },
-          {
-            "name": "Georgios Kyriakopoulos",
-            "pos": "DF",
-            "start": 0.78,
-            "shots": 6,
-            "goals": 0,
-            "assists": 3,
-            "shots90": 0.77,
-            "sot90": 0.13,
-            "fouls90": 0.9,
-            "tackles90": 0.9,
-            "mins": 698
+            "mins": 1
           },
           {
             "name": "Kings Kangwa",
             "pos": "MF",
-            "start": 0.78,
+            "start": 1,
             "shots": 12,
             "goals": 1,
             "assists": 3,
@@ -4402,22 +4373,58 @@
             "mins": 669
           },
           {
-            "name": "Levi García",
-            "pos": "FW",
-            "start": 0.78,
-            "shots": 22,
+            "name": "Facundo Pellistri",
+            "pos": "MF",
+            "start": 1,
+            "shots": 0,
+            "goals": 0,
+            "assists": 0,
+            "mins": 44
+          },
+          {
+            "name": "Etienne Camara",
+            "pos": "MF",
+            "start": 1,
+            "shots": 6,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.77,
+            "sot90": 0,
+            "fouls90": 1.8,
+            "tackles90": 3.09,
+            "mins": 700
+          },
+          {
+            "name": "Triantafyllos Tsapras",
+            "pos": "MF",
+            "start": 1,
+            "shots": 0,
+            "goals": 0,
+            "assists": 0,
+            "mins": 39
+          },
+          {
+            "name": "Adriano Jagusic",
+            "pos": "MF",
+            "start": 1,
+            "shots": 5,
             "goals": 1,
             "assists": 0,
-            "shots90": 2.69,
-            "sot90": 0.86,
-            "fouls90": 1.59,
-            "tackles90": 0.86,
-            "mins": 735
+            "mins": 101
+          },
+          {
+            "name": "Elmin Rastoder",
+            "pos": "FW",
+            "start": 1,
+            "shots": 2,
+            "goals": 1,
+            "assists": 0,
+            "mins": 88
           },
           {
             "name": "Andrews Tetteh",
             "pos": "FW",
-            "start": 0.78,
+            "start": 1,
             "shots": 26,
             "goals": 5,
             "assists": 2,
@@ -4428,35 +4435,44 @@
             "mins": 715
           },
           {
-            "name": "Vicente Taborda",
-            "pos": "FW",
-            "start": 0.69,
-            "shots": 14,
-            "goals": 3,
-            "assists": 1,
-            "shots90": 2.12,
-            "sot90": 0.61,
-            "fouls90": 0.91,
-            "tackles90": 1.66,
-            "mins": 595
+            "name": "Stefan de Vrij",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 5,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 0.45,
+            "sot90": 0.27,
+            "fouls90": 0.45,
+            "tackles90": 1,
+            "mins": 990
           },
           {
-            "name": "Cyriel Dessers",
-            "pos": "FW",
-            "start": 0.6,
-            "shots": 22,
-            "goals": 4,
-            "assists": 0,
-            "shots90": 3.78,
-            "sot90": 1.72,
-            "fouls90": 2.06,
-            "tackles90": 0.34,
-            "mins": 524
+            "name": "Georgios Kyriakopoulos",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 6,
+            "goals": 0,
+            "assists": 3,
+            "shots90": 0.77,
+            "sot90": 0.13,
+            "fouls90": 0.9,
+            "tackles90": 0.9,
+            "mins": 698
+          },
+          {
+            "name": "Pedro Chirivella",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 0,
+            "goals": 0,
+            "assists": 1,
+            "mins": 22
           },
           {
             "name": "Imran Louza",
             "pos": "MF",
-            "start": 0.5,
+            "start": 0.12,
             "shots": 7,
             "goals": 1,
             "assists": 2,
@@ -4469,7 +4485,7 @@
           {
             "name": "Azzedine Ounahi",
             "pos": "MF",
-            "start": 0.41,
+            "start": 0.12,
             "shots": 3,
             "goals": 1,
             "assists": 0,
@@ -4480,44 +4496,30 @@
             "mins": 281
           },
           {
-            "name": "Anass Salah-Eddine",
-            "pos": "DF",
-            "start": 0.32,
-            "shots": 5,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 1.55,
-            "sot90": 0.31,
-            "fouls90": 0.62,
-            "tackles90": 2.47,
-            "mins": 291
-          },
-          {
-            "name": "Pedro Chirivella",
-            "pos": "MF",
-            "start": 0.05,
-            "shots": 0,
-            "goals": 0,
-            "assists": 1,
-            "mins": 22
-          },
-          {
-            "name": "Adriano Jagusic",
-            "pos": "MF",
-            "start": 0.05,
-            "shots": 5,
-            "goals": 1,
-            "assists": 0,
-            "mins": 101
-          },
-          {
-            "name": "Elmin Rastoder",
+            "name": "Cyriel Dessers",
             "pos": "FW",
-            "start": 0.05,
-            "shots": 2,
+            "start": 0.12,
+            "shots": 22,
+            "goals": 4,
+            "assists": 0,
+            "shots90": 3.78,
+            "sot90": 1.72,
+            "fouls90": 2.06,
+            "tackles90": 0.34,
+            "mins": 524
+          },
+          {
+            "name": "Levi García",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 22,
             "goals": 1,
             "assists": 0,
-            "mins": 88
+            "shots90": 2.69,
+            "sot90": 0.86,
+            "fouls90": 1.59,
+            "tackles90": 0.86,
+            "mins": 735
           }
         ]
       },
@@ -4550,18 +4552,49 @@
       "context": "No form: football-data.co.uk doesn't cover Borac or Atalanta's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "Mladen Jurkas",
+            "Branimir Cipetic",
+            "Sebastián Herrera",
+            "Matej Deket",
+            "Bart Meijers",
+            "Jurich Carolina",
+            "Omar Sijaric",
+            "Amer Hiros",
+            "Luka Juricic",
+            "Milos Jojic",
+            "David Vukovic"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-2-3-1",
+          "xi": [
+            "Marco Sportiello",
+            "Davide Zappacosta",
+            "Lorenzo Bernasconi",
+            "Mario Pasalic",
+            "Giorgio Scalvini",
+            "Sead Kolasinac",
+            "Jon Rowe",
+            "Éderson",
+            "Gianluca Scamacca",
+            "Giacomo Raspadori",
+            "Nicola Zalewski"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915806"
         }
       ],
       "odds": {
@@ -4690,18 +4723,49 @@
       "context": "No form: football-data.co.uk doesn't cover Hajduk Split or Sint-Truiden's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "Toni Silic",
+            "Mathieu Acapandié",
+            "Simun Hrgovic",
+            "Alberto Del Moral",
+            "Dennis Hadzikadunic",
+            "Dario Maresic",
+            "Abdoulie Sanyang",
+            "Khalil Fayad",
+            "Carlos Martín",
+            "Dali",
+            "Marin Soticek"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-3-3",
+          "xi": [
+            "Leo Brian Kokubo",
+            "Taiga Hata",
+            "Joederik Pupe",
+            "Abdoulage Sissako",
+            "Shogo Taniguchi",
+            "Visar Musliu",
+            "Shion Shinkawa",
+            "Nelson Ishiwatari",
+            "Samed Bazdar",
+            "Robert-Jan Vanwesemael",
+            "Ilias Sebaoui"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915805"
         }
       ],
       "odds": {
@@ -5125,18 +5189,49 @@
       "context": "No form: football-data.co.uk doesn't cover CSKA Sofia or Trabzonspor's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "5-3-2",
+          "xi": [
+            "Fedor Lapoukhov",
+            "Tamimou Ouorou",
+            "Ángelo Martino",
+            "Facundo Rodríguez",
+            "Jean-Philippe Gbamin",
+            "Dinis Almeida",
+            "Max Ebong",
+            "Bruno Jordão",
+            "Joël Zwarts",
+            "Santiago Godoy",
+            "Stefano Sensi"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-3-3",
+          "xi": [
+            "André Onana",
+            "Wagner Pina",
+            "Sidny Lopes Cabral",
+            "Benjamin Bouchouari",
+            "Chibuike Nwaiwu",
+            "Cenk Özkacar",
+            "Batista Mendy",
+            "Melih Kabasakal",
+            "Paul Onuachu",
+            "Mohamed Salah",
+            "Noah Saviolo"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915803"
         }
       ],
       "odds": {
@@ -5269,18 +5364,49 @@
       "context": "No form: football-data.co.uk doesn't cover Braga or KuPS's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Bernardo",
+            "Diogo Travassos",
+            "Víctor Gómez",
+            "Mario Dorgeles",
+            "Gustaf Lagerbielke",
+            "Adrian Leon Barisic",
+            "Gorby",
+            "João Moutinho",
+            "Fran Navarro",
+            "Pau Víctor",
+            "Gabri Martínez"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-2-3-1",
+          "xi": [
+            "Johannes Kreidl",
+            "Saku Savolainen",
+            "Niilo Kujasalo",
+            "Valentín Gasc",
+            "Taneli Hämäläinen",
+            "Arttu Lotjonen",
+            "Ayman Aiki",
+            "Samuel Pasanen",
+            "Jaime Moreno",
+            "Petteri Pennanen",
+            "Julius Eskesen"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915802"
         }
       ],
       "odds": {
@@ -5409,13 +5535,40 @@
       "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "Mio Backhaus",
+            "Lukas Kübler",
+            "Christian Günter",
+            "Yannick Engelhardt",
+            "Matthias Ginter",
+            "Max Rosenfelder",
+            "Cyriaque Irié",
+            "Maximilian Eggestein",
+            "Igor Matanovic",
+            "Yuito Suzuki",
+            "Vincenzo Grifo"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-3-3",
+          "xi": [
+            "Joel Drommel",
+            "Bart van Rooij",
+            "Aske Adelgaard",
+            "Younes Taha",
+            "Robin Pröpper",
+            "Ruud Nijstad",
+            "Ramiz Zerrouki",
+            "Daouda Weidmann",
+            "Wout Weghorst",
+            "Daan Rots",
+            "Sondre Ørjasaeter"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
@@ -5429,6 +5582,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915801"
         }
       ],
       "form20": {
@@ -5587,7 +5744,7 @@
           {
             "name": "Mio Backhaus",
             "pos": "GK",
-            "start": 0.9,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -5600,7 +5757,7 @@
           {
             "name": "Matthias Ginter",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 14,
             "goals": 0,
             "assists": 3,
@@ -5611,139 +5768,9 @@
             "mins": 900
           },
           {
-            "name": "Philipp Lienhart",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 1,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.1,
-            "sot90": 0,
-            "fouls90": 0.73,
-            "tackles90": 1.14,
-            "mins": 866
-          },
-          {
-            "name": "Jordy Makengo",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 3,
-            "goals": 0,
-            "assists": 2,
-            "shots90": 0.3,
-            "sot90": 0.1,
-            "fouls90": 0.6,
-            "tackles90": 1,
-            "mins": 900
-          },
-          {
-            "name": "Maximilian Eggestein",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 15,
-            "goals": 3,
-            "assists": 0,
-            "shots90": 1.5,
-            "sot90": 0.5,
-            "fouls90": 0.5,
-            "tackles90": 1.3,
-            "mins": 900
-          },
-          {
-            "name": "Niklas Beste",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 11,
-            "goals": 0,
-            "assists": 2,
-            "shots90": 1.36,
-            "sot90": 0.12,
-            "fouls90": 0.37,
-            "tackles90": 1.36,
-            "mins": 726
-          },
-          {
-            "name": "Yannick Engelhardt",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 9,
-            "goals": 2,
-            "assists": 1,
-            "shots90": 1.08,
-            "sot90": 0.36,
-            "fouls90": 1.2,
-            "tackles90": 1.2,
-            "mins": 753
-          },
-          {
-            "name": "Derry Scherhant",
-            "pos": "FW",
-            "start": 0.9,
-            "shots": 21,
-            "goals": 2,
-            "assists": 3,
-            "shots90": 2.48,
-            "sot90": 0.83,
-            "fouls90": 1.77,
-            "tackles90": 1.54,
-            "mins": 762
-          },
-          {
-            "name": "Philipp Treu",
-            "pos": "DF",
-            "start": 0.85,
-            "shots": 2,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.26,
-            "sot90": 0.13,
-            "fouls90": 0.65,
-            "tackles90": 2.59,
-            "mins": 695
-          },
-          {
-            "name": "Yuito Suzuki",
-            "pos": "MF",
-            "start": 0.85,
-            "shots": 13,
-            "goals": 5,
-            "assists": 0,
-            "shots90": 1.82,
-            "sot90": 0.98,
-            "fouls90": 1.4,
-            "tackles90": 1.12,
-            "mins": 643
-          },
-          {
-            "name": "Igor Matanovic",
-            "pos": "FW",
-            "start": 0.85,
-            "shots": 34,
-            "goals": 5,
-            "assists": 1,
-            "shots90": 4.33,
-            "sot90": 2.04,
-            "fouls90": 1.02,
-            "tackles90": 1.78,
-            "mins": 707
-          },
-          {
-            "name": "Lucas Höler",
-            "pos": "FW",
-            "start": 0.35,
-            "shots": 8,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 2.73,
-            "sot90": 0.34,
-            "fouls90": 2.05,
-            "tackles90": 2.05,
-            "mins": 264
-          },
-          {
             "name": "Lukas Kübler",
             "pos": "DF",
-            "start": 0.25,
+            "start": 1,
             "shots": 3,
             "goals": 0,
             "assists": 0,
@@ -5754,9 +5781,128 @@
             "mins": 226
           },
           {
+            "name": "Max Rosenfelder",
+            "pos": "DF",
+            "start": 1,
+            "shots": 0,
+            "goals": 0,
+            "assists": 0,
+            "mins": 48
+          },
+          {
+            "name": "Vincenzo Grifo",
+            "pos": "MF",
+            "start": 1,
+            "shots": 7,
+            "goals": 0,
+            "assists": 2,
+            "pens": true,
+            "mins": 138
+          },
+          {
+            "name": "Maximilian Eggestein",
+            "pos": "MF",
+            "start": 1,
+            "shots": 15,
+            "goals": 3,
+            "assists": 0,
+            "shots90": 1.5,
+            "sot90": 0.5,
+            "fouls90": 0.5,
+            "tackles90": 1.3,
+            "mins": 900
+          },
+          {
+            "name": "Yuito Suzuki",
+            "pos": "MF",
+            "start": 1,
+            "shots": 13,
+            "goals": 5,
+            "assists": 0,
+            "shots90": 1.82,
+            "sot90": 0.98,
+            "fouls90": 1.4,
+            "tackles90": 1.12,
+            "mins": 643
+          },
+          {
+            "name": "Yannick Engelhardt",
+            "pos": "MF",
+            "start": 1,
+            "shots": 9,
+            "goals": 2,
+            "assists": 1,
+            "shots90": 1.08,
+            "sot90": 0.36,
+            "fouls90": 1.2,
+            "tackles90": 1.2,
+            "mins": 753
+          },
+          {
+            "name": "Igor Matanovic",
+            "pos": "FW",
+            "start": 1,
+            "shots": 34,
+            "goals": 5,
+            "assists": 1,
+            "shots90": 4.33,
+            "sot90": 2.04,
+            "fouls90": 1.02,
+            "tackles90": 1.78,
+            "mins": 707
+          },
+          {
+            "name": "Cyriaque Irié",
+            "pos": "FW",
+            "start": 1,
+            "shots": 7,
+            "goals": 1,
+            "assists": 0,
+            "mins": 139
+          },
+          {
+            "name": "Philipp Treu",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 2,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 0.26,
+            "sot90": 0.13,
+            "fouls90": 0.65,
+            "tackles90": 2.59,
+            "mins": 695
+          },
+          {
+            "name": "Jordy Makengo",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 3,
+            "goals": 0,
+            "assists": 2,
+            "shots90": 0.3,
+            "sot90": 0.1,
+            "fouls90": 0.6,
+            "tackles90": 1,
+            "mins": 900
+          },
+          {
+            "name": "Niklas Beste",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 11,
+            "goals": 0,
+            "assists": 2,
+            "shots90": 1.36,
+            "sot90": 0.12,
+            "fouls90": 0.37,
+            "tackles90": 1.36,
+            "mins": 726
+          },
+          {
             "name": "Keisuke Goto",
             "pos": "FW",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 2,
             "goals": 1,
             "assists": 0,
@@ -5767,30 +5913,37 @@
             "mins": 181
           },
           {
-            "name": "Vincenzo Grifo",
-            "pos": "MF",
-            "start": 0.05,
-            "shots": 7,
-            "goals": 0,
-            "assists": 2,
-            "pens": true,
-            "mins": 138
-          },
-          {
-            "name": "Cyriaque Irié",
+            "name": "Derry Scherhant",
             "pos": "FW",
-            "start": 0.05,
-            "shots": 7,
-            "goals": 1,
-            "assists": 0,
-            "mins": 139
+            "start": 0.12,
+            "shots": 21,
+            "goals": 2,
+            "assists": 3,
+            "shots90": 2.48,
+            "sot90": 0.83,
+            "fouls90": 1.77,
+            "tackles90": 1.54,
+            "mins": 762
           }
         ],
         "away": [
           {
+            "name": "Joel Drommel",
+            "pos": "GK",
+            "start": 1,
+            "shots": 0,
+            "goals": 0,
+            "assists": 2,
+            "shots90": 0,
+            "sot90": 0,
+            "fouls90": 0,
+            "tackles90": 0,
+            "mins": 630
+          },
+          {
             "name": "Robin Pröpper",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 20,
             "goals": 2,
             "assists": 0,
@@ -5803,7 +5956,7 @@
           {
             "name": "Bart van Rooij",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 7,
             "goals": 0,
             "assists": 1,
@@ -5814,9 +5967,22 @@
             "mins": 1082
           },
           {
+            "name": "Aske Adelgaard",
+            "pos": "DF",
+            "start": 1,
+            "shots": 5,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 0.55,
+            "sot90": 0.22,
+            "fouls90": 1.77,
+            "tackles90": 2.32,
+            "mins": 813
+          },
+          {
             "name": "Ruud Nijstad",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 8,
             "goals": 1,
             "assists": 0,
@@ -5829,7 +5995,7 @@
           {
             "name": "Ramiz Zerrouki",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 18,
             "goals": 2,
             "assists": 1,
@@ -5843,7 +6009,7 @@
           {
             "name": "Daouda Weidmann",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 38,
             "goals": 3,
             "assists": 2,
@@ -5856,7 +6022,7 @@
           {
             "name": "Wout Weghorst",
             "pos": "FW",
-            "start": 0.9,
+            "start": 1,
             "shots": 41,
             "goals": 9,
             "assists": 2,
@@ -5868,48 +6034,9 @@
             "mins": 1101
           },
           {
-            "name": "Sondre Ørjasaeter",
-            "pos": "FW",
-            "start": 0.9,
-            "shots": 26,
-            "goals": 2,
-            "assists": 7,
-            "shots90": 2.61,
-            "sot90": 0.8,
-            "fouls90": 0.2,
-            "tackles90": 0.7,
-            "mins": 897
-          },
-          {
-            "name": "Aske Adelgaard",
-            "pos": "DF",
-            "start": 0.82,
-            "shots": 5,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.55,
-            "sot90": 0.22,
-            "fouls90": 1.77,
-            "tackles90": 2.32,
-            "mins": 813
-          },
-          {
-            "name": "Younes Taha",
-            "pos": "FW",
-            "start": 0.82,
-            "shots": 28,
-            "goals": 2,
-            "assists": 3,
-            "shots90": 2.93,
-            "sot90": 0.94,
-            "fouls90": 1.36,
-            "tackles90": 1.25,
-            "mins": 861
-          },
-          {
             "name": "Daan Rots",
             "pos": "FW",
-            "start": 0.74,
+            "start": 1,
             "shots": 27,
             "goals": 3,
             "assists": 1,
@@ -5920,48 +6047,35 @@
             "mins": 809
           },
           {
-            "name": "Joel Drommel",
-            "pos": "GK",
-            "start": 0.59,
-            "shots": 0,
-            "goals": 0,
-            "assists": 2,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 630
-          },
-          {
-            "name": "Lars Unnerstall",
-            "pos": "GK",
-            "start": 0.51,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 540
-          },
-          {
-            "name": "Marko Pjaca",
+            "name": "Younes Taha",
             "pos": "FW",
-            "start": 0.51,
-            "shots": 10,
-            "goals": 3,
-            "assists": 0,
-            "shots90": 1.68,
-            "sot90": 0.84,
-            "fouls90": 0.67,
-            "tackles90": 0.84,
-            "mins": 537
+            "start": 1,
+            "shots": 28,
+            "goals": 2,
+            "assists": 3,
+            "shots90": 2.93,
+            "sot90": 0.94,
+            "fouls90": 1.36,
+            "tackles90": 1.25,
+            "mins": 861
+          },
+          {
+            "name": "Sondre Ørjasaeter",
+            "pos": "FW",
+            "start": 1,
+            "shots": 26,
+            "goals": 2,
+            "assists": 7,
+            "shots90": 2.61,
+            "sot90": 0.8,
+            "fouls90": 0.2,
+            "tackles90": 0.7,
+            "mins": 897
           },
           {
             "name": "Max Bruns",
             "pos": "DF",
-            "start": 0.43,
+            "start": 0.12,
             "shots": 3,
             "goals": 0,
             "assists": 1,
@@ -5974,7 +6088,7 @@
           {
             "name": "Thomas van den Belt",
             "pos": "MF",
-            "start": 0.2,
+            "start": 0.12,
             "shots": 13,
             "goals": 1,
             "assists": 1,
@@ -5987,7 +6101,7 @@
           {
             "name": "Kristian Hlynsson",
             "pos": "MF",
-            "start": 0.13,
+            "start": 0.12,
             "shots": 7,
             "goals": 0,
             "assists": 1,
@@ -5996,16 +6110,29 @@
           {
             "name": "Jordy Bawuah",
             "pos": "MF",
-            "start": 0.05,
+            "start": 0.12,
             "shots": 3,
             "goals": 1,
             "assists": 0,
             "mins": 60
           },
           {
+            "name": "Marko Pjaca",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 10,
+            "goals": 3,
+            "assists": 0,
+            "shots90": 1.68,
+            "sot90": 0.84,
+            "fouls90": 0.67,
+            "tackles90": 0.84,
+            "mins": 537
+          },
+          {
             "name": "Lucas Vennegoor Of Hesselink",
             "pos": "FW",
-            "start": 0.05,
+            "start": 0.12,
             "shots": 8,
             "goals": 1,
             "assists": 0,
@@ -6042,13 +6169,40 @@
       "context": "No form: football-data.co.uk doesn't cover Sparta Prague or AZ's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Jakub Surovcik",
+            "Ki-Jana Hoever",
+            "Viktor Vitályos",
+            "Sivert Mannsverk",
+            "Loïc Mbe Soh",
+            "Jaroslav Zelený",
+            "Patrik Vydra",
+            "Andrew Irving",
+            "Jonatan Brunes",
+            "John Mercado",
+            "Josimar Alcócer"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-3-3",
+          "xi": [
+            "Jari De Busser",
+            "Denso Kasius",
+            "Mees De Wit",
+            "Valdemar Byskov",
+            "Wouter Goes",
+            "Wesley Hoedt",
+            "Jordy Clasie",
+            "Peer Koopmeiners",
+            "Bendegúz Kovács",
+            "Calvin Stengs",
+            "Wassim Bouziane"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
@@ -6058,6 +6212,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915514"
         }
       ],
       "odds": {
@@ -6182,22 +6340,9 @@
         "source": "ESPN season stats",
         "home": [
           {
-            "name": "Bruno Martins Indi",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 4,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.37,
-            "sot90": 0.18,
-            "fouls90": 1.56,
-            "tackles90": 0.83,
-            "mins": 979
-          },
-          {
             "name": "Bas Kuipers",
             "pos": "DF",
-            "start": 0.9,
+            "start": 0.12,
             "shots": 7,
             "goals": 1,
             "assists": 3,
@@ -6208,9 +6353,22 @@
             "mins": 1147
           },
           {
+            "name": "Nick Verschuren",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 7,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 0.89,
+            "sot90": 0.13,
+            "fouls90": 0.76,
+            "tackles90": 1.4,
+            "mins": 708
+          },
+          {
             "name": "Marvin Young",
             "pos": "DF",
-            "start": 0.9,
+            "start": 0.12,
             "shots": 9,
             "goals": 2,
             "assists": 1,
@@ -6223,7 +6381,7 @@
           {
             "name": "Lushendry Martes",
             "pos": "DF",
-            "start": 0.9,
+            "start": 0.12,
             "shots": 11,
             "goals": 2,
             "assists": 0,
@@ -6234,61 +6392,9 @@
             "mins": 1152
           },
           {
-            "name": "Milan Zonneveld",
-            "pos": "FW",
-            "start": 0.82,
-            "shots": 36,
-            "goals": 7,
-            "assists": 2,
-            "shots90": 3.54,
-            "sot90": 1.28,
-            "fouls90": 1.28,
-            "tackles90": 0.39,
-            "mins": 915
-          },
-          {
-            "name": "Cedric Hatenboer",
-            "pos": "MF",
-            "start": 0.74,
-            "shots": 6,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 0.69,
-            "sot90": 0.23,
-            "fouls90": 0.92,
-            "tackles90": 2.54,
-            "mins": 779
-          },
-          {
-            "name": "Michael Brouwer",
-            "pos": "GK",
-            "start": 0.67,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0,
-            "tackles90": 0.13,
-            "mins": 708
-          },
-          {
-            "name": "Nick Verschuren",
-            "pos": "DF",
-            "start": 0.67,
-            "shots": 7,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 0.89,
-            "sot90": 0.13,
-            "fouls90": 0.76,
-            "tackles90": 1.4,
-            "mins": 708
-          },
-          {
             "name": "Jens Toornstra",
             "pos": "MF",
-            "start": 0.59,
+            "start": 0.12,
             "shots": 6,
             "goals": 2,
             "assists": 1,
@@ -6301,7 +6407,7 @@
           {
             "name": "Julian Baas",
             "pos": "MF",
-            "start": 0.59,
+            "start": 0.12,
             "shots": 3,
             "goals": 0,
             "assists": 1,
@@ -6314,7 +6420,7 @@
           {
             "name": "Isaac Babadi",
             "pos": "MF",
-            "start": 0.59,
+            "start": 0.12,
             "shots": 9,
             "goals": 2,
             "assists": 3,
@@ -6325,48 +6431,22 @@
             "mins": 605
           },
           {
-            "name": "Shunsuke Mito",
-            "pos": "FW",
-            "start": 0.59,
-            "shots": 10,
-            "goals": 0,
-            "assists": 3,
-            "shots90": 1.57,
-            "sot90": 0.31,
-            "fouls90": 0.16,
-            "tackles90": 0.94,
-            "mins": 575
-          },
-          {
-            "name": "Mitchell van Bergen",
-            "pos": "FW",
-            "start": 0.51,
-            "shots": 13,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 1.93,
-            "sot90": 0.74,
-            "fouls90": 0.15,
-            "tackles90": 1.04,
-            "mins": 606
-          },
-          {
-            "name": "Filip Bednarek",
-            "pos": "GK",
-            "start": 0.43,
-            "shots": 0,
-            "goals": 0,
+            "name": "Cedric Hatenboer",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 6,
+            "goals": 1,
             "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 462
+            "shots90": 0.69,
+            "sot90": 0.23,
+            "fouls90": 0.92,
+            "tackles90": 2.54,
+            "mins": 779
           },
           {
             "name": "Robin Van Cruijsen",
             "pos": "MF",
-            "start": 0.43,
+            "start": 0.12,
             "shots": 14,
             "goals": 1,
             "assists": 0,
@@ -6377,9 +6457,44 @@
             "mins": 490
           },
           {
+            "name": "Mitchell van Bergen",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 13,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 1.93,
+            "sot90": 0.74,
+            "fouls90": 0.15,
+            "tackles90": 1.04,
+            "mins": 606
+          },
+          {
+            "name": "Shunsuke Mito",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 10,
+            "goals": 0,
+            "assists": 3,
+            "shots90": 1.57,
+            "sot90": 0.31,
+            "fouls90": 0.16,
+            "tackles90": 0.94,
+            "mins": 575
+          },
+          {
+            "name": "Joel Ideho",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 2,
+            "goals": 0,
+            "assists": 1,
+            "mins": 105
+          },
+          {
             "name": "Casper Terho",
             "pos": "FW",
-            "start": 0.43,
+            "start": 0.12,
             "shots": 13,
             "goals": 1,
             "assists": 0,
@@ -6390,18 +6505,22 @@
             "mins": 442
           },
           {
-            "name": "Joel Ideho",
+            "name": "Milan Zonneveld",
             "pos": "FW",
-            "start": 0.13,
-            "shots": 2,
-            "goals": 0,
-            "assists": 1,
-            "mins": 105
+            "start": 0.12,
+            "shots": 36,
+            "goals": 7,
+            "assists": 2,
+            "shots90": 3.54,
+            "sot90": 1.28,
+            "fouls90": 1.28,
+            "tackles90": 0.39,
+            "mins": 915
           },
           {
             "name": "Andrej Kostic",
             "pos": "FW",
-            "start": 0.05,
+            "start": 0.12,
             "shots": 6,
             "goals": 1,
             "assists": 0,
@@ -6412,7 +6531,7 @@
           {
             "name": "Jari De Busser",
             "pos": "GK",
-            "start": 0.9,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -6423,192 +6542,9 @@
             "mins": 1170
           },
           {
-            "name": "Wouter Goes",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 4,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.37,
-            "sot90": 0,
-            "fouls90": 1.1,
-            "tackles90": 1.93,
-            "mins": 979
-          },
-          {
-            "name": "Lewis Schouten",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 8,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 0.73,
-            "sot90": 0.09,
-            "fouls90": 1.19,
-            "tackles90": 2.28,
-            "mins": 985
-          },
-          {
-            "name": "Elijah Dijkstra",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 4,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.34,
-            "sot90": 0,
-            "fouls90": 0.34,
-            "tackles90": 1.26,
-            "mins": 1068
-          },
-          {
-            "name": "Mateo Chávez",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 13,
-            "goals": 3,
-            "assists": 5,
-            "shots90": 1.18,
-            "sot90": 0.64,
-            "fouls90": 1.36,
-            "tackles90": 2.9,
-            "mins": 992
-          },
-          {
-            "name": "Peer Koopmeiners",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 14,
-            "goals": 1,
-            "assists": 1,
-            "shots90": 1.08,
-            "sot90": 0.39,
-            "fouls90": 1.7,
-            "tackles90": 2.47,
-            "mins": 1165
-          },
-          {
-            "name": "Dave Kwakman",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 20,
-            "goals": 2,
-            "assists": 1,
-            "shots90": 1.93,
-            "sot90": 0.48,
-            "fouls90": 0.58,
-            "tackles90": 1.64,
-            "mins": 932
-          },
-          {
-            "name": "Mexx Meerdink",
-            "pos": "FW",
-            "start": 0.9,
-            "shots": 38,
-            "goals": 6,
-            "assists": 3,
-            "pens": true,
-            "shots90": 3.17,
-            "sot90": 1.33,
-            "fouls90": 1.84,
-            "tackles90": 0.5,
-            "mins": 1079
-          },
-          {
-            "name": "Ro-Zangelo Daal",
-            "pos": "FW",
-            "start": 0.9,
-            "shots": 29,
-            "goals": 6,
-            "assists": 3,
-            "shots90": 2.47,
-            "sot90": 1.28,
-            "fouls90": 0.6,
-            "tackles90": 1.45,
-            "mins": 1057
-          },
-          {
-            "name": "Weslley Patati",
-            "pos": "FW",
-            "start": 0.59,
-            "shots": 22,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 3.78,
-            "sot90": 1.03,
-            "fouls90": 2.06,
-            "tackles90": 2.4,
-            "mins": 524
-          },
-          {
-            "name": "Calvin Stengs",
-            "pos": "MF",
-            "start": 0.43,
-            "shots": 15,
-            "goals": 2,
-            "assists": 2,
-            "shots90": 2.23,
-            "sot90": 0.74,
-            "fouls90": 1.93,
-            "tackles90": 1.04,
-            "mins": 605
-          },
-          {
-            "name": "Jordy Clasie",
-            "pos": "MF",
-            "start": 0.36,
-            "shots": 3,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 0.68,
-            "sot90": 0.23,
-            "fouls90": 0.45,
-            "tackles90": 1.13,
-            "mins": 399
-          },
-          {
-            "name": "Valdemar Byskov",
-            "pos": "MF",
-            "start": 0.36,
-            "shots": 7,
-            "goals": 0,
-            "assists": 2,
-            "shots90": 1.92,
-            "sot90": 0.55,
-            "fouls90": 0.27,
-            "tackles90": 1.1,
-            "mins": 328
-          },
-          {
-            "name": "Kees Smit",
-            "pos": "MF",
-            "start": 0.36,
-            "shots": 11,
-            "goals": 0,
-            "assists": 2,
-            "shots90": 2.65,
-            "sot90": 0.48,
-            "fouls90": 1.45,
-            "tackles90": 0.48,
-            "mins": 373
-          },
-          {
-            "name": "Ayoub Oufkir",
-            "pos": "FW",
-            "start": 0.36,
-            "shots": 14,
-            "goals": 3,
-            "assists": 0,
-            "shots90": 2.96,
-            "sot90": 1.69,
-            "fouls90": 2.75,
-            "tackles90": 1.27,
-            "mins": 425
-          },
-          {
             "name": "Wesley Hoedt",
             "pos": "DF",
-            "start": 0.28,
+            "start": 1,
             "shots": 1,
             "goals": 0,
             "assists": 0,
@@ -6619,22 +6555,189 @@
             "mins": 288
           },
           {
+            "name": "Mees De Wit",
+            "pos": "DF",
+            "start": 1,
+            "shots": 2,
+            "goals": 0,
+            "assists": 0,
+            "mins": 175
+          },
+          {
+            "name": "Denso Kasius",
+            "pos": "DF",
+            "start": 1,
+            "shots": 1,
+            "goals": 0,
+            "assists": 0,
+            "mins": 55
+          },
+          {
+            "name": "Wouter Goes",
+            "pos": "DF",
+            "start": 1,
+            "shots": 4,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 0.37,
+            "sot90": 0,
+            "fouls90": 1.1,
+            "tackles90": 1.93,
+            "mins": 979
+          },
+          {
+            "name": "Jordy Clasie",
+            "pos": "MF",
+            "start": 1,
+            "shots": 3,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 0.68,
+            "sot90": 0.23,
+            "fouls90": 0.45,
+            "tackles90": 1.13,
+            "mins": 399
+          },
+          {
+            "name": "Calvin Stengs",
+            "pos": "MF",
+            "start": 1,
+            "shots": 15,
+            "goals": 2,
+            "assists": 2,
+            "shots90": 2.23,
+            "sot90": 0.74,
+            "fouls90": 1.93,
+            "tackles90": 1.04,
+            "mins": 605
+          },
+          {
+            "name": "Peer Koopmeiners",
+            "pos": "MF",
+            "start": 1,
+            "shots": 14,
+            "goals": 1,
+            "assists": 1,
+            "shots90": 1.08,
+            "sot90": 0.39,
+            "fouls90": 1.7,
+            "tackles90": 2.47,
+            "mins": 1165
+          },
+          {
+            "name": "Valdemar Byskov",
+            "pos": "MF",
+            "start": 1,
+            "shots": 7,
+            "goals": 0,
+            "assists": 2,
+            "shots90": 1.92,
+            "sot90": 0.55,
+            "fouls90": 0.27,
+            "tackles90": 1.1,
+            "mins": 328
+          },
+          {
+            "name": "Wassim Bouziane",
+            "pos": "FW",
+            "start": 1,
+            "shots": 0,
+            "goals": 0,
+            "assists": 1,
+            "mins": 10
+          },
+          {
+            "name": "Bendegúz Kovács",
+            "pos": "FW",
+            "start": 1,
+            "shots": 4,
+            "goals": 0,
+            "assists": 0,
+            "mins": 71
+          },
+          {
             "name": "Seiya Maikuma",
             "pos": "DF",
-            "start": 0.05,
+            "start": 0.12,
             "shots": 2,
             "goals": 1,
             "assists": 0,
             "mins": 52
           },
           {
+            "name": "Lewis Schouten",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 8,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 0.73,
+            "sot90": 0.09,
+            "fouls90": 1.19,
+            "tackles90": 2.28,
+            "mins": 985
+          },
+          {
+            "name": "Mateo Chávez",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 13,
+            "goals": 3,
+            "assists": 5,
+            "shots90": 1.18,
+            "sot90": 0.64,
+            "fouls90": 1.36,
+            "tackles90": 2.9,
+            "mins": 992
+          },
+          {
+            "name": "Dave Kwakman",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 20,
+            "goals": 2,
+            "assists": 1,
+            "shots90": 1.93,
+            "sot90": 0.48,
+            "fouls90": 0.58,
+            "tackles90": 1.64,
+            "mins": 932
+          },
+          {
+            "name": "Kees Smit",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 11,
+            "goals": 0,
+            "assists": 2,
+            "shots90": 2.65,
+            "sot90": 0.48,
+            "fouls90": 1.45,
+            "tackles90": 0.48,
+            "mins": 373
+          },
+          {
             "name": "Jizz Hornkamp",
             "pos": "FW",
-            "start": 0.05,
+            "start": 0.12,
             "shots": 7,
             "goals": 2,
             "assists": 0,
             "mins": 76
+          },
+          {
+            "name": "Mexx Meerdink",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 38,
+            "goals": 6,
+            "assists": 3,
+            "pens": true,
+            "shots90": 3.17,
+            "sot90": 1.33,
+            "fouls90": 1.84,
+            "tackles90": 0.5,
+            "mins": 1079
           }
         ]
       },
@@ -6667,13 +6770,40 @@
       "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "3-4-2-1",
+          "xi": [
+            "Dean Henderson",
+            "Quinten Timber",
+            "Ben Chilwell",
+            "Jaydee Canvot",
+            "Axel Disasi",
+            "Chris Richards",
+            "Will Hughes",
+            "Daichi Kamada",
+            "Jean-Philippe Mateta",
+            "Eddie Nketiah",
+            "Yéremy Pino"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-4-2",
+          "xi": [
+            "Unai Marrero",
+            "Héctor Fort",
+            "Aihen Muñoz",
+            "Jon Gorrotxategi",
+            "Jon Martín",
+            "Mamadou Sarr",
+            "Job Ochieng",
+            "Beñat Turrientes",
+            "Arsen Zakharyan",
+            "Mikel Oyarzabal",
+            "Gonçalo Guedes"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
@@ -6687,6 +6817,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915504"
         }
       ],
       "form20": {
@@ -6855,126 +6989,9 @@
         "source": "ESPN season stats",
         "home": [
           {
-            "name": "Chris Richards",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 6,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.55,
-            "sot90": 0.18,
-            "fouls90": 0.55,
-            "tackles90": 2.18,
-            "mins": 990
-          },
-          {
-            "name": "Tyrick Mitchell",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 7,
-            "goals": 2,
-            "assists": 0,
-            "shots90": 0.66,
-            "sot90": 0.28,
-            "fouls90": 0.84,
-            "tackles90": 2.53,
-            "mins": 961
-          },
-          {
-            "name": "Daichi Kamada",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 11,
-            "goals": 1,
-            "assists": 3,
-            "shots90": 1.02,
-            "sot90": 0.46,
-            "fouls90": 0.37,
-            "tackles90": 1.48,
-            "mins": 971
-          },
-          {
-            "name": "Yéremy Pino",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 17,
-            "goals": 2,
-            "assists": 1,
-            "shots90": 1.98,
-            "sot90": 0.7,
-            "fouls90": 1.17,
-            "tackles90": 1.52,
-            "mins": 771
-          },
-          {
-            "name": "Adam Wharton",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 7,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.65,
-            "sot90": 0.28,
-            "fouls90": 0.46,
-            "tackles90": 1.94,
-            "mins": 975
-          },
-          {
-            "name": "Anan Khalaili",
-            "pos": "DF",
-            "start": 0.78,
-            "shots": 12,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 1.43,
-            "sot90": 0.24,
-            "fouls90": 1.19,
-            "tackles90": 3.93,
-            "mins": 756
-          },
-          {
-            "name": "Jaydee Canvot",
-            "pos": "DF",
-            "start": 0.78,
-            "shots": 1,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.12,
-            "sot90": 0,
-            "fouls90": 0.73,
-            "tackles90": 2.2,
-            "mins": 737
-          },
-          {
-            "name": "Quinten Timber",
-            "pos": "MF",
-            "start": 0.69,
-            "shots": 9,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 1.55,
-            "sot90": 0.34,
-            "fouls90": 1.21,
-            "tackles90": 3.1,
-            "mins": 522
-          },
-          {
-            "name": "Jørgen Strand Larsen",
-            "pos": "FW",
-            "start": 0.69,
-            "shots": 14,
-            "goals": 2,
-            "assists": 1,
-            "shots90": 2.11,
-            "sot90": 1.21,
-            "fouls90": 1.21,
-            "tackles90": 0.6,
-            "mins": 596
-          },
-          {
             "name": "Dean Henderson",
             "pos": "GK",
-            "start": 0.6,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -6985,9 +7002,18 @@
             "mins": 540
           },
           {
+            "name": "Ben Chilwell",
+            "pos": "DF",
+            "start": 1,
+            "shots": 2,
+            "goals": 1,
+            "assists": 0,
+            "mins": 29
+          },
+          {
             "name": "Axel Disasi",
             "pos": "DF",
-            "start": 0.6,
+            "start": 1,
             "shots": 4,
             "goals": 0,
             "assists": 0,
@@ -6998,35 +7024,83 @@
             "mins": 500
           },
           {
-            "name": "Walter Benítez",
-            "pos": "GK",
-            "start": 0.5,
+            "name": "Chris Richards",
+            "pos": "DF",
+            "start": 1,
+            "shots": 6,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.55,
+            "sot90": 0.18,
+            "fouls90": 0.55,
+            "tackles90": 2.18,
+            "mins": 990
+          },
+          {
+            "name": "Jaydee Canvot",
+            "pos": "DF",
+            "start": 1,
+            "shots": 1,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.12,
+            "sot90": 0,
+            "fouls90": 0.73,
+            "tackles90": 2.2,
+            "mins": 737
+          },
+          {
+            "name": "Will Hughes",
+            "pos": "MF",
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 450
+            "mins": 40
           },
           {
-            "name": "Dwight McNeil",
-            "pos": "FW",
-            "start": 0.41,
-            "shots": 5,
+            "name": "Daichi Kamada",
+            "pos": "MF",
+            "start": 1,
+            "shots": 11,
+            "goals": 1,
+            "assists": 3,
+            "shots90": 1.02,
+            "sot90": 0.46,
+            "fouls90": 0.37,
+            "tackles90": 1.48,
+            "mins": 971
+          },
+          {
+            "name": "Quinten Timber",
+            "pos": "MF",
+            "start": 1,
+            "shots": 9,
             "goals": 0,
-            "assists": 0,
-            "shots90": 1.24,
-            "sot90": 0,
-            "fouls90": 0.99,
-            "tackles90": 1.74,
-            "mins": 363
+            "assists": 1,
+            "shots90": 1.55,
+            "sot90": 0.34,
+            "fouls90": 1.21,
+            "tackles90": 3.1,
+            "mins": 522
+          },
+          {
+            "name": "Yéremy Pino",
+            "pos": "MF",
+            "start": 1,
+            "shots": 17,
+            "goals": 2,
+            "assists": 1,
+            "shots90": 1.98,
+            "sot90": 0.7,
+            "fouls90": 1.17,
+            "tackles90": 1.52,
+            "mins": 771
           },
           {
             "name": "Jean-Philippe Mateta",
             "pos": "FW",
-            "start": 0.32,
+            "start": 1,
             "shots": 6,
             "goals": 0,
             "assists": 0,
@@ -7035,7 +7109,7 @@
           {
             "name": "Eddie Nketiah",
             "pos": "FW",
-            "start": 0.32,
+            "start": 1,
             "shots": 7,
             "goals": 1,
             "assists": 1,
@@ -7047,9 +7121,35 @@
             "mins": 299
           },
           {
+            "name": "Tyrick Mitchell",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 7,
+            "goals": 2,
+            "assists": 0,
+            "shots90": 0.66,
+            "sot90": 0.28,
+            "fouls90": 0.84,
+            "tackles90": 2.53,
+            "mins": 961
+          },
+          {
+            "name": "Anan Khalaili",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 12,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 1.43,
+            "sot90": 0.24,
+            "fouls90": 1.19,
+            "tackles90": 3.93,
+            "mins": 756
+          },
+          {
             "name": "Jefferson Lerma",
             "pos": "MF",
-            "start": 0.23,
+            "start": 0.12,
             "shots": 7,
             "goals": 1,
             "assists": 0,
@@ -7060,59 +7160,85 @@
             "mins": 269
           },
           {
-            "name": "Ben Chilwell",
-            "pos": "DF",
-            "start": 0.05,
-            "shots": 2,
-            "goals": 1,
-            "assists": 0,
-            "mins": 29
+            "name": "Adam Wharton",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 7,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 0.65,
+            "sot90": 0.28,
+            "fouls90": 0.46,
+            "tackles90": 1.94,
+            "mins": 975
+          },
+          {
+            "name": "Jørgen Strand Larsen",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 14,
+            "goals": 2,
+            "assists": 1,
+            "shots90": 2.11,
+            "sot90": 1.21,
+            "fouls90": 1.21,
+            "tackles90": 0.6,
+            "mins": 596
           }
         ],
         "away": [
           {
-            "name": "Álex Remiro",
+            "name": "Unai Marrero",
             "pos": "GK",
-            "start": 0.9,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0.08,
-            "tackles90": 0.08,
-            "mins": 1080
+            "mins": 90
           },
           {
-            "name": "Luka Sucic",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 27,
-            "goals": 4,
+            "name": "Aihen Muñoz",
+            "pos": "DF",
+            "start": 1,
+            "shots": 2,
+            "goals": 0,
             "assists": 0,
-            "shots90": 2.54,
-            "sot90": 0.94,
-            "fouls90": 0.56,
-            "tackles90": 1.03,
-            "mins": 958
+            "shots90": 0.91,
+            "sot90": 0,
+            "fouls90": 0.45,
+            "tackles90": 3.18,
+            "mins": 198
           },
           {
-            "name": "Sergio Gómez",
-            "pos": "FW",
-            "start": 0.9,
-            "shots": 6,
+            "name": "Mamadou Sarr",
+            "pos": "DF",
+            "start": 1,
+            "shots": 2,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.3,
+            "sot90": 0,
+            "fouls90": 1.05,
+            "tackles90": 2.11,
+            "mins": 598
+          },
+          {
+            "name": "Héctor Fort",
+            "pos": "DF",
+            "start": 1,
+            "shots": 3,
             "goals": 0,
             "assists": 1,
-            "shots90": 0.56,
-            "sot90": 0.19,
-            "fouls90": 0.46,
-            "tackles90": 2.22,
-            "mins": 972
+            "shots90": 1.16,
+            "sot90": 0,
+            "fouls90": 0.78,
+            "tackles90": 3.88,
+            "mins": 232
           },
           {
             "name": "Jon Martín",
             "pos": "DF",
-            "start": 0.88,
+            "start": 1,
             "shots": 7,
             "goals": 1,
             "assists": 1,
@@ -7123,9 +7249,83 @@
             "mins": 906
           },
           {
+            "name": "Beñat Turrientes",
+            "pos": "MF",
+            "start": 1,
+            "shots": 8,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 1.71,
+            "sot90": 1.07,
+            "fouls90": 0.21,
+            "tackles90": 2.57,
+            "mins": 420
+          },
+          {
+            "name": "Arsen Zakharyan",
+            "pos": "MF",
+            "start": 1,
+            "shots": 3,
+            "goals": 1,
+            "assists": 0,
+            "mins": 84
+          },
+          {
+            "name": "Jon Gorrotxategi",
+            "pos": "MF",
+            "start": 1,
+            "shots": 3,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 0.55,
+            "sot90": 0,
+            "fouls90": 1.1,
+            "tackles90": 2.76,
+            "mins": 490
+          },
+          {
+            "name": "Gonçalo Guedes",
+            "pos": "FW",
+            "start": 1,
+            "shots": 29,
+            "goals": 3,
+            "assists": 1,
+            "shots90": 4.05,
+            "sot90": 0.98,
+            "fouls90": 1.12,
+            "tackles90": 1.12,
+            "mins": 644
+          },
+          {
+            "name": "Mikel Oyarzabal",
+            "pos": "FW",
+            "start": 1,
+            "shots": 28,
+            "goals": 3,
+            "assists": 2,
+            "shots90": 2.89,
+            "sot90": 1.24,
+            "fouls90": 0.83,
+            "tackles90": 0.83,
+            "mins": 872
+          },
+          {
+            "name": "Job Ochieng",
+            "pos": "FW",
+            "start": 1,
+            "shots": 11,
+            "goals": 1,
+            "assists": 3,
+            "shots90": 3.16,
+            "sot90": 0.86,
+            "fouls90": 3.16,
+            "tackles90": 1.44,
+            "mins": 313
+          },
+          {
             "name": "Carlos Soler",
             "pos": "MF",
-            "start": 0.88,
+            "start": 0.12,
             "shots": 13,
             "goals": 1,
             "assists": 3,
@@ -7137,100 +7337,9 @@
             "mins": 871
           },
           {
-            "name": "Mikel Oyarzabal",
-            "pos": "FW",
-            "start": 0.88,
-            "shots": 28,
-            "goals": 3,
-            "assists": 2,
-            "shots90": 2.89,
-            "sot90": 1.24,
-            "fouls90": 0.83,
-            "tackles90": 0.83,
-            "mins": 872
-          },
-          {
-            "name": "Jon Aramburu",
-            "pos": "DF",
-            "start": 0.8,
-            "shots": 5,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.56,
-            "sot90": 0.23,
-            "fouls90": 3.5,
-            "tackles90": 3.61,
-            "mins": 797
-          },
-          {
-            "name": "Ander Barrenetxea",
-            "pos": "FW",
-            "start": 0.72,
-            "shots": 13,
-            "goals": 2,
-            "assists": 2,
-            "shots90": 1.87,
-            "sot90": 0.58,
-            "fouls90": 1.87,
-            "tackles90": 1.29,
-            "mins": 626
-          },
-          {
-            "name": "Mamadou Sarr",
-            "pos": "DF",
-            "start": 0.63,
-            "shots": 2,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.3,
-            "sot90": 0,
-            "fouls90": 1.05,
-            "tackles90": 2.11,
-            "mins": 598
-          },
-          {
-            "name": "Gonçalo Guedes",
-            "pos": "FW",
-            "start": 0.63,
-            "shots": 29,
-            "goals": 3,
-            "assists": 1,
-            "shots90": 4.05,
-            "sot90": 0.98,
-            "fouls90": 1.12,
-            "tackles90": 1.12,
-            "mins": 644
-          },
-          {
-            "name": "Orri Óskarsson",
-            "pos": "FW",
-            "start": 0.63,
-            "shots": 26,
-            "goals": 4,
-            "assists": 0,
-            "shots90": 3.48,
-            "sot90": 1.07,
-            "fouls90": 1.74,
-            "tackles90": 0.53,
-            "mins": 673
-          },
-          {
-            "name": "Igor Zubeldia",
-            "pos": "DF",
-            "start": 0.55,
-            "shots": 3,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.43,
-            "sot90": 0.14,
-            "fouls90": 0.87,
-            "tackles90": 2.89,
-            "mins": 623
-          },
-          {
             "name": "Yangel Herrera",
             "pos": "MF",
-            "start": 0.55,
+            "start": 0.12,
             "shots": 6,
             "goals": 1,
             "assists": 0,
@@ -7241,35 +7350,22 @@
             "mins": 512
           },
           {
-            "name": "Beñat Turrientes",
+            "name": "Luka Sucic",
             "pos": "MF",
-            "start": 0.47,
-            "shots": 8,
-            "goals": 1,
+            "start": 0.12,
+            "shots": 27,
+            "goals": 4,
             "assists": 0,
-            "shots90": 1.71,
-            "sot90": 1.07,
-            "fouls90": 0.21,
-            "tackles90": 2.57,
-            "mins": 420
-          },
-          {
-            "name": "Jon Gorrotxategi",
-            "pos": "MF",
-            "start": 0.47,
-            "shots": 3,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.55,
-            "sot90": 0,
-            "fouls90": 1.1,
-            "tackles90": 2.76,
-            "mins": 490
+            "shots90": 2.54,
+            "sot90": 0.94,
+            "fouls90": 0.56,
+            "tackles90": 1.03,
+            "mins": 958
           },
           {
             "name": "Takefusa Kubo",
             "pos": "FW",
-            "start": 0.47,
+            "start": 0.12,
             "shots": 5,
             "goals": 1,
             "assists": 1,
@@ -7280,30 +7376,43 @@
             "mins": 393
           },
           {
-            "name": "Héctor Fort",
-            "pos": "DF",
-            "start": 0.3,
-            "shots": 3,
+            "name": "Sergio Gómez",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 6,
             "goals": 0,
             "assists": 1,
-            "shots90": 1.16,
-            "sot90": 0,
-            "fouls90": 0.78,
-            "tackles90": 3.88,
-            "mins": 232
+            "shots90": 0.56,
+            "sot90": 0.19,
+            "fouls90": 0.46,
+            "tackles90": 2.22,
+            "mins": 972
           },
           {
-            "name": "Luken Beitia",
-            "pos": "DF",
-            "start": 0.3,
-            "shots": 3,
-            "goals": 0,
+            "name": "Ander Barrenetxea",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 13,
+            "goals": 2,
+            "assists": 2,
+            "shots90": 1.87,
+            "sot90": 0.58,
+            "fouls90": 1.87,
+            "tackles90": 1.29,
+            "mins": 626
+          },
+          {
+            "name": "Orri Óskarsson",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 26,
+            "goals": 4,
             "assists": 0,
-            "shots90": 1,
-            "sot90": 0.33,
-            "fouls90": 0.67,
-            "tackles90": 1.33,
-            "mins": 270
+            "shots90": 3.48,
+            "sot90": 1.07,
+            "fouls90": 1.74,
+            "tackles90": 0.53,
+            "mins": 673
           }
         ]
       },
@@ -7336,18 +7445,49 @@
       "context": "No form: football-data.co.uk doesn't cover Ferencváros or Celje's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Ádam Varga",
+            "Attila Osvath",
+            "Cadu",
+            "Ádám Nagy",
+            "Toon Raemaekers",
+            "Mariano Gómez",
+            "Matús Bero",
+            "Marius Dumitru Corbu",
+            "Lenny Joseph",
+            "Kristoffer Zachariassen",
+            "Daniel Arzani"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-3-3",
+          "xi": [
+            "Zan-Luk Leban",
+            "Matic Ivansek",
+            "Milot Avdyli",
+            "Mark Zabukovnik",
+            "Lukasz Bejger",
+            "Artemijus Tutyskinas",
+            "Svit Seslar",
+            "Mario Kvesic",
+            "Blaz Kramer",
+            "Veton Tusha",
+            "Benjamin Verbic"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915516"
         }
       ],
       "odds": {
@@ -7484,13 +7624,40 @@
       "context": "No form: football-data.co.uk doesn't cover Juventus or Omonia's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "Neto",
+            "Lloyd Kelly",
+            "Juan Cabal",
+            "Douglas Luiz",
+            "Federico Gatti",
+            "Jhon Lucumí",
+            "Francisco Conceição",
+            "Andrea Cambiaso",
+            "Jeff Ekhator",
+            "Pape Matar Sarr",
+            "Jérémie Boga"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-2-3-1",
+          "xi": [
+            "Thomas Kaminski",
+            "Loïc Négo",
+            "Jean-Kévin Duverne",
+            "Mateo Maric",
+            "Senou Coulibaly",
+            "Lubomir Satka",
+            "Muamer Tankovic",
+            "Panagiotis Andreou",
+            "Andronikos Kakoulis",
+            "Florin Tanase",
+            "Jaden Montnor"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
@@ -7500,6 +7667,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915502"
         }
       ],
       "odds": {
@@ -7632,166 +7803,9 @@
         "source": "ESPN season stats",
         "home": [
           {
-            "name": "Guglielmo Vicario",
-            "pos": "GK",
-            "start": 0.9,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0,
-            "tackles90": 0.08,
-            "mins": 1079
-          },
-          {
-            "name": "Bremer",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 11,
-            "goals": 3,
-            "assists": 0,
-            "shots90": 0.92,
-            "sot90": 0.33,
-            "fouls90": 1.17,
-            "tackles90": 1.67,
-            "mins": 1080
-          },
-          {
-            "name": "Pierre Kalulu",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 3,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.27,
-            "sot90": 0.09,
-            "fouls90": 0.45,
-            "tackles90": 2.09,
-            "mins": 990
-          },
-          {
-            "name": "Douglas Luiz",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 22,
-            "goals": 1,
-            "assists": 2,
-            "shots90": 2.06,
-            "sot90": 0.56,
-            "fouls90": 1.97,
-            "tackles90": 1.22,
-            "mins": 961
-          },
-          {
-            "name": "Randal Kolo Muani",
-            "pos": "FW",
-            "start": 0.9,
-            "shots": 22,
-            "goals": 2,
-            "assists": 2,
-            "pens": true,
-            "shots90": 1.94,
-            "sot90": 0.53,
-            "fouls90": 1.59,
-            "tackles90": 0.53,
-            "mins": 1020
-          },
-          {
-            "name": "Jhon Lucumí",
-            "pos": "DF",
-            "start": 0.88,
-            "shots": 5,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.55,
-            "sot90": 0.11,
-            "fouls90": 0.44,
-            "tackles90": 0.99,
-            "mins": 821
-          },
-          {
-            "name": "Weston McKennie",
-            "pos": "MF",
-            "start": 0.8,
-            "shots": 8,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 1.02,
-            "sot90": 0.26,
-            "fouls90": 0.64,
-            "tackles90": 1.41,
-            "mins": 703
-          },
-          {
-            "name": "Zeki Çelik",
-            "pos": "DF",
-            "start": 0.72,
-            "shots": 4,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.54,
-            "sot90": 0,
-            "fouls90": 0.94,
-            "tackles90": 2.56,
-            "mins": 667
-          },
-          {
-            "name": "Kerim Alajbegovic",
-            "pos": "FW",
-            "start": 0.63,
-            "shots": 21,
-            "goals": 1,
-            "assists": 1,
-            "shots90": 3.67,
-            "sot90": 1.4,
-            "fouls90": 1.05,
-            "tackles90": 0.87,
-            "mins": 515
-          },
-          {
-            "name": "Francisco Conceição",
-            "pos": "FW",
-            "start": 0.55,
-            "shots": 14,
-            "goals": 1,
-            "assists": 1,
-            "shots90": 2.92,
-            "sot90": 1.25,
-            "fouls90": 2.29,
-            "tackles90": 0.83,
-            "mins": 432
-          },
-          {
-            "name": "Teun Koopmeiners",
-            "pos": "MF",
-            "start": 0.47,
-            "shots": 10,
-            "goals": 2,
-            "assists": 1,
-            "shots90": 1.76,
-            "sot90": 0.53,
-            "fouls90": 1.76,
-            "tackles90": 2.29,
-            "mins": 510
-          },
-          {
-            "name": "Nico González",
-            "pos": "FW",
-            "start": 0.47,
-            "shots": 12,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 3.04,
-            "sot90": 1.01,
-            "fouls90": 1.27,
-            "tackles90": 3.04,
-            "mins": 355
-          },
-          {
             "name": "Juan Cabal",
             "pos": "DF",
-            "start": 0.3,
+            "start": 1,
             "shots": 5,
             "goals": 1,
             "assists": 0,
@@ -7802,48 +7816,35 @@
             "mins": 265
           },
           {
-            "name": "Manuel Locatelli",
-            "pos": "MF",
-            "start": 0.3,
-            "shots": 2,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.67,
-            "sot90": 0,
-            "fouls90": 2.67,
-            "tackles90": 1.67,
-            "mins": 270
-          },
-          {
-            "name": "Pape Matar Sarr",
-            "pos": "MF",
-            "start": 0.3,
-            "shots": 4,
+            "name": "Jhon Lucumí",
+            "pos": "DF",
+            "start": 1,
+            "shots": 5,
             "goals": 0,
             "assists": 0,
-            "shots90": 1.02,
-            "sot90": 0.26,
-            "fouls90": 1.02,
-            "tackles90": 3.07,
-            "mins": 352
+            "shots90": 0.55,
+            "sot90": 0.11,
+            "fouls90": 0.44,
+            "tackles90": 0.99,
+            "mins": 821
           },
           {
-            "name": "Nick Woltemade",
-            "pos": "FW",
-            "start": 0.3,
-            "shots": 13,
-            "goals": 2,
-            "assists": 1,
-            "shots90": 2.6,
-            "sot90": 1,
-            "fouls90": 1.8,
-            "tackles90": 0.6,
-            "mins": 450
+            "name": "Lloyd Kelly",
+            "pos": "DF",
+            "start": 1,
+            "shots": 1,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.35,
+            "sot90": 0,
+            "fouls90": 1.04,
+            "tackles90": 0.35,
+            "mins": 259
           },
           {
             "name": "Andrea Cambiaso",
             "pos": "DF",
-            "start": 0.22,
+            "start": 1,
             "shots": 2,
             "goals": 0,
             "assists": 1,
@@ -7856,7 +7857,7 @@
           {
             "name": "Federico Gatti",
             "pos": "DF",
-            "start": 0.22,
+            "start": 1,
             "shots": 4,
             "goals": 1,
             "assists": 1,
@@ -7865,66 +7866,179 @@
             "fouls90": 1.32,
             "tackles90": 1.32,
             "mins": 205
+          },
+          {
+            "name": "Pape Matar Sarr",
+            "pos": "MF",
+            "start": 1,
+            "shots": 4,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 1.02,
+            "sot90": 0.26,
+            "fouls90": 1.02,
+            "tackles90": 3.07,
+            "mins": 352
+          },
+          {
+            "name": "Douglas Luiz",
+            "pos": "MF",
+            "start": 1,
+            "shots": 22,
+            "goals": 1,
+            "assists": 2,
+            "shots90": 2.06,
+            "sot90": 0.56,
+            "fouls90": 1.97,
+            "tackles90": 1.22,
+            "mins": 961
+          },
+          {
+            "name": "Jérémie Boga",
+            "pos": "FW",
+            "start": 1,
+            "shots": 5,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 1.87,
+            "sot90": 0.75,
+            "fouls90": 1.12,
+            "tackles90": 2.24,
+            "mins": 241
+          },
+          {
+            "name": "Francisco Conceição",
+            "pos": "FW",
+            "start": 1,
+            "shots": 14,
+            "goals": 1,
+            "assists": 1,
+            "shots90": 2.92,
+            "sot90": 1.25,
+            "fouls90": 2.29,
+            "tackles90": 0.83,
+            "mins": 432
+          },
+          {
+            "name": "Jeff Ekhator",
+            "pos": "FW",
+            "start": 1,
+            "shots": 1,
+            "goals": 0,
+            "assists": 0,
+            "mins": 12
+          },
+          {
+            "name": "Bremer",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 11,
+            "goals": 3,
+            "assists": 0,
+            "shots90": 0.92,
+            "sot90": 0.33,
+            "fouls90": 1.17,
+            "tackles90": 1.67,
+            "mins": 1080
+          },
+          {
+            "name": "Zeki Çelik",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 4,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 0.54,
+            "sot90": 0,
+            "fouls90": 0.94,
+            "tackles90": 2.56,
+            "mins": 667
+          },
+          {
+            "name": "Manuel Locatelli",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 2,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 0.67,
+            "sot90": 0,
+            "fouls90": 2.67,
+            "tackles90": 1.67,
+            "mins": 270
+          },
+          {
+            "name": "Weston McKennie",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 8,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 1.02,
+            "sot90": 0.26,
+            "fouls90": 0.64,
+            "tackles90": 1.41,
+            "mins": 703
+          },
+          {
+            "name": "Teun Koopmeiners",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 10,
+            "goals": 2,
+            "assists": 1,
+            "shots90": 1.76,
+            "sot90": 0.53,
+            "fouls90": 1.76,
+            "tackles90": 2.29,
+            "mins": 510
+          },
+          {
+            "name": "Nico González",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 12,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 3.04,
+            "sot90": 1.01,
+            "fouls90": 1.27,
+            "tackles90": 3.04,
+            "mins": 355
+          },
+          {
+            "name": "Randal Kolo Muani",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 22,
+            "goals": 2,
+            "assists": 2,
+            "pens": true,
+            "shots90": 1.94,
+            "sot90": 0.53,
+            "fouls90": 1.59,
+            "tackles90": 0.53,
+            "mins": 1020
+          },
+          {
+            "name": "Edon Zhegrova",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 19,
+            "goals": 2,
+            "assists": 3,
+            "shots90": 5.04,
+            "sot90": 2.65,
+            "fouls90": 1.06,
+            "tackles90": 1.33,
+            "mins": 339
           }
         ],
         "away": [
           {
-            "name": "Ryan Mmaee",
-            "pos": "FW",
-            "start": 0.9,
-            "shots": 19,
-            "goals": 24,
-            "assists": 0,
-            "shots90": 1.46,
-            "sot90": 1.46,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 1170
-          },
-          {
-            "name": "Willy Semedo",
-            "pos": "MF",
-            "start": 0.64,
-            "shots": 11,
-            "goals": 15,
-            "assists": 0,
-            "pens": true,
-            "shots90": 1.38,
-            "sot90": 1.38,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 720
-          },
-          {
-            "name": "Ewandro",
-            "pos": "MF",
-            "start": 0.4,
-            "shots": 3,
-            "goals": 7,
-            "assists": 0,
-            "shots90": 1,
-            "sot90": 1,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 270
-          },
-          {
-            "name": "Muamer Tankovic",
-            "pos": "FW",
-            "start": 0.4,
-            "shots": 4,
-            "goals": 6,
-            "assists": 0,
-            "shots90": 1,
-            "sot90": 1,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 360
-          },
-          {
             "name": "Senou Coulibaly",
             "pos": "DF",
-            "start": 0.29,
+            "start": 1,
             "shots": 5,
             "goals": 5,
             "assists": 0,
@@ -7935,13 +8049,30 @@
             "mins": 360
           },
           {
-            "name": "Stevan Jovetic",
-            "pos": "FW",
-            "start": 0.29,
-            "shots": 4,
-            "goals": 4,
+            "name": "Mateo Maric",
+            "pos": "MF",
+            "start": 1,
+            "shots": 0,
+            "goals": 1,
             "assists": 0,
-            "pens": true,
+            "mins": 0
+          },
+          {
+            "name": "Panagiotis Andreou",
+            "pos": "MF",
+            "start": 1,
+            "shots": 1,
+            "goals": 3,
+            "assists": 0,
+            "mins": 90
+          },
+          {
+            "name": "Muamer Tankovic",
+            "pos": "FW",
+            "start": 1,
+            "shots": 4,
+            "goals": 6,
+            "assists": 0,
             "shots90": 1,
             "sot90": 1,
             "fouls90": 0,
@@ -7949,22 +8080,27 @@
             "mins": 360
           },
           {
-            "name": "Angelos Neophytou",
-            "pos": "FW",
-            "start": 0.29,
-            "shots": 4,
-            "goals": 4,
+            "name": "Stefan Simic",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 0,
+            "goals": 1,
             "assists": 0,
-            "shots90": 1,
-            "sot90": 1,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 360
+            "mins": 0
+          },
+          {
+            "name": "Giannis Masouras",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 1,
+            "goals": 1,
+            "assists": 0,
+            "mins": 90
           },
           {
             "name": "Nikolas Panagiotou",
             "pos": "DF",
-            "start": 0.23,
+            "start": 0.12,
             "shots": 3,
             "goals": 3,
             "assists": 0,
@@ -7975,9 +8111,31 @@
             "mins": 270
           },
           {
+            "name": "Ewandro",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 3,
+            "goals": 7,
+            "assists": 0,
+            "shots90": 1,
+            "sot90": 1,
+            "fouls90": 0,
+            "tackles90": 0,
+            "mins": 270
+          },
+          {
+            "name": "Carel Eiting",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 1,
+            "goals": 1,
+            "assists": 0,
+            "mins": 90
+          },
+          {
             "name": "Anastasios Chatzigiovanis",
             "pos": "MF",
-            "start": 0.23,
+            "start": 0.12,
             "shots": 2,
             "goals": 3,
             "assists": 0,
@@ -7988,31 +8146,9 @@
             "mins": 180
           },
           {
-            "name": "Panagiotis Andreou",
-            "pos": "MF",
-            "start": 0.23,
-            "shots": 1,
-            "goals": 3,
-            "assists": 0,
-            "mins": 90
-          },
-          {
-            "name": "Mihlali Mayambela",
-            "pos": "FW",
-            "start": 0.23,
-            "shots": 3,
-            "goals": 3,
-            "assists": 0,
-            "shots90": 0.98,
-            "sot90": 0.98,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 276
-          },
-          {
             "name": "Novica Erakovic",
             "pos": "MF",
-            "start": 0.17,
+            "start": 0.12,
             "shots": 2,
             "goals": 2,
             "assists": 0,
@@ -8025,56 +8161,87 @@
           {
             "name": "Ioannis Kousoulos",
             "pos": "MF",
-            "start": 0.17,
+            "start": 0.12,
             "shots": 1,
             "goals": 3,
             "assists": 0,
             "mins": 90
           },
           {
-            "name": "Stefan Simic",
-            "pos": "DF",
-            "start": 0.11,
-            "shots": 0,
-            "goals": 1,
+            "name": "Stevan Jovetic",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 4,
+            "goals": 4,
             "assists": 0,
-            "mins": 0
+            "pens": true,
+            "shots90": 1,
+            "sot90": 1,
+            "fouls90": 0,
+            "tackles90": 0,
+            "mins": 360
           },
           {
-            "name": "Giannis Masouras",
-            "pos": "DF",
-            "start": 0.11,
-            "shots": 1,
-            "goals": 1,
+            "name": "Ryan Mmaee",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 19,
+            "goals": 24,
             "assists": 0,
-            "mins": 90
+            "shots90": 1.46,
+            "sot90": 1.46,
+            "fouls90": 0,
+            "tackles90": 0,
+            "mins": 1170
           },
           {
-            "name": "Carel Eiting",
+            "name": "Mihlali Mayambela",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 3,
+            "goals": 3,
+            "assists": 0,
+            "shots90": 0.98,
+            "sot90": 0.98,
+            "fouls90": 0,
+            "tackles90": 0,
+            "mins": 276
+          },
+          {
+            "name": "Willy Semedo",
             "pos": "MF",
-            "start": 0.11,
-            "shots": 1,
-            "goals": 1,
+            "start": 0.12,
+            "shots": 11,
+            "goals": 15,
             "assists": 0,
-            "mins": 90
-          },
-          {
-            "name": "Mateo Maric",
-            "pos": "MF",
-            "start": 0.11,
-            "shots": 0,
-            "goals": 1,
-            "assists": 0,
-            "mins": 0
+            "pens": true,
+            "shots90": 1.38,
+            "sot90": 1.38,
+            "fouls90": 0,
+            "tackles90": 0,
+            "mins": 720
           },
           {
             "name": "Evangelos Andreou",
             "pos": "FW",
-            "start": 0.11,
+            "start": 0.12,
             "shots": 1,
             "goals": 1,
             "assists": 0,
             "mins": 90
+          },
+          {
+            "name": "Angelos Neophytou",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 4,
+            "goals": 4,
+            "assists": 0,
+            "shots90": 1,
+            "sot90": 1,
+            "fouls90": 0,
+            "tackles90": 0,
+            "mins": 360
           }
         ]
       },
@@ -8107,13 +8274,40 @@
       "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "3-4-2-1",
+          "xi": [
+            "Gonzalo Crettaz",
+            "Willum Thór Willumsson",
+            "Clement Bischoff",
+            "Deveron Fonville",
+            "Ahmetcan Kaplan",
+            "Tobias Storm",
+            "Darko Nejasmic",
+            "Noé Lebreton",
+            "Bryan Linssen",
+            "Tjaronn Chery",
+            "Dusan Tadic"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "5-3-2",
+          "xi": [
+            "Brice Samba",
+            "Bryan Reynolds",
+            "Mahamadou Nagida",
+            "Gonçalo Oliveira",
+            "Charlie Cresswell",
+            "Abdelhamid Aït Boudlal",
+            "Sebastian Szymanski",
+            "Adrien Thomasson",
+            "Esteban Lepaul",
+            "Boulaye Dia",
+            "Djaoui Cissé"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
@@ -8127,6 +8321,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915505"
         }
       ],
       "form20": {
@@ -8293,7 +8491,7 @@
           {
             "name": "Gonzalo Crettaz",
             "pos": "GK",
-            "start": 0.9,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -8304,9 +8502,48 @@
             "mins": 945
           },
           {
+            "name": "Ahmetcan Kaplan",
+            "pos": "DF",
+            "start": 1,
+            "shots": 10,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 2.07,
+            "sot90": 0.62,
+            "fouls90": 1.24,
+            "tackles90": 2.07,
+            "mins": 434
+          },
+          {
+            "name": "Deveron Fonville",
+            "pos": "DF",
+            "start": 1,
+            "shots": 2,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 0.32,
+            "sot90": 0.16,
+            "fouls90": 1.59,
+            "tackles90": 1.43,
+            "mins": 567
+          },
+          {
+            "name": "Tobias Storm",
+            "pos": "DF",
+            "start": 1,
+            "shots": 3,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.31,
+            "sot90": 0,
+            "fouls90": 1.26,
+            "tackles90": 2.3,
+            "mins": 860
+          },
+          {
             "name": "Tjaronn Chery",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 32,
             "goals": 4,
             "assists": 2,
@@ -8320,7 +8557,7 @@
           {
             "name": "Darko Nejasmic",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 11,
             "goals": 1,
             "assists": 1,
@@ -8331,9 +8568,18 @@
             "mins": 900
           },
           {
+            "name": "Willum Thór Willumsson",
+            "pos": "MF",
+            "start": 1,
+            "shots": 3,
+            "goals": 1,
+            "assists": 1,
+            "mins": 179
+          },
+          {
             "name": "Noé Lebreton",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 20,
             "goals": 2,
             "assists": 0,
@@ -8344,48 +8590,9 @@
             "mins": 970
           },
           {
-            "name": "Bryan Linssen",
-            "pos": "FW",
-            "start": 0.9,
-            "shots": 20,
-            "goals": 2,
-            "assists": 0,
-            "shots90": 1.98,
-            "sot90": 0.6,
-            "fouls90": 1.98,
-            "tackles90": 0.5,
-            "mins": 907
-          },
-          {
-            "name": "Deveron Fonville",
-            "pos": "DF",
-            "start": 0.87,
-            "shots": 2,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.32,
-            "sot90": 0.16,
-            "fouls90": 1.59,
-            "tackles90": 1.43,
-            "mins": 567
-          },
-          {
-            "name": "Tobias Storm",
-            "pos": "DF",
-            "start": 0.87,
-            "shots": 3,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.31,
-            "sot90": 0,
-            "fouls90": 1.26,
-            "tackles90": 2.3,
-            "mins": 860
-          },
-          {
             "name": "Dusan Tadic",
             "pos": "FW",
-            "start": 0.87,
+            "start": 1,
             "shots": 10,
             "goals": 2,
             "assists": 1,
@@ -8396,9 +8603,22 @@
             "mins": 798
           },
           {
+            "name": "Bryan Linssen",
+            "pos": "FW",
+            "start": 1,
+            "shots": 20,
+            "goals": 2,
+            "assists": 0,
+            "shots90": 1.98,
+            "sot90": 0.6,
+            "fouls90": 1.98,
+            "tackles90": 0.5,
+            "mins": 907
+          },
+          {
             "name": "Clement Bischoff",
             "pos": "FW",
-            "start": 0.78,
+            "start": 1,
             "shots": 16,
             "goals": 1,
             "assists": 1,
@@ -8409,61 +8629,9 @@
             "mins": 682
           },
           {
-            "name": "Jamiro Monteiro",
-            "pos": "MF",
-            "start": 0.69,
-            "shots": 9,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 1.33,
-            "sot90": 0.59,
-            "fouls90": 2.07,
-            "tackles90": 3.1,
-            "mins": 610
-          },
-          {
-            "name": "Kevin Kers",
-            "pos": "FW",
-            "start": 0.69,
-            "shots": 13,
-            "goals": 2,
-            "assists": 0,
-            "shots90": 2.16,
-            "sot90": 0.5,
-            "fouls90": 1,
-            "tackles90": 2,
-            "mins": 541
-          },
-          {
-            "name": "Ahmetcan Kaplan",
-            "pos": "DF",
-            "start": 0.5,
-            "shots": 10,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 2.07,
-            "sot90": 0.62,
-            "fouls90": 1.24,
-            "tackles90": 2.07,
-            "mins": 434
-          },
-          {
-            "name": "Gabi Brás",
-            "pos": "DF",
-            "start": 0.5,
-            "shots": 3,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.59,
-            "sot90": 0.2,
-            "fouls90": 0.79,
-            "tackles90": 1.98,
-            "mins": 454
-          },
-          {
             "name": "Perr Schuurs",
             "pos": "DF",
-            "start": 0.41,
+            "start": 0.12,
             "shots": 8,
             "goals": 2,
             "assists": 2,
@@ -8474,35 +8642,23 @@
             "mins": 306
           },
           {
-            "name": "Adam Tahaui",
-            "pos": "FW",
-            "start": 0.41,
-            "shots": 8,
-            "goals": 2,
-            "assists": 0,
-            "shots90": 1.81,
-            "sot90": 0.68,
-            "fouls90": 0.45,
-            "tackles90": 1.81,
-            "mins": 398
-          },
-          {
-            "name": "Bram Nuytinck",
+            "name": "Mitchel Bakker",
             "pos": "DF",
-            "start": 0.32,
-            "shots": 1,
+            "start": 0.12,
+            "shots": 3,
             "goals": 0,
-            "assists": 0,
-            "shots90": 0.36,
-            "sot90": 0,
-            "fouls90": 1.08,
-            "tackles90": 0.72,
-            "mins": 251
+            "assists": 1,
+            "pens": true,
+            "shots90": 1.05,
+            "sot90": 0.7,
+            "fouls90": 1.74,
+            "tackles90": 0.7,
+            "mins": 258
           },
           {
             "name": "Dennis Geiger",
             "pos": "MF",
-            "start": 0.32,
+            "start": 0.12,
             "shots": 1,
             "goals": 0,
             "assists": 1,
@@ -8513,51 +8669,50 @@
             "mins": 268
           },
           {
-            "name": "Mitchel Bakker",
-            "pos": "DF",
-            "start": 0.23,
-            "shots": 3,
-            "goals": 0,
-            "assists": 1,
-            "pens": true,
-            "shots90": 1.05,
-            "sot90": 0.7,
-            "fouls90": 1.74,
-            "tackles90": 0.7,
-            "mins": 258
+            "name": "Kaj Sierhuis",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 18,
+            "goals": 2,
+            "assists": 0,
+            "shots90": 4.92,
+            "sot90": 1.09,
+            "fouls90": 0.55,
+            "tackles90": 0.55,
+            "mins": 329
+          },
+          {
+            "name": "Kevin Kers",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 13,
+            "goals": 2,
+            "assists": 0,
+            "shots90": 2.16,
+            "sot90": 0.5,
+            "fouls90": 1,
+            "tackles90": 2,
+            "mins": 541
+          },
+          {
+            "name": "Adam Tahaui",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 8,
+            "goals": 2,
+            "assists": 0,
+            "shots90": 1.81,
+            "sot90": 0.68,
+            "fouls90": 0.45,
+            "tackles90": 1.81,
+            "mins": 398
           }
         ],
         "away": [
           {
-            "name": "Charlie Cresswell",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 6,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.55,
-            "sot90": 0.09,
-            "fouls90": 0.82,
-            "tackles90": 0.91,
-            "mins": 990
-          },
-          {
-            "name": "Valentin Rongier",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 9,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 0.96,
-            "sot90": 0.32,
-            "fouls90": 1.49,
-            "tackles90": 2.98,
-            "mins": 846
-          },
-          {
             "name": "Brice Samba",
             "pos": "GK",
-            "start": 0.87,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -8568,48 +8723,35 @@
             "mins": 810
           },
           {
-            "name": "Adrien Thomasson",
-            "pos": "MF",
-            "start": 0.78,
-            "shots": 6,
-            "goals": 2,
-            "assists": 2,
-            "shots90": 0.83,
-            "sot90": 0.28,
-            "fouls90": 2.08,
-            "tackles90": 1.8,
-            "mins": 650
-          },
-          {
-            "name": "Przemyslaw Frankowski",
-            "pos": "MF",
-            "start": 0.78,
-            "shots": 6,
-            "goals": 1,
-            "assists": 2,
-            "shots90": 0.91,
-            "sot90": 0.15,
-            "fouls90": 2.27,
-            "tackles90": 2.12,
-            "mins": 594
-          },
-          {
-            "name": "Anthony Rouault",
+            "name": "Bryan Reynolds",
             "pos": "DF",
-            "start": 0.69,
+            "start": 1,
             "shots": 5,
             "goals": 0,
-            "assists": 0,
-            "shots90": 0.71,
-            "sot90": 0.29,
-            "fouls90": 0.86,
-            "tackles90": 2,
-            "mins": 630
+            "assists": 2,
+            "shots90": 1.01,
+            "sot90": 0.2,
+            "fouls90": 1.61,
+            "tackles90": 2.62,
+            "mins": 446
+          },
+          {
+            "name": "Charlie Cresswell",
+            "pos": "DF",
+            "start": 1,
+            "shots": 6,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 0.55,
+            "sot90": 0.09,
+            "fouls90": 0.82,
+            "tackles90": 0.91,
+            "mins": 990
           },
           {
             "name": "Mahamadou Nagida",
             "pos": "DF",
-            "start": 0.69,
+            "start": 1,
             "shots": 10,
             "goals": 0,
             "assists": 2,
@@ -8620,48 +8762,9 @@
             "mins": 682
           },
           {
-            "name": "Sebastian Szymanski",
-            "pos": "MF",
-            "start": 0.69,
-            "shots": 10,
-            "goals": 4,
-            "assists": 1,
-            "shots90": 1.6,
-            "sot90": 0.64,
-            "fouls90": 0.8,
-            "tackles90": 2.23,
-            "mins": 564
-          },
-          {
-            "name": "Mahdi Camara",
-            "pos": "MF",
-            "start": 0.69,
-            "shots": 10,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 1.27,
-            "sot90": 0.64,
-            "fouls90": 1.27,
-            "tackles90": 1.27,
-            "mins": 706
-          },
-          {
-            "name": "Mousa Al-Tamari",
-            "pos": "FW",
-            "start": 0.69,
-            "shots": 18,
-            "goals": 0,
-            "assists": 2,
-            "shots90": 2.56,
-            "sot90": 1,
-            "fouls90": 0.43,
-            "tackles90": 0.85,
-            "mins": 632
-          },
-          {
             "name": "Abdelhamid Aït Boudlal",
             "pos": "DF",
-            "start": 0.6,
+            "start": 1,
             "shots": 1,
             "goals": 0,
             "assists": 1,
@@ -8672,23 +8775,57 @@
             "mins": 540
           },
           {
-            "name": "Esteban Lepaul",
-            "pos": "FW",
-            "start": 0.6,
-            "shots": 29,
-            "goals": 7,
+            "name": "Gonçalo Oliveira",
+            "pos": "DF",
+            "start": 1,
+            "shots": 2,
+            "goals": 0,
             "assists": 0,
-            "pens": true,
-            "shots90": 4.64,
-            "sot90": 2.56,
-            "fouls90": 0.48,
-            "tackles90": 0.32,
-            "mins": 562
+            "mins": 172
+          },
+          {
+            "name": "Adrien Thomasson",
+            "pos": "MF",
+            "start": 1,
+            "shots": 6,
+            "goals": 2,
+            "assists": 2,
+            "shots90": 0.83,
+            "sot90": 0.28,
+            "fouls90": 2.08,
+            "tackles90": 1.8,
+            "mins": 650
+          },
+          {
+            "name": "Sebastian Szymanski",
+            "pos": "MF",
+            "start": 1,
+            "shots": 10,
+            "goals": 4,
+            "assists": 1,
+            "shots90": 1.6,
+            "sot90": 0.64,
+            "fouls90": 0.8,
+            "tackles90": 2.23,
+            "mins": 564
+          },
+          {
+            "name": "Djaoui Cissé",
+            "pos": "MF",
+            "start": 1,
+            "shots": 7,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 3.23,
+            "sot90": 0.46,
+            "fouls90": 2.77,
+            "tackles90": 0.92,
+            "mins": 195
           },
           {
             "name": "Boulaye Dia",
             "pos": "FW",
-            "start": 0.5,
+            "start": 1,
             "shots": 11,
             "goals": 6,
             "assists": 0,
@@ -8700,48 +8837,49 @@
             "mins": 375
           },
           {
-            "name": "Issa Soumaré",
+            "name": "Esteban Lepaul",
             "pos": "FW",
-            "start": 0.5,
-            "shots": 13,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 2.73,
-            "sot90": 0.63,
-            "fouls90": 1.26,
-            "tackles90": 1.26,
-            "mins": 428
-          },
-          {
-            "name": "Bryan Reynolds",
-            "pos": "DF",
-            "start": 0.41,
-            "shots": 5,
-            "goals": 0,
-            "assists": 2,
-            "shots90": 1.01,
-            "sot90": 0.2,
-            "fouls90": 1.61,
-            "tackles90": 2.62,
-            "mins": 446
-          },
-          {
-            "name": "Quentin Merlin",
-            "pos": "DF",
-            "start": 0.32,
-            "shots": 2,
-            "goals": 0,
+            "start": 1,
+            "shots": 29,
+            "goals": 7,
             "assists": 0,
-            "shots90": 0.7,
-            "sot90": 0.35,
-            "fouls90": 2.44,
-            "tackles90": 0.7,
-            "mins": 258
+            "pens": true,
+            "shots90": 4.64,
+            "sot90": 2.56,
+            "fouls90": 0.48,
+            "tackles90": 0.32,
+            "mins": 562
+          },
+          {
+            "name": "Przemyslaw Frankowski",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 6,
+            "goals": 1,
+            "assists": 2,
+            "shots90": 0.91,
+            "sot90": 0.15,
+            "fouls90": 2.27,
+            "tackles90": 2.12,
+            "mins": 594
+          },
+          {
+            "name": "Valentin Rongier",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 9,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 0.96,
+            "sot90": 0.32,
+            "fouls90": 1.49,
+            "tackles90": 2.98,
+            "mins": 846
           },
           {
             "name": "Ludovic Blas",
             "pos": "FW",
-            "start": 0.32,
+            "start": 0.12,
             "shots": 15,
             "goals": 0,
             "assists": 1,
@@ -8750,6 +8888,32 @@
             "fouls90": 1.49,
             "tackles90": 1.19,
             "mins": 302
+          },
+          {
+            "name": "Mousa Al-Tamari",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 18,
+            "goals": 0,
+            "assists": 2,
+            "shots90": 2.56,
+            "sot90": 1,
+            "fouls90": 0.43,
+            "tackles90": 0.85,
+            "mins": 632
+          },
+          {
+            "name": "Issa Soumaré",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 13,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 2.73,
+            "sot90": 0.63,
+            "fouls90": 1.26,
+            "tackles90": 1.26,
+            "mins": 428
           }
         ]
       },
@@ -8782,13 +8946,40 @@
       "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "3-4-2-1",
+          "xi": [
+            "Klidman Lilo",
+            "Lorenzo Dickmann",
+            "Nicolaos Athanasiou",
+            "Christos Shelis",
+            "Dimitris Nikolaou",
+            "Konstantinos Kostoulas",
+            "Thanasis Androutsos",
+            "Andreas Bouchalakis",
+            "Thiago Thomas Nuss",
+            "Taxiarchis Fountas",
+            "Aitor Cantalapiedra"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-4-2",
+          "xi": [
+            "Colin Coosemans",
+            "Ali Maamar",
+            "Oleg Reabciuk",
+            "Mario Stroeykens",
+            "Giulian Biancone",
+            "Léo Pétrot",
+            "Lukás Ambros",
+            "Thelo Aasgaard",
+            "Tawfik Bentayeb",
+            "Mihajlo Cvetkovic",
+            "Marten Winkler"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
@@ -8802,6 +8993,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915503"
         }
       ],
       "form20": {
@@ -8961,9 +9156,22 @@
         "source": "ESPN season stats",
         "home": [
           {
+            "name": "Klidman Lilo",
+            "pos": "GK",
+            "start": 1,
+            "shots": 0,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0,
+            "sot90": 0,
+            "fouls90": 0,
+            "tackles90": 0,
+            "mins": 405
+          },
+          {
             "name": "Lorenzo Dickmann",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 9,
             "goals": 0,
             "assists": 1,
@@ -8974,22 +9182,9 @@
             "mins": 720
           },
           {
-            "name": "Achilleas Poungouras",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0.86,
-            "tackles90": 0.43,
-            "mins": 838
-          },
-          {
             "name": "Dimitris Nikolaou",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 3,
             "goals": 0,
             "assists": 0,
@@ -9000,9 +9195,22 @@
             "mins": 682
           },
           {
+            "name": "Christos Shelis",
+            "pos": "DF",
+            "start": 1,
+            "shots": 2,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.86,
+            "sot90": 0,
+            "fouls90": 1.72,
+            "tackles90": 0.86,
+            "mins": 209
+          },
+          {
             "name": "Nicolaos Athanasiou",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 5,
             "goals": 1,
             "assists": 3,
@@ -9013,9 +9221,22 @@
             "mins": 906
           },
           {
+            "name": "Konstantinos Kostoulas",
+            "pos": "DF",
+            "start": 1,
+            "shots": 3,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.55,
+            "sot90": 0,
+            "fouls90": 0.18,
+            "tackles90": 1.28,
+            "mins": 491
+          },
+          {
             "name": "Andreas Bouchalakis",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 6,
             "goals": 1,
             "assists": 1,
@@ -9026,22 +9247,9 @@
             "mins": 758
           },
           {
-            "name": "Thiago Thomas Nuss",
-            "pos": "FW",
-            "start": 0.9,
-            "shots": 14,
-            "goals": 3,
-            "assists": 1,
-            "shots90": 1.74,
-            "sot90": 0.87,
-            "fouls90": 3.11,
-            "tackles90": 1.12,
-            "mins": 724
-          },
-          {
             "name": "Thanasis Androutsos",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 4,
             "goals": 2,
             "assists": 0,
@@ -9054,7 +9262,7 @@
           {
             "name": "Taxiarchis Fountas",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "shots": 19,
             "goals": 1,
             "assists": 0,
@@ -9065,48 +9273,9 @@
             "mins": 725
           },
           {
-            "name": "Nikos Christogeorgos",
-            "pos": "GK",
-            "start": 0.75,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 585
-          },
-          {
-            "name": "Kresimir Krizmanic",
-            "pos": "DF",
-            "start": 0.75,
-            "shots": 1,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.13,
-            "sot90": 0,
-            "fouls90": 1.27,
-            "tackles90": 1.27,
-            "mins": 707
-          },
-          {
-            "name": "Konstantinos Kostoulas",
-            "pos": "DF",
-            "start": 0.65,
-            "shots": 3,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.55,
-            "sot90": 0,
-            "fouls90": 0.18,
-            "tackles90": 1.28,
-            "mins": 491
-          },
-          {
             "name": "Aitor Cantalapiedra",
             "pos": "FW",
-            "start": 0.65,
+            "start": 1,
             "shots": 8,
             "goals": 0,
             "assists": 1,
@@ -9117,48 +9286,22 @@
             "mins": 542
           },
           {
-            "name": "Kenan Kodro",
+            "name": "Thiago Thomas Nuss",
             "pos": "FW",
-            "start": 0.55,
-            "shots": 11,
-            "goals": 4,
-            "assists": 0,
-            "shots90": 2.05,
-            "sot90": 0.93,
-            "fouls90": 0.75,
-            "tackles90": 0.19,
-            "mins": 483
-          },
-          {
-            "name": "Klidman Lilo",
-            "pos": "GK",
-            "start": 0.45,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 405
-          },
-          {
-            "name": "Giorgos Kanellopoulos",
-            "pos": "MF",
-            "start": 0.35,
-            "shots": 3,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 1.03,
-            "sot90": 0,
-            "fouls90": 1.71,
-            "tackles90": 2.74,
-            "mins": 263
+            "start": 1,
+            "shots": 14,
+            "goals": 3,
+            "assists": 1,
+            "shots90": 1.74,
+            "sot90": 0.87,
+            "fouls90": 3.11,
+            "tackles90": 1.12,
+            "mins": 724
           },
           {
             "name": "Borja González",
             "pos": "DF",
-            "start": 0.25,
+            "start": 0.12,
             "shots": 2,
             "goals": 0,
             "assists": 1,
@@ -9169,37 +9312,50 @@
             "mins": 272
           },
           {
-            "name": "Christos Shelis",
+            "name": "Kresimir Krizmanic",
             "pos": "DF",
-            "start": 0.25,
-            "shots": 2,
+            "start": 0.12,
+            "shots": 1,
             "goals": 0,
-            "assists": 0,
-            "shots90": 0.86,
+            "assists": 1,
+            "shots90": 0.13,
             "sot90": 0,
-            "fouls90": 1.72,
-            "tackles90": 0.86,
-            "mins": 209
+            "fouls90": 1.27,
+            "tackles90": 1.27,
+            "mins": 707
           },
           {
-            "name": "Anastasios Chatzigiovanis",
+            "name": "Giannis Apostolakis",
             "pos": "MF",
-            "start": 0.25,
+            "start": 0.12,
             "shots": 4,
-            "goals": 0,
+            "goals": 1,
             "assists": 0,
-            "shots90": 1.6,
-            "sot90": 1.2,
-            "fouls90": 0.8,
-            "tackles90": 0.8,
-            "mins": 225
+            "shots90": 1.79,
+            "sot90": 0.9,
+            "fouls90": 0.9,
+            "tackles90": 1.79,
+            "mins": 201
+          },
+          {
+            "name": "Kenan Kodro",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 11,
+            "goals": 4,
+            "assists": 0,
+            "shots90": 2.05,
+            "sot90": 0.93,
+            "fouls90": 0.75,
+            "tackles90": 0.19,
+            "mins": 483
           }
         ],
         "away": [
           {
             "name": "Colin Coosemans",
             "pos": "GK",
-            "start": 0.9,
+            "start": 1,
             "shots": 1,
             "goals": 0,
             "assists": 1,
@@ -9210,22 +9366,9 @@
             "mins": 1080
           },
           {
-            "name": "Ludwig Augustinsson",
-            "pos": "DF",
-            "start": 0.9,
-            "shots": 10,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 1.01,
-            "sot90": 0.2,
-            "fouls90": 1.01,
-            "tackles90": 0.91,
-            "mins": 895
-          },
-          {
             "name": "Léo Pétrot",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 3,
             "goals": 0,
             "assists": 1,
@@ -9236,22 +9379,18 @@
             "mins": 1035
           },
           {
-            "name": "Ali Maamar",
+            "name": "Oleg Reabciuk",
             "pos": "DF",
-            "start": 0.9,
-            "shots": 13,
+            "start": 1,
+            "shots": 2,
             "goals": 0,
-            "assists": 2,
-            "shots90": 1.15,
-            "sot90": 0.53,
-            "fouls90": 1.33,
-            "tackles90": 1.86,
-            "mins": 1015
+            "assists": 0,
+            "mins": 90
           },
           {
             "name": "Giulian Biancone",
             "pos": "DF",
-            "start": 0.8,
+            "start": 1,
             "shots": 8,
             "goals": 0,
             "assists": 0,
@@ -9262,87 +9401,35 @@
             "mins": 739
           },
           {
-            "name": "Lukás Ambros",
+            "name": "Ali Maamar",
+            "pos": "DF",
+            "start": 1,
+            "shots": 13,
+            "goals": 0,
+            "assists": 2,
+            "shots90": 1.15,
+            "sot90": 0.53,
+            "fouls90": 1.33,
+            "tackles90": 1.86,
+            "mins": 1015
+          },
+          {
+            "name": "Thelo Aasgaard",
             "pos": "MF",
-            "start": 0.8,
-            "shots": 14,
+            "start": 1,
+            "shots": 13,
             "goals": 1,
             "assists": 0,
-            "shots90": 1.71,
-            "sot90": 0.49,
-            "fouls90": 1.22,
-            "tackles90": 1.22,
-            "mins": 737
-          },
-          {
-            "name": "Danylo Sikan",
-            "pos": "FW",
-            "start": 0.8,
-            "shots": 28,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 3.7,
-            "sot90": 1.06,
-            "fouls90": 1.32,
-            "tackles90": 0.93,
-            "mins": 681
-          },
-          {
-            "name": "Marco Kana",
-            "pos": "MF",
-            "start": 0.63,
-            "shots": 4,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.59,
-            "sot90": 0.3,
-            "fouls90": 1.63,
-            "tackles90": 0.89,
-            "mins": 609
-          },
-          {
-            "name": "Mihajlo Cvetkovic",
-            "pos": "FW",
-            "start": 0.63,
-            "shots": 23,
-            "goals": 2,
-            "assists": 1,
-            "shots90": 2.97,
-            "sot90": 0.78,
-            "fouls90": 0.91,
-            "tackles90": 0.52,
-            "mins": 696
-          },
-          {
-            "name": "Enric Llansana",
-            "pos": "MF",
-            "start": 0.55,
-            "shots": 6,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 1.11,
-            "sot90": 0.37,
-            "fouls90": 2.97,
-            "tackles90": 3.53,
-            "mins": 485
-          },
-          {
-            "name": "Ilias Koutsoupias",
-            "pos": "MF",
-            "start": 0.47,
-            "shots": 3,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.65,
-            "sot90": 0.22,
-            "fouls90": 0.43,
-            "tackles90": 1.3,
-            "mins": 416
+            "shots90": 3.9,
+            "sot90": 0.6,
+            "fouls90": 1.2,
+            "tackles90": 1.5,
+            "mins": 300
           },
           {
             "name": "Mario Stroeykens",
             "pos": "MF",
-            "start": 0.38,
+            "start": 1,
             "shots": 4,
             "goals": 1,
             "assists": 0,
@@ -9353,9 +9440,22 @@
             "mins": 333
           },
           {
+            "name": "Lukás Ambros",
+            "pos": "MF",
+            "start": 1,
+            "shots": 14,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 1.71,
+            "sot90": 0.49,
+            "fouls90": 1.22,
+            "tackles90": 1.22,
+            "mins": 737
+          },
+          {
             "name": "Marten Winkler",
             "pos": "FW",
-            "start": 0.38,
+            "start": 1,
             "shots": 8,
             "goals": 2,
             "assists": 0,
@@ -9366,9 +9466,22 @@
             "mins": 476
           },
           {
+            "name": "Mihajlo Cvetkovic",
+            "pos": "FW",
+            "start": 1,
+            "shots": 23,
+            "goals": 2,
+            "assists": 1,
+            "shots90": 2.97,
+            "sot90": 0.78,
+            "fouls90": 0.91,
+            "tackles90": 0.52,
+            "mins": 696
+          },
+          {
             "name": "Tawfik Bentayeb",
             "pos": "FW",
-            "start": 0.38,
+            "start": 1,
             "shots": 14,
             "goals": 3,
             "assists": 1,
@@ -9379,22 +9492,22 @@
             "mins": 374
           },
           {
-            "name": "Tristan Degreef",
+            "name": "Ilias Koutsoupias",
             "pos": "MF",
-            "start": 0.3,
-            "shots": 2,
+            "start": 0.12,
+            "shots": 3,
             "goals": 0,
-            "assists": 0,
-            "shots90": 0.77,
-            "sot90": 0,
-            "fouls90": 1.54,
-            "tackles90": 0.77,
-            "mins": 234
+            "assists": 1,
+            "shots90": 0.65,
+            "sot90": 0.22,
+            "fouls90": 0.43,
+            "tackles90": 1.3,
+            "mins": 416
           },
           {
             "name": "Joshua-Williame Nga Kana",
             "pos": "MF",
-            "start": 0.3,
+            "start": 0.12,
             "shots": 5,
             "goals": 1,
             "assists": 0,
@@ -9405,9 +9518,18 @@
             "mins": 205
           },
           {
+            "name": "Adriano Bertaccini",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 11,
+            "goals": 3,
+            "assists": 0,
+            "mins": 68
+          },
+          {
             "name": "Oliver Antman",
             "pos": "FW",
-            "start": 0.3,
+            "start": 0.12,
             "shots": 5,
             "goals": 0,
             "assists": 1,
@@ -9418,17 +9540,17 @@
             "mins": 381
           },
           {
-            "name": "Jayden Onia-Seke",
+            "name": "Danylo Sikan",
             "pos": "FW",
-            "start": 0.3,
-            "shots": 9,
-            "goals": 0,
+            "start": 0.12,
+            "shots": 28,
+            "goals": 1,
             "assists": 0,
-            "shots90": 3.43,
-            "sot90": 0.38,
-            "fouls90": 1.53,
-            "tackles90": 1.91,
-            "mins": 236
+            "shots90": 3.7,
+            "sot90": 1.06,
+            "fouls90": 1.32,
+            "tackles90": 0.93,
+            "mins": 681
           }
         ]
       },
@@ -9461,18 +9583,49 @@
       "context": "No form: football-data.co.uk doesn't cover Lyon or Lillestrøm's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "Dominik Greif",
+            "Steeve Kango",
+            "Nicolás Tagliafico",
+            "Corentin Tolisso",
+            "Felix Bacher",
+            "Ruben Kluivert",
+            "Kail Boudache",
+            "Noah Nartey",
+            "Rémi Himbert",
+            "Khalis Merah",
+            "Julien Duranville"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-1-4-1",
+          "xi": [
+            "Pontus Dahlberg",
+            "Lars Ranger",
+            "Frederik Elkaer",
+            "Filip Ottosson",
+            "Sander Moen Foss",
+            "Stian Kristiansen",
+            "Camil Jebara",
+            "Henrik Melland",
+            "Eric Kitolano",
+            "Gustav Nyheim",
+            "Vá"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915501"
         }
       ],
       "odds": {
@@ -9613,18 +9766,49 @@
       "context": "No form: football-data.co.uk doesn't cover Torreense or Celtic's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "Adriel",
+            "Jonathan Mutombo",
+            "Javier Vazquez",
+            "Mohamed Diadié",
+            "Volnei Feltes",
+            "Stopira",
+            "Manuel Pozo",
+            "Alejandro Alfaro",
+            "Musa Drammeh",
+            "João Marques",
+            "Dany Jean"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-2-3-1",
+          "xi": [
+            "Sam Johnstone",
+            "Colby Donovan",
+            "Kieran Tierney",
+            "Callum McGregor",
+            "Dane Murray",
+            "Liam Scales",
+            "Yang Hyun-Jun",
+            "Alex Oxlade-Chamberlain",
+            "Kasper Høgh",
+            "Luke McCowan",
+            "Jota"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915512"
         }
       ],
       "odds": {
@@ -9765,13 +9949,40 @@
       "context": "Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "Robin Roefs",
+            "Trai Hume",
+            "Reinildo Mandava",
+            "Noah Sadiki",
+            "Kevin Danso",
+            "Omar Alderete",
+            "Chris Rigg",
+            "Malick Fofana",
+            "Tymur Tutierov",
+            "Enzo Le Fée",
+            "Nilson Angulo"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-3-3",
+          "xi": [
+            "Slawomir Abramowicz",
+            "Rodrigo Conceição",
+            "Guilherme Montoia",
+            "Taras Romanczuk",
+            "Bernardo Vital",
+            "Yuki Kobayashi",
+            "Eryk Kozlowski",
+            "Anders Klynge",
+            "Nik Prelec",
+            "Kamil Jozwiak",
+            "Kajetan Szmyt"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
@@ -9781,6 +9992,10 @@
         {
           "title": "football-data.co.uk results and match stats (Sunderland, Jagiellonia: last 20 and 20 league games)",
           "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915513"
         }
       ],
       "form20": {
@@ -9945,13 +10160,40 @@
       "context": "Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-4-2",
+          "xi": [
+            "Oliver Baumann",
+            "Vladimír Coufal",
+            "Mats Rots",
+            "Fisnik Asllani",
+            "Koki Machida",
+            "Ozan Kabak",
+            "Wouter Burger",
+            "Leon Avdullahu",
+            "Adam Daghim",
+            "Adam Hlozek",
+            "Alexander Prass"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-3-2-1",
+          "xi": [
+            "Adam Stejskal",
+            "Arjan Malic",
+            "Luís Balbo",
+            "Jon Gorenc Stankovic",
+            "Albert Vallci",
+            "Joshua Quarshie",
+            "Luca Weinhandl",
+            "Valmir Matoshi",
+            "Oumar Diakité",
+            "Jacob Peter Hödl",
+            "Seedy Jatta"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:45 UTC"
       },
       "sources": [
         {
@@ -9965,6 +10207,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915515"
         }
       ],
       "form20": {
@@ -10107,7 +10353,7 @@
           {
             "name": "Oliver Baumann",
             "pos": "GK",
-            "start": 0.9,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -10120,7 +10366,7 @@
           {
             "name": "Vladimír Coufal",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 3,
             "goals": 0,
             "assists": 2,
@@ -10131,9 +10377,22 @@
             "mins": 789
           },
           {
+            "name": "Koki Machida",
+            "pos": "DF",
+            "start": 1,
+            "shots": 4,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.57,
+            "sot90": 0,
+            "fouls90": 1.28,
+            "tackles90": 1.56,
+            "mins": 635
+          },
+          {
             "name": "Ozan Kabak",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 13,
             "goals": 1,
             "assists": 0,
@@ -10144,9 +10403,35 @@
             "mins": 811
           },
           {
+            "name": "Alexander Prass",
+            "pos": "DF",
+            "start": 1,
+            "shots": 11,
+            "goals": 2,
+            "assists": 1,
+            "shots90": 2.7,
+            "sot90": 1.23,
+            "fouls90": 1.23,
+            "tackles90": 1.97,
+            "mins": 366
+          },
+          {
+            "name": "Mats Rots",
+            "pos": "DF",
+            "start": 1,
+            "shots": 5,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.79,
+            "sot90": 0.31,
+            "fouls90": 1.1,
+            "tackles90": 2.83,
+            "mins": 572
+          },
+          {
             "name": "Wouter Burger",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 11,
             "goals": 0,
             "assists": 0,
@@ -10159,7 +10444,7 @@
           {
             "name": "Leon Avdullahu",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 5,
             "goals": 1,
             "assists": 0,
@@ -10170,35 +10455,9 @@
             "mins": 887
           },
           {
-            "name": "Koki Machida",
-            "pos": "DF",
-            "start": 0.75,
-            "shots": 4,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.57,
-            "sot90": 0,
-            "fouls90": 1.28,
-            "tackles90": 1.56,
-            "mins": 635
-          },
-          {
-            "name": "Mats Rots",
-            "pos": "DF",
-            "start": 0.75,
-            "shots": 5,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.79,
-            "sot90": 0.31,
-            "fouls90": 1.1,
-            "tackles90": 2.83,
-            "mins": 572
-          },
-          {
             "name": "Adam Hlozek",
             "pos": "FW",
-            "start": 0.75,
+            "start": 1,
             "shots": 26,
             "goals": 2,
             "assists": 1,
@@ -10209,35 +10468,9 @@
             "mins": 549
           },
           {
-            "name": "Adam Daghim",
-            "pos": "FW",
-            "start": 0.75,
-            "shots": 10,
-            "goals": 2,
-            "assists": 2,
-            "shots90": 1.37,
-            "sot90": 0.55,
-            "fouls90": 1.1,
-            "tackles90": 1.23,
-            "mins": 657
-          },
-          {
-            "name": "Tim Lemperle",
-            "pos": "FW",
-            "start": 0.65,
-            "shots": 18,
-            "goals": 2,
-            "assists": 0,
-            "shots90": 3.15,
-            "sot90": 1.05,
-            "fouls90": 1.75,
-            "tackles90": 1.75,
-            "mins": 515
-          },
-          {
             "name": "Fisnik Asllani",
             "pos": "FW",
-            "start": 0.65,
+            "start": 1,
             "shots": 26,
             "goals": 1,
             "assists": 2,
@@ -10248,9 +10481,22 @@
             "mins": 471
           },
           {
+            "name": "Adam Daghim",
+            "pos": "FW",
+            "start": 1,
+            "shots": 10,
+            "goals": 2,
+            "assists": 2,
+            "shots90": 1.37,
+            "sot90": 0.55,
+            "fouls90": 1.1,
+            "tackles90": 1.23,
+            "mins": 657
+          },
+          {
             "name": "Bambasé Conté",
             "pos": "MF",
-            "start": 0.55,
+            "start": 0.12,
             "shots": 15,
             "goals": 2,
             "assists": 2,
@@ -10261,48 +10507,9 @@
             "mins": 465
           },
           {
-            "name": "Alexander Prass",
-            "pos": "DF",
-            "start": 0.45,
-            "shots": 11,
-            "goals": 2,
-            "assists": 1,
-            "shots90": 2.7,
-            "sot90": 1.23,
-            "fouls90": 1.23,
-            "tackles90": 1.97,
-            "mins": 366
-          },
-          {
-            "name": "Bernardo",
-            "pos": "DF",
-            "start": 0.35,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 2.67,
-            "tackles90": 3.12,
-            "mins": 202
-          },
-          {
-            "name": "Albian Hajdari",
-            "pos": "DF",
-            "start": 0.35,
-            "shots": 3,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.87,
-            "sot90": 0,
-            "fouls90": 2.02,
-            "tackles90": 1.44,
-            "mins": 312
-          },
-          {
             "name": "Andrej Kramaric",
             "pos": "FW",
-            "start": 0.35,
+            "start": 0.12,
             "shots": 9,
             "goals": 1,
             "assists": 1,
@@ -10314,22 +10521,22 @@
             "mins": 320
           },
           {
-            "name": "Patrick Wimmer",
-            "pos": "MF",
-            "start": 0.25,
-            "shots": 9,
-            "goals": 0,
+            "name": "Tim Lemperle",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 18,
+            "goals": 2,
             "assists": 0,
-            "shots90": 3.91,
-            "sot90": 0.43,
-            "fouls90": 1.3,
-            "tackles90": 1.74,
-            "mins": 207
+            "shots90": 3.15,
+            "sot90": 1.05,
+            "fouls90": 1.75,
+            "tackles90": 1.75,
+            "mins": 515
           },
           {
             "name": "Max Moerstedt",
             "pos": "FW",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 4,
             "goals": 1,
             "assists": 1,
@@ -10339,9 +10546,49 @@
         ],
         "away": [
           {
+            "name": "Albert Vallci",
+            "pos": "DF",
+            "start": 1,
+            "shots": 7,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 1.4,
+            "sot90": 0.2,
+            "fouls90": 0.2,
+            "tackles90": 2.2,
+            "mins": 450
+          },
+          {
+            "name": "Joshua Quarshie",
+            "pos": "DF",
+            "start": 1,
+            "shots": 0,
+            "goals": 0,
+            "assists": 0,
+            "mins": 9
+          },
+          {
+            "name": "Luís Balbo",
+            "pos": "DF",
+            "start": 1,
+            "shots": 0,
+            "goals": 0,
+            "assists": 0,
+            "mins": 155
+          },
+          {
+            "name": "Arjan Malic",
+            "pos": "DF",
+            "start": 1,
+            "shots": 0,
+            "goals": 0,
+            "assists": 0,
+            "mins": 2
+          },
+          {
             "name": "Jon Gorenc Stankovic",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 4,
             "goals": 2,
             "assists": 0,
@@ -10352,22 +10599,18 @@
             "mins": 450
           },
           {
-            "name": "Simon Seidl",
+            "name": "Valmir Matoshi",
             "pos": "MF",
-            "start": 0.9,
-            "shots": 11,
-            "goals": 1,
-            "assists": 4,
-            "shots90": 2.84,
-            "sot90": 1.29,
-            "fouls90": 0.78,
-            "tackles90": 0.52,
-            "mins": 348
+            "start": 1,
+            "shots": 0,
+            "goals": 0,
+            "assists": 0,
+            "mins": 15
           },
           {
             "name": "Jacob Peter Hödl",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 11,
             "goals": 0,
             "assists": 0,
@@ -10380,7 +10623,7 @@
           {
             "name": "Luca Weinhandl",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 3,
             "goals": 1,
             "assists": 0,
@@ -10391,132 +10634,9 @@
             "mins": 360
           },
           {
-            "name": "Jürgen Heil",
-            "pos": "MF",
-            "start": 0.82,
-            "shots": 5,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 1.01,
-            "sot90": 0.2,
-            "fouls90": 0.81,
-            "tackles90": 2.23,
-            "mins": 444
-          },
-          {
-            "name": "Paul-Friedrich Koller",
-            "pos": "DF",
-            "start": 0.67,
-            "shots": 1,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.48,
-            "sot90": 0,
-            "fouls90": 0.96,
-            "tackles90": 0.48,
-            "mins": 187
-          },
-          {
-            "name": "Joshua Quarshie",
-            "pos": "DF",
-            "start": 0.67,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "mins": 9
-          },
-          {
-            "name": "Arjan Malic",
-            "pos": "DF",
-            "start": 0.67,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "mins": 2
-          },
-          {
-            "name": "Danill Khudiakov",
-            "pos": "GK",
-            "start": 0.59,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 270
-          },
-          {
-            "name": "Albert Vallci",
-            "pos": "DF",
-            "start": 0.59,
-            "shots": 7,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 1.4,
-            "sot90": 0.2,
-            "fouls90": 0.2,
-            "tackles90": 2.2,
-            "mins": 450
-          },
-          {
-            "name": "Valmir Matoshi",
-            "pos": "MF",
-            "start": 0.59,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "mins": 15
-          },
-          {
-            "name": "Ammar Helac",
-            "pos": "GK",
-            "start": 0.51,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 180
-          },
-          {
-            "name": "Luís Balbo",
-            "pos": "DF",
-            "start": 0.51,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "mins": 155
-          },
-          {
-            "name": "Oumar Diakité",
-            "pos": "FW",
-            "start": 0.43,
-            "shots": 0,
-            "goals": 9,
-            "assists": 0,
-            "mins": 0
-          },
-          {
-            "name": "Emran Soglo",
-            "pos": "DF",
-            "start": 0.36,
-            "shots": 1,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.31,
-            "sot90": 0.31,
-            "fouls90": 0.61,
-            "tackles90": 3.66,
-            "mins": 295
-          },
-          {
             "name": "Seedy Jatta",
             "pos": "FW",
-            "start": 0.36,
+            "start": 1,
             "shots": 8,
             "goals": 2,
             "assists": 0,
@@ -10527,9 +10647,66 @@
             "mins": 305
           },
           {
+            "name": "Oumar Diakité",
+            "pos": "FW",
+            "start": 1,
+            "shots": 0,
+            "goals": 9,
+            "assists": 0,
+            "mins": 0
+          },
+          {
+            "name": "Emran Soglo",
+            "pos": "DF",
+            "start": 0.12,
+            "shots": 1,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 0.31,
+            "sot90": 0.31,
+            "fouls90": 0.61,
+            "tackles90": 3.66,
+            "mins": 295
+          },
+          {
+            "name": "Jürgen Heil",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 5,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 1.01,
+            "sot90": 0.2,
+            "fouls90": 0.81,
+            "tackles90": 2.23,
+            "mins": 444
+          },
+          {
+            "name": "Gizo Mamageishvili",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 9,
+            "goals": 1,
+            "assists": 0,
+            "mins": 149
+          },
+          {
+            "name": "Simon Seidl",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 11,
+            "goals": 1,
+            "assists": 4,
+            "shots90": 2.84,
+            "sot90": 1.29,
+            "fouls90": 0.78,
+            "tackles90": 0.52,
+            "mins": 348
+          },
+          {
             "name": "Szymon Wlodarczyk",
             "pos": "FW",
-            "start": 0.28,
+            "start": 0.12,
             "shots": 7,
             "goals": 1,
             "assists": 0,
@@ -10542,11 +10719,20 @@
           {
             "name": "Belmin Beganovic",
             "pos": "FW",
-            "start": 0.28,
+            "start": 0.12,
             "shots": 4,
             "goals": 2,
             "assists": 0,
             "mins": 135
+          },
+          {
+            "name": "Nelson Weiper",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 7,
+            "goals": 2,
+            "assists": 0,
+            "mins": 161
           }
         ]
       },
