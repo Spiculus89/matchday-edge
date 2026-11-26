@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updated": "2026-11-26T16:49:26.404Z",
+  "updated": "2026-11-26T16:53:44.642Z",
   "updateNote": "Morning update: all 18 Europa League (matchday 5) and 18 Conference League (matchday 4) games added unpriced; the 18:15 Warsaw odds run prices them.",
   "matches": [
     {
@@ -895,18 +895,49 @@
       "context": "No form: football-data.co.uk doesn't cover Brighton or U Craiova's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Jason Steele",
+            "Ferdi Kadioglu",
+            "Maxim De Cuyper",
+            "Chema Andrés",
+            "Michael Svoboda",
+            "Pascal Struijk",
+            "Pascal Gross",
+            "Jack Hinshelwood",
+            "Charalambos Kostoulas",
+            "Matt O'Riley",
+            "Ibrahim Osman"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "3-4-3",
+          "xi": [
+            "Laurentiu Popescu",
+            "Carlos Mora",
+            "Nicusor Bancu",
+            "Vladimir Screciu",
+            "Nikola Stevanovic",
+            "Oleksandr Romanchuk",
+            "Tudor Baluta",
+            "João Lameira",
+            "Simon Elisor",
+            "Alexandru Cicaldau",
+            "Stefan Baiaram"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:53 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915814"
         }
       ],
       "odds": {
@@ -1047,18 +1078,49 @@
       "context": "No form: football-data.co.uk doesn't cover Iberia 1999 or Getafe's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Georgi Makaridze",
+            "Giorgi Kobuladze",
+            "Jemali-Giorgi Jinjolava",
+            "Nikoloz Dadiani",
+            "Aleksandre Amisulashvili",
+            "Vahid Selimovic",
+            "Giorgi Kutsia",
+            "Bakar Kardava",
+            "Amiran Dzagania",
+            "Lucas Brune",
+            "Nika Sikharulashvili"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-4-2",
+          "xi": [
+            "David Soria",
+            "Kiko Femenía",
+            "Davinchi",
+            "Nemanja Gudelj",
+            "Djené",
+            "Saba Sazonov",
+            "Ramón Terrats",
+            "Mario Martín",
+            "Martín Satriano",
+            "Borja Mayoral",
+            "Alberto Risco"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:53 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915813"
         }
       ],
       "odds": {
@@ -1705,18 +1767,49 @@
       "context": "No form: football-data.co.uk doesn't cover Egnatia or Lincoln's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Mario Dajsinani",
+            "Guillem Jaime",
+            "Andrey Yago",
+            "Altin Kryeziu",
+            "Albano Aleksi",
+            "Numan Ajetovikj",
+            "Fernando Medeiros",
+            "Karim Loukili",
+            "Daniel Claude Junior Adjessa",
+            "Alessandro Albanese",
+            "Ildi Gruda"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-4-2",
+          "xi": [
+            "Nauzet Santana",
+            "Julliani Eersteling",
+            "Gabri Cardozo",
+            "Graeme Torrilla",
+            "Bernardo Lopes",
+            "Christian Rutjens",
+            "Toni",
+            "Mandi",
+            "Álvaro Romero",
+            "Enrique Gómez",
+            "Nano González"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:53 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915810"
         }
       ],
       "odds": {
@@ -1993,13 +2086,40 @@
       "context": "Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Matias Dyngeland",
+            "Leo Cornic",
+            "Joachim Soltvedt",
+            "Niklas Jensen",
+            "Fredrik Knudsen",
+            "Neraysho Kasanwirjo",
+            "Kristall Máni Ingason",
+            "Jonas Torsvik",
+            "Noah Holm",
+            "Ulrick Mathisen",
+            "Niklas Castro"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "3-4-3",
+          "xi": [
+            "Mads Hedenstad Christiansen",
+            "Jacob Andersen",
+            "Gift Links",
+            "Daniel Grétarsson",
+            "Colin Rösler",
+            "Tobias Henriksen",
+            "Kristian Malt Arnstad",
+            "Magnus Knudsen",
+            "Stefen Tchamche",
+            "Callum McCowatt",
+            "Tobias Bech"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:53 UTC"
       },
       "sources": [
         {
@@ -2009,6 +2129,10 @@
         {
           "title": "football-data.co.uk results and match stats (Brann, Aarhus: last 20 and 20 league games)",
           "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915808"
         }
       ],
       "form20": {
