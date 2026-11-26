@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-28",
+  "updated": "2026-11-26T17:52:26.148Z",
+  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, news and lineups.",
+  "skeleton": true,
+  "matches": [
+    {
+      "id": "flu-cru",
+      "competition": "Brasileiro Serie A (Brazil)",
+      "kickoff": "2026-11-27T23:00:00.000Z",
+      "home": {
+        "name": "Fluminense FC RJ",
+        "short": "Fluminense FC"
+      },
+      "away": {
+        "name": "Cruzeiro EC MG",
+        "short": "Cruzeiro EC"
+      },
+      "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
+      "odds": {
+        "h": 2.07,
+        "d": 3.65,
+        "a": 3.38,
+        "ou": {
+          "0.5": [
+            1.044,
+            12.84
+          ],
+          "1.5": [
+            1.222,
+            4.18
+          ],
+          "2.5": [
+            1.724,
+            2.12
+          ],
+          "3.5": [
+            2.78,
+            1.436
+          ],
+          "4.5": [
+            5.02,
+            1.167
+          ]
+        },
+        "btts": [
+          1.591,
+          2.36
+        ],
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.06,
+            "away": 1.775
+          },
+          {
+            "line": 0,
+            "home": 1.534,
+            "away": 2.53
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.632,
+            2.21
+          ],
+          "10.5": [
+            2.03,
+            1.751
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.436,
+            2.61
+          ],
+          "4.5": [
+            2.02,
+            1.769
+          ],
+          "5.5": [
+            2.86,
+            1.371
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-26 17:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.13,
+          "d": 3.57,
+          "a": 3.31,
+          "ou": {
+            "0.5": [
+              1.01,
+              13.6
+            ],
+            "1.5": [
+              1.2,
+              4.2
+            ],
+            "2.5": [
+              1.69,
+              2.09
+            ],
+            "3.5": [
+              2.8,
+              1.4
+            ],
+            "4.5": [
+              5.3,
+              1.13
+            ],
+            "5.5": [
+              11.2,
+              1.02
+            ]
+          },
+          "btts": [
+            1.61,
+            2.24
+          ],
+          "text": "1X2 2.13/3.57/3.31, O/U 2.5 1.69/2.09"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-26 17:52 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Fluminense, Cruzeiro: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.5,
+          "ga": 1.05,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.9,
+          "ga": 1.2,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 1.61,
+          "ga": 1.06
+        },
+        "away": {
+          "gf": 1.94,
+          "ga": 1.22
+        }
+      }
+    },
+    {
+      "id": "rac-liv",
+      "competition": "Primera Division (Uruguay)",
+      "kickoff": "2026-11-27T23:30:00.000Z",
+      "home": {
+        "name": "Racing Club Montevideo",
+        "short": "Racing Club"
+      },
+      "away": {
+        "name": "Liverpool Montevideo",
+        "short": "Liverpool Montevideo"
+      },
+      "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
+      "odds": {
+        "h": 2.91,
+        "d": 3.16,
+        "a": 2.52,
+        "ou": {
+          "1.5": [
+            1.35,
+            3.09
+          ],
+          "2.5": [
+            2.15,
+            1.694
+          ],
+          "3.5": [
+            3.83,
+            1.245
+          ]
+        },
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.89,
+            "away": 1.409
+          },
+          {
+            "line": 0,
+            "home": 2.06,
+            "away": 1.775
+          },
+          {
+            "line": 0.5,
+            "home": 1.523,
+            "away": 2.51
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-26 17:52 UTC"
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-26 17:52 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Racing Club, Liverpool: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 0.95,
+          "ga": 1.3,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.65,
+          "ga": 1.2,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {},
+        "away": {
+          "fouls": 12.9,
+          "shots": 15.95,
+          "sot": 5.1
+        }
+      }
+    }
+  ]
+}
