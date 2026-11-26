@@ -419,6 +419,167 @@
    "espn": "Remo",
    "file": "bra.1-4936.json",
    "fetched": "2026-11-25T23:44:21.742Z"
+  },
+  "Nordsjaelland": {
+   "slug": "den.1",
+   "id": "3101",
+   "espn": "FC Nordsjælland",
+   "file": "den.1-3101.json",
+   "fetched": "2026-11-26T18:31:33.801Z"
+  },
+  "Panathinaikos": {
+   "slug": "gre.1",
+   "id": "443",
+   "espn": "Panathinaikos",
+   "file": "gre.1-443.json",
+   "fetched": "2026-11-26T18:31:34.523Z"
+  },
+  "Atalanta": {
+   "slug": "ita.1",
+   "id": "105",
+   "espn": "Atalanta",
+   "file": "ita.1-105.json",
+   "fetched": "2026-11-26T18:31:34.697Z"
+  },
+  "St. Truidense": {
+   "slug": "bel.1",
+   "id": "936",
+   "espn": "Sint-Truidense",
+   "file": "bel.1-936.json",
+   "fetched": "2026-11-26T18:31:34.845Z"
+  },
+  "Gent": {
+   "slug": "bel.1",
+   "id": "3611",
+   "espn": "KAA Gent",
+   "file": "bel.1-3611.json",
+   "fetched": "2026-11-26T18:31:35.031Z"
+  },
+  "Trabzonspor": {
+   "slug": "tur.1",
+   "id": "997",
+   "espn": "Trabzonspor",
+   "file": "tur.1-997.json",
+   "fetched": "2026-11-26T18:31:35.278Z"
+  },
+  "Freiburg": {
+   "slug": "ger.1",
+   "id": "126",
+   "espn": "SC Freiburg",
+   "file": "ger.1-126.json",
+   "fetched": "2026-11-26T18:31:35.400Z"
+  },
+  "Twente": {
+   "slug": "ned.1",
+   "id": "152",
+   "espn": "FC Twente",
+   "file": "ned.1-152.json",
+   "fetched": "2026-11-26T18:31:35.546Z"
+  },
+  "Sparta Prague": {
+   "slug": "ned.1",
+   "id": "151",
+   "espn": "Sparta Rotterdam",
+   "file": "ned.1-151.json",
+   "fetched": "2026-11-26T18:31:35.686Z"
+  },
+  "AZ Alkmaar": {
+   "slug": "ned.1",
+   "id": "140",
+   "espn": "AZ Alkmaar",
+   "file": "ned.1-140.json",
+   "fetched": "2026-11-26T18:31:35.865Z"
+  },
+  "Crystal Palace": {
+   "slug": "eng.1",
+   "id": "384",
+   "espn": "Crystal Palace",
+   "file": "eng.1-384.json",
+   "fetched": "2026-11-26T18:31:36.050Z"
+  },
+  "Real Sociedad": {
+   "slug": "esp.1",
+   "id": "89",
+   "espn": "Real Sociedad",
+   "file": "esp.1-89.json",
+   "fetched": "2026-11-26T18:31:36.205Z"
+  },
+  "Juventus": {
+   "slug": "ita.1",
+   "id": "111",
+   "espn": "Juventus",
+   "file": "ita.1-111.json",
+   "fetched": "2026-11-26T18:31:36.389Z"
+  },
+  "Omonia Nicosia": {
+   "slug": "cyp.1",
+   "id": "617",
+   "espn": "Omonia Nicosia",
+   "file": "cyp.1-617.json",
+   "fetched": "2026-11-26T18:31:36.613Z"
+  },
+  "NEC Nijmegen": {
+   "slug": "ned.1",
+   "id": "147",
+   "espn": "NEC Nijmegen",
+   "file": "ned.1-147.json",
+   "fetched": "2026-11-26T18:31:36.762Z"
+  },
+  "Stade Rennais": {
+   "slug": "fra.1",
+   "id": "169",
+   "espn": "Stade Rennais",
+   "file": "fra.1-169.json",
+   "fetched": "2026-11-26T18:31:36.915Z"
+  },
+  "OFI Crete": {
+   "slug": "gre.1",
+   "id": "1010",
+   "espn": "OFI Crete",
+   "file": "gre.1-1010.json",
+   "fetched": "2026-11-26T18:31:37.084Z"
+  },
+  "RSC Anderlecht": {
+   "slug": "bel.1",
+   "id": "441",
+   "espn": "Anderlecht",
+   "file": "bel.1-441.json",
+   "fetched": "2026-11-26T18:31:37.268Z"
+  },
+  "Olympique Lyon": {
+   "slug": "fra.1",
+   "id": "167",
+   "espn": "Lyon",
+   "file": "fra.1-167.json",
+   "fetched": "2026-11-26T18:31:37.467Z"
+  },
+  "Celtic": {
+   "slug": "sco.1",
+   "id": "256",
+   "espn": "Celtic",
+   "file": "sco.1-256.json",
+   "fetched": "2026-11-26T18:31:37.650Z"
+  },
+  "Sunderland": {
+   "slug": "eng.1",
+   "id": "366",
+   "espn": "Sunderland",
+   "file": "eng.1-366.json",
+   "fetched": "2026-11-26T18:31:37.795Z"
+  },
+  "Hoffenheim": {
+   "slug": "ger.1",
+   "id": "7911",
+   "espn": "TSG Hoffenheim",
+   "file": "ger.1-7911.json",
+   "fetched": "2026-11-26T18:31:37.976Z"
+  },
+  "Sturm Graz": {
+   "slug": "aut.1",
+   "id": "3746",
+   "espn": "SK Sturm Graz",
+   "file": "aut.1-3746.json",
+   "fetched": "2026-11-26T18:31:38.174Z"
   }
  }
 }
