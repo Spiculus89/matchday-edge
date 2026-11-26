@@ -1,0 +1,16 @@
+name: Live
+on:
+  workflow_dispatch:
+    inputs:
+      date: { description: "Warsaw date (empty = today)", default: "" }
+permissions:
+  contents: read
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Live snapshot from ESPN through the live model
+        run: node scripts/live-espn.mjs ${{ github.event.inputs.date }}
