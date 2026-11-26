@@ -36,7 +36,7 @@ This is what each scheduled run does. Each match follows the schema of the exist
 5. **Build the players list (research runs only, when the automatic list is missing):**
    - Starters get `start` 1 once confirmed and bench players 0.
    - Before that, players in the predicted XI get 0.75–0.9, rotation risks 0.3–0.5, and injured or suspended players are left out.
-   - Set `adjust.home` or `adjust.away` to 0.92 when a confirmed XI is missing 2+ of the usual top-3 attackers, and to 0.96 for heavy rotation.
+   - Set `adjust.home` or `adjust.away` to 0.92 when 2+ of the usual top-3 attackers are out injured or suspended (not in the squad), and to 0.96 for heavy rotation. Attackers who are only on the bench don't count, since they often come on (user request, 25 Nov).
 6. **Write the files.** Write `public/data/<date>.json`, add the date to `public/data/index.json` (newest first, keep the last 14 days), and set `updated` to the current UTC time.
 7. **Check and push.** Run `npm run check -- <date>` and `npm test`, and fix anything marked BAD. The check prices picks with the track-record calibration, so the best bets it prints are the ones the page shows. Then commit ("Data: <date> <morning|lineups|evening> update") and push to `main`.
 8. **Record lessons.** When a graded result or a data problem leads to a change in the engine or in this runbook, add an entry at the top of `public/data/lessons.json`: `{date, area, kind: "model" | "data", saw, change}`. `saw` states what happened with real numbers from `results.json` or the source, and `change` states what is done differently now. The site shows these under "What the model learned". Scheduled data runs don't change the engine; they add a `data` lesson only when they change how data is collected.

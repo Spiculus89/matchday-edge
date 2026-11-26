@@ -2,6 +2,13 @@
   "note": "Changes to the model or the data process, each tied to the graded result or data problem that prompted it. Newest first.",
   "lessons": [
     {
+      "date": "2026-11-25",
+      "area": "Team news adjustments",
+      "kind": "data",
+      "saw": "PSG v Roma: Roma's confirmed XI left Malen (12 league goals) and Dybala on the bench, so the lineups run set adjust.away 0.92 and the page's value bet was Under 3.5 goals @1.961. Roma scored twice in a 2-2 draw and the Under lost.",
+      "change": "The 0.92 adjustment now needs 2+ of a side's usual top-3 attackers out injured or suspended. Attackers who are only on the bench no longer count, because they often come on."
+    },
+    {
       "date": "2026-11-24",
       "area": "Scorers and assists",
       "kind": "model",
