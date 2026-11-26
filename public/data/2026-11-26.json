@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updated": "2026-11-26T19:45:33.284Z",
+  "updated": "2026-11-26T19:46:52.860Z",
   "updateNote": "Morning update: all 18 Europa League (matchday 5) and 18 Conference League (matchday 4) games added unpriced; the 18:15 Warsaw odds run prices them.",
   "matches": [
     {
@@ -4893,18 +4893,49 @@
       "context": "No form: football-data.co.uk doesn't cover Inter Escaldes or Copenhagen's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Javier Díaz",
+            "Maurizio Pochettino",
+            "Jilmar Torres",
+            "Victor Alonso",
+            "Álex Sánchez",
+            "Anwar Hernández",
+            "David López",
+            "Pablo Molina",
+            "Faysal Choaib",
+            "Juan Cámara",
+            "Soule"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "3-4-2-1",
+          "xi": [
+            "Rúnar Rúnarsson",
+            "Maher Carrizo",
+            "Marcos López",
+            "Ákos Markgráf",
+            "Thomas Delaney",
+            "Junnosuke Suzuki",
+            "Alex Král",
+            "Mads Emil Madsen",
+            "Viktor Dadason",
+            "Hunor Németh",
+            "Mohamed Elyounoussi"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:46 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915738"
         }
       ],
       "odds": {
@@ -5041,18 +5072,53 @@
       "context": "No form: football-data.co.uk doesn't cover Gent or Crvena Zvezda's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "3-4-2-1",
+          "xi": [
+            "Davy Roef",
+            "Matisse Samoise",
+            "Tiago Araújo",
+            "Siebe van der Heyden",
+            "Matties Volckaert",
+            "Maksim Paskotši",
+            "Leo Da Silva Lopes",
+            "Mathias Delorge-Knieper",
+            "Josué Yamir Vergara Ortega",
+            "Abdelkahar Kadri",
+            "Momodou Sonko"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "3-4-1-2",
+          "xi": [
+            "Matheus",
+            "Mahmudu Bajo",
+            "Vladimir Lucic",
+            "Yuta Nakayama",
+            "Matej Gashtarov",
+            "Stefan Gudelj",
+            "Rade Krunic",
+            "Tomás Händel",
+            "Mohammad Abu Fani",
+            "Vasilije Kostov",
+            "Mirko Ivanic"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:46 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915804"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Gent, Red Star: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
         }
       ],
       "odds": {
@@ -5171,6 +5237,42 @@
             ]
           },
           "text": "1X2 2.4/3.35/3.1, O/U 2.5 1.86/1.95"
+        }
+      },
+      "form20": {
+        "home": {
+          "gf": 1.1,
+          "ga": 0.85,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.5,
+          "ga": 1.4,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 4.45,
+          "fouls": 9.7,
+          "shots": 12.15,
+          "sot": 3.75
+        },
+        "away": {
+          "corners": 4.45,
+          "fouls": 15.1,
+          "shots": 13.75,
+          "sot": 4.95
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.9,
+          "redsPg": 0.05
+        },
+        "away": {
+          "yellowsPg": 2.3,
+          "redsPg": 0.1
         }
       }
     },
