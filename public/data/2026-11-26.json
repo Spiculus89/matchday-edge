@@ -4888,7 +4888,7 @@
       },
       "away": {
         "name": "Copenhagen",
-        "short": "Copenhagen"
+        "short": "København"
       },
       "context": "No form: football-data.co.uk doesn't cover Inter Escaldes or Copenhagen's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
@@ -5036,7 +5036,7 @@
       },
       "away": {
         "name": "Crvena Zvezda",
-        "short": "Crvena Zvezda"
+        "short": "Red Star"
       },
       "context": "No form: football-data.co.uk doesn't cover Gent or Crvena Zvezda's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
