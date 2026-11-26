@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updated": "2026-11-26T16:46:26.381Z",
+  "updated": "2026-11-26T16:49:26.404Z",
   "updateNote": "Morning update: all 18 Europa League (matchday 5) and 18 Conference League (matchday 4) games added unpriced; the 18:15 Warsaw odds run prices them.",
   "matches": [
     {
@@ -700,13 +700,40 @@
       "context": "Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Marc-André ter Stegen",
+            "Thilo Kehrer",
+            "Owen Wijndal",
+            "Sofyan Amrabat",
+            "Dies Janse",
+            "Daley Blind",
+            "Rayane Bounida",
+            "Julian Brandt",
+            "Oliver Edvardsen",
+            "Marcos Leonardo",
+            "Abdellah Ouazane"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-4-2",
+          "xi": [
+            "Niklas Steffen",
+            "Fabio Fehr",
+            "Olivier Mambwa",
+            "Mattias Käit",
+            "Jan Bamert",
+            "Marco Bürki",
+            "Nils Reichmuth",
+            "Justin Roth",
+            "Furkan Dursun",
+            "Brighton Labeau",
+            "Nico Mai"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:49 UTC"
       },
       "sources": [
         {
@@ -716,6 +743,10 @@
         {
           "title": "football-data.co.uk results and match stats (Ajax, Thun: last 20 and 20 league games)",
           "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915815"
         }
       ],
       "form20": {
@@ -1152,18 +1183,49 @@
       "context": "No form: football-data.co.uk doesn't cover Jablonec or Lugano's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "Klemen Mihelak",
+            "Martin Cedidla",
+            "Jiri Sláma",
+            "Nelson Okeke",
+            "Nemanja Tekijaski",
+            "Dusan Pavlovic",
+            "Vakhtang Chanturishvili",
+            "Richard Sedlacek",
+            "Lamin Jawo",
+            "Dominik Holly",
+            "Saidou Alioum Moubarak"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "3-4-3",
+          "xi": [
+            "David Von Ballmoos",
+            "Behruzjon Karimov",
+            "Ezgjan Alioski",
+            "Joel Bichsel",
+            "Lukas Mai",
+            "Antonios Papadopoulos",
+            "Ahmed Kendouci",
+            "Uran Bislimi",
+            "Albian Ajeti",
+            "Beckham Castro",
+            "Elias Pihlström"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:49 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915812"
         }
       ],
       "odds": {
@@ -2090,18 +2152,49 @@
       "context": "No form: football-data.co.uk doesn't cover Beşiktaş or Hapoel Be'er Sheva's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Dogan Alemdar",
+            "Taylan Bulut",
+            "Kassoum Ouattara",
+            "Salih Özcan",
+            "Tiago Djaló",
+            "Emir Han Topcu",
+            "Wilfred Ndidi",
+            "Orkun Kökçü",
+            "Oh Hyeon-Gyu",
+            "Václav Cerný",
+            "Ilhan Fakili"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-3-3",
+          "xi": [
+            "Marco Wolff",
+            "Guy Mizrahi",
+            "Pedro Amador",
+            "Niv Yehoshua",
+            "Djibril Diop",
+            "Miguel Vítor",
+            "Zahi Ahmed",
+            "Forson Amankwah",
+            "Igor Zlatanovic",
+            "Mohamad Abu Rumi",
+            "Yonas Malede"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:49 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915506"
         }
       ],
       "odds": {
@@ -2243,18 +2336,49 @@
       "context": "No form: football-data.co.uk doesn't cover Salzburg or Ararat-Armenia's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "Christian Zawieschitzky",
+            "Leandro Morgalla",
+            "Frans Krätzig",
+            "Bartosz Mazurek",
+            "Tim Drexler",
+            "Valentin Zabransky",
+            "Edmund Baidoo",
+            "Soumaïla Diabaté",
+            "Yorbe Vertessen",
+            "Gaoussou Diakité",
+            "Jesper Lindstrom"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-3-3",
+          "xi": [
+            "Arman Nersesyan",
+            "Hugo Oliveira",
+            "Edgar Grigoryan",
+            "Juan Andrés Balanta",
+            "Bruno Wilson",
+            "Alexandros Malis",
+            "Karen Muradyan",
+            "Maxence Carlier",
+            "Alioune Ndour",
+            "Artur Serobyan",
+            "Zhirayr Shaghoyan"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:49 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915520"
         }
       ],
       "odds": {
@@ -2574,18 +2698,49 @@
       "context": "No form: football-data.co.uk doesn't cover Dinamo Zagreb or Leverkusen's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Dominik Kotarski",
+            "Moris Valincic",
+            "Bruno Goda",
+            "Josip Misic",
+            "Sergi Domínguez",
+            "Scott McKenna",
+            "Lukas Kacavenda",
+            "Luka Stojkovic",
+            "Dion Drena Beljo",
+            "Mateo Lisica",
+            "Mislav Orsic"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-2-3-1",
+          "xi": [
+            "Mark Flekken",
+            "Jarell Quansah",
+            "Miguel Gutiérrez",
+            "Aleix García",
+            "Loïc Badé",
+            "Facundo Medina",
+            "Moussa Diaby",
+            "Robert Andrich",
+            "Patrik Schick",
+            "Malik Tillman",
+            "Ibrahim Maza"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:49 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915517"
         }
       ],
       "odds": {
@@ -2945,18 +3100,49 @@
       "context": "No form: football-data.co.uk doesn't cover Marseille or Levski's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Jeffrey de Lange",
+            "Kelyann Bezahaf",
+            "Ulisses Garcia",
+            "Pierre-Emile Højbjerg",
+            "CJ Egan-Riley",
+            "Nayef Aguerd",
+            "Himad Abdelli",
+            "Angel Gomes",
+            "Amine Gouiri",
+            "Keyliane Abdallah",
+            "Igor Paixão"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "3-5-2",
+          "xi": [
+            "Svetoslav Vutsov",
+            "Aldair",
+            "Álex Centelles",
+            "Christian Makoun",
+            "Kristian Dimitrov",
+            "Nikola Serafimov",
+            "Akram Bouras",
+            "El Mehdi El Moubarik",
+            "Armstrong Oko-Flex",
+            "Reinaldo",
+            "Marko Grujic"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:49 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915507"
         }
       ],
       "odds": {
@@ -3299,13 +3485,40 @@
       "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "3-4-3",
+          "xi": [
+            "Andrei Radu",
+            "Javi Rueda",
+            "Sergio Carreira",
+            "Marcos Alonso",
+            "Yoel Lago",
+            "Javi Rodríguez",
+            "Aleix Febas",
+            "Hugo Burcio",
+            "Pablo Durán",
+            "Iago Aspas",
+            "Couhaib Driouech"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-4-2",
+          "xi": [
+            "Michele Di Gregorio",
+            "James Hill",
+            "Julio Soler",
+            "Lewis Cook",
+            "Bafodé Diakité",
+            "António Silva",
+            "David Brooks",
+            "Alex Scott",
+            "Álvaro Rodríguez",
+            "Justin Kluivert",
+            "Amine Adli"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:49 UTC"
       },
       "sources": [
         {
@@ -3315,6 +3528,10 @@
         {
           "title": "football-data.co.uk results and match stats (Celta, Bournemouth: last 20 and 20 league games)",
           "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915519"
         }
       ],
       "form20": {
