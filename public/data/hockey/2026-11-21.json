@@ -777,6 +777,10 @@
           "games": 23
         },
         "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      },
+      "result": {
+        "home": 7,
+        "away": 4
       }
     },
     {
@@ -895,6 +899,11 @@
           "games": 21
         },
         "note": "Season goals for/against per game from ESPN's NHL standings (read 21 Nov)."
+      },
+      "result": {
+        "home": 3,
+        "away": 4,
+        "ot": "OT"
       }
     }
   ]

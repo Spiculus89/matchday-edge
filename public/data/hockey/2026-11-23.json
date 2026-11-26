@@ -107,7 +107,12 @@
           "title": "OddsPapi odds snapshot 2026-11-21 22:10 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 5,
+        "away": 4,
+        "ot": "SO"
+      }
     },
     {
       "id": "pen-sta",
@@ -222,7 +227,11 @@
           "title": "OddsPapi odds snapshot 2026-11-21 22:10 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 0
+      }
     },
     {
       "id": "bla-can",
@@ -327,7 +336,11 @@
           "title": "OddsPapi odds snapshot 2026-11-21 22:10 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 3,
+        "away": 6
+      }
     }
   ]
 }

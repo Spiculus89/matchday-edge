@@ -107,7 +107,11 @@
           "title": "OddsPapi odds snapshot 2026-11-23 19:27 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 3,
+        "away": 5
+      }
     }
   ]
 }

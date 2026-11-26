@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T09:02:32.571Z",
+  "updated": "2026-11-26T10:57:42.399Z",
   "note": "Graded picks for hockey, same format as football's results.json.",
   "legs": [
     {
@@ -280,6 +280,848 @@
       "p": 0.516,
       "odds": null,
       "won": true
+    },
+    {
+      "date": "2026-11-20",
+      "match": "buf-wsh",
+      "group": "1st period",
+      "pick": "1st period under 2 (best bet)",
+      "p": 0.61,
+      "odds": 1.68,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-20",
+      "match": "buf-wsh",
+      "group": "Bet builder",
+      "pick": "Sabres +1.5 + Over 4.5 goals",
+      "p": 0.545,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-20",
+      "match": "buf-wsh",
+      "group": "1st period",
+      "pick": "1st period under 2 (Bet)",
+      "p": 0.61,
+      "odds": 1.68,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-20",
+      "match": "lak-tor",
+      "group": "Bet builder",
+      "pick": "Kings +1.5 + Over 4.5 goals",
+      "p": 0.539,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-20",
+      "match": "lak-tor",
+      "group": "Team total",
+      "pick": "Kings over 2.5 (Lean)",
+      "p": 0.589,
+      "odds": 1.666,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-20",
+      "match": "edm-tbl",
+      "group": "Bet builder",
+      "pick": "Oilers +1.5 + Over 4.5 goals",
+      "p": 0.533,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-20",
+      "match": "edm-tbl",
+      "group": "Puck line",
+      "pick": "Oilers +1.5 (Lean)",
+      "p": 0.659,
+      "odds": 1.492,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-20",
+      "match": "edm-tbl",
+      "group": "Team total",
+      "pick": "Lightning under 3.5 (Lean)",
+      "p": 0.55,
+      "odds": 1.781,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "oil-hur",
+      "group": "Moneyline",
+      "pick": "Hurricanes to win (incl. OT) (most likely)",
+      "p": 0.651,
+      "odds": 1.48,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "oil-hur",
+      "group": "Bet builder",
+      "pick": "Hurricanes to win (incl. OT) + Over 4.5 goals",
+      "p": 0.507,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "oil-hur",
+      "group": "Puck line",
+      "pick": "Oilers +1.5 (Lean)",
+      "p": 0.578,
+      "odds": 1.714,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "bla-fla",
+      "group": "Bet builder",
+      "pick": "Blackhawks +1.5 + Over 4.5 goals",
+      "p": 0.497,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "sab-pan",
+      "group": "Bet builder",
+      "pick": "Sabres +1.5 + Over 4.5 goals",
+      "p": 0.516,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "pen-pre",
+      "group": "Bet builder",
+      "pick": "Penguins +1.5 + Over 4.5 goals",
+      "p": 0.539,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "cap-bru",
+      "group": "Bet builder",
+      "pick": "Capitals +1.5 + Over 4.5 goals",
+      "p": 0.534,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "cap-bru",
+      "group": "Moneyline",
+      "pick": "Bruins to win (incl. OT) (Lean)",
+      "p": 0.558,
+      "odds": 1.757,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "jac-lea",
+      "group": "Bet builder",
+      "pick": "Jackets +1.5 + Over 4.5 goals",
+      "p": 0.538,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "fly-can",
+      "group": "Bet builder",
+      "pick": "Flyers +1.5 + Over 4.5 goals",
+      "p": 0.489,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "kin-sen",
+      "group": "Moneyline",
+      "pick": "Senators to win (incl. OT) (most likely)",
+      "p": 0.625,
+      "odds": 1.552,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "kin-sen",
+      "group": "Bet builder",
+      "pick": "Senators to win (incl. OT) + Over 4.5 goals",
+      "p": 0.461,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "isl-win",
+      "group": "Bet builder",
+      "pick": "Wings +1.5 + Over 4.5 goals",
+      "p": 0.518,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "dev-blu",
+      "group": "Bet builder",
+      "pick": "Blues +1.5 + Over 4.5 goals",
+      "p": 0.525,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "dev-blu",
+      "group": "Team total",
+      "pick": "Blues over 2.5 (Lean)",
+      "p": 0.574,
+      "odds": 1.709,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "kni-jet",
+      "group": "Bet builder",
+      "pick": "Jets +1.5 + Over 4.5 goals",
+      "p": 0.537,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "kni-jet",
+      "group": "Team total",
+      "pick": "Jets over 2.5 (Lean)",
+      "p": 0.593,
+      "odds": 1.653,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "duc-mam",
+      "group": "1st period",
+      "pick": "1st period under 2 (best bet)",
+      "p": 0.58,
+      "odds": 1.781,
+      "won": false,
+      "shadow": true,
+      "void": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "duc-mam",
+      "group": "Bet builder",
+      "pick": "Ducks +1.5 + Over 4.5 goals",
+      "p": 0.545,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "duc-mam",
+      "group": "Puck line",
+      "pick": "Ducks +1.5 (Lean)",
+      "p": 0.621,
+      "odds": 1.591,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "duc-mam",
+      "group": "1st period",
+      "pick": "1st period under 2 (Bet)",
+      "p": 0.58,
+      "odds": 1.781,
+      "won": false,
+      "shadow": true,
+      "void": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "wil-can",
+      "group": "Moneyline",
+      "pick": "Wild to win (incl. OT) (most likely)",
+      "p": 0.73,
+      "odds": 1.328,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "wil-can",
+      "group": "Bet builder",
+      "pick": "Wild to win (incl. OT) + Over 4.5 goals",
+      "p": 0.581,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-22",
+      "match": "kra-sha",
+      "group": "Bet builder",
+      "pick": "Kraken +1.5 + Over 4.5 goals",
+      "p": 0.571,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-23",
+      "match": "oil-blu",
+      "group": "Bet builder",
+      "pick": "Oilers +1.5 + Over 4.5 goals",
+      "p": 0.541,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-23",
+      "match": "oil-blu",
+      "group": "Team total",
+      "pick": "Blues over 2.5 (Lean)",
+      "p": 0.607,
+      "odds": 1.628,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-23",
+      "match": "pen-sta",
+      "group": "Moneyline",
+      "pick": "Stars to win (incl. OT) (most likely)",
+      "p": 0.666,
+      "odds": 1.442,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-23",
+      "match": "pen-sta",
+      "group": "Bet builder",
+      "pick": "Stars to win (incl. OT) + Over 4.5 goals",
+      "p": 0.508,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-23",
+      "match": "pen-sta",
+      "group": "Puck line",
+      "pick": "Penguins +1.5 (Lean)",
+      "p": 0.552,
+      "odds": 1.819,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-23",
+      "match": "pen-sta",
+      "group": "Team total",
+      "pick": "Penguins over 2.5 (Bet)",
+      "p": 0.47,
+      "odds": 2.17,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-23",
+      "match": "bla-can",
+      "group": "Bet builder",
+      "pick": "Canucks +1.5 + Over 4.5 goals",
+      "p": 0.565,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-23",
+      "match": "bla-can",
+      "group": "1st period",
+      "pick": "1st period under 2 (Bet)",
+      "p": 0.624,
+      "odds": 1.657,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "jac-dev",
+      "group": "Moneyline",
+      "pick": "Devils to win (incl. OT) (most likely)",
+      "p": 0.63,
+      "odds": 1.526,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "jac-dev",
+      "group": "Bet builder",
+      "pick": "Jackets +1.5 + Over 4.5 goals",
+      "p": 0.482,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "jac-dev",
+      "group": "Puck line",
+      "pick": "Jackets +1.5 (Lean)",
+      "p": 0.595,
+      "odds": 1.671,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "kin-can",
+      "group": "Bet builder",
+      "pick": "Kings +1.5 + Over 4.5 goals",
+      "p": 0.518,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "kin-can",
+      "group": "Puck line",
+      "pick": "Kings +1.5 (Lean)",
+      "p": 0.648,
+      "odds": 1.518,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "kin-can",
+      "group": "Team total",
+      "pick": "Kings over 2.5 (Lean)",
+      "p": 0.564,
+      "odds": 1.746,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "fla-sen",
+      "group": "Moneyline",
+      "pick": "Senators to win (incl. OT) (most likely)",
+      "p": 0.685,
+      "odds": 1.4,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "fla-sen",
+      "group": "Bet builder",
+      "pick": "Senators to win (incl. OT) + Over 4.5 goals",
+      "p": 0.499,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "lea-isl",
+      "group": "Bet builder",
+      "pick": "Leafs +1.5 + Over 4.5 goals",
+      "p": 0.515,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "lea-isl",
+      "group": "Puck line",
+      "pick": "Leafs +1.5 (Lean)",
+      "p": 0.629,
+      "odds": 1.571,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "lea-isl",
+      "group": "Team total",
+      "pick": "Leafs over 2.5 (Lean)",
+      "p": 0.567,
+      "odds": 1.735,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "mam-jet",
+      "group": "Bet builder",
+      "pick": "Mammoth +1.5 + Over 4.5 goals",
+      "p": 0.56,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "duc-kra",
+      "group": "Bet builder",
+      "pick": "Ducks +1.5 + Over 4.5 goals",
+      "p": 0.567,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "duc-kra",
+      "group": "1st period",
+      "pick": "1st period under 2 (Bet)",
+      "p": 0.603,
+      "odds": 1.719,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "wil-sha",
+      "group": "Moneyline",
+      "pick": "Wild to win (incl. OT) (most likely)",
+      "p": 0.605,
+      "odds": 1.588,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "wil-sha",
+      "group": "Bet builder",
+      "pick": "Sharks +1.5 + Over 4.5 goals",
+      "p": 0.507,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-24",
+      "match": "wil-sha",
+      "group": "Puck line",
+      "pick": "Sharks +1.5 (Lean)",
+      "p": 0.611,
+      "odds": 1.632,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-25",
+      "match": "kni-oil",
+      "group": "Bet builder",
+      "pick": "Oilers +1.5 + Over 4.5 goals",
+      "p": 0.554,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "jet-bru",
+      "group": "Bet builder",
+      "pick": "Jets +1.5 + Over 4.5 goals",
+      "p": 0.518,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "jet-bru",
+      "group": "Puck line",
+      "pick": "Jets +1.5 (Lean)",
+      "p": 0.627,
+      "odds": 1.574,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "jet-bru",
+      "group": "Team total",
+      "pick": "Jets over 2.5 (Lean)",
+      "p": 0.576,
+      "odds": 1.704,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "ran-sab",
+      "group": "Bet builder",
+      "pick": "Rangers +1.5 + Over 4.5 goals",
+      "p": 0.539,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "ran-sab",
+      "group": "Team total",
+      "pick": "Rangers over 2.5 (Lean)",
+      "p": 0.593,
+      "odds": 1.653,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "hur-lig",
+      "group": "Bet builder",
+      "pick": "Lightning +1.5 + Over 4.5 goals",
+      "p": 0.557,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "sen-pan",
+      "group": "Bet builder",
+      "pick": "Senators +1.5 + Over 4.5 goals",
+      "p": 0.53,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "sen-pan",
+      "group": "Team total",
+      "pick": "Senators over 2.5 (Lean)",
+      "p": 0.572,
+      "odds": 1.719,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "blu-isl",
+      "group": "Bet builder",
+      "pick": "Blues +1.5 + Over 4.5 goals",
+      "p": 0.542,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "fla-pen",
+      "group": "Bet builder",
+      "pick": "Flames +1.5 + Over 4.5 goals",
+      "p": 0.501,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "fla-pen",
+      "group": "Puck line",
+      "pick": "Flames +1.5 (Lean)",
+      "p": 0.634,
+      "odds": 1.549,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "fly-cap",
+      "group": "Bet builder",
+      "pick": "Flyers +1.5 + Over 4.5 goals",
+      "p": 0.514,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "fly-cap",
+      "group": "Puck line",
+      "pick": "Flyers +1.5 (Lean)",
+      "p": 0.635,
+      "odds": 1.549,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "fly-cap",
+      "group": "Team total",
+      "pick": "Flyers over 2.5 (Lean)",
+      "p": 0.566,
+      "odds": 1.735,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "dev-jac",
+      "group": "Bet builder",
+      "pick": "Jackets +1.5 + Over 4.5 goals",
+      "p": 0.522,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "dev-jac",
+      "group": "Puck line",
+      "pick": "Jackets +1.5 (Lean)",
+      "p": 0.654,
+      "odds": 1.505,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "dev-jac",
+      "group": "Team total",
+      "pick": "Jackets over 2.5 (Lean)",
+      "p": 0.563,
+      "odds": 1.751,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "can-win",
+      "group": "Moneyline",
+      "pick": "Wings to win (incl. OT) (most likely)",
+      "p": 0.662,
+      "odds": 1.45,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "can-win",
+      "group": "Bet builder",
+      "pick": "Wings to win (incl. OT) + Over 4.5 goals",
+      "p": 0.508,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "can-win",
+      "group": "Puck line",
+      "pick": "Canucks +1.5 (Lean)",
+      "p": 0.567,
+      "odds": 1.757,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "mam-wil",
+      "group": "Bet builder",
+      "pick": "Mammoth +1.5 + Over 4.5 goals",
+      "p": 0.518,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "mam-wil",
+      "group": "Puck line",
+      "pick": "Mammoth +1.5 (Lean)",
+      "p": 0.653,
+      "odds": 1.505,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "mam-wil",
+      "group": "Team total",
+      "pick": "Mammoth over 2.5 (Lean)",
+      "p": 0.565,
+      "odds": 1.74,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "pre-sta",
+      "group": "Moneyline",
+      "pick": "Stars to win (incl. OT) (most likely)",
+      "p": 0.61,
+      "odds": 1.578,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "pre-sta",
+      "group": "Bet builder",
+      "pick": "Predators +1.5 + Over 4.5 goals",
+      "p": 0.482,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "pre-sta",
+      "group": "Puck line",
+      "pick": "Predators +1.5 (Lean)",
+      "p": 0.626,
+      "odds": 1.574,
+      "won": true,
+      "shadow": true
     }
   ]
 }

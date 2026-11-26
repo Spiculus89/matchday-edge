@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T09:02:32.571Z",
+  "updated": "2026-11-26T10:57:34.898Z",
   "note": "Graded picks for basketball, same format as football's results.json.",
   "legs": [
     {
@@ -370,6 +370,166 @@
       "p": 0.32,
       "odds": null,
       "won": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "hor-haw",
+      "group": "Moneyline",
+      "pick": "Hawks to win (most likely)",
+      "p": 0.698,
+      "odds": 1.409,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "hor-haw",
+      "group": "Bet builder",
+      "pick": "Hawks to win + Over 211 points",
+      "p": 0.464,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "mag-net",
+      "group": "Moneyline",
+      "pick": "Magic to win (most likely)",
+      "p": 0.697,
+      "odds": 1.404,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "mag-net",
+      "group": "Bet builder",
+      "pick": "Magic to win + Over 215.5 points",
+      "p": 0.471,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "pac-cav",
+      "group": "Moneyline",
+      "pick": "Cavaliers to win (most likely)",
+      "p": 0.671,
+      "odds": 1.46,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "pac-cav",
+      "group": "Bet builder",
+      "pick": "Cavaliers to win + Over 226.5 points",
+      "p": 0.448,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "rap-pis",
+      "group": "Moneyline",
+      "pick": "Pistons to win (most likely)",
+      "p": 0.704,
+      "odds": 1.386,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "rap-pis",
+      "group": "Bet builder",
+      "pick": "Pistons to win + Over 207.5 points",
+      "p": 0.481,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "wiz-bul",
+      "group": "Bet builder",
+      "pick": "Bulls -1.5 + Under 246.5 points",
+      "p": 0.332,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "pel-thu",
+      "group": "Moneyline",
+      "pick": "Thunder to win (most likely)",
+      "p": 0.829,
+      "odds": 1.175,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "pel-thu",
+      "group": "Bet builder",
+      "pick": "Thunder to win + Over 219.5 points",
+      "p": 0.561,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "sun-jaz",
+      "group": "Moneyline",
+      "pick": "Suns to win (most likely)",
+      "p": 0.629,
+      "odds": 1.555,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "sun-jaz",
+      "group": "Bet builder",
+      "pick": "Suns to win + Under 234 points",
+      "p": 0.411,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "roc-nug",
+      "group": "Bet builder",
+      "pick": "Nuggets -1.5 + Over 219.5 points",
+      "p": 0.323,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "kin-lak",
+      "group": "Moneyline",
+      "pick": "Lakers to win (most likely)",
+      "p": 0.866,
+      "odds": 1.126,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-21",
+      "match": "kin-lak",
+      "group": "Bet builder",
+      "pick": "Lakers to win + Under 237.5 points",
+      "p": 0.586,
+      "odds": null,
+      "won": true,
+      "shadow": true
     }
   ]
 }

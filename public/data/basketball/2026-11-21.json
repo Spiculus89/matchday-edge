@@ -112,7 +112,11 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 111,
+        "away": 97
+      }
     },
     {
       "id": "mag-net",
@@ -225,7 +229,11 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 111,
+        "away": 113
+      }
     },
     {
       "id": "pac-cav",
@@ -338,7 +346,11 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 128,
+        "away": 119
+      }
     },
     {
       "id": "rap-pis",
@@ -451,7 +463,11 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 102,
+        "away": 105
+      }
     },
     {
       "id": "wiz-bul",
@@ -564,7 +580,11 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 94,
+        "away": 98
+      }
     },
     {
       "id": "pel-thu",
@@ -677,7 +697,11 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 126,
+        "away": 120
+      }
     },
     {
       "id": "sun-jaz",
@@ -790,7 +814,11 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 101,
+        "away": 111
+      }
     },
     {
       "id": "roc-nug",
@@ -903,7 +931,11 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 133,
+        "away": 124
+      }
     },
     {
       "id": "kin-lak",
@@ -1016,7 +1048,11 @@
           "title": "OddsPapi odds snapshot 2026-11-20 08:52 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 106,
+        "away": 104
+      }
     },
     {
       "id": "slo-ced",
