@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T08:52:41.501Z",
+  "updated": "2026-11-26T08:49:37.582Z",
   "note": "Every graded pick shown on the site. p = the chance shown at the time (bookmaker-implied for player props, which had no model then).",
   "legs": [
     {
@@ -2996,6 +2996,186 @@
       "group": "Result",
       "pick": "Wieczysta Krakow or draw (Lean)",
       "p": 0.644,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "atl-cor",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.51,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-25",
+      "match": "sab-bar",
+      "group": "Bet builder",
+      "pick": "Barcelona to win + Over 1.5 goals + BTTS: No",
+      "p": 0.439,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-25",
+      "match": "sla-vil",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.512,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-25",
+      "match": "bol-wes",
+      "group": "Bet builder",
+      "pick": "West Bromwich or draw + Under 3.5 goals",
+      "p": 0.502,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-25",
+      "match": "bur-bir",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.478,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-25",
+      "match": "wat-bla",
+      "group": "Bet builder",
+      "pick": "Under 3.5 goals + BTTS: No",
+      "p": 0.436,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-25",
+      "match": "atl-vik",
+      "group": "Handicap",
+      "pick": "Viking FK +2.5 (Asian handicap) (best bet)",
+      "p": 0.515,
+      "odds": 2.04,
+      "won": true
+    },
+    {
+      "date": "2026-11-25",
+      "match": "atl-vik",
+      "group": "Result",
+      "pick": "Atletico Madrid to win (most likely)",
+      "p": 0.841,
+      "odds": 1.106,
+      "won": true
+    },
+    {
+      "date": "2026-11-25",
+      "match": "atl-vik",
+      "group": "Bet builder",
+      "pick": "Atletico Madrid to win + Over 1.5 goals + Both teams to score",
+      "p": 0.412,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-25",
+      "match": "atl-vik",
+      "group": "BTTS",
+      "pick": "Both teams to score (Bet)",
+      "p": 0.509,
+      "odds": 2.04,
+      "won": false
+    },
+    {
+      "date": "2026-11-25",
+      "match": "clu-liv",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.699,
+      "odds": 1.406,
+      "won": false
+    },
+    {
+      "date": "2026-11-25",
+      "match": "int-vfb",
+      "group": "Result",
+      "pick": "Inter Milano to win (most likely)",
+      "p": 0.67,
+      "odds": 1.425,
+      "won": true
+    },
+    {
+      "date": "2026-11-25",
+      "match": "int-vfb",
+      "group": "Bet builder",
+      "pick": "Inter Milano to win + Over 1.5 goals + Both teams to score",
+      "p": 0.418,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-25",
+      "match": "int-vfb",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.67,
+      "odds": 1.48,
+      "won": false
+    },
+    {
+      "date": "2026-11-25",
+      "match": "sha-fen",
+      "group": "Bet builder",
+      "pick": "Under 3.5 goals + BTTS: No",
+      "p": 0.429,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-25",
+      "match": "lil-bay",
+      "group": "Bet builder",
+      "pick": "Bayern Munich or draw + Under 3.5 goals",
+      "p": 0.524,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-25",
+      "match": "par-rom",
+      "group": "Goals",
+      "pick": "Under 3.5 goals (best bet)",
+      "p": 0.521,
+      "odds": 1.961,
+      "won": false
+    },
+    {
+      "date": "2026-11-25",
+      "match": "par-rom",
+      "group": "Bet builder",
+      "pick": "Paris Saint-Germain to win + Over 1.5 goals",
+      "p": 0.518,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-25",
+      "match": "par-rom",
+      "group": "Goals",
+      "pick": "Under 3.5 goals (Bet)",
+      "p": 0.521,
+      "odds": 1.961,
+      "won": false
+    },
+    {
+      "date": "2026-11-25",
+      "match": "sto-mil",
+      "group": "Bet builder",
+      "pick": "Stoke or draw + Under 3.5 goals",
+      "p": 0.519,
       "odds": null,
       "won": true
     }

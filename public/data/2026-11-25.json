@@ -201,6 +201,10 @@
         "yellowsPg": 4.13,
         "redsPg": 0.09,
         "foulsPg": 26.66
+      },
+      "result": {
+        "home": 1,
+        "away": 4
       }
     },
     {
@@ -400,6 +404,10 @@
         "name": "Rade Obrenovic",
         "country": "SVN",
         "note": "UEFA appointment (23 Nov). No per-game card figures gathered, so the engine uses its prior."
+      },
+      "result": {
+        "home": 0,
+        "away": 1
       }
     },
     {
@@ -1080,6 +1088,10 @@
           "goals": 25,
           "assists": 14
         }
+      },
+      "result": {
+        "home": 1,
+        "away": 3
       }
     },
     {
@@ -1771,6 +1783,10 @@
           "goals": 25,
           "assists": 20
         }
+      },
+      "result": {
+        "home": 0,
+        "away": 2
       }
     },
     {
@@ -2391,6 +2407,10 @@
           "goals": 23,
           "assists": 16
         }
+      },
+      "result": {
+        "home": 0,
+        "away": 1
       }
     },
     {
@@ -3079,6 +3099,10 @@
           "goals": 68,
           "assists": 52
         }
+      },
+      "result": {
+        "home": 2,
+        "away": 0
       }
     },
     {
@@ -3312,6 +3336,10 @@
         "name": "Alejandro Hernandez",
         "country": "ESP",
         "note": "UEFA appointment (23 Nov). No per-game card figures gathered, so the engine uses its prior."
+      },
+      "result": {
+        "home": 0,
+        "away": 3
       }
     },
     {
@@ -4000,6 +4028,10 @@
           "goals": 15,
           "assists": 10
         }
+      },
+      "result": {
+        "home": 2,
+        "away": 0
       }
     },
     {
@@ -4211,6 +4243,10 @@
           "ga": 1,
           "games": 12
         }
+      },
+      "result": {
+        "home": 0,
+        "away": 1
       }
     },
     {
@@ -4452,6 +4488,10 @@
         "name": "Marco Guida",
         "country": "ITA",
         "note": "UEFA appointment (23 Nov). No per-game card figures gathered, so the engine uses its prior."
+      },
+      "result": {
+        "home": 2,
+        "away": 1
       }
     },
     {
@@ -5190,6 +5230,10 @@
       },
       "adjust": {
         "away": 0.92
+      },
+      "result": {
+        "home": 2,
+        "away": 2
       }
     },
     {
@@ -5846,6 +5890,10 @@
           "goals": 13,
           "assists": 10
         }
+      },
+      "result": {
+        "home": 2,
+        "away": 2
       }
     },
     {
@@ -6509,6 +6557,10 @@
           "goals": 23,
           "assists": 14
         }
+      },
+      "result": {
+        "home": 2,
+        "away": 1
       }
     }
   ]

@@ -650,6 +650,10 @@
           "goals": 40,
           "assists": 32
         }
+      },
+      "result": {
+        "home": 1,
+        "away": 1
       }
     }
   ]
