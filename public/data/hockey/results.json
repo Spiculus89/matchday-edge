@@ -288,8 +288,7 @@
       "pick": "1st period under 2 (best bet)",
       "p": 0.61,
       "odds": 1.68,
-      "won": false,
-      "shadow": true
+      "won": false
     },
     {
       "date": "2026-11-20",
@@ -298,8 +297,7 @@
       "pick": "Sabres +1.5 + Over 4.5 goals",
       "p": 0.545,
       "odds": null,
-      "won": true,
-      "shadow": true
+      "won": true
     },
     {
       "date": "2026-11-20",
@@ -308,8 +306,7 @@
       "pick": "1st period under 2 (Bet)",
       "p": 0.61,
       "odds": 1.68,
-      "won": false,
-      "shadow": true
+      "won": false
     },
     {
       "date": "2026-11-20",
@@ -318,8 +315,7 @@
       "pick": "Kings +1.5 + Over 4.5 goals",
       "p": 0.539,
       "odds": null,
-      "won": true,
-      "shadow": true
+      "won": true
     },
     {
       "date": "2026-11-20",
@@ -328,8 +324,7 @@
       "pick": "Kings over 2.5 (Lean)",
       "p": 0.589,
       "odds": 1.666,
-      "won": true,
-      "shadow": true
+      "won": true
     },
     {
       "date": "2026-11-20",
@@ -338,8 +333,7 @@
       "pick": "Oilers +1.5 + Over 4.5 goals",
       "p": 0.533,
       "odds": null,
-      "won": false,
-      "shadow": true
+      "won": false
     },
     {
       "date": "2026-11-20",
@@ -348,8 +342,7 @@
       "pick": "Oilers +1.5 (Lean)",
       "p": 0.659,
       "odds": 1.492,
-      "won": false,
-      "shadow": true
+      "won": false
     },
     {
       "date": "2026-11-20",
@@ -358,8 +351,7 @@
       "pick": "Lightning under 3.5 (Lean)",
       "p": 0.55,
       "odds": 1.781,
-      "won": true,
-      "shadow": true
+      "won": true
     },
     {
       "date": "2026-11-21",

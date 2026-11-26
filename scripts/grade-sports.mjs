@@ -8,6 +8,7 @@ const args = process.argv.slice(2), dry = args.includes("--dry"), now = Date.now
 const SPORTS = { basketball: { engine: "engine-basketball.js", name: "HoopsEngine", espn: { NBA: "basketball/nba" } },
   hockey: { engine: "engine-hockey.js", name: "HockeyEngine", espn: { NHL: "hockey/nhl" } } };
 const BASE = "https://site.api.espn.com/apis/site/v2/sports/";
+const PAUSED = "2026-11-21"; // pages paused from this date: legs graded after it are marked shadow (not shown on the site)
 const warsawDate = (t) => new Date(t).toLocaleDateString("en-CA", { timeZone: "Europe/Warsaw" });
 const argDates = args.filter((a) => /^\d{4}-\d{2}-\d{2}$/.test(a));
 
@@ -165,7 +166,8 @@ if (process.argv[1] && process.argv[1].endsWith("grade-sports.mjs")) {
           if (have.has(`${date}|${g.id}|${x.pick}`)) continue;
           const s = settleShown(x, sport, names, F);
           if (!s) { open.push(x.pick); continue; }
-          const leg = { date, match: g.id, group: x.group, pick: x.pick, p: x.p, odds: x.odds, won: s.won, shadow: true };
+          const leg = { date, match: g.id, group: x.group, pick: x.pick, p: x.p, odds: x.odds, won: s.won };
+          if (date >= PAUSED) leg.shadow = true;
           if (s.void) leg.void = true;
           legs.push(leg); have.add(`${date}|${g.id}|${x.pick}`);
         }
