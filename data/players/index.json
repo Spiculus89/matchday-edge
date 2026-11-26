@@ -580,6 +580,34 @@
    "espn": "SK Sturm Graz",
    "file": "aut.1-3746.json",
    "fetched": "2026-11-26T18:31:38.174Z"
+  },
+  "Fluminense FC RJ": {
+   "slug": "bra.1",
+   "id": "3445",
+   "espn": "Fluminense",
+   "file": "bra.1-3445.json",
+   "fetched": "2026-11-26T23:57:50.708Z"
+  },
+  "Cruzeiro EC MG": {
+   "slug": "bra.1",
+   "id": "2022",
+   "espn": "Cruzeiro",
+   "file": "bra.1-2022.json",
+   "fetched": "2026-11-26T23:57:51.300Z"
+  },
+  "Racing Club Montevideo": {
+   "slug": "uru.1",
+   "id": "9903",
+   "espn": "Racing (Montevideo)",
+   "file": "uru.1-9903.json",
+   "fetched": "2026-11-26T23:57:51.756Z"
+  },
+  "Liverpool Montevideo": {
+   "slug": "uru.1",
+   "id": "5492",
+   "espn": "Liverpool",
+   "file": "uru.1-5492.json",
+   "fetched": "2026-11-26T23:57:52.126Z"
   }
  }
 }
