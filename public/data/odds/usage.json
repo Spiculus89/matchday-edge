@@ -364,10 +364,10 @@
   }
  ],
  "lastFetch": {
-  "at": "2026-11-26T00:59:12.887Z",
-  "kind": "morning",
-  "fixtures": 146,
-  "updated": 3,
+  "at": "2026-11-26T04:59:26.091Z",
+  "kind": "late",
+  "fixtures": 134,
+  "updated": 0,
   "unmatched": [],
   "noTournament": []
  },
