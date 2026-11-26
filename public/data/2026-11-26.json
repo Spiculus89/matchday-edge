@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updated": "2026-11-26T16:53:44.642Z",
+  "updated": "2026-11-26T17:02:51.052Z",
   "updateNote": "Morning update: all 18 Europa League (matchday 5) and 18 Conference League (matchday 4) games added unpriced; the 18:15 Warsaw odds run prices them.",
   "matches": [
     {
@@ -1420,13 +1420,43 @@
       "context": "No form: football-data.co.uk doesn't cover Kauno Žalgiris or Riga's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
+        "source": "Flashscore line-ups (screenshots sent by the user, 17:01 UTC); ESPN had not posted them",
         "home": {
-          "xi": []
+          "formation": "4-1-4-1",
+          "confirmed": true,
+          "xi": [
+            "Svedkauskas",
+            "Moutachy",
+            "Lekiatas",
+            "Hernandez",
+            "Iyobosa Edo…",
+            "Karashima",
+            "Burba",
+            "Kalik",
+            "Slivka",
+            "Krekovic",
+            "Debeljuh"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-1-4-1",
+          "confirmed": true,
+          "xi": [
+            "Piric",
+            "Jurkovskis",
+            "Wassom",
+            "Musah",
+            "Tonisevs",
+            "Galo",
+            "Aouani",
+            "Iago Siqueira",
+            "Oulad M'Hand",
+            "Caio Ferreira",
+            "Reginaldo Ramires"
+          ]
+        },
+        "alt": "Kauno Žalgiris: Leo Ribeiro missing. Riga: Abner missing (Flashscore)."
       },
       "sources": [
         {
@@ -1531,6 +1561,10 @@
           },
           "text": "1X2 3.73/3.39/2.02, O/U 2.5 1.9/1.87"
         }
+      },
+      "referee": {
+        "name": "Daniyar Sakhi",
+        "note": "named by t-online; no card data for this referee"
       }
     },
     {
@@ -1942,13 +1976,41 @@
       "context": "No form: football-data.co.uk doesn't cover Pafos or Midtjylland's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
+        "source": "Flashscore line-ups (screenshots sent by the user, 17:01 UTC); ESPN had not posted them",
         "home": {
-          "xi": []
+          "confirmed": true,
+          "xi": [
+            "Majecki R.",
+            "Bruno",
+            "Goldar D.",
+            "David Luiz",
+            "Mmaee S.",
+            "Ioannou N.",
+            "Correia J.",
+            "Pepe",
+            "Sunjic I.",
+            "Dragomir V.",
+            "Anderson Silva"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "confirmed": true,
+          "xi": [
+            "Olafsson E.",
+            "Ndiaye A.",
+            "Kristensen R.",
+            "Sorensen M. B.",
+            "Bak V.",
+            "Emefile J.",
+            "Hong Hyun-Seok",
+            "Bravo P.",
+            "Johannessen S.",
+            "Rajovic M.",
+            "Etim F."
+          ]
+        },
+        "alt": "Pafos: Lele suspended (red card), Moumi Ngamaleu out. Midtjylland: Bakker (knock) and Castillo out (Flashscore)."
       },
       "sources": [
         {
@@ -2069,6 +2131,10 @@
           },
           "text": "1X2 2.96/3.79/2.19, O/U 2.5 1.53/2.46"
         }
+      },
+      "referee": {
+        "name": "Ishmael Barbara",
+        "note": "named by t-online; no card data for this referee"
       }
     },
     {
