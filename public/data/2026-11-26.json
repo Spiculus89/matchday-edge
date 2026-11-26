@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updated": "2026-11-26T08:52:44.280Z",
+  "updated": "2026-11-26T16:46:26.381Z",
   "updateNote": "Morning update: all 18 Europa League (matchday 5) and 18 Conference League (matchday 4) games added unpriced; the 18:15 Warsaw odds run prices them.",
   "matches": [
     {
@@ -697,7 +697,7 @@
         "name": "Thun",
         "short": "Thun"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -861,7 +861,7 @@
         "name": "Universitatea Craiova",
         "short": "U Craiova"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Brighton or U Craiova's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Brighton or U Craiova's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -1013,7 +1013,7 @@
         "name": "Getafe",
         "short": "Getafe"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Iberia 1999 or Getafe's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Iberia 1999 or Getafe's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -1149,7 +1149,7 @@
         "name": "Lugano",
         "short": "Lugano"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Jablonec or Lugano's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Jablonec or Lugano's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -1293,7 +1293,7 @@
         "name": "Riga FC",
         "short": "Riga"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Kauno Žalgiris or Riga's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Kauno Žalgiris or Riga's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -1421,16 +1421,43 @@
         "name": "AS Monaco",
         "short": "Monaco"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "5-3-2",
+          "xi": [
+            "Beau Reus",
+            "Jordi Altena",
+            "Christian Borchgrevink",
+            "Jamie McCart",
+            "Stuart Findlay",
+            "Matthew Gillies",
+            "Sabah Kerjota",
+            "Severin Sabri Guendouz",
+            "Cláudio Braga",
+            "Pierre Landry Kabore",
+            "Laurent Mendy"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "3-4-2-1",
+          "xi": [
+            "Lukas Hradecky",
+            "Vanderson",
+            "Christian Mawissa",
+            "Jordan Teze",
+            "Eric Dier",
+            "Sadibou Sané",
+            "Denis Zakaria",
+            "Edan Diop",
+            "Folarin Balogun",
+            "Takumi Minamino",
+            "Matthis Abline"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:46 UTC"
       },
       "sources": [
         {
@@ -1440,6 +1467,10 @@
         {
           "title": "football-data.co.uk results and match stats (Hearts, Monaco: last 20 and 20 league games)",
           "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915811"
         }
       ],
       "form20": {
@@ -1609,7 +1640,7 @@
         "name": "Lincoln Red Imps",
         "short": "Lincoln"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Egnatia or Lincoln's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Egnatia or Lincoln's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -1753,7 +1784,7 @@
         "name": "Midtjylland",
         "short": "Midtjylland"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Pafos or Midtjylland's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Pafos or Midtjylland's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -1897,7 +1928,7 @@
         "name": "AGF Aarhus",
         "short": "AGF"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -2056,7 +2087,7 @@
         "name": "Hapoel Beer Sheva",
         "short": "Hapoel Be'er Sheva"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Beşiktaş or Hapoel Be'er Sheva's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Beşiktaş or Hapoel Be'er Sheva's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -2209,7 +2240,7 @@
         "name": "Ararat-Armenia",
         "short": "Ararat-Armenia"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Salzburg or Ararat-Armenia's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Salzburg or Ararat-Armenia's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -2357,21 +2388,52 @@
         "name": "Benfica",
         "short": "Benfica"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Plzeň or Benfica's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Plzeň or Benfica's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-4-2",
+          "xi": [
+            "Florian Wiegele",
+            "Tobiás Paliscák",
+            "Adam Gabriel",
+            "Lukás Cerv",
+            "Sampson Dweh",
+            "Filip Prebsl",
+            "Amar Memic",
+            "Patrik Hrosovský",
+            "Christophe Kabongo",
+            "Prince Adu",
+            "Merchas Doski"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-2-3-1",
+          "xi": [
+            "Anatoliy Trubin",
+            "Souffian El Karouani",
+            "Alessandro Circati",
+            "Daniel Banjaqui",
+            "Tomás Araújo",
+            "Rafa Silva",
+            "Enzo Barrenechea",
+            "Dodi Lukébakio",
+            "Jakub Kaminski",
+            "Manu Silva",
+            "Vangelis Pavlidis"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:46 UTC"
       },
       "sources": [
         {
           "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915518"
         }
       ],
       "odds": {
@@ -2509,7 +2571,7 @@
         "name": "Bayer Leverkusen",
         "short": "Leverkusen"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Dinamo Zagreb or Leverkusen's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Dinamo Zagreb or Leverkusen's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -2661,16 +2723,43 @@
         "name": "AC Milan",
         "short": "Milan"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "Stefan Ortega",
+            "Zinedin Smajlovic",
+            "Bruno Onyemaechi",
+            "Marcus Holmgren Pedersen",
+            "Panagiotis Retsos",
+            "Lorenzo Pirola",
+            "Jota Silva",
+            "Remo Freuler",
+            "Armando González",
+            "Gustavo Sá",
+            "Gelson Martins"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "3-4-2-1",
+          "xi": [
+            "Mike Maignan",
+            "Sankhoun Diawara",
+            "Mario Gila",
+            "Koni De Winter",
+            "Ardon Jashari",
+            "Alphadjo Cissè",
+            "Diego Moreira",
+            "Omari Hutchinson",
+            "Pervis Estupiñán",
+            "Adrien Rabiot",
+            "Gonçalo Ramos"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:46 UTC"
       },
       "sources": [
         {
@@ -2680,6 +2769,10 @@
         {
           "title": "football-data.co.uk results and match stats (Olympiakos, Milan: last 20 and 20 league games)",
           "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915521"
         }
       ],
       "form20": {
@@ -2849,7 +2942,7 @@
         "name": "Levski Sofia",
         "short": "Levski"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Marseille or Levski's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Marseille or Levski's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -2996,16 +3089,43 @@
         "name": "Lech Poznan",
         "short": "Lech"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-3-3",
+          "xi": [
+            "Hervé Koffi",
+            "Denzel De Roeve",
+            "Louis Patris",
+            "Kamiel Van De Perre",
+            "Massiré Sylla",
+            "Ross Sykes",
+            "Adem Zorgane",
+            "Besfort Zeneli",
+            "Kevin Rodríguez",
+            "Raul Florucz",
+            "Guilherme Smith"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "4-2-3-1",
+          "xi": [
+            "Mateusz Lis",
+            "Wojciech Monka",
+            "Michal Gurgul",
+            "Gustaf Beggren",
+            "Mateusz Skrzypczak",
+            "Terry Yegbe",
+            "Robert Gumny",
+            "Antoni Kozubal",
+            "Yannick Agnero",
+            "Luis Palma",
+            "Leo Bengtsson"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 16:46 UTC"
       },
       "sources": [
         {
@@ -3015,6 +3135,10 @@
         {
           "title": "football-data.co.uk results and match stats (St. Gilloise, Lech Poznan: last 20 and 20 league games)",
           "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915508"
         }
       ],
       "form20": {
@@ -3172,7 +3296,7 @@
         "name": "AFC Bournemouth",
         "short": "Bournemouth"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -3364,7 +3488,7 @@
         "name": "Panathinaikos",
         "short": "Panathinaikos"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -3536,7 +3660,7 @@
         "name": "Atalanta",
         "short": "Atalanta"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Borac or Atalanta's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Borac or Atalanta's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -3681,7 +3805,7 @@
         "name": "St. Truidense",
         "short": "Sint-Truiden"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Hajduk Split or Sint-Truiden's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Hajduk Split or Sint-Truiden's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -3820,7 +3944,7 @@
         "name": "Copenhagen",
         "short": "Copenhagen"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Inter Escaldes or Copenhagen's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Inter Escaldes or Copenhagen's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -3959,7 +4083,7 @@
         "name": "Crvena Zvezda",
         "short": "Crvena Zvezda"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Gent or Crvena Zvezda's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Gent or Crvena Zvezda's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -4107,7 +4231,7 @@
         "name": "Trabzonspor",
         "short": "Trabzonspor"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover CSKA Sofia or Trabzonspor's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover CSKA Sofia or Trabzonspor's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -4251,7 +4375,7 @@
         "name": "Kuopion Palloseura",
         "short": "KuPS"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Braga or KuPS's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Braga or KuPS's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -4391,7 +4515,7 @@
         "name": "Twente",
         "short": "Twente"
       },
-      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -4575,7 +4699,7 @@
         "name": "AZ Alkmaar",
         "short": "AZ"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Sparta Prague or AZ's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Sparta Prague or AZ's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -4723,7 +4847,7 @@
         "name": "Real Sociedad",
         "short": "Real Sociedad"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -4919,7 +5043,7 @@
         "name": "NK Celje",
         "short": "Celje"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Ferencváros or Celje's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Ferencváros or Celje's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -5067,7 +5191,7 @@
         "name": "Omonia Nicosia",
         "short": "Omonia"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Juventus or Omonia's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Juventus or Omonia's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -5223,7 +5347,7 @@
         "name": "Stade Rennais",
         "short": "Rennes"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -5415,7 +5539,7 @@
         "name": "RSC Anderlecht",
         "short": "Anderlecht"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -5602,7 +5726,7 @@
         "name": "Lillestroem SK",
         "short": "Lillestrøm"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Lyon or Lillestrøm's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Lyon or Lillestrøm's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -5754,7 +5878,7 @@
         "name": "Celtic",
         "short": "Celtic"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Torreense or Celtic's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "No form: football-data.co.uk doesn't cover Torreense or Celtic's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -5906,7 +6030,7 @@
         "name": "Jagiellonia Bialystok",
         "short": "Jagiellonia"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
@@ -6082,7 +6206,7 @@
         "name": "Sturm Graz",
         "short": "Sturm Graz"
       },
-      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "context": "Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
       "news": [],
       "lineups": {
         "status": "pending",
