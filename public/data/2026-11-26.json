@@ -5599,7 +5599,7 @@
         "short": "Lyon"
       },
       "away": {
-        "name": "Lillestrom SK",
+        "name": "Lillestroem SK",
         "short": "Lillestrøm"
       },
       "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Lyon or Lillestrøm's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
@@ -5618,7 +5618,129 @@
           "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
           "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
         }
-      ]
+      ],
+      "odds": {
+        "h": 1.188,
+        "d": 7.93,
+        "a": 15.25,
+        "ou": {
+          "0.5": [
+            1.023,
+            23.7
+          ],
+          "1.5": [
+            1.14,
+            5.62
+          ],
+          "2.5": [
+            1.452,
+            2.72
+          ],
+          "3.5": [
+            2.21,
+            1.709
+          ],
+          "4.5": [
+            3.68,
+            1.272
+          ],
+          "5.5": [
+            6.82,
+            1.103
+          ]
+        },
+        "btts": [
+          2.2,
+          1.714
+        ],
+        "corners": {
+          "9.5": [
+            1.719,
+            2.12
+          ],
+          "10.5": [
+            2.15,
+            1.704
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.378,
+            2.86
+          ],
+          "3.5": [
+            1.99,
+            1.806
+          ],
+          "4.5": [
+            3.03,
+            1.341
+          ]
+        },
+        "ah": [
+          {
+            "line": -2.5,
+            "home": 2.45,
+            "away": 1.571
+          },
+          {
+            "line": -2,
+            "home": 1.934,
+            "away": 1.97
+          },
+          {
+            "line": -1.5,
+            "home": 1.555,
+            "away": 2.5
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-26 16:44 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 1.22,
+          "d": 6.7,
+          "a": 12.7,
+          "ou": {
+            "1.5": [
+              1.12,
+              6.2
+            ],
+            "2.5": [
+              1.43,
+              2.83
+            ],
+            "3.5": [
+              2.1,
+              1.74
+            ],
+            "4.5": [
+              3.53,
+              1.3
+            ],
+            "5.5": [
+              6.6,
+              1.11
+            ]
+          },
+          "btts": [
+            2.04,
+            1.77
+          ],
+          "corners": {
+            "10.5": [
+              1.95,
+              1.7
+            ]
+          },
+          "cards": {
+            "3.5": [
+              1.89,
+              1.75
+            ]
+          },
+          "text": "1X2 1.22/6.7/12.7, O/U 2.5 1.43/2.83"
+        }
+      }
     },
     {
       "id": "tor-cel",
