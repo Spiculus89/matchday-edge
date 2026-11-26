@@ -1,19 +1,7 @@
 {
  "month": "2026-11",
- "used": 84,
+ "used": 86,
  "log": [
-  {
-   "t": "2026-11-18T23:23:02.547Z",
-   "path": "/odds-by-tournaments",
-   "status": 200,
-   "hdr": {}
-  },
-  {
-   "t": "2026-11-18T23:23:04.328Z",
-   "path": "/odds-by-tournaments",
-   "status": 200,
-   "hdr": {}
-  },
   {
    "t": "2026-11-19T04:10:22.860Z",
    "path": "/odds-by-tournaments",
@@ -361,14 +349,28 @@
    "path": "/odds-by-tournaments",
    "status": 200,
    "hdr": {}
+  },
+  {
+   "t": "2026-11-26T16:44:29.179Z",
+   "path": "/odds-by-tournaments",
+   "status": 200,
+   "hdr": {}
+  },
+  {
+   "t": "2026-11-26T16:44:31.163Z",
+   "path": "/odds-by-tournaments",
+   "status": 200,
+   "hdr": {}
   }
  ],
  "lastFetch": {
-  "at": "2026-11-26T04:59:26.091Z",
-  "kind": "late",
-  "fixtures": 134,
-  "updated": 0,
-  "unmatched": [],
+  "at": "2026-11-26T16:44:27.359Z",
+  "kind": "evening",
+  "fixtures": 166,
+  "updated": 35,
+  "unmatched": [
+   "football:oly-lil"
+  ],
   "noTournament": []
  },
  "daily": {
@@ -379,6 +381,6 @@
   "2026-11-23": 4,
   "2026-11-24": 6,
   "2026-11-25": 8,
-  "2026-11-26": 3
+  "2026-11-26": 5
  }
 }
