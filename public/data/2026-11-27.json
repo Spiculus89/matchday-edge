@@ -18,46 +18,46 @@
       },
       "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
       "odds": {
-        "h": 1.348,
-        "d": 5.18,
-        "a": 8.83,
+        "h": 1.355,
+        "d": 5.31,
+        "a": 9.16,
         "ou": {
           "1.5": [
-            1.214,
-            4.51
+            1.216,
+            4.57
           ],
           "2.5": [
-            1.689,
-            2.24
+            1.694,
+            2.25
           ],
           "3.5": [
-            2.7,
-            1.48
+            2.71,
+            1.487
           ],
           "4.5": [
-            4.98,
-            1.184
+            5.02,
+            1.188
           ]
         },
         "btts": [
-          1.961,
+          1.99,
           1.869
         ],
         "ah": [
           {
             "line": -2,
-            "home": 3.06,
-            "away": 1.409
+            "home": 3.05,
+            "away": 1.42
           },
           {
             "line": -1.5,
             "home": 2.07,
-            "away": 1.826
+            "away": 1.847
           },
           {
             "line": -1,
             "home": 1.546,
-            "away": 2.56
+            "away": 2.6
           }
         ],
         "corners": {
@@ -70,39 +70,49 @@
             1.628
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-25 18:09 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "cards": {
+          "3.5": [
+            1.653,
+            2.15
+          ],
+          "4.5": [
+            2.43,
+            1.518
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-26 00:59 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
-          "h": 1.38,
-          "d": 4.95,
-          "a": 8.05,
+          "h": 1.36,
+          "d": 5.05,
+          "a": 8.35,
           "ou": {
             "1.5": [
               1.18,
-              4.45
+              4.5
             ],
             "2.5": [
-              1.63,
-              2.19
+              1.62,
+              2.2
             ],
             "3.5": [
-              2.64,
-              1.44
+              2.63,
+              1.45
             ],
             "4.5": [
-              4.9,
+              4.85,
               1.15
             ],
             "5.5": [
-              10.1,
+              10,
               1.03
             ]
           },
           "btts": [
-            1.95,
-            1.76
+            1.97,
+            1.75
           ],
-          "text": "1X2 1.38/4.95/8.05, O/U 2.5 1.63/2.19"
+          "text": "1X2 1.36/5.05/8.35, O/U 2.5 1.62/2.2"
         }
       },
       "news": [],
