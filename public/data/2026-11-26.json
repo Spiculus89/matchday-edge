@@ -1,8 +1,7 @@
 {
   "date": "2026-11-26",
-  "updated": "2026-11-24T19:03:40.038Z",
-  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, news and lineups.",
-  "skeleton": true,
+  "updated": "2026-11-26T08:52:44.280Z",
+  "updateNote": "Morning update: all 18 Europa League (matchday 5) and 18 Conference League (matchday 4) games added unpriced; the 18:15 Warsaw odds run prices them.",
   "matches": [
     {
       "id": "atl-cor",
@@ -654,6 +653,1506 @@
       "result": {
         "home": 1,
         "away": 1
+      }
+    },
+    {
+      "id": "kai-mja",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T15:30:00.000Z",
+      "home": {
+        "name": "Kairat Almaty",
+        "short": "Kairat"
+      },
+      "away": {
+        "name": "Mjallby AIF",
+        "short": "Mjällby"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Kairat or Mjällby's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        }
+      ]
+    },
+    {
+      "id": "aja-thu",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Ajax",
+        "short": "Ajax"
+      },
+      "away": {
+        "name": "Thun",
+        "short": "Thun"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Ajax, Thun: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 2.25,
+          "ga": 1.1,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.85,
+          "ga": 2.8,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "fouls": 9.55,
+          "shots": 17.5,
+          "sot": 6.1
+        },
+        "away": {}
+      }
+    },
+    {
+      "id": "bri-uni",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Brighton",
+        "short": "Brighton"
+      },
+      "away": {
+        "name": "Universitatea Craiova",
+        "short": "U Craiova"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Brighton or U Craiova's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        }
+      ]
+    },
+    {
+      "id": "fci-get",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "FC Iberia",
+        "short": "Iberia 1999"
+      },
+      "away": {
+        "name": "Getafe",
+        "short": "Getafe"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Iberia 1999 or Getafe's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        }
+      ]
+    },
+    {
+      "id": "jab-lug",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Jablonec",
+        "short": "Jablonec"
+      },
+      "away": {
+        "name": "Lugano",
+        "short": "Lugano"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Jablonec or Lugano's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        }
+      ]
+    },
+    {
+      "id": "kau-rig",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Kauno Zalgiris",
+        "short": "Kauno Žalgiris"
+      },
+      "away": {
+        "name": "Riga FC",
+        "short": "Riga"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Kauno Žalgiris or Riga's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        }
+      ]
+    },
+    {
+      "id": "hea-asm",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Heart of Midlothian",
+        "short": "Hearts"
+      },
+      "away": {
+        "name": "AS Monaco",
+        "short": "Monaco"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Hearts, Monaco: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 2.4,
+          "ga": 1.55,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.55,
+          "ga": 1.45,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 5.15,
+          "fouls": 11.4,
+          "shots": 16.4,
+          "sot": 5.6
+        },
+        "away": {
+          "corners": 4.52,
+          "fouls": 12.5,
+          "shots": 12.8,
+          "sot": 4.5
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.7,
+          "redsPg": 0.1
+        },
+        "away": {
+          "yellowsPg": 1.8,
+          "redsPg": 0
+        }
+      }
+    },
+    {
+      "id": "egn-lin",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Egnatia",
+        "short": "Egnatia"
+      },
+      "away": {
+        "name": "Lincoln Red Imps",
+        "short": "Lincoln"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Egnatia or Lincoln's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        }
+      ]
+    },
+    {
+      "id": "paf-mid",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Pafos",
+        "short": "Pafos"
+      },
+      "away": {
+        "name": "Midtjylland",
+        "short": "Midtjylland"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Pafos or Midtjylland's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        }
+      ]
+    },
+    {
+      "id": "bra-agf",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Brann",
+        "short": "Brann"
+      },
+      "away": {
+        "name": "AGF Aarhus",
+        "short": "AGF"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Brann, Aarhus: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.75,
+          "ga": 1.8,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.6,
+          "ga": 1.3,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {},
+        "away": {}
+      }
+    },
+    {
+      "id": "bes-hap",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Besiktas",
+        "short": "Beşiktaş"
+      },
+      "away": {
+        "name": "Hapoel Beer Sheva",
+        "short": "Hapoel Be'er Sheva"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Beşiktaş or Hapoel Be'er Sheva's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        }
+      ]
+    },
+    {
+      "id": "sal-ara",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Salzburg",
+        "short": "Salzburg"
+      },
+      "away": {
+        "name": "Ararat-Armenia",
+        "short": "Ararat-Armenia"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Salzburg or Ararat-Armenia's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        }
+      ]
+    },
+    {
+      "id": "vik-ben",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Viktoria Plzen",
+        "short": "Plzeň"
+      },
+      "away": {
+        "name": "Benfica",
+        "short": "Benfica"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Plzeň or Benfica's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        }
+      ]
+    },
+    {
+      "id": "din-bay",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Dinamo Zagreb",
+        "short": "Dinamo Zagreb"
+      },
+      "away": {
+        "name": "Bayer Leverkusen",
+        "short": "Leverkusen"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Dinamo Zagreb or Leverkusen's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        }
+      ]
+    },
+    {
+      "id": "oly-acm",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Olympiacos Piraeus",
+        "short": "Olympiakos"
+      },
+      "away": {
+        "name": "AC Milan",
+        "short": "Milan"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Olympiakos, Milan: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.55,
+          "ga": 0.65,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.7,
+          "ga": 1.3,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 5.45,
+          "fouls": 14.35,
+          "shots": 17.5,
+          "sot": 5.4
+        },
+        "away": {
+          "corners": 2.64,
+          "fouls": 9.95,
+          "shots": 11.5,
+          "sot": 4.2
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.85,
+          "redsPg": 0.1
+        },
+        "away": {
+          "yellowsPg": 1.85,
+          "redsPg": 0.05
+        }
+      }
+    },
+    {
+      "id": "oly-lev",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Olympique Marseille",
+        "short": "Marseille"
+      },
+      "away": {
+        "name": "Levski Sofia",
+        "short": "Levski"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Marseille or Levski's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        }
+      ]
+    },
+    {
+      "id": "uni-lec",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Union Saint-Gilloise",
+        "short": "Union St-Gilloise"
+      },
+      "away": {
+        "name": "Lech Poznan",
+        "short": "Lech"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (St. Gilloise, Lech Poznan: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 2.25,
+          "ga": 0.85,
+          "games": 20
+        },
+        "away": {
+          "gf": 2.4,
+          "ga": 0.9,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "fouls": 10.75,
+          "shots": 17.05,
+          "sot": 6.35
+        },
+        "away": {}
+      }
+    },
+    {
+      "id": "cel-afc",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T17:45:00.000Z",
+      "home": {
+        "name": "Celta Vigo",
+        "short": "Celta Vigo"
+      },
+      "away": {
+        "name": "AFC Bournemouth",
+        "short": "Bournemouth"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Celta, Bournemouth: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1,
+          "ga": 1,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.6,
+          "ga": 1.1,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 4.4,
+          "fouls": 11.9,
+          "shots": 9.45,
+          "sot": 3.35
+        },
+        "away": {
+          "corners": 3.85,
+          "fouls": 12.9,
+          "shots": 14.45,
+          "sot": 4.65
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.75,
+          "redsPg": 0.05
+        },
+        "away": {
+          "yellowsPg": 2.35,
+          "redsPg": 0.05
+        }
+      }
+    },
+    {
+      "id": "nor-pan",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Nordsjaelland",
+        "short": "Nordsjælland"
+      },
+      "away": {
+        "name": "Panathinaikos",
+        "short": "Panathinaikos"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Nordsjaelland, Panathinaikos: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.85,
+          "ga": 1.1,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.65,
+          "ga": 0.7,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {},
+        "away": {
+          "fouls": 15.6,
+          "shots": 15.8,
+          "sot": 5.45
+        }
+      }
+    },
+    {
+      "id": "bor-ata",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Borac Banja Luka",
+        "short": "Borac"
+      },
+      "away": {
+        "name": "Atalanta",
+        "short": "Atalanta"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Borac or Atalanta's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        }
+      ]
+    },
+    {
+      "id": "haj-stt",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Hajduk Split",
+        "short": "Hajduk Split"
+      },
+      "away": {
+        "name": "St. Truidense",
+        "short": "Sint-Truiden"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Hajduk Split or Sint-Truiden's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        }
+      ]
+    },
+    {
+      "id": "int-cop",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Inter Escaldes",
+        "short": "Inter Escaldes"
+      },
+      "away": {
+        "name": "Copenhagen",
+        "short": "Copenhagen"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Inter Escaldes or Copenhagen's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        }
+      ]
+    },
+    {
+      "id": "gen-crv",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Gent",
+        "short": "Gent"
+      },
+      "away": {
+        "name": "Crvena Zvezda",
+        "short": "Crvena Zvezda"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Gent or Crvena Zvezda's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        }
+      ]
+    },
+    {
+      "id": "csk-tra",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "CSKA Sofia",
+        "short": "CSKA Sofia"
+      },
+      "away": {
+        "name": "Trabzonspor",
+        "short": "Trabzonspor"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover CSKA Sofia or Trabzonspor's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        }
+      ]
+    },
+    {
+      "id": "bra-kuo",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Braga",
+        "short": "Braga"
+      },
+      "away": {
+        "name": "Kuopion Palloseura",
+        "short": "KuPS"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Braga or KuPS's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        }
+      ]
+    },
+    {
+      "id": "fre-twe",
+      "competition": "UEFA Conference League, league phase matchday 4",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Freiburg",
+        "short": "Freiburg"
+      },
+      "away": {
+        "name": "Twente",
+        "short": "Twente"
+      },
+      "context": "Not priced yet: the Conference League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Conference League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Conference League matchday 4 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02ab-221b8c38a899-8ff9a785da68-1000--conference-league-matchday-4-briefing-brighton-face-test/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Freiburg, Twente: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.9,
+          "ga": 1.4,
+          "games": 20
+        },
+        "away": {
+          "gf": 2.3,
+          "ga": 1.2,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 4.67,
+          "fouls": 9.25,
+          "shots": 13.95,
+          "sot": 4.75
+        },
+        "away": {
+          "corners": 4.87,
+          "fouls": 10.3,
+          "shots": 19.8,
+          "sot": 7.25
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.7,
+          "redsPg": 0.05
+        },
+        "away": {
+          "yellowsPg": 1,
+          "redsPg": 0.05
+        }
+      }
+    },
+    {
+      "id": "spa-aza",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Sparta Prague",
+        "short": "Sparta Prague"
+      },
+      "away": {
+        "name": "AZ Alkmaar",
+        "short": "AZ"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Sparta Prague or AZ's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        }
+      ]
+    },
+    {
+      "id": "cry-rea",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Crystal Palace",
+        "short": "Crystal Palace"
+      },
+      "away": {
+        "name": "Real Sociedad",
+        "short": "Real Sociedad"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Crystal Palace, Sociedad: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1,
+          "ga": 2.15,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.65,
+          "ga": 1.8,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 4.8,
+          "fouls": 10.25,
+          "shots": 11.35,
+          "sot": 3.75
+        },
+        "away": {
+          "corners": 5.75,
+          "fouls": 12.75,
+          "shots": 13.75,
+          "sot": 4.7
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.55,
+          "redsPg": 0.1
+        },
+        "away": {
+          "yellowsPg": 2.6,
+          "redsPg": 0.15
+        }
+      }
+    },
+    {
+      "id": "fer-nkc",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Ferencvarosi TC",
+        "short": "Ferencváros"
+      },
+      "away": {
+        "name": "NK Celje",
+        "short": "Celje"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Ferencváros or Celje's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        }
+      ]
+    },
+    {
+      "id": "juv-omo",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Juventus",
+        "short": "Juventus"
+      },
+      "away": {
+        "name": "Omonia Nicosia",
+        "short": "Omonia"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Juventus or Omonia's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        }
+      ]
+    },
+    {
+      "id": "nec-sta",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "NEC Nijmegen",
+        "short": "NEC"
+      },
+      "away": {
+        "name": "Stade Rennais",
+        "short": "Rennes"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Nijmegen, Rennes: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.55,
+          "ga": 1.65,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.95,
+          "ga": 1.85,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 6.23,
+          "fouls": 10.9,
+          "shots": 17.4,
+          "sot": 5.55
+        },
+        "away": {
+          "corners": 4.67,
+          "fouls": 12.65,
+          "shots": 16.55,
+          "sot": 5.95
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.55,
+          "redsPg": 0
+        },
+        "away": {
+          "yellowsPg": 1.9,
+          "redsPg": 0.05
+        }
+      }
+    },
+    {
+      "id": "ofi-rsc",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "OFI Crete",
+        "short": "OFI"
+      },
+      "away": {
+        "name": "RSC Anderlecht",
+        "short": "Anderlecht"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (OFI Crete, Anderlecht: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.3,
+          "ga": 1.4,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.3,
+          "ga": 1.5,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "corners": 4.35,
+          "fouls": 12.75,
+          "shots": 10.5,
+          "sot": 3.3
+        },
+        "away": {
+          "corners": 4.37,
+          "fouls": 12.8,
+          "shots": 15.3,
+          "sot": 4.95
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 2.2,
+          "redsPg": 0.1
+        },
+        "away": {
+          "yellowsPg": 2.45,
+          "redsPg": 0.15
+        }
+      }
+    },
+    {
+      "id": "oly-lil",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Olympique Lyon",
+        "short": "Lyon"
+      },
+      "away": {
+        "name": "Lillestrom SK",
+        "short": "Lillestrøm"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Lyon or Lillestrøm's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        }
+      ]
+    },
+    {
+      "id": "tor-cel",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Torreense",
+        "short": "Torreense"
+      },
+      "away": {
+        "name": "Celtic",
+        "short": "Celtic"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. No form: football-data.co.uk doesn't cover Torreense or Celtic's league, so the model starts from neutral ratings until the odds arrive. No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        }
+      ]
+    },
+    {
+      "id": "sun-jag",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Sunderland",
+        "short": "Sunderland"
+      },
+      "away": {
+        "name": "Jagiellonia Bialystok",
+        "short": "Jagiellonia"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Sunderland, Jagiellonia: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1,
+          "ga": 1.55,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.55,
+          "ga": 1.35,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "fouls": 12.35,
+          "shots": 12.45,
+          "sot": 3.6
+        },
+        "away": {}
+      }
+    },
+    {
+      "id": "hof-stu",
+      "competition": "UEFA Europa League, league phase matchday 5",
+      "kickoff": "2026-11-26T20:00:00.000Z",
+      "home": {
+        "name": "Hoffenheim",
+        "short": "Hoffenheim"
+      },
+      "away": {
+        "name": "Sturm Graz",
+        "short": "Sturm Graz"
+      },
+      "context": "Not priced yet: the Europa League isn't in this morning's odds snapshot, and the 18:15 Warsaw odds run adds Pinnacle prices because the game is now on the site. Until then the percentages are a neutral placeholder, so don't bet from them. Form from football-data.co.uk (each side's last 20 league games; no corner or card data for these leagues). No team news gathered (Rotowire has no Europa League page); lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off.",
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "UEFA: Europa League matchday 5 briefing (25 Nov 2026)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-221b7fac106f-ef047ae48cd4-1000--europa-league-matchday-5-briefing-bournemouth-and-olympiac/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Hoffenheim, Sturm Graz: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.6,
+          "ga": 1.95,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.6,
+          "ga": 1.2,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "fouls": 13.3,
+          "shots": 16.2,
+          "sot": 5.05
+        },
+        "away": {}
       }
     }
   ]
