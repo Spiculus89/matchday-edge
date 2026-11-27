@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T08:49:37.582Z",
+  "updated": "2026-11-27T08:49:35.789Z",
   "note": "Every graded pick shown on the site. p = the chance shown at the time (bookmaker-implied for player props, which had no model then).",
   "legs": [
     {
@@ -3177,6 +3177,609 @@
       "pick": "Stoke or draw + Under 3.5 goals",
       "p": 0.519,
       "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-27",
+      "match": "sao-clu",
+      "group": "Result",
+      "pick": "Sao Paulo to win (most likely)",
+      "p": 0.68,
+      "odds": 1.375,
+      "won": true
+    },
+    {
+      "date": "2026-11-27",
+      "match": "sao-clu",
+      "group": "Bet builder",
+      "pick": "Sao Paulo to win + Over 1.5 goals",
+      "p": 0.502,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "kai-mja",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.514,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "kai-mja",
+      "group": "Goals",
+      "pick": "Over 1.5 goals (Lean)",
+      "p": 0.72,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "aja-thu",
+      "group": "Result",
+      "pick": "Ajax to win (most likely)",
+      "p": 0.79,
+      "odds": 1.213,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "aja-thu",
+      "group": "Bet builder",
+      "pick": "Ajax to win + Over 1.5 goals + Both teams to score",
+      "p": 0.455,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "aja-thu",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.595,
+      "odds": 1.653,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "aja-thu",
+      "group": "Cards",
+      "pick": "Over 2.5 cards (Lean)",
+      "p": 0.641,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "bri-uni",
+      "group": "Result",
+      "pick": "Brighton to win (most likely)",
+      "p": 0.844,
+      "odds": 1.136,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "bri-uni",
+      "group": "Bet builder",
+      "pick": "Brighton to win + Over 1.5 goals + BTTS: No",
+      "p": 0.457,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "bri-uni",
+      "group": "Most corners",
+      "pick": "Brighton (Lean)",
+      "p": 0.681,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "fci-get",
+      "group": "Result",
+      "pick": "Getafe to win (most likely)",
+      "p": 0.614,
+      "odds": 1.564,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "fci-get",
+      "group": "Bet builder",
+      "pick": "Getafe to win + Over 1.5 goals",
+      "p": 0.464,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "jab-lug",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.488,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "kau-rig",
+      "group": "Bet builder",
+      "pick": "Under 3.5 goals + BTTS: No",
+      "p": 0.439,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "hea-asm",
+      "group": "BTTS",
+      "pick": "Both teams to score (best bet)",
+      "p": 0.591,
+      "odds": 1.709,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "hea-asm",
+      "group": "Bet builder",
+      "pick": "Monaco or draw + Over 1.5 goals + Both teams to score",
+      "p": 0.486,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "hea-asm",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.591,
+      "odds": 1.709,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "egn-lin",
+      "group": "Bet builder",
+      "pick": "Egnatia to win + Over 1.5 goals",
+      "p": 0.499,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "paf-mid",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.519,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "bra-agf",
+      "group": "Bet builder",
+      "pick": "Under 3.5 goals + BTTS: No",
+      "p": 0.313,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "bes-hap",
+      "group": "Result",
+      "pick": "Beşiktaş to win (most likely)",
+      "p": 0.741,
+      "odds": 1.303,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "bes-hap",
+      "group": "Bet builder",
+      "pick": "Beşiktaş to win + Over 1.5 goals + Both teams to score",
+      "p": 0.371,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "sal-ara",
+      "group": "Result",
+      "pick": "Salzburg to win (most likely)",
+      "p": 0.849,
+      "odds": 1.141,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "sal-ara",
+      "group": "Bet builder",
+      "pick": "Salzburg to win + Over 1.5 goals + BTTS: No",
+      "p": 0.398,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "sal-ara",
+      "group": "Most corners",
+      "pick": "Salzburg (Lean)",
+      "p": 0.66,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "vik-ben",
+      "group": "Result",
+      "pick": "Benfica to win (most likely)",
+      "p": 0.631,
+      "odds": 1.531,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "vik-ben",
+      "group": "Bet builder",
+      "pick": "Benfica to win + Over 2.5 goals",
+      "p": 0.474,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "din-bay",
+      "group": "Bet builder",
+      "pick": "Leverkusen to win + Over 1.5 goals",
+      "p": 0.516,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "oly-acm",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.521,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "oly-lev",
+      "group": "Result",
+      "pick": "Marseille to win (most likely)",
+      "p": 0.694,
+      "odds": 1.392,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "oly-lev",
+      "group": "Bet builder",
+      "pick": "Marseille to win + Over 2.5 goals",
+      "p": 0.461,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "uni-lec",
+      "group": "Result",
+      "pick": "Union St-Gilloise to win (most likely)",
+      "p": 0.684,
+      "odds": 1.371,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "uni-lec",
+      "group": "Bet builder",
+      "pick": "Union St-Gilloise to win + Over 2.5 goals",
+      "p": 0.445,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "cel-afc",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.518,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "nor-pan",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.45,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "bor-ata",
+      "group": "Result",
+      "pick": "Atalanta to win (most likely)",
+      "p": 0.686,
+      "odds": 1.4,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "bor-ata",
+      "group": "Bet builder",
+      "pick": "Atalanta to win + Over 2.5 goals",
+      "p": 0.5,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "haj-stt",
+      "group": "Bet builder",
+      "pick": "Hajduk Split or draw + Under 3.5 goals",
+      "p": 0.474,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "int-cop",
+      "group": "Result",
+      "pick": "København to win (most likely)",
+      "p": 0.749,
+      "odds": 1.284,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "int-cop",
+      "group": "Bet builder",
+      "pick": "København to win + Under 3.5 goals",
+      "p": 0.476,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "gen-crv",
+      "group": "Bet builder",
+      "pick": "Under 3.5 goals + BTTS: No",
+      "p": 0.441,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "csk-tra",
+      "group": "Bet builder",
+      "pick": "Trabzonspor to win + Over 1.5 goals",
+      "p": 0.499,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "bra-kuo",
+      "group": "Result",
+      "pick": "Braga to win (most likely)",
+      "p": 0.826,
+      "odds": 1.162,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "bra-kuo",
+      "group": "Bet builder",
+      "pick": "Braga to win + Over 1.5 goals + BTTS: No",
+      "p": 0.446,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "bra-kuo",
+      "group": "Most corners",
+      "pick": "Braga (Lean)",
+      "p": 0.673,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "fre-twe",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.512,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "fre-twe",
+      "group": "Handicap",
+      "pick": "Freiburg draw no bet (Lean)",
+      "p": 0.643,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "fre-twe",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.591,
+      "odds": 1.675,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "spa-aza",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.469,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "fer-nkc",
+      "group": "Result",
+      "pick": "Ferencváros to win (most likely)",
+      "p": 0.702,
+      "odds": 1.375,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "fer-nkc",
+      "group": "Bet builder",
+      "pick": "Ferencváros to win + Over 2.5 goals",
+      "p": 0.509,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "juv-omo",
+      "group": "Result",
+      "pick": "Juventus to win (most likely)",
+      "p": 0.813,
+      "odds": 1.19,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "juv-omo",
+      "group": "Bet builder",
+      "pick": "Juventus to win + Over 1.5 goals + BTTS: No",
+      "p": 0.409,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "juv-omo",
+      "group": "Most corners",
+      "pick": "Juventus (Lean)",
+      "p": 0.661,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "nec-sta",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.686,
+      "odds": 1.432,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "ofi-rsc",
+      "group": "Bet builder",
+      "pick": "Anderlecht or draw + Under 3.5 goals",
+      "p": 0.492,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "ofi-rsc",
+      "group": "Handicap",
+      "pick": "Anderlecht draw no bet (Lean)",
+      "p": 0.64,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "oly-lil",
+      "group": "Result",
+      "pick": "Lyon to win (most likely)",
+      "p": 0.815,
+      "odds": 1.187,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "oly-lil",
+      "group": "Bet builder",
+      "pick": "Lyon to win + Over 1.5 goals + BTTS: No",
+      "p": 0.41,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "oly-lil",
+      "group": "Most corners",
+      "pick": "Lyon (Lean)",
+      "p": 0.669,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "tor-cel",
+      "group": "Bet builder",
+      "pick": "Celtic to win + Over 2.5 goals",
+      "p": 0.448,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "sun-jag",
+      "group": "Result",
+      "pick": "Sunderland to win (most likely)",
+      "p": 0.743,
+      "odds": 1.246,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "sun-jag",
+      "group": "Bet builder",
+      "pick": "Sunderland to win + Over 2.5 goals",
+      "p": 0.456,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-26",
+      "match": "hof-stu",
+      "group": "Result",
+      "pick": "Hoffenheim to win (most likely)",
+      "p": 0.713,
+      "odds": 1.299,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "hof-stu",
+      "group": "Bet builder",
+      "pick": "Hoffenheim to win + Over 2.5 goals",
+      "p": 0.507,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-26",
+      "match": "hof-stu",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.611,
+      "odds": 1.636,
       "won": true
     }
   ]

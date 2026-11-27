@@ -648,6 +648,10 @@
           "goals": 34,
           "assists": 16
         }
+      },
+      "result": {
+        "home": 3,
+        "away": 1
       }
     }
   ]
