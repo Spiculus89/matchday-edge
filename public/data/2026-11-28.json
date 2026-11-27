@@ -18,45 +18,45 @@
       },
       "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
       "odds": {
-        "h": 2.07,
-        "d": 3.65,
-        "a": 3.38,
+        "h": 2.09,
+        "d": 3.69,
+        "a": 3.42,
         "ou": {
           "0.5": [
-            1.044,
-            12.84
+            1.046,
+            13.13
           ],
           "1.5": [
-            1.222,
-            4.18
+            1.225,
+            4.22
           ],
           "2.5": [
-            1.724,
-            2.12
+            1.735,
+            2.13
           ],
           "3.5": [
-            2.78,
-            1.436
+            2.79,
+            1.44
           ],
           "4.5": [
-            5.02,
-            1.167
+            5.08,
+            1.17
           ]
         },
         "btts": [
-          1.591,
-          2.36
+          1.617,
+          2.33
         ],
         "ah": [
           {
             "line": -0.5,
-            "home": 2.06,
-            "away": 1.775
+            "home": 2.07,
+            "away": 1.781
           },
           {
             "line": 0,
-            "home": 1.534,
-            "away": 2.53
+            "home": 1.54,
+            "away": 2.54
           }
         ],
         "corners": {
@@ -83,7 +83,7 @@
             1.371
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-26 17:52 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-27 00:59 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 2.13,
@@ -674,41 +674,91 @@
       },
       "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
       "odds": {
-        "h": 2.91,
-        "d": 3.16,
-        "a": 2.52,
+        "h": 3.14,
+        "d": 3.17,
+        "a": 2.42,
         "ou": {
+          "0.5": [
+            1.084,
+            8.28
+          ],
           "1.5": [
-            1.35,
-            3.09
+            1.401,
+            2.93
           ],
           "2.5": [
-            2.15,
-            1.694
+            2.29,
+            1.636
           ],
           "3.5": [
-            3.83,
-            1.245
+            4.21,
+            1.223
           ]
         },
+        "btts": [
+          1.943,
+          1.862
+        ],
         "ah": [
           {
-            "line": -0.5,
-            "home": 2.89,
-            "away": 1.409
-          },
-          {
             "line": 0,
-            "home": 2.06,
-            "away": 1.775
+            "home": 2.21,
+            "away": 1.689
           },
           {
             "line": 0.5,
-            "home": 1.523,
-            "away": 2.51
+            "home": 1.591,
+            "away": 2.41
           }
         ],
-        "book": "Pinnacle via OddsPapi, 2026-11-26 17:52 UTC"
+        "corners": {
+          "8.5": [
+            1.555,
+            2.32
+          ],
+          "9.5": [
+            1.934,
+            1.826
+          ],
+          "10.5": [
+            2.46,
+            1.497
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-27 00:59 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 3.11,
+          "d": 3.08,
+          "a": 2.32,
+          "ou": {
+            "0.5": [
+              1.04,
+              8.7
+            ],
+            "1.5": [
+              1.36,
+              2.9
+            ],
+            "2.5": [
+              2.18,
+              1.61
+            ],
+            "3.5": [
+              4.2,
+              1.19
+            ],
+            "4.5": [
+              9.2,
+              1.03
+            ]
+          },
+          "btts": [
+            1.94,
+            1.76
+          ],
+          "text": "1X2 3.11/3.08/2.32, O/U 2.5 2.18/1.61"
+        }
       },
       "news": [],
       "lineups": {
