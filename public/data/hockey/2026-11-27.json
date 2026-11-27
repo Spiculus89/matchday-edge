@@ -21,12 +21,12 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          1.666,
+          1.662,
           2.36
         ],
         "total": {
           "line": 6.5,
-          "o": 1.9,
+          "o": 1.892,
           "u": 1.97
         },
         "teamTotal": {
@@ -37,18 +37,18 @@
           },
           "away": {
             "line": 2.5,
-            "o": 1.68,
+            "o": 1.675,
             "u": 2.24
           }
         },
         "reg": [
-          2.03,
-          4.33,
+          2.04,
+          4.31,
           2.99
         ],
         "puck": {
           "line": -1.5,
-          "h": 2.57,
+          "h": 2.58,
           "a": 1.555
         },
         "p1total": {
@@ -58,10 +58,10 @@
         },
         "totalReg": {
           "line": 6,
-          "o": 1.806,
-          "u": 2.06
+          "o": 1.8,
+          "u": 2.07
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+        "book": "Pinnacle via OddsPapi, 2026-11-27 10:01 UTC"
       },
       "players": {
         "home": [],
@@ -95,8 +95,8 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          1.373,
-          3.34
+          1.366,
+          3.38
         ],
         "total": {
           "line": 6,
@@ -106,24 +106,24 @@
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 1.746,
-            "u": 2.13
+            "o": 1.729,
+            "u": 2.15
           },
           "away": {
             "line": 2.5,
-            "o": 2.02,
-            "u": 1.826
+            "o": 2.03,
+            "u": 1.813
           }
         },
         "reg": [
-          1.645,
-          4.64,
-          4.29
+          1.625,
+          4.72,
+          4.35
         ],
         "puck": {
           "line": -1.5,
-          "h": 2,
-          "a": 1.884
+          "h": 1.98,
+          "a": 1.909
         },
         "p1total": {
           "line": 1.5,
@@ -132,10 +132,10 @@
         },
         "totalReg": {
           "line": 6,
-          "o": 1.952,
-          "u": 1.9
+          "o": 1.943,
+          "u": 1.909
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+        "book": "Pinnacle via OddsPapi, 2026-11-27 10:01 UTC"
       },
       "players": {
         "home": [],
@@ -169,13 +169,13 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          2.01,
-          1.892
+          2.02,
+          1.884
         ],
         "total": {
           "line": 6.5,
-          "o": 1.943,
-          "u": 1.925
+          "o": 1.934,
+          "u": 1.934
         },
         "teamTotal": {
           "home": {
@@ -185,19 +185,19 @@
           },
           "away": {
             "line": 3.5,
-            "o": 2.21,
-            "u": 1.694
+            "o": 2.2,
+            "u": 1.699
           }
         },
         "reg": [
-          2.53,
+          2.52,
           4.26,
-          2.34
+          2.35
         ],
         "puck": {
           "line": 1.5,
-          "h": 1.395,
-          "a": 3.17
+          "h": 1.398,
+          "a": 3.15
         },
         "p1total": {
           "line": 1.5,
@@ -209,7 +209,7 @@
           "o": 1.84,
           "u": 2.02
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+        "book": "Pinnacle via OddsPapi, 2026-11-27 10:01 UTC"
       },
       "players": {
         "home": [],
@@ -264,9 +264,9 @@
           }
         },
         "reg": [
-          2.82,
+          2.8,
           4.14,
-          2.17
+          2.18
         ],
         "puck": {
           "line": 1.5,
@@ -283,7 +283,7 @@
           "o": 2.26,
           "u": 1.68
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+        "book": "Pinnacle via OddsPapi, 2026-11-27 10:01 UTC"
       },
       "players": {
         "home": [],
@@ -357,7 +357,7 @@
           "o": 2.07,
           "u": 1.8
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+        "book": "Pinnacle via OddsPapi, 2026-11-27 10:01 UTC"
       },
       "players": {
         "home": [],
@@ -391,35 +391,35 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          1.423,
-          3.08
+          1.431,
+          3.05
         ],
         "total": {
           "line": 6,
-          "o": 1.847,
-          "u": 2.03
+          "o": 1.854,
+          "u": 2.02
         },
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 1.8,
-            "u": 2.05
+            "o": 1.813,
+            "u": 2.03
           },
           "away": {
             "line": 2.5,
             "o": 1.99,
-            "u": 1.847
+            "u": 1.854
           }
         },
         "reg": [
-          1.704,
-          4.61,
-          3.94
+          1.714,
+          4.58,
+          3.91
         ],
         "puck": {
           "line": -1.5,
-          "h": 2.1,
-          "a": 1.813
+          "h": 2.11,
+          "a": 1.793
         },
         "p1total": {
           "line": 1.5,
@@ -431,7 +431,7 @@
           "o": 1.98,
           "u": 1.877
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+        "book": "Pinnacle via OddsPapi, 2026-11-27 10:01 UTC"
       },
       "players": {
         "home": [],
@@ -465,8 +465,8 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          2.02,
-          1.892
+          2,
+          1.909
         ],
         "total": {
           "line": 6.5,
@@ -476,36 +476,36 @@
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 2.25,
-            "u": 1.671
+            "o": 2.24,
+            "u": 1.68
           },
           "away": {
             "line": 3.5,
             "o": 2.15,
-            "u": 1.735
+            "u": 1.729
           }
         },
         "reg": [
-          2.51,
-          4.26,
-          2.35
+          2.49,
+          4.28,
+          2.37
         ],
         "puck": {
           "line": 1.5,
-          "h": 1.403,
-          "a": 3.13
+          "h": 1.398,
+          "a": 3.15
         },
         "p1total": {
           "line": 1.5,
           "o": 1.662,
-          "u": 2.26
+          "u": 2.27
         },
         "totalReg": {
           "line": 6,
-          "o": 1.787,
+          "o": 1.781,
           "u": 2.09
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+        "book": "Pinnacle via OddsPapi, 2026-11-27 10:01 UTC"
       },
       "players": {
         "home": [],
@@ -539,35 +539,35 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          1.8,
-          2.13
+          1.826,
+          2.1
         ],
         "total": {
-          "line": 6,
-          "o": 2.04,
-          "u": 1.84
+          "line": 5.5,
+          "o": 1.84,
+          "u": 2.04
         },
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 2.37,
-            "u": 1.609
+            "o": 2.4,
+            "u": 1.598
           },
           "away": {
             "line": 2.5,
-            "o": 1.735,
-            "u": 2.14
+            "o": 1.724,
+            "u": 2.16
           }
         },
         "reg": [
-          2.24,
+          2.28,
           4.13,
-          2.71
+          2.66
         ],
         "puck": {
           "line": -1.5,
-          "h": 3,
-          "a": 1.431
+          "h": 3.04,
+          "a": 1.421
         },
         "p1total": {
           "line": 1.5,
@@ -576,10 +576,10 @@
         },
         "totalReg": {
           "line": 6,
-          "o": 2.22,
-          "u": 1.704
+          "o": 2.23,
+          "u": 1.694
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+        "book": "Pinnacle via OddsPapi, 2026-11-27 10:01 UTC"
       },
       "players": {
         "home": [],
@@ -613,35 +613,35 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          1.819,
-          2.11
+          1.84,
+          2.08
         ],
         "total": {
           "line": 6,
           "o": 1.877,
-          "u": 1.99
+          "u": 2
         },
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 2.23,
-            "u": 1.68
+            "o": 2.25,
+            "u": 1.671
           },
           "away": {
             "line": 2.5,
-            "o": 1.662,
-            "u": 2.27
+            "o": 1.645,
+            "u": 2.3
           }
         },
         "reg": [
-          2.26,
-          4.21,
-          2.65
+          2.29,
+          4.19,
+          2.62
         ],
         "puck": {
           "line": -1.5,
-          "h": 2.97,
-          "a": 1.438
+          "h": 3.02,
+          "a": 1.425
         },
         "p1total": {
           "line": 1.5,
@@ -653,7 +653,7 @@
           "o": 2.01,
           "u": 1.847
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+        "book": "Pinnacle via OddsPapi, 2026-11-27 10:01 UTC"
       },
       "players": {
         "home": [],
@@ -687,8 +687,8 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          1.943,
-          1.961
+          1.97,
+          1.934
         ],
         "total": {
           "line": 6.5,
@@ -698,24 +698,24 @@
         "teamTotal": {
           "home": {
             "line": 3.5,
-            "o": 2.26,
-            "u": 1.666
+            "o": 2.28,
+            "u": 1.657
           },
           "away": {
             "line": 3.5,
-            "o": 2.28,
-            "u": 1.653
+            "o": 2.26,
+            "u": 1.666
           }
         },
         "reg": [
-          2.42,
+          2.45,
           4.28,
-          2.44
+          2.41
         ],
         "puck": {
-          "line": -1.5,
-          "h": 3.22,
-          "a": 1.384
+          "line": 1.5,
+          "h": 1.383,
+          "a": 3.23
         },
         "p1total": {
           "line": 1.5,
@@ -724,10 +724,10 @@
         },
         "totalReg": {
           "line": 6,
-          "o": 1.869,
+          "o": 1.862,
           "u": 1.99
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+        "book": "Pinnacle via OddsPapi, 2026-11-27 10:01 UTC"
       },
       "players": {
         "home": [],
@@ -761,8 +761,8 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          2.78,
-          1.5
+          2.81,
+          1.492
         ],
         "total": {
           "line": 6.5,
@@ -772,13 +772,13 @@
         "teamTotal": {
           "home": {
             "line": 2.5,
-            "o": 1.757,
-            "u": 2.11
+            "o": 1.769,
+            "u": 2.1
           },
           "away": {
             "line": 3.5,
-            "o": 1.781,
-            "u": 2.08
+            "o": 1.769,
+            "u": 2.09
           }
         },
         "reg": [
@@ -788,8 +788,8 @@
         ],
         "puck": {
           "line": 1.5,
-          "h": 1.704,
-          "a": 2.25
+          "h": 1.714,
+          "a": 2.24
         },
         "p1total": {
           "line": 1.5,
@@ -801,7 +801,7 @@
           "o": 1.763,
           "u": 2.12
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+        "book": "Pinnacle via OddsPapi, 2026-11-27 10:01 UTC"
       },
       "players": {
         "home": [],
@@ -856,9 +856,9 @@
           }
         },
         "reg": [
-          3.22,
-          4.28,
-          1.943
+          3.24,
+          4.32,
+          1.934
         ],
         "puck": {
           "line": 1.5,
@@ -872,10 +872,10 @@
         },
         "totalReg": {
           "line": 6,
-          "o": 2.01,
-          "u": 1.854
+          "o": 2,
+          "u": 1.862
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+        "book": "Pinnacle via OddsPapi, 2026-11-27 10:01 UTC"
       },
       "players": {
         "home": [],
