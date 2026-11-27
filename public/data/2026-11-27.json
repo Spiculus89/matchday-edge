@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "updated": "2026-11-27T14:43:22.616Z",
+  "updated": "2026-11-27T19:50:15.976Z",
   "updateNote": "Afternoon update (user request): the user’s game list. Added Heidenheim-Nurnberg, Gyor-Debrecen and Gornik-Wisla Plock (priced by an extra Pinnacle fetch); removed the Turkish and Portuguese games. Al Qadsiah-Al Fayha had kicked off before it could be priced.",
   "matches": [
     {
@@ -1708,38 +1708,38 @@
         }
       ],
       "lineups": {
-        "status": "predicted",
-        "source": "BeFoot probable XIs (27 Nov); Rotowire's Ligue 1 page showed an old week.",
+        "status": "confirmed",
+        "source": "ESPN confirmed lineups, read 19:50 UTC",
         "home": {
-          "formation": "",
+          "formation": "4-2-3-1",
           "xi": [
-            "Selvik",
-            "Zogbé",
-            "Tousart",
-            "Lloris",
-            "Locko",
-            "Chotard",
-            "Magnetti",
-            "Edjouma",
-            "Nonge",
-            "Baldé",
-            "Ajorque"
+            "Egil Selvik",
+            "Luc Zogbe",
+            "Bradley Locko",
+            "Hugo Magnetti",
+            "Lucas Tousart",
+            "Gautier Lloris",
+            "Noah Edjouma",
+            "Joris Chotard",
+            "Ludovic Ajorque",
+            "Kamory Doumbia",
+            "Pathé Mboup"
           ]
         },
         "away": {
-          "formation": "",
+          "formation": "4-2-3-1",
           "xi": [
-            "Trapp",
-            "Camara",
-            "Coppola",
-            "Chergui",
-            "Otavio",
-            "Lopez",
-            "Lees-Melou",
-            "Kebbal",
-            "Pagis",
-            "Koleosho",
-            "Sinayoko"
+            "Kevin Trapp",
+            "Adama Camara",
+            "Hamari Traoré",
+            "Pierre Lees-Melou",
+            "Samir Chergui",
+            "Diego Coppola",
+            "Luca Koleosho",
+            "Maxime López",
+            "Lassine Sinayoko",
+            "Pablo Pagis",
+            "Moses Simon"
           ]
         }
       },
@@ -1759,6 +1759,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401876392"
         }
       ],
       "form20": {
@@ -2328,38 +2332,38 @@
         }
       ],
       "lineups": {
-        "status": "predicted",
-        "source": "Rotowire predicted XI, read 27 Nov morning.",
+        "status": "confirmed",
+        "source": "ESPN confirmed lineups, read 19:50 UTC",
         "home": {
-          "formation": "",
+          "formation": "3-5-2",
           "xi": [
-            "F. Stankovic",
-            "R. Halhal",
+            "Filip Stankovic",
+            "Antoine Hainaut",
+            "Ridgeciano Haps",
             "Juan Jesus",
-            "M. Moreno",
-            "R. Haps",
-            "G. Busio",
-            "Simon Sohm",
-            "Kike Perez",
-            "A. Hainaut",
+            "Matías Moreno",
+            "Redouane Halhal",
+            "Enrique Perez",
+            "Gianluca Busio",
             "Akor Adams",
-            "John Yeboah"
+            "John Yeboah",
+            "Simon Sohm"
           ]
         },
         "away": {
-          "formation": "",
+          "formation": "3-4-3",
           "xi": [
-            "L. Skorupski",
-            "M. Darmian",
-            "N. Casale",
-            "A. Theate",
-            "R. Alhassane",
-            "L. Ferguson",
-            "T. Pobega",
+            "Lukasz Skorupski",
             "Nadir Zortea",
-            "N. Cambiaghi",
-            "F. Bernardeschi",
-            "R. Piccoli"
+            "Rahim Alhassane",
+            "Arthur Theate",
+            "Nicoló Casale",
+            "Martin Vitík",
+            "Lewis Ferguson",
+            "Tommaso Pobega",
+            "Jens Odgaard",
+            "Federico Bernardeschi",
+            "Samuel Mbangula"
           ]
         }
       },
@@ -2379,6 +2383,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401875004"
         }
       ],
       "form20": {
@@ -2977,38 +2985,38 @@
         }
       ],
       "lineups": {
-        "status": "predicted",
-        "source": "Sports Mole predicted XIs (25 Nov); Rotowire's La Liga page showed an old week.",
+        "status": "confirmed",
+        "source": "ESPN confirmed lineups, read 19:50 UTC",
         "home": {
-          "formation": "",
+          "formation": "4-3-3",
           "xi": [
-            "Ryan",
-            "Perez",
-            "Mandi",
-            "Dela",
-            "Sanchez",
-            "Rey",
-            "Brugue",
-            "Requena",
-            "Olasagasti",
-            "Fernandez",
-            "Romero"
+            "Mathew Ryan",
+            "Nacho Pérez",
+            "Marc Santos Gavilán",
+            "Orio Rey",
+            "Adrián de la Fuente",
+            "Aïssa Mandi",
+            "Jon Ander Olasagasti",
+            "Dani Requena",
+            "Iván Romero",
+            "Víctor García",
+            "Thiago Fernández"
           ]
         },
         "away": {
-          "formation": "",
+          "formation": "4-2-3-1",
           "xi": [
-            "Agirrezabala",
-            "Ramon",
-            "Felipe",
-            "Belocian",
-            "Salinas",
-            "Prati",
-            "I. Martin",
-            "Luque",
-            "Canales",
-            "Vicente",
-            "Zabiri"
+            "Julen Agirrezabala",
+            "Pablo Ramon",
+            "Jorge Salinas",
+            "Iván Martín",
+            "Pedro Felipe ",
+            "Jeanuël Belocian",
+            "Iker Luque",
+            "Matteo Prati",
+            "Yassir Zabiri",
+            "Sergio Canales",
+            "Iñigo Vicente"
           ]
         }
       },
@@ -3028,6 +3036,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401882791"
         }
       ],
       "form20": {
@@ -3079,7 +3091,7 @@
           {
             "name": "Mathew Ryan",
             "pos": "GK",
-            "start": 0.85,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -3092,7 +3104,7 @@
           {
             "name": "Aïssa Mandi",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 1,
             "goals": 0,
             "assists": 0,
@@ -3103,22 +3115,35 @@
             "mins": 963
           },
           {
-            "name": "Manu Sánchez",
+            "name": "Víctor García",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 2,
             "goals": 0,
             "assists": 0,
-            "shots90": 0.19,
-            "sot90": 0.1,
-            "fouls90": 0.86,
-            "tackles90": 3.84,
-            "mins": 937
+            "shots90": 0.45,
+            "sot90": 0,
+            "fouls90": 1.82,
+            "tackles90": 0.91,
+            "mins": 396
+          },
+          {
+            "name": "Adrián de la Fuente",
+            "pos": "DF",
+            "start": 1,
+            "shots": 22,
+            "goals": 2,
+            "assists": 0,
+            "shots90": 2.32,
+            "sot90": 0.63,
+            "fouls90": 0.95,
+            "tackles90": 1.05,
+            "mins": 855
           },
           {
             "name": "Nacho Pérez",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 4,
             "goals": 1,
             "assists": 0,
@@ -3129,22 +3154,18 @@
             "mins": 695
           },
           {
-            "name": "Roger Brugué",
-            "pos": "MF",
-            "start": 0.85,
-            "shots": 29,
-            "goals": 5,
-            "assists": 1,
-            "shots90": 2.58,
-            "sot90": 0.89,
-            "fouls90": 0.89,
-            "tackles90": 1.69,
-            "mins": 1011
+            "name": "Marc Santos Gavilán",
+            "pos": "DF",
+            "start": 1,
+            "shots": 1,
+            "goals": 0,
+            "assists": 0,
+            "mins": 82
           },
           {
             "name": "Orio Rey",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 3,
             "goals": 0,
             "assists": 0,
@@ -3157,7 +3178,7 @@
           {
             "name": "Jon Ander Olasagasti",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 16,
             "goals": 1,
             "assists": 2,
@@ -3170,7 +3191,7 @@
           {
             "name": "Dani Requena",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 11,
             "goals": 2,
             "assists": 1,
@@ -3183,7 +3204,7 @@
           {
             "name": "Iván Romero",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "shots": 24,
             "goals": 3,
             "assists": 0,
@@ -3196,7 +3217,7 @@
           {
             "name": "Thiago Fernández",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "shots": 16,
             "goals": 0,
             "assists": 1,
@@ -3209,7 +3230,7 @@
           {
             "name": "Jeremy Toljan",
             "pos": "DF",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 4,
             "goals": 0,
             "assists": 1,
@@ -3220,22 +3241,9 @@
             "mins": 633
           },
           {
-            "name": "Adrián de la Fuente",
-            "pos": "DF",
-            "start": 0.15,
-            "shots": 22,
-            "goals": 2,
-            "assists": 0,
-            "shots90": 2.32,
-            "sot90": 0.63,
-            "fouls90": 0.95,
-            "tackles90": 1.05,
-            "mins": 855
-          },
-          {
             "name": "Ifeanyi Ndukwe",
             "pos": "DF",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 2,
             "goals": 1,
             "assists": 0,
@@ -3246,9 +3254,22 @@
             "mins": 541
           },
           {
+            "name": "Roger Brugué",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 29,
+            "goals": 5,
+            "assists": 1,
+            "shots90": 2.58,
+            "sot90": 0.89,
+            "fouls90": 0.89,
+            "tackles90": 1.69,
+            "mins": 1011
+          },
+          {
             "name": "Enzo Bardeli",
             "pos": "MF",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 3,
             "goals": 1,
             "assists": 1,
@@ -3261,7 +3282,7 @@
           {
             "name": "Petar Ratkov",
             "pos": "FW",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 4,
             "goals": 0,
             "assists": 1,
@@ -3274,7 +3295,7 @@
           {
             "name": "Etta Eyong",
             "pos": "FW",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 9,
             "goals": 1,
             "assists": 1,
@@ -3289,7 +3310,7 @@
           {
             "name": "Julen Agirrezabala",
             "pos": "GK",
-            "start": 0.85,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -3302,7 +3323,7 @@
           {
             "name": "Jorge Salinas",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 9,
             "goals": 0,
             "assists": 0,
@@ -3315,7 +3336,7 @@
           {
             "name": "Pablo Ramon",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 5,
             "goals": 0,
             "assists": 1,
@@ -3328,7 +3349,7 @@
           {
             "name": "Jeanuël Belocian",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 6,
             "goals": 1,
             "assists": 0,
@@ -3341,7 +3362,7 @@
           {
             "name": "Pedro Felipe ",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 2,
             "goals": 0,
             "assists": 0,
@@ -3354,7 +3375,7 @@
           {
             "name": "Matteo Prati",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 4,
             "goals": 0,
             "assists": 0,
@@ -3367,7 +3388,7 @@
           {
             "name": "Sergio Canales",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 30,
             "goals": 2,
             "assists": 1,
@@ -3381,7 +3402,7 @@
           {
             "name": "Iván Martín",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 2,
             "goals": 1,
             "assists": 0,
@@ -3394,7 +3415,7 @@
           {
             "name": "Iñigo Vicente",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "shots": 8,
             "goals": 0,
             "assists": 3,
@@ -3407,7 +3428,7 @@
           {
             "name": "Yassir Zabiri",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "shots": 33,
             "goals": 11,
             "assists": 0,
@@ -3420,7 +3441,7 @@
           {
             "name": "Iker Luque",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "shots": 12,
             "goals": 1,
             "assists": 1,
@@ -3433,7 +3454,7 @@
           {
             "name": "Alvaro Mantilla",
             "pos": "DF",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 3,
             "goals": 0,
             "assists": 1,
@@ -3446,7 +3467,7 @@
           {
             "name": "Maguette Gueye",
             "pos": "MF",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 3,
             "goals": 1,
             "assists": 0,
@@ -3455,7 +3476,7 @@
           {
             "name": "Andrés Martín",
             "pos": "FW",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 15,
             "goals": 1,
             "assists": 0,
@@ -3469,7 +3490,7 @@
           {
             "name": "Asier Villalibre",
             "pos": "FW",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 3,
             "goals": 0,
             "assists": 1,
@@ -3482,7 +3503,7 @@
           {
             "name": "Pablo García",
             "pos": "FW",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 18,
             "goals": 1,
             "assists": 0,
@@ -3666,38 +3687,38 @@
         }
       ],
       "lineups": {
-        "status": "predicted",
-        "source": "Sports Mole predicted XIs (26 Nov); Rotowire's EPL page showed an old week.",
+        "status": "confirmed",
+        "source": "ESPN confirmed lineups, read 19:50 UTC",
         "home": {
-          "formation": "",
+          "formation": "3-4-2-1",
           "xi": [
-            "Sels",
-            "Cunha",
-            "Milenkovic",
+            "Matz Sels",
+            "Daniel Muñoz",
+            "Neco Williams",
             "Murillo",
-            "Munoz",
-            "McAtee",
-            "Schlager",
-            "Williams",
-            "Gibbs-White",
-            "Ndoye",
-            "Delap"
+            "Nikola Milenkovic",
+            "Jair Cunha",
+            "James McAtee",
+            "Xaver Schlager",
+            "Liam Delap",
+            "Igor Jesus",
+            "Morgan Gibbs-White"
           ]
         },
         "away": {
-          "formation": "",
+          "formation": "4-2-3-1",
           "xi": [
-            "Martinez",
-            "Acheampong",
-            "Fofana",
-            "Colwill",
-            "Chavarria",
-            "Henderson",
-            "Lavia",
-            "Neto",
-            "Palmer",
-            "Rogers",
-            "Emegha"
+            "Emiliano Martínez",
+            "Josh Acheampong",
+            "Pep Chavarría",
+            "Moisés Caicedo",
+            "Wesley Fofana",
+            "Romeo Lavia",
+            "Pedro Neto",
+            "Jordan Henderson",
+            "Danny Welbeck",
+            "Cole Palmer",
+            "Morgan Rogers"
           ]
         }
       },
@@ -3721,6 +3742,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401879225"
         }
       ],
       "form20": {
@@ -3772,7 +3797,7 @@
           {
             "name": "Matz Sels",
             "pos": "GK",
-            "start": 0.85,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -3785,7 +3810,7 @@
           {
             "name": "Daniel Muñoz",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 9,
             "goals": 0,
             "assists": 1,
@@ -3798,7 +3823,7 @@
           {
             "name": "Nikola Milenkovic",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 3,
             "goals": 0,
             "assists": 0,
@@ -3811,7 +3836,7 @@
           {
             "name": "Neco Williams",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 14,
             "goals": 1,
             "assists": 0,
@@ -3824,7 +3849,7 @@
           {
             "name": "Jair Cunha",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 6,
             "goals": 1,
             "assists": 0,
@@ -3837,7 +3862,7 @@
           {
             "name": "Murillo",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 18,
             "goals": 0,
             "assists": 1,
@@ -3850,7 +3875,7 @@
           {
             "name": "Xaver Schlager",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 14,
             "goals": 0,
             "assists": 1,
@@ -3861,48 +3886,9 @@
             "mins": 802
           },
           {
-            "name": "James McAtee",
-            "pos": "MF",
-            "start": 0.85,
-            "shots": 20,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 1.98,
-            "sot90": 0.49,
-            "fouls90": 1.09,
-            "tackles90": 2.27,
-            "mins": 910
-          },
-          {
-            "name": "Dan Ndoye",
-            "pos": "FW",
-            "start": 0.85,
-            "shots": 21,
-            "goals": 2,
-            "assists": 0,
-            "shots90": 2.82,
-            "sot90": 0.54,
-            "fouls90": 1.75,
-            "tackles90": 0.54,
-            "mins": 670
-          },
-          {
-            "name": "Liam Delap",
-            "pos": "FW",
-            "start": 0.85,
-            "shots": 28,
-            "goals": 3,
-            "assists": 0,
-            "shots90": 3.27,
-            "sot90": 0.58,
-            "fouls90": 2.22,
-            "tackles90": 0.47,
-            "mins": 770
-          },
-          {
             "name": "Morgan Gibbs-White",
             "pos": "MF",
-            "start": 0.15,
+            "start": 1,
             "shots": 18,
             "goals": 1,
             "assists": 3,
@@ -3914,9 +3900,22 @@
             "mins": 900
           },
           {
+            "name": "James McAtee",
+            "pos": "MF",
+            "start": 1,
+            "shots": 20,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 1.98,
+            "sot90": 0.49,
+            "fouls90": 1.09,
+            "tackles90": 2.27,
+            "mins": 910
+          },
+          {
             "name": "Igor Jesus",
             "pos": "FW",
-            "start": 0.15,
+            "start": 1,
             "shots": 14,
             "goals": 1,
             "assists": 0,
@@ -3925,13 +3924,39 @@
             "fouls90": 2.66,
             "tackles90": 0.89,
             "mins": 304
+          },
+          {
+            "name": "Liam Delap",
+            "pos": "FW",
+            "start": 1,
+            "shots": 28,
+            "goals": 3,
+            "assists": 0,
+            "shots90": 3.27,
+            "sot90": 0.58,
+            "fouls90": 2.22,
+            "tackles90": 0.47,
+            "mins": 770
+          },
+          {
+            "name": "Dan Ndoye",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 21,
+            "goals": 2,
+            "assists": 0,
+            "shots90": 2.82,
+            "sot90": 0.54,
+            "fouls90": 1.75,
+            "tackles90": 0.54,
+            "mins": 670
           }
         ],
         "away": [
           {
             "name": "Emiliano Martínez",
             "pos": "GK",
-            "start": 0.85,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -3944,7 +3969,7 @@
           {
             "name": "Wesley Fofana",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 3,
             "goals": 0,
             "assists": 0,
@@ -3955,22 +3980,9 @@
             "mins": 585
           },
           {
-            "name": "Levi Colwill",
-            "pos": "DF",
-            "start": 0.85,
-            "shots": 4,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.43,
-            "sot90": 0,
-            "fouls90": 0.97,
-            "tackles90": 1.08,
-            "mins": 837
-          },
-          {
             "name": "Pep Chavarría",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 1,
             "goals": 0,
             "assists": 1,
@@ -3983,7 +3995,7 @@
           {
             "name": "Josh Acheampong",
             "pos": "DF",
-            "start": 0.85,
+            "start": 1,
             "shots": 3,
             "goals": 0,
             "assists": 0,
@@ -3996,7 +4008,7 @@
           {
             "name": "Jordan Henderson",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 6,
             "goals": 2,
             "assists": 1,
@@ -4009,7 +4021,7 @@
           {
             "name": "Morgan Rogers",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 28,
             "goals": 5,
             "assists": 2,
@@ -4020,9 +4032,22 @@
             "mins": 973
           },
           {
+            "name": "Moisés Caicedo",
+            "pos": "MF",
+            "start": 1,
+            "shots": 2,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.39,
+            "sot90": 0,
+            "fouls90": 1.36,
+            "tackles90": 1.55,
+            "mins": 464
+          },
+          {
             "name": "Cole Palmer",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 30,
             "goals": 3,
             "assists": 3,
@@ -4036,7 +4061,7 @@
           {
             "name": "Romeo Lavia",
             "pos": "MF",
-            "start": 0.85,
+            "start": 1,
             "shots": 3,
             "goals": 1,
             "assists": 1,
@@ -4047,9 +4072,18 @@
             "mins": 552
           },
           {
+            "name": "Danny Welbeck",
+            "pos": "FW",
+            "start": 1,
+            "shots": 3,
+            "goals": 0,
+            "assists": 0,
+            "mins": 153
+          },
+          {
             "name": "Pedro Neto",
             "pos": "FW",
-            "start": 0.85,
+            "start": 1,
             "shots": 18,
             "goals": 3,
             "assists": 1,
@@ -4060,18 +4094,9 @@
             "mins": 771
           },
           {
-            "name": "Emmanuel Emegha",
-            "pos": "FW",
-            "start": 0.85,
-            "shots": 1,
-            "goals": 1,
-            "assists": 0,
-            "mins": 67
-          },
-          {
             "name": "Maxence Lacroix",
             "pos": "DF",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 3,
             "goals": 0,
             "assists": 1,
@@ -4084,7 +4109,7 @@
           {
             "name": "Jorrel Hato",
             "pos": "DF",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 1,
             "goals": 0,
             "assists": 2,
@@ -4097,7 +4122,7 @@
           {
             "name": "João Pedro",
             "pos": "FW",
-            "start": 0.15,
+            "start": 0.12,
             "shots": 16,
             "goals": 5,
             "assists": 3,
@@ -4106,6 +4131,15 @@
             "fouls90": 1.21,
             "tackles90": 0.35,
             "mins": 521
+          },
+          {
+            "name": "Emmanuel Emegha",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 1,
+            "goals": 1,
+            "assists": 0,
+            "mins": 67
           }
         ]
       },
@@ -4249,13 +4283,40 @@
       },
       "news": [],
       "lineups": {
-        "status": "pending",
+        "status": "confirmed",
         "home": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "Daniel Peretz",
+            "James Bree",
+            "Ryan Manning",
+            "James Ward-Prowse",
+            "Jack Stephens",
+            "Keven Schlotterbeck",
+            "Kuryu Matsuki",
+            "Flynn Downes",
+            "Cyle Larin",
+            "Finn Azaz",
+            "Lewis Dobbin"
+          ]
         },
         "away": {
-          "xi": []
-        }
+          "formation": "3-4-2-1",
+          "xi": [
+            "Radek Vítek",
+            "Callum Brittain",
+            "Neto Borges",
+            "Adilson Malanda",
+            "Ashley Phillips",
+            "Luke Ayling",
+            "Aidan Morris",
+            "Sebastian Berhalter",
+            "Will Lankshear",
+            "Amario Cozier-Duberry",
+            "Tommy Conway"
+          ]
+        },
+        "source": "ESPN confirmed lineups, read 19:50 UTC"
       },
       "sources": [
         {
@@ -4269,6 +4330,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "ESPN match page (confirmed lineups)",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401880129"
         }
       ],
       "form20": {
@@ -4317,7 +4382,7 @@
           {
             "name": "Daniel Peretz",
             "pos": "GK",
-            "start": 0.9,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -4328,22 +4393,22 @@
             "mins": 1530
           },
           {
-            "name": "Finn Azaz",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 39,
-            "goals": 3,
-            "assists": 6,
-            "shots90": 2.51,
-            "sot90": 0.77,
-            "fouls90": 0.45,
-            "tackles90": 0.96,
-            "mins": 1399
+            "name": "Jack Stephens",
+            "pos": "GK",
+            "start": 1,
+            "shots": 6,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.54,
+            "sot90": 0.09,
+            "fouls90": 0.09,
+            "tackles90": 0.9,
+            "mins": 996
           },
           {
             "name": "James Bree",
             "pos": "DF",
-            "start": 0.87,
+            "start": 1,
             "shots": 11,
             "goals": 2,
             "assists": 1,
@@ -4354,22 +4419,9 @@
             "mins": 1318
           },
           {
-            "name": "Flynn Downes",
-            "pos": "MF",
-            "start": 0.87,
-            "shots": 5,
-            "goals": 0,
-            "assists": 2,
-            "shots90": 0.4,
-            "sot90": 0,
-            "fouls90": 1.85,
-            "tackles90": 2.74,
-            "mins": 1117
-          },
-          {
             "name": "Ryan Manning",
             "pos": "DF",
-            "start": 0.81,
+            "start": 1,
             "shots": 16,
             "goals": 1,
             "assists": 3,
@@ -4383,7 +4435,7 @@
           {
             "name": "Keven Schlotterbeck",
             "pos": "DF",
-            "start": 0.81,
+            "start": 1,
             "shots": 14,
             "goals": 2,
             "assists": 0,
@@ -4396,7 +4448,7 @@
           {
             "name": "James Ward-Prowse",
             "pos": "MF",
-            "start": 0.81,
+            "start": 1,
             "shots": 21,
             "goals": 1,
             "assists": 1,
@@ -4407,23 +4459,35 @@
             "mins": 1228
           },
           {
-            "name": "Léo Scienza",
+            "name": "Finn Azaz",
             "pos": "MF",
-            "start": 0.81,
-            "shots": 28,
-            "goals": 2,
+            "start": 1,
+            "shots": 39,
+            "goals": 3,
+            "assists": 6,
+            "shots90": 2.51,
+            "sot90": 0.77,
+            "fouls90": 0.45,
+            "tackles90": 0.96,
+            "mins": 1399
+          },
+          {
+            "name": "Flynn Downes",
+            "pos": "MF",
+            "start": 1,
+            "shots": 5,
+            "goals": 0,
             "assists": 2,
-            "pens": true,
-            "shots90": 2.59,
-            "sot90": 1.39,
-            "fouls90": 0.46,
-            "tackles90": 0.83,
-            "mins": 973
+            "shots90": 0.4,
+            "sot90": 0,
+            "fouls90": 1.85,
+            "tackles90": 2.74,
+            "mins": 1117
           },
           {
             "name": "Kuryu Matsuki",
             "pos": "MF",
-            "start": 0.76,
+            "start": 1,
             "shots": 30,
             "goals": 4,
             "assists": 1,
@@ -4434,22 +4498,9 @@
             "mins": 1189
           },
           {
-            "name": "Jack Stephens",
-            "pos": "GK",
-            "start": 0.7,
-            "shots": 6,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.54,
-            "sot90": 0.09,
-            "fouls90": 0.09,
-            "tackles90": 0.9,
-            "mins": 996
-          },
-          {
             "name": "Cyle Larin",
             "pos": "FW",
-            "start": 0.7,
+            "start": 1,
             "shots": 40,
             "goals": 8,
             "assists": 0,
@@ -4460,35 +4511,9 @@
             "mins": 827
           },
           {
-            "name": "Cameron Bragg",
-            "pos": "MF",
-            "start": 0.52,
-            "shots": 4,
-            "goals": 1,
-            "assists": 1,
-            "shots90": 0.62,
-            "sot90": 0.16,
-            "fouls90": 1.25,
-            "tackles90": 2.34,
-            "mins": 578
-          },
-          {
-            "name": "Nathan Wood",
-            "pos": "DF",
-            "start": 0.46,
-            "shots": 3,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.42,
-            "sot90": 0,
-            "fouls90": 0.71,
-            "tackles90": 0.99,
-            "mins": 636
-          },
-          {
             "name": "Lewis Dobbin",
             "pos": "FW",
-            "start": 0.4,
+            "start": 1,
             "shots": 14,
             "goals": 2,
             "assists": 1,
@@ -4499,22 +4524,9 @@
             "mins": 602
           },
           {
-            "name": "Tom Fellows",
-            "pos": "MF",
-            "start": 0.34,
-            "shots": 4,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 0.88,
-            "sot90": 0.22,
-            "fouls90": 0.88,
-            "tackles90": 0.88,
-            "mins": 408
-          },
-          {
             "name": "Welington",
             "pos": "DF",
-            "start": 0.29,
+            "start": 0.12,
             "shots": 5,
             "goals": 2,
             "assists": 0,
@@ -4527,7 +4539,7 @@
           {
             "name": "Samuel Edozie",
             "pos": "MF",
-            "start": 0.23,
+            "start": 0.12,
             "shots": 8,
             "goals": 1,
             "assists": 1,
@@ -4538,9 +4550,49 @@
             "mins": 407
           },
           {
+            "name": "Tom Fellows",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 4,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 0.88,
+            "sot90": 0.22,
+            "fouls90": 0.88,
+            "tackles90": 0.88,
+            "mins": 408
+          },
+          {
+            "name": "Cameron Bragg",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 4,
+            "goals": 1,
+            "assists": 1,
+            "shots90": 0.62,
+            "sot90": 0.16,
+            "fouls90": 1.25,
+            "tackles90": 2.34,
+            "mins": 578
+          },
+          {
+            "name": "Léo Scienza",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 28,
+            "goals": 2,
+            "assists": 2,
+            "pens": true,
+            "shots90": 2.59,
+            "sot90": 1.39,
+            "fouls90": 0.46,
+            "tackles90": 0.83,
+            "mins": 973
+          },
+          {
             "name": "Divin Mubama",
             "pos": "FW",
-            "start": 0.17,
+            "start": 0.12,
             "shots": 9,
             "goals": 2,
             "assists": 1,
@@ -4555,7 +4607,7 @@
           {
             "name": "Radek Vítek",
             "pos": "GK",
-            "start": 0.9,
+            "start": 1,
             "shots": 0,
             "goals": 0,
             "assists": 0,
@@ -4566,9 +4618,22 @@
             "mins": 1530
           },
           {
+            "name": "Luke Ayling",
+            "pos": "DF",
+            "start": 1,
+            "shots": 5,
+            "goals": 0,
+            "assists": 2,
+            "shots90": 0.57,
+            "sot90": 0.11,
+            "fouls90": 0.23,
+            "tackles90": 1.71,
+            "mins": 790
+          },
+          {
             "name": "Callum Brittain",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 20,
             "goals": 1,
             "assists": 2,
@@ -4579,9 +4644,35 @@
             "mins": 1517
           },
           {
+            "name": "Neto Borges",
+            "pos": "DF",
+            "start": 1,
+            "shots": 13,
+            "goals": 1,
+            "assists": 1,
+            "shots90": 1.09,
+            "sot90": 0.08,
+            "fouls90": 0.84,
+            "tackles90": 1.51,
+            "mins": 1070
+          },
+          {
+            "name": "Ashley Phillips",
+            "pos": "DF",
+            "start": 1,
+            "shots": 7,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 0.56,
+            "sot90": 0.08,
+            "fouls90": 0.56,
+            "tackles90": 1.05,
+            "mins": 1119
+          },
+          {
             "name": "Adilson Malanda",
             "pos": "DF",
-            "start": 0.9,
+            "start": 1,
             "shots": 17,
             "goals": 2,
             "assists": 0,
@@ -4594,7 +4685,7 @@
           {
             "name": "Aidan Morris",
             "pos": "MF",
-            "start": 0.9,
+            "start": 1,
             "shots": 32,
             "goals": 2,
             "assists": 0,
@@ -4605,35 +4696,9 @@
             "mins": 1440
           },
           {
-            "name": "Neto Borges",
-            "pos": "DF",
-            "start": 0.81,
-            "shots": 13,
-            "goals": 1,
-            "assists": 1,
-            "shots90": 1.09,
-            "sot90": 0.08,
-            "fouls90": 0.84,
-            "tackles90": 1.51,
-            "mins": 1070
-          },
-          {
-            "name": "Riley McGree",
-            "pos": "MF",
-            "start": 0.81,
-            "shots": 19,
-            "goals": 0,
-            "assists": 3,
-            "shots90": 1.64,
-            "sot90": 0.26,
-            "fouls90": 1.13,
-            "tackles90": 1.3,
-            "mins": 1040
-          },
-          {
             "name": "Sebastian Berhalter",
             "pos": "MF",
-            "start": 0.81,
+            "start": 1,
             "shots": 26,
             "goals": 3,
             "assists": 3,
@@ -4644,35 +4709,9 @@
             "mins": 1134
           },
           {
-            "name": "Will Lankshear",
-            "pos": "FW",
-            "start": 0.81,
-            "shots": 49,
-            "goals": 14,
-            "assists": 0,
-            "shots90": 3.93,
-            "sot90": 2.08,
-            "fouls90": 1.52,
-            "tackles90": 0.08,
-            "mins": 1123
-          },
-          {
-            "name": "Ashley Phillips",
-            "pos": "DF",
-            "start": 0.76,
-            "shots": 7,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 0.56,
-            "sot90": 0.08,
-            "fouls90": 0.56,
-            "tackles90": 1.05,
-            "mins": 1119
-          },
-          {
             "name": "Amario Cozier-Duberry",
             "pos": "MF",
-            "start": 0.76,
+            "start": 1,
             "shots": 41,
             "goals": 3,
             "assists": 6,
@@ -4683,22 +4722,9 @@
             "mins": 926
           },
           {
-            "name": "Luke Ayling",
-            "pos": "DF",
-            "start": 0.58,
-            "shots": 5,
-            "goals": 0,
-            "assists": 2,
-            "shots90": 0.57,
-            "sot90": 0.11,
-            "fouls90": 0.23,
-            "tackles90": 1.71,
-            "mins": 790
-          },
-          {
             "name": "Tommy Conway",
             "pos": "FW",
-            "start": 0.52,
+            "start": 1,
             "shots": 18,
             "goals": 1,
             "assists": 4,
@@ -4709,22 +4735,31 @@
             "mins": 741
           },
           {
-            "name": "Kyle Joseph",
+            "name": "Will Lankshear",
             "pos": "FW",
-            "start": 0.34,
-            "shots": 16,
-            "goals": 0,
+            "start": 1,
+            "shots": 49,
+            "goals": 14,
             "assists": 0,
-            "shots90": 2.76,
-            "sot90": 1.38,
-            "fouls90": 1.21,
-            "tackles90": 1.21,
-            "mins": 522
+            "shots90": 3.93,
+            "sot90": 2.08,
+            "fouls90": 1.52,
+            "tackles90": 0.08,
+            "mins": 1123
+          },
+          {
+            "name": "Alfie Jones",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 1,
+            "goals": 1,
+            "assists": 0,
+            "mins": 160
           },
           {
             "name": "Max Arfsten",
             "pos": "DF",
-            "start": 0.29,
+            "start": 0.12,
             "shots": 8,
             "goals": 1,
             "assists": 0,
@@ -4735,9 +4770,22 @@
             "mins": 619
           },
           {
+            "name": "Riley McGree",
+            "pos": "MF",
+            "start": 0.12,
+            "shots": 19,
+            "goals": 0,
+            "assists": 3,
+            "shots90": 1.64,
+            "sot90": 0.26,
+            "fouls90": 1.13,
+            "tackles90": 1.3,
+            "mins": 1040
+          },
+          {
             "name": "Myles Peart-Harris",
             "pos": "MF",
-            "start": 0.29,
+            "start": 0.12,
             "shots": 8,
             "goals": 1,
             "assists": 1,
@@ -4748,22 +4796,9 @@
             "mins": 488
           },
           {
-            "name": "Jeremy Sarmiento",
-            "pos": "FW",
-            "start": 0.29,
-            "shots": 15,
-            "goals": 1,
-            "assists": 0,
-            "shots90": 3.58,
-            "sot90": 1.43,
-            "fouls90": 1.19,
-            "tackles90": 2.15,
-            "mins": 377
-          },
-          {
             "name": "David Strelec",
             "pos": "FW",
-            "start": 0.23,
+            "start": 0.12,
             "shots": 8,
             "goals": 1,
             "assists": 0,
@@ -4774,13 +4809,17 @@
             "mins": 238
           },
           {
-            "name": "Alfie Jones",
-            "pos": "MF",
-            "start": 0.17,
-            "shots": 1,
+            "name": "Jeremy Sarmiento",
+            "pos": "FW",
+            "start": 0.12,
+            "shots": 15,
             "goals": 1,
             "assists": 0,
-            "mins": 160
+            "shots90": 3.58,
+            "sot90": 1.43,
+            "fouls90": 1.19,
+            "tackles90": 2.15,
+            "mins": 377
           }
         ]
       },
