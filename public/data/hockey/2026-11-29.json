@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-29",
+  "updated": "2026-11-27T17:38:22.167Z",
+  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, injuries and players.",
+  "skeleton": true,
+  "games": [
+    {
+      "id": "lig-pan",
+      "league": "NHL",
+      "start": "2026-11-28T23:00:00.000Z",
+      "home": {
+        "name": "Florida Panthers",
+        "short": "Panthers",
+        "code": "PAN"
+      },
+      "away": {
+        "name": "Tampa Bay Lightning",
+        "short": "Lightning",
+        "code": "LIG"
+      },
+      "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
+      "odds": {
+        "ml": [
+          1.87,
+          1.9
+        ],
+        "reg": [
+          2.41,
+          3.85,
+          2.46
+        ],
+        "totalReg": {
+          "line": 6.5,
+          "o": 2.2,
+          "u": 1.6
+        },
+        "book": "AdmiralBet BA via OddsPapi, 2026-11-27 17:38 UTC",
+        "local": {
+          "book": "AdmiralBet BA",
+          "ml": [
+            1.87,
+            1.9
+          ],
+          "reg": [
+            2.41,
+            3.85,
+            2.46
+          ],
+          "totalReg": {
+            "line": 6.5,
+            "o": 2.2,
+            "u": 1.6
+          },
+          "text": "win 1.87/1.9"
+        }
+      },
+      "players": {
+        "home": [],
+        "away": []
+      },
+      "news": [],
+      "lineups": {
+        "status": "expected"
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-27 17:38 UTC",
+          "url": "https://oddspapi.io/"
+        }
+      ]
+    }
+  ]
+}
