@@ -1,8 +1,7 @@
 {
   "date": "2026-11-27",
-  "updated": "2026-11-25T18:09:40.728Z",
-  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, news and lineups.",
-  "skeleton": true,
+  "updated": "2026-11-27T08:52:52.881Z",
+  "updateNote": "Morning update: today's nine priced games added (top five leagues, Championship, Turkey, Portugal) with predicted XIs and absences for the top-five games.",
   "matches": [
     {
       "id": "sao-clu",
@@ -652,6 +651,2032 @@
       "result": {
         "home": 3,
         "away": 1
+      }
+    },
+    {
+      "id": "ala-kon",
+      "competition": "Super Lig (Turkiye)",
+      "kickoff": "2026-11-27T17:00:00.000Z",
+      "home": {
+        "name": "Alanyaspor",
+        "short": "Alanyaspor"
+      },
+      "away": {
+        "name": "Konyaspor",
+        "short": "Konyaspor"
+      },
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered this morning; lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off. Pinnacle prices from 27 Nov 05:01 UTC.",
+      "odds": {
+        "h": 2.61,
+        "d": 3.26,
+        "a": 2.81,
+        "ou": {
+          "1.5": [
+            1.31,
+            3.43
+          ],
+          "2.5": [
+            2.02,
+            1.826
+          ],
+          "3.5": [
+            3.48,
+            1.302
+          ],
+          "4.5": [
+            6.82,
+            1.105
+          ]
+        },
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.6,
+            "away": 1.515
+          },
+          {
+            "line": 0,
+            "home": 1.854,
+            "away": 2
+          },
+          {
+            "line": 0.5,
+            "home": 1.454,
+            "away": 2.79
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-27 05:01 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Alanyaspor, Konyaspor: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.15,
+          "ga": 1.45,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.05,
+          "ga": 1.45,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 0.83,
+          "ga": 1.67,
+          "corners": 5.56,
+          "fouls": 13.6,
+          "shots": 10.85,
+          "sot": 3.65
+        },
+        "away": {
+          "gf": 0.67,
+          "ga": 1.5,
+          "corners": 3.72,
+          "fouls": 13.25,
+          "shots": 10.8,
+          "sot": 3.75
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.95,
+          "redsPg": 0
+        },
+        "away": {
+          "yellowsPg": 2.45,
+          "redsPg": 0.15
+        }
+      }
+    },
+    {
+      "id": "cay-kas",
+      "competition": "Super Lig (Turkiye)",
+      "kickoff": "2026-11-27T17:00:00.000Z",
+      "home": {
+        "name": "Caykur Rizespor",
+        "short": "Caykur Rizespor"
+      },
+      "away": {
+        "name": "Kasimpasa Istanbul",
+        "short": "Kasimpasa Istanbul"
+      },
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered this morning; lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off. Pinnacle prices from 27 Nov 05:01 UTC.",
+      "odds": {
+        "h": 1.877,
+        "d": 3.86,
+        "a": 3.88,
+        "ou": {
+          "1.5": [
+            1.215,
+            4.31
+          ],
+          "2.5": [
+            1.704,
+            2.17
+          ],
+          "3.5": [
+            2.75,
+            1.446
+          ],
+          "4.5": [
+            5.02,
+            1.169
+          ]
+        },
+        "ah": [
+          {
+            "line": -1,
+            "home": 2.61,
+            "away": 1.51
+          },
+          {
+            "line": -0.5,
+            "home": 1.877,
+            "away": 1.97
+          },
+          {
+            "line": 0,
+            "home": 1.414,
+            "away": 2.95
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-27 05:01 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Rizespor, Kasimpasa: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.45,
+          "ga": 1.6,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.5,
+          "ga": 1.25,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 1.25,
+          "ga": 1.33,
+          "corners": 5.96,
+          "fouls": 12,
+          "shots": 15.2,
+          "sot": 4.75
+        },
+        "away": {
+          "gf": 1.58,
+          "ga": 1,
+          "corners": 3.55,
+          "fouls": 15.4,
+          "shots": 10.75,
+          "sot": 3.7
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 2.1,
+          "redsPg": 0.1
+        },
+        "away": {
+          "yellowsPg": 2.85,
+          "redsPg": 0.2
+        }
+      }
+    },
+    {
+      "id": "wer-bor",
+      "competition": "Bundesliga (Germany)",
+      "kickoff": "2026-11-27T19:30:00.000Z",
+      "home": {
+        "name": "Werder Bremen",
+        "short": "Werder Bremen"
+      },
+      "away": {
+        "name": "Borussia Monchengladbach",
+        "short": "Borussia Monchengladbach"
+      },
+      "context": "Rotowire's Bundesliga page still showed an old week, so XIs are from Goal.com (26 Nov), with Gladbach news from GladbachTOTAL; neither lists Bremen absences. Kleindienst and Bolin are close to returning for Gladbach (bench at most). Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 27 Nov 05:01 UTC.",
+      "odds": {
+        "h": 1.709,
+        "d": 4.44,
+        "a": 4.47,
+        "ou": {
+          "0.5": [
+            1.032,
+            18.56
+          ],
+          "2.5": [
+            1.531,
+            2.58
+          ],
+          "3.5": [
+            2.33,
+            1.645
+          ]
+        },
+        "btts": [
+          1.564,
+          2.5
+        ],
+        "ah": [
+          {
+            "line": -1.5,
+            "home": 2.8,
+            "away": 1.471
+          },
+          {
+            "line": -1,
+            "home": 2.19,
+            "away": 1.74
+          },
+          {
+            "line": -0.5,
+            "home": 1.704,
+            "away": 2.25
+          }
+        ],
+        "corners": {
+          "8.5": [
+            1.462,
+            2.59
+          ],
+          "9.5": [
+            1.806,
+            2
+          ],
+          "10.5": [
+            2.25,
+            1.609
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.636,
+            2.22
+          ],
+          "4.5": [
+            2.41,
+            1.549
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+      },
+      "news": [
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Doubtful: Franck Honorat (fitness after a layoff).",
+          "src": "GladbachTOTAL"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Tim Kleindienst and Hugo Bolin close to returning; Kleindienst not expected to start.",
+          "src": "GladbachTOTAL"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Goal.com predicted XIs (26 Nov); Rotowire's Bundesliga page showed an old week.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "Hein",
+            "Arthur",
+            "Pieper",
+            "Friedl",
+            "Deman",
+            "Regeer",
+            "Reis",
+            "Chuki",
+            "Dinkci",
+            "Njinmah",
+            "Füllkrug"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "Batz",
+            "Diks",
+            "Itakura",
+            "Chiarodia",
+            "Scally",
+            "Sander",
+            "Neuhaus",
+            "Castrop",
+            "Hack",
+            "Mohya",
+            "Machino"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-27 05:01 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Werder Bremen, M'gladbach: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "Goal.com: Werder Bremen vs Gladbach Prognose (26 Nov)",
+          "url": "https://www.goal.com/de/sportwetten/tipps/werder-bremen-vs-borussia-moenchengladbach-prognosen-27-11-2026/A%3Ablt5786bd2174445b55"
+        },
+        {
+          "title": "GladbachTOTAL: Startelf-Prognose (23 Nov)",
+          "url": "https://www.gladbachtotal.de/werder-bremen-empfaengt-gladbach-startelf-prognose-fuer-die-borussia-am-freitag/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.65,
+          "ga": 1.55,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.35,
+          "ga": 2,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 2.1,
+          "ga": 1.5,
+          "corners": 5.5,
+          "fouls": 10,
+          "shots": 14,
+          "sot": 5.25
+        },
+        "away": {
+          "gf": 1.2,
+          "ga": 2.6,
+          "corners": 3.75,
+          "fouls": 12.45,
+          "shots": 13.1,
+          "sot": 4.35
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.65,
+          "redsPg": 0.1
+        },
+        "away": {
+          "yellowsPg": 2.75,
+          "redsPg": 0.2
+        }
+      },
+      "referee": {
+        "note": "Not named in the previews."
+      }
+    },
+    {
+      "id": "sta-par",
+      "competition": "Ligue 1 (France)",
+      "kickoff": "2026-11-27T19:45:00.000Z",
+      "home": {
+        "name": "Stade Brest 29",
+        "short": "Stade Brest"
+      },
+      "away": {
+        "name": "Paris FC",
+        "short": "Paris FC"
+      },
+      "context": "Rotowire's Ligue 1 page still showed an old week, so XIs and absences are from BeFoot (27 Nov). Brest have kept three straight clean sheets; Paris FC's Sinayoko leads Ligue 1 with 9 goals and their squad is almost fully fit. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 27 Nov 05:01 UTC.",
+      "odds": {
+        "h": 3.54,
+        "d": 3.41,
+        "a": 2.2,
+        "ou": {
+          "0.5": [
+            1.064,
+            11.26
+          ],
+          "1.5": [
+            1.286,
+            3.79
+          ],
+          "2.5": [
+            1.943,
+            1.943
+          ],
+          "3.5": [
+            3.26,
+            1.362
+          ]
+        },
+        "btts": [
+          1.719,
+          2.18
+        ],
+        "ah": [
+          {
+            "line": 0,
+            "home": 2.54,
+            "away": 1.571
+          },
+          {
+            "line": 0.5,
+            "home": 1.74,
+            "away": 2.2
+          }
+        ],
+        "corners": {
+          "8.5": [
+            1.694,
+            2.13
+          ],
+          "9.5": [
+            2.12,
+            1.699
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.357,
+            2.99
+          ],
+          "3.5": [
+            1.884,
+            1.917
+          ],
+          "4.5": [
+            2.75,
+            1.414
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Raphaël Le Guen.",
+          "src": "BeFoot"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Doubtful: Brendan Chardonnet (not ready to start), Kamory Doumbia, Kenny Lala.",
+          "src": "BeFoot"
+        },
+        {
+          "team": "away",
+          "tag": "info",
+          "text": "Chergui, Camara and Ikoné back in the squad; no absences reported.",
+          "src": "BeFoot"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "BeFoot probable XIs (27 Nov); Rotowire's Ligue 1 page showed an old week.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "Selvik",
+            "Zogbé",
+            "Tousart",
+            "Lloris",
+            "Locko",
+            "Chotard",
+            "Magnetti",
+            "Edjouma",
+            "Nonge",
+            "Baldé",
+            "Ajorque"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "Trapp",
+            "Camara",
+            "Coppola",
+            "Chergui",
+            "Otavio",
+            "Lopez",
+            "Lees-Melou",
+            "Kebbal",
+            "Pagis",
+            "Koleosho",
+            "Sinayoko"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-27 05:01 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Brest, Paris FC: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "BeFoot: Brest - Paris FC compositions probables (27 Nov)",
+          "url": "https://www.befoot.net/brest-paris-fc-compos-probables-chaine-tv-heure/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.4,
+          "ga": 1.65,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.95,
+          "ga": 0.95,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 1.73,
+          "ga": 1.09,
+          "corners": 4.67,
+          "fouls": 12.95,
+          "shots": 13.5,
+          "sot": 4.25
+        },
+        "away": {
+          "gf": 1.91,
+          "ga": 0.91,
+          "corners": 4.56,
+          "fouls": 12.1,
+          "shots": 13.25,
+          "sot": 5.1
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.45,
+          "redsPg": 0
+        },
+        "away": {
+          "yellowsPg": 2,
+          "redsPg": 0.1
+        }
+      },
+      "referee": {
+        "note": "Not named in the preview."
+      }
+    },
+    {
+      "id": "ven-bol",
+      "competition": "Serie A (Italy)",
+      "kickoff": "2026-11-27T19:45:00.000Z",
+      "home": {
+        "name": "Venezia FC",
+        "short": "Venezia FC"
+      },
+      "away": {
+        "name": "Bologna FC",
+        "short": "Bologna FC"
+      },
+      "context": "Rotowire predicted XIs and absences (27 Nov morning). Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 27 Nov 05:01 UTC.",
+      "odds": {
+        "h": 3.47,
+        "d": 3.27,
+        "a": 2.29,
+        "ou": {
+          "0.5": [
+            1.076,
+            9.89
+          ],
+          "1.5": [
+            1.346,
+            3.35
+          ],
+          "2.5": [
+            2.16,
+            1.751
+          ]
+        },
+        "btts": [
+          1.847,
+          2.02
+        ],
+        "ah": [
+          {
+            "line": 0,
+            "home": 2.45,
+            "away": 1.609
+          },
+          {
+            "line": 0.5,
+            "home": 1.689,
+            "away": 2.28
+          }
+        ],
+        "corners": {
+          "8.5": [
+            1.714,
+            2.12
+          ],
+          "9.5": [
+            2.14,
+            1.699
+          ]
+        },
+        "cards": {
+          "2.5": [
+            1.315,
+            3.22
+          ],
+          "3.5": [
+            1.769,
+            2.06
+          ],
+          "4.5": [
+            2.66,
+            1.44
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 3.33,
+          "d": 3.25,
+          "a": 2.17,
+          "ou": {
+            "0.5": [
+              1.03,
+              10.4
+            ],
+            "1.5": [
+              1.3,
+              3.34
+            ],
+            "2.5": [
+              1.97,
+              1.78
+            ],
+            "3.5": [
+              3.57,
+              1.27
+            ],
+            "4.5": [
+              7.4,
+              1.07
+            ]
+          },
+          "btts": [
+            1.8,
+            1.96
+          ],
+          "text": "1X2 3.33/3.25/2.17, O/U 2.5 1.97/1.78"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: T. Correia, B. Franjic, Marin Sverko.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "home",
+          "tag": "doubt",
+          "text": "Questionable: A. Adorante, Toma Basic, P. Mazzocchi.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: L. De Silvestri, O. El Azzouzi, Jay Enem, Emil Holm, Juan Miranda.",
+          "src": "Rotowire"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Questionable: T. Heggem.",
+          "src": "Rotowire"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Rotowire predicted XI, read 27 Nov morning.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "F. Stankovic",
+            "R. Halhal",
+            "Juan Jesus",
+            "M. Moreno",
+            "R. Haps",
+            "G. Busio",
+            "Simon Sohm",
+            "Kike Perez",
+            "A. Hainaut",
+            "Akor Adams",
+            "John Yeboah"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "L. Skorupski",
+            "M. Darmian",
+            "N. Casale",
+            "A. Theate",
+            "R. Alhassane",
+            "L. Ferguson",
+            "T. Pobega",
+            "Nadir Zortea",
+            "N. Cambiaghi",
+            "F. Bernardeschi",
+            "R. Piccoli"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-27 05:01 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Venezia, Bologna: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "Rotowire Serie A lineups (27 Nov)",
+          "url": "https://www.rotowire.com/soccer/lineups.php?XMnoRq9J=7Dl3WoIftU3cuWE&league=SERI"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.25,
+          "ga": 1.55,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.4,
+          "ga": 1.25,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 0.67,
+          "ga": 2.08,
+          "corners": 4.55,
+          "fouls": 11.7,
+          "shots": 15.2,
+          "sot": 4.7
+        },
+        "away": {
+          "gf": 1.42,
+          "ga": 1.25,
+          "corners": 4.35,
+          "fouls": 12.4,
+          "shots": 12.7,
+          "sot": 4.15
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.75,
+          "redsPg": 0.05
+        },
+        "away": {
+          "yellowsPg": 1.7,
+          "redsPg": 0.05
+        }
+      },
+      "referee": {
+        "note": "Not on the Rotowire page."
+      }
+    },
+    {
+      "id": "lev-rac",
+      "competition": "LaLiga (Spain)",
+      "kickoff": "2026-11-27T20:00:00.000Z",
+      "home": {
+        "name": "Levante UD",
+        "short": "Levante UD"
+      },
+      "away": {
+        "name": "Racing Santander",
+        "short": "Racing Santander"
+      },
+      "context": "Rotowire's La Liga page still showed an old week, so XIs and absences are from Sports Mole (25 Nov). Promoted Racing are 7th and have won three of their last four; Zabiri has 11 goals in 13 league games. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 27 Nov 05:01 UTC.",
+      "odds": {
+        "h": 2.04,
+        "d": 4.07,
+        "a": 3.37,
+        "ou": {
+          "0.5": [
+            1.022,
+            24.01
+          ],
+          "2.5": [
+            1.403,
+            2.98
+          ],
+          "3.5": [
+            2.04,
+            1.826
+          ]
+        },
+        "btts": [
+          1.392,
+          3.12
+        ],
+        "ah": [
+          {
+            "line": -1,
+            "home": 2.82,
+            "away": 1.478
+          },
+          {
+            "line": -0.5,
+            "home": 2.05,
+            "away": 1.862
+          },
+          {
+            "line": 0,
+            "home": 1.555,
+            "away": 2.57
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.709,
+            2.13
+          ],
+          "10.5": [
+            2.13,
+            1.704
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.312,
+            3.24
+          ],
+          "4.5": [
+            1.763,
+            2.06
+          ],
+          "5.5": [
+            2.39,
+            1.534
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.08,
+          "d": 3.85,
+          "a": 3.03,
+          "ou": {
+            "1.5": [
+              1.13,
+              5.45
+            ],
+            "2.5": [
+              1.47,
+              2.56
+            ],
+            "3.5": [
+              2.23,
+              1.61
+            ],
+            "4.5": [
+              3.86,
+              1.23
+            ],
+            "5.5": [
+              7.5,
+              1.07
+            ]
+          },
+          "btts": [
+            1.46,
+            2.65
+          ],
+          "text": "1X2 2.08/3.85/3.03, O/U 2.5 1.47/2.56"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Jeremy Toljan (injured against Elche).",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Doubtful: Maguette Gueye, Alvaro Mantilla, Andres Martin.",
+          "src": "Sports Mole"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Sports Mole predicted XIs (25 Nov); Rotowire's La Liga page showed an old week.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "Ryan",
+            "Perez",
+            "Mandi",
+            "Dela",
+            "Sanchez",
+            "Rey",
+            "Brugue",
+            "Requena",
+            "Olasagasti",
+            "Fernandez",
+            "Romero"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "Agirrezabala",
+            "Ramon",
+            "Felipe",
+            "Belocian",
+            "Salinas",
+            "Prati",
+            "I. Martin",
+            "Luque",
+            "Canales",
+            "Vicente",
+            "Zabiri"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-27 05:01 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Levante, Santander: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "Sports Mole: Levante vs Racing preview",
+          "url": "https://www.sportsmole.co.uk/football/levante/preview/levante-vs-racing-prediction-team-news-lineups_609815.html"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.45,
+          "ga": 1.65,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.9,
+          "ga": 1.95,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 1.31,
+          "ga": 1.69,
+          "corners": 5.87,
+          "fouls": 10.65,
+          "shots": 13.2,
+          "sot": 4.35
+        },
+        "away": {
+          "gf": 1.54,
+          "ga": 2.46,
+          "corners": 4.43,
+          "fouls": 12.85,
+          "shots": 14.4,
+          "sot": 6.25
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.8,
+          "redsPg": 0.05
+        },
+        "away": {
+          "yellowsPg": 2.35,
+          "redsPg": 0.05
+        }
+      },
+      "referee": {
+        "note": "Not named in the preview."
+      }
+    },
+    {
+      "id": "not-che",
+      "competition": "Premier League (England)",
+      "kickoff": "2026-11-27T20:00:00.000Z",
+      "home": {
+        "name": "Nottingham Forest",
+        "short": "Nottingham Forest"
+      },
+      "away": {
+        "name": "Chelsea FC",
+        "short": "Chelsea FC"
+      },
+      "context": "Rotowire's Premier League page still showed an old week, so XIs and absences are from Sports Mole (25-26 Nov). Chelsea have lost four of their last five (4-1 at Leeds last time) and are without Joao Pedro; Caicedo (back) is a doubt. Forest (17th) have Hudson-Odoi back in training. The news predates the prices, so no adjustment. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 27 Nov 05:01 UTC.",
+      "odds": {
+        "h": 2.58,
+        "d": 3.38,
+        "a": 2.89,
+        "ou": {
+          "0.5": [
+            1.061,
+            11.69
+          ],
+          "2.5": [
+            1.869,
+            2
+          ],
+          "3.5": [
+            3.08,
+            1.396
+          ]
+        },
+        "btts": [
+          1.662,
+          2.29
+        ],
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.56,
+            "away": 1.558
+          },
+          {
+            "line": 0,
+            "home": 1.847,
+            "away": 2.07
+          },
+          {
+            "line": 0.5,
+            "home": 1.462,
+            "away": 2.88
+          }
+        ],
+        "corners": {
+          "9.5": [
+            1.729,
+            2.09
+          ],
+          "10.5": [
+            2.15,
+            1.694
+          ]
+        },
+        "cards": {
+          "3.5": [
+            1.469,
+            2.57
+          ],
+          "4.5": [
+            2.11,
+            1.729
+          ],
+          "5.5": [
+            3.12,
+            1.333
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.61,
+          "d": 3.43,
+          "a": 2.53,
+          "ou": {
+            "0.5": [
+              1.01,
+              13.3
+            ],
+            "1.5": [
+              1.21,
+              4.1
+            ],
+            "2.5": [
+              1.71,
+              2.07
+            ],
+            "3.5": [
+              2.85,
+              1.39
+            ],
+            "4.5": [
+              5.45,
+              1.12
+            ],
+            "5.5": [
+              11.5,
+              1.02
+            ]
+          },
+          "btts": [
+            1.61,
+            2.26
+          ],
+          "text": "1X2 2.61/3.43/2.53, O/U 2.5 1.71/2.07"
+        }
+      },
+      "news": [
+        {
+          "team": "home",
+          "tag": "out",
+          "text": "Out: Savona (knee), Dominguez (muscle).",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Hudson-Odoi back in training, likely on the bench.",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: Reece James (knee), Jorrel Hato (back), Joao Pedro (thigh), Maxence Lacroix (hamstring).",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Doubtful: Moises Caicedo (back; Alonso called him available, Sports Mole leaves him out of the XI). Gittens back in training.",
+          "src": "Sports Mole"
+        }
+      ],
+      "lineups": {
+        "status": "predicted",
+        "source": "Sports Mole predicted XIs (26 Nov); Rotowire's EPL page showed an old week.",
+        "home": {
+          "formation": "",
+          "xi": [
+            "Sels",
+            "Cunha",
+            "Milenkovic",
+            "Murillo",
+            "Munoz",
+            "McAtee",
+            "Schlager",
+            "Williams",
+            "Gibbs-White",
+            "Ndoye",
+            "Delap"
+          ]
+        },
+        "away": {
+          "formation": "",
+          "xi": [
+            "Martinez",
+            "Acheampong",
+            "Fofana",
+            "Colwill",
+            "Chavarria",
+            "Henderson",
+            "Lavia",
+            "Neto",
+            "Palmer",
+            "Rogers",
+            "Emegha"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-27 05:01 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Nott'm Forest, Chelsea: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "Sports Mole: Forest vs Chelsea preview (team news, lineups)",
+          "url": "https://www.sportsmole.co.uk/football/nottingham-forest/relegation-battle/preview/nottm-forest-vs-chelsea-prediction-team-news-lineups_609854.html"
+        },
+        {
+          "title": "Sports Mole: Chelsea injury update (26 Nov)",
+          "url": "https://www.sportsmole.co.uk/football/chelsea/injury-news/news/pedro-caicedo-lacroix-alonso-provides-mixed-chelsea-injury-update_609932.html"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.45,
+          "ga": 1.15,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.25,
+          "ga": 1.9,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 0.82,
+          "ga": 1.36,
+          "corners": 4.69,
+          "fouls": 12.8,
+          "shots": 14.2,
+          "sot": 3.95
+        },
+        "away": {
+          "gf": 1.82,
+          "ga": 1.82,
+          "corners": 4.94,
+          "fouls": 10.15,
+          "shots": 13.45,
+          "sot": 4.3
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.95,
+          "redsPg": 0
+        },
+        "away": {
+          "yellowsPg": 2.25,
+          "redsPg": 0.05
+        }
+      },
+      "referee": {
+        "note": "Appointment not found in the morning sources."
+      }
+    },
+    {
+      "id": "sou-mid",
+      "competition": "Championship (England)",
+      "kickoff": "2026-11-27T20:00:00.000Z",
+      "home": {
+        "name": "Southampton FC",
+        "short": "Southampton FC"
+      },
+      "away": {
+        "name": "Middlesbrough FC",
+        "short": "Middlesbrough FC"
+      },
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered this morning; lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off. Pinnacle prices from 27 Nov 05:01 UTC.",
+      "odds": {
+        "h": 2.85,
+        "d": 3.79,
+        "a": 2.31,
+        "ou": {
+          "1.5": [
+            1.164,
+            5.13
+          ],
+          "2.5": [
+            1.555,
+            2.46
+          ],
+          "3.5": [
+            2.36,
+            1.598
+          ],
+          "4.5": [
+            3.98,
+            1.243
+          ]
+        },
+        "btts": [
+          1.471,
+          2.68
+        ],
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.83,
+            "away": 1.436
+          },
+          {
+            "line": 0,
+            "home": 2.15,
+            "away": 1.729
+          },
+          {
+            "line": 0.5,
+            "home": 1.641,
+            "away": 2.3
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.85,
+          "d": 3.73,
+          "a": 2.26,
+          "ou": {
+            "1.5": [
+              1.13,
+              5.25
+            ],
+            "2.5": [
+              1.49,
+              2.48
+            ],
+            "3.5": [
+              2.28,
+              1.57
+            ],
+            "4.5": [
+              4,
+              1.21
+            ],
+            "5.5": [
+              7.85,
+              1.05
+            ]
+          },
+          "btts": [
+            1.46,
+            2.6
+          ],
+          "text": "1X2 2.85/3.73/2.26, O/U 2.5 1.49/2.48"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-27 05:01 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Southampton, Middlesbrough: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        },
+        {
+          "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
+          "url": "https://www.espn.com/soccer/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 1.95,
+          "ga": 1.05,
+          "games": 20
+        },
+        "away": {
+          "gf": 2.1,
+          "ga": 1.15,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 1.88,
+          "ga": 0.94,
+          "corners": 5.49,
+          "fouls": 8.65,
+          "shots": 15.55,
+          "sot": 4.8
+        },
+        "away": {
+          "gf": 2,
+          "ga": 1.18,
+          "corners": 4.79,
+          "fouls": 9.6,
+          "shots": 18.25,
+          "sot": 6.05
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 1.65,
+          "redsPg": 0.05
+        },
+        "away": {
+          "yellowsPg": 1.15,
+          "redsPg": 0
+        }
+      },
+      "players": {
+        "source": "ESPN season stats",
+        "home": [
+          {
+            "name": "Daniel Peretz",
+            "pos": "GK",
+            "start": 0.9,
+            "shots": 0,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0,
+            "sot90": 0,
+            "fouls90": 0,
+            "tackles90": 0.06,
+            "mins": 1440
+          },
+          {
+            "name": "James Bree",
+            "pos": "DF",
+            "start": 0.9,
+            "shots": 11,
+            "goals": 2,
+            "assists": 1,
+            "shots90": 0.77,
+            "sot90": 0.14,
+            "fouls90": 0.42,
+            "tackles90": 1.19,
+            "mins": 1288
+          },
+          {
+            "name": "Finn Azaz",
+            "pos": "MF",
+            "start": 0.9,
+            "shots": 39,
+            "goals": 3,
+            "assists": 6,
+            "shots90": 2.57,
+            "sot90": 0.79,
+            "fouls90": 0.46,
+            "tackles90": 0.99,
+            "mins": 1368
+          },
+          {
+            "name": "Ryan Manning",
+            "pos": "DF",
+            "start": 0.86,
+            "shots": 16,
+            "goals": 1,
+            "assists": 3,
+            "pens": true,
+            "shots90": 1.23,
+            "sot90": 0.15,
+            "fouls90": 0.93,
+            "tackles90": 0.69,
+            "mins": 1166
+          },
+          {
+            "name": "Keven Schlotterbeck",
+            "pos": "DF",
+            "start": 0.86,
+            "shots": 14,
+            "goals": 2,
+            "assists": 0,
+            "shots90": 1.16,
+            "sot90": 0.33,
+            "fouls90": 0.5,
+            "tackles90": 1.16,
+            "mins": 1088
+          },
+          {
+            "name": "Flynn Downes",
+            "pos": "MF",
+            "start": 0.86,
+            "shots": 4,
+            "goals": 0,
+            "assists": 2,
+            "shots90": 0.35,
+            "sot90": 0,
+            "fouls90": 1.75,
+            "tackles90": 2.89,
+            "mins": 1027
+          },
+          {
+            "name": "Léo Scienza",
+            "pos": "MF",
+            "start": 0.86,
+            "shots": 28,
+            "goals": 2,
+            "assists": 2,
+            "pens": true,
+            "shots90": 2.59,
+            "sot90": 1.39,
+            "fouls90": 0.46,
+            "tackles90": 0.83,
+            "mins": 973
+          },
+          {
+            "name": "James Ward-Prowse",
+            "pos": "MF",
+            "start": 0.8,
+            "shots": 20,
+            "goals": 1,
+            "assists": 1,
+            "shots90": 1.58,
+            "sot90": 0.4,
+            "fouls90": 0.32,
+            "tackles90": 0.95,
+            "mins": 1138
+          },
+          {
+            "name": "Jack Stephens",
+            "pos": "GK",
+            "start": 0.74,
+            "shots": 5,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.45,
+            "sot90": 0.09,
+            "fouls90": 0.09,
+            "tackles90": 0.91,
+            "mins": 993
+          },
+          {
+            "name": "Kuryu Matsuki",
+            "pos": "MF",
+            "start": 0.74,
+            "shots": 28,
+            "goals": 4,
+            "assists": 1,
+            "shots90": 2.29,
+            "sot90": 0.65,
+            "fouls90": 1.31,
+            "tackles90": 1.06,
+            "mins": 1102
+          },
+          {
+            "name": "Cyle Larin",
+            "pos": "FW",
+            "start": 0.74,
+            "shots": 39,
+            "goals": 8,
+            "assists": 0,
+            "shots90": 4.4,
+            "sot90": 1.58,
+            "fouls90": 2.03,
+            "tackles90": 0.34,
+            "mins": 797
+          },
+          {
+            "name": "Cameron Bragg",
+            "pos": "MF",
+            "start": 0.49,
+            "shots": 4,
+            "goals": 1,
+            "assists": 1,
+            "shots90": 0.69,
+            "sot90": 0.17,
+            "fouls90": 1.39,
+            "tackles90": 2.08,
+            "mins": 519
+          },
+          {
+            "name": "Nathan Wood",
+            "pos": "DF",
+            "start": 0.43,
+            "shots": 2,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.33,
+            "sot90": 0,
+            "fouls90": 0.49,
+            "tackles90": 1.15,
+            "mins": 546
+          },
+          {
+            "name": "Tom Fellows",
+            "pos": "MF",
+            "start": 0.36,
+            "shots": 4,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 0.88,
+            "sot90": 0.22,
+            "fouls90": 0.88,
+            "tackles90": 0.88,
+            "mins": 408
+          },
+          {
+            "name": "Lewis Dobbin",
+            "pos": "FW",
+            "start": 0.36,
+            "shots": 12,
+            "goals": 1,
+            "assists": 1,
+            "shots90": 2.03,
+            "sot90": 0.68,
+            "fouls90": 1.02,
+            "tackles90": 1.02,
+            "mins": 532
+          },
+          {
+            "name": "Welington",
+            "pos": "DF",
+            "start": 0.24,
+            "shots": 5,
+            "goals": 2,
+            "assists": 0,
+            "shots90": 1.55,
+            "sot90": 0.93,
+            "fouls90": 0.62,
+            "tackles90": 1.55,
+            "mins": 291
+          },
+          {
+            "name": "Samuel Edozie",
+            "pos": "MF",
+            "start": 0.24,
+            "shots": 7,
+            "goals": 1,
+            "assists": 1,
+            "shots90": 1.63,
+            "sot90": 0.93,
+            "fouls90": 0.93,
+            "tackles90": 1.86,
+            "mins": 387
+          },
+          {
+            "name": "Divin Mubama",
+            "pos": "FW",
+            "start": 0.11,
+            "shots": 9,
+            "goals": 2,
+            "assists": 1,
+            "shots90": 3.39,
+            "sot90": 1.13,
+            "fouls90": 2.26,
+            "tackles90": 0,
+            "mins": 239
+          }
+        ],
+        "away": [
+          {
+            "name": "Radek Vítek",
+            "pos": "GK",
+            "start": 0.9,
+            "shots": 0,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0,
+            "sot90": 0,
+            "fouls90": 0,
+            "tackles90": 0.06,
+            "mins": 1440
+          },
+          {
+            "name": "Callum Brittain",
+            "pos": "DF",
+            "start": 0.9,
+            "shots": 19,
+            "goals": 1,
+            "assists": 2,
+            "shots90": 1.2,
+            "sot90": 0.38,
+            "fouls90": 0.88,
+            "tackles90": 1.89,
+            "mins": 1427
+          },
+          {
+            "name": "Adilson Malanda",
+            "pos": "DF",
+            "start": 0.9,
+            "shots": 17,
+            "goals": 2,
+            "assists": 0,
+            "shots90": 1.13,
+            "sot90": 0.47,
+            "fouls90": 0.47,
+            "tackles90": 1.2,
+            "mins": 1350
+          },
+          {
+            "name": "Aidan Morris",
+            "pos": "MF",
+            "start": 0.9,
+            "shots": 30,
+            "goals": 2,
+            "assists": 0,
+            "shots90": 2,
+            "sot90": 0.53,
+            "fouls90": 0.87,
+            "tackles90": 3.47,
+            "mins": 1350
+          },
+          {
+            "name": "Sebastian Berhalter",
+            "pos": "MF",
+            "start": 0.86,
+            "shots": 24,
+            "goals": 3,
+            "assists": 3,
+            "shots90": 1.95,
+            "sot90": 0.57,
+            "fouls90": 1.46,
+            "tackles90": 1.95,
+            "mins": 1106
+          },
+          {
+            "name": "Neto Borges",
+            "pos": "DF",
+            "start": 0.8,
+            "shots": 13,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 1.19,
+            "sot90": 0.09,
+            "fouls90": 0.83,
+            "tackles90": 1.56,
+            "mins": 980
+          },
+          {
+            "name": "Riley McGree",
+            "pos": "MF",
+            "start": 0.8,
+            "shots": 18,
+            "goals": 0,
+            "assists": 3,
+            "shots90": 1.7,
+            "sot90": 0.28,
+            "fouls90": 1.13,
+            "tackles90": 1.13,
+            "mins": 953
+          },
+          {
+            "name": "Will Lankshear",
+            "pos": "FW",
+            "start": 0.8,
+            "shots": 48,
+            "goals": 13,
+            "assists": 0,
+            "shots90": 4.07,
+            "sot90": 2.12,
+            "fouls90": 1.53,
+            "tackles90": 0.08,
+            "mins": 1061
+          },
+          {
+            "name": "Ashley Phillips",
+            "pos": "DF",
+            "start": 0.74,
+            "shots": 6,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 0.52,
+            "sot90": 0.09,
+            "fouls90": 0.61,
+            "tackles90": 1.14,
+            "mins": 1029
+          },
+          {
+            "name": "Amario Cozier-Duberry",
+            "pos": "MF",
+            "start": 0.74,
+            "shots": 38,
+            "goals": 3,
+            "assists": 6,
+            "shots90": 4.01,
+            "sot90": 1.27,
+            "fouls90": 0.84,
+            "tackles90": 1.27,
+            "mins": 853
+          },
+          {
+            "name": "Luke Ayling",
+            "pos": "DF",
+            "start": 0.61,
+            "shots": 5,
+            "goals": 0,
+            "assists": 2,
+            "shots90": 0.57,
+            "sot90": 0.11,
+            "fouls90": 0.11,
+            "tackles90": 1.72,
+            "mins": 787
+          },
+          {
+            "name": "Tommy Conway",
+            "pos": "FW",
+            "start": 0.55,
+            "shots": 17,
+            "goals": 1,
+            "assists": 4,
+            "shots90": 2.15,
+            "sot90": 0.5,
+            "fouls90": 0.5,
+            "tackles90": 0.76,
+            "mins": 713
+          },
+          {
+            "name": "Kyle Joseph",
+            "pos": "FW",
+            "start": 0.36,
+            "shots": 15,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 2.67,
+            "sot90": 1.25,
+            "fouls90": 1.25,
+            "tackles90": 1.25,
+            "mins": 505
+          },
+          {
+            "name": "Max Arfsten",
+            "pos": "DF",
+            "start": 0.3,
+            "shots": 7,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 1.05,
+            "sot90": 0.15,
+            "fouls90": 1.05,
+            "tackles90": 1.94,
+            "mins": 602
+          },
+          {
+            "name": "Jeremy Sarmiento",
+            "pos": "FW",
+            "start": 0.3,
+            "shots": 15,
+            "goals": 1,
+            "assists": 0,
+            "shots90": 3.58,
+            "sot90": 1.43,
+            "fouls90": 1.19,
+            "tackles90": 2.15,
+            "mins": 377
+          },
+          {
+            "name": "Alfie Jones",
+            "pos": "MF",
+            "start": 0.18,
+            "shots": 1,
+            "goals": 1,
+            "assists": 0,
+            "mins": 160
+          },
+          {
+            "name": "David Strelec",
+            "pos": "FW",
+            "start": 0.18,
+            "shots": 6,
+            "goals": 1,
+            "assists": 0,
+            "mins": 176
+          }
+        ]
+      },
+      "teamTotals": {
+        "source": "ESPN season stats",
+        "home": {
+          "shots": 250,
+          "goals": 31,
+          "assists": 20
+        },
+        "away": {
+          "shots": 291,
+          "goals": 31,
+          "assists": 20
+        }
+      }
+    },
+    {
+      "id": "mar-nac",
+      "competition": "Liga Portugal (Portugal)",
+      "kickoff": "2026-11-27T20:15:00.000Z",
+      "home": {
+        "name": "Maritimo Madeira",
+        "short": "Maritimo Madeira"
+      },
+      "away": {
+        "name": "Nacional da Madeira",
+        "short": "Nacional da"
+      },
+      "context": "Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). No team news gathered this morning; lineups pending, the Lineups Action reads ESPN's confirmed XIs before kick-off. Pinnacle prices from 27 Nov 05:01 UTC.",
+      "odds": {
+        "h": 2.17,
+        "d": 3.33,
+        "a": 3.49,
+        "ou": {
+          "1.5": [
+            1.347,
+            3.2
+          ],
+          "2.5": [
+            2.12,
+            1.735
+          ],
+          "3.5": [
+            3.77,
+            1.266
+          ]
+        },
+        "ah": [
+          {
+            "line": -0.5,
+            "home": 2.17,
+            "away": 1.719
+          },
+          {
+            "line": 0,
+            "home": 1.549,
+            "away": 2.51
+          }
+        ],
+        "book": "Pinnacle via OddsPapi, 2026-11-27 05:01 UTC"
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-27 05:01 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Maritimo, Nacional: last 10 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 0.9,
+          "ga": 2.1,
+          "games": 10
+        },
+        "away": {
+          "gf": 0.95,
+          "ga": 1.35,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 0.9,
+          "ga": 2.1,
+          "corners": 5.49,
+          "fouls": 15.1,
+          "shots": 10.7,
+          "sot": 3.4
+        },
+        "away": {
+          "gf": 1,
+          "ga": 1.73,
+          "corners": 4.46,
+          "fouls": 13.1,
+          "shots": 11.8,
+          "sot": 3.8
+        }
+      },
+      "teamStats": {
+        "home": {
+          "yellowsPg": 2,
+          "redsPg": 0
+        },
+        "away": {
+          "yellowsPg": 2.3,
+          "redsPg": 0.1
+        }
       }
     }
   ]
