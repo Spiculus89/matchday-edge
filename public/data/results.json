@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T08:49:23.309Z",
+  "updated": "2026-11-28T16:07:21.785Z",
   "note": "Every graded pick shown on the site. p = the chance shown at the time (bookmaker-implied for player props, which had no model then).",
   "legs": [
     {
@@ -3869,6 +3869,15 @@
       "group": "Bet builder",
       "pick": "Over 2.5 goals + Both teams to score",
       "p": 0.523,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-28",
+      "match": "bet-ray",
+      "group": "Bet builder",
+      "pick": "Betis to win + Over 1.5 goals",
+      "p": 0.503,
       "odds": null,
       "won": false
     }

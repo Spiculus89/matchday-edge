@@ -1479,6 +1479,10 @@
           "goals": 15,
           "assists": 12
         }
+      },
+      "result": {
+        "home": 0,
+        "away": 1
       }
     },
     {
