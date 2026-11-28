@@ -107,7 +107,11 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 3
+      }
     },
     {
       "id": "pen-sab",
@@ -212,7 +216,11 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 3,
+        "away": 6
+      }
     },
     {
       "id": "kra-oil",
@@ -317,7 +325,11 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 4
+      }
     }
   ]
 }

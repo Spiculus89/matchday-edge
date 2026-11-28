@@ -788,6 +788,10 @@
           "yellowsPg": 2.05,
           "redsPg": 0
         }
+      },
+      "result": {
+        "home": 3,
+        "away": 1
       }
     },
     {
@@ -1493,6 +1497,10 @@
           "goals": 12,
           "assists": 9
         }
+      },
+      "result": {
+        "home": 3,
+        "away": 3
       }
     },
     {
@@ -2196,6 +2204,10 @@
           "goals": 21,
           "assists": 15
         }
+      },
+      "result": {
+        "home": 1,
+        "away": 0
       }
     },
     {
@@ -2849,6 +2861,10 @@
           "goals": 16,
           "assists": 11
         }
+      },
+      "result": {
+        "home": 0,
+        "away": 0
       }
     },
     {
@@ -3527,6 +3543,10 @@
           "goals": 19,
           "assists": 8
         }
+      },
+      "result": {
+        "home": 1,
+        "away": 3
       }
     },
     {
@@ -4155,6 +4175,10 @@
           "goals": 20,
           "assists": 15
         }
+      },
+      "result": {
+        "home": 3,
+        "away": 2
       }
     },
     {
@@ -4835,7 +4859,15 @@
           "goals": 33,
           "assists": 22
         }
+      },
+      "result": {
+        "home": 2,
+        "away": 0
       }
     }
+  ],
+  "gradingTodo": [
+    "gyo-deb: result and picks (no ESPN league for \"NB I (Hungary)\" on the 2026-11-28 ESPN grading run)",
+    "gor-wis: result and picks (not found on ESPN pol.1 on the 2026-11-28 ESPN grading run)"
   ]
 }

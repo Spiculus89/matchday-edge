@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T08:49:35.789Z",
+  "updated": "2026-11-28T08:49:23.309Z",
   "note": "Every graded pick shown on the site. p = the chance shown at the time (bookmaker-implied for player props, which had no model then).",
   "legs": [
     {
@@ -3781,6 +3781,96 @@
       "p": 0.611,
       "odds": 1.636,
       "won": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "flu-cru",
+      "group": "Bet builder",
+      "pick": "Fluminense FC or draw + Under 3.5 goals",
+      "p": 0.497,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-27",
+      "match": "hei-nur",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.691,
+      "odds": 1.423,
+      "won": true
+    },
+    {
+      "date": "2026-11-27",
+      "match": "wer-bor",
+      "group": "Bet builder",
+      "pick": "Werder Bremen to win + Over 2.5 goals",
+      "p": 0.447,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-27",
+      "match": "wer-bor",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.61,
+      "odds": 1.617,
+      "won": true
+    },
+    {
+      "date": "2026-11-27",
+      "match": "sta-par",
+      "group": "Bet builder",
+      "pick": "Paris FC or draw + Under 3.5 goals",
+      "p": 0.514,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-27",
+      "match": "sta-par",
+      "group": "Handicap",
+      "pick": "Paris FC draw no bet (Lean)",
+      "p": 0.641,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-27",
+      "match": "ven-bol",
+      "group": "Bet builder",
+      "pick": "Over 1.5 goals + Both teams to score",
+      "p": 0.524,
+      "odds": null,
+      "won": false
+    },
+    {
+      "date": "2026-11-27",
+      "match": "lev-rac",
+      "group": "BTTS",
+      "pick": "Both teams to score (Lean)",
+      "p": 0.693,
+      "odds": 1.418,
+      "won": true
+    },
+    {
+      "date": "2026-11-27",
+      "match": "not-che",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.457,
+      "odds": null,
+      "won": true
+    },
+    {
+      "date": "2026-11-27",
+      "match": "sou-mid",
+      "group": "Bet builder",
+      "pick": "Over 2.5 goals + Both teams to score",
+      "p": 0.523,
+      "odds": null,
+      "won": false
     }
   ]
 }

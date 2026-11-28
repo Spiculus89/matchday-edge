@@ -663,6 +663,10 @@
           "goals": 51,
           "assists": 37
         }
+      },
+      "result": {
+        "home": 0,
+        "away": 1
       }
     },
     {
@@ -811,5 +815,8 @@
         }
       }
     }
+  ],
+  "gradingTodo": [
+    "rac-liv: result and picks (not found on ESPN uru.1 on the 2026-11-28 ESPN grading run)"
   ]
 }

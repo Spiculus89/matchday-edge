@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T10:57:34.898Z",
+  "updated": "2026-11-28T08:49:23.592Z",
   "note": "Graded picks for basketball, same format as football's results.json.",
   "legs": [
     {
@@ -527,6 +527,186 @@
       "group": "Bet builder",
       "pick": "Lakers to win + Under 237.5 points",
       "p": 0.586,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "hea-kni",
+      "group": "Bet builder",
+      "pick": "Knicks to win + Over 214 points",
+      "p": 0.427,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "net-rap",
+      "group": "Moneyline",
+      "pick": "Raptors to win (most likely)",
+      "p": 0.763,
+      "odds": 1.292,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "net-rap",
+      "group": "Bet builder",
+      "pick": "Raptors to win + Under 226.5 points",
+      "p": 0.507,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "ers-pac",
+      "group": "Moneyline",
+      "pick": "76ers to win (most likely)",
+      "p": 0.609,
+      "odds": 1.602,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "ers-pac",
+      "group": "Bet builder",
+      "pick": "76ers to win + Over 221.5 points",
+      "p": 0.436,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "buc-pis",
+      "group": "Moneyline",
+      "pick": "Pistons to win (most likely)",
+      "p": 0.791,
+      "odds": 1.244,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "haw-cel",
+      "group": "Moneyline",
+      "pick": "Celtics to win (most likely)",
+      "p": 0.769,
+      "odds": 1.282,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "haw-cel",
+      "group": "Bet builder",
+      "pick": "Celtics to win + Over 216.5 points",
+      "p": 0.511,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "gri-tim",
+      "group": "Bet builder",
+      "pick": "Timberwolves to win + Over 212.5 points",
+      "p": 0.425,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "mav-sun",
+      "group": "Moneyline",
+      "pick": "Suns to win (most likely)",
+      "p": 0.608,
+      "odds": 1.621,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "mav-sun",
+      "group": "Bet builder",
+      "pick": "Suns to win + Under 234 points",
+      "p": 0.438,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "lak-spu",
+      "group": "Moneyline",
+      "pick": "Spurs to win (most likely)",
+      "p": 0.668,
+      "odds": 1.48,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "lak-spu",
+      "group": "Bet builder",
+      "pick": "Spurs to win + Under 234 points",
+      "p": 0.466,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "nug-jaz",
+      "group": "Moneyline",
+      "pick": "Nuggets to win (most likely)",
+      "p": 0.785,
+      "odds": 1.256,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "nug-jaz",
+      "group": "Bet builder",
+      "pick": "Nuggets to win + Under 240.5 points",
+      "p": 0.516,
+      "odds": null,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "pel-cli",
+      "group": "Bet builder",
+      "pick": "Clippers -1.5 + Under 238.5 points",
+      "p": 0.395,
+      "odds": null,
+      "won": false,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "war-bla",
+      "group": "Moneyline",
+      "pick": "Blazers to win (most likely)",
+      "p": 0.754,
+      "odds": 1.303,
+      "won": true,
+      "shadow": true
+    },
+    {
+      "date": "2026-11-28",
+      "match": "war-bla",
+      "group": "Bet builder",
+      "pick": "Blazers to win + Over 208.5 points",
+      "p": 0.498,
       "odds": null,
       "won": true,
       "shadow": true

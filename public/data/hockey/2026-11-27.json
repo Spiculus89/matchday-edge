@@ -107,7 +107,11 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 1,
+        "away": 3
+      }
     },
     {
       "id": "fla-dev",
@@ -222,7 +226,11 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 5,
+        "away": 3
+      }
     },
     {
       "id": "mam-pre",
@@ -327,7 +335,12 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 5,
+        "away": 6,
+        "ot": "SO"
+      }
     },
     {
       "id": "sta-blu",
@@ -432,7 +445,11 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 5,
+        "away": 3
+      }
     },
     {
       "id": "sen-lig",
@@ -537,7 +554,11 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 6
+      }
     },
     {
       "id": "can-fly",
@@ -652,7 +673,11 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 5,
+        "away": 2
+      }
     },
     {
       "id": "pan-cap",
@@ -757,7 +782,11 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 3
+      }
     },
     {
       "id": "win-jac",
@@ -862,7 +891,11 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 0,
+        "away": 2
+      }
     },
     {
       "id": "ava-wil",
@@ -967,7 +1000,12 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 3,
+        "away": 4,
+        "ot": "SO"
+      }
     },
     {
       "id": "kin-duc",
@@ -1072,7 +1110,11 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 3,
+        "away": 5
+      }
     },
     {
       "id": "kni-sha",
@@ -1177,7 +1219,11 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 4,
+        "away": 1
+      }
     },
     {
       "id": "ran-bla",
@@ -1282,7 +1328,11 @@
           "title": "OddsPapi odds snapshot 2026-11-27 00:59 UTC",
           "url": "https://oddspapi.io/"
         }
-      ]
+      ],
+      "result": {
+        "home": 2,
+        "away": 1
+      }
     }
   ]
 }
