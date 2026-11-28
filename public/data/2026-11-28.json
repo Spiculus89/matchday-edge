@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
-  "updated": "2026-11-28T14:16:56.281Z",
-  "updateNote": "Morning update: all 20 top-five league games added from Pinnacle odds, with Rotowire (Serie A) and Sports Mole (Premier League) predicted XIs and absences; La Liga referees and news from Comuniate. Bundesliga and Ligue 1 lineups pending (no current preview found).",
+  "updated": "2026-11-28T14:18:35.945Z",
+  "updateNote": "Lineups update: ESPN confirmed XIs for the four 15:30 Bundesliga games, Leeds-Coventry and Man United-Brentford; Sports Mole predicted XIs for Stuttgart-Frankfurt. Ipswich-Villa keeps Sports Mole's predicted XIs until the team sheets are out.",
   "matches": [
     {
       "id": "flu-cru",
@@ -2120,7 +2120,7 @@
         "name": "Union Berlin",
         "short": "Union Berlin"
       },
-      "context": "Union concede 2.3 per game over their last 20 league games and Mainz 1.8. No current preview found (Rotowire's page for this league showed an old week), so lineups are pending; the Lineups Action fills ESPN's confirmed XIs before kick-off. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
+      "context": "Union concede 2.3 per game over their last 20 league games and Mainz 1.8. Confirmed XIs from ESPN (read 14:16 UTC). Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
       "odds": {
         "h": 1.487,
         "d": 4.85,
@@ -2716,7 +2716,7 @@
         "name": "Bayern Munich",
         "short": "Bayern"
       },
-      "context": "Bayern average 3.2 goals in their last 20 league games; Hamburg concede 2.15. No current preview found (Rotowire's page for this league showed an old week), so lineups are pending; the Lineups Action fills ESPN's confirmed XIs before kick-off. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
+      "context": "Bayern average 3.2 goals in their last 20 league games; Hamburg concede 2.15. Confirmed XIs from ESPN (read 14:16 UTC). Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
       "odds": {
         "h": 8.81,
         "d": 6.71,
@@ -3337,7 +3337,7 @@
         "name": "SV 07 Elversberg",
         "short": "Elversberg"
       },
-      "context": "Cologne score 1.35 and concede 1.85 per game over their last 20; Elversberg score 1.9. No current preview found (Rotowire's page for this league showed an old week), so lineups are pending; the Lineups Action fills ESPN's confirmed XIs before kick-off. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
+      "context": "Cologne score 1.35 and concede 1.85 per game over their last 20; Elversberg score 1.9. Confirmed XIs from ESPN (read 14:16 UTC). Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
       "odds": {
         "h": 2.05,
         "d": 3.83,
@@ -3952,7 +3952,7 @@
         "name": "Schalke 04",
         "short": "Schalke"
       },
-      "context": "Low-scoring sides: Schalke 1.05 scored and 1.05 conceded per game over their last 20, Paderborn 0.8 per game this season. No current preview found (Rotowire's page for this league showed an old week), so lineups are pending; the Lineups Action fills ESPN's confirmed XIs before kick-off. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
+      "context": "Low-scoring sides: Schalke 1.05 scored and 1.05 conceded per game over their last 20, Paderborn 0.8 per game this season. Confirmed XIs from ESPN (read 14:16 UTC). Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
       "odds": {
         "h": 2.61,
         "d": 3.49,
@@ -4521,7 +4521,7 @@
         "name": "Coventry City",
         "short": "Coventry"
       },
-      "context": "Sports Mole's predicted XIs (27 Nov). Leeds are only without Mateo Joseph; Coventry miss Awoniyi, Haji Wright, Eccles, Amenda and Woolfenden, with Yirenkyi and Mason-Clark doubtful. Leeds concede 0.85 per game over their last 20. The news predates the prices, so no adjustment. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
+      "context": "Confirmed XIs from ESPN (read 14:16 UTC). Team news from Sports Mole (27 Nov). Leeds are only without Mateo Joseph; Coventry miss Awoniyi, Haji Wright, Eccles, Amenda and Woolfenden, with Yirenkyi and Mason-Clark doubtful. Leeds concede 0.85 per game over their last 20. The news predates the prices, so no adjustment. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
       "odds": {
         "h": 1.502,
         "d": 4.65,
@@ -5188,7 +5188,7 @@
         "name": "Brentford FC",
         "short": "Brentford"
       },
-      "context": "Pochettino's first Premier League home game in charge. Sports Mole's predicted XIs (27 Nov): United miss Baleba, Ugarte and Sesko, with Bruno Fernandes (illness), Shaw and Rashford doubts; Brentford are without top scorer Igor Thiago (suspended), Collins, Hickey and Henry. The news predates the prices, so no adjustment. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
+      "context": "Pochettino's first Premier League home game in charge. Confirmed XIs from ESPN (read 14:16 UTC). Sports Mole's team news (27 Nov): United miss Baleba, Ugarte and Sesko, with Bruno Fernandes (illness), Shaw and Rashford doubts; Brentford are without top scorer Igor Thiago (suspended), Collins, Hickey and Henry. The news predates the prices, so no adjustment. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
       "odds": {
         "h": 2.29,
         "d": 3.82,
@@ -8439,7 +8439,7 @@
         "name": "Eintracht Frankfurt",
         "short": "Frankfurt"
       },
-      "context": "Stuttgart score 1.9 per game over their last 20, Frankfurt concede 1.8. No current preview found (Rotowire's page for this league showed an old week), so lineups are pending; the Lineups Action fills ESPN's confirmed XIs before kick-off. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
+      "context": "Sports Mole's predicted XIs (26 Nov): Stuttgart are fully fit after a 2-0 defeat at Inter in midweek; Frankfurt are without Ngankam, with Uzun doubtful (illness). Stuttgart score 1.9 per game over their last 20, Frankfurt concede 1.8. The news predates the prices, so no adjustment. Form, corners, fouls and cards from football-data.co.uk (each side's last 20 league games). Pinnacle prices from 28 Nov 04:43 UTC.",
       "odds": {
         "h": 1.84,
         "d": 4.67,
@@ -8514,14 +8514,60 @@
         },
         "book": "Pinnacle via OddsPapi, 2026-11-28 04:43 UTC"
       },
-      "news": [],
+      "news": [
+        {
+          "team": "home",
+          "tag": "info",
+          "text": "Fully fit squad; lost 2-0 at Inter in midweek.",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "out",
+          "text": "Out: Jessic Ngankam (groin).",
+          "src": "Sports Mole"
+        },
+        {
+          "team": "away",
+          "tag": "doubt",
+          "text": "Doubtful: Can Uzun (illness).",
+          "src": "Sports Mole"
+        }
+      ],
       "lineups": {
-        "status": "pending",
+        "status": "predicted",
+        "source": "Sports Mole predicted XIs (26 Nov); Rotowire's Bundesliga page showed an old week",
         "home": {
-          "xi": []
+          "formation": "4-2-3-1",
+          "xi": [
+            "Seimen",
+            "Jeltsch",
+            "Hendriks",
+            "Chabot",
+            "Mittelstadt",
+            "Promel",
+            "Spalt",
+            "Leweling",
+            "Undav",
+            "Fuhrich",
+            "Demirovic"
+          ]
         },
         "away": {
-          "xi": []
+          "formation": "4-4-2",
+          "xi": [
+            "Atubolu",
+            "Knauff",
+            "Koch",
+            "Brassier",
+            "Baum",
+            "Doan",
+            "Aseko-Nkili",
+            "Onyedika",
+            "Chaibi",
+            "Burkardt",
+            "Ebnoutalib"
+          ]
         }
       },
       "sources": [
@@ -8536,6 +8582,10 @@
         {
           "title": "ESPN squad and season player stats (shots, on target, goals, assists, fouls, tackles, minutes)",
           "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "Sports Mole: Stuttgart vs Eintracht Frankfurt preview, team news and predicted XIs (26 Nov)",
+          "url": "https://www.sportsmole.co.uk/football/stuttgart/preview/stuttgart-vs-frankfurt-prediction-team-news-lineups_609969.html"
         }
       ],
       "form20": {
@@ -8582,9 +8632,22 @@
         "source": "ESPN season stats",
         "home": [
           {
+            "name": "Dennis Seimen",
+            "pos": "GK",
+            "start": 0.85,
+            "shots": 0,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0,
+            "sot90": 0,
+            "fouls90": 0,
+            "tackles90": 0,
+            "mins": 540
+          },
+          {
             "name": "Maximilian Mittelstädt",
             "pos": "DF",
-            "start": 0.9,
+            "start": 0.85,
             "shots": 10,
             "goals": 2,
             "assists": 1,
@@ -8597,7 +8660,7 @@
           {
             "name": "Jeff Chabot",
             "pos": "DF",
-            "start": 0.9,
+            "start": 0.85,
             "shots": 9,
             "goals": 1,
             "assists": 0,
@@ -8610,7 +8673,7 @@
           {
             "name": "Ramon Hendriks",
             "pos": "DF",
-            "start": 0.9,
+            "start": 0.85,
             "shots": 1,
             "goals": 0,
             "assists": 0,
@@ -8621,35 +8684,9 @@
             "mins": 722
           },
           {
-            "name": "Chris Führich",
-            "pos": "MF",
-            "start": 0.9,
-            "shots": 8,
-            "goals": 1,
-            "assists": 1,
-            "shots90": 1.13,
-            "sot90": 0.57,
-            "fouls90": 0,
-            "tackles90": 1.7,
-            "mins": 635
-          },
-          {
-            "name": "Deniz Undav",
-            "pos": "FW",
-            "start": 0.9,
-            "shots": 20,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 2.63,
-            "sot90": 0.66,
-            "fouls90": 1.71,
-            "tackles90": 0.39,
-            "mins": 685
-          },
-          {
             "name": "Finn Jeltsch",
             "pos": "DF",
-            "start": 0.83,
+            "start": 0.85,
             "shots": 9,
             "goals": 0,
             "assists": 1,
@@ -8660,9 +8697,22 @@
             "mins": 697
           },
           {
+            "name": "Yanik Spalt",
+            "pos": "DF",
+            "start": 0.85,
+            "shots": 1,
+            "goals": 0,
+            "assists": 0,
+            "shots90": 0.43,
+            "sot90": 0,
+            "fouls90": 2.57,
+            "tackles90": 1.29,
+            "mins": 210
+          },
+          {
             "name": "Grischa Prömel",
             "pos": "MF",
-            "start": 0.83,
+            "start": 0.85,
             "shots": 14,
             "goals": 1,
             "assists": 1,
@@ -8673,22 +8723,22 @@
             "mins": 678
           },
           {
-            "name": "Angelo Stiller",
+            "name": "Chris Führich",
             "pos": "MF",
-            "start": 0.83,
-            "shots": 4,
-            "goals": 0,
-            "assists": 2,
-            "shots90": 0.63,
-            "sot90": 0.16,
-            "fouls90": 1.26,
-            "tackles90": 0.47,
-            "mins": 572
+            "start": 0.85,
+            "shots": 8,
+            "goals": 1,
+            "assists": 1,
+            "shots90": 1.13,
+            "sot90": 0.57,
+            "fouls90": 0,
+            "tackles90": 1.7,
+            "mins": 635
           },
           {
             "name": "Ermedin Demirovic",
             "pos": "FW",
-            "start": 0.83,
+            "start": 0.85,
             "shots": 25,
             "goals": 5,
             "assists": 0,
@@ -8699,48 +8749,22 @@
             "mins": 603
           },
           {
-            "name": "Dennis Seimen",
-            "pos": "GK",
-            "start": 0.72,
-            "shots": 0,
+            "name": "Deniz Undav",
+            "pos": "FW",
+            "start": 0.85,
+            "shots": 20,
             "goals": 0,
-            "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 540
-          },
-          {
-            "name": "Josha Vagnoman",
-            "pos": "DF",
-            "start": 0.72,
-            "shots": 9,
-            "goals": 2,
             "assists": 1,
-            "shots90": 1.5,
-            "sot90": 0.67,
-            "fouls90": 0.67,
-            "tackles90": 0.67,
-            "mins": 541
-          },
-          {
-            "name": "Bilal El Khannouss",
-            "pos": "MF",
-            "start": 0.61,
-            "shots": 13,
-            "goals": 2,
-            "assists": 0,
-            "shots90": 2.35,
-            "sot90": 1.27,
-            "fouls90": 0,
-            "tackles90": 3.08,
-            "mins": 497
+            "shots90": 2.63,
+            "sot90": 0.66,
+            "fouls90": 1.71,
+            "tackles90": 0.39,
+            "mins": 685
           },
           {
             "name": "Jamie Leweling",
             "pos": "FW",
-            "start": 0.61,
+            "start": 0.85,
             "shots": 8,
             "goals": 1,
             "assists": 1,
@@ -8751,35 +8775,48 @@
             "mins": 482
           },
           {
-            "name": "Fabian Bredlow",
-            "pos": "GK",
-            "start": 0.49,
-            "shots": 0,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0,
-            "sot90": 0,
-            "fouls90": 0,
-            "tackles90": 0,
-            "mins": 360
+            "name": "Josha Vagnoman",
+            "pos": "DF",
+            "start": 0.15,
+            "shots": 9,
+            "goals": 2,
+            "assists": 1,
+            "shots90": 1.5,
+            "sot90": 0.67,
+            "fouls90": 0.67,
+            "tackles90": 0.67,
+            "mins": 541
           },
           {
-            "name": "Atakan Karazor",
+            "name": "Angelo Stiller",
             "pos": "MF",
-            "start": 0.49,
-            "shots": 2,
+            "start": 0.15,
+            "shots": 4,
             "goals": 0,
+            "assists": 2,
+            "shots90": 0.63,
+            "sot90": 0.16,
+            "fouls90": 1.26,
+            "tackles90": 0.47,
+            "mins": 572
+          },
+          {
+            "name": "Bilal El Khannouss",
+            "pos": "MF",
+            "start": 0.15,
+            "shots": 13,
+            "goals": 2,
             "assists": 0,
-            "shots90": 0.57,
-            "sot90": 0,
-            "fouls90": 2.26,
-            "tackles90": 1.98,
-            "mins": 318
+            "shots90": 2.35,
+            "sot90": 1.27,
+            "fouls90": 0,
+            "tackles90": 3.08,
+            "mins": 497
           },
           {
             "name": "Dzenan Pejcinovic",
             "pos": "FW",
-            "start": 0.49,
+            "start": 0.15,
             "shots": 17,
             "goals": 0,
             "assists": 1,
@@ -8788,35 +8825,13 @@
             "fouls90": 0.47,
             "tackles90": 0.47,
             "mins": 385
-          },
-          {
-            "name": "Luca Jaquez",
-            "pos": "DF",
-            "start": 0.27,
-            "shots": 1,
-            "goals": 0,
-            "assists": 0,
-            "mins": 120
-          },
-          {
-            "name": "Yanik Spalt",
-            "pos": "DF",
-            "start": 0.27,
-            "shots": 1,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.43,
-            "sot90": 0,
-            "fouls90": 2.57,
-            "tackles90": 1.29,
-            "mins": 210
           }
         ],
         "away": [
           {
             "name": "Noah Atubolu",
             "pos": "GK",
-            "start": 0.9,
+            "start": 0.85,
             "shots": 1,
             "goals": 0,
             "assists": 0,
@@ -8829,7 +8844,7 @@
           {
             "name": "Robin Koch",
             "pos": "DF",
-            "start": 0.9,
+            "start": 0.85,
             "shots": 8,
             "goals": 0,
             "assists": 1,
@@ -8842,7 +8857,7 @@
           {
             "name": "Lilian Brassier",
             "pos": "DF",
-            "start": 0.9,
+            "start": 0.85,
             "shots": 8,
             "goals": 0,
             "assists": 0,
@@ -8853,9 +8868,22 @@
             "mins": 810
           },
           {
+            "name": "Elias Baum",
+            "pos": "DF",
+            "start": 0.85,
+            "shots": 6,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 0.88,
+            "sot90": 0.29,
+            "fouls90": 1.32,
+            "tackles90": 4.1,
+            "mins": 615
+          },
+          {
             "name": "Ritsu Doan",
             "pos": "MF",
-            "start": 0.9,
+            "start": 0.85,
             "shots": 12,
             "goals": 0,
             "assists": 1,
@@ -8868,7 +8896,7 @@
           {
             "name": "Raphael Onyedika",
             "pos": "MF",
-            "start": 0.9,
+            "start": 0.85,
             "shots": 3,
             "goals": 1,
             "assists": 0,
@@ -8879,9 +8907,22 @@
             "mins": 895
           },
           {
+            "name": "Farès Chaïbi",
+            "pos": "MF",
+            "start": 0.85,
+            "shots": 21,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 3.3,
+            "sot90": 1.57,
+            "fouls90": 0.47,
+            "tackles90": 0.47,
+            "mins": 572
+          },
+          {
             "name": "Jonathan Burkardt",
             "pos": "FW",
-            "start": 0.9,
+            "start": 0.85,
             "shots": 27,
             "goals": 6,
             "assists": 1,
@@ -8893,100 +8934,9 @@
             "mins": 758
           },
           {
-            "name": "Keita Kosugi",
-            "pos": "DF",
-            "start": 0.85,
-            "shots": 4,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.57,
-            "sot90": 0.14,
-            "fouls90": 1.29,
-            "tackles90": 2.71,
-            "mins": 630
-          },
-          {
-            "name": "Elias Baum",
-            "pos": "DF",
-            "start": 0.75,
-            "shots": 6,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.88,
-            "sot90": 0.29,
-            "fouls90": 1.32,
-            "tackles90": 4.1,
-            "mins": 615
-          },
-          {
-            "name": "Noël Aséko",
-            "pos": "MF",
-            "start": 0.75,
-            "shots": 2,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 0.38,
-            "sot90": 0,
-            "fouls90": 0.94,
-            "tackles90": 1.88,
-            "mins": 478
-          },
-          {
-            "name": "Can Uzun",
-            "pos": "MF",
-            "start": 0.75,
-            "shots": 15,
-            "goals": 2,
-            "assists": 1,
-            "shots90": 2.33,
-            "sot90": 0.93,
-            "fouls90": 0.47,
-            "tackles90": 1.09,
-            "mins": 580
-          },
-          {
-            "name": "Younes Ebnoutalib",
-            "pos": "FW",
-            "start": 0.75,
-            "shots": 27,
-            "goals": 6,
-            "assists": 1,
-            "shots90": 3.59,
-            "sot90": 1.6,
-            "fouls90": 0.53,
-            "tackles90": 0.66,
-            "mins": 677
-          },
-          {
-            "name": "Farès Chaïbi",
-            "pos": "MF",
-            "start": 0.65,
-            "shots": 21,
-            "goals": 0,
-            "assists": 1,
-            "shots90": 3.3,
-            "sot90": 1.57,
-            "fouls90": 0.47,
-            "tackles90": 0.47,
-            "mins": 572
-          },
-          {
-            "name": "Nnamdi Collins",
-            "pos": "DF",
-            "start": 0.35,
-            "shots": 1,
-            "goals": 0,
-            "assists": 0,
-            "shots90": 0.27,
-            "sot90": 0,
-            "fouls90": 1.36,
-            "tackles90": 1.63,
-            "mins": 332
-          },
-          {
             "name": "Ansgar Knauff",
             "pos": "FW",
-            "start": 0.35,
+            "start": 0.85,
             "shots": 6,
             "goals": 0,
             "assists": 1,
@@ -8997,9 +8947,22 @@
             "mins": 324
           },
           {
+            "name": "Younes Ebnoutalib",
+            "pos": "FW",
+            "start": 0.85,
+            "shots": 27,
+            "goals": 6,
+            "assists": 1,
+            "shots90": 3.59,
+            "sot90": 1.6,
+            "fouls90": 0.53,
+            "tackles90": 0.66,
+            "mins": 677
+          },
+          {
             "name": "Jeremiaha Maluze",
             "pos": "DF",
-            "start": 0.25,
+            "start": 0.15,
             "shots": 0,
             "goals": 0,
             "assists": 1,
@@ -9012,7 +8975,7 @@
           {
             "name": "Mario Götze",
             "pos": "MF",
-            "start": 0.25,
+            "start": 0.15,
             "shots": 0,
             "goals": 0,
             "assists": 1,
@@ -9021,6 +8984,32 @@
             "fouls90": 2.92,
             "tackles90": 2.92,
             "mins": 185
+          },
+          {
+            "name": "Noël Aséko",
+            "pos": "MF",
+            "start": 0.15,
+            "shots": 2,
+            "goals": 0,
+            "assists": 1,
+            "shots90": 0.38,
+            "sot90": 0,
+            "fouls90": 0.94,
+            "tackles90": 1.88,
+            "mins": 478
+          },
+          {
+            "name": "Can Uzun",
+            "pos": "MF",
+            "start": 0.15,
+            "shots": 15,
+            "goals": 2,
+            "assists": 1,
+            "shots90": 2.33,
+            "sot90": 0.93,
+            "fouls90": 0.47,
+            "tackles90": 1.09,
+            "mins": 580
           }
         ]
       },
