@@ -26,7 +26,7 @@
    "id": "362",
    "espn": "Aston Villa",
    "file": "eng.1-362.json",
-   "fetched": "2026-11-24T17:43:53.777Z"
+   "fetched": "2026-11-28T08:55:28.789Z"
   },
   "Norwich City": {
    "slug": "eng.2",
@@ -138,7 +138,7 @@
    "id": "86",
    "espn": "Real Madrid",
    "file": "esp.1-86.json",
-   "fetched": "2026-11-24T17:43:59.737Z"
+   "fetched": "2026-11-28T08:55:30.424Z"
   },
   "PSV Eindhoven": {
    "slug": "ned.1",
@@ -306,7 +306,7 @@
    "id": "1068",
    "espn": "Atlético Madrid",
    "file": "esp.1-1068.json",
-   "fetched": "2026-11-25T15:56:20.553Z"
+   "fetched": "2026-11-28T08:55:28.177Z"
   },
   "Viking FK": {
    "slug": "nor.1",
@@ -327,14 +327,14 @@
    "id": "110",
    "espn": "Internazionale",
    "file": "ita.1-110.json",
-   "fetched": "2026-11-25T15:56:21.208Z"
+   "fetched": "2026-11-28T08:55:30.138Z"
   },
   "VfB Stuttgart": {
    "slug": "ger.1",
    "id": "134",
    "espn": "VfB Stuttgart",
    "file": "ger.1-134.json",
-   "fetched": "2026-11-25T15:56:21.444Z"
+   "fetched": "2026-11-28T08:55:28.319Z"
   },
   "Fenerbahce Istanbul": {
    "slug": "tur.1",
@@ -348,14 +348,14 @@
    "id": "132",
    "espn": "Bayern Munich",
    "file": "ger.1-132.json",
-   "fetched": "2026-11-25T15:56:21.765Z"
+   "fetched": "2026-11-28T08:55:25.797Z"
   },
   "Paris Saint-Germain": {
    "slug": "fra.1",
    "id": "160",
    "espn": "Paris Saint-Germain",
    "file": "fra.1-160.json",
-   "fetched": "2026-11-25T15:56:21.929Z"
+   "fetched": "2026-11-28T08:55:29.811Z"
   },
   "AS Roma": {
    "slug": "ita.1",
@@ -376,7 +376,7 @@
    "id": "360",
    "espn": "Manchester United",
    "file": "eng.1-360.json",
-   "fetched": "2026-11-25T15:56:22.491Z"
+   "fetched": "2026-11-28T08:55:26.758Z"
   },
   "Stoke City": {
    "slug": "eng.2",
@@ -720,6 +720,244 @@
    "espn": "C.D. Nacional",
    "file": "por.1-3472.json",
    "fetched": "2026-11-27T08:53:38.265Z"
+  },
+  "Real Betis Seville": {
+   "slug": "esp.1",
+   "id": "244",
+   "espn": "Real Betis",
+   "file": "esp.1-244.json",
+   "fetched": "2026-11-28T08:55:24.786Z"
+  },
+  "Rayo Vallecano": {
+   "slug": "esp.1",
+   "id": "101",
+   "espn": "Rayo Vallecano",
+   "file": "esp.1-101.json",
+   "fetched": "2026-11-28T08:55:24.939Z"
+  },
+  "Frosinone Calcio": {
+   "slug": "ita.1",
+   "id": "4057",
+   "espn": "Frosinone",
+   "file": "ita.1-4057.json",
+   "fetched": "2026-11-28T08:55:25.096Z"
+  },
+  "Parma Calcio": {
+   "slug": "ita.1",
+   "id": "115",
+   "espn": "Parma",
+   "file": "ita.1-115.json",
+   "fetched": "2026-11-28T08:55:25.239Z"
+  },
+  "FSV Mainz": {
+   "slug": "ger.1",
+   "id": "2950",
+   "espn": "Mainz",
+   "file": "ger.1-2950.json",
+   "fetched": "2026-11-28T08:55:25.374Z"
+  },
+  "Union Berlin": {
+   "slug": "ger.1",
+   "id": "598",
+   "espn": "1. FC Union Berlin",
+   "file": "ger.1-598.json",
+   "fetched": "2026-11-28T08:55:25.524Z"
+  },
+  "Hamburger SV": {
+   "slug": "ger.1",
+   "id": "127",
+   "espn": "Hamburg SV",
+   "file": "ger.1-127.json",
+   "fetched": "2026-11-28T08:55:25.669Z"
+  },
+  "1. FC Cologne": {
+   "slug": "ger.1",
+   "id": "122",
+   "espn": "FC Cologne",
+   "file": "ger.1-122.json",
+   "fetched": "2026-11-28T08:55:25.958Z"
+  },
+  "SV 07 Elversberg": {
+   "slug": "ger.1",
+   "id": "10388",
+   "espn": "SV Elversberg",
+   "file": "ger.1-10388.json",
+   "fetched": "2026-11-28T08:55:26.078Z"
+  },
+  "SC Paderborn 07": {
+   "slug": "ger.1",
+   "id": "3307",
+   "espn": "SC Paderborn 07",
+   "file": "ger.1-3307.json",
+   "fetched": "2026-11-28T08:55:26.204Z"
+  },
+  "Schalke 04": {
+   "slug": "ger.1",
+   "id": "133",
+   "espn": "Schalke 04",
+   "file": "ger.1-133.json",
+   "fetched": "2026-11-28T08:55:26.340Z"
+  },
+  "Leeds United": {
+   "slug": "eng.1",
+   "id": "357",
+   "espn": "Leeds United",
+   "file": "eng.1-357.json",
+   "fetched": "2026-11-28T08:55:26.472Z"
+  },
+  "Coventry City": {
+   "slug": "eng.1",
+   "id": "388",
+   "espn": "Coventry City",
+   "file": "eng.1-388.json",
+   "fetched": "2026-11-28T08:55:26.622Z"
+  },
+  "Brentford FC": {
+   "slug": "eng.1",
+   "id": "337",
+   "espn": "Brentford",
+   "file": "eng.1-337.json",
+   "fetched": "2026-11-28T08:55:26.901Z"
+  },
+  "Malaga CF": {
+   "slug": "esp.1",
+   "id": "99",
+   "espn": "Málaga",
+   "file": "esp.1-99.json",
+   "fetched": "2026-11-28T08:55:27.065Z"
+  },
+  "Athletic Bilbao": {
+   "slug": "esp.1",
+   "id": "93",
+   "espn": "Athletic Club",
+   "file": "esp.1-93.json",
+   "fetched": "2026-11-28T08:55:27.206Z"
+  },
+  "Angers SCO": {
+   "slug": "fra.1",
+   "id": "7868",
+   "espn": "Angers",
+   "file": "fra.1-7868.json",
+   "fetched": "2026-11-28T08:55:27.373Z"
+  },
+  "Racing Club De Lens": {
+   "slug": "fra.1",
+   "id": "175",
+   "espn": "Lens",
+   "file": "fra.1-175.json",
+   "fetched": "2026-11-28T08:55:27.539Z"
+  },
+  "Torino FC": {
+   "slug": "ita.1",
+   "id": "239",
+   "espn": "Torino",
+   "file": "ita.1-239.json",
+   "fetched": "2026-11-28T08:55:27.692Z"
+  },
+  "Lazio Rome": {
+   "slug": "ita.1",
+   "id": "112",
+   "espn": "Lazio",
+   "file": "ita.1-112.json",
+   "fetched": "2026-11-28T08:55:27.858Z"
+  },
+  "Elche CF": {
+   "slug": "esp.1",
+   "id": "3751",
+   "espn": "Elche",
+   "file": "esp.1-3751.json",
+   "fetched": "2026-11-28T08:55:28.022Z"
+  },
+  "Eintracht Frankfurt": {
+   "slug": "ger.1",
+   "id": "125",
+   "espn": "Eintracht Frankfurt",
+   "file": "ger.1-125.json",
+   "fetched": "2026-11-28T08:55:28.441Z"
+  },
+  "Ipswich Town": {
+   "slug": "eng.1",
+   "id": "373",
+   "espn": "Ipswich Town",
+   "file": "eng.1-373.json",
+   "fetched": "2026-11-28T08:55:28.670Z"
+  },
+  "Le Havre AC": {
+   "slug": "fra.1",
+   "id": "3236",
+   "espn": "Le Havre AC",
+   "file": "fra.1-3236.json",
+   "fetched": "2026-11-28T08:55:28.919Z"
+  },
+  "Strasbourg Alsace": {
+   "slug": "fra.1",
+   "id": "180",
+   "espn": "Strasbourg",
+   "file": "fra.1-180.json",
+   "fetched": "2026-11-28T08:55:29.086Z"
+  },
+  "Le Mans FC": {
+   "slug": "fra.1",
+   "id": "2697",
+   "espn": "Le Mans",
+   "file": "fra.1-2697.json",
+   "fetched": "2026-11-28T08:55:29.265Z"
+  },
+  "Lille OSC": {
+   "slug": "fra.1",
+   "id": "166",
+   "espn": "Lille",
+   "file": "fra.1-166.json",
+   "fetched": "2026-11-28T08:55:29.396Z"
+  },
+  "OGC Nice": {
+   "slug": "fra.1",
+   "id": "2502",
+   "espn": "Nice",
+   "file": "fra.1-2502.json",
+   "fetched": "2026-11-28T08:55:29.533Z"
+  },
+  "ESTAC Troyes": {
+   "slug": "fra.1",
+   "id": "170",
+   "espn": "Troyes",
+   "file": "fra.1-170.json",
+   "fetched": "2026-11-28T08:55:29.665Z"
+  },
+  "FC Lorient": {
+   "slug": "fra.1",
+   "id": "273",
+   "espn": "Lorient",
+   "file": "fra.1-273.json",
+   "fetched": "2026-11-28T08:55:29.945Z"
+  },
+  "Genoa CFC": {
+   "slug": "ita.1",
+   "id": "3263",
+   "espn": "Genoa",
+   "file": "ita.1-3263.json",
+   "fetched": "2026-11-28T08:55:30.288Z"
+  },
+  "Deportivo Alaves": {
+   "slug": "esp.1",
+   "id": "96",
+   "espn": "Alavés",
+   "file": "esp.1-96.json",
+   "fetched": "2026-11-28T08:55:30.551Z"
+  },
+  "Botafogo FR RJ": {
+   "slug": "bra.1",
+   "id": "6086",
+   "espn": "Botafogo",
+   "file": "bra.1-6086.json",
+   "fetched": "2026-11-28T08:55:30.787Z"
+  },
+  "EC Bahia BA": {
+   "slug": "bra.1",
+   "id": "9967",
+   "espn": "Bahia",
+   "file": "bra.1-9967.json",
+   "fetched": "2026-11-28T08:55:30.958Z"
   }
  }
 }
