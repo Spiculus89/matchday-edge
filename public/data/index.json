@@ -1,6 +1,11 @@
 {
   "days": [
     {
+      "date": "2026-11-29",
+      "file": "data/2026-11-29.json",
+      "title": "Brasileiro Serie A"
+    },
+    {
       "date": "2026-11-28",
       "file": "data/2026-11-28.json",
       "title": "Brasileiro Serie A, Primera Division"

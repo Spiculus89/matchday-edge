@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-29",
+  "updated": "2026-11-28T00:31:18.927Z",
+  "updateNote": "Automatic fallback from Pinnacle odds; the research run adds form, news and lineups.",
+  "skeleton": true,
+  "matches": [
+    {
+      "id": "bot-ecb",
+      "competition": "Brasileiro Serie A (Brazil)",
+      "kickoff": "2026-11-29T00:00:00.000Z",
+      "home": {
+        "name": "Botafogo FR RJ",
+        "short": "Botafogo FR"
+      },
+      "away": {
+        "name": "EC Bahia BA",
+        "short": "EC Bahia"
+      },
+      "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
+      "odds": {
+        "h": 2.03,
+        "d": 3.75,
+        "a": 3.38,
+        "ou": {
+          "0.5": [
+            1.033,
+            14.84
+          ],
+          "1.5": [
+            1.157,
+            5.08
+          ],
+          "2.5": [
+            1.534,
+            2.47
+          ],
+          "3.5": [
+            2.28,
+            1.617
+          ],
+          "4.5": [
+            3.8,
+            1.251
+          ]
+        },
+        "btts": [
+          1.476,
+          2.64
+        ],
+        "ah": [
+          {
+            "line": -1,
+            "home": 2.86,
+            "away": 1.421
+          },
+          {
+            "line": -0.5,
+            "home": 2.04,
+            "away": 1.806
+          },
+          {
+            "line": 0,
+            "home": 1.518,
+            "away": 2.54
+          }
+        ],
+        "corners": {
+          "10.5": [
+            1.671,
+            2.14
+          ],
+          "11.5": [
+            2.05,
+            1.729
+          ]
+        },
+        "book": "Pinnacle via OddsPapi, 2026-11-28 00:31 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "local": {
+          "book": "AdmiralBet BA",
+          "h": 2.01,
+          "d": 3.89,
+          "a": 3.16,
+          "ou": {
+            "1.5": [
+              1.12,
+              5.4
+            ],
+            "2.5": [
+              1.47,
+              2.54
+            ],
+            "3.5": [
+              2.23,
+              1.59
+            ],
+            "4.5": [
+              3.86,
+              1.22
+            ],
+            "5.5": [
+              7.5,
+              1.06
+            ]
+          },
+          "btts": [
+            1.46,
+            2.6
+          ],
+          "text": "1X2 2.01/3.89/3.16, O/U 2.5 1.47/2.54"
+        }
+      },
+      "news": [],
+      "lineups": {
+        "status": "pending",
+        "home": {
+          "xi": []
+        },
+        "away": {
+          "xi": []
+        }
+      },
+      "sources": [
+        {
+          "title": "OddsPapi odds snapshot 2026-11-28 00:31 UTC",
+          "url": "https://oddspapi.io/"
+        },
+        {
+          "title": "football-data.co.uk results and match stats (Botafogo RJ, Bahia: last 20 and 20 league games)",
+          "url": "https://www.football-data.co.uk/"
+        }
+      ],
+      "form20": {
+        "home": {
+          "gf": 0.85,
+          "ga": 1.45,
+          "games": 20
+        },
+        "away": {
+          "gf": 1.35,
+          "ga": 1.2,
+          "games": 20
+        }
+      },
+      "season": {
+        "home": {
+          "gf": 0.84,
+          "ga": 1.42
+        },
+        "away": {
+          "gf": 1.32,
+          "ga": 1.21
+        }
+      }
+    }
+  ]
+}
