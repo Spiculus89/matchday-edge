@@ -18,63 +18,73 @@
       },
       "context": "Pinnacle odds with automatic form, corners and cards from football-data.co.uk (last 20 league games); the research run adds team news and lineups.",
       "odds": {
-        "h": 2.03,
-        "d": 3.75,
-        "a": 3.38,
+        "h": 2.07,
+        "d": 3.84,
+        "a": 3.41,
         "ou": {
           "0.5": [
-            1.033,
-            14.84
+            1.036,
+            16.34
           ],
           "1.5": [
-            1.157,
-            5.08
+            1.167,
+            5.25
           ],
           "2.5": [
-            1.534,
-            2.47
+            1.561,
+            2.49
           ],
           "3.5": [
-            2.28,
-            1.617
+            2.35,
+            1.621
           ],
           "4.5": [
-            3.8,
-            1.251
+            3.98,
+            1.255
           ]
         },
         "btts": [
-          1.476,
-          2.64
+          1.5,
+          2.65
         ],
         "ah": [
           {
             "line": -1,
-            "home": 2.86,
-            "away": 1.421
+            "home": 2.92,
+            "away": 1.436
           },
           {
             "line": -0.5,
-            "home": 2.04,
-            "away": 1.806
+            "home": 2.07,
+            "away": 1.826
           },
           {
             "line": 0,
-            "home": 1.518,
-            "away": 2.54
+            "home": 1.543,
+            "away": 2.56
           }
         ],
         "corners": {
           "10.5": [
+            1.751,
+            2.03
+          ],
+          "11.5": [
+            2.15,
+            1.666
+          ]
+        },
+        "cards": {
+          "4.5": [
             1.671,
             2.14
           ],
-          "11.5": [
-            2.05,
-            1.729
+          "5.5": [
+            2.34,
+            1.568
           ]
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-28 00:31 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-28 16:21 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "h": 2.01,

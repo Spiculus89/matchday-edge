@@ -21,64 +21,77 @@
       "context": "Priced from Pinnacle's odds only (automatic fallback: the research run hasn't added form, team news or lineups yet). Fair prices and the most likely outcome; no value bet without that information.",
       "odds": {
         "ml": [
-          1.909,
-          1.98
+          2.02,
+          1.892
         ],
         "reg": [
-          2.41,
-          4.14,
-          2.5
+          2.56,
+          4.18,
+          2.38
         ],
+        "p1total": {
+          "line": 1.5,
+          "o": 1.775,
+          "u": 2.11
+        },
         "totalReg": {
           "line": 6,
-          "o": 1.97,
-          "u": 1.877
+          "o": 2.07,
+          "u": 1.819
         },
+        "btts": [
+          1.07,
+          6.8
+        ],
         "total": {
           "line": 6,
-          "o": 1.84,
-          "u": 2.04
+          "o": 1.917,
+          "u": 1.97
         },
         "teamTotal": {
           "home": {
-            "line": 3.5,
-            "o": 2.34,
-            "u": 1.613
+            "line": 2.5,
+            "o": 1.625,
+            "u": 2.34
           },
           "away": {
-            "line": 2.5,
-            "o": 1.588,
-            "u": 2.39
+            "line": 3.5,
+            "o": 2.38,
+            "u": 1.606
           }
         },
         "puck": {
-          "line": -1.5,
-          "h": 3.24,
-          "a": 1.371
-        },
-        "p1total": {
           "line": 1.5,
-          "o": 1.787,
-          "u": 2.07
+          "h": 1.384,
+          "a": 3.22
         },
-        "book": "Pinnacle via OddsPapi, 2026-11-28 04:43 UTC; lines Pinnacle lacks are AdmiralBet BA",
+        "book": "Pinnacle via OddsPapi, 2026-11-28 16:21 UTC; lines Pinnacle lacks are AdmiralBet BA",
         "local": {
           "book": "AdmiralBet BA",
           "ml": [
-            1.87,
-            1.9
+            1.92,
+            1.86
           ],
           "reg": [
-            2.41,
-            3.85,
-            2.46
+            2.5,
+            4.1,
+            2.41
           ],
-          "totalReg": {
-            "line": 6.5,
-            "o": 2.2,
-            "u": 1.6
+          "p1total": {
+            "line": 1.5,
+            "o": 1.75,
+            "u": 1.97
           },
-          "text": "win 1.87/1.9"
+          "totalReg": {
+            "line": 5.5,
+            "o": 1.65,
+            "u": 2.16
+          },
+          "btts": [
+            1.07,
+            6.8
+          ],
+          "text": "win 1.92/1.86"
         }
       },
       "players": {
